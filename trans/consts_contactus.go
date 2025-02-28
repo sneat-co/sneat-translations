@@ -17,4 +17,10 @@ const (
 	BackToContacts = "Back to contacts"
 
 	InviteToJoinSpace = "Invite to join family space"
+
+	AdviseToUseTelegramForTgUsers = "AdviseToUseTelegramForTgUsers"
+
+	ChooseTelegramUser  = "Choose Telegram user"
+	CancelAddingMember  = "Cancel adding member"
+	CancelAddingContact = "Cancel adding contact"
 )

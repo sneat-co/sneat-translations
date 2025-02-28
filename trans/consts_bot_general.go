@@ -8,4 +8,6 @@ const (
 	BackBtnTitle = "Back"
 
 	Refresh = "Refresh"
+
+	AddManuallyInSneatApp = "Add manually in Sneat App"
 )
