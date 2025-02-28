@@ -6,4 +6,6 @@ const (
 	MyContact   = "MyContact"
 
 	BackBtnTitle = "Back"
+
+	Refresh = "Refresh"
 )
