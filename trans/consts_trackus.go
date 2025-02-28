@@ -26,6 +26,8 @@ const (
 	RecordTrackerValue = "record_tracker_value"
 	FamilyTrackers     = "family_trackers"
 
+	SelectTrackerToAdd = "select_tracker_to_add"
+
 	NoActiveTrackers = "no_active_trackers"
 	OneActiveTracker = "one_active_tracker"
 	NActiveTrackers  = "n_active_trackers"
