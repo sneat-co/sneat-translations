@@ -5358,19 +5358,37 @@ Możesz dowiedzieć się o nowych funkcjach bota na kanale @SneatApp, gdzie <a h
 	BtnBackToSpace: {
 		"en-UK": "Back to space",
 		"ru-RU": "К пространству",
+		"es-ES": "Volver al espacio",
+		"fr-FR": "Retour à l'espace",
+		"de-DE": "Zurück zum Bereich",
+		"it-IT": "Torna allo spazio",
+		"pt-PT": "Voltar ao espaço",
+		"pt-BR": "Voltar ao espaço",
+		"zh-CN": "返回空间",
+		"ja-JP": "スペースに戻る",
+		"ko-KO": "공간으로 돌아가기",
+		"pl-PL": "Powrót do przestrzeni",
+		"ua-UA": "Назад до простору",
+		"tr-TR": "Alana geri dön",
+		"id-ID": "Kembali ke ruang",
+		"fa-IR": "بازگشت به فضا",
 	},
 	BtnPrivate: {
 		"en-UK": "Private",
-		"fr-FR": "Privé",   // French (France)
-		"de-DE": "Privat",  // German (Germany)
-		"es-ES": "Privado", // Spanish (Spain)
-		"it-IT": "Privato", // Italian (Italy)
-		"pt-PT": "Privado", // Portuguese (Portugal)
-		"zh-CN": "私人",      // Chinese (Simplified)
-		"ja-JP": "プライベート",  // Japanese
-		"ko-KO": "개인",      // Korean
-		//"hi-IN": "निजी",    // Hindi (India)
-		"ru-RU": "Личное", // Russian
+		"ru-RU": "Личное",
+		"es-ES": "Privado",
+		"fa-IR": "شخصی",
+		"it-IT": "Privato",
+		"de-DE": "Privat",
+		"fr-FR": "Privé",
+		"pl-PL": "Prywatne",
+		"pt-PT": "Privado",
+		"ko-KO": "개인적인",
+		"ja-JP": "個人",
+		"zh-CN": "私人",
+		"ua-UA": "Особисте",
+		"tr-TR": "Özel",
+		"id-ID": "Pribadi",
 	},
 	BtnFamily: {
 		"en-UK": "Family",
