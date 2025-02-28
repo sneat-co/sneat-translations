@@ -16,5 +16,5 @@ const (
 	BackToMembers  = "Back to members"
 	BackToContacts = "Back to contacts"
 
-	InviteToJoinFamilySpace = "Invite to join family space"
+	InviteToJoinSpace = "Invite to join family space"
 )
