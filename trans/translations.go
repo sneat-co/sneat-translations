@@ -3352,7 +3352,7 @@ O usa il menu' qui sotto.`,
 		"fr-FR": "Membre de la famille", // Placeholder
 		"id-ID": "Anggota keluarga",     // Placeholder
 		"it-IT": "Membro della famiglia",
-		"ja-JP": "家族の一員",        // Placeholder
+		"ja-JP": "家族の一員",             // Placeholder
 		"ko-KO": "가족 구성원",            // Placeholder
 		"pl-PL": "Członek rodziny",   // Placeholder
 		"pt-BR": "Membro da família", // Placeholder
@@ -3360,7 +3360,7 @@ O usa il menu' qui sotto.`,
 		"tr-TR": "Aile üyesi",  // Placeholder
 		"ua-UA": "Член родини", // Placeholder
 		"uz-UZ": "Oila aʼzosi", // Placeholder
-		"zh-CN": "家庭成员",    // Placeholder
+		"zh-CN": "家庭成员",        // Placeholder
 	},
 	UserHasNotJoinedSpaceYet: {
 		"de-DE": "Dieser Kontakt ist diesem Bereich noch nicht beigetreten.",
@@ -4520,9 +4520,9 @@ Interest is calculated daily (<i>every 24 hours</i>) using <a href="https://www.
 		<code>3/30/0/10</code> - 3% per month with 10 days grace period
 
 ❗ The % functionality is in BETA testing stage, please let us know in @DebtsTrackerGroup if anything works not as you would expect.`, // TODO - replace link!
-		"es-ES": ``,                                                                                                                  // TODO(ES)
-		"fa-IR": ``,                                                                                                                  // TODO(FA)
-		"it-IT": ``,                                                                                                                  // TODO(IT
+		"es-ES": ``, // TODO(ES)
+		"fa-IR": ``, // TODO(FA)
+		"it-IT": ``, // TODO(IT
 		"ru-RU": `<b>Процент и комментарий</b>
 
 Чтобы задать процент по долгу отправьте сообщение в следующем формате:
@@ -5117,7 +5117,7 @@ Możesz dowiedzieć się o nowych funkcjach bota na kanale @SneatApp, gdzie <a h
 		"fr-FR": "Traqueurs",     // Placeholder
 		"id-ID": "Pelacak",       // Placeholder
 		"it-IT": "Tracker",       // Placeholder
-		"ja-JP": "トラッカー",    // Placeholder
+		"ja-JP": "トラッカー",         // Placeholder
 		"ko-KO": "추적기",           // Placeholder
 		"pl-PL": "Monitorujące",  // Placeholder
 		"pt-BR": "Rastreadores",  // Placeholder
@@ -5125,7 +5125,7 @@ Możesz dowiedzieć się o nowych funkcjach bota na kanale @SneatApp, gdzie <a h
 		"tr-TR": "İzleyiciler",   // Placeholder
 		"ua-UA": "Трекери",       // Placeholder
 		"uz-UZ": "Kuzatuvchilar", // Placeholder
-		"zh-CN": "追踪器",        // Placeholder
+		"zh-CN": "追踪器",           // Placeholder
 	},
 	BtnSpaces: {
 		"en-UK": "Spaces",
