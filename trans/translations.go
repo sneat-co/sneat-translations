@@ -1627,12 +1627,12 @@ Top 5 referrers for the last 100 new users will be shown here.`,
 	MESSAGE_TEXT_CAN_YOU_RATE_AT_STOREBOT: {
 
 		"de-DE": `🤖 Kannst du mich im Store Bot hoch bewerten und eine gute Bewertung schreiben?
-		‎Es wird dich weniger als eine Minute kosten! 😇`,
+		Es wird dich weniger als eine Minute kosten! 😇`,
 		"en-UK": `🤖 Can you rate it high and write a good review in bots catalog Store Bot?
-		‎It will take less than a minute of your time! 😇`,
+		It will take less than a minute of your time! 😇`,
 
 		"es-ES": `🤖 Puedes valolarlo con una buena nota y una buena opinión en el catálogo Store Bot?
-		‎Te costará menos de un minuto! 😇`,
+		Te costará menos de un minuto! 😇`,
 
 		"fa-IR": `🤖  آیا می توانید در کاتالوگ روباتها در استور بوت امتیاز بالایی داده و اظهار نظر خوبی در مورد این روبات ثبت کنید؟
 		این کار کمتر از یک دقیقه از وقت شما را می گیرد! 😇`,
@@ -1641,12 +1641,12 @@ Top 5 referrers for the last 100 new users will be shown here.`,
 		Ci vorrà meno di un minuto del tuo tempo! 😇`,
 
 		"ru-RU": `🤖 Можете поставить ему высокую оценку и хороший отзыв в каталоге ботов Store Bot?
-		‎Это займет меньше минуты вашего времени! 😇`,
+		Это займет меньше минуты вашего времени! 😇`,
 	},
 	MESSAGE_TEXT_ASK_TO_WRITE_FEEDBACK_WITHIN_MESSENGER: {
-		"de-DE": "‎Schreibe (auf Englisch oder Russisch) uns, was man am Bot besser machen kann:",
-		"en-UK": "‎Share your thoughts (in English or Russian) about what could be done to make the bot better:",
-		"es-ES": "‎Comparte tus pensamientos (en Inglés o Ruso) sobre qué podemos hacer para que el bot sea mejor:",
+		"de-DE": "Schreibe (auf Englisch oder Russisch) uns, was man am Bot besser machen kann:",
+		"en-UK": "Share your thoughts (in English or Russian) about what could be done to make the bot better:",
+		"es-ES": "Comparte tus pensamientos (en Inglés o Ruso) sobre qué podemos hacer para que el bot sea mejor:",
 		"fa-IR": "نظرات خود را (به انگلیسی و روسی ) در مورد اینکه چه کاری می توان انجام داد تا این ربات بهتر شود، با ما به اشتراک بگذارید:",
 		"it-IT": "Condividi i tuoi pensieri (in Inglese o Russo) su come sarebbe migliore secondo te il bot:",
 		"ru-RU": "Поделитесь вашими мыслями (на русском или английском) о том, что нужно сделать, чтобы бот стал лучше:",
@@ -1658,9 +1658,9 @@ Top 5 referrers for the last 100 new users will be shown here.`,
 	1. Klick auf diesen Link, um eine Bewertung abzugeben:
 	https://t.me/storebot?start={{bot}}
 
-	‎2. Wähle "⭐️⭐️⭐️⭐️⭐️" 
+	2. Wähle "⭐️⭐️⭐️⭐️⭐️" 
 
-	‎3. Schreib etwas Nettes auf Englisch oder wähle "Skip this step"
+	3. Schreib etwas Nettes auf Englisch oder wähle "Skip this step"
 
 	Wirklich vielen Dank! Dank deiner Bewertung werden vielleicht mehr Leute auf diesen Bot aufmerksam. Das ist gut für die Motivation der Entwickler dieses Bots! 😎`,
 
@@ -1669,9 +1669,9 @@ Top 5 referrers for the last 100 new users will be shown here.`,
 	1. Click on this link to rate and review:
 	https://t.me/storebot?start={{bot}}
 
-	‎2. Click on the "⭐️⭐️⭐️⭐️⭐️" button
+	2. Click on the "⭐️⭐️⭐️⭐️⭐️" button
 
-	‎3. Write your message or press "Skip this step" button
+	3. Write your message or press "Skip this step" button
 
 	Thank you very much! As a result of your actions, even more people will learn about the bot.All this will serve as the additional motivation for the developers! 😎`,
 
@@ -1680,19 +1680,19 @@ Top 5 referrers for the last 100 new users will be shown here.`,
 	1. Click este link para valorar y dejar tu opinión:
 	https://t.me/storebot?start={{bot}}
 
-	‎2. Click en "⭐️⭐️⭐️⭐️⭐️" botón
+	2. Click en "⭐️⭐️⭐️⭐️⭐️" botón
 
-	‎3. Escribe tu mensage o apreta "Skip this step" botón
+	3. Escribe tu mensage o apreta "Skip this step" botón
 
 	¡Muchas gracias! Merced a tus acciones más gente conocerá a bot. Todo eso sirve para una motivación adicional a los creadores! 😎`,
 
 		"it-IT": `<b>Come valutare in 3 semplici passaggi:</b>
-	‎1. Clicca su questo link per votare e lasciare una recensione:
-	‎https://t.me/storebot?start={{bot}}
+	1. Clicca su questo link per votare e lasciare una recensione:
+	https://t.me/storebot?start={{bot}}
 
-	‎2. Clicca sul "⭐️⭐️⭐️⭐️⭐️" bottone
+	2. Clicca sul "⭐️⭐️⭐️⭐️⭐️" bottone
 
-	‎3. Scrivi il tuo messaggio o premi "Salta questo step"
+	3. Scrivi il tuo messaggio o premi "Salta questo step"
 
 	Grazie infinitamente! Come risultato delle tue azioni, altre persone guarderanno il bot.Dando anche un motivo in più per continuare ai developers! 😎`,
 
@@ -1701,20 +1701,20 @@ Top 5 referrers for the last 100 new users will be shown here.`,
 	1. برای امتیازدهی و ثبت نظرات بر روی لینگ زیر کلیک کنید
 	https://t.me/storebot?start={{bot}}
 
-	‎2. بر روی دکمه "⭐️⭐️⭐️⭐️⭐️" کلیک کنید
+	2. بر روی دکمه "⭐️⭐️⭐️⭐️⭐️" کلیک کنید
 
-	‎3. پیام خودرا ثبت کنید یا روی دکمه "پرش از این مرحله" کلیک کنید
+	3. پیام خودرا ثبت کنید یا روی دکمه "پرش از این مرحله" کلیک کنید
 
 	بسیار سپاسگزاریم! عمل شما باعث می شود افراد بیشتری در مورد bot.All بیاموزند. این امر انگیزه مضاعفی به توسعه دهندگان این ربات می دهد ! 😎`,
 
-		"ru-RU": `‎<b>Как поставить оценку в три простых шага:</b>
+		"ru-RU": `<b>Как поставить оценку в три простых шага:</b>
 
 	1. Перейдите по ссылке, чтобы оставить оценку и отзыв:
-	‎https://t.me/storebot?start={{bot}}
+	https://t.me/storebot?start={{bot}}
 
-	‎2. Нажмите на кнопку "⭐️⭐️⭐️⭐️⭐️"
+	2. Нажмите на кнопку "⭐️⭐️⭐️⭐️⭐️"
 
-	‎3. Напишите сообщение или нажмите кнопку "Пропустить этот шаг"
+	3. Напишите сообщение или нажмите кнопку "Пропустить этот шаг"
 
 	Спасибо вам большое! Благодаря этому о боте узнает больше людей — это служит дополнительной мотивацией для разработчиков! 😎`,
 	},
@@ -3352,7 +3352,7 @@ O usa il menu' qui sotto.`,
 		"fr-FR": "Membre de la famille", // Placeholder
 		"id-ID": "Anggota keluarga",     // Placeholder
 		"it-IT": "Membro della famiglia",
-		"ja-JP": "家族の一員",             // Placeholder
+		"ja-JP": "家族の一員",        // Placeholder
 		"ko-KO": "가족 구성원",            // Placeholder
 		"pl-PL": "Członek rodziny",   // Placeholder
 		"pt-BR": "Membro da família", // Placeholder
@@ -3360,7 +3360,7 @@ O usa il menu' qui sotto.`,
 		"tr-TR": "Aile üyesi",  // Placeholder
 		"ua-UA": "Член родини", // Placeholder
 		"uz-UZ": "Oila aʼzosi", // Placeholder
-		"zh-CN": "家庭成员",        // Placeholder
+		"zh-CN": "家庭成员",    // Placeholder
 	},
 	UserHasNotJoinedSpaceYet: {
 		"de-DE": "Dieser Kontakt ist diesem Bereich noch nicht beigetreten.",
@@ -4326,7 +4326,7 @@ Il tuo codice di invito personale e': {{.InviteCode}}`,
 		"de-DE": "Sie sind eingeladen, dem Familienkonto bei @{BOT_ID} beizutreten.",
 		"en-UK": "You are invited to join family account at @{BOT_ID}.",
 		"es-ES": "Se te invita a unirte a la cuenta familiar en @{BOT_ID}.",
-		"fa-IR": "شما دعوت شده‌اید که به حساب خانواده در @{BOT_ID} بپیوندید.",
+		"fa-IR": "شما دعوت شده\u200cاید که به حساب خانواده در @{BOT_ID} بپیوندید.",
 		"fr-FR": "Vous êtes invité à rejoindre le compte familial sur @{BOT_ID}.",
 		"id-ID": "Anda diundang untuk bergabung dengan akun keluarga di @{BOT_ID}.",
 		"it-IT": "Sei invitato a unirti al conto familiare su @{BOT_ID}.",
@@ -4520,9 +4520,9 @@ Interest is calculated daily (<i>every 24 hours</i>) using <a href="https://www.
 		<code>3/30/0/10</code> - 3% per month with 10 days grace period
 
 ❗ The % functionality is in BETA testing stage, please let us know in @DebtsTrackerGroup if anything works not as you would expect.`, // TODO - replace link!
-		"es-ES": ``, // TODO(ES)
-		"fa-IR": ``, // TODO(FA)
-		"it-IT": ``, // TODO(IT
+		"es-ES": ``,                                                                                                                  // TODO(ES)
+		"fa-IR": ``,                                                                                                                  // TODO(FA)
+		"it-IT": ``,                                                                                                                  // TODO(IT
 		"ru-RU": `<b>Процент и комментарий</b>
 
 Чтобы задать процент по долгу отправьте сообщение в следующем формате:
@@ -5111,21 +5111,21 @@ Możesz dowiedzieć się o nowych funkcjach bota na kanale @SneatApp, gdzie <a h
 	SpaceCmdBtnTrackers: {
 		"de-DE": "Tracker", // Placeholder
 		"en-UK": "Trackers",
-		"en-US": "Trackers",     // Placeholder
-		"es-ES": "Rastreadores", // Placeholder
-		"fa-IR": "ردیاب‌ها",     // Placeholder
-		"fr-FR": "Traqueurs",    // Placeholder
-		"id-ID": "Pelacak",      // Placeholder
-		"it-IT": "Tracker",      // Placeholder
-		"ja-JP": "トラッカー",        // Placeholder
-		"ko-KO": "추적기",          // Placeholder
-		"pl-PL": "Monitorujące", // Placeholder
-		"pt-BR": "Rastreadores", // Placeholder
+		"en-US": "Trackers",      // Placeholder
+		"es-ES": "Rastreadores",  // Placeholder
+		"fa-IR": "ردیاب\u200cها", // Placeholder
+		"fr-FR": "Traqueurs",     // Placeholder
+		"id-ID": "Pelacak",       // Placeholder
+		"it-IT": "Tracker",       // Placeholder
+		"ja-JP": "トラッカー",    // Placeholder
+		"ko-KO": "추적기",           // Placeholder
+		"pl-PL": "Monitorujące",  // Placeholder
+		"pt-BR": "Rastreadores",  // Placeholder
 		"ru-RU": "Трекеры",
 		"tr-TR": "İzleyiciler",   // Placeholder
 		"ua-UA": "Трекери",       // Placeholder
 		"uz-UZ": "Kuzatuvchilar", // Placeholder
-		"zh-CN": "追踪器",           // Placeholder
+		"zh-CN": "追踪器",        // Placeholder
 	},
 	BtnSpaces: {
 		"en-UK": "Spaces",
@@ -5652,7 +5652,7 @@ Możesz dowiedzieć się o nowych funkcjach bota na kanale @SneatApp, gdzie <a h
 		"en-UK": "Spending",
 		"ru-RU": "Расходы",
 		"es-ES": "Gastos",
-		"fa-IR": "هزینه‌ها",
+		"fa-IR": "هزینه\u200cها",
 		"it-IT": "Spese",
 		"de-DE": "Ausgaben",
 		"fr-FR": "Dépenses",
@@ -5761,7 +5761,7 @@ Możesz dowiedzieć się o nowych funkcjach bota na kanale @SneatApp, gdzie <a h
 		"en-UK": "Back to trackers",
 		"ru-RU": "Назад к трекерам",
 		"es-ES": "Volver a los rastreadores",
-		"fa-IR": "بازگشت به ردیاب‌ها",
+		"fa-IR": "بازگشت به ردیاب\u200cها",
 		"it-IT": "Torna ai tracker",
 		"de-DE": "Zurück zu Trackern",
 		"fr-FR": "Retour aux trackers",
@@ -5797,7 +5797,7 @@ Możesz dowiedzieć się o nowych funkcjach bota na kanale @SneatApp, gdzie <a h
 		"en-UK": "Share tracker",
 		"ru-RU": "Поделиться трекером",
 		"es-ES": "Compartir rastreador",
-		"fa-IR": "اشتراک‌گذاری ردیاب",
+		"fa-IR": "اشتراک\u200cگذاری ردیاب",
 		"it-IT": "Condividi il tracker",
 		"de-DE": "Tracker teilen",
 		"fr-FR": "Partager le tracker",
@@ -5833,7 +5833,7 @@ Możesz dowiedzieć się o nowych funkcjach bota na kanale @SneatApp, gdzie <a h
 		"en-UK": "Family trackers",
 		"ru-RU": "Семейные трекеры",
 		"es-ES": "Rastreadores familiares",
-		"fa-IR": "ردیاب‌های خانواده",
+		"fa-IR": "ردیاب\u200cهای خانواده",
 		"it-IT": "Tracker familiari",
 		"de-DE": "Familientracker",
 		"fr-FR": "Trackers familiaux",
@@ -5948,9 +5948,9 @@ Możesz dowiedzieć się o nowych funkcjach bota na kanale @SneatApp, gdzie <a h
 		"es-ES": `\n\nPuedes compartir este rastreador
 🤫 con un amigo (<i>una sola persona puede aceptarlo</i>)
 🌍 o públicamente (<i>cualquiera con el enlace puede aceptarlo, puedes cancelarlo en cualquier momento</i>)`,
-		"fa-IR": `\n\nشما می‌توانید این ردیاب را به دو صورت به اشتراک بگذارید
-🤫 با یک دوست (<i>فقط یک نفر می‌تواند بپذیرد</i>)
-🌍 یا به صورت عمومی (<i>هرکسی با لینک می‌تواند بپذیرد، شما می‌توانید در هر زمان آن را لغو کنید</i>)`,
+		"fa-IR": `\n\nشما می\u200cتوانید این ردیاب را به دو صورت به اشتراک بگذارید
+🤫 با یک دوست (<i>فقط یک نفر می\u200cتواند بپذیرد</i>)
+🌍 یا به صورت عمومی (<i>هرکسی با لینک می\u200cتواند بپذیرد، شما می\u200cتوانید در هر زمان آن را لغو کنید</i>)`,
 		"it-IT": `\n\nPuoi condividere questo tracker
 🤫 con un amico (<i>una sola persona potrà accettarlo</i>)
 🌍 oppure pubblicamente (<i>chiunque con il link potrà accettarlo, puoi annullarlo in qualsiasi momento</i>)`,
@@ -6442,7 +6442,7 @@ Możesz dowiedzieć się o nowych funkcjach bota na kanale @SneatApp, gdzie <a h
 		"en-UK": "Back to lists",
 		"ru-RU": "Вернуться к спискам",
 		"es-ES": "Volver a las listas",
-		"fa-IR": "بازگشت به لیست‌ها",
+		"fa-IR": "بازگشت به لیست\u200cها",
 		"it-IT": "Torna alle liste",
 		"de-DE": "Zurück zu den Listen",
 		"fr-FR": "Retour aux listes",
@@ -6496,7 +6496,7 @@ Możesz dowiedzieć się o nowych funkcjach bota na kanale @SneatApp, gdzie <a h
 		"en-UK": "Mark as done",
 		"ru-RU": "Отметить как выполненное",
 		"es-ES": "Marcar como hecho",
-		"fa-IR": "علامت‌گذاری به عنوان انجام‌شده",
+		"fa-IR": "علامت\u200cگذاری به عنوان انجام\u200cشده",
 		"it-IT": "Segna come completato",
 		"de-DE": "Als erledigt markieren",
 		"fr-FR": "Marquer comme fait",
@@ -6549,7 +6549,7 @@ Możesz dowiedzieć się o nowych funkcjach bota na kanale @SneatApp, gdzie <a h
 		"en-UK": "You can add items to this list by sending a message to me.",
 		"ru-RU": "Вы можете добавлять элементы в этот список, отправив мне сообщение.",
 		"es-ES": "Puedes agregar elementos a esta lista enviándome un mensaje.",
-		"fa-IR": "می‌توانید با ارسال یک پیام به من، موارد را به این لیست اضافه کنید.",
+		"fa-IR": "می\u200cتوانید با ارسال یک پیام به من، موارد را به این لیست اضافه کنید.",
 		"it-IT": "Puoi aggiungere elementi a questa lista inviandomi un messaggio.",
 		"de-DE": "Sie können Elemente zu dieser Liste hinzufügen, indem Sie mir eine Nachricht senden.",
 		"fr-FR": "Vous pouvez ajouter des éléments à cette liste en m'envoyant un message.",
@@ -6643,9 +6643,9 @@ Otherwise you can add them manually in Sneat.app.`,
 		В противном случае вы можете добавить их вручную в Sneat.app.`,
 		"es-ES": `Si la persona que deseas agregar usa Telegram, te recomendamos seleccionar "Elegir usuario de Telegram".
 		De lo contrario, puedes agregarlos manualmente en Sneat.app.`,
-		"fa-IR": `اگر شخصی که می‌خواهید اضافه کنید از تلگرام استفاده می‌کند، 
-		ما توصیه می‌کنیم گزینه "انتخاب کاربر تلگرام" را انتخاب کنید. 
-		در غیر این صورت می‌توانید آنها را به صورت دستی در Sneat.app اضافه کنید.`,
+		"fa-IR": `اگر شخصی که می\u200cخواهید اضافه کنید از تلگرام استفاده می\u200cکند، 
+ما توصیه می\u200cکنیم گزینه "انتخاب کاربر تلگرام" را انتخاب کنید. 
+در غیر این صورت می\u200cتوانید آنها را به صورت دستی در Sneat.app اضافه کنید.`,
 		"it-IT": `Se la persona che vuoi aggiungere utilizza telegram, ti consigliamo di selezionare "Scegli utente Telegram".
 		In caso contrario, puoi aggiungerli manualmente in Sneat.app.`,
 		"de-DE": `Wenn die Person, die Sie hinzufügen möchten, Telegram verwendet, empfehlen wir, "Telegram-Benutzer auswählen" auszuwählen.
@@ -6766,7 +6766,7 @@ Otherwise you can add them manually in Sneat.app.`,
 		"en-UK": "Debts related contacts",
 		"ru-RU": "Контакты, связанные с долгами",
 		"es-ES": "Contactos relacionados con deudas",
-		"fa-IR": "ارتباطات مربوط به بدهی‌ها",
+		"fa-IR": "ارتباطات مربوط به بدهی\u200cها",
 		"it-IT": "Contatti legati ai debiti",
 		"de-DE": "Schuldenbezogene Kontakte",
 		"fr-FR": "Contacts liés aux dettes",
@@ -6784,7 +6784,7 @@ Otherwise you can add them manually in Sneat.app.`,
 		"en-UK": "Back to debts menu",
 		"ru-RU": "Вернуться в меню долгов",
 		"es-ES": "Volver al menú de deudas",
-		"fa-IR": "بازگشت به منوی بدهی‌ها",
+		"fa-IR": "بازگشت به منوی بدهی\u200cها",
 		"it-IT": "Torna al menu dei debiti",
 		"de-DE": "Zurück zum Schuldenmenü",
 		"fr-FR": "Retour au menu des dettes",

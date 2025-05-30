@@ -102,7 +102,7 @@ func TestTRANS(t *testing.T) {
 			}
 			for enV, enCount := range enCounts {
 				if c := counts[enV]; c != enCount {
-					if !(c == 0 && vals[lang] == "") {
+					if c != 0 || vals[lang] != "" {
 						t.Errorf("%v:%v has %d of '%v' while en-US has %d", key, lang, counts[enV], enV, enCount)
 						reported[enV] = enCount
 					}

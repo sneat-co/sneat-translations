@@ -67,7 +67,7 @@ func init() {
 			"en-UK": "My spots",
 			"en-US": "My spots",
 			"es-ES": "Mis lugares",
-			"fa-IR": "مکان‌های من",
+			"fa-IR": "مکان\u200cهای من",
 			"fr-FR": "Mes endroits",
 			"id-ID": "Tempat saya",
 			"it-IT": "I miei posti",
@@ -106,7 +106,7 @@ func init() {
 			"en-UK": "My activities",
 			"en-US": "My activities",
 			"es-ES": "Mis actividades",
-			"fa-IR": "فعالیت‌های من",
+			"fa-IR": "فعالیت\u200cهای من",
 			"fr-FR": "Mes activités",
 			"id-ID": "Aktivitas saya",
 			"it-IT": "Le mie attività",
@@ -125,7 +125,7 @@ func init() {
 			"en-UK": "My plans",
 			"en-US": "My plans",
 			"es-ES": "Mis planes",
-			"fa-IR": "برنامه‌های من",
+			"fa-IR": "برنامه\u200cهای من",
 			"fr-FR": "Mes projets",
 			"id-ID": "Rencana saya",
 			"it-IT": "I miei piani",
@@ -164,7 +164,7 @@ func init() {
 			"en-UK": "User activities",
 			"en-US": "User activities",
 			"es-ES": "Actividades del usuario",
-			"fa-IR": "فعالیت‌های کاربر",
+			"fa-IR": "فعالیت\u200cهای کاربر",
 			"fr-FR": "Activités utilisateur",
 			"id-ID": "Aktivitas pengguna",
 			"it-IT": "Attività utente",
@@ -204,7 +204,7 @@ func init() {
 			"en-UK": "User plans",
 			"en-US": "User plans",
 			"es-ES": "Planes del usuario",
-			"fa-IR": "برنامه‌های کاربر",
+			"fa-IR": "برنامه\u200cهای کاربر",
 			"fr-FR": "Plans utilisateur",
 			"id-ID": "Rencana pengguna",
 			"it-IT": "Piani utente",
@@ -224,7 +224,7 @@ func init() {
 			"en-UK": "User spots",
 			"en-US": "User spots",
 			"es-ES": "Lugares del usuario",
-			"fa-IR": "مکان‌های کاربر",
+			"fa-IR": "مکان\u200cهای کاربر",
 			"fr-FR": "Lieux utilisateur",
 			"id-ID": "Tempat pengguna",
 			"it-IT": "Luoghi utente",
@@ -275,15 +275,15 @@ El bot ofrece dos características principales:
 	2.	<b>Coordinación de Eventos</b> – Organiza fácilmente actividades grupales sugiriendo múltiples opciones de tiempo y lugar. El bot recopila votos de los participantes y muestra qué combinaciones funcionan mejor, ayudando al grupo a acordar un plan sin largos hilos de chat.
 
 Con @ToGetheredBot, la planificación se vuelve social, visible y sin fricciones — perfecto para sesiones espontáneas o reuniones organizadas.`,
-			"fa-IR": `به @ToGetheredBot خوش آمدید — دستیار برنامه‌ریزی ساده و هوشمند شما برای ملاقات با دوستان، سازماندهی فعالیت‌های گروهی، یا فقط اطلاع دادن به دیگران که کجا خواهید بود. چه کایت‌سرفینگ در ساحل، بازی بسکتبال خیابانی، یا برنامه‌ریزی برای یک ملاقات غیررسمی، ToGethered هماهنگی را بدون زحمت می‌کند.
+			"fa-IR": `به @ToGetheredBot خوش آمدید — دستیار برنامه\u200cریزی ساده و هوشمند شما برای ملاقات با دوستان، سازماندهی فعالیت\u200cهای گروهی، یا فقط اطلاع دادن به دیگران که کجا خواهید بود. چه کایت\u200cسرفینگ در ساحل، بازی بسکتبال خیابانی، یا برنامه\u200cریزی برای یک ملاقات غیررسمی، ToGethered هماهنگی را بدون زحمت می\u200cکند.
 
-ربات دو ویژگی اصلی ارائه می‌دهد:
+ربات دو ویژگی اصلی ارائه می\u200cدهد:
 
-	1.	<b>اشتراک‌گذاری برنامه</b> – به دیگران اطلاع دهید <b>کجا و چه زمانی قصد حضور در جایی را دارید</b>. می‌توانید مکان و بازه زمانی مشخص کنید تا دیگران بتوانند برنامه‌های شما را ببینند و در صورت در دسترس بودن به شما بپیوندند.
+	1.	<b>اشتراک\u200cگذاری برنامه</b> – به دیگران اطلاع دهید <b>کجا و چه زمانی قصد حضور در جایی را دارید</b>. می\u200cتوانید مکان و بازه زمانی مشخص کنید تا دیگران بتوانند برنامه\u200cهای شما را ببینند و در صورت در دسترس بودن به شما بپیوندند.
 
-	2.	<b>هماهنگی رویداد</b> – به راحتی فعالیت‌های گروهی را با پیشنهاد گزینه‌های متعدد زمان و مکان سازماندهی کنید. ربات رای‌های شرکت‌کنندگان را جمع‌آوری می‌کند و نشان می‌دهد کدام ترکیبات بهترین عملکرد را دارند، و به گروه کمک می‌کند بدون رشته‌های چت طولانی روی یک برنامه توافق کنند.
+	2.	<b>هماهنگی رویداد</b> – به راحتی فعالیت\u200cهای گروهی را با پیشنهاد گزینه\u200cهای متعدد زمان و مکان سازماندهی کنید. ربات رای\u200cهای شرکت\u200cکنندگان را جمع\u200cآوری می\u200cکند و نشان می\u200cدهد کدام ترکیبات بهترین عملکرد را دارند، و به گروه کمک می\u200cکند بدون رشته\u200cهای چت طولانی روی یک برنامه توافق کنند.
 
-با @ToGetheredBot، برنامه‌ریزی اجتماعی، قابل مشاهده و بدون اصطکاک می‌شود — عالی برای جلسات خودجوش یا گردهمایی‌های سازمان‌یافته.`,
+با @ToGetheredBot، برنامه\u200cریزی اجتماعی، قابل مشاهده و بدون اصطکاک می\u200cشود — عالی برای جلسات خودجوش یا گردهمایی\u200cهای سازمان\u200cیافته.`,
 			"fr-FR": `Bienvenue sur @ToGetheredBot — votre assistant de planification simple et intelligent pour rencontrer des amis, organiser des activités de groupe, ou simplement faire savoir aux autres où vous serez. Que ce soit du kitesurf à la plage, jouer au basket de rue, ou planifier une rencontre décontractée, ToGethered rend la coordination sans effort.
 
 Le bot offre deux fonctionnalités principales :
@@ -415,7 +415,7 @@ Para compartir tus planes elige un lugar o actividad y pulsa el botón <b>{RSVP}
 Para organizar un evento crea un <b>{NEW_EVENT}</b> desde "Mis eventos".
 `,
 			"fa-IR": `
-برای به اشتراک گذاری برنامه‌هایتان، مکان یا فعالیتی را انتخاب کنید و دکمه <b>{RSVP}</b> را فشار دهید.
+برای به اشتراک گذاری برنامه\u200cهایتان، مکان یا فعالیتی را انتخاب کنید و دکمه <b>{RSVP}</b> را فشار دهید.
 
 برای سازماندهی یک رویداد، یک <b>{NEW_EVENT}</b> از "رویدادهای من" ایجاد کنید.
 `,
