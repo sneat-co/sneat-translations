@@ -2134,7 +2134,7 @@ Top 5 referrers for the last 100 new users will be shown here.`,
 
 	Спасибо вам большое! Благодаря этому о боте узнает больше людей — это служит дополнительной мотивацией для разработчиков! 😎`,
 	},
-	MESSAGE_TEXT_ASK_FOR_FEEDBAСK: {
+	MESSAGE_TEXT_ASK_FOR_FEEDBACK: {
 		"de-DE": "Über ein kleines Feedback wie der Bot so ist, würden wir uns freuen. Es dauert nur ein paar Sekunden.",
 		"en-UK": "We would appreciate if tell us how we doing. It takes just few seconds.",
 		"es-ES": "Te agredecemos si valoras el funccionamiento de nuestro applicación. Te costará solo unos segundos.",
