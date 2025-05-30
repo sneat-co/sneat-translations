@@ -28,6 +28,7 @@ var TRANS = map[string]map[string]string{
 	"EXAMPLE": {
 		"de-DE": "BEISPIEL",
 		"en-UK": "SAMPLE",
+		"en-US": "SAMPLE",
 		"es-ES": "EJEMPLO",
 		"fa-IR": "نمونه",
 		"fr-FR": "EXEMPLE",
@@ -104,255 +105,528 @@ var TRANS = map[string]map[string]string{
 	},
 
 	"Jan": {
-		"en-UK": "Jan",
-		"ru-RU": "Янв.",
 		"de-DE": "Jan",
+		"en-UK": "Jan",
+		"en-US": "Jan",
 		"es-ES": "Ene",
-		"fr-FR": "Jan",
-		"it-IT": "Gen",
-		"pt-BR": "Jan",
 		"fa-IR": "ژانویه",
+		"fr-FR": "Jan",
+		"id-ID": "Jan",
+		"it-IT": "Gen",
+		"ja-JP": "1月",
+		"ko-KO": "1월",
+		"pl-PL": "Sty",
+		"pt-BR": "Jan",
+		"ru-RU": "Янв.",
+		"tr-TR": "Oca",
+		"ua-UA": "Січ",
+		"uz-UZ": "Yan",
+		"zh-CN": "一月",
 	},
 
 	"Feb": {
-		"en-UK": "Feb",
-		"ru-RU": "Фев.",
 		"de-DE": "Feb",
+		"en-UK": "Feb",
+		"en-US": "Feb",
 		"es-ES": "Feb",
-		"fr-FR": "Fév",
-		"it-IT": "Feb",
-		"pt-BR": "Fev",
 		"fa-IR": "فوریه",
+		"fr-FR": "Fév",
+		"id-ID": "Feb",
+		"it-IT": "Feb",
+		"ja-JP": "2月",
+		"ko-KO": "2월",
+		"pl-PL": "Lut",
+		"pt-BR": "Fev",
+		"ru-RU": "Фев.",
+		"tr-TR": "Şub",
+		"ua-UA": "Лют",
+		"uz-UZ": "Fev",
+		"zh-CN": "二月",
 	},
 
 	"Mar": {
-		"en-UK": "Mar",
-		"ru-RU": "Мврт",
 		"de-DE": "Mär",
+		"en-UK": "Mar",
+		"en-US": "Mar",
 		"es-ES": "Mar",
-		"fr-FR": "Mars",
-		"it-IT": "Mar",
-		"pt-BR": "Março",
 		"fa-IR": "مارس",
+		"fr-FR": "Mars",
+		"id-ID": "Mar",
+		"it-IT": "Mar",
+		"ja-JP": "3月",
+		"ko-KO": "3월",
+		"pl-PL": "Mar",
+		"pt-BR": "Março",
+		"ru-RU": "Мврт",
+		"tr-TR": "Mar",
+		"ua-UA": "Бер",
+		"uz-UZ": "Mar",
+		"zh-CN": "三月",
 	},
 
 	"Apr": {
-		"en-UK": "Apr",
-		"ru-RU": "Апр.",
 		"de-DE": "Apr",
+		"en-UK": "Apr",
+		"en-US": "Apr",
 		"es-ES": "Abr",
-		"fr-FR": "Avril",
-		"it-IT": "Apr",
-		"pt-BR": "Abr",
 		"fa-IR": "آوریل",
+		"fr-FR": "Avril",
+		"id-ID": "Apr",
+		"it-IT": "Apr",
+		"ja-JP": "4月",
+		"ko-KO": "4월",
+		"pl-PL": "Kwi",
+		"pt-BR": "Abr",
+		"ru-RU": "Апр.",
+		"tr-TR": "Nis",
+		"ua-UA": "Кві",
+		"uz-UZ": "Apr",
+		"zh-CN": "四月",
 	},
 
 	"May": {
-		"en-UK": "May",
-		"ru-RU": "Май ",
 		"de-DE": "Mai",
+		"en-UK": "May",
+		"en-US": "May",
 		"es-ES": "May",
-		"fr-FR": "Mai",
-		"it-IT": "Mag",
-		"pt-BR": "Maio",
 		"fa-IR": "مه",
+		"fr-FR": "Mai",
+		"id-ID": "Mei",
+		"it-IT": "Mag",
+		"ja-JP": "5月",
+		"ko-KO": "5월",
+		"pl-PL": "Maj",
+		"pt-BR": "Maio",
+		"ru-RU": "Май",
+		"tr-TR": "May",
+		"ua-UA": "Тра",
+		"uz-UZ": "May",
+		"zh-CN": "五月",
 	},
 
 	"Jun": {
-		"en-UK": "June",
-		"ru-RU": "Июнь",
 		"de-DE": "Jun",
+		"en-UK": "June",
+		"en-US": "June",
 		"es-ES": "Jun",
-		"fr-FR": "Juin",
-		"it-IT": "Giu",
-		"pt-BR": "Junho",
 		"fa-IR": "ژوئن",
+		"fr-FR": "Juin",
+		"id-ID": "Jun",
+		"it-IT": "Giu",
+		"ja-JP": "6月",
+		"ko-KO": "6월",
+		"pl-PL": "Cze",
+		"pt-BR": "Junho",
+		"ru-RU": "Июнь",
+		"tr-TR": "Haz",
+		"ua-UA": "Чер",
+		"uz-UZ": "Iyun",
+		"zh-CN": "六月",
 	},
 
 	"Jul": {
-		"en-UK": "July",
-		"ru-RU": "Июль",
 		"de-DE": "Jul",
+		"en-UK": "July",
+		"en-US": "July",
 		"es-ES": "Jul",
-		"fr-FR": "Juil",
-		"it-IT": "Lug",
-		"pt-BR": "Julho",
 		"fa-IR": "ژوئیه",
+		"fr-FR": "Juil",
+		"id-ID": "Jul",
+		"it-IT": "Lug",
+		"ja-JP": "7月",
+		"ko-KO": "7월",
+		"pl-PL": "Lip",
+		"pt-BR": "Julho",
+		"ru-RU": "Июль",
+		"tr-TR": "Tem",
+		"ua-UA": "Лип",
+		"uz-UZ": "Iyul",
+		"zh-CN": "七月",
 	},
 
 	"Aug": {
-		"en-UK": "Aug",
-		"ru-RU": "Авг.",
 		"de-DE": "Aug",
+		"en-UK": "Aug",
+		"en-US": "Aug",
 		"es-ES": "Ago",
-		"fr-FR": "Août",
-		"it-IT": "Ago",
-		"pt-BR": "Ago",
 		"fa-IR": "اوت",
+		"fr-FR": "Août",
+		"id-ID": "Agu",
+		"it-IT": "Ago",
+		"ja-JP": "8月",
+		"ko-KO": "8월",
+		"pl-PL": "Sie",
+		"pt-BR": "Ago",
+		"ru-RU": "Авг.",
+		"tr-TR": "Ağu",
+		"ua-UA": "Сер",
+		"uz-UZ": "Avg",
+		"zh-CN": "八月",
 	},
 
 	"Sep": {
-		"en-UK": "Sep",
-		"ru-RU": "Сен.",
 		"de-DE": "Sep",
+		"en-UK": "Sep",
+		"en-US": "Sep",
 		"es-ES": "Sep",
-		"fr-FR": "Sep",
-		"it-IT": "Sett",
-		"pt-BR": "Set",
 		"fa-IR": "سپتامبر",
+		"fr-FR": "Sep",
+		"id-ID": "Sep",
+		"it-IT": "Sett",
+		"ja-JP": "9月",
+		"ko-KO": "9월",
+		"pl-PL": "Wrz",
+		"pt-BR": "Set",
+		"ru-RU": "Сен.",
+		"tr-TR": "Eyl",
+		"ua-UA": "Вер",
+		"uz-UZ": "Sen",
+		"zh-CN": "九月",
 	},
 
 	"Oct": {
-		"en-UK": "Oct",
-		"ru-RU": "Окт.",
 		"de-DE": "Okt",
+		"en-UK": "Oct",
+		"en-US": "Oct",
 		"es-ES": "Oct",
-		"fr-FR": "Octobre", // Placeholder
-		"it-IT": "Ott",
-		"pt-BR": "Outubro", // Placeholder
 		"fa-IR": "اکتبر",
+		"fr-FR": "Oct",
+		"id-ID": "Okt",
+		"it-IT": "Ott",
+		"ja-JP": "10月",
+		"ko-KO": "10월",
+		"pl-PL": "Paź",
+		"pt-BR": "Out",
+		"ru-RU": "Окт.",
+		"tr-TR": "Eki",
+		"ua-UA": "Жов",
+		"uz-UZ": "Okt",
+		"zh-CN": "十月",
 	},
 
 	"Nov": {
-		"en-UK": "Nov",
-		"ru-RU": "Нбр.",
 		"de-DE": "Nov",
+		"en-UK": "Nov",
+		"en-US": "Nov",
 		"es-ES": "Nov",
-		"fr-FR": "Novembre", // Placeholder
-		"it-IT": "Nov",
-		"pt-BR": "Novembro", // Placeholder
 		"fa-IR": "نوامبر",
+		"fr-FR": "Nov",
+		"id-ID": "Nov",
+		"it-IT": "Nov",
+		"ja-JP": "11月",
+		"ko-KO": "11월",
+		"pl-PL": "Lis",
+		"pt-BR": "Nov",
+		"ru-RU": "Нбр.",
+		"tr-TR": "Kas",
+		"ua-UA": "Лис",
+		"uz-UZ": "Noy",
+		"zh-CN": "十一月",
 	},
 
 	"Dec": {
-		"en-UK": "Dec",
-		"ru-RU": "Дек.",
 		"de-DE": "Dez",
+		"en-UK": "Dec",
+		"en-US": "Dec",
 		"es-ES": "Dic",
-		"fr-FR": "Décembre", // Placeholder
-		"it-IT": "Dic",
-		"pt-BR": "Dezembro", // Placeholder
 		"fa-IR": "دسامبر",
+		"fr-FR": "Déc",
+		"id-ID": "Des",
+		"it-IT": "Dic",
+		"ja-JP": "12月",
+		"ko-KO": "12월",
+		"pl-PL": "Gru",
+		"pt-BR": "Dez",
+		"ru-RU": "Дек.",
+		"tr-TR": "Ara",
+		"ua-UA": "Гру",
+		"uz-UZ": "Dek",
+		"zh-CN": "十二月",
 	},
 	COMMAND_START: {
 		"de-DE": "start",
 		"en-UK": "start",
+		"en-US": "start",
 		"es-ES": "inicio",
 		"fa-IR": "شروع",
+		"fr-FR": "démarrer",
+		"id-ID": "mulai",
 		"it-IT": "inizio",
+		"ja-JP": "スタート",
+		"ko-KO": "시작",
+		"pl-PL": "start",
+		"pt-BR": "iniciar",
 		"ru-RU": "старт",
+		"tr-TR": "başlat",
+		"ua-UA": "старт",
+		"uz-UZ": "boshlash",
+		"zh-CN": "开始",
 	},
 	COMMAND_MENU: {
 		"de-DE": "menu",
 		"en-UK": "menu",
+		"en-US": "menu",
 		"es-ES": "menú",
 		"fa-IR": "منو",
-		"it-IT": "menu", // TODO(IT): Google translated
+		"fr-FR": "menu",
+		"id-ID": "menu",
+		"it-IT": "menu",
+		"ja-JP": "メニュー",
+		"ko-KO": "메뉴",
+		"pl-PL": "menu",
+		"pt-BR": "menu",
 		"ru-RU": "меню",
+		"tr-TR": "menü",
+		"ua-UA": "меню",
+		"uz-UZ": "menyu",
+		"zh-CN": "菜单",
 	},
 	COMMAND_GAVE: {
 		"de-DE": "verleihen",
 		"en-UK": "gave",
+		"en-US": "gave",
 		"es-ES": "prestado_a_ti",
 		"fa-IR": "قرض_دادن",
+		"fr-FR": "donné",
+		"id-ID": "memberi",
 		"it-IT": "debito",
+		"ja-JP": "貸した",
+		"ko-KO": "주었다",
+		"pl-PL": "dał",
+		"pt-BR": "emprestou",
 		"ru-RU": "дать",
+		"tr-TR": "verdi",
+		"ua-UA": "дати",
+		"uz-UZ": "berdi",
+		"zh-CN": "给予",
 	},
 	COMMAND_GOT: {
 		"de-DE": "anleihen",
 		"en-UK": "got",
+		"en-US": "got",
 		"es-ES": "prestado_por_ti",
 		"fa-IR": "قرض_گرفتن",
+		"fr-FR": "reçu",
+		"id-ID": "mendapat",
 		"it-IT": "credito",
+		"ja-JP": "借りた",
+		"ko-KO": "받았다",
+		"pl-PL": "dostał",
+		"pt-BR": "recebeu",
 		"ru-RU": "взять",
+		"tr-TR": "aldı",
+		"ua-UA": "взяти",
+		"uz-UZ": "oldi",
+		"zh-CN": "得到",
 	},
 	COMMAND_RETURNED: {
 		"de-DE": "beglichen",
 		"en-UK": "return",
+		"en-US": "return",
 		"es-ES": "devuelto",
 		"fa-IR": "بازگردانده_شده",
+		"fr-FR": "retourné",
+		"id-ID": "kembali",
 		"it-IT": "rientra",
+		"ja-JP": "返済",
+		"ko-KO": "반환",
+		"pl-PL": "zwrócił",
+		"pt-BR": "devolveu",
 		"ru-RU": "вернуть",
+		"tr-TR": "iade",
+		"ua-UA": "повернути",
+		"uz-UZ": "qaytardi",
+		"zh-CN": "归还",
 	},
 	COMMAND_BALANCE: {
 		"de-DE": "ausstehend",
 		"en-UK": "balance",
+		"en-US": "balance",
 		"es-ES": "balance",
 		"fa-IR": "تراز",
+		"fr-FR": "solde",
+		"id-ID": "saldo",
 		"it-IT": "bilancio",
+		"ja-JP": "残高",
+		"ko-KO": "잔액",
+		"pl-PL": "saldo",
+		"pt-BR": "saldo",
 		"ru-RU": "баланс",
+		"tr-TR": "bakiye",
+		"ua-UA": "баланс",
+		"uz-UZ": "balans",
+		"zh-CN": "余额",
 	},
 	COMMAND_HISTORY: {
 		"de-DE": "verlauf",
 		"en-UK": "history",
+		"en-US": "history",
 		"es-ES": "cronología",
 		"fa-IR": "سوابق",
+		"fr-FR": "historique",
+		"id-ID": "riwayat",
 		"it-IT": "cronologia",
+		"ja-JP": "履歴",
+		"ko-KO": "기록",
+		"pl-PL": "historia",
+		"pt-BR": "histórico",
 		"ru-RU": "история",
+		"tr-TR": "geçmiş",
+		"ua-UA": "історія",
+		"uz-UZ": "tarix",
+		"zh-CN": "历史",
 	},
 	COMMAND_SETTINGS: {
 		"de-DE": "einstellungen",
 		"en-UK": "settings",
+		"en-US": "settings",
 		"es-ES": "ajustes",
 		"fa-IR": "تنظیمات",
+		"fr-FR": "paramètres",
+		"id-ID": "pengaturan",
 		"it-IT": "impostazioni",
+		"ja-JP": "設定",
+		"ko-KO": "설정",
+		"pl-PL": "ustawienia",
+		"pt-BR": "configurações",
 		"ru-RU": "настройки",
+		"tr-TR": "ayarlar",
+		"ua-UA": "налаштування",
+		"uz-UZ": "sozlamalar",
+		"zh-CN": "设置",
 	},
 	COMMAND_HELP: {
 		"de-DE": "hilfe",
 		"en-UK": "help",
+		"en-US": "help",
 		"es-ES": "ayuda",
 		"fa-IR": "کمک",
+		"fr-FR": "aide",
+		"id-ID": "bantuan",
 		"it-IT": "aiuto",
+		"ja-JP": "ヘルプ",
+		"ko-KO": "도움말",
+		"pl-PL": "pomoc",
+		"pt-BR": "ajuda",
 		"ru-RU": "помощь",
+		"tr-TR": "yardım",
+		"ua-UA": "допомога",
+		"uz-UZ": "yordam",
+		"zh-CN": "帮助",
 	},
 	COMMAND_CANCEL: {
 		"de-DE": "abbrechen",
 		"en-UK": "cancel",
+		"en-US": "cancel",
 		"es-ES": "cancelar",
 		"fa-IR": "کنسل",
+		"fr-FR": "annuler",
+		"id-ID": "batal",
 		"it-IT": "annulla",
+		"ja-JP": "キャンセル",
+		"ko-KO": "취소",
+		"pl-PL": "anuluj",
+		"pt-BR": "cancelar",
 		"ru-RU": "/отменить",
+		"tr-TR": "iptal",
+		"ua-UA": "скасувати",
+		"uz-UZ": "bekor",
+		"zh-CN": "取消",
 	},
 	COMMAND_CLEAR: {
 		"de-DE": "leeren",
 		"en-UK": "clear",
+		"en-US": "clear",
 		"es-ES": "borrar",
 		"fa-IR": "پاک_کردن",
+		"fr-FR": "effacer",
+		"id-ID": "bersihkan",
 		"it-IT": "chiaro",
+		"ja-JP": "クリア",
+		"ko-KO": "지우기",
+		"pl-PL": "wyczyść",
+		"pt-BR": "limpar",
 		"ru-RU": "очистить",
+		"tr-TR": "temizle",
+		"ua-UA": "очистити",
+		"uz-UZ": "tozalash",
+		"zh-CN": "清除",
 	},
 	adsCommandTitle: {
 		"de-DE": adsCommandTitle,
 		"en-UK": adsCommandTitle,
+		"en-US": adsCommandTitle,
 		"es-ES": adsCommandTitle,
 		"fa-IR": adsCommandTitle,
+		"fr-FR": adsCommandTitle,
+		"id-ID": adsCommandTitle,
 		"it-IT": adsCommandTitle,
+		"ja-JP": adsCommandTitle,
+		"ko-KO": adsCommandTitle,
+		"pl-PL": adsCommandTitle,
+		"pt-BR": adsCommandTitle,
 		"ru-RU": adsCommandTitle,
+		"tr-TR": adsCommandTitle,
+		"ua-UA": adsCommandTitle,
+		"uz-UZ": adsCommandTitle,
+		"zh-CN": adsCommandTitle,
 	},
 	" and ": {
 		"de-DE": " und ",
 		"en-UK": " and ",
+		"en-US": " and ",
 		"es-ES": " y ",
 		"fa-IR": " و ",
+		"fr-FR": " et ",
+		"id-ID": " dan ",
 		"it-IT": " e ",
+		"ja-JP": " と ",
+		"ko-KO": " 그리고 ",
+		"pl-PL": " i ",
+		"pt-BR": " e ",
 		"ru-RU": " и ",
+		"tr-TR": " ve ",
+		"ua-UA": " і ",
+		"uz-UZ": " va ",
+		"zh-CN": " 和 ",
 	},
 	"MessageTextOopsSomethingWentWrong": {
 		"de-DE": "Ups, etwas ist schiefgelaufen... \xF0\x9F\x98\xB3",
 		"en-UK": "Oops, something went wrong... \xF0\x9F\x98\xB3",
+		"en-US": "Oops, something went wrong... \xF0\x9F\x98\xB3",
 		"es-ES": "Ops,  algo ha salido mal... \xF0\x9F\x98\xB3",
 		"fa-IR": "اوه، یک جای کار مشکل دارد ...  \xF0\x9F\x98\xB3",
+		"fr-FR": "Oups, quelque chose s'est mal passé... \xF0\x9F\x98\xB3",
+		"id-ID": "Ups, ada yang salah... \xF0\x9F\x98\xB3",
 		"it-IT": "Ops, qualcosa e' andato storto... \xF0\x9F\x98\xB3",
+		"ja-JP": "おっと、何か問題が発生しました... \xF0\x9F\x98\xB3",
+		"ko-KO": "이런, 문제가 발생했습니다... \xF0\x9F\x98\xB3",
+		"pl-PL": "Ups, coś poszło nie tak... \xF0\x9F\x98\xB3",
+		"pt-BR": "Ops, algo deu errado... \xF0\x9F\x98\xB3",
 		"ru-RU": "Упс, что-то пошло не так... \xF0\x9F\x98\xB3",
+		"tr-TR": "Hata, bir şeyler yanlış gitti... \xF0\x9F\x98\xB3",
+		"ua-UA": "Упс, щось пішло не так... \xF0\x9F\x98\xB3",
+		"uz-UZ": "Xatolik, nimadir noto'g'ri ketdi... \xF0\x9F\x98\xB3",
+		"zh-CN": "哎呀，出了点问题... \xF0\x9F\x98\xB3",
 	},
 	MESSAGE_TEXT_ASK_DUE: {
 		"de-DE": "Wann ist die Schuld fällig?",
 		"en-UK": "When is the due date?",
+		"en-US": "When is the due date?",
 		"es-ES": "¿Cuándo es la fecha de devolución?",
 		"fa-IR": "سررسید چه زمانی است؟",
+		"fr-FR": "Quelle est la date d'échéance?",
+		"id-ID": "Kapan tanggal jatuh tempo?",
 		"it-IT": "Data di scadenza?",
+		"ja-JP": "期日はいつですか？",
+		"ko-KO": "만기일은 언제입니까?",
+		"pl-PL": "Kiedy jest termin płatności?",
+		"pt-BR": "Qual é a data de vencimento?",
 		"ru-RU": "Когда дата возврата?",
+		"tr-TR": "Vade tarihi ne zaman?",
+		"ua-UA": "Коли дата повернення?",
+		"uz-UZ": "To'lov muddati qachon?",
+		"zh-CN": "到期日期是什么时候？",
 	},
 	MESSAGE_TEXT_ASK_DATE_TO_REMIND: {
 		"de-DE": `Sende mir das Datum, an welches du <b>erneut</b> erinnert werden möchtest, in der Form <i>DD.MM.YEAR</i>.
@@ -360,6 +634,10 @@ var TRANS = map[string]map[string]string{
     <i>20.01.2017</i>`,
 
 		"en-UK": `To set date for next reminder please send it as a text in format of <i>DD.MM.YEAR</i>.
+<b>For example</b> for 20th of January 2017 submit:
+    <i>20.01.2017</i>`,
+
+		"en-US": `To set date for next reminder please send it as a text in format of <i>DD.MM.YEAR</i>.
 <b>For example</b> for 20th of January 2017 submit:
     <i>20.01.2017</i>`,
 
@@ -371,13 +649,52 @@ var TRANS = map[string]map[string]string{
 <b>برای مثال</b> برای 15 خرداد 1396 ثبت کنید:
     <i>15.03.1396</i>`,
 
-		"it-IT": `Per impostare la data per il promemoria successivo invia il messaggio con la data nel seguente formato <i>GG.MM.ANNO</i>.
-		<b>Esempio</b> per indicare la data 20 Gennaio 2017 inserisci:
+		"fr-FR": `Pour définir la date du prochain rappel, veuillez l'envoyer sous forme de texte au format <i>JJ.MM.ANNÉE</i>.
+<b>Par exemple</b> pour le 20 janvier 2017, soumettez:
+    <i>20.01.2017</i>`,
 
-		<i>20.01.2017</i>`,
+		"id-ID": `Untuk mengatur tanggal pengingat berikutnya, silakan kirim dalam format teks <i>DD.MM.YEAR</i>.
+<b>Misalnya</b> untuk 20 Januari 2017 kirim:
+    <i>20.01.2017</i>`,
+
+		"it-IT": `Per impostare la data per il promemoria successivo invia il messaggio con la data nel seguente formato <i>GG.MM.ANNO</i>.
+<b>Esempio</b> per indicare la data 20 Gennaio 2017 inserisci:
+    <i>20.01.2017</i>`,
+
+		"ja-JP": `次のリマインダーの日付を設定するには、<i>DD.MM.YEAR</i>の形式でテキストとして送信してください。
+<b>例えば</b>2017年1月20日の場合は次のように送信します:
+    <i>20.01.2017</i>`,
+
+		"ko-KO": `다음 알림의 날짜를 설정하려면 <i>DD.MM.YEAR</i> 형식의 텍스트로 보내주세요.
+<b>예를 들어</b> 2017년 1월 20일의 경우 다음과 같이 제출하세요:
+    <i>20.01.2017</i>`,
+
+		"pl-PL": `Aby ustawić datę następnego przypomnienia, wyślij ją jako tekst w formacie <i>DD.MM.YEAR</i>.
+<b>Na przykład</b> dla 20 stycznia 2017 r. wyślij:
+    <i>20.01.2017</i>`,
+
+		"pt-BR": `Para definir a data do próximo lembrete, envie-a como texto no formato <i>DD.MM.YEAR</i>.
+<b>Por exemplo</b> para 20 de janeiro de 2017, envie:
+    <i>20.01.2017</i>`,
 
 		"ru-RU": `Чтобы задать дату напопинания напишите её в формате <i>ДД.MM.ГОД</i>.
 <b>Например</b> для 20 января 2017 г. отправьте:
+    <i>20.01.2017</i>`,
+
+		"tr-TR": `Bir sonraki hatırlatma için tarih belirlemek üzere <i>GG.AA.YIL</i> formatında metin olarak gönderin.
+<b>Örneğin</b> 20 Ocak 2017 için şunu gönderin:
+    <i>20.01.2017</i>`,
+
+		"ua-UA": `Щоб встановити дату наступного нагадування, надішліть її у форматі <i>ДД.ММ.РІК</i>.
+<b>Наприклад</b> для 20 січня 2017 року надішліть:
+    <i>20.01.2017</i>`,
+
+		"uz-UZ": `Keyingi eslatma uchun sanani belgilash uchun uni <i>KK.OO.YIL</i> formatida matn sifatida yuboring.
+<b>Masalan</b> 2017 yil 20 yanvar uchun quyidagini yuboring:
+    <i>20.01.2017</i>`,
+
+		"zh-CN": `要设置下一次提醒的日期，请以<i>DD.MM.YEAR</i>格式发送文本。
+<b>例如</b>对于2017年1月20日，提交:
     <i>20.01.2017</i>`,
 	},
 	MESSAGE_TEXT_ASK_DUE_DATE: {
@@ -386,64 +703,163 @@ var TRANS = map[string]map[string]string{
     <i>20.01.2017</i>`,
 
 		"en-UK": `To set due date please send it as a text in format of <i>DD.MM.YEAR</i>.
-		<b>For example</b> for 20th of January 2017 submit:
-		<i>20.01.2017</i>`,
+<b>For example</b> for 20th of January 2017 submit:
+<i>20.01.2017</i>`,
+
+		"en-US": `To set due date please send it as a text in format of <i>DD.MM.YEAR</i>.
+<b>For example</b> for 20th of January 2017 submit:
+<i>20.01.2017</i>`,
 
 		"es-ES": `Para establecer la fecha de devolución escribela en el siguiente formato <i>DD.MM.AÑO</i>.
-                 <b>For example</b> para 20 de Enero 2017 envia:
-                 <i>20.01.2017</i>`,
+<b>For example</b> para 20 de Enero 2017 envia:
+<i>20.01.2017</i>`,
 
 		"fa-IR": `لطفاً برای تنظیم تاریخ سررسید این فرمت را رعایت فرمایید.<i>روز.ماه.سال</i>.
-		<b>برای مثال</b> برای 20 ژانویه 2017 ثبت کنید:
-		<i>20.01.2017</i>`,
+<b>برای مثال</b> برای 20 ژانویه 2017 ثبت کنید:
+<i>20.01.2017</i>`,
+
+		"fr-FR": `Pour définir la date d'échéance, veuillez l'envoyer sous forme de texte au format <i>JJ.MM.ANNÉE</i>.
+<b>Par exemple</b> pour le 20 janvier 2017, soumettez:
+<i>20.01.2017</i>`,
+
+		"id-ID": `Untuk mengatur tanggal jatuh tempo, silakan kirim dalam format teks <i>DD.MM.YEAR</i>.
+<b>Misalnya</b> untuk 20 Januari 2017 kirim:
+<i>20.01.2017</i>`,
 
 		"it-IT": `Per impostare la data di scadenza invia il messaggio con la data nel seguente formato <i>GG.MM.ANNO</i>.
-		<b>Esempio</b> per indicare la data 20 Gennaio 2017 inserisci:
-		<i>20.01.2017</i>`,
+<b>Esempio</b> per indicare la data 20 Gennaio 2017 inserisci:
+<i>20.01.2017</i>`,
+
+		"ja-JP": `期日を設定するには、<i>DD.MM.YEAR</i>の形式でテキストとして送信してください。
+<b>例えば</b>2017年1月20日の場合は次のように送信します:
+<i>20.01.2017</i>`,
+
+		"ko-KO": `만기일을 설정하려면 <i>DD.MM.YEAR</i> 형식의 텍스트로 보내주세요.
+<b>예를 들어</b> 2017년 1월 20일의 경우 다음과 같이 제출하세요:
+<i>20.01.2017</i>`,
+
+		"pl-PL": `Aby ustawić termin płatności, wyślij go jako tekst w formacie <i>DD.MM.YEAR</i>.
+<b>Na przykład</b> dla 20 stycznia 2017 r. wyślij:
+<i>20.01.2017</i>`,
+
+		"pt-BR": `Para definir a data de vencimento, envie-a como texto no formato <i>DD.MM.YEAR</i>.
+<b>Por exemplo</b> para 20 de janeiro de 2017, envie:
+<i>20.01.2017</i>`,
 
 		"ru-RU": `Чтобы задать дату возврата напишите её в формате <i>ДД.MM.ГОД</i>.
-		<b>Например</b> для 20 января 2017 г.отправьте:
-		<i>20.01.2017</i>`,
+<b>Например</b> для 20 января 2017 г.отправьте:
+<i>20.01.2017</i>`,
+
+		"tr-TR": `Vade tarihini ayarlamak için <i>GG.AA.YIL</i> formatında metin olarak gönderin.
+<b>Örneğin</b> 20 Ocak 2017 için şunu gönderin:
+<i>20.01.2017</i>`,
+
+		"ua-UA": `Щоб встановити дату повернення, надішліть її у форматі <i>ДД.ММ.РІК</i>.
+<b>Наприклад</b> для 20 січня 2017 року надішліть:
+<i>20.01.2017</i>`,
+
+		"uz-UZ": `To'lov muddatini belgilash uchun uni <i>KK.OO.YIL</i> formatida matn sifatida yuboring.
+<b>Masalan</b> 2017 yil 20 yanvar uchun quyidagini yuboring:
+<i>20.01.2017</i>`,
+
+		"zh-CN": `要设置到期日期，请以<i>DD.MM.YEAR</i>格式发送文本。
+<b>例如</b>对于2017年1月20日，提交:
+<i>20.01.2017</i>`,
 	},
 	MESSAGE_TEXT_WRONG_DATE: {
 		"de-DE": "Entschuldigung, aber mit diesem Datum stimmt etwas nicht.",
 		"en-UK": "Sorry, there is something wrong with the date you've provided.",
+		"en-US": "Sorry, there is something wrong with the date you've provided.",
 		"es-ES": "Lo siento, algo no es correcto con la fecha que has puesto",
 		"fa-IR": "متاسفم، در تاریخی که وارد نمودید مشکلی وجود دارد.",
+		"fr-FR": "Désolé, il y a un problème avec la date que vous avez fournie.",
+		"id-ID": "Maaf, ada yang salah dengan tanggal yang Anda berikan.",
 		"it-IT": "Mi spiace, ma c'e' qualcosa di sbagliato nella data che hai inserito.",
+		"ja-JP": "申し訳ありませんが、提供された日付に問題があります。",
+		"ko-KO": "죄송합니다. 제공하신 날짜에 문제가 있습니다.",
+		"pl-PL": "Przepraszamy, ale z podaną datą jest coś nie tak.",
+		"pt-BR": "Desculpe, há algo errado com a data que você forneceu.",
 		"ru-RU": "Извините, что-то не так с датой которую вы отправили.",
+		"tr-TR": "Üzgünüz, verdiğiniz tarihte bir sorun var.",
+		"ua-UA": "Вибачте, але з датою щось не так.",
+		"uz-UZ": "Kechirasiz, siz taqdim etgan sana bilan bog'liq muammo bor.",
+		"zh-CN": "抱歉，您提供的日期有问题。",
 	},
 	COMMAND_TEXT_DISABLE_REMINDER: {
 		"de-DE": "Nicht erinnern",
 		"en-UK": "No reminder",
+		"en-US": "No reminder",
 		"es-ES": "No recordar",
 		"fa-IR": "بدون یادآور",
+		"fr-FR": "Pas de rappel",
+		"id-ID": "Tidak ada pengingat",
 		"it-IT": "Nessun promemoria",
+		"ja-JP": "リマインダーなし",
+		"ko-KO": "알림 없음",
+		"pl-PL": "Bez przypomnienia",
+		"pt-BR": "Sem lembrete",
 		"ru-RU": "Не напоминать",
+		"tr-TR": "Hatırlatma yok",
+		"ua-UA": "Не нагадувати",
+		"uz-UZ": "Eslatma yo'q",
+		"zh-CN": "无提醒",
 	},
 	COMMAND_TEXT_TOMORROW: {
 		"de-DE": "Morgen",
 		"en-UK": "Tomorrow",
+		"en-US": "Tomorrow",
 		"es-ES": "Mañana",
 		"fa-IR": "فردا",
+		"fr-FR": "Demain",
+		"id-ID": "Besok",
 		"it-IT": "Domani",
+		"ja-JP": "明日",
+		"ko-KO": "내일",
+		"pl-PL": "Jutro",
+		"pt-BR": "Amanhã",
 		"ru-RU": "Завтра",
+		"tr-TR": "Yarın",
+		"ua-UA": "Завтра",
+		"uz-UZ": "Ertaga",
+		"zh-CN": "明天",
 	},
 	COMMAND_TEXT_DAY_AFTER_TOMORROW: {
 		"de-DE": "Übermorgen",
 		"en-UK": "Day after tomorrow",
+		"en-US": "Day after tomorrow",
 		"es-ES": "Pasada mañana",
 		"fa-IR": "پس فردا",
+		"fr-FR": "Après-demain",
+		"id-ID": "Lusa",
 		"it-IT": "Dopo domani",
+		"ja-JP": "明後日",
+		"ko-KO": "모레",
+		"pl-PL": "Pojutrze",
+		"pt-BR": "Depois de amanhã",
 		"ru-RU": "Послезавтра",
+		"tr-TR": "Öbür gün",
+		"ua-UA": "Післязавтра",
+		"uz-UZ": "Indinga",
+		"zh-CN": "后天",
 	},
 	COMMAND_TEXT_THIS_WEEK: {
 		"de-DE": "Diese Woche",
 		"en-UK": "This week",
+		"en-US": "This week",
 		"es-ES": "Esta semana",
 		"fa-IR": "این هفته",
+		"fr-FR": "Cette semaine",
+		"id-ID": "Minggu ini",
 		"it-IT": "Questa settimana",
+		"ja-JP": "今週",
+		"ko-KO": "이번 주",
+		"pl-PL": "W tym tygodniu",
+		"pt-BR": "Esta semana",
 		"ru-RU": "На этой неделе",
+		"tr-TR": "Bu hafta",
+		"ua-UA": "Цього тижня",
+		"uz-UZ": "Shu hafta",
+		"zh-CN": "本周",
 	},
 	COMMAND_TEXT_YES_IT_HAS_RETURN_DEADLINE: {
 		"de-DE": "Ja, es hat eine Frist!",
@@ -1029,7 +1445,7 @@ Top 5 referrers for the last 100 new users will be shown here.`,
 
 Топ-5 источников последних 100 пользователей будут показаны здесь.`,
 	},
-	BUTTON_TEXT_CANCEL: {
+	ButtonTextCancel: {
 		"de-DE": "↩ Zurück",
 		"en-UK": "↩ Cancel",
 		"es-ES": "↩ Cancelar",
@@ -4058,7 +4474,7 @@ Il tuo codice di invito personale e': {{.InviteCode}}`,
 	},
 	EMAIL_INVITE_TEXT: {
 		"de-DE": `Hey {{.ToName}}, 
-		
+
 {{.FromName}} lädt dich ein die neue Schuldentracker App auszuprobieren - https://debtstracker.io/invite#id={{.InviteCode}}&telegram-bot={{.TgBot}}&{{.Utm}}
 
 Dein persönlicher Code lautet: {{.InviteCode}}`,
@@ -4095,7 +4511,7 @@ Il tuo codice di invito personale e': {{.InviteCode}}`,
 	},
 	EMAIL_INVITE_HTML: {
 		"de-DE": `<p>Hey {{.ToName}}, </p>
-		
+
 <p>{{.FromName}} lädt dich ein <a href="https://debtstracker.io/invite#id={{.InviteCode}}&telegram-bot={{.TgBot}}&{{.Utm}}">die neue Schuldentracker App auszuprobieren</a>.</p>
 
 <p>Dein persönlicher Code lautet: <b>{{.InviteCode}}</b></p>`,
