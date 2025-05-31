@@ -1982,7 +1982,7 @@ var TRANS = map[string]map[string]string{
 		"en-UK": "Referrers",
 		"en-US": "Referrers",
 		"es-ES": "Referentes",
-		"fa-IR": "معرف‌ها",
+		"fa-IR": "معرف\u200cها",
 		"fr-FR": "Référents",
 		"id-ID": "Referensi",
 		"it-IT": "Referenti",
@@ -2043,7 +2043,7 @@ Los 5 principales referentes de los últimos 100 nuevos usuarios se mostrarán a
 
 <pre>&lt;a href="%v"&gt;@%v&lt;/a&gt;</pre>
 
-این باید توسط کلاینت‌های تلگرام به این صورت نمایش داده شود: <a href="%v">@%v</a>
+این باید توسط کلاینت\u200cهای تلگرام به این صورت نمایش داده شود: <a href="%v">@%v</a>
 
 5 معرف برتر برای 100 کاربر جدید آخر در اینجا نشان داده خواهد شد.`,
 
@@ -2248,7 +2248,7 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 		"en-UK": "Groups",
 		"en-US": "Groups",
 		"es-ES": "Grupos",
-		"fa-IR": "گروه‌ها",
+		"fa-IR": "گروه\u200cها",
 		"fr-FR": "Groupes",
 		"id-ID": "Grup",
 		"it-IT": "Gruppi",
@@ -2267,7 +2267,7 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 		"en-UK": "Bills",
 		"en-US": "Bills",
 		"es-ES": "Facturas",
-		"fa-IR": "صورتحساب‌ها",
+		"fa-IR": "صورتحساب\u200cها",
 		"fr-FR": "Factures",
 		"id-ID": "Tagihan",
 		"it-IT": "Fatture",
@@ -2305,7 +2305,7 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 		"en-UK": "Settle bills",
 		"en-US": "Settle bills",
 		"es-ES": "Liquidar facturas",
-		"fa-IR": "تسویه صورتحساب‌ها",
+		"fa-IR": "تسویه صورتحساب\u200cها",
 		"fr-FR": "Régler les factures",
 		"id-ID": "Selesaikan tagihan",
 		"it-IT": "Saldare i conti",

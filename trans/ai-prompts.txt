@@ -1,0 +1,24 @@
+Add missing translations to var TRANS in trans/translations.go
+
+Do NOT check other files. Escape all Unicode formatting characters.
+
+Make sure errors reported by `golangci-lint run ./...` are fixed
+
+Proper order of locale keys in var TRANS, use it as a reference for all values:
+- "de-DE":
+- "en-UK":
+- "en-US":
+- "es-ES":
+- "fa-IR":
+- "fr-FR":
+- "id-ID":
+- "it-IT":
+- "ja-JP":
+- "ko-KO":
+- "pl-PL":
+- "pt-BR":
+- "ru-RU":
+- "tr-TR":
+- "ua-UA":
+- "uz-UZ":
+- "zh-CN":
