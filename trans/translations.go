@@ -2137,80 +2137,165 @@ Top 5 referrers for the last 100 new users will be shown here.`,
 	MESSAGE_TEXT_ASK_FOR_FEEDBACK: {
 		"de-DE": "Über ein kleines Feedback wie der Bot so ist, würden wir uns freuen. Es dauert nur ein paar Sekunden.",
 		"en-UK": "We would appreciate if tell us how we doing. It takes just few seconds.",
+		"en-US": "We would appreciate if tell us how we doing. It takes just few seconds.",
 		"es-ES": "Te agredecemos si valoras el funccionamiento de nuestro applicación. Te costará solo unos segundos.",
 		"fa-IR": "سپاسگزار خواهیم بود اگر به ما بگویید کارمان چطور بوده است. این تنها چند ثانیه زمان میبرد.",
+		"fr-FR": "Nous apprécierions si vous nous disiez comment nous allons. Cela ne prend que quelques secondes.",
+		"id-ID": "Kami akan menghargai jika memberi tahu kami bagaimana kami melakukannya. Ini hanya membutuhkan beberapa detik.",
 		"it-IT": "Ci farebbe piacere se lasciassi un voto per il nostro lavoro. Ti bastano solo alcuni secondi.",
+		"ja-JP": "私たちの仕事ぶりを教えていただければ幸いです。ほんの数秒で済みます。",
+		"ko-KO": "우리가 어떻게 하고 있는지 알려주시면 감사하겠습니다. 몇 초 밖에 걸리지 않습니다.",
+		"pl-PL": "Bylibyśmy wdzięczni, gdybyś powiedział nam, jak sobie radzimy. To zajmie tylko kilka sekund.",
+		"pt-BR": "Agradecemos se nos disser como estamos indo. Leva apenas alguns segundos.",
 		"ru-RU": "Будем признетельны если вы оцените работу нашего приложения. Это займёт всего несколько секунд.",
+		"tr-TR": "Nasıl yaptığımızı bize söylerseniz memnun oluruz. Sadece birkaç saniye sürer.",
+		"ua-UA": "Ми будемо вдячні, якщо ви розкажете нам, як ми працюємо. Це займе лише кілька секунд.",
+		"uz-UZ": "Qanday qilayotganimizni bizga aytsangiz, minnatdor bo'lardik. Bu atigi bir necha soniya vaqt oladi.",
+		"zh-CN": "如果您告诉我们我们的表现如何，我们将不胜感激。这只需要几秒钟。",
 	},
 	COMMAND_TEXT_GIVE_FEEDBACK: {
 		"de-DE": "Bewerte diesen Bot",
 		"en-UK": "Rate this bot",
+		"en-US": "Rate this bot",
 		"es-ES": "Valora a bot",
 		"fa-IR": "به این ربات امتیاز بدهید",
+		"fr-FR": "Évaluer ce bot",
+		"id-ID": "Nilai bot ini",
 		"it-IT": "Vota questo bot",
+		"ja-JP": "このボットを評価する",
+		"ko-KO": "이 봇 평가하기",
+		"pl-PL": "Oceń tego bota",
+		"pt-BR": "Avalie este bot",
 		"ru-RU": "Оценить приложение",
+		"tr-TR": "Bu botu değerlendir",
+		"ua-UA": "Оцінити цього бота",
+		"uz-UZ": "Bu botni baholang",
+		"zh-CN": "评价这个机器人",
 	},
 	COMMAND_TEXT_OPEN_STOREBOT_FOR_FEEDBACK: {
 		"de-DE": "Mache eine Bewertung auf @Storebot",
 		"en-UK": "Leave rating at @Storebot",
+		"en-US": "Leave rating at @Storebot",
 		"es-ES": "Valorar en @Storebot",
 		"fa-IR": "امتیاز خود را اینجا وارد کنید @Storebot",
+		"fr-FR": "Laisser une évaluation sur @Storebot",
+		"id-ID": "Tinggalkan peringkat di @Storebot",
 		"it-IT": "Lascia un voto a @Storebot",
+		"ja-JP": "@Storebotで評価を残す",
+		"ko-KO": "@Storebot에서 평가 남기기",
+		"pl-PL": "Zostaw ocenę na @Storebot",
+		"pt-BR": "Deixe sua avaliação no @Storebot",
 		"ru-RU": "Оценить на  @Storebot",
+		"tr-TR": "@Storebot'ta değerlendirme bırakın",
+		"ua-UA": "Залиште оцінку на @Storebot",
+		"uz-UZ": "@Storebot'da baho qoldiring",
+		"zh-CN": "在 @Storebot 上留下评分",
 	},
 	MESSAGE_TEXT_ON_REFUSED_TO_RATE: {
-		"ru-RU": `ОК, возможно вы смоежете поставить оценку в другой раз.
-
-	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
-
-	Так же будем признательны если вы предложите любые улучшения.
-	`,
-		/*------------------------------------------------------------*/
 		"de-DE": `Okay, vielleicht werden wir wann anders bewertet.
 
 	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
 
 	Ansonsten freuen wir uns immer zu hören, was man besser machen kann.
 	`,
-
 		"en-UK": `OK, maybe you can rate us another time.
 
 	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
 
 	We also will appreciate if you suggest any improvements.
 	`,
-		/*------------------------------------------------------------*/
+		"en-US": `OK, maybe you can rate us another time.
+
+	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
+
+	We also will appreciate if you suggest any improvements.
+	`,
 		"es-ES": `OK, Quizás puedas valorar en otro momento.
 
 	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
 
 	También te agredeceríamos si ofrecieras alguna mejora.
 	`,
-		/*------------------------------------------------------------*/
-
-		// TODO(IT): Google translated
-		"it-IT": `OK, forse ci puoi valutare un'altra volta.
-
-	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
-
-	Apprezzeremo anche se suggeriamo qualche miglioramento.
-	`,
-		/*------------------------------------------------------------*/
 		"fa-IR": `بسیار خوب، ممکن است شما بتوانید زمان دیگری به ما امتیاز بدهید.
 
 	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
 
 	همچنین سپاسگزار خواهیم بود اگر شما هرگونه امکان بهبود را با ما در میان بگذارید.
 	`,
-	},
-	MESSAGE_TEXT_ON_FEEDBACK_POSITIVE: {
-		"ru-RU": `Спасибо, мы очень старались!
+		"fr-FR": `OK, peut-être que vous pourrez nous évaluer une autre fois.
 
 	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
 
-	Так же будем признательны если вы <a suggest-idea>предложите улучшения</a>.
+	Nous apprécierons également si vous suggérez des améliorations.
 	`,
-		/*------------------------------------------------------------*/
+		"id-ID": `OK, mungkin Anda dapat menilai kami lain kali.
+
+	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
+
+	Kami juga akan menghargai jika Anda menyarankan perbaikan apa pun.
+	`,
+		"it-IT": `OK, forse ci puoi valutare un'altra volta.
+
+	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
+
+	Apprezzeremo anche se suggeriamo qualche miglioramento.
+	`,
+		"ja-JP": `OK、また今度評価してください。
+
+	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
+
+	改善点を提案していただければ幸いです。
+	`,
+		"ko-KO": `네, 다음에 평가해 주실 수 있을 것입니다.
+
+	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
+
+	개선 사항을 제안해 주시면 감사하겠습니다.
+	`,
+		"pl-PL": `OK, może ocenisz nas innym razem.
+
+	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
+
+	Będziemy również wdzięczni, jeśli zaproponujesz jakieś ulepszenia.
+	`,
+		"pt-BR": `OK, talvez você possa nos avaliar em outra ocasião.
+
+	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
+
+	Também agradeceremos se você sugerir melhorias.
+	`,
+		"ru-RU": `ОК, возможно вы смоежете поставить оценку в другой раз.
+
+	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
+
+	Так же будем признательны если вы предложите любые улучшения.
+	`,
+		"tr-TR": `Tamam, belki başka bir zaman bizi değerlendirebilirsiniz.
+
+	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
+
+	Herhangi bir iyileştirme önerirseniz de memnun oluruz.
+	`,
+		"ua-UA": `Гаразд, можливо, ви зможете оцінити нас іншим разом.
+
+	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
+
+	Ми також будемо вдячні, якщо ви запропонуєте будь-які покращення.
+	`,
+		"uz-UZ": `OK, balki boshqa safar bizni baholashingiz mumkin.
+
+	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
+
+	Agar siz biron bir yaxshilanishni taklif qilsangiz, biz ham minnatdor bo'lamiz.
+	`,
+		"zh-CN": `好的，也许您可以在另一个时间给我们评分。
+
+	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
+
+	如果您提出任何改进建议，我们也将不胜感激。
+	`,
+	},
+	MESSAGE_TEXT_ON_FEEDBACK_POSITIVE: {
 		"de-DE": `Danke, wir arbeiten hart dran!
 
 	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
@@ -2223,41 +2308,98 @@ Top 5 referrers for the last 100 new users will be shown here.`,
 
 	We also will appreciate if you <a suggest-idea>suggest improvements</a>.
 	`,
-		/*------------------------------------------------------------*/
+		"en-US": `Thanks, we worked hard!
+
+	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
+
+	We also will appreciate if you <a suggest-idea>suggest improvements</a>.
+	`,
 		"es-ES": `Gracias, hemos trabajado duro!
 
 	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
 
 	Te agradeceríamos si <a suggest-idea>propusieras alguna mejora</a>.
 	`,
-		/*------------------------------------------------------------*/
-
-		"it-IT": `GRAZIE MILLE, abbiamo lavoro duro!
-
-	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
-
-	Sarebbe ancora piu' apprezzatto se ci <a suggest-idea>suggerisci qualche miglioramento</a>.
-	`,
-		/*------------------------------------------------------------*/
 		"fa-IR": `ممنونیم، ما سخت کارکرده ایم!
 
 	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
 
 	ما همچنین سپاسگزار خواهیم بود اگر شما<a suggest-idea> هرگونه امکان بهبود را با ما در میان بگذارید </a>را.
 	`,
+		"fr-FR": `Merci, nous avons travaillé dur !
+
+	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
+
+	Nous apprécierons également si vous <a suggest-idea>suggérez des améliorations</a>.
+	`,
+		"id-ID": `Terima kasih, kami bekerja keras!
+
+	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
+
+	Kami juga akan menghargai jika Anda <a suggest-idea>menyarankan perbaikan</a>.
+	`,
+		"it-IT": `GRAZIE MILLE, abbiamo lavoro duro!
+
+	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
+
+	Sarebbe ancora piu' apprezzatto se ci <a suggest-idea>suggerisci qualche miglioramento</a>.
+	`,
+		"ja-JP": `ありがとうございます、私たちは一生懸命働きました！
+
+	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
+
+	<a suggest-idea>改善を提案</a>していただければ幸いです。
+	`,
+		"ko-KO": `감사합니다, 우리는 열심히 일했습니다!
+
+	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
+
+	<a suggest-idea>개선 사항을 제안</a>해 주시면 감사하겠습니다.
+	`,
+		"pl-PL": `Dziękujemy, ciężko pracowaliśmy!
+
+	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
+
+	Będziemy również wdzięczni, jeśli <a suggest-idea>zaproponujesz ulepszenia</a>.
+	`,
+		"pt-BR": `Obrigado, trabalhamos duro!
+
+	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
+
+	Também agradeceremos se você <a suggest-idea>sugerir melhorias</a>.
+	`,
+		"ru-RU": `Спасибо, мы очень старались!
+
+	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
+
+	Так же будем признательны если вы <a suggest-idea>предложите улучшения</a>.
+	`,
+		"tr-TR": `Teşekkürler, çok çalıştık!
+
+	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
+
+	<a suggest-idea>İyileştirmeler önerirseniz</a> de memnun oluruz.
+	`,
+		"ua-UA": `Дякуємо, ми старанно працювали!
+
+	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
+
+	Ми також будемо вдячні, якщо ви <a suggest-idea>запропонуєте покращення</a>.
+	`,
+		"uz-UZ": `Rahmat, biz qattiq ishladik!
+
+	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
+
+	Agar siz <a suggest-idea>yaxshilanishlarni taklif qilsangiz</a>, biz ham minnatdor bo'lamiz.
+	`,
+		"zh-CN": `谢谢，我们努力工作！
+
+	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
+
+	如果您<a suggest-idea>提出改进建议</a>，我们也将不胜感激。
+	`,
 	},
 	MESSAGE_TEXT_YOU_CAN_HELP_BY: {
-		"ru-RU": `
-	Вы нам очень поможете если:
-
-	* Поставите нам 5⭐ в <a storebot>каталоге ботов</a>.
-
-	* Расскажите о боте своим друзьям.
-	Например в <a share-vk>ВКонтакте</a>, <a share-fb>Facebook</a> или <a share-twitter>Twitter</a>.
-
-* Поддержите дальнейшую разработку - <a href ="https://goo.gl/Qhh0yL">€2 через PayPal</a>
-`,
-		/*------------------------------------------------------------*/
 		"de-DE": `
 Es gibt viele Wege uns zu helfen:
 
@@ -2268,7 +2410,6 @@ Du könntest es auf <a share-fb>Facebook</a> posten oder auf <a share-twitter>Tw
 
 * Ansonsten auch gerne eine kleine Spende - <a href = "https://goo.gl/Qhh0yL">€2 via PayPal</a> (<i>about $2.2</i>)
 `,
-		/*------------------------------------------------------------*/
 		"en-UK": `
 You can help us a lot if you:
 
@@ -2279,7 +2420,16 @@ For example at <a share-fb>Facebook</a> or <a share-twitter>Twitter</a>.
 
 * Support further development - <a href = "https://goo.gl/Qhh0yL">€2 via PayPal</a> (<i>about $2.2</i>)
 `,
-		/*------------------------------------------------------------*/
+		"en-US": `
+You can help us a lot if you:
+
+* Give us 5⭐ at <a storebot>directory of bots</a>.
+
+* Tell about the app to your friends.
+For example at <a share-fb>Facebook</a> or <a share-twitter>Twitter</a>.
+
+* Support further development - <a href = "https://goo.gl/Qhh0yL">€2 via PayPal</a> (<i>about $2.2</i>)
+`,
 		"es-ES": `
 Nos ayudarías mucho si:
 
@@ -2290,9 +2440,6 @@ Por ejemplo <a share-fb>Facebook</a> o <a share-twitter>Twitter</a>.
 
 * Apoyaras el siguiente trabajo - <a href = "https://goo.gl/Qhh0yL">€2 vía PayPal</a> (<i>about $2.2</i>)
 `,
-		/*------------------------------------------------------------*/
-
-		// TODO(FA)
 		"fa-IR": `:شما به ما کمک بسیاری می کنید اگر
 
 * ثبت بازخورد مثبت در <a storebot>دایرکتوری روبات ها</a>.
@@ -2301,231 +2448,631 @@ Por ejemplo <a share-fb>Facebook</a> o <a share-twitter>Twitter</a>.
 برای مثال در <a share-fb>فیسبوک</a> یا <a share-twitter>توئیتر</a>.
 
 * از توسعه بیشتر برنامه پشتیبانی کنید - <a href = "https://goo.gl/Qhh0yL">€2 از طریق پی پال</a> (<i>$2.2 حدود </i>)`,
+		"fr-FR": `
+Vous pouvez nous aider beaucoup si vous:
 
-		// TODO(IT)
+* Nous donnez 5⭐ au <a storebot>répertoire des bots</a>.
+
+* Parlez de l'application à vos amis.
+Par exemple sur <a share-fb>Facebook</a> ou <a share-twitter>Twitter</a>.
+
+* Soutenez le développement ultérieur - <a href = "https://goo.gl/Qhh0yL">€2 via PayPal</a> (<i>environ $2.2</i>)
+`,
+		"id-ID": `
+Anda dapat membantu kami banyak jika Anda:
+
+* Beri kami 5⭐ di <a storebot>direktori bot</a>.
+
+* Ceritakan tentang aplikasi kepada teman-teman Anda.
+Misalnya di <a share-fb>Facebook</a> atau <a share-twitter>Twitter</a>.
+
+* Dukung pengembangan lebih lanjut - <a href = "https://goo.gl/Qhh0yL">€2 melalui PayPal</a> (<i>sekitar $2.2</i>)
+`,
 		"it-IT": `
-		Ci aiuteresti moltissimo se:
+Ci aiuteresti moltissimo se:
 
-		  * Lasci un feedback positivo 5⭐ alla <a storebot>pagina del bot</a>.
+* Lasci un feedback positivo 5⭐ alla <a storebot>pagina del bot</a>.
 
-		  * Raccontare dell'app ai tuoi amici.
-		    Per esempio su <a share-fb>Facebook</a> o su <a share-twitter>Twitter</a>.
+* Raccontare dell'app ai tuoi amici.
+Per esempio su <a share-fb>Facebook</a> o su <a share-twitter>Twitter</a>.
 
-		  * Supporta ulteriormente lo sviluppo del bot - <a href="https://goo.gl/Qhh0yL">2€ tramite PayPal</a> (<i>circa $2.2</i>)
-		`,
+* Supporta ulteriormente lo sviluppo del bot - <a href="https://goo.gl/Qhh0yL">2€ tramite PayPal</a> (<i>circa $2.2</i>)
+`,
+		"ja-JP": `
+あなたが以下のことをしてくれると、私たちにとって大きな助けになります：
+
+* <a storebot>ボットディレクトリ</a>で5⭐を付けてください。
+
+* アプリについて友達に教えてください。
+例えば<a share-fb>Facebook</a>や<a share-twitter>Twitter</a>で。
+
+* さらなる開発をサポートする - <a href = "https://goo.gl/Qhh0yL">PayPalで€2</a> (<i>約$2.2</i>)
+`,
+		"ko-KO": `
+다음과 같은 방법으로 많은 도움을 주실 수 있습니다:
+
+* <a storebot>봇 디렉토리</a>에서 5⭐을 주세요.
+
+* 앱에 대해 친구들에게 알려주세요.
+예를 들어 <a share-fb>Facebook</a> 또는 <a share-twitter>Twitter</a>에서.
+
+* 추가 개발 지원 - <a href = "https://goo.gl/Qhh0yL">PayPal을 통해 €2</a> (<i>약 $2.2</i>)
+`,
+		"pl-PL": `
+Możesz nam bardzo pomóc, jeśli:
+
+* Dasz nam 5⭐ w <a storebot>katalogu botów</a>.
+
+* Opowiesz o aplikacji swoim znajomym.
+Na przykład na <a share-fb>Facebooku</a> lub <a share-twitter>Twitterze</a>.
+
+* Wesprzyj dalszy rozwój - <a href = "https://goo.gl/Qhh0yL">€2 przez PayPal</a> (<i>około $2.2</i>)
+`,
+		"pt-BR": `
+Você pode nos ajudar muito se:
+
+* Nos der 5⭐ no <a storebot>diretório de bots</a>.
+
+* Contar sobre o aplicativo para seus amigos.
+Por exemplo, no <a share-fb>Facebook</a> ou <a share-twitter>Twitter</a>.
+
+* Apoiar o desenvolvimento adicional - <a href = "https://goo.gl/Qhh0yL">€2 via PayPal</a> (<i>cerca de $2.2</i>)
+`,
+		"ru-RU": `
+	Вы нам очень поможете если:
+
+	* Поставите нам 5⭐ в <a storebot>каталоге ботов</a>.
+
+	* Расскажите о боте своим друзьям.
+	Например в <a share-vk>ВКонтакте</a>, <a share-fb>Facebook</a> или <a share-twitter>Twitter</a>.
+
+* Поддержите дальнейшую разработку - <a href ="https://goo.gl/Qhh0yL">€2 через PayPal</a>
+`,
+		"tr-TR": `
+Şunları yaparsanız bize çok yardımcı olabilirsiniz:
+
+* <a storebot>bot dizininde</a> bize 5⭐ verin.
+
+* Uygulama hakkında arkadaşlarınıza anlatın.
+Örneğin <a share-fb>Facebook</a> veya <a share-twitter>Twitter</a>'da.
+
+* Daha fazla geliştirmeyi destekleyin - <a href = "https://goo.gl/Qhh0yL">PayPal üzerinden €2</a> (<i>yaklaşık $2.2</i>)
+`,
+		"ua-UA": `
+Ви можете дуже допомогти нам, якщо:
+
+* Дасте нам 5⭐ у <a storebot>каталозі ботів</a>.
+
+* Розкажете про додаток своїм друзям.
+Наприклад, у <a share-fb>Facebook</a> або <a share-twitter>Twitter</a>.
+
+* Підтримаєте подальший розвиток - <a href = "https://goo.gl/Qhh0yL">€2 через PayPal</a> (<i>приблизно $2.2</i>)
+`,
+		"uz-UZ": `
+Agar quyidagilarni qilsangiz, bizga juda yordam bergan bo'lasiz:
+
+* <a storebot>botlar katalogida</a> bizga 5⭐ bering.
+
+* Ilova haqida do'stlaringizga ayting.
+Masalan, <a share-fb>Facebook</a> yoki <a share-twitter>Twitter</a>da.
+
+* Keyingi rivojlanishni qo'llab-quvvatlang - <a href = "https://goo.gl/Qhh0yL">PayPal orqali €2</a> (<i>taxminan $2.2</i>)
+`,
+		"zh-CN": `
+如果您：
+
+* 在<a storebot>机器人目录</a>中给我们5⭐。
+
+* 向您的朋友介绍这个应用程序。
+例如在<a share-fb>Facebook</a>或<a share-twitter>Twitter</a>上。
+
+* 支持进一步开发 - <a href = "https://goo.gl/Qhh0yL">通过PayPal支付€2</a> (<i>约$2.2</i>)
+`,
 	},
 	MESSAGE_TEXT_COUNTERPARTY_HAS_EMPTY_BALANCE: {
 		"de-DE": `Du bist quitt mit %v`,
 		"en-UK": `Balance is empty for %v`,
+		"en-US": `Balance is empty for %v`,
 		"es-ES": `El balance es cero para %v`,
 		"fa-IR": `تراز خالی است برای %v`,
+		"fr-FR": `Le solde est vide pour %v`,
+		"id-ID": `Saldo kosong untuk %v`,
 		"it-IT": `Non hai alcun credito o debito con %v`,
+		"ja-JP": `%vの残高は空です`,
+		"ko-KO": `%v에 대한 잔액이 비어 있습니다`,
+		"pl-PL": `Saldo jest puste dla %v`,
+		"pt-BR": `Saldo está vazio para %v`,
 		"ru-RU": `Нулевой баланс для %v`,
+		"tr-TR": `%v için bakiye boş`,
+		"ua-UA": `Баланс порожній для %v`,
+		"uz-UZ": `%v uchun balans bo'sh`,
+		"zh-CN": `%v的余额为空`,
 	},
 	MESSAGE_TEXT_ASK_TO_TRANSLATE: {
-		"ru-RU": `Хотите чтобы наш бот разговаривал на другом языке? Вы можете <a>помочь с переводом</a>.`,
 		"de-DE": `Möchtest du den Bot in einer anderen Sprache? Du kannst beim <a>Übersetzen helfen</a>.`,
 		"en-UK": `Do you want our bot to talk in other language? You can <a>help with translation</a>.`,
+		"en-US": `Do you want our bot to talk in other language? You can <a>help with translation</a>.`,
 		"es-ES": `¿Te gustaría que nuestro bot hablara en otro idioma? Puedes <a>ayudar con traducción</a>.`,
-
 		"fa-IR": `آیا می خواهید ربات ما به زبان دیگری صحبت کند؟ شما می توانید <a>با ترجمه به ما کمک کنید</a>.`,
-
+		"fr-FR": `Voulez-vous que notre bot parle dans une autre langue? Vous pouvez <a>aider à la traduction</a>.`,
+		"id-ID": `Apakah Anda ingin bot kami berbicara dalam bahasa lain? Anda dapat <a>membantu dengan terjemahan</a>.`,
 		"it-IT": `Vuoi che il nostro bot parli altre lingue? Aiuta con la <a>traduzione</a>.`,
+		"ja-JP": `私たちのボットが他の言語で話すことを望みますか？あなたは<a>翻訳を手伝う</a>ことができます。`,
+		"ko-KO": `우리 봇이 다른 언어로 말하기를 원하십니까? <a>번역을 도울 수 있습니다</a>.`,
+		"pl-PL": `Czy chcesz, aby nasz bot mówił w innym języku? Możesz <a>pomóc w tłumaczeniu</a>.`,
+		"pt-BR": `Você quer que nosso bot fale em outro idioma? Você pode <a>ajudar com a tradução</a>.`,
+		"ru-RU": `Хотите чтобы наш бот разговаривал на другом языке? Вы можете <a>помочь с переводом</a>.`,
+		"tr-TR": `Botumuzun başka bir dilde konuşmasını ister misiniz? <a>Çeviriye yardımcı olabilirsiniz</a>.`,
+		"ua-UA": `Хочете, щоб наш бот розмовляв іншою мовою? Ви можете <a>допомогти з перекладом</a>.`,
+		"uz-UZ": `Botimiz boshqa tilda gaplashishini xohlaysizmi? Siz <a>tarjima qilishda yordam</a> berishingiz mumkin.`,
+		"zh-CN": `您想要我们的机器人用其他语言交谈吗？您可以<a>帮助翻译</a>。`,
 	},
 	MESSAGE_TEXT_ON_FEEDBACK_NEUTRAL: {
-		"ru-RU": `Чтож, мы очень старались. Ваша оценка будет передана разработчикам.
-
-Может быть вы <a submit-bug>сообщите нам что не работает</a> или подскажите <a suggest-idea>как можно улучшить</a>?`,
-		/*------------------------------------------------------------*/
 		"de-DE": `Gut, wir geben uns Mühe. Deine Rückmeldung wird an die Entwickler weitergeleitet.
 
 Vielleicht willst du <a submit-bug>einen Fehler melden</a> oder <a suggest-idea>eine Verbesserung vorschlagen</a>?`,
-		/*------------------------------------------------------------*/
 		"en-UK": `Well, we worked hard. You feedback will be passed to developers.
 
 Maybe you can <a submit-bug>report your issue</a> or <a suggest-idea>suggest how we can improve</a>?`,
-		/*------------------------------------------------------------*/
+		"en-US": `Well, we worked hard. You feedback will be passed to developers.
+
+Maybe you can <a submit-bug>report your issue</a> or <a suggest-idea>suggest how we can improve</a>?`,
 		"es-ES": `Bueno, hemos trabajado duro. Tu opinión se pasará a los creadores.
 
 Quizás puedas <a submit-bug>informarnos de algún problema</a> o <a suggest-idea>proponernos qué podríamos mejorar</a>?`,
-		/*------------------------------------------------------------*/
-
 		"fa-IR": `خب، ما سخت کارکردیم. بازخورد شما به توسعه دهندگان برنامه منعکس می شود.
 
 شما می توانید <a submit-bug>مشکل خود را گزارش دهید</a> یا <a suggest-idea>پیشنهاد دهید چطور میتوانیم بهبود ایجاد کنیم</a>?`,
+		"fr-FR": `Eh bien, nous avons travaillé dur. Vos commentaires seront transmis aux développeurs.
 
+Peut-être pouvez-vous <a submit-bug>signaler votre problème</a> ou <a suggest-idea>suggérer comment nous pouvons nous améliorer</a>?`,
+		"id-ID": `Yah, kami bekerja keras. Umpan balik Anda akan diteruskan ke pengembang.
+
+Mungkin Anda dapat <a submit-bug>melaporkan masalah Anda</a> atau <a suggest-idea>menyarankan bagaimana kami dapat meningkatkan</a>?`,
 		"it-IT": `Bene, il nostro lavoro non e' andato in vano. Il tuo feedback sara' inoltrato agli sviluppatori.
 
 Per caso vuoi anche <a submit-bug>segnalare un problema</a> oppure <a suggest-idea>suggerire come possiamo migliorare</a>?`,
+		"ja-JP": `まあ、私たちは一生懸命働きました。あなたのフィードバックは開発者に伝えられます。
+
+<a submit-bug>問題を報告</a>したり、<a suggest-idea>改善方法を提案</a>したりすることもできますか？`,
+		"ko-KO": `음, 우리는 열심히 일했습니다. 귀하의 피드백은 개발자에게 전달됩니다.
+
+<a submit-bug>문제를 보고</a>하거나 <a suggest-idea>개선 방법을 제안</a>할 수 있습니까?`,
+		"pl-PL": `Cóż, ciężko pracowaliśmy. Twoja opinia zostanie przekazana deweloperom.
+
+Może możesz <a submit-bug>zgłosić swój problem</a> lub <a suggest-idea>zasugerować, jak możemy się poprawić</a>?`,
+		"pt-BR": `Bem, trabalhamos duro. Seu feedback será passado para os desenvolvedores.
+
+Talvez você possa <a submit-bug>relatar seu problema</a> ou <a suggest-idea>sugerir como podemos melhorar</a>?`,
+		"ru-RU": `Чтож, мы очень старались. Ваша оценка будет передана разработчикам.
+
+Может быть вы <a submit-bug>сообщите нам что не работает</a> или подскажите <a suggest-idea>как можно улучшить</a>?`,
+		"tr-TR": `Eh, çok çalıştık. Geri bildiriminiz geliştiricilere iletilecektir.
+
+Belki <a submit-bug>sorununuzu bildirebilir</a> veya <a suggest-idea>nasıl geliştirebileceğimizi önerebilirsiniz</a>?`,
+		"ua-UA": `Ну, ми старанно працювали. Ваш відгук буде переданий розробникам.
+
+Можливо, ви можете <a submit-bug>повідомити про свою проблему</a> або <a suggest-idea>запропонувати, як ми можемо покращити</a>?`,
+		"uz-UZ": `Xo'sh, biz qattiq ishladik. Sizning fikr-mulohazalaringiz ishlab chiqaruvchilarga yetkaziladi.
+
+Balki siz <a submit-bug>muammoingizni xabar qilishingiz</a> yoki <a suggest-idea>qanday yaxshilashimiz mumkinligini taklif qilishingiz</a> mumkin?`,
+		"zh-CN": `嗯，我们努力工作。您的反馈将传递给开发人员。
+
+也许您可以<a submit-bug>报告您的问题</a>或<a suggest-idea>建议我们如何改进</a>？`,
 	},
 	MESSAGE_TEXT_ON_FEEDBACK_NEGATIVE: {
 		"de-DE": `Das tut uns sehr leid. Vielleicht willst du uns <a submit-bug>einen Fehler melden</a> oder <a suggest-idea>eine Verbesserung vorschlagen</a>?`,
 		"en-UK": `We are very sorry. Maybe you can <a submit-bug>let us know what is wrong</a> or <a suggest-idea>suggest how we can improve</a>?`,
-		/*------------------------------------------------------------*/
+		"en-US": `We are very sorry. Maybe you can <a submit-bug>let us know what is wrong</a> or <a suggest-idea>suggest how we can improve</a>?`,
 		"es-ES": `Lo sentimos mucho. Igual podrías <a submit-bug>decirnos qué no funcciona bien</a> o <a suggest-idea>proponernos cómo podemos mejorarlo</a>?`,
-		/*------------------------------------------------------------*/
-
 		"fa-IR": `ما بسیار متاسفیم. شما می توانید <a submit-bug>به ما بگویید مشکلتان چیست</a> یا <a suggest-idea>پیشنهاد دهید چطور میتوانیم بهبود ایجاد کنیم</a>?`,
-
+		"fr-FR": `Nous sommes vraiment désolés. Peut-être pouvez-vous <a submit-bug>nous faire savoir ce qui ne va pas</a> ou <a suggest-idea>suggérer comment nous pouvons nous améliorer</a>?`,
+		"id-ID": `Kami sangat menyesal. Mungkin Anda dapat <a submit-bug>memberi tahu kami apa yang salah</a> atau <a suggest-idea>menyarankan bagaimana kami dapat meningkatkan</a>?`,
 		"it-IT": `Ci dispiace molto. Potresti farci sapere<a submit-bug>cosa non ti e' piaciuto</a> oppure <a suggest-idea>suggerirci come possiamo migliorare</a>?`,
+		"ja-JP": `大変申し訳ありません。<a submit-bug>何が問題かを教えていただく</a>か、<a suggest-idea>改善方法を提案していただく</a>ことはできますか？`,
+		"ko-KO": `매우 죄송합니다. <a submit-bug>무엇이 잘못되었는지 알려주시거나</a> <a suggest-idea>개선 방법을 제안</a>해 주실 수 있습니까?`,
+		"pl-PL": `Bardzo nam przykro. Może możesz <a submit-bug>dać nam znać, co jest nie tak</a> lub <a suggest-idea>zasugerować, jak możemy się poprawić</a>?`,
+		"pt-BR": `Lamentamos muito. Talvez você possa <a submit-bug>nos informar o que está errado</a> ou <a suggest-idea>sugerir como podemos melhorar</a>?`,
 		"ru-RU": `Нам очень стыдно. Может быть вы <a submit-bug>подскажите что не так</a> или <a suggest-idea>предложите усовершенствования</a>?`,
-		/*------------------------------------------------------------*/
+		"tr-TR": `Çok üzgünüz. Belki <a submit-bug>neyin yanlış olduğunu bize bildirebilir</a> veya <a suggest-idea>nasıl geliştirebileceğimizi önerebilirsiniz</a>?`,
+		"ua-UA": `Нам дуже шкода. Можливо, ви можете <a submit-bug>повідомити нам, що не так</a> або <a suggest-idea>запропонувати, як ми можемо покращити</a>?`,
+		"uz-UZ": `Juda uzr so'raymiz. Balki siz <a submit-bug>nima noto'g'ri ekanligini bizga aytib berishingiz</a> yoki <a suggest-idea>qanday yaxshilashimiz mumkinligini taklif qilishingiz</a> mumkin?`,
+		"zh-CN": `我们非常抱歉。也许您可以<a submit-bug>告诉我们哪里出了问题</a>或<a suggest-idea>建议我们如何改进</a>？`,
 	},
 	COMMAND_TEXT_ASK_FOR_FEEDBACK: {
 		"de-DE": "Bitte bewerte unsere App",
 		"en-UK": "Please rate our app",
+		"en-US": "Please rate our app",
 		"es-ES": "Por favor valora nuestro app",
 		"fa-IR": "لطفاً به برنامه ما امتیاز دهید",
+		"fr-FR": "Veuillez évaluer notre application",
+		"id-ID": "Silakan nilai aplikasi kami",
 		"it-IT": "Per favore vota il nostro bot",
+		"ja-JP": "アプリを評価してください",
+		"ko-KO": "앱을 평가해 주세요",
+		"pl-PL": "Oceń naszą aplikację",
+		"pt-BR": "Por favor, avalie nosso aplicativo",
 		"ru-RU": "Оцените наше приложение?",
+		"tr-TR": "Lütfen uygulamamızı değerlendirin",
+		"ua-UA": "Будь ласка, оцініть наш додаток",
+		"uz-UZ": "Iltimos, ilovamizni baholang",
+		"zh-CN": "请评价我们的应用",
 	},
 	COMMAND_TEXT_FEEDBACK_POSITIVE: {
 		"de-DE": "Ja, es ist eine tolle App!",
 		"en-UK": "Yes, it's a great app!",
+		"en-US": "Yes, it's a great app!",
 		"es-ES": "¡Sí, es una app fantástica!",
 		"fa-IR": "بله، این برنامه عالی است",
+		"fr-FR": "Oui, c'est une excellente application !",
+		"id-ID": "Ya, ini aplikasi yang bagus!",
 		"it-IT": "Si, e' un app fantastica!",
+		"ja-JP": "はい、素晴らしいアプリです！",
+		"ko-KO": "네, 훌륭한 앱입니다!",
+		"pl-PL": "Tak, to świetna aplikacja!",
+		"pt-BR": "Sim, é um ótimo aplicativo!",
 		"ru-RU": "Да, отличное приложение!",
+		"tr-TR": "Evet, harika bir uygulama!",
+		"ua-UA": "Так, це чудовий додаток!",
+		"uz-UZ": "Ha, bu ajoyib ilova!",
+		"zh-CN": "是的，这是一个很棒的应用！",
 	},
 	COMMAND_TEXT_FEEDBACK_NEUTRAL: {
 		"de-DE": "Nicht schlecht, aber könnte besser sein",
 		"en-UK": "Not bad but can be better.",
+		"en-US": "Not bad but can be better.",
 		"es-ES": "No está mal, pero podría ser mejor.",
 		"fa-IR": "بد نیست ولی می تواند بهتر باشد.",
+		"fr-FR": "Pas mal mais peut être amélioré.",
+		"id-ID": "Tidak buruk tapi bisa lebih baik.",
 		"it-IT": "Non male ma potrebbe esser migliore.",
+		"ja-JP": "悪くないですが、もっと良くなる可能性があります。",
+		"ko-KO": "나쁘지 않지만 더 좋아질 수 있습니다.",
+		"pl-PL": "Niezły, ale może być lepszy.",
+		"pt-BR": "Não é ruim, mas pode ser melhor.",
 		"ru-RU": "Неплохо, но можно лучше.",
+		"tr-TR": "Fena değil ama daha iyi olabilir.",
+		"ua-UA": "Непогано, але може бути краще.",
+		"uz-UZ": "Yomon emas, lekin yaxshiroq bo'lishi mumkin.",
+		"zh-CN": "不错，但可以更好。",
 	},
 	COMMAND_TEXT_FEEDBACK_NEGATIVE: {
 		"de-DE": "Ich mag sie nicht",
 		"en-UK": "Don't like it",
+		"en-US": "Don't like it",
 		"es-ES": "No me gusta",
 		"fa-IR": "از این برنامه را نمی پسندم",
+		"fr-FR": "Je n'aime pas",
+		"id-ID": "Tidak suka",
 		"it-IT": "Non mi piace",
+		"ja-JP": "好きではない",
+		"ko-KO": "마음에 들지 않음",
+		"pl-PL": "Nie lubię tego",
+		"pt-BR": "Não gosto",
 		"ru-RU": "Не нравится",
+		"tr-TR": "Beğenmedim",
+		"ua-UA": "Не подобається",
+		"uz-UZ": "Yoqmadi",
+		"zh-CN": "不喜欢",
 	},
 	COMMAND_TEXT_FEEDBACK_NOT_READY: {
 		"de-DE": "Ich bin mir noch unsicher",
 		"en-UK": "Not decided yet",
+		"en-US": "Not decided yet",
 		"es-ES": "Estoy aún indeciso",
 		"fa-IR": "هنوز تصمیم نگرفته ام.",
+		"fr-FR": "Pas encore décidé",
+		"id-ID": "Belum memutuskan",
 		"it-IT": "Sono indeciso",
+		"ja-JP": "まだ決めていません",
+		"ko-KO": "아직 결정하지 않았습니다",
+		"pl-PL": "Jeszcze nie zdecydowałem",
+		"pt-BR": "Ainda não decidi",
 		"ru-RU": "Пока не понятно",
+		"tr-TR": "Henüz karar vermedim",
+		"ua-UA": "Ще не вирішив",
+		"uz-UZ": "Hali qaror qabul qilinmagan",
+		"zh-CN": "尚未决定",
 	},
 	MESSAGE_TEXT_SETTINGS: {
 		"de-DE": "Was willst du ändern?",
 		"en-UK": "What do you want to adjust?",
+		"en-US": "What do you want to adjust?",
 		"es-ES": "¿Qué te gustaría modificar?",
 		"fa-IR": "می خواهید چه چیزی را تنظیم کنید؟",
+		"fr-FR": "Que voulez-vous ajuster ?",
+		"id-ID": "Apa yang ingin Anda sesuaikan?",
 		"it-IT": "Cosa vuoi modificare?",
+		"ja-JP": "何を調整したいですか？",
+		"ko-KO": "무엇을 조정하고 싶으신가요?",
+		"pl-PL": "Co chcesz dostosować?",
+		"pt-BR": "O que você deseja ajustar?",
 		"ru-RU": "Что будем настраивать?",
+		"tr-TR": "Neyi ayarlamak istiyorsunuz?",
+		"ua-UA": "Що ви хочете налаштувати?",
+		"uz-UZ": "Nimani sozlamoqchisiz?",
+		"zh-CN": "您想调整什么？",
 	},
 	MT_NO_OUTSTANDING_TRANSFERS: {
-		"de-DE": "", // TODO(DE)
+		"de-DE": `Sie versuchen, einen Rückgabedatensatz zu erstellen, aber es gibt keine ausstehenden Schulden.
+
+Wenn Sie glauben, dass dies ein Fehler ist, teilen Sie uns dies bitte in @DebtsTrackerGroup mit.`,
 		"en-UK": `You are trying to create return record but there are no outstanding debts.
 
 If you believe this is a mistale please let us know in @DebtsTrackerGroup.`,
-		"es-ES": "", // TODO(ES)
-		"fa-IR": "", // TODO(FA)
-		"it-IT": "", // TODO(IT)
+		"en-US": `You are trying to create return record but there are no outstanding debts.
+
+If you believe this is a mistale please let us know in @DebtsTrackerGroup.`,
+		"es-ES": `Estás intentando crear un registro de devolución pero no hay deudas pendientes.
+
+Si crees que esto es un error, háganoslo saber en @DebtsTrackerGroup.`,
+		"fa-IR": `شما در حال تلاش برای ایجاد سابقه بازگشت هستید اما هیچ بدهی معوقه ای وجود ندارد.
+
+اگر فکر می کنید این یک اشتباه است، لطفاً به ما در @DebtsTrackerGroup اطلاع دهید.`,
+		"fr-FR": `Vous essayez de créer un enregistrement de retour mais il n'y a pas de dettes en cours.
+
+Si vous pensez qu'il s'agit d'une erreur, veuillez nous en informer dans @DebtsTrackerGroup.`,
+		"id-ID": `Anda mencoba membuat catatan pengembalian tetapi tidak ada hutang yang belum dibayar.
+
+Jika Anda yakin ini adalah kesalahan, beri tahu kami di @DebtsTrackerGroup.`,
+		"it-IT": `Stai cercando di creare un record di restituzione ma non ci sono debiti in sospeso.
+
+Se ritieni che si tratti di un errore, ti preghiamo di farcelo sapere in @DebtsTrackerGroup.`,
+		"ja-JP": `返却記録を作成しようとしていますが、未払いの借金はありません。
+
+これが間違いだと思われる場合は、@DebtsTrackerGroupでお知らせください。`,
+		"ko-KO": `반환 기록을 생성하려고 하지만 미결제 부채가 없습니다.
+
+이것이 실수라고 생각되면 @DebtsTrackerGroup에서 알려주십시오.`,
+		"pl-PL": `Próbujesz utworzyć rekord zwrotu, ale nie ma zaległych długów.
+
+Jeśli uważasz, że to pomyłka, daj nam znać w @DebtsTrackerGroup.`,
+		"pt-BR": `Você está tentando criar um registro de devolução, mas não há dívidas pendentes.
+
+Se você acredita que isso é um erro, por favor, nos avise em @DebtsTrackerGroup.`,
 		"ru-RU": `Вы пытаетесь создать запись о возврате долга, но мы не нашли не закрытых долгов.
 
 Если вы считаете что это ошибка пожалуйста дайте нам знать в @DebtsTrackerGroup.`,
+		"tr-TR": `İade kaydı oluşturmaya çalışıyorsunuz ancak bekleyen borç bulunmamaktadır.
+
+Bunun bir hata olduğunu düşünüyorsanız, lütfen @DebtsTrackerGroup'ta bize bildirin.`,
+		"ua-UA": `Ви намагаєтеся створити запис про повернення, але немає непогашених боргів.
+
+Якщо ви вважаєте, що це помилка, будь ласка, повідомте нам у @DebtsTrackerGroup.`,
+		"uz-UZ": `Siz qaytarish yozuvini yaratmoqchi bo'lyapsiz, lekin to'lanmagan qarzlar yo'q.
+
+Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.`,
+		"zh-CN": `您正在尝试创建退款记录，但没有未偿还的债务。
+
+如果您认为这是一个错误，请在 @DebtsTrackerGroup 中告诉我们。`,
 	},
 	MT_ATTEMPT_TO_CREATE_DEBT_WITH_INTEREST_AFFECTING_OUTSTANDING: {
-		"de-DE": "", // TODO(DE)
+		"de-DE": "Sie versuchen, eine Schuld mit Zinsen zu erstellen, die sich auf ausstehende Überweisungen auswirken wird. Bitte schließen Sie diese zuerst.",
 		"en-UK": "You are trying to create a debt with interest that will affect outstanding transfers. Please close them first.",
-		"es-ES": "", // TODO(ES)
-		"fa-IR": "", // TODO(FA)
-		"it-IT": "", // TODO(IT)
+		"en-US": "You are trying to create a debt with interest that will affect outstanding transfers. Please close them first.",
+		"es-ES": "Estás intentando crear una deuda con intereses que afectará a las transferencias pendientes. Por favor, ciérralas primero.",
+		"fa-IR": "شما در حال تلاش برای ایجاد بدهی با بهره هستید که بر انتقال های معوق تأثیر می گذارد. لطفا ابتدا آنها را ببندید.",
+		"fr-FR": "Vous essayez de créer une dette avec intérêt qui affectera les transferts en cours. Veuillez les fermer d'abord.",
+		"id-ID": "Anda mencoba membuat hutang dengan bunga yang akan memengaruhi transfer yang belum diselesaikan. Harap tutup terlebih dahulu.",
+		"it-IT": "Stai cercando di creare un debito con interessi che influenzerà i trasferimenti in sospeso. Per favore, chiudili prima.",
+		"ja-JP": "未決済の送金に影響する利息付きの借金を作成しようとしています。まずそれらを閉じてください。",
+		"ko-KO": "미결제 송금에 영향을 미치는 이자가 있는 부채를 만들려고 합니다. 먼저 그것들을 닫으십시오.",
+		"pl-PL": "Próbujesz utworzyć dług z odsetkami, który wpłynie na nierozliczone przelewy. Proszę najpierw je zamknąć.",
+		"pt-BR": "Você está tentando criar uma dívida com juros que afetará transferências pendentes. Por favor, feche-as primeiro.",
 		"ru-RU": "Вы пытаетесь создать запись о долге с процентами которая затронет незакрытые долги. Пожалуйста закройте их сначала.",
+		"tr-TR": "Bekleyen transferleri etkileyecek faizli bir borç oluşturmaya çalışıyorsunuz. Lütfen önce onları kapatın.",
+		"ua-UA": "Ви намагаєтеся створити борг з відсотками, який вплине на невиконані перекази. Будь ласка, спочатку закрийте їх.",
+		"uz-UZ": "Siz to'lanmagan o'tkazmalarga ta'sir qiladigan foizli qarz yaratmoqchisiz. Iltimos, avval ularni yoping.",
+		"zh-CN": "您正在尝试创建一个带有利息的债务，这将影响未结清的转账。请先关闭它们。",
 	},
 	MESSAGE_TEXT_NOT_IMPLEMENTED_YET: {
 		"de-DE": "Entschuldigung, diese Funktion ist noch nicht fertig programmiert.",
 		"en-UK": "Sorry, this functionality is not implemented yet.",
+		"en-US": "Sorry, this functionality is not implemented yet.",
 		"es-ES": "Lo sentimos, esta función no está activa aún.",
 		"fa-IR": "متاسفم، این عملکرد هنوز پیاده سازی نشده است.",
+		"fr-FR": "Désolé, cette fonctionnalité n'est pas encore implémentée.",
+		"id-ID": "Maaf, fungsi ini belum diimplementasikan.",
 		"it-IT": "Spiacenti ma questa funzionalita' non e' ancora attiva.",
+		"ja-JP": "申し訳ありませんが、この機能はまだ実装されていません。",
+		"ko-KO": "죄송합니다. 이 기능은 아직 구현되지 않았습니다.",
+		"pl-PL": "Przepraszamy, ta funkcjonalność nie jest jeszcze zaimplementowana.",
+		"pt-BR": "Desculpe, esta funcionalidade ainda não foi implementada.",
 		"ru-RU": "Извините, данный функционал ещё не реализован.",
+		"tr-TR": "Üzgünüz, bu işlevsellik henüz uygulanmadı.",
+		"ua-UA": "Вибачте, ця функціональність ще не реалізована.",
+		"uz-UZ": "Kechirasiz, bu funksionallik hali amalga oshirilmagan.",
+		"zh-CN": "抱歉，此功能尚未实现。",
 	},
 	MESSAGE_TEXT_ASK_INVITE_CHANNEL: {
 		"de-DE": "Worüber möchtest du eingeladen werden?",
 		"en-UK": "How do you want to get an invite?",
+		"en-US": "How do you want to get an invite?",
 		"es-ES": "¿Comó prefieres recibir la invitación?",
 		"fa-IR": "می خواهید چگونه دعوت شوید؟",
+		"fr-FR": "Comment voulez-vous recevoir une invitation ?",
+		"id-ID": "Bagaimana Anda ingin mendapatkan undangan?",
 		"it-IT": "Come vuoi ricevere l'invito?",
+		"ja-JP": "招待状をどのように受け取りますか？",
+		"ko-KO": "초대를 어떻게 받고 싶으신가요?",
+		"pl-PL": "Jak chcesz otrzymać zaproszenie?",
+		"pt-BR": "Como você deseja receber um convite?",
 		"ru-RU": "Как вы хотите получить код приглашения?",
+		"tr-TR": "Daveti nasıl almak istersiniz?",
+		"ua-UA": "Як ви хочете отримати запрошення?",
+		"uz-UZ": "Taklifnomani qanday olishni xohlaysiz?",
+		"zh-CN": "您想如何获得邀请？",
 	},
 	MESSAGE_TEXT_PLEASE_ENTER_INVITE_CODE: {
 		"de-DE": "Bitte gib den Bestätigungs-Code ein:",
 		"en-UK": "Please enter an invite code:",
+		"en-US": "Please enter an invite code:",
 		"es-ES": "Introduce el código de la invitación",
 		"fa-IR": "لطفاً یک کد دعوت وارد کنید:",
+		"fr-FR": "Veuillez entrer un code d'invitation :",
+		"id-ID": "Silakan masukkan kode undangan:",
 		"it-IT": "Inserisci un codice invito:",
+		"ja-JP": "招待コードを入力してください：",
+		"ko-KO": "초대 코드를 입력하세요:",
+		"pl-PL": "Proszę wprowadzić kod zaproszenia:",
+		"pt-BR": "Por favor, insira um código de convite:",
 		"ru-RU": "Пожалуйста введите код приглашения:",
+		"tr-TR": "Lütfen bir davet kodu girin:",
+		"ua-UA": "Будь ласка, введіть код запрошення:",
+		"uz-UZ": "Iltimos, taklif kodini kiriting:",
+		"zh-CN": "请输入邀请码：",
 	},
 	MESSAGE_TEXT_USER_EMAIL_FOR_INVITE_RECEIVED: {
 		"de-DE": "Wir haben eine Nachricht an %v gesendet.\n\nBitte öffne die Nachricht und klick auf den Link, um deine Mail-Adresse zu bestätigen.",
 		"en-UK": "We've sent a message to %v.\n\nPlease open the email and click a link to confirm your email address.",
+		"en-US": "We've sent a message to %v.\n\nPlease open the email and click a link to confirm your email address.",
 		"es-ES": "Hemos enviado un mensage a %v.\n\nPor favor, abre tu e-mail y haz click en el link para confirmar tu e-mail.",
 		"fa-IR": "ما یک پیام ارسال کردیم به %v.\n\nلطفاً ایمیل خود را باز کرده و روی لینک کلیک کنید تا آدرس ایمیل شما تایید شود.",
+		"fr-FR": "Nous avons envoyé un message à %v.\n\nVeuillez ouvrir l'e-mail et cliquer sur un lien pour confirmer votre adresse e-mail.",
+		"id-ID": "Kami telah mengirim pesan ke %v.\n\nSilakan buka email dan klik tautan untuk mengonfirmasi alamat email Anda.",
 		"it-IT": "Abbiamo inviato un messaggio a %v.\n\nPer favore apri l'email e clicca sul link per confermare il tuo indirizzo email",
+		"ja-JP": "%vにメッセージを送信しました。\n\nメールを開き、リンクをクリックしてメールアドレスを確認してください。",
+		"ko-KO": "%v에 메시지를 보냈습니다.\n\n이메일을 열고 링크를 클릭하여 이메일 주소를 확인하십시오.",
+		"pl-PL": "Wysłaliśmy wiadomość do %v.\n\nProszę otworzyć e-mail i kliknąć link, aby potwierdzić swój adres e-mail.",
+		"pt-BR": "Enviamos uma mensagem para %v.\n\nPor favor, abra o e-mail e clique em um link para confirmar seu endereço de e-mail.",
 		"ru-RU": "Мы отправили письмо на %v.\n\nПожалуйста откройте его и кликните на ссылку для подтверждения адреса.",
+		"tr-TR": "%v adresine bir mesaj gönderdik.\n\nLütfen e-postayı açın ve e-posta adresinizi onaylamak için bir bağlantıya tıklayın.",
+		"ua-UA": "Ми надіслали повідомлення на %v.\n\nБудь ласка, відкрийте електронний лист і натисніть посилання, щоб підтвердити свою електронну адресу.",
+		"uz-UZ": "Biz %v ga xabar yubordik.\n\nIltimos, elektron pochtani oching va elektron pochta manzilingizni tasdiqlash uchun havolani bosing.",
+		"zh-CN": "我们已向 %v 发送了一条消息。\n\n请打开电子邮件并点击链接确认您的电子邮件地址。",
 	},
 	MESSAGE_TEXT_USER_EMAIL_FOR_INVITE_SENT_TELEGRAM: {
 		"de-DE": "Wenn Telegram öffnet, drücke auf <b>Start</b>.",
 		"en-UK": "Once Telegram pop ups click the <b>Start</b> button.",
+		"en-US": "Once Telegram pop ups click the <b>Start</b> button.",
 		"es-ES": "Después de abrir Telegram aprieta el <b>Start</b> botón.",
 		"fa-IR": "وقتی تلگرام اجرا شد برروی دکمه  <b>شروع</b> کلیک کنید.",
+		"fr-FR": "Une fois que Telegram apparaît, cliquez sur le bouton <b>Start</b>.",
+		"id-ID": "Setelah Telegram muncul, klik tombol <b>Start</b>.",
 		"it-IT": "Una volta aperto il bot su telegram clicca su <b>Start</b>.",
+		"ja-JP": "Telegramがポップアップしたら、<b>Start</b>ボタンをクリックしてください。",
+		"ko-KO": "Telegram이 팝업되면 <b>Start</b> 버튼을 클릭하세요.",
+		"pl-PL": "Gdy pojawi się Telegram, kliknij przycisk <b>Start</b>.",
+		"pt-BR": "Quando o Telegram aparecer, clique no botão <b>Start</b>.",
 		"ru-RU": "После того как откроется Telegram нажмите кнопку <b>Start</b>.",
+		"tr-TR": "Telegram açıldığında <b>Start</b> düğmesine tıklayın.",
+		"ua-UA": "Коли з'явиться Telegram, натисніть кнопку <b>Start</b>.",
+		"uz-UZ": "Telegram ochilganda, <b>Start</b> tugmasini bosing.",
+		"zh-CN": "Telegram 弹出后，点击 <b>Start</b> 按钮。",
 	},
 	MESSAGE_TEXT_USER_CONTACT_FOR_INVITE_RECEIVED: {
 		"de-DE": "Danke, du bist in der Warteschlange für eine Einladung.\n\nEs dauert etwa zwei bis drei Tage.\n\nAber du könntest den Code noch heute bekommen, wenn du einen Link auf Facebook teilst.",
 		"en-UK": "Thanks, you've been queued for an invite.\n\nCurrent awaiting time is 2-3 days.\n\nYou can get an invite code today by sharing a link to the bot on Facebook.",
+		"en-US": "Thanks, you've been queued for an invite.\n\nCurrent awaiting time is 2-3 days.\n\nYou can get an invite code today by sharing a link to the bot on Facebook.",
 		"es-ES": "Gracias, ya estás inscrito en la cola para conseguir la invitación.\n\nTiempo de espera 2-3 días.\n\nPuedes conseguirlo hoy si compartes el link de nuestro bot en Facebook.",
 		"fa-IR": "سپاسگزاریم، شما در نوبت دعوت قرار گرفتید\n\nزمان انتظار شما در حال حاضر 2-3 روز می باشد.\n\n شما می توانید با به اشتراک گذاری لینک روبات در فیسبوک امروز یک کد دعوت دریافت کنید. ",
+		"fr-FR": "Merci, vous avez été mis en file d'attente pour une invitation.\n\nLe temps d'attente actuel est de 2 à 3 jours.\n\nVous pouvez obtenir un code d'invitation aujourd'hui en partageant un lien vers le bot sur Facebook.",
+		"id-ID": "Terima kasih, Anda telah antri untuk undangan.\n\nWaktu menunggu saat ini adalah 2-3 hari.\n\nAnda dapat memperoleh kode undangan hari ini dengan membagikan tautan ke bot di Facebook.",
 		"it-IT": "Grazie, ora sei in coda per un codice invito.\n\nTempo di attesa medio 2-3 giorni.\n\nPuoi ottenere un codice invito subito condividendo il link al bot su Facebook.",
+		"ja-JP": "ありがとうございます。招待のために列に並んでいます。\n\n現在の待ち時間は2〜3日です。\n\nFacebookでボットへのリンクを共有することで、今日招待コードを取得できます。",
+		"ko-KO": "감사합니다. 초대를 위해 대기열에 올랐습니다.\n\n현재 대기 시간은 2-3일입니다.\n\nFacebook에서 봇에 대한 링크를 공유하여 오늘 초대 코드를 받을 수 있습니다.",
+		"pl-PL": "Dziękujemy, zostałeś umieszczony w kolejce do zaproszenia.\n\nObecny czas oczekiwania to 2-3 dni.\n\nMożesz otrzymać kod zaproszenia już dziś, udostępniając link do bota na Facebooku.",
+		"pt-BR": "Obrigado, você foi colocado na fila para um convite.\n\nO tempo de espera atual é de 2 a 3 dias.\n\nVocê pode obter um código de convite hoje compartilhando um link para o bot no Facebook.",
 		"ru-RU": "Спасибо, вы записаны в очередь на получение приглашения.\n\nТекущее время ожидания 2-3 дня.\n\nВы можете получить приглашение сегодня если расскажите о нашем боте на Facebook.",
+		"tr-TR": "Teşekkürler, bir davetiye için sıraya alındınız.\n\nMevcut bekleme süresi 2-3 gündür.\n\nBotun bağlantısını Facebook'ta paylaşarak bugün bir davet kodu alabilirsiniz.",
+		"ua-UA": "Дякуємо, вас поставлено в чергу на запрошення.\n\nПоточний час очікування - 2-3 дні.\n\nВи можете отримати код запрошення сьогодні, поділившись посиланням на бота у Facebook.",
+		"uz-UZ": "Rahmat, siz taklif uchun navbatga qo'yildingiz.\n\nHozirgi kutish vaqti 2-3 kun.\n\nFacebookda botga havola ulashish orqali bugun taklif kodini olishingiz mumkin.",
+		"zh-CN": "谢谢，您已排队等候邀请。\n\n当前等待时间为2-3天。\n\n您可以通过在Facebook上分享机器人链接，今天就获得邀请码。",
 	},
 	MESSAGE_TEXT_PLEASE_PROVIDE_YOUR_EMAIL: {
 		"de-DE": "Bitte gib deine e-Mail Adresse an:",
 		"en-UK": "Please provide your email address",
+		"en-US": "Please provide your email address",
 		"es-ES": "Por favor, esctibe tu e-mail",
 		"fa-IR": "لطفاً آدرس ایمیل خود را وارد کنید.",
+		"fr-FR": "Veuillez fournir votre adresse e-mail",
+		"id-ID": "Silakan berikan alamat email Anda",
 		"it-IT": "Inserisci il tuo indirizzo email:",
+		"ja-JP": "メールアドレスを入力してください",
+		"ko-KO": "이메일 주소를 입력해 주세요",
+		"pl-PL": "Proszę podać swój adres e-mail",
+		"pt-BR": "Por favor, forneça seu endereço de e-mail",
 		"ru-RU": "Пожалуйста напишите ваш email адрес:",
+		"tr-TR": "Lütfen e-posta adresinizi girin",
+		"ua-UA": "Будь ласка, вкажіть вашу електронну адресу",
+		"uz-UZ": "Iltimos, elektron pochta manzilingizni kiriting",
+		"zh-CN": "请提供您的电子邮件地址",
 	},
 	MESSAGE_TEXT_PLEASE_PROVIDE_YOUR_PHONE_NUMBER: {
 		"de-DE": "Bitte gib deine Telefonnummer an:",
 		"en-UK": "Please provide your phone number",
+		"en-US": "Please provide your phone number",
 		"es-ES": "Por favor, esctibe tu número de teléfono",
 		"fa-IR": "لطفاً شماره تلفن خود را وارد نمایید.",
+		"fr-FR": "Veuillez fournir votre numéro de téléphone",
+		"id-ID": "Silakan berikan nomor telepon Anda",
 		"it-IT": "Inserisci il tuo numero di telefono:",
+		"ja-JP": "電話番号を入力してください",
+		"ko-KO": "전화번호를 입력해 주세요",
+		"pl-PL": "Proszę podać swój numer telefonu",
+		"pt-BR": "Por favor, forneça seu número de telefone",
 		"ru-RU": "Пожалуйста напишите номер вашего телефона:",
+		"tr-TR": "Lütfen telefon numaranızı girin",
+		"ua-UA": "Будь ласка, вкажіть ваш номер телефону",
+		"uz-UZ": "Iltimos, telefon raqamingizni kiriting",
+		"zh-CN": "请提供您的电话号码",
 	},
 	MESSAGE_TEXT_WRONG_INVITE_CODE: {
 		"de-DE": "Ungültiger Code: %v",
 		"en-UK": "Wrong invite code: %v",
+		"en-US": "Wrong invite code: %v",
 		"es-ES": "El código de invitación no es correcto: %v",
 		"fa-IR": "کد دعوت اشتباه است %v",
+		"fr-FR": "Code d'invitation incorrect : %v",
+		"id-ID": "Kode undangan salah: %v",
 		"it-IT": "Codice invito: %v errato",
+		"ja-JP": "招待コードが間違っています：%v",
+		"ko-KO": "초대 코드가 잘못되었습니다: %v",
+		"pl-PL": "Nieprawidłowy kod zaproszenia: %v",
+		"pt-BR": "Código de convite errado: %v",
 		"ru-RU": "Неправильный код приглашения: %v",
+		"tr-TR": "Yanlış davet kodu: %v",
+		"ua-UA": "Неправильний код запрошення: %v",
+		"uz-UZ": "Noto'g'ri taklif kodi: %v",
+		"zh-CN": "邀请码错误：%v",
 	},
 	MESSAGE_TEXT_WRONG_EMAIL: {
 		"de-DE": "Ungültige e-Mail Adresse.",
 		"en-UK": "Wrong email address.",
+		"en-US": "Wrong email address.",
 		"es-ES": "El e-mail no es correcto.",
 		"fa-IR": "آدرس ایمیل اشتباه است.",
+		"fr-FR": "Adresse e-mail incorrecte.",
+		"id-ID": "Alamat email salah.",
 		"it-IT": "L'email inserita e' sbagliata.",
+		"ja-JP": "メールアドレスが間違っています。",
+		"ko-KO": "이메일 주소가 잘못되었습니다.",
+		"pl-PL": "Nieprawidłowy adres e-mail.",
+		"pt-BR": "Endereço de e-mail incorreto.",
 		"ru-RU": "Неправильный email адрес.",
+		"tr-TR": "Yanlış e-posta adresi.",
+		"ua-UA": "Неправильна електронна адреса.",
+		"uz-UZ": "Noto'g'ri elektron pochta manzili.",
+		"zh-CN": "电子邮件地址错误。",
 	},
 	MESSAGE_TEXT_WRONG_PHONE_NUMBER: {
 		"de-DE": "Ungültige Telefonnummer.",
 		"en-UK": "Wrong phone number.",
+		"en-US": "Wrong phone number.",
 		"es-ES": "El número de telefono no es correcto.",
 		"fa-IR": "شماره تلفن اشتباه است",
+		"fr-FR": "Numéro de téléphone incorrect.",
+		"id-ID": "Nomor telepon salah.",
 		"it-IT": "Il numero inserito e' sbagliato.",
+		"ja-JP": "電話番号が間違っています。",
+		"ko-KO": "전화번호가 잘못되었습니다.",
+		"pl-PL": "Nieprawidłowy numer telefonu.",
+		"pt-BR": "Número de telefone incorreto.",
 		"ru-RU": "Неправильный номер телефона.",
+		"tr-TR": "Yanlış telefon numarası.",
+		"ua-UA": "Неправильний номер телефону.",
+		"uz-UZ": "Noto'g'ri telefon raqami.",
+		"zh-CN": "电话号码错误。",
 	},
 	MESSAGE_TEXT_OK_PLEASE_TRY_AGAIN: {
 		"de-DE": "Ok, bitte versuche es erneut.",
