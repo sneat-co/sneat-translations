@@ -27,6 +27,10 @@ const (
 	RsvpButtonText     = "RsvpButtonText"
 	NewEventButtonText = "NewEventButtonText"
 
+	NewEventTitle = "NewEventTitle"
+	NewEventText  = "NewEventText"
+	NewEventHint  = "NewEventHint"
+
 	EventOptionsButton   = "EventOptionsButton"
 	NewEventOptionButton = "NewEventOptionButton"
 	EventVisibility      = "EventVisibility"
@@ -36,7 +40,6 @@ const (
 	EventCreated         = "EventCreated"
 	EventTitle           = "EventTitle"
 	PlanEventButtonText  = "PlanEventButtonText"
-	CalendarButtonText   = "CalendarButtonText"
 
 	RemoveFromSpots = "RemoveFromSpots"
 	AddToMySpots    = "AddToMySpots"
@@ -46,8 +49,11 @@ const (
 
 	ShareSpotButtonText = "ShareSpotButtonText"
 
-	SpotTitle      = "SpotTitle"
-	SpotActivities = "SpotActivities"
+	SpotButtonText          = "SpotButtonText"
+	SpotTitle               = "SpotTitle"
+	SpotActivities          = "SpotActivities"
+	SpotGoingToDoActivities = "SpotGoingToDoActivities"
+	TogdBackToActivities    = "TogdBackToActivities"
 
 	RsvpHowLikelyQuestion    = "RsvpHowLikelyQuestion"
 	RsvpResponse100Percent   = "RsvpResponse100Percent"
@@ -56,9 +62,41 @@ const (
 	RsvpResponseMaybe        = "RsvpResponseMaybe"
 	RsvpResponseUnlikely     = "RsvpResponseUnlikely"
 
+	RsvpQuestionOnWhatDate = "RsvpQuestionOnWhatDate"
 	RsvpQuestionAtWhatTime = "RsvpQuestionAtWhatTime"
 	RsvpTimeIsChangeable   = "RsvpTimeIsChangeable"
+
+	ChooseSpotToRSVP = "ChooseSpotToRSVP"
+
+	TogdIntentPublished = "TogdIntentPublished"
+
+	TodayButtonText    = "TodayButtonText"
+	TomorrowButtonText = "TomorrowButtonText"
 )
+
+const CalendarButtonText = "CalendarButtonText"
+
+func calendarButtonText() map[string]string {
+	return map[string]string{
+		"de-DE": "🗓️️ Kalender",
+		"en-UK": "🗓️️ Calendar",
+		"en-US": "🗓️️ Calendar",
+		"es-ES": "🗓️️ Calendario",
+		"fa-IR": "🗓️️ تقویم",
+		"fr-FR": "🗓️️ Calendrier",
+		"id-ID": "🗓️️ Kalender",
+		"it-IT": "🗓️️ Calendario",
+		"ja-JP": "🗓️️ カレンダー",
+		"ko-KO": "🗓️️ 달력",
+		"pl-PL": "🗓️️ Kalendarz",
+		"pt-BR": "🗓️️ Calendário",
+		"ru-RU": "🗓️️ Календарь",
+		"tr-TR": "🗓️️ Takvim",
+		"ua-UA": "🗓️️ Календар",
+		"uz-UZ": "🗓️️ Taqvim",
+		"zh-CN": "🗓️️ 日历",
+	}
+}
 
 func init() {
 	/*
@@ -84,24 +122,177 @@ func init() {
 			- "zh-CN":
 	*/
 	var trans = map[string]map[string]string{
-		CalendarButtonText: {
-			"de-DE": "🗓️️ Kalender",
-			"en-UK": "🗓️️ Calendar",
-			"en-US": "🗓️️ Calendar",
-			"es-ES": "🗓️️ Calendario",
-			"fa-IR": "🗓️️ تقویم",
-			"fr-FR": "🗓️️ Calendrier",
-			"id-ID": "🗓️️ Kalender",
-			"it-IT": "🗓️️ Calendario",
-			"ja-JP": "🗓️️ カレンダー",
-			"ko-KO": "🗓️️ 달력",
-			"pl-PL": "🗓️️ Kalendarz",
-			"pt-BR": "🗓️️ Calendário",
-			"ru-RU": "🗓️️ Календарь",
-			"tr-TR": "🗓️️ Takvim",
-			"ua-UA": "🗓️️ Календар",
-			"uz-UZ": "🗓️️ Taqvim",
-			"zh-CN": "🗓️️ 日历",
+		CalendarButtonText: calendarButtonText(),
+		NewEventTitle: {
+			"de-DE": "Neue Veranstaltung",
+			"en-UK": "New Event",
+			"en-US": "New Event",
+			"es-ES": "Nuevo Evento",
+			"fa-IR": "رویداد جدید",
+			"fr-FR": "Nouvel Événement",
+			"id-ID": "Acara Baru",
+			"it-IT": "Nuovo Evento",
+			"ja-JP": "新しいイベント",
+			"ko-KO": "새 이벤트",
+			"pl-PL": "Nowe Wydarzenie",
+			"pt-BR": "Novo Evento",
+			"ru-RU": "Новое Событие",
+			"tr-TR": "Yeni Etkinlik",
+			"ua-UA": "Нова Подія",
+			"uz-UZ": "Yangi Tadbir",
+			"zh-CN": "新事件",
+		},
+		NewEventText: {
+			"de-DE": "@{BOT_CODE} hilft dabei, Datum, Uhrzeit und Ort zu wählen, die für alle Teilnehmer am besten funktionieren.",
+			"en-UK": "@{BOT_CODE} helps to choose date, time & place that works best for all participants.",
+			"en-US": "@{BOT_CODE} helps to choose date, time & place that works best for all participants.",
+			"es-ES": "@{BOT_CODE} ayuda a elegir fecha, hora y lugar que funcione mejor para todos los participantes.",
+			"fa-IR": "@{BOT_CODE} به انتخاب تاریخ، زمان و مکانی که برای همه شرکت‌کنندگان مناسب است کمک می‌کند.",
+			"fr-FR": "@{BOT_CODE} aide à choisir la date, l'heure et le lieu qui conviennent le mieux à tous les participants.",
+			"id-ID": "@{BOT_CODE} membantu memilih tanggal, waktu & tempat yang paling cocok untuk semua peserta.",
+			"it-IT": "@{BOT_CODE} aiuta a scegliere data, ora e luogo che funzionano meglio per tutti i partecipanti.",
+			"ja-JP": "@{BOT_CODE} は、すべての参加者に最適な日付、時間、場所を選ぶのに役立ちます。",
+			"ko-KO": "@{BOT_CODE}는 모든 참가자에게 가장 적합한 날짜, 시간 및 장소를 선택하는 데 도움을 줍니다.",
+			"pl-PL": "@{BOT_CODE} pomaga wybrać datę, godzinę i miejsce, które najlepiej pasują wszystkim uczestników.",
+			"pt-BR": "@{BOT_CODE} ajuda a escolher data, hora e local que funcionam melhor para todos os participantes.",
+			"ru-RU": "@{BOT_CODE} помогает выбрать дату, время и место, которые лучше всего подходят для всех участников.",
+			"tr-TR": "@{BOT_CODE} tüm katılımcılar için en uygun tarih, saat ve yeri seçmeye yardımcı olur.",
+			"ua-UA": "@{BOT_CODE} допомагає обрати дату, час і місце, які найкраще підходять для всіх учасників.",
+			"uz-UZ": "@{BOT_CODE} barcha ishtirokchilar uchun eng mos sana, vaqt va joyni tanlashda yordam beradi.",
+			"zh-CN": "@{BOT_CODE} 帮助选择最适合所有参与者的日期、时间和地点。",
+		},
+		NewEventHint: {
+			"de-DE": "Geben Sie den Titel Ihrer neuen Veranstaltung ein:",
+			"en-UK": "Enter title of your new event:",
+			"en-US": "Enter title of your new event:",
+			"es-ES": "Ingrese el título de su nuevo evento:",
+			"fa-IR": "عنوان رویداد جدید خود را وارد کنید:",
+			"fr-FR": "Entrez le titre de votre nouvel événement:",
+			"id-ID": "Masukkan judul acara baru Anda:",
+			"it-IT": "Inserisci il titolo del tuo nuovo evento:",
+			"ja-JP": "新しいイベントのタイトルを入力してください:",
+			"ko-KO": "새 이벤트의 제목을 입력하세요:",
+			"pl-PL": "Wprowadź tytuł swojego nowego wydarzenia:",
+			"pt-BR": "Digite o título do seu novo evento:",
+			"ru-RU": "Введите название вашего нового события:",
+			"tr-TR": "Yeni etkinliğinizin başlığını girin:",
+			"ua-UA": "Введіть назву вашої нової події:",
+			"uz-UZ": "Yangi tadbiringizning sarlavhasini kiriting:",
+			"zh-CN": "输入您的新事件标题:",
+		},
+		TodayButtonText: {
+			"de-DE": "🕒 Heute — {DATE}",
+			"en-UK": "🕒 Today — {DATE}",
+			"en-US": "🕒 Today — {DATE}",
+			"es-ES": "🕒 Hoy — {DATE}",
+			"fa-IR": "🕒 امروز — {DATE}",
+			"fr-FR": "🕒 Aujourd'hui — {DATE}",
+			"id-ID": "🕒 Hari ini — {DATE}",
+			"it-IT": "🕒 Oggi — {DATE}",
+			"ja-JP": "🕒 今日 — {DATE}",
+			"ko-KO": "🕒 오늘 — {DATE}",
+			"pl-PL": "🕒 Dzisiaj — {DATE}",
+			"pt-BR": "🕒 Hoje — {DATE}",
+			"ru-RU": "🕒 Сегодня — {DATE}",
+			"tr-TR": "🕒 Bugün — {DATE}",
+			"ua-UA": "🕒 Сьогодні — {DATE}",
+			"uz-UZ": "🕒 Bugun — {DATE}",
+			"zh-CN": "🕒 今天 — {DATE}",
+		},
+		TomorrowButtonText: {
+			"de-DE": "🌅 Morgen — {DATE}",
+			"en-UK": "🌅 Tomorrow —  {DATE}",
+			"en-US": "🌅 Tomorrow —  {DATE}",
+			"es-ES": "🌅 Mañana — {DATE}",
+			"fa-IR": "🌅 فردا — {DATE}",
+			"fr-FR": "🌅 Demain — {DATE}",
+			"id-ID": "🌅 Besok — {DATE}",
+			"it-IT": "🌅 Domani — {DATE}",
+			"ja-JP": "🌅 明日 — {DATE}",
+			"ko-KO": "🌅 내일 — {DATE}",
+			"pl-PL": "🌅 Jutro — {DATE}",
+			"pt-BR": "🌅 Amanhã — {DATE}",
+			"ru-RU": "🌅 Завтра — {DATE}",
+			"tr-TR": "🌅 Yarın — {DATE}",
+			"ua-UA": "🌅 Завтра — {DATE}",
+			"uz-UZ": "🌅 Ertaga — {DATE}",
+			"zh-CN": "🌅 明天 — {DATE}",
+		},
+		SpotGoingToDoActivities: {
+			"de-DE": "Vorhaben: {ACTIVITIES}",
+			"en-UK": "Going to do: {ACTIVITIES}",
+			"en-US": "Going to do: {ACTIVITIES}",
+			"es-ES": "Voy a hacer: {ACTIVITIES}",
+			"fa-IR": "قصد انجام: {ACTIVITIES}",
+			"fr-FR": "Va faire: {ACTIVITIES}",
+			"id-ID": "Akan melakukan: {ACTIVITIES}",
+			"it-IT": "Intenzione di fare: {ACTIVITIES}",
+			"ja-JP": "する予定: {ACTIVITIES}",
+			"ko-KO": "할 일: {ACTIVITIES}",
+			"pl-PL": "Zamierzam zrobić: {ACTIVITIES}",
+			"pt-BR": "Vai fazer: {ACTIVITIES}",
+			"ru-RU": "Собираюсь делать: {ACTIVITIES}",
+			"tr-TR": "Yapacağım: {ACTIVITIES}",
+			"ua-UA": "Збираюся робити: {ACTIVITIES}",
+			"uz-UZ": "Qilmoqchi: {ACTIVITIES}",
+			"zh-CN": "打算做: {ACTIVITIES}",
+		},
+		ChooseSpotToRSVP: {
+			"de-DE": "Wählen Sie einen Platz zum Zusagen",
+			"en-UK": "Choose a spot to RSVP",
+			"en-US": "Choose a spot to RSVP",
+			"es-ES": "Elige un lugar para confirmar asistencia",
+			"fa-IR": "مکانی برای تایید حضور انتخاب کنید",
+			"fr-FR": "Choisissez un lieu pour confirmer votre présence",
+			"id-ID": "Pilih tempat untuk konfirmasi kehadiran",
+			"it-IT": "Scegli un posto per confermare la presenza",
+			"ja-JP": "出席返事をする場所を選択してください",
+			"ko-KO": "참석 응답할 장소를 선택하세요",
+			"pl-PL": "Wybierz miejsce, aby potwierdzić obecność",
+			"pt-BR": "Escolha um local para confirmar presença",
+			"ru-RU": "Выберите место для подтверждения участия",
+			"tr-TR": "Katılımı onaylamak için bir yer seçin",
+			"ua-UA": "Оберіть місце для підтвердження участі",
+			"uz-UZ": "Ishtirok etishni tasdiqlash uchun joy tanlang",
+			"zh-CN": "选择一个地点来回复邀请",
+		},
+		TogdIntentPublished: {
+			"de-DE": "Sie haben Ihre Absicht erfolgreich veröffentlicht.",
+			"en-UK": "You've successfully published your intention.",
+			"en-US": "You've successfully published your intention.",
+			"es-ES": "Has publicado tu intención exitosamente.",
+			"fa-IR": "شما با موفقیت قصد خود را منتشر کردید.",
+			"fr-FR": "Vous avez publié votre intention avec succès.",
+			"id-ID": "Anda telah berhasil menerbitkan niat Anda.",
+			"it-IT": "Hai pubblicato con successo la tua intenzione.",
+			"ja-JP": "意図を正常に公開しました。",
+			"ko-KO": "의도를 성공적으로 게시했습니다.",
+			"pl-PL": "Pomyślnie opublikowałeś swoją intencję.",
+			"pt-BR": "Você publicou sua intenção com sucesso.",
+			"ru-RU": "Вы успешно опубликовали свое намерение.",
+			"tr-TR": "Niyetinizi başarıyla yayınladınız.",
+			"ua-UA": "Ви успішно опублікували свій намір.",
+			"uz-UZ": "Siz o'z niyatingizni muvaffaqiyatli e'lon qildingiz.",
+			"zh-CN": "您已成功发布您的意图。",
+		},
+		TogdBackToActivities: {
+			"de-DE": "🔙 Zurück zu Aktivitäten",
+			"en-UK": "🔙 Back to Activities",
+			"en-US": "🔙 Back to Activities",
+			"es-ES": "🔙 Volver a Actividades",
+			"fa-IR": "🔙 بازگشت به فعالیت‌ها",
+			"fr-FR": "🔙 Retour aux Activités",
+			"id-ID": "🔙 Kembali ke Aktivitas",
+			"it-IT": "🔙 Torna alle Attività",
+			"ja-JP": "🔙 アクティビティに戻る",
+			"ko-KO": "🔙 활동으로 돌아가기",
+			"pl-PL": "🔙 Powrót do Aktywności",
+			"pt-BR": "🔙 Voltar às Atividades",
+			"ru-RU": "🔙 Назад к Активностям",
+			"tr-TR": "🔙 Aktivitelere Dön",
+			"ua-UA": "🔙 Назад до Активностей",
+			"uz-UZ": "🔙 Faoliyatlarga qaytish",
+			"zh-CN": "🔙 返回活动",
 		},
 		TogdPlansButtonText: {
 			"de-DE": "📝 Pläne",
@@ -140,6 +331,25 @@ func init() {
 			"ua-UA": "📍 Місця",
 			"uz-UZ": "📍 Joylar",
 			"zh-CN": "📍 地点",
+		},
+		RsvpQuestionOnWhatDate: {
+			"de-DE": "An welchem Tag werden Sie teilnehmen?",
+			"en-UK": "On what day are you going to attend?",
+			"en-US": "On what day are you going to attend?",
+			"es-ES": "¿Qué día vas a asistir?",
+			"fa-IR": "چه روزی قصد شرکت دارید؟",
+			"fr-FR": "Quel jour allez-vous assister ?",
+			"id-ID": "Pada hari apa Anda akan hadir?",
+			"it-IT": "In che giorno parteciperai?",
+			"ja-JP": "何日に参加する予定ですか？",
+			"ko-KO": "어느 날에 참석할 예정인가요?",
+			"pl-PL": "W którym dniu zamierzasz uczestniczyć?",
+			"pt-BR": "Em que dia você vai comparecer?",
+			"ru-RU": "В какой день вы собираетесь присутствовать?",
+			"tr-TR": "Hangi gün katılacaksınız?",
+			"ua-UA": "У який день ви збираєтеся відвідати?",
+			"uz-UZ": "Qaysi kuni qatnashmoqchisiz?",
+			"zh-CN": "您打算哪一天参加？",
 		},
 		RsvpQuestionAtWhatTime: {
 			"de-DE": "Um wie viel Uhr werden Sie ankommen?",
@@ -330,6 +540,25 @@ func init() {
 			"ua-UA": "Активності",
 			"uz-UZ": "Faoliyatlar",
 			"zh-CN": "活动",
+		},
+		SpotButtonText: {
+			"de-DE": "Platz: {SPOT_TITLE}",
+			"en-UK": "Spot: {SPOT_TITLE}",
+			"en-US": "Spot: {SPOT_TITLE}",
+			"es-ES": "Lugar: {SPOT_TITLE}",
+			"fa-IR": "مکان: {SPOT_TITLE}",
+			"fr-FR": "Lieu: {SPOT_TITLE}",
+			"id-ID": "Tempat: {SPOT_TITLE}",
+			"it-IT": "Posto: {SPOT_TITLE}",
+			"ja-JP": "スポット: {SPOT_TITLE}",
+			"ko-KO": "장소: {SPOT_TITLE}",
+			"pl-PL": "Miejsce: {SPOT_TITLE}",
+			"pt-BR": "Local: {SPOT_TITLE}",
+			"ru-RU": "Место: {SPOT_TITLE}",
+			"tr-TR": "Yer: {SPOT_TITLE}",
+			"ua-UA": "Місце: {SPOT_TITLE}",
+			"uz-UZ": "Joy: {SPOT_TITLE}",
+			"zh-CN": "地点: {SPOT_TITLE}",
 		},
 		ShareSpotButtonText: {
 			"de-DE": "📤 Ort teilen",

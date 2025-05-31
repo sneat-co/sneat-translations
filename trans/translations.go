@@ -864,210 +864,496 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_YES_IT_HAS_RETURN_DEADLINE: {
 		"de-DE": "Ja, es hat eine Frist!",
 		"en-UK": "Yes, it has a deadline!",
+		"en-US": "Yes, it has a deadline!", //TODO(US)
 		"es-ES": "Sí, hay una fecha de devolución!",
 		"fa-IR": "بله، دارای آخرین فرصت می باشد!",
+		"fr-FR": "Yes, it has a deadline!", //TODO(FR)
+		"id-ID": "Yes, it has a deadline!", //TODO(ID)
 		"it-IT": "Si, c'e' una data di scadenza",
+		"ja-JP": "Yes, it has a deadline!", //TODO(JP)
+		"ko-KO": "Yes, it has a deadline!", //TODO(KO)
+		"pl-PL": "Yes, it has a deadline!", //TODO(PL)
+		"pt-BR": "Yes, it has a deadline!", //TODO(BR)
 		"ru-RU": "Да, есть срок возврата!",
+		"tr-TR": "Yes, it has a deadline!", //TODO(TR)
+		"ua-UA": "Yes, it has a deadline!", //TODO(UA)
+		"uz-UZ": "Yes, it has a deadline!", //TODO(UZ)
+		"zh-CN": "Yes, it has a deadline!", //TODO(CN)
 	},
 	COMMAND_TEXT_NO_IT_CAN_BE_RETURNED_ANYTIME: {
 		"de-DE": "Nein, sobald möglich.",
 		"en-UK": "No, whenever is fine.",
+		"en-US": "No, whenever is fine.", //TODO(US)
 		"es-ES": "No, sin fecha límite.",
 		"fa-IR": "خیر، هر زمانی مناسب است.",
+		"fr-FR": "No, whenever is fine.", //TODO(FR)
+		"id-ID": "No, whenever is fine.", //TODO(ID)
 		"it-IT": "No, nessuna scadenza",
+		"ja-JP": "No, whenever is fine.", //TODO(JP)
+		"ko-KO": "No, whenever is fine.", //TODO(KO)
+		"pl-PL": "No, whenever is fine.", //TODO(PL)
+		"pt-BR": "No, whenever is fine.", //TODO(BR)
 		"ru-RU": "Нет, срок возврата не важен.",
+		"tr-TR": "No, whenever is fine.", //TODO(TR)
+		"ua-UA": "No, whenever is fine.", //TODO(UA)
+		"uz-UZ": "No, whenever is fine.", //TODO(UZ)
+		"zh-CN": "No, whenever is fine.", //TODO(CN)
 	},
 	COMMAND_TEXT_IT_CAN_BE_RETURNED_ANYTIME: {
 		"de-DE": "Unbefristet",
 		"en-UK": "Whenever is fine",
+		"en-US": "Whenever is fine", //TODO(US)
 		"es-ES": "Cualquier día",
 		"fa-IR": "هر زمانی مناسب است.",
+		"fr-FR": "Whenever is fine", //TODO(FR)
+		"id-ID": "Whenever is fine", //TODO(ID)
 		"it-IT": "No, Nessuna scadenza",
+		"ja-JP": "Whenever is fine", //TODO(JP)
+		"ko-KO": "Whenever is fine", //TODO(KO)
+		"pl-PL": "Whenever is fine", //TODO(PL)
+		"pt-BR": "Whenever is fine", //TODO(BR)
 		"ru-RU": "Когда-нибудь",
+		"tr-TR": "Whenever is fine", //TODO(TR)
+		"ua-UA": "Whenever is fine", //TODO(UA)
+		"uz-UZ": "Whenever is fine", //TODO(UZ)
+		"zh-CN": "Whenever is fine", //TODO(CN)
 	},
 	COMMAND_TEXT_IN_FEW_MINUTES: {
 		"de-DE": "In wenigen Minuten",
 		"en-UK": "In few minutes",
+		"en-US": "In few minutes", //TODO(US)
 		"es-ES": "En unos minutos",
 		"fa-IR": "در چند دقیقه",
+		"fr-FR": "In few minutes", //TODO(FR)
+		"id-ID": "In few minutes", //TODO(ID)
 		"it-IT": "Fra alcuni minuti",
+		"ja-JP": "In few minutes", //TODO(JP)
+		"ko-KO": "In few minutes", //TODO(KO)
+		"pl-PL": "In few minutes", //TODO(PL)
+		"pt-BR": "In few minutes", //TODO(BR)
 		"ru-RU": "Через минуту",
+		"tr-TR": "In few minutes", //TODO(TR)
+		"ua-UA": "In few minutes", //TODO(UA)
+		"uz-UZ": "In few minutes", //TODO(UZ)
+		"zh-CN": "In few minutes", //TODO(CN)
 	},
 	COMMAND_TEXT_IN_1_WEEK: {
 		"de-DE": "In einer Woche",
 		"en-UK": "In 1 week",
+		"en-US": "In 1 week", //TODO(US)
 		"es-ES": "En una semana",
 		"fa-IR": "ظرف یک هفته",
+		"fr-FR": "In 1 week", //TODO(FR)
+		"id-ID": "In 1 week", //TODO(ID)
 		"it-IT": "Fra una settimana",
+		"ja-JP": "In 1 week", //TODO(JP)
+		"ko-KO": "In 1 week", //TODO(KO)
+		"pl-PL": "In 1 week", //TODO(PL)
+		"pt-BR": "In 1 week", //TODO(BR)
 		"ru-RU": "Через неделю",
+		"tr-TR": "In 1 week", //TODO(TR)
+		"ua-UA": "In 1 week", //TODO(UA)
+		"uz-UZ": "In 1 week", //TODO(UZ)
+		"zh-CN": "In 1 week", //TODO(CN)
 	},
 	COMMAND_TEXT_IN_1_MONTH: {
 		"de-DE": "In einem Monat",
 		"en-UK": "In 1 month",
+		"en-US": "In 1 month", //TODO(US)
 		"es-ES": "En un mes",
 		"fa-IR": "ظرف یک ماه",
+		"fr-FR": "In 1 month", //TODO(FR)
+		"id-ID": "In 1 month", //TODO(ID)
 		"it-IT": "Fra un mese",
+		"ja-JP": "In 1 month", //TODO(JP)
+		"ko-KO": "In 1 month", //TODO(KO)
+		"pl-PL": "In 1 month", //TODO(PL)
+		"pt-BR": "In 1 month", //TODO(BR)
 		"ru-RU": "Через месяц",
+		"tr-TR": "In 1 month", //TODO(TR)
+		"ua-UA": "In 1 month", //TODO(UA)
+		"uz-UZ": "In 1 month", //TODO(UZ)
+		"zh-CN": "In 1 month", //TODO(CN)
 	},
 	COMMAND_TEXT_SET_DATE: {
 		"de-DE": "Datum setzen",
 		"en-UK": "Set date",
+		"en-US": "Set date", //TODO(US)
 		"es-ES": "Establecer la fecha",
 		"fa-IR": "تاریخ را تنظیم کنید",
+		"fr-FR": "Set date", //TODO(FR)
+		"id-ID": "Set date", //TODO(ID)
 		"it-IT": "Imposta la data",
+		"ja-JP": "Set date", //TODO(JP)
+		"ko-KO": "Set date", //TODO(KO)
+		"pl-PL": "Set date", //TODO(PL)
+		"pt-BR": "Set date", //TODO(BR)
 		"ru-RU": "Задать дату",
+		"tr-TR": "Set date", //TODO(TR)
+		"ua-UA": "Set date", //TODO(UA)
+		"uz-UZ": "Set date", //TODO(UZ)
+		"zh-CN": "Set date", //TODO(CN)
 	},
 	COMMAND_TEXT_MONDAY: {
 		"de-DE": "Montag",
 		"en-UK": "Monday",
+		"en-US": "Monday", //TODO(US)
 		"es-ES": "Lunes",
 		"fa-IR": "دوشنبه",
+		"fr-FR": "Monday", //TODO(FR)
+		"id-ID": "Monday", //TODO(ID)
 		"it-IT": "Lunedi'",
+		"ja-JP": "Monday", //TODO(JP)
+		"ko-KO": "Monday", //TODO(KO)
+		"pl-PL": "Monday", //TODO(PL)
+		"pt-BR": "Monday", //TODO(BR)
 		"ru-RU": "Понедельник",
+		"tr-TR": "Monday", //TODO(TR)
+		"ua-UA": "Monday", //TODO(UA)
+		"uz-UZ": "Monday", //TODO(UZ)
+		"zh-CN": "Monday", //TODO(CN)
 	},
 	COMMAND_TEXT_TUESDAY: {
 		"de-DE": "Dienstag",
 		"en-UK": "Tuesday",
+		"en-US": "Tuesday", //TODO(US)
 		"es-ES": "Martes",
 		"fa-IR": "سه شنبه",
+		"fr-FR": "Tuesday", //TODO(FR)
+		"id-ID": "Tuesday", //TODO(ID)
 		"it-IT": "Martedi'",
+		"ja-JP": "Tuesday", //TODO(JP)
+		"ko-KO": "Tuesday", //TODO(KO)
+		"pl-PL": "Tuesday", //TODO(PL)
+		"pt-BR": "Tuesday", //TODO(BR)
 		"ru-RU": "Вторник",
+		"tr-TR": "Tuesday", //TODO(TR)
+		"ua-UA": "Tuesday", //TODO(UA)
+		"uz-UZ": "Tuesday", //TODO(UZ)
+		"zh-CN": "Tuesday", //TODO(CN)
 	},
 	COMMAND_TEXT_WEDNESDAY: {
 		"de-DE": "Mittwoch",
 		"en-UK": "Wednesday",
+		"en-US": "Wednesday", //TODO(US)
 		"es-ES": "Miercoles",
 		"fa-IR": "چهارشنبه",
+		"fr-FR": "Wednesday", //TODO(FR)
+		"id-ID": "Wednesday", //TODO(ID)
 		"it-IT": "Mercoledi'",
+		"ja-JP": "Wednesday", //TODO(JP)
+		"ko-KO": "Wednesday", //TODO(KO)
+		"pl-PL": "Wednesday", //TODO(PL)
+		"pt-BR": "Wednesday", //TODO(BR)
 		"ru-RU": "Среда",
+		"tr-TR": "Wednesday", //TODO(TR)
+		"ua-UA": "Wednesday", //TODO(UA)
+		"uz-UZ": "Wednesday", //TODO(UZ)
+		"zh-CN": "Wednesday", //TODO(CN)
 	},
 	COMMAND_TEXT_THURSDAY: {
 		"de-DE": "Donnerstag",
 		"en-UK": "Thursday",
+		"en-US": "Thursday", //TODO(US)
 		"es-ES": "Jueves",
 		"fa-IR": "پنج شنبه",
+		"fr-FR": "Thursday", //TODO(FR)
+		"id-ID": "Thursday", //TODO(ID)
 		"it-IT": "Giovedi'",
+		"ja-JP": "Thursday", //TODO(JP)
+		"ko-KO": "Thursday", //TODO(KO)
+		"pl-PL": "Thursday", //TODO(PL)
+		"pt-BR": "Thursday", //TODO(BR)
 		"ru-RU": "Четверг",
+		"tr-TR": "Thursday", //TODO(TR)
+		"ua-UA": "Thursday", //TODO(UA)
+		"uz-UZ": "Thursday", //TODO(UZ)
+		"zh-CN": "Thursday", //TODO(CN)
 	},
 	COMMAND_TEXT_FRIDAY: {
 		"de-DE": "Freitag",
 		"en-UK": "Friday",
+		"en-US": "Friday", //TODO(US)
 		"es-ES": "Viernes",
 		"fa-IR": "جمعه",
+		"fr-FR": "Friday", //TODO(FR)
+		"id-ID": "Friday", //TODO(ID)
 		"it-IT": "Venerdi'",
+		"ja-JP": "Friday", //TODO(JP)
+		"ko-KO": "Friday", //TODO(KO)
+		"pl-PL": "Friday", //TODO(PL)
+		"pt-BR": "Friday", //TODO(BR)
 		"ru-RU": "Пятница",
+		"tr-TR": "Friday", //TODO(TR)
+		"ua-UA": "Friday", //TODO(UA)
+		"uz-UZ": "Friday", //TODO(UZ)
+		"zh-CN": "Friday", //TODO(CN)
 	},
 	COMMAND_TEXT_SATURDAY: {
 		"de-DE": "Samstag",
 		"en-UK": "Saturday",
+		"en-US": "Saturday", //TODO(US)
 		"es-ES": "Sabado",
 		"fa-IR": "شنبه",
+		"fr-FR": "Saturday", //TODO(FR)
+		"id-ID": "Saturday", //TODO(ID)
 		"it-IT": "Sabato",
+		"ja-JP": "Saturday", //TODO(JP)
+		"ko-KO": "Saturday", //TODO(KO)
+		"pl-PL": "Saturday", //TODO(PL)
+		"pt-BR": "Saturday", //TODO(BR)
 		"ru-RU": "Суббота",
+		"tr-TR": "Saturday", //TODO(TR)
+		"ua-UA": "Saturday", //TODO(UA)
+		"uz-UZ": "Saturday", //TODO(UZ)
+		"zh-CN": "Saturday", //TODO(CN)
 	},
 	COMMAND_TEXT_SUNDAY: {
 		"de-DE": "Sonntag",
 		"en-UK": "Sunday",
+		"en-US": "Sunday", //TODO(US)
 		"es-ES": "Domingo",
 		"fa-IR": "یکشنبه",
+		"fr-FR": "Sunday", //TODO(FR)
+		"id-ID": "Sunday", //TODO(ID)
 		"it-IT": "Domenica",
+		"ja-JP": "Sunday", //TODO(JP)
+		"ko-KO": "Sunday", //TODO(KO)
+		"pl-PL": "Sunday", //TODO(PL)
+		"pt-BR": "Sunday", //TODO(BR)
 		"ru-RU": "Воскресенье",
+		"tr-TR": "Sunday", //TODO(TR)
+		"ua-UA": "Sunday", //TODO(UA)
+		"uz-UZ": "Sunday", //TODO(UZ)
+		"zh-CN": "Sunday", //TODO(CN)
 	},
 	COMMAND_TEXT_DO_NOT_SEND_RECEIPT: {
 		"de-DE": "Keine Quittung schicken",
 		"en-UK": "Do not send the receipt",
+		"en-US": "Do not send the receipt", //TODO(US)
 		"es-ES": "No enviar el recibo",
 		"fa-IR": "رسید را ارسال نکنید",
+		"fr-FR": "Do not send the receipt", //TODO(FR)
+		"id-ID": "Do not send the receipt", //TODO(ID)
 		"it-IT": "Non inviare la ricevuta",
+		"ja-JP": "Do not send the receipt", //TODO(JP)
+		"ko-KO": "Do not send the receipt", //TODO(KO)
+		"pl-PL": "Do not send the receipt", //TODO(PL)
+		"pt-BR": "Do not send the receipt", //TODO(BR)
 		"ru-RU": "Не отправлять квитанцию",
+		"tr-TR": "Do not send the receipt", //TODO(TR)
+		"ua-UA": "Do not send the receipt", //TODO(UA)
+		"uz-UZ": "Do not send the receipt", //TODO(UZ)
+		"zh-CN": "Do not send the receipt", //TODO(CN)
 	},
 	MESSAGE_TEXT_RECEIPT_WILL_NOT_BE_SENT: {
 		"de-DE": "Du hast dich gegen eine Quittung entschieden.",
 		"en-UK": "You've decided not to send the receipt.",
+		"en-US": "You've decided not to send the receipt.", //TODO(US)
 		"es-ES": "Has decidido no enviar el recibo",
 		"fa-IR": "شما تصمیم گرفتید که رسید را ارسال نکنید.",
+		"fr-FR": "You've decided not to send the receipt.", //TODO(FR)
+		"id-ID": "You've decided not to send the receipt.", //TODO(ID)
 		"it-IT": "Hai scelto di non inviare la ricevuta",
+		"ja-JP": "You've decided not to send the receipt.", //TODO(JP)
+		"ko-KO": "You've decided not to send the receipt.", //TODO(KO)
+		"pl-PL": "You've decided not to send the receipt.", //TODO(PL)
+		"pt-BR": "You've decided not to send the receipt.", //TODO(BR)
 		"ru-RU": "Вы решили не отправлять квитанцию.",
+		"tr-TR": "You've decided not to send the receipt.", //TODO(TR)
+		"ua-UA": "You've decided not to send the receipt.", //TODO(UA)
+		"uz-UZ": "You've decided not to send the receipt.", //TODO(UZ)
+		"zh-CN": "You've decided not to send the receipt.", //TODO(CN)
 	},
 	COMMAND_TEXT_I_HAVE_CHANGED_MY_MIND: {
 		"de-DE": "Ich habe meine Meinung geändert",
 		"en-UK": "I've changed my mind",
+		"en-US": "I've changed my mind", //TODO(US)
 		"es-ES": "He cambiado de opinion",
 		"fa-IR": "نظرم را عوض کردم.",
+		"fr-FR": "I've changed my mind", //TODO(FR)
+		"id-ID": "I've changed my mind", //TODO(ID)
 		"it-IT": "Ho cambiato idea",
+		"ja-JP": "I've changed my mind", //TODO(JP)
+		"ko-KO": "I've changed my mind", //TODO(KO)
+		"pl-PL": "I've changed my mind", //TODO(PL)
+		"pt-BR": "I've changed my mind", //TODO(BR)
 		"ru-RU": "Я передумал(а)",
+		"tr-TR": "I've changed my mind", //TODO(TR)
+		"ua-UA": "I've changed my mind", //TODO(UA)
+		"uz-UZ": "I've changed my mind", //TODO(UZ)
+		"zh-CN": "I've changed my mind", //TODO(CN)
 	},
 	COMMAND_TEXT_SEND_RECEIPT_BY_TELEGRAM: {
 		"de-DE": "Senden per Telegram",
 		"en-UK": "Send by Telegram",
+		"en-US": "Send by Telegram", //TODO(US)
 		"es-ES": "Enviar a través de Telegram",
 		"fa-IR": "با تلگرام ارسال شود",
+		"fr-FR": "Send by Telegram", //TODO(FR)
+		"id-ID": "Send by Telegram", //TODO(ID)
 		"it-IT": "Invia tramite Telegram",
+		"ja-JP": "Send by Telegram", //TODO(JP)
+		"ko-KO": "Send by Telegram", //TODO(KO)
+		"pl-PL": "Send by Telegram", //TODO(PL)
+		"pt-BR": "Send by Telegram", //TODO(BR)
 		"ru-RU": "Отправить через Telelgram",
+		"tr-TR": "Send by Telegram", //TODO(TR)
+		"ua-UA": "Send by Telegram", //TODO(UA)
+		"uz-UZ": "Send by Telegram", //TODO(UZ)
+		"zh-CN": "Send by Telegram", //TODO(CN)
 	},
 	COMMAND_TEXT_GET_LINK_FOR_RECEIPT_IN_TELEGRAM: {
+		"de-DE": "Erhalten sie einen link für eine quittung in Telegram", // TODO(DE) verify
 		"en-UK": "Get link for a receipt in Telegram",
+		"en-US": "Get link for a receipt in Telegram",        //TODO(US)
 		"es-ES": "Obtener enlace para recibirlo en Telegram", // TODO(ES) verify
 		"fa-IR": "دریافت پیوند برای دریافت در Telegram",      // TODO(FA) verify
+		"fr-FR": "Get link for a receipt in Telegram",        //TODO(FR)
+		"id-ID": "Get link for a receipt in Telegram",        //TODO(ID)
 		"it-IT": "Link per la ricevuta nel Telegram",         // TODO(IT)
+		"ja-JP": "Get link for a receipt in Telegram",        //TODO(JP)
+		"ko-KO": "Get link for a receipt in Telegram",        //TODO(KO)
+		"pl-PL": "Get link for a receipt in Telegram",        //TODO(PL)
+		"pt-BR": "Get link for a receipt in Telegram",        //TODO(BR)
 		"ru-RU": "Ссылка для квитанции в Телеграмме",
-		"de-DE": "Erhalten sie einen link für eine quittung in Telegram", // TODO(DE) verify
+		"tr-TR": "Get link for a receipt in Telegram", //TODO(TR)
+		"ua-UA": "Get link for a receipt in Telegram", //TODO(UA)
+		"uz-UZ": "Get link for a receipt in Telegram", //TODO(UZ)
+		"zh-CN": "Get link for a receipt in Telegram", //TODO(CN)
 	},
 	COMMAND_TEXT_COUNTERPARTY_HAS_NO_TELEGRAM: {
 		"de-DE": "Senden per FB, WhatsApp, Viber, etc.",
 		"en-UK": "Send by FB, WhatsApp, Viber, etc.",
+		"en-US": "Send by FB, WhatsApp, Viber, etc.", //TODO(US)
 		"es-ES": "Enviar a través de FB, WhatsApp, Viber, etc.",
 		"fa-IR": "با فیسبوک، واتس آپ، وایبر و ... ارسال شود.",
+		"fr-FR": "Send by FB, WhatsApp, Viber, etc.", //TODO(FR)
+		"id-ID": "Send by FB, WhatsApp, Viber, etc.", //TODO(ID)
 		"it-IT": "Invia con FB, WhatsCrap, Viber, etc.",
+		"ja-JP": "Send by FB, WhatsApp, Viber, etc.", //TODO(JP)
+		"ko-KO": "Send by FB, WhatsApp, Viber, etc.", //TODO(KO)
+		"pl-PL": "Send by FB, WhatsApp, Viber, etc.", //TODO(PL)
+		"pt-BR": "Send by FB, WhatsApp, Viber, etc.", //TODO(BR)
 		"ru-RU": "Отправить через Viber, VK, FB, ...",
+		"tr-TR": "Send by FB, WhatsApp, Viber, etc.", //TODO(TR)
+		"ua-UA": "Send by FB, WhatsApp, Viber, etc.", //TODO(UA)
+		"uz-UZ": "Send by FB, WhatsApp, Viber, etc.", //TODO(UZ)
+		"zh-CN": "Send by FB, WhatsApp, Viber, etc.", //TODO(CN)
 	},
 	COMMAND_TEXT_SEND_RECEIPT_BY_SMS: {
 		"de-DE": "Senden per SMS",
 		"en-UK": "Send by SMS",
+		"en-US": "Send by SMS", //TODO(US)
 		"es-ES": "Enviar a través de SMS",
 		"fa-IR": "با پیام کوتاه ارسال شود",
+		"fr-FR": "Send by SMS", //TODO(FR)
+		"id-ID": "Send by SMS", //TODO(ID)
 		"it-IT": "Invia tramite SMS",
+		"ja-JP": "Send by SMS", //TODO(JP)
+		"ko-KO": "Send by SMS", //TODO(KO)
+		"pl-PL": "Send by SMS", //TODO(PL)
+		"pt-BR": "Send by SMS", //TODO(BR)
 		"ru-RU": "Отправить через SMS",
+		"tr-TR": "Send by SMS", //TODO(TR)
+		"ua-UA": "Send by SMS", //TODO(UA)
+		"uz-UZ": "Send by SMS", //TODO(UZ)
+		"zh-CN": "Send by SMS", //TODO(CN)
 	},
 	COMMAND_TEXT_SEND_RECEIPT_BY_VK: {
 		"de-DE": "Senden per VK.com",
 		"en-UK": "Send throw VK.com",
+		"en-US": "Send throw VK.com", //TODO(US)
 		"es-ES": "Enviar vía VK.com",
 		"fa-IR": "ارسال شود VK.com از طریق ",
+		"fr-FR": "Send throw VK.com", //TODO(FR)
+		"id-ID": "Send throw VK.com", //TODO(ID)
 		"it-IT": "Invia tramite VK.com (Facebook russo)",
+		"ja-JP": "Send throw VK.com", //TODO(JP)
+		"ko-KO": "Send throw VK.com", //TODO(KO)
+		"pl-PL": "Send throw VK.com", //TODO(PL)
+		"pt-BR": "Send throw VK.com", //TODO(BR)
 		"ru-RU": "Отправить через ВКонтакте",
+		"tr-TR": "Send throw VK.com", //TODO(TR)
+		"ua-UA": "Send throw VK.com", //TODO(UA)
+		"uz-UZ": "Send throw VK.com", //TODO(UZ)
+		"zh-CN": "Send throw VK.com", //TODO(CN)
 	},
 	COMMAND_TEXT_SEND_RECEIPT_BY_OK: {
 		"de-DE": "Senden per OK",
 		"en-UK": "Send throw OK",
+		"en-US": "Send throw OK", //TODO(US)
 		"es-ES": "Enviar a través de OK",
 		"fa-IR": "ارسال شود OK از طریق ",
+		"fr-FR": "Send throw OK", //TODO(FR)
+		"id-ID": "Send throw OK", //TODO(ID)
 		"it-IT": "Invia tramite OK",
+		"ja-JP": "Send throw OK", //TODO(JP)
+		"ko-KO": "Send throw OK", //TODO(KO)
+		"pl-PL": "Send throw OK", //TODO(PL)
+		"pt-BR": "Send throw OK", //TODO(BR)
 		"ru-RU": "Отправить через Одноклассники",
+		"tr-TR": "Send throw OK", //TODO(TR)
+		"ua-UA": "Send throw OK", //TODO(UA)
+		"uz-UZ": "Send throw OK", //TODO(UZ)
+		"zh-CN": "Send throw OK", //TODO(CN)
 	},
 	COMMAND_TEXT_SEND_RECEIPT_BY_FB: {
 		"de-DE": "Senden per Facebook",
 		"en-UK": "Send throw Facebook",
+		"en-US": "Send throw Facebook", //TODO(US)
 		"es-ES": "Enviar a través de Facebook",
 		"fa-IR": "از طریق فیسبوک ارسال شود.",
+		"fr-FR": "Send throw Facebook", //TODO(FR)
+		"id-ID": "Send throw Facebook", //TODO(ID)
 		"it-IT": "Invia tramite Facebook",
+		"ja-JP": "Send throw Facebook", //TODO(JP)
+		"ko-KO": "Send throw Facebook", //TODO(KO)
+		"pl-PL": "Send throw Facebook", //TODO(PL)
+		"pt-BR": "Send throw Facebook", //TODO(BR)
 		"ru-RU": "Отправить через Facebook",
+		"tr-TR": "Send throw Facebook", //TODO(TR)
+		"ua-UA": "Send throw Facebook", //TODO(UA)
+		"uz-UZ": "Send throw Facebook", //TODO(UZ)
+		"zh-CN": "Send throw Facebook", //TODO(CN)
 	},
 	COMMAND_TEXT_SEND_RECEIPT_BY_TWT: {
 		"de-DE": "Senden per Twitter",
 		"en-UK": "Send throw Twitter",
+		"en-US": "Send throw Twitter", //TODO(US)
 		"es-ES": "Enviar a través de Twitter",
 		"fa-IR": "از طریق توئیتر ارسال شود.",
+		"fr-FR": "Send throw Twitter", //TODO(FR)
+		"id-ID": "Send throw Twitter", //TODO(ID)
 		"it-IT": "Invia tramite Twitter",
+		"ja-JP": "Send throw Twitter", //TODO(JP)
+		"ko-KO": "Send throw Twitter", //TODO(KO)
+		"pl-PL": "Send throw Twitter", //TODO(PL)
+		"pt-BR": "Send throw Twitter", //TODO(BR)
 		"ru-RU": "Отправить через Twitter",
+		"tr-TR": "Send throw Twitter", //TODO(TR)
+		"ua-UA": "Send throw Twitter", //TODO(UA)
+		"uz-UZ": "Send throw Twitter", //TODO(UZ)
+		"zh-CN": "Send throw Twitter", //TODO(CN)
 	},
 	COMMAND_TEXT_CANCEL_SENDING_RECEIPT_BY_TELEGRAM: {
 		"de-DE": "Sendung der Quittung per Telegram abbrechen",
 		"en-UK": "Cancel sending receipt by Telegram",
+		"en-US": "Cancel sending receipt by Telegram", //TODO(US)
 		"es-ES": "Cancelar el envío a través de Telegram",
 		"fa-IR": "ارسال رسید با تلگرام کنسل شود",
+		"fr-FR": "Cancel sending receipt by Telegram", //TODO(FR)
+		"id-ID": "Cancel sending receipt by Telegram", //TODO(ID)
 		"it-IT": "Annulla l'invio tramite Telegram",
+		"ja-JP": "Cancel sending receipt by Telegram", //TODO(JP)
+		"ko-KO": "Cancel sending receipt by Telegram", //TODO(KO)
+		"pl-PL": "Cancel sending receipt by Telegram", //TODO(PL)
+		"pt-BR": "Cancel sending receipt by Telegram", //TODO(BR)
 		"ru-RU": "Отменить отправку через Telegram",
+		"tr-TR": "Cancel sending receipt by Telegram", //TODO(TR)
+		"ua-UA": "Cancel sending receipt by Telegram", //TODO(UA)
+		"uz-UZ": "Cancel sending receipt by Telegram", //TODO(UZ)
+		"zh-CN": "Cancel sending receipt by Telegram", //TODO(CN)
 	},
 	MAIN_MENU: {
 		"de-DE": "Hauptmenü",
@@ -1091,162 +1377,382 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_MAIN_MENU_TITLE: {
 		"de-DE": "Menü /menu",
 		"en-UK": "Main /menu",
+		"en-US": "Main /menu", //TODO(US)
 		"es-ES": "Inicio /menú",
 		"fa-IR": "/منو ی اصلی ",
+		"fr-FR": "Main /menu", //TODO(FR)
+		"id-ID": "Main /menu", //TODO(ID)
 		"it-IT": "Menu' /menu",
+		"ja-JP": "Main /menu", //TODO(JP)
+		"ko-KO": "Main /menu", //TODO(KO)
+		"pl-PL": "Main /menu", //TODO(PL)
+		"pt-BR": "Main /menu", //TODO(BR)
 		"ru-RU": "Главное /меню",
+		"tr-TR": "Main /menu", //TODO(TR)
+		"ua-UA": "Main /menu", //TODO(UA)
+		"uz-UZ": "Main /menu", //TODO(UZ)
+		"zh-CN": "Main /menu", //TODO(CN)
 	},
 	MESSAGE_TEXT_NOTHING_TO_CANCEL: {
 		"de-DE": "Nichts zum abbrechen.",
 		"en-UK": "Nothing to cancel.",
+		"en-US": "Nothing to cancel.", //TODO(US)
 		"es-ES": "No hay nada que anular.",
 		"fa-IR": "چیزی برای کنسل شدن وجود ندارد",
+		"fr-FR": "Nothing to cancel.", //TODO(FR)
+		"id-ID": "Nothing to cancel.", //TODO(ID)
 		"it-IT": "Nulla da annullare.",
+		"ja-JP": "Nothing to cancel.", //TODO(JP)
+		"ko-KO": "Nothing to cancel.", //TODO(KO)
+		"pl-PL": "Nothing to cancel.", //TODO(PL)
+		"pt-BR": "Nothing to cancel.", //TODO(BR)
 		"ru-RU": "Нечего отменять.",
+		"tr-TR": "Nothing to cancel.", //TODO(TR)
+		"ua-UA": "Nothing to cancel.", //TODO(UA)
+		"uz-UZ": "Nothing to cancel.", //TODO(UZ)
+		"zh-CN": "Nothing to cancel.", //TODO(CN)
 	},
 	MESSAGE_TEXT_TRANSFER_CREATION_CANCELED: {
 		"de-DE": "Erstellung des Schuldscheins abgebrochen.",
 		"en-UK": "Creation of debt record has been canceled.",
+		"en-US": "Creation of debt record has been canceled.", //TODO(US)
 		"es-ES": "La creación del recordatorio se ha cancelado.",
 		"fa-IR": "ایجاد سابقه بدهی کنسل شد.",
+		"fr-FR": "Creation of debt record has been canceled.", //TODO(FR)
+		"id-ID": "Creation of debt record has been canceled.", //TODO(ID)
 		"it-IT": "Creazione record annullata",
+		"ja-JP": "Creation of debt record has been canceled.", //TODO(JP)
+		"ko-KO": "Creation of debt record has been canceled.", //TODO(KO)
+		"pl-PL": "Creation of debt record has been canceled.", //TODO(PL)
+		"pt-BR": "Creation of debt record has been canceled.", //TODO(BR)
 		"ru-RU": "Создание записи о долге отменено.",
+		"tr-TR": "Creation of debt record has been canceled.", //TODO(TR)
+		"ua-UA": "Creation of debt record has been canceled.", //TODO(UA)
+		"uz-UZ": "Creation of debt record has been canceled.", //TODO(UZ)
+		"zh-CN": "Creation of debt record has been canceled.", //TODO(CN)
 	},
 	COMMAND_TEXT_SHOW_ALL_CONTACTS: {
 		"de-DE": "Zeige alle...",
 		"en-UK": "Show all...",
+		"en-US": "Show all...", //TODO(US)
 		"es-ES": "Mostrar todo...",
 		"fa-IR": "نمایش تمام موارد ...",
+		"fr-FR": "Show all...", //TODO(FR)
+		"id-ID": "Show all...", //TODO(ID)
 		"it-IT": "Mostra tutto...",
+		"ja-JP": "Show all...", //TODO(JP)
+		"ko-KO": "Show all...", //TODO(KO)
+		"pl-PL": "Show all...", //TODO(PL)
+		"pt-BR": "Show all...", //TODO(BR)
 		"ru-RU": "Показать все...",
+		"tr-TR": "Show all...", //TODO(TR)
+		"ua-UA": "Show all...", //TODO(UA)
+		"uz-UZ": "Show all...", //TODO(UZ)
+		"zh-CN": "Show all...", //TODO(CN)
 	},
 	COMMAND_TEXT_CONTACTS: {
 		"de-DE": "Kontakte",
 		"en-UK": "Contacts",
+		"en-US": "Contacts", //TODO(US)
 		"es-ES": "Contactos",
 		"fa-IR": "لیست تماس",
+		"fr-FR": "Contacts", //TODO(FR)
+		"id-ID": "Contacts", //TODO(ID)
 		"it-IT": "Сontatti",
+		"ja-JP": "Contacts", //TODO(JP)
+		"ko-KO": "Contacts", //TODO(KO)
+		"pl-PL": "Contacts", //TODO(PL)
+		"pt-BR": "Contacts", //TODO(BR)
 		"ru-RU": "Контакты",
+		"tr-TR": "Contacts", //TODO(TR)
+		"ua-UA": "Contacts", //TODO(UA)
+		"uz-UZ": "Contacts", //TODO(UZ)
+		"zh-CN": "Contacts", //TODO(CN)
 	},
 	COMMAND_TEXT_REFRESH: {
 		"de-DE": "Aktualisieren",
 		"en-UK": "Refresh",
+		"en-US": "Refresh", //TODO(US)
 		"es-ES": "Recargar",
 		"fa-IR": "تازه کردن",
+		"fr-FR": "Refresh", //TODO(FR)
+		"id-ID": "Refresh", //TODO(ID)
 		"it-IT": "Ricaricare",
+		"ja-JP": "Refresh", //TODO(JP)
+		"ko-KO": "Refresh", //TODO(KO)
+		"pl-PL": "Refresh", //TODO(PL)
+		"pt-BR": "Refresh", //TODO(BR)
 		"ru-RU": "Обновить",
+		"tr-TR": "Refresh", //TODO(TR)
+		"ua-UA": "Refresh", //TODO(UA)
+		"uz-UZ": "Refresh", //TODO(UZ)
+		"zh-CN": "Refresh", //TODO(CN)
 	},
 	COMMAND_TEXT_ADD_YOUR_OWN_OPTION: {
 		"de-DE": "Etwas anderes",
 		"en-UK": "Something else",
+		"en-US": "Something else", //TODO(US)
 		"es-ES": "Otra cosa",
 		"fa-IR": "چیزی دیگر",
+		"fr-FR": "Something else", //TODO(FR)
+		"id-ID": "Something else", //TODO(ID)
 		"it-IT": "Qualcos'altro",
+		"ja-JP": "Something else", //TODO(JP)
+		"ko-KO": "Something else", //TODO(KO)
+		"pl-PL": "Something else", //TODO(PL)
+		"pt-BR": "Something else", //TODO(BR)
 		"ru-RU": "Что-то другое",
+		"tr-TR": "Something else", //TODO(TR)
+		"ua-UA": "Something else", //TODO(UA)
+		"uz-UZ": "Something else", //TODO(UZ)
+		"zh-CN": "Something else", //TODO(CN)
 	},
 	MESSAGE_TEXT_REMINDER_ASK_IF_RETURNED: {
 		"de-DE": "Wurde diese Schuld beglichen?",
 		"en-UK": "Have this debt been returned?",
+		"en-US": "Have this debt been returned?", //TODO(US)
 		"es-ES": "¿Se ha devuelto esta deuda?",
 		"fa-IR": "آیا این بدهی بازپرداخت شده است؟",
+		"fr-FR": "Have this debt been returned?", //TODO(FR)
+		"id-ID": "Have this debt been returned?", //TODO(ID)
 		"it-IT": "Questo debito e' stato saldato?",
+		"ja-JP": "Have this debt been returned?", //TODO(JP)
+		"ko-KO": "Have this debt been returned?", //TODO(KO)
+		"pl-PL": "Have this debt been returned?", //TODO(PL)
+		"pt-BR": "Have this debt been returned?", //TODO(BR)
 		"ru-RU": "Был ли этот долг возвращён?",
+		"tr-TR": "Have this debt been returned?", //TODO(TR)
+		"ua-UA": "Have this debt been returned?", //TODO(UA)
+		"uz-UZ": "Have this debt been returned?", //TODO(UZ)
+		"zh-CN": "Have this debt been returned?", //TODO(CN)
 	},
 	MESSAGE_TEXT_ASK_WHEN_TO_REMIND_AGAIN: {
 		"de-DE": "Wann willst du wieder an diese Schuld erinnert werden?",
 		"en-UK": "When should we remind you about this debt again?",
+		"en-US": "When should we remind you about this debt again?", //TODO(US)
 		"es-ES": "¿Cuándo recordarte de esta deuda otra vez?",
-		"it-IT": "Quando devo ricordarti di questo debito?",
 		"fa-IR": "چه زمانی لازم است مجدداً در مورد این بدهی به شما یادآوری نماییم؟",
+		"fr-FR": "When should we remind you about this debt again?", //TODO(FR)
+		"id-ID": "When should we remind you about this debt again?", //TODO(ID)
+		"it-IT": "Quando devo ricordarti di questo debito?",
+		"ja-JP": "When should we remind you about this debt again?", //TODO(JP)
+		"ko-KO": "When should we remind you about this debt again?", //TODO(KO)
+		"pl-PL": "When should we remind you about this debt again?", //TODO(PL)
+		"pt-BR": "When should we remind you about this debt again?", //TODO(BR)
 		"ru-RU": "Когда вам напомнить об этом долге ещё раз?",
+		"tr-TR": "When should we remind you about this debt again?", //TODO(TR)
+		"ua-UA": "When should we remind you about this debt again?", //TODO(UA)
+		"uz-UZ": "When should we remind you about this debt again?", //TODO(UZ)
+		"zh-CN": "When should we remind you about this debt again?", //TODO(CN)
 	},
 	MESSAGE_TEXT_REPLIED_DEBT_RETURNED_FULLY: {
 		"de-DE": "Du hast angegeben, dass diese Schuld vollständig beglichen ist.",
 		"en-UK": "You've replied back that debt has been returned fully.",
+		"en-US": "You've replied back that debt has been returned fully.", //TODO(US)
 		"es-ES": "Has confirmado que la deuda se ha saldado totalmente",
 		"fa-IR": "شما پاسخ داده اید که بدهی به صورت کامل بازپرداخت شده است.",
+		"fr-FR": "You've replied back that debt has been returned fully.", //TODO(FR)
+		"id-ID": "You've replied back that debt has been returned fully.", //TODO(ID)
 		"it-IT": "Hai confermato che il debito e' stato saldato.",
+		"ja-JP": "You've replied back that debt has been returned fully.", //TODO(JP)
+		"ko-KO": "You've replied back that debt has been returned fully.", //TODO(KO)
+		"pl-PL": "You've replied back that debt has been returned fully.", //TODO(PL)
+		"pt-BR": "You've replied back that debt has been returned fully.", //TODO(BR)
 		"ru-RU": "Вы ответили что долг возвращён полностью.",
+		"tr-TR": "You've replied back that debt has been returned fully.", //TODO(TR)
+		"ua-UA": "You've replied back that debt has been returned fully.", //TODO(UA)
+		"uz-UZ": "You've replied back that debt has been returned fully.", //TODO(UZ)
+		"zh-CN": "You've replied back that debt has been returned fully.", //TODO(CN)
 	},
 	MESSAGE_TEXT_DEBT_IS_RETURNED: {
 		"de-DE": "Die Schuld ist vollständig beglichen.",
 		"en-UK": "The debt has been returned fully.",
+		"en-US": "The debt has been returned fully.", //TODO(US)
 		"es-ES": "La deuda se ha saldado totalmente",
 		"fa-IR": "بدهی به صورت کامل بازپرداخت شده است",
+		"fr-FR": "The debt has been returned fully.", //TODO(FR)
+		"id-ID": "The debt has been returned fully.", //TODO(ID)
 		"it-IT": "Il debito e' stato saldato.",
+		"ja-JP": "The debt has been returned fully.", //TODO(JP)
+		"ko-KO": "The debt has been returned fully.", //TODO(KO)
+		"pl-PL": "The debt has been returned fully.", //TODO(PL)
+		"pt-BR": "The debt has been returned fully.", //TODO(BR)
 		"ru-RU": "Долг возвращён полностью.",
+		"tr-TR": "The debt has been returned fully.", //TODO(TR)
+		"ua-UA": "The debt has been returned fully.", //TODO(UA)
+		"uz-UZ": "The debt has been returned fully.", //TODO(UZ)
+		"zh-CN": "The debt has been returned fully.", //TODO(CN)
 	},
 	MESSAGE_TEXT_DETAILS_ARE_HERE: {
 		"de-DE": "Details hier: %v",
 		"en-UK": "Details here: %v",
+		"en-US": "Details here: %v", //TODO(US)
 		"es-ES": "Detalles aquí: %v",
 		"fa-IR": "جزئیات در اینجا: %v",
+		"fr-FR": "Details here: %v", //TODO(FR)
+		"id-ID": "Details here: %v", //TODO(ID)
 		"it-IT": "Dettagli qui: %v",
+		"ja-JP": "Details here: %v", //TODO(JP)
+		"ko-KO": "Details here: %v", //TODO(KO)
+		"pl-PL": "Details here: %v", //TODO(PL)
+		"pt-BR": "Details here: %v", //TODO(BR)
 		"ru-RU": "Подробности тут: %v",
+		"tr-TR": "Details here: %v", //TODO(TR)
+		"ua-UA": "Details here: %v", //TODO(UA)
+		"uz-UZ": "Details here: %v", //TODO(UZ)
+		"zh-CN": "Details here: %v", //TODO(CN)
 	},
 	MESSAGE_TEXT_REMINDER: {
 		"de-DE": "Erinnerung",
 		"en-UK": "Reminder",
+		"en-US": "Reminder", //TODO(US)
 		"es-ES": "Recordatorio",
 		"fa-IR": "یادآور",
+		"fr-FR": "Reminder", //TODO(FR)
+		"id-ID": "Reminder", //TODO(ID)
 		"it-IT": "Promemoria",
+		"ja-JP": "Reminder", //TODO(JP)
+		"ko-KO": "Reminder", //TODO(KO)
+		"pl-PL": "Reminder", //TODO(PL)
+		"pt-BR": "Reminder", //TODO(BR)
 		"ru-RU": "Напоминание",
+		"tr-TR": "Reminder", //TODO(TR)
+		"ua-UA": "Reminder", //TODO(UA)
+		"uz-UZ": "Reminder", //TODO(UZ)
+		"zh-CN": "Reminder", //TODO(CN)
 	},
 	MESSAGE_TEXT_REMINDER_SET: {
 		"de-DE": "Erinnerung am: %v",
 		"en-UK": "Reminder set for: %v",
+		"en-US": "Reminder set for: %v", //TODO(US)
 		"es-ES": "Recordatorio establecito para: %v",
 		"fa-IR": "یادآور تنظیم شده است برای: %v",
+		"fr-FR": "Reminder set for: %v", //TODO(FR)
+		"id-ID": "Reminder set for: %v", //TODO(ID)
 		"it-IT": "Imposta promemoria per: %v",
+		"ja-JP": "Reminder set for: %v", //TODO(JP)
+		"ko-KO": "Reminder set for: %v", //TODO(KO)
+		"pl-PL": "Reminder set for: %v", //TODO(PL)
+		"pt-BR": "Reminder set for: %v", //TODO(BR)
 		"ru-RU": "Напоминание установлено на: %v",
+		"tr-TR": "Reminder set for: %v", //TODO(TR)
+		"ua-UA": "Reminder set for: %v", //TODO(UA)
+		"uz-UZ": "Reminder set for: %v", //TODO(UZ)
+		"zh-CN": "Reminder set for: %v", //TODO(CN)
 	},
 	MESSAGE_TEXT_REMINDER_DISABLED: {
 		"de-DE": "Du hast die Erinnerung an diese Schuld deaktiviert.",
 		"en-UK": "You've disabled reminders for this debt.",
+		"en-US": "You've disabled reminders for this debt.", //TODO(US)
 		"es-ES": "Recordatorio para esta deuda se ha deshabilitado.",
 		"fa-IR": "شما یادآور را برای این بدهی غیرفعال نموده اید.",
+		"fr-FR": "You've disabled reminders for this debt.", //TODO(FR)
+		"id-ID": "You've disabled reminders for this debt.", //TODO(ID)
 		"it-IT": "Hai disabilitato il promemoria per questo debito.",
+		"ja-JP": "You've disabled reminders for this debt.", //TODO(JP)
+		"ko-KO": "You've disabled reminders for this debt.", //TODO(KO)
+		"pl-PL": "You've disabled reminders for this debt.", //TODO(PL)
+		"pt-BR": "You've disabled reminders for this debt.", //TODO(BR)
 		"ru-RU": "Напоминания об этом долге отключены.",
+		"tr-TR": "You've disabled reminders for this debt.", //TODO(TR)
+		"ua-UA": "You've disabled reminders for this debt.", //TODO(UA)
+		"uz-UZ": "You've disabled reminders for this debt.", //TODO(UZ)
+		"zh-CN": "You've disabled reminders for this debt.", //TODO(CN)
 	},
 	COMMAND_TEXT_REMINDER_ENABLE: {
 		"de-DE": "Erinnerung aktivieren",
 		"en-UK": "Turn-on reminder",
+		"en-US": "Turn-on reminder",          //TODO(US)
 		"es-ES": "Recordatorio de encendido", // TODO(es) verify
 		"fa-IR": "یادآوری روشن",              // TODO(fa) verify
+		"fr-FR": "Turn-on reminder",          //TODO(FR)
+		"id-ID": "Turn-on reminder",          //TODO(ID)
 		"it-IT": "Ricordo promozionale",      // TODO(it) verify
+		"ja-JP": "Turn-on reminder",          //TODO(JP)
+		"ko-KO": "Turn-on reminder",          //TODO(KO)
+		"pl-PL": "Turn-on reminder",          //TODO(PL)
+		"pt-BR": "Turn-on reminder",          //TODO(BR)
 		"ru-RU": "Включить напоминание",
+		"tr-TR": "Turn-on reminder", //TODO(TR)
+		"ua-UA": "Turn-on reminder", //TODO(UA)
+		"uz-UZ": "Turn-on reminder", //TODO(UZ)
+		"zh-CN": "Turn-on reminder", //TODO(CN)
 	},
 	MESSAGE_TEXT_REMINDER_ALREADY_RESCHEDULED: {
 		"de-DE": "Du wirst bereits erneut erinnert.",
 		"en-UK": "You've already rescheduled this reminder.",
+		"en-US": "You've already rescheduled this reminder.", //TODO(US)
 		"es-ES": "Recordatorio para esta deuda se ha reprogramado ya.",
-		"it-IT": "Hai gia' impostato questo promemoria",
 		"fa-IR": "شما قبلا به صورت مجدد این یادآور را زمانبندی نموده اید.",
+		"fr-FR": "You've already rescheduled this reminder.", //TODO(FR)
+		"id-ID": "You've already rescheduled this reminder.", //TODO(ID)
+		"it-IT": "Hai gia' impostato questo promemoria",
+		"ja-JP": "You've already rescheduled this reminder.", //TODO(JP)
+		"ko-KO": "You've already rescheduled this reminder.", //TODO(KO)
+		"pl-PL": "You've already rescheduled this reminder.", //TODO(PL)
+		"pt-BR": "You've already rescheduled this reminder.", //TODO(BR)
 		"ru-RU": "Напоминание об этом долге уже перенесено.",
+		"tr-TR": "You've already rescheduled this reminder.", //TODO(TR)
+		"ua-UA": "You've already rescheduled this reminder.", //TODO(UA)
+		"uz-UZ": "You've already rescheduled this reminder.", //TODO(UZ)
+		"zh-CN": "You've already rescheduled this reminder.", //TODO(CN)
 	},
 	COMMAND_TEXT_REMINDER_RETURNED_IN_FULL: {
 		"de-DE": "Ja, vollständig beglichen",
 		"en-UK": "Yes, returne in full",
+		"en-US": "Yes, returne in full", //TODO(US)
 		"es-ES": "Sí, devuelto totalmente",
 		"fa-IR": "بله، بازپرداخت به صورت کامل",
+		"fr-FR": "Yes, returne in full", //TODO(FR)
+		"id-ID": "Yes, returne in full", //TODO(ID)
 		"it-IT": "Si, completamento saldato",
+		"ja-JP": "Yes, returne in full", //TODO(JP)
+		"ko-KO": "Yes, returne in full", //TODO(KO)
+		"pl-PL": "Yes, returne in full", //TODO(PL)
+		"pt-BR": "Yes, returne in full", //TODO(BR)
 		"ru-RU": "Да, возвращено полностью",
+		"tr-TR": "Yes, returne in full", //TODO(TR)
+		"ua-UA": "Yes, returne in full", //TODO(UA)
+		"uz-UZ": "Yes, returne in full", //TODO(UZ)
+		"zh-CN": "Yes, returne in full", //TODO(CN)
 	},
 	COMMAND_TEXT_REMINDER_RETURNED_PARTIALLY: {
 		"de-DE": "Teilweise beglichen",
 		"en-UK": "Returned partially",
+		"en-US": "Returned partially", //TODO(US)
 		"es-ES": "Devuelto parcialmente",
 		"fa-IR": "تا اندازه ای بازپرداخت شده است",
+		"fr-FR": "Returned partially", //TODO(FR)
+		"id-ID": "Returned partially", //TODO(ID)
 		"it-IT": "Parzialmente saldato",
+		"ja-JP": "Returned partially", //TODO(JP)
+		"ko-KO": "Returned partially", //TODO(KO)
+		"pl-PL": "Returned partially", //TODO(PL)
+		"pt-BR": "Returned partially", //TODO(BR)
 		"ru-RU": "Возврашено частично",
+		"tr-TR": "Returned partially", //TODO(TR)
+		"ua-UA": "Returned partially", //TODO(UA)
+		"uz-UZ": "Returned partially", //TODO(UZ)
+		"zh-CN": "Returned partially", //TODO(CN)
 	},
 	COMMAND_TEXT_REMINDER_NOT_RETURNED: {
 		"de-DE": "Nicht beglichen",
 		"en-UK": "Not returned",
+		"en-US": "Not returned", //TODO(US)
 		"es-ES": "No devuelto",
 		"fa-IR": "بازپرداخت نشده است",
+		"fr-FR": "Not returned", //TODO(FR)
+		"id-ID": "Not returned", //TODO(ID)
 		"it-IT": "Debito non saldato",
+		"ja-JP": "Not returned", //TODO(JP)
+		"ko-KO": "Not returned", //TODO(KO)
+		"pl-PL": "Not returned", //TODO(PL)
+		"pt-BR": "Not returned", //TODO(BR)
 		"ru-RU": "Не возвращено",
+		"tr-TR": "Not returned", //TODO(TR)
+		"ua-UA": "Not returned", //TODO(UA)
+		"uz-UZ": "Not returned", //TODO(UZ)
+		"zh-CN": "Not returned", //TODO(CN)
 	},
 	MESSAGE_TEXT_YOU_REPLIED: {
 		"de-DE": "Beantwortet: %v",
@@ -1379,52 +1885,128 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_HIGH_FIVE: {
 		"de-DE": "Gib mir Fünf!",
 		"en-UK": "High five!",
+		"en-US": "High five!",
 		"es-ES": "¡Choca esos cinco!",
 		"fa-IR": "بزن قدش!",
+		"fr-FR": "Tape m'en cinq !",
+		"id-ID": "High five!",
 		"it-IT": "Batti 5 bro!",
+		"ja-JP": "ハイタッチ！",
+		"ko-KO": "하이 파이브!",
+		"pl-PL": "Przybij piątkę!",
+		"pt-BR": "High five!",
 		"ru-RU": "Дать пять!",
+		"tr-TR": "Çak bir beşlik!",
+		"ua-UA": "Дай п'ять!",
+		"uz-UZ": "Besh qo'l!",
+		"zh-CN": "击掌！",
 	},
 	COMMAND_TEXT_CHANGE_LANG: {
 		"de-DE": "Sprache",
 		"en-UK": "Language",
+		"en-US": "Language",
 		"es-ES": "Idioma",
 		"fa-IR": "زبان",
+		"fr-FR": "Langue",
+		"id-ID": "Bahasa",
 		"it-IT": "Lingua",
+		"ja-JP": "言語",
+		"ko-KO": "언어",
+		"pl-PL": "Język",
+		"pt-BR": "Idioma",
 		"ru-RU": "Язык",
+		"tr-TR": "Dil",
+		"ua-UA": "Мова",
+		"uz-UZ": "Til",
+		"zh-CN": "语言",
 	},
 	COMMAND_TEXT_HELP: {
 		"de-DE": "Hilfe",
 		"en-UK": "Help",
+		"en-US": "Help",
 		"es-ES": "Ayuda",
 		"fa-IR": "کمک",
+		"fr-FR": "Aide",
+		"id-ID": "Bantuan",
 		"it-IT": "Aiuto",
+		"ja-JP": "ヘルプ",
+		"ko-KO": "도움말",
+		"pl-PL": "Pomoc",
+		"pt-BR": "Ajuda",
 		"ru-RU": "Помощь",
+		"tr-TR": "Yardım",
+		"ua-UA": "Допомога",
+		"uz-UZ": "Yordam",
+		"zh-CN": "帮助",
 	},
 	COMMAND_TEXT_HISTORY: {
 		"de-DE": "Verlauf",
 		"en-UK": "History",
+		"en-US": "History",
 		"es-ES": "Cronología",
 		"fa-IR": "پیشینه",
+		"fr-FR": "Historique",
+		"id-ID": "Riwayat",
 		"it-IT": "Cronologia",
+		"ja-JP": "履歴",
+		"ko-KO": "기록",
+		"pl-PL": "Historia",
+		"pt-BR": "Histórico",
 		"ru-RU": "История",
+		"tr-TR": "Geçmiş",
+		"ua-UA": "Історія",
+		"uz-UZ": "Tarix",
+		"zh-CN": "历史",
 	},
 	COMMAND_TEXT_CANCEL: {
 		"de-DE": "Abbrechen",
 		"en-UK": "Cancel",
+		"en-US": "Cancel",
 		"es-ES": "Cancelar",
 		"fa-IR": "کنسل",
+		"fr-FR": "Annuler",
+		"id-ID": "Batal",
 		"it-IT": "Annulla",
+		"ja-JP": "キャンセル",
+		"ko-KO": "취소",
+		"pl-PL": "Anuluj",
+		"pt-BR": "Cancelar",
 		"ru-RU": "Отменить",
+		"tr-TR": "İptal",
+		"ua-UA": "Скасувати",
+		"uz-UZ": "Bekor qilish",
+		"zh-CN": "取消",
 	},
 	COMMAND_TEXT_REFERRERS: {
-		//"de-DE": "Abbrechen",
+		"de-DE": "Empfehlungen",
 		"en-UK": "Referrers",
-		//"es-ES": "Cancelar",
-		//"fa-IR": "کنسل",
-		//"it-IT": "Annulla",
+		"en-US": "Referrers",
+		"es-ES": "Referentes",
+		"fa-IR": "معرف‌ها",
+		"fr-FR": "Référents",
+		"id-ID": "Referensi",
+		"it-IT": "Referenti",
+		"ja-JP": "紹介者",
+		"ko-KO": "추천인",
+		"pl-PL": "Polecający",
+		"pt-BR": "Referências",
 		"ru-RU": "Нас рекомендуют",
+		"tr-TR": "Referanslar",
+		"ua-UA": "Нас рекомендують",
+		"uz-UZ": "Tavsiya qiluvchilar",
+		"zh-CN": "推荐人",
 	},
 	MESSAGE_TEXT_HOW_TO_ADD_TG_CHANNEL: {
+		"de-DE": `Um deinen Kanal zur Liste hinzuzufügen, schreibe einfach über uns mit einem Link wie %v <code>&lt;-</code> ersetze <code>YOUR_CHANNEL</code> durch deinen eigenen Kanal.
+
+Es ist besser, wenn du den Link in HTML versteckst als:
+
+<pre>&lt;a href="%v"&gt;@%v&lt;/a&gt;</pre>
+
+Dies sollte von Telegram-Clients so dargestellt werden: <a href="%v">@%v</a>
+
+Die Top 5 Empfehlungen der letzten 100 neuen Benutzer werden hier angezeigt.`,
+
 		"en-UK": `To add your channel to the list just write about us with a link as %v <code>&lt;-</code> replace <code>YOUR_CHANNEL</code> with your own channel.
 
 It's better if you hide the link in HTML as:
@@ -1435,6 +2017,106 @@ This should be rendered by Telegram clients as: <a href="%v">@%v</a>
 
 Top 5 referrers for the last 100 new users will be shown here.`,
 
+		"en-US": `To add your channel to the list just write about us with a link as %v <code>&lt;-</code> replace <code>YOUR_CHANNEL</code> with your own channel.
+
+It's better if you hide the link in HTML as:
+
+<pre>&lt;a href="%v"&gt;@%v&lt;/a&gt;</pre>
+
+This should be rendered by Telegram clients as: <a href="%v">@%v</a>
+
+Top 5 referrers for the last 100 new users will be shown here.`,
+
+		"es-ES": `Para añadir tu canal a la lista, simplemente escribe sobre nosotros con un enlace como %v <code>&lt;-</code> reemplaza <code>YOUR_CHANNEL</code> con tu propio canal.
+
+Es mejor si ocultas el enlace en HTML como:
+
+<pre>&lt;a href="%v"&gt;@%v&lt;/a&gt;</pre>
+
+Esto debería ser renderizado por los clientes de Telegram como: <a href="%v">@%v</a>
+
+Los 5 principales referentes de los últimos 100 nuevos usuarios se mostrarán aquí.`,
+
+		"fa-IR": `برای اضافه کردن کانال خود به لیست، فقط درباره ما با لینکی مانند %v <code>&lt;-</code> بنویسید و <code>YOUR_CHANNEL</code> را با کانال خود جایگزین کنید.
+
+بهتر است اگر لینک را در HTML به این صورت پنهان کنید:
+
+<pre>&lt;a href="%v"&gt;@%v&lt;/a&gt;</pre>
+
+این باید توسط کلاینت‌های تلگرام به این صورت نمایش داده شود: <a href="%v">@%v</a>
+
+5 معرف برتر برای 100 کاربر جدید آخر در اینجا نشان داده خواهد شد.`,
+
+		"fr-FR": `Pour ajouter votre chaîne à la liste, écrivez simplement à propos de nous avec un lien comme %v <code>&lt;-</code> remplacez <code>YOUR_CHANNEL</code> par votre propre chaîne.
+
+C'est mieux si vous cachez le lien en HTML comme:
+
+<pre>&lt;a href="%v"&gt;@%v&lt;/a&gt;</pre>
+
+Cela devrait être rendu par les clients Telegram comme: <a href="%v">@%v</a>
+
+Les 5 principaux référents pour les 100 derniers nouveaux utilisateurs seront affichés ici.`,
+
+		"id-ID": `Untuk menambahkan saluran Anda ke daftar, cukup tulis tentang kami dengan tautan sebagai %v <code>&lt;-</code> ganti <code>YOUR_CHANNEL</code> dengan saluran Anda sendiri.
+
+Lebih baik jika Anda menyembunyikan tautan dalam HTML sebagai:
+
+<pre>&lt;a href="%v"&gt;@%v&lt;/a&gt;</pre>
+
+Ini harus dirender oleh klien Telegram sebagai: <a href="%v">@%v</a>
+
+5 referensi teratas untuk 100 pengguna baru terakhir akan ditampilkan di sini.`,
+
+		"it-IT": `Per aggiungere il tuo canale all'elenco, scrivi semplicemente di noi con un link come %v <code>&lt;-</code> sostituisci <code>YOUR_CHANNEL</code> con il tuo canale.
+
+È meglio se nascondi il link in HTML come:
+
+<pre>&lt;a href="%v"&gt;@%v&lt;/a&gt;</pre>
+
+Questo dovrebbe essere visualizzato dai client Telegram come: <a href="%v">@%v</a>
+
+I primi 5 referenti per gli ultimi 100 nuovi utenti saranno mostrati qui.`,
+
+		"ja-JP": `あなたのチャンネルをリストに追加するには、%v <code>&lt;-</code> のようなリンクで私たちについて書くだけです。<code>YOUR_CHANNEL</code>をあなた自身のチャンネルに置き換えてください。
+
+HTMLでリンクを隠すとより良いでしょう：
+
+<pre>&lt;a href="%v"&gt;@%v&lt;/a&gt;</pre>
+
+これはTelegramクライアントによって次のように表示されるはずです： <a href="%v">@%v</a>
+
+最後の100人の新規ユーザーのトップ5紹介者がここに表示されます。`,
+
+		"ko-KO": `채널을 목록에 추가하려면 %v <code>&lt;-</code>와 같은 링크로 우리에 대해 작성하세요. <code>YOUR_CHANNEL</code>을 자신의 채널로 바꾸세요.
+
+HTML에서 링크를 숨기는 것이 좋습니다:
+
+<pre>&lt;a href="%v"&gt;@%v&lt;/a&gt;</pre>
+
+이것은 Telegram 클라이언트에서 다음과 같이 렌더링되어야 합니다: <a href="%v">@%v</a>
+
+최근 100명의 새 사용자에 대한 상위 5개 추천인이 여기에 표시됩니다.`,
+
+		"pl-PL": `Aby dodać swój kanał do listy, po prostu napisz o nas z linkiem jako %v <code>&lt;-</code> zastąp <code>YOUR_CHANNEL</code> swoim własnym kanałem.
+
+Lepiej, jeśli ukryjesz link w HTML jako:
+
+<pre>&lt;a href="%v"&gt;@%v&lt;/a&gt;</pre>
+
+Powinno to być renderowane przez klientów Telegram jako: <a href="%v">@%v</a>
+
+Tutaj zostanie wyświetlonych 5 najlepszych polecających dla ostatnich 100 nowych użytkowników.`,
+
+		"pt-BR": `Para adicionar seu canal à lista, basta escrever sobre nós com um link como %v <code>&lt;-</code> substitua <code>YOUR_CHANNEL</code> pelo seu próprio canal.
+
+É melhor se você ocultar o link em HTML como:
+
+<pre>&lt;a href="%v"&gt;@%v&lt;/a&gt;</pre>
+
+Isso deve ser renderizado pelos clientes do Telegram como: <a href="%v">@%v</a>
+
+Os 5 principais referenciadores para os últimos 100 novos usuários serão mostrados aqui.`,
+
 		"ru-RU": `Чтобы добавить ваш канал в этот список просто напишите об этом боте использую ссылку вида %v <code>&lt;-</code> замените <code>YOUR_CHANNEL</code> на ваш канал.
 
 Будет лучше  если вы спрячете её в HTML как:
@@ -1444,117 +2126,312 @@ Top 5 referrers for the last 100 new users will be shown here.`,
 Такой код должен отобразиться в Телеграмме как: <a href="%v">@%v</a>
 
 Топ-5 источников последних 100 пользователей будут показаны здесь.`,
+
+		"tr-TR": `Kanalınızı listeye eklemek için sadece %v <code>&lt;-</code> gibi bir bağlantı ile hakkımızda yazın, <code>YOUR_CHANNEL</code> yerine kendi kanalınızı yazın.
+
+Bağlantıyı HTML'de şu şekilde gizlerseniz daha iyi olur:
+
+<pre>&lt;a href="%v"&gt;@%v&lt;/a&gt;</pre>
+
+Bu, Telegram istemcileri tarafından şöyle görüntülenmelidir: <a href="%v">@%v</a>
+
+Son 100 yeni kullanıcı için en iyi 5 referans burada gösterilecektir.`,
+
+		"ua-UA": `Щоб додати свій канал до списку, просто напишіть про нас із посиланням як %v <code>&lt;-</code> замініть <code>YOUR_CHANNEL</code> на свій власний канал.
+
+Краще, якщо ви приховаєте посилання в HTML як:
+
+<pre>&lt;a href="%v"&gt;@%v&lt;/a&gt;</pre>
+
+Це має відображатися клієнтами Telegram як: <a href="%v">@%v</a>
+
+Тут буде показано 5 найкращих рекомендацій для останніх 100 нових користувачів.`,
+
+		"uz-UZ": `Kanalingizni ro'yxatga qo'shish uchun shunchaki %v <code>&lt;-</code> kabi havola bilan biz haqimizda yozing, <code>YOUR_CHANNEL</code> o'rniga o'z kanalingizni yozing.
+
+Havolani HTML-da quyidagicha yashirsangiz yaxshiroq bo'ladi:
+
+<pre>&lt;a href="%v"&gt;@%v&lt;/a&gt;</pre>
+
+Bu Telegram mijozlari tomonidan quyidagicha ko'rsatilishi kerak: <a href="%v">@%v</a>
+
+Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerda ko'rsatiladi.`,
+
+		"zh-CN": `要将您的频道添加到列表中，只需使用链接 %v <code>&lt;-</code> 写下关于我们的信息，将 <code>YOUR_CHANNEL</code> 替换为您自己的频道。
+
+如果您在HTML中隐藏链接会更好：
+
+<pre>&lt;a href="%v"&gt;@%v&lt;/a&gt;</pre>
+
+这应该由Telegram客户端呈现为： <a href="%v">@%v</a>
+
+这里将显示最近100个新用户的前5名推荐人。`,
 	},
 	ButtonTextCancel: {
 		"de-DE": "↩ Zurück",
 		"en-UK": "↩ Cancel",
+		"en-US": "↩ Cancel",
 		"es-ES": "↩ Cancelar",
 		"fa-IR": "↪ کنسل",
+		"fr-FR": "↩ Annuler",
+		"id-ID": "↩ Batal",
 		"it-IT": "↩ Annulla",
+		"ja-JP": "↩ キャンセル",
+		"ko-KO": "↩ 취소",
+		"pl-PL": "↩ Anuluj",
+		"pt-BR": "↩ Cancelar",
 		"ru-RU": "↩ Отменить",
+		"tr-TR": "↩ İptal",
+		"ua-UA": "↩ Скасувати",
+		"uz-UZ": "↩ Bekor qilish",
+		"zh-CN": "↩ 取消",
 	},
 	BUTTON_TEXT_MAIN_MENU: {
 		"de-DE": "↩ Hauptmenü",
 		"en-UK": "↩ Main menu",
-		"es-ES": "↩Menú principal",
+		"en-US": "↩ Main menu",
+		"es-ES": "↩ Menú principal",
+		"fa-IR": "↪ منوی اصلی",
+		"fr-FR": "↩ Menu principal",
+		"id-ID": "↩ Menu utama",
+		"it-IT": "↩ Menu principale",
+		"ja-JP": "↩ メインメニュー",
+		"ko-KO": "↩ 메인 메뉴",
+		"pl-PL": "↩ Menu główne",
+		"pt-BR": "↩ Menu principal",
 		"ru-RU": "↩ Главное меню",
-		"fa-IR": "↪ منوی اصلی",       // TODO(FA) verify
-		"it-IT": "↩ Menu principale", // TODO(IT) verify
+		"tr-TR": "↩ Ana menü",
+		"ua-UA": "↩ Головне меню",
+		"uz-UZ": "↩ Asosiy menyu",
+		"zh-CN": "↩ 主菜单",
 	},
 	COMMAND_TEXT_SETTINGS_PRIMARY_CURRENCY: {
 		"de-DE": "Hauptwährung",
 		"en-UK": "Primary currency",
+		"en-US": "Primary currency",
 		"es-ES": "Moneda principal",
 		"fa-IR": "واحد پول اولیه",
+		"fr-FR": "Devise principale",
+		"id-ID": "Mata uang utama",
 		"it-IT": "Valuta principale",
+		"ja-JP": "主要通貨",
+		"ko-KO": "기본 통화",
+		"pl-PL": "Główna waluta",
+		"pt-BR": "Moeda principal",
 		"ru-RU": "Основная валюта",
+		"tr-TR": "Ana para birimi",
+		"ua-UA": "Основна валюта",
+		"uz-UZ": "Asosiy valyuta",
+		"zh-CN": "主要货币",
 	},
 	COMMAND_TEXT_ADD_GROUP: {
-		"de-DE": "Neue Gruppe", // TODO(DE) - change grom "New group" to "Add group"
+		"de-DE": "Gruppe hinzufügen",
 		"en-UK": "Add group",
-		"es-ES": "Añadir grupo",      // TODO(ES) verify
-		"fa-IR": "اضافه کردن گروه",   // TODO(FA) verify
-		"it-IT": "Aggiungere gruppo", // TODO(IT) verify
+		"en-US": "Add group",
+		"es-ES": "Añadir grupo",
+		"fa-IR": "اضافه کردن گروه",
+		"fr-FR": "Ajouter un groupe",
+		"id-ID": "Tambahkan grup",
+		"it-IT": "Aggiungi gruppo",
+		"ja-JP": "グループを追加",
+		"ko-KO": "그룹 추가",
+		"pl-PL": "Dodaj grupę",
+		"pt-BR": "Adicionar grupo",
 		"ru-RU": "Добавить группу",
+		"tr-TR": "Grup ekle",
+		"ua-UA": "Додати групу",
+		"uz-UZ": "Guruh qo'shish",
+		"zh-CN": "添加群组",
 	},
 	COMMAND_TEXT_GROUPS: {
-		"de-DE": "", // TODO(DE)
+		"de-DE": "Gruppen",
 		"en-UK": "Groups",
-		"es-ES": "", // TODO(ES) verify
-		"fa-IR": "", // TODO(FA) verify
-		"it-IT": "", // TODO(IT) verify
+		"en-US": "Groups",
+		"es-ES": "Grupos",
+		"fa-IR": "گروه‌ها",
+		"fr-FR": "Groupes",
+		"id-ID": "Grup",
+		"it-IT": "Gruppi",
+		"ja-JP": "グループ",
+		"ko-KO": "그룹",
+		"pl-PL": "Grupy",
+		"pt-BR": "Grupos",
 		"ru-RU": "Группы",
+		"tr-TR": "Gruplar",
+		"ua-UA": "Групи",
+		"uz-UZ": "Guruhlar",
+		"zh-CN": "群组",
 	},
 	COMMAND_TEXT_BILLS: {
-		"de-DE": "", // TODO(DE)
+		"de-DE": "Rechnungen",
 		"en-UK": "Bills",
-		"es-ES": "", // TODO(ES) verify
-		"fa-IR": "", // TODO(FA) verify
-		"it-IT": "", // TODO(IT) verify
-		"ru-RU": "Закрыть счёт",
+		"en-US": "Bills",
+		"es-ES": "Facturas",
+		"fa-IR": "صورتحساب‌ها",
+		"fr-FR": "Factures",
+		"id-ID": "Tagihan",
+		"it-IT": "Fatture",
+		"ja-JP": "請求書",
+		"ko-KO": "청구서",
+		"pl-PL": "Rachunki",
+		"pt-BR": "Contas",
+		"ru-RU": "Счета",
+		"tr-TR": "Faturalar",
+		"ua-UA": "Рахунки",
+		"uz-UZ": "Hisob-fakturalar",
+		"zh-CN": "账单",
 	},
 	COMMAND_TEXT_SETTLE_BILL: {
-		"de-DE": "", // TODO(DE)
+		"de-DE": "Rechnung begleichen",
 		"en-UK": "Settle bill",
-		"es-ES": "", // TODO(ES) verify
-		"fa-IR": "", // TODO(FA) verify
-		"it-IT": "", // TODO(IT) verify
-		"ru-RU": "Счета",
+		"en-US": "Settle bill",
+		"es-ES": "Liquidar factura",
+		"fa-IR": "تسویه صورتحساب",
+		"fr-FR": "Régler la facture",
+		"id-ID": "Selesaikan tagihan",
+		"it-IT": "Saldare il conto",
+		"ja-JP": "請求書を決済する",
+		"ko-KO": "청구서 정산",
+		"pl-PL": "Rozlicz rachunek",
+		"pt-BR": "Quitar conta",
+		"ru-RU": "Оплатить счёт",
+		"tr-TR": "Fatura öde",
+		"ua-UA": "Оплатити рахунок",
+		"uz-UZ": "Hisob-fakturani to'lash",
+		"zh-CN": "结算账单",
 	},
 	COMMAND_TEXT_SETTLE_BILLS: {
-		"de-DE": "", // TODO(DE)
+		"de-DE": "Rechnungen begleichen",
 		"en-UK": "Settle bills",
-		"es-ES": "", // TODO(ES) verify
-		"fa-IR": "", // TODO(FA) verify
-		"it-IT": "", // TODO(IT) verify
+		"en-US": "Settle bills",
+		"es-ES": "Liquidar facturas",
+		"fa-IR": "تسویه صورتحساب‌ها",
+		"fr-FR": "Régler les factures",
+		"id-ID": "Selesaikan tagihan",
+		"it-IT": "Saldare i conti",
+		"ja-JP": "請求書を決済する",
+		"ko-KO": "청구서 정산",
+		"pl-PL": "Rozlicz rachunki",
+		"pt-BR": "Quitar contas",
 		"ru-RU": "Закрыть счета",
+		"tr-TR": "Faturaları öde",
+		"ua-UA": "Оплатити рахунки",
+		"uz-UZ": "Hisob-fakturalarni to'lash",
+		"zh-CN": "结算账单",
 	},
 	COMMAND_TEXT_INVITE_FIREND: {
 		"de-DE": "Freund einladen",
 		"en-UK": "Invite friend",
+		"en-US": "Invite friend",
 		"es-ES": "Invitar a un amigo",
-		"fa-IR": "دوستی دعوت کن",   // TODO(FA) verify
-		"it-IT": "Invita un amico", // TODO(IT) verify
+		"fa-IR": "دوستی دعوت کن",
+		"fr-FR": "Inviter un ami",
+		"id-ID": "Undang teman",
+		"it-IT": "Invita un amico",
+		"ja-JP": "友達を招待",
+		"ko-KO": "친구 초대",
+		"pl-PL": "Zaproś przyjaciela",
+		"pt-BR": "Convidar amigo",
 		"ru-RU": "Пригласить друга",
+		"tr-TR": "Arkadaş davet et",
+		"ua-UA": "Запросити друга",
+		"uz-UZ": "Do'stni taklif qilish",
+		"zh-CN": "邀请朋友",
 	},
 	COMMAND_TEXT_INVITE_MEMBER: {
 		"de-DE": "Mitglied einladen",
 		"en-UK": "Invite member",
-		"es-ES": "Invitar miembro", // TODO(ES) verify
-		"fa-IR": "دعوت از اعضا",    // TODO(FA) verify
-		"it-IT": "Invita membro",   // TODO(IT) verify
+		"en-US": "Invite member",
+		"es-ES": "Invitar miembro",
+		"fa-IR": "دعوت از اعضا",
+		"fr-FR": "Inviter un membre",
+		"id-ID": "Undang anggota",
+		"it-IT": "Invita membro",
+		"ja-JP": "メンバーを招待",
+		"ko-KO": "멤버 초대",
+		"pl-PL": "Zaproś członka",
+		"pt-BR": "Convidar membro",
 		"ru-RU": "Пригласить участника",
+		"tr-TR": "Üye davet et",
+		"ua-UA": "Запросити учасника",
+		"uz-UZ": "A'zoni taklif qilish",
+		"zh-CN": "邀请成员",
 	},
 	COMMAND_TEXT_NEW_BILL: {
 		"de-DE": "Neue Rechnung",
 		"en-UK": "New bill",
-		"es-ES": "Nuevo proyecto de ley",  // TODO(ES) verify
-		"fa-IR": "لایحه جدید",             // TODO(FA) verify
-		"it-IT": "Nuovo disegno di legge", // TODO(IT) verify
+		"en-US": "New bill",
+		"es-ES": "Nueva factura",
+		"fa-IR": "صورتحساب جدید",
+		"fr-FR": "Nouvelle facture",
+		"id-ID": "Tagihan baru",
+		"it-IT": "Nuova fattura",
+		"ja-JP": "新しい請求書",
+		"ko-KO": "새 청구서",
+		"pl-PL": "Nowy rachunek",
+		"pt-BR": "Nova conta",
 		"ru-RU": "Новый счёт",
+		"tr-TR": "Yeni fatura",
+		"ua-UA": "Новий рахунок",
+		"uz-UZ": "Yangi hisob-faktura",
+		"zh-CN": "新账单",
 	},
 	COMMAND_TEXT_NEW_FUNDRAISING: {
+		"de-DE": "Neue Spendensammlung",
 		"en-UK": "New fundraising",
-		"es-ES": "Nueva recaudación de fondos", // TODO(ES) verify
-		"fa-IR": "جمع آوری پول جدید",           // TODO(FA) verify
-		"it-IT": "Nueva recaudación de fondos", // TODO(IT) verify
+		"en-US": "New fundraising",
+		"es-ES": "Nueva recaudación de fondos",
+		"fa-IR": "جمع آوری پول جدید",
+		"fr-FR": "Nouvelle collecte de fonds",
+		"id-ID": "Penggalangan dana baru",
+		"it-IT": "Nuova raccolta fondi",
+		"ja-JP": "新しい資金調達",
+		"ko-KO": "새 모금",
+		"pl-PL": "Nowa zbiórka pieniędzy",
+		"pt-BR": "Nova arrecadação de fundos",
 		"ru-RU": "Новый сбор средств",
+		"tr-TR": "Yeni bağış toplama",
+		"ua-UA": "Новий збір коштів",
+		"uz-UZ": "Yangi mablag' yig'ish",
+		"zh-CN": "新筹款",
 	},
 	COMMAND_TEXT_NEW_COUNTERPARTY: {
 		"de-DE": "neuer Kontakt",
 		"en-UK": "Add new",
+		"en-US": "Add new",
 		"es-ES": "Añadir",
 		"fa-IR": "اضافه کردن مورد جدید",
+		"fr-FR": "Ajouter nouveau",
+		"id-ID": "Tambah baru",
 		"it-IT": "Aggiungi nuovo",
+		"ja-JP": "新規追加",
+		"ko-KO": "새로 추가",
+		"pl-PL": "Dodaj nowy",
+		"pt-BR": "Adicionar novo",
 		"ru-RU": "Добавить",
+		"tr-TR": "Yeni ekle",
+		"ua-UA": "Додати новий",
+		"uz-UZ": "Yangi qo'shish",
+		"zh-CN": "添加新的",
 	},
 	MESSAGE_TEXT_LOGIN_CODE: {
 		"de-DE": "Dein Code um dich an der App anzumelden: <b>%v</b>",
 		"en-UK": "Your code for signing in to app: <b>%v</b>",
+		"en-US": "Your code for signing in to app: <b>%v</b>",
 		"es-ES": "Tu código para entrar en la app: <b>%v</b>",
 		"fa-IR": "کد شما برای ورود به برنامه: <b>%v</b>",
+		"fr-FR": "Votre code pour vous connecter à l'application: <b>%v</b>",
+		"id-ID": "Kode Anda untuk masuk ke aplikasi: <b>%v</b>",
 		"it-IT": "Il tuo codice per accedere all'app e': <b>%v</b>",
+		"ja-JP": "アプリにサインインするためのコード: <b>%v</b>",
+		"ko-KO": "앱에 로그인하기 위한 코드: <b>%v</b>",
+		"pl-PL": "Twój kod do logowania do aplikacji: <b>%v</b>",
+		"pt-BR": "Seu código para entrar no aplicativo: <b>%v</b>",
 		"ru-RU": "Ваш код для входа в приложение: <b>%v</b>",
+		"tr-TR": "Uygulamaya giriş yapma kodunuz: <b>%v</b>",
+		"ua-UA": "Ваш код для входу в додаток: <b>%v</b>",
+		"uz-UZ": "Ilovaga kirish uchun kodingiz: <b>%v</b>",
+		"zh-CN": "您登录应用的验证码: <b>%v</b>",
 	},
 	MESSAGE_TEXT_ASK_NEW_COUNTERPARTY_NAME: {
 		"de-DE": `Bitte gib einen Namen für den neuen Kontakt ein:
@@ -1563,6 +2440,11 @@ Top 5 referrers for the last 100 new users will be shown here.`,
 		<i>Send '.' to cancel</i>`,
 
 		"en-UK": `Please enter a name for the new contact:
+		You can type manually or choose from your address book (<i>through "clip" icon</i>).
+
+		<i>Send '.' to cancel</i>`,
+
+		"en-US": `Please enter a name for the new contact:
 		You can type manually or choose from your address book (<i>through "clip" icon</i>).
 
 		<i>Send '.' to cancel</i>`,
@@ -1577,147 +2459,402 @@ Top 5 referrers for the last 100 new users will be shown here.`,
 
 		<i>Send '.' برای کنسل کردن</i>`,
 
+		"fr-FR": `Veuillez entrer un nom pour le nouveau contact:
+		Vous pouvez taper manuellement ou choisir dans votre carnet d'adresses (<i>via l'icône "trombone"</i>).
+
+		<i>Envoyez '.' pour annuler</i>`,
+
+		"id-ID": `Silakan masukkan nama untuk kontak baru:
+		Anda dapat mengetik secara manual atau memilih dari buku alamat Anda (<i>melalui ikon "klip"</i>).
+
+		<i>Kirim '.' untuk membatalkan</i>`,
+
 		"it-IT": `Inserisci un nome per il nuovo contatto:
 		Puoi digitarlo o sceglierlo dalla tua rubrica (<i>attraverso l'icona "clip"</i>).
 
 		<i>Digita '.' ed invia per annullare</i>`,
 
+		"ja-JP": `新しい連絡先の名前を入力してください:
+		手動で入力するか、アドレス帳から選択できます（<i>「クリップ」アイコンを通じて</i>）。
+
+		<i>キャンセルするには '.' を送信してください</i>`,
+
+		"ko-KO": `새 연락처의 이름을 입력하세요:
+		수동으로 입력하거나 주소록에서 선택할 수 있습니다 (<i>"클립" 아이콘을 통해</i>).
+
+		<i>취소하려면 '.'를 보내세요</i>`,
+
+		"pl-PL": `Wprowadź nazwę dla nowego kontaktu:
+		Możesz wpisać ręcznie lub wybrać z książki adresowej (<i>przez ikonę "spinacza"</i>).
+
+		<i>Wyślij '.' aby anulować</i>`,
+
+		"pt-BR": `Por favor, digite um nome para o novo contato:
+		Você pode digitar manualmente ou escolher do seu livro de endereços (<i>através do ícone "clipe"</i>).
+
+		<i>Envie '.' para cancelar</i>`,
+
 		"ru-RU": `<b>Имя для нового контакта</b>
 		Напишите сами или выберите из своей адресной книги (<i>через иконку "скрепка"</i>).
 		<i>Отправьте '.' для отмены</i>`,
+
+		"tr-TR": `Yeni kişi için bir isim girin:
+		Manuel olarak yazabilir veya adres defterinizden seçebilirsiniz (<i>"ataç" simgesi aracılığıyla</i>).
+
+		<i>İptal etmek için '.' gönderin</i>`,
+
+		"ua-UA": `Будь ласка, введіть ім'я для нового контакту:
+		Ви можете ввести вручну або вибрати з адресної книги (<i>через іконку "скріпка"</i>).
+
+		<i>Надішліть '.' для скасування</i>`,
+
+		"uz-UZ": `Yangi kontakt uchun ism kiriting:
+		Siz qo'lda yozishingiz yoki manzillar kitobingizdan tanlashingiz mumkin (<i>"qisqich" belgisi orqali</i>).
+
+		<i>Bekor qilish uchun '.' yuboring</i>`,
+
+		"zh-CN": `请输入新联系人的名称:
+		您可以手动输入或从通讯录中选择（<i>通过"回形针"图标</i>）。
+
+		<i>发送 '.' 取消</i>`,
 	},
 	MESSAGE_TEXT_TRANSFER_IS_CREATING: {
 		"de-DE": "Transferiere...",
 		"en-UK": "Creating transfer...",
+		"en-US": "Creating transfer...",
 		"es-ES": "Estoy creando la nueva nota...",
 		"fa-IR": "ایجاد انتقال ...",
+		"fr-FR": "Création du transfert...",
+		"id-ID": "Membuat transfer...",
 		"it-IT": "Sto creando la nuova voce...",
+		"ja-JP": "転送を作成中...",
+		"ko-KO": "전송 생성 중...",
+		"pl-PL": "Tworzenie transferu...",
+		"pt-BR": "Criando transferência...",
 		"ru-RU": "Создаю запись...",
+		"tr-TR": "Transfer oluşturuluyor...",
+		"ua-UA": "Створення переказу...",
+		"uz-UZ": "O'tkazma yaratilmoqda...",
+		"zh-CN": "创建转账中...",
 	},
 	COMMAND_TEXT_PLEASE_WAIT: {
 		"de-DE": "Bitte warten",
 		"en-UK": "Please wait",
+		"en-US": "Please wait",
 		"es-ES": "Espera, por favor",
 		"fa-IR": "لطفا صبر کنید",
+		"fr-FR": "Veuillez patienter",
+		"id-ID": "Mohon tunggu",
 		"it-IT": "Aspetta per favore",
+		"ja-JP": "お待ちください",
+		"ko-KO": "잠시만 기다려주세요",
+		"pl-PL": "Proszę czekać",
+		"pt-BR": "Por favor, aguarde",
 		"ru-RU": "Пожалуйста подождите",
+		"tr-TR": "Lütfen bekleyin",
+		"ua-UA": "Будь ласка, зачекайте",
+		"uz-UZ": "Iltimos kuting",
+		"zh-CN": "请稍等",
 	},
 	MESSAGE_TEXT_PLEASE_WAIT: {
 		"de-DE": "Bitte warten...",
 		"en-UK": "Please wait...",
+		"en-US": "Please wait...",
 		"es-ES": "Espera, por favor...",
-		"it-IT": "Aspetta per favore...",
 		"fa-IR": "لطفا صبر کنید ...",
+		"fr-FR": "Veuillez patienter...",
+		"id-ID": "Mohon tunggu...",
+		"it-IT": "Aspetta per favore...",
+		"ja-JP": "お待ちください...",
+		"ko-KO": "잠시만 기다려주세요...",
+		"pl-PL": "Proszę czekać...",
+		"pt-BR": "Por favor, aguarde...",
 		"ru-RU": "Пожалуйста подождите...",
+		"tr-TR": "Lütfen bekleyin...",
+		"ua-UA": "Будь ласка, зачекайте...",
+		"uz-UZ": "Iltimos kuting...",
+		"zh-CN": "请稍等...",
 	},
 	MESAGE_TEXT_CREATING_BILL: {
 		"de-DE": "Rechnung erstellen",
 		"en-UK": "Creating bill",
-		"es-ES": "Crear factura",        // TODO(ES) verify
-		"fa-IR": "ایجاد لایحه",          // TODO(FA) verify
-		"it-IT": "Creazione di fattura", // TODO(IT) verify
+		"en-US": "Creating bill",
+		"es-ES": "Creando factura",
+		"fa-IR": "ایجاد صورتحساب",
+		"fr-FR": "Création de facture",
+		"id-ID": "Membuat tagihan",
+		"it-IT": "Creazione di fattura",
+		"ja-JP": "請求書を作成中",
+		"ko-KO": "청구서 생성 중",
+		"pl-PL": "Tworzenie rachunku",
+		"pt-BR": "Criando conta",
 		"ru-RU": "Создаётся счёт",
+		"tr-TR": "Fatura oluşturuluyor",
+		"ua-UA": "Створення рахунку",
+		"uz-UZ": "Hisob-faktura yaratilmoqda",
+		"zh-CN": "创建账单中",
 	},
 	MESSAGE_TEXT_ASK_BILL_CURRENCY: {
 		"de-DE": "In welcher Währung ist die Rechnung?",
 		"en-UK": "What currency this bill in?",
-		"es-ES": "¿Qué moneda esta factura?",       // TODO(es) verify
-		"it-IT": "Quale moneta ha questa fattura?", // TODO(it) verify
-		"fa-IR": "این لایحه چه ارزشی دارد؟",        // TODO(fa) verify
+		"en-US": "What currency is this bill in?",
+		"es-ES": "¿En qué moneda está esta factura?",
+		"fa-IR": "این صورتحساب به چه ارزی است؟",
+		"fr-FR": "Dans quelle devise est cette facture?",
+		"id-ID": "Dalam mata uang apa tagihan ini?",
+		"it-IT": "In quale valuta è questa fattura?",
+		"ja-JP": "この請求書の通貨は何ですか？",
+		"ko-KO": "이 청구서의 통화는 무엇입니까?",
+		"pl-PL": "W jakiej walucie jest ten rachunek?",
+		"pt-BR": "Em qual moeda está esta conta?",
 		"ru-RU": "В какой валюте этот счёт?",
+		"tr-TR": "Bu fatura hangi para biriminde?",
+		"ua-UA": "У якій валюті цей рахунок?",
+		"uz-UZ": "Bu hisob-faktura qaysi valyutada?",
+		"zh-CN": "这个账单使用什么货币？",
 	},
 	MESSAGE_TEXT_ASK_BILL_PAYER: {
-		"de-DE": "Wer bezahlt die Rechnung?", // TODO(de) verify
+		"de-DE": "Wer hat die Rechnung bezahlt?",
 		"en-UK": "Who paid for the bill?",
-		"es-ES": "¿Quién paga la cuenta?",           // TODO(es) verify
-		"it-IT": "Chi paga il conto?",               // TODO(it) verify
-		"fa-IR": "چه کسی برای این لایحه می پردازد؟", // TODO(fa) verify
+		"en-US": "Who paid for the bill?",
+		"es-ES": "¿Quién pagó la factura?",
+		"fa-IR": "چه کسی صورتحساب را پرداخت کرد؟",
+		"fr-FR": "Qui a payé la facture?",
+		"id-ID": "Siapa yang membayar tagihan?",
+		"it-IT": "Chi ha pagato il conto?",
+		"ja-JP": "誰が請求書を支払いましたか？",
+		"ko-KO": "누가 청구서를 지불했습니까?",
+		"pl-PL": "Kto zapłacił rachunek?",
+		"pt-BR": "Quem pagou a conta?",
 		"ru-RU": "Кто оплатил счёт?",
+		"tr-TR": "Faturayı kim ödedi?",
+		"ua-UA": "Хто оплатив рахунок?",
+		"uz-UZ": "Hisob-fakturani kim to'ladi?",
+		"zh-CN": "谁支付了账单？",
 	},
 	MESSAGE_TEXT_SELF_ACKNOWLEDGEMENT: {
 		"de-DE": "%v muss dem zustimmen",
 		"en-UK": "Acknowledgement is expected from %v",
+		"en-US": "Acknowledgement is expected from %v",
 		"es-ES": "Se espera la confirmación de %v",
-		"it-IT": "Conferma in attesa da %v",
 		"fa-IR": "انتظار تصدیق می رود از %v",
+		"fr-FR": "Confirmation attendue de %v",
+		"id-ID": "Pengakuan diharapkan dari %v",
+		"it-IT": "Conferma in attesa da %v",
+		"ja-JP": "%vからの確認が必要です",
+		"ko-KO": "%v의 확인이 필요합니다",
+		"pl-PL": "Oczekiwane potwierdzenie od %v",
+		"pt-BR": "Confirmação esperada de %v",
 		"ru-RU": "Подтверждение ожидается от %v",
+		"tr-TR": "%v'den onay bekleniyor",
+		"ua-UA": "Очікується підтвердження від %v",
+		"uz-UZ": "%v dan tasdiqlash kutilmoqda",
+		"zh-CN": "等待%v的确认",
 	},
 	MESSAGE_TEXT_TRANSFER_ACCEPTED_BY_YOU: {
 		"de-DE": "Du hast dem zugestimmt.",
 		"en-UK": "You've accepted this transaction.",
+		"en-US": "You've accepted this transaction.",
 		"es-ES": "Has confirmado esta transacción",
 		"fa-IR": ".شما این تراکنش را قبول کردید ",
+		"fr-FR": "Vous avez accepté cette transaction.",
+		"id-ID": "Anda telah menerima transaksi ini.",
 		"it-IT": "Hai accettato il debito/credito.",
+		"ja-JP": "このトランザクションを承認しました。",
+		"ko-KO": "이 거래를 수락했습니다.",
+		"pl-PL": "Zaakceptowałeś tę transakcję.",
+		"pt-BR": "Você aceitou esta transação.",
 		"ru-RU": "Вы подтвердили эту транзакцию.",
+		"tr-TR": "Bu işlemi kabul ettiniz.",
+		"ua-UA": "Ви підтвердили цю транзакцію.",
+		"uz-UZ": "Siz ushbu tranzaksiyani qabul qildingiz.",
+		"zh-CN": "您已接受此交易。",
 	},
 	MESSAGE_TEXT_TRANSFER_DECLINED_BY_YOU: {
 		"de-DE": `Du hast dieser Anfrage nicht zugestimmt.
 		Der Vorgang wird zurückgestellt und die Gegenpartei benachrichtigt.`,
+
 		"en-UK": `You do not agree with this transaction.
                 The transaction will not be deleted but the creator will be notified.`,
+
+		"en-US": `You do not agree with this transaction.
+                The transaction will not be deleted but the creator will be notified.`,
+
 		"es-ES": `No estas de acuerdo con la transacción.
 		La transacción NO será cancelada, pero el creador será notificado.`,
-		"fa-IR": ".شما این تراکنش را رد کردید", //TODO(FA)
-		"it-IT": `Hai rifiutato il debito/credito.`,
+
+		"fa-IR": `شما با این تراکنش موافق نیستید.
+		تراکنش حذف نخواهد شد اما به ایجاد کننده اطلاع داده خواهد شد.`,
+
+		"fr-FR": `Vous n'êtes pas d'accord avec cette transaction.
+		La transaction ne sera pas supprimée mais le créateur sera notifié.`,
+
+		"id-ID": `Anda tidak setuju dengan transaksi ini.
+		Transaksi tidak akan dihapus tetapi pembuat akan diberi tahu.`,
+
+		"it-IT": `Hai rifiutato il debito/credito.
+		La transazione non sarà eliminata ma il creatore sarà avvisato.`,
+
+		"ja-JP": `このトランザクションに同意しません。
+		トランザクションは削除されませんが、作成者に通知されます。`,
+
+		"ko-KO": `이 거래에 동의하지 않습니다.
+		거래는 삭제되지 않지만 생성자에게 알림이 갑니다.`,
+
+		"pl-PL": `Nie zgadzasz się z tą transakcją.
+		Transakcja nie zostanie usunięta, ale twórca zostanie powiadomiony.`,
+
+		"pt-BR": `Você não concorda com esta transação.
+		A transação não será excluída, mas o criador será notificado.`,
+
 		"ru-RU": `Вы НЕ согласны с этой транзакцией.
 
 Сама транзакция НЕ будет отменена, но создатель будет оповещён.`,
+
+		"tr-TR": `Bu işleme katılmıyorsunuz.
+		İşlem silinmeyecek ancak oluşturucu bilgilendirilecek.`,
+
+		"ua-UA": `Ви не згодні з цією транзакцією.
+		Транзакція не буде видалена, але творець буде повідомлений.`,
+
+		"uz-UZ": `Siz ushbu tranzaksiyaga rozi emassiz.
+		Tranzaksiya o'chirilmaydi, lekin yaratuvchi xabardor qilinadi.`,
+
+		"zh-CN": `您不同意此交易。
+		交易不会被删除，但创建者会收到通知。`,
 	},
 	MESSAGE_TEXT_TRANSFER_ACCEPTED_BY_COUNTERPARTY: {
 		"de-DE": "%v hat deiner Anfrage <b>zugestimmt</b>:",
 		"en-UK": "%v accepted your transaction:",
+		"en-US": "%v accepted your transaction:",
 		"es-ES": "%v ha aceptado tu transacción",
 		"fa-IR": ": تراکنش شمارا تایید کرد %v ",
+		"fr-FR": "%v a accepté votre transaction:",
+		"id-ID": "%v menerima transaksi Anda:",
 		"it-IT": "%v ha accettato il tuo credito/debito:",
+		"ja-JP": "%vがあなたの取引を承認しました:",
+		"ko-KO": "%v님이 귀하의 거래를 수락했습니다:",
+		"pl-PL": "%v zaakceptował(a) twoją transakcję:",
+		"pt-BR": "%v aceitou sua transação:",
 		"ru-RU": "%v подтвердил(a) вашу транзакцию:",
+		"tr-TR": "%v işleminizi kabul etti:",
+		"ua-UA": "%v підтвердив(ла) вашу транзакцію:",
+		"uz-UZ": "%v sizning tranzaksiyangizni qabul qildi:",
+		"zh-CN": "%v接受了您的交易：",
 	},
 	MESSAGE_TEXT_TRANSFER_DECLINED_BY_COUNTERPARTY: {
 		"de-DE": "%v hat deine Anfrage <b>abgelehnt</b>. Wenn die Sache besprochen ist, kann die Anfrage erneut gesendet werden.",
 		"en-UK": "%v did not agree with your transaction. The transaction is not canceled but you may want to discuss it.", //TODO(FA)
+		"en-US": "%v did not agree with your transaction. The transaction is not canceled but you may want to discuss it.", //TODO(US)
 		"es-ES": "%v ha confirmado tu transacción.  La transacción no ha sido cancelada, igual mejor comentarlo.",          //TODO(ES)
 		"fa-IR": "تراکنش شما را رد کرد  %v declined your transaction.",
+		"fr-FR": "%v did not agree with your transaction. The transaction is not canceled but you may want to discuss it.", //TODO(FR)
+		"id-ID": "%v did not agree with your transaction. The transaction is not canceled but you may want to discuss it.", //TODO(ID)
 		"it-IT": "%v ha rifiutato il tuo credito/debito.  The transaction is not canceled but you may want to discuss it.", //TODO(IT)
+		"ja-JP": "%v did not agree with your transaction. The transaction is not canceled but you may want to discuss it.", //TODO(JP)
+		"ko-KO": "%v did not agree with your transaction. The transaction is not canceled but you may want to discuss it.", //TODO(KO)
+		"pl-PL": "%v did not agree with your transaction. The transaction is not canceled but you may want to discuss it.", //TODO(PL)
+		"pt-BR": "%v did not agree with your transaction. The transaction is not canceled but you may want to discuss it.", //TODO(BR)
 		"ru-RU": "%v <b>НЕ</b> подтвердил(a) вашу транзакцию. Транзакция не отменена, но возможно вам стоит это обсудить.",
+		"tr-TR": "%v did not agree with your transaction. The transaction is not canceled but you may want to discuss it.", //TODO(TR)
+		"ua-UA": "%v did not agree with your transaction. The transaction is not canceled but you may want to discuss it.", //TODO(UA)
+		"uz-UZ": "%v did not agree with your transaction. The transaction is not canceled but you may want to discuss it.", //TODO(UZ)
+		"zh-CN": "%v did not agree with your transaction. The transaction is not canceled but you may want to discuss it.", //TODO(CN)
 	},
 	COMMAND_TEXT_SUBSCRIBE_TO_APP: {
 		"de-DE": "Ich will die App!",
 		"en-UK": "I want the app!",
+		"en-US": "I want the app!", //TODO(US)
 		"es-ES": "¡Quiero la aplicación!",
 		"fa-IR": "!من برنامه را می خواهم",
+		"fr-FR": "I want the app!", //TODO(FR)
+		"id-ID": "I want the app!", //TODO(ID)
 		"it-IT": "Voglio l'aplicazione!",
+		"ja-JP": "I want the app!", //TODO(JP)
+		"ko-KO": "I want the app!", //TODO(KO)
+		"pl-PL": "I want the app!", //TODO(PL)
+		"pt-BR": "I want the app!", //TODO(BR)
 		"ru-RU": "Хочу приложение!",
+		"tr-TR": "I want the app!", //TODO(TR)
+		"ua-UA": "I want the app!", //TODO(UA)
+		"uz-UZ": "I want the app!", //TODO(UZ)
+		"zh-CN": "I want the app!", //TODO(CN)
 	},
 	COMMAND_TEXT_I_AM_FINE_WITH_BOT: {
 		"de-DE": "Mir reicht der Bot!",
 		"en-UK": "I'm fine with just the bot!",
+		"en-US": "I'm fine with just the bot!", //TODO(US)
 		"es-ES": "¡Estoy satisfecho con este bot!",
 		"fa-IR": "! ربات به تنهایی برای من کافی است",
+		"fr-FR": "I'm fine with just the bot!", //TODO(FR)
+		"id-ID": "I'm fine with just the bot!", //TODO(ID)
 		"it-IT": "Mi accontento del bot per ora!",
+		"ja-JP": "I'm fine with just the bot!", //TODO(JP)
+		"ko-KO": "I'm fine with just the bot!", //TODO(KO)
+		"pl-PL": "I'm fine with just the bot!", //TODO(PL)
+		"pt-BR": "I'm fine with just the bot!", //TODO(BR)
 		"ru-RU": "Меня вполне устраивает бот!",
+		"tr-TR": "I'm fine with just the bot!", //TODO(TR)
+		"ua-UA": "I'm fine with just the bot!", //TODO(UA)
+		"uz-UZ": "I'm fine with just the bot!", //TODO(UZ)
+		"zh-CN": "I'm fine with just the bot!", //TODO(CN)
 	},
 	MESSAGE_TEXT_SUBSCRIBED_TO_APP: {
 		"de-DE": "Du wirst darüber informiert, wenn die App zum Download zur Verfügung steht.",
 		"en-UK": "We'll let you know once the app is available for download.",
+		"en-US": "We'll let you know once the app is available for download.", //TODO(US)
 		"es-ES": "Te avisamos cuando la aplicación esté disponible para descargarla",
 		"fa-IR": ".وقتی برنامه برای دانلود دردسترس بود به شما اطلاع می دهیم",
+		"fr-FR": "We'll let you know once the app is available for download.", //TODO(FR)
+		"id-ID": "We'll let you know once the app is available for download.", //TODO(ID)
 		"it-IT": "Ti faremo sapere non appena l'applicazione sara' disponibile al download.",
+		"ja-JP": "We'll let you know once the app is available for download.", //TODO(JP)
+		"ko-KO": "We'll let you know once the app is available for download.", //TODO(KO)
+		"pl-PL": "We'll let you know once the app is available for download.", //TODO(PL)
+		"pt-BR": "We'll let you know once the app is available for download.", //TODO(BR)
 		"ru-RU": "Мы сообщим вам когда приложение будет доступно для загруки.",
+		"tr-TR": "We'll let you know once the app is available for download.", //TODO(TR)
+		"ua-UA": "We'll let you know once the app is available for download.", //TODO(UA)
+		"uz-UZ": "We'll let you know once the app is available for download.", //TODO(UZ)
+		"zh-CN": "We'll let you know once the app is available for download.", //TODO(CN)
 	},
 	MESSAGE_TEXT_NOT_INTERESTED_IN_APP: {
 		"de-DE": "Gut, wir sind froh, dass dir der Bot reicht und wir uns mit der App nicht beeilen müssen.",
 		"en-UK": "Well, we are happy our bot is good enough and there is no need to download an app.",
+		"en-US": "Well, we are happy our bot is good enough and there is no need to download an app.", //TODO(US)
 		"es-ES": "Bueno, estamos contentos de que te haya gustado nuestro bot y no hace falta descargar ninguna otra aplicación",
 		"fa-IR": ".خب، ما خوشحال هستیم که ربات برای شما کافی است و نیازی به دانلود برنامه نیست",
+		"fr-FR": "Well, we are happy our bot is good enough and there is no need to download an app.", //TODO(FR)
+		"id-ID": "Well, we are happy our bot is good enough and there is no need to download an app.", //TODO(ID)
 		"it-IT": "Bene, siamo contenti che il nostro bot sia di tuo gradimento e non hai bisogno di scaricare l'applicazione.",
+		"ja-JP": "Well, we are happy our bot is good enough and there is no need to download an app.", //TODO(JP)
+		"ko-KO": "Well, we are happy our bot is good enough and there is no need to download an app.", //TODO(KO)
+		"pl-PL": "Well, we are happy our bot is good enough and there is no need to download an app.", //TODO(PL)
+		"pt-BR": "Well, we are happy our bot is good enough and there is no need to download an app.", //TODO(BR)
 		"ru-RU": "Что ж, мы рады что вас устраивает наш бот и нет необходимости загружать приложение.",
+		"tr-TR": "Well, we are happy our bot is good enough and there is no need to download an app.", //TODO(TR)
+		"ua-UA": "Well, we are happy our bot is good enough and there is no need to download an app.", //TODO(UA)
+		"uz-UZ": "Well, we are happy our bot is good enough and there is no need to download an app.", //TODO(UZ)
+		"zh-CN": "Well, we are happy our bot is good enough and there is no need to download an app.", //TODO(CN)
 	},
 	MESSAGE_TEXT_YOUR_AD_COULD_BE_HERE: {
 		"de-DE": "Hier könnte <a href>ihre Werbung</a> stehen",
 		"en-UK": "You can <a href>advertise here</a>",
+		"en-US": "You can <a href>advertise here</a>", //TODO(US)
 		"es-ES": "Aquí se puede <a href>publicar un anuncio</a>",
 		"fa-IR": "شما میتوانید <a href>در اینجا تبلیغ کنید</a>",
+		"fr-FR": "You can <a href>advertise here</a>", //TODO(FR)
+		"id-ID": "You can <a href>advertise here</a>", //TODO(ID)
 		"it-IT": "Puoi <a href>pubblicizzare qui</a>",
+		"ja-JP": "You can <a href>advertise here</a>", //TODO(JP)
+		"ko-KO": "You can <a href>advertise here</a>", //TODO(KO)
+		"pl-PL": "You can <a href>advertise here</a>", //TODO(PL)
+		"pt-BR": "You can <a href>advertise here</a>", //TODO(BR)
 		"ru-RU": "Здесь можно <a href>разместить рекламу</a>",
+		"tr-TR": "You can <a href>advertise here</a>", //TODO(TR)
+		"ua-UA": "You can <a href>advertise here</a>", //TODO(UA)
+		"uz-UZ": "You can <a href>advertise here</a>", //TODO(UZ)
+		"zh-CN": "You can <a href>advertise here</a>", //TODO(CN)
 	},
 	MESSAGE_TEXT_YOUR_ABOUT_ADS: {
 		"de-DE": `🤖: Ich hin ein guter Roboter - klar. Aber manchmal kommt es besser eine eigene App für etwas zu haben. Es ist noch nicht ganz fertig, aber falls du schonmal reinschauen willst: <a href="https://debtstracker.io/de/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/en/</a>
@@ -1726,38 +2863,92 @@ Top 5 referrers for the last 100 new users will be shown here.`,
 		"en-UK": `🤖: I'm a good robot, for sure.But sometimes it is more convinient to use a nice specialized app.It's not ready for public use yet but you can check how it is going to looks: <a href="https://debtstracker.io/en/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/en/</a>
 
 	Do you want to get an invite when it gets released?`,
+		"en-US": `🤖: I'm a good robot, for sure.But sometimes it is more convinient to use a nice specialized app.It's not ready for public use yet but you can check how it is going to looks: <a href="https://debtstracker.io/en/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/en/</a>
+
+	Do you want to get an invite when it gets released?`, //TODO(US)
 
 		"es-ES": `🤖: Claro que soy un robot encantador, pero más comodo usar una aplicación especial.No esta disponible ya pero se puede ver como será: <a href = "https://debtstracker.io/es/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/en/</a>
 
 	¿Quieres que te avisemos cuando esté lista?`,
-
 		"fa-IR": `🤖: مطمئناً من روبات خوبی هستم. اما بعضی وقت هاساده تر و مناسب تر است که از یک برنامه به خوبی تخصصی شده استفاده شود، این برنامه هنوز برای استفاده عموم آماده نیست ولی می توانید چک کنید که چگونه به نظر خواهد رسید: <a href="https://debtstracker.io/fa/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/en/</a>
 
 	آیا می خواهید وقتی منتشر شد دعوتنامه ای دریافت کنید؟`,
+		"fr-FR": `🤖: I'm a good robot, for sure.But sometimes it is more convinient to use a nice specialized app.It's not ready for public use yet but you can check how it is going to looks: <a href="https://debtstracker.io/fr/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/fr/</a>
+
+	Do you want to get an invite when it gets released?`, //TODO(FR)
+		"id-ID": `🤖: I'm a good robot, for sure.But sometimes it is more convinient to use a nice specialized app.It's not ready for public use yet but you can check how it is going to looks: <a href="https://debtstracker.io/id/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/id/</a>
+
+	Do you want to get an invite when it gets released?`, //TODO(ID)
 
 		"it-IT": `🤖: Di sicuro son un bravo bot, ma alcune volte e' piu' conveniente usare un'applicazione specializzata. Non e' ancora pronta per la pubblicazione ma puoi controllare l'avanzamento a questo indirizzo: <a href="https://debtstracker.io/it/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/it/</a>
 
 	Vuoi essere invitato non appena viene rilasciata?`,
+		"ja-JP": `🤖: I'm a good robot, for sure.But sometimes it is more convinient to use a nice specialized app.It's not ready for public use yet but you can check how it is going to looks: <a href="https://debtstracker.io/ja/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/ja/</a>
+
+	Do you want to get an invite when it gets released?`, //TODO(JP)
+		"ko-KO": `🤖: I'm a good robot, for sure.But sometimes it is more convinient to use a nice specialized app.It's not ready for public use yet but you can check how it is going to looks: <a href="https://debtstracker.io/ko/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/ko/</a>
+
+	Do you want to get an invite when it gets released?`, //TODO(KO)
+		"pl-PL": `🤖: I'm a good robot, for sure.But sometimes it is more convinient to use a nice specialized app.It's not ready for public use yet but you can check how it is going to looks: <a href="https://debtstracker.io/pl/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/pl/</a>
+
+	Do you want to get an invite when it gets released?`, //TODO(PL)
+		"pt-BR": `🤖: I'm a good robot, for sure.But sometimes it is more convinient to use a nice specialized app.It's not ready for public use yet but you can check how it is going to looks: <a href="https://debtstracker.io/pt/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/pt/</a>
+
+	Do you want to get an invite when it gets released?`, //TODO(BR)
 
 		"ru-RU": `🤖: Я конечно обоятельный робот, но пользоваться специализированным приложением бывает удобнее. Оно ещё не готово для общего доступа, но уже сейчас можно посмотреть как будет выглядеть: <a href="https://debtstracker.io/ru/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/ru/</a>
 
 		Хотите получить оповещение когда оно выйдет?`,
+		"tr-TR": `🤖: I'm a good robot, for sure.But sometimes it is more convinient to use a nice specialized app.It's not ready for public use yet but you can check how it is going to looks: <a href="https://debtstracker.io/tr/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/tr/</a>
+
+	Do you want to get an invite when it gets released?`, //TODO(TR)
+		"ua-UA": `🤖: I'm a good robot, for sure.But sometimes it is more convinient to use a nice specialized app.It's not ready for public use yet but you can check how it is going to looks: <a href="https://debtstracker.io/ua/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/ua/</a>
+
+	Do you want to get an invite when it gets released?`, //TODO(UA)
+		"uz-UZ": `🤖: I'm a good robot, for sure.But sometimes it is more convinient to use a nice specialized app.It's not ready for public use yet but you can check how it is going to looks: <a href="https://debtstracker.io/uz/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/uz/</a>
+
+	Do you want to get an invite when it gets released?`, //TODO(UZ)
+		"zh-CN": `🤖: I'm a good robot, for sure.But sometimes it is more convinient to use a nice specialized app.It's not ready for public use yet but you can check how it is going to looks: <a href="https://debtstracker.io/zh/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/zh/</a>
+
+	Do you want to get an invite when it gets released?`, //TODO(CN)
 	},
 	MESSAGE_TEXT_INVALID_FLOAT: {
 		"de-DE": "Entschuldigung, aber du kannst nur Zahlen für Menge oder Wert wählen (<i>mit zwei Nachkommastellen</i>).",
 		"en-UK": "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).",
+		"en-US": "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).", //TODO(US)
 		"es-ES": "Lo siento, solo puedes utilizar numeros como importe/cantidad (<i>con un maximo de 2 dígitos despues de la coma</i>).",
 		"fa-IR": "ببخشید، اما شما تنها میتوانید از اعداد بعنوان مقادیر / اندازه ها استفاده کنید (<i>با دو رقم اعشار</i>).",
+		"fr-FR": "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).", //TODO(FR)
+		"id-ID": "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).", //TODO(ID)
 		"it-IT": "Spiacente, puoi utilizzare solo numeri (<i>con un massimo di 2 numeri dopo il punto</i>).",
+		"ja-JP": "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).", //TODO(JP)
+		"ko-KO": "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).", //TODO(KO)
+		"pl-PL": "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).", //TODO(PL)
+		"pt-BR": "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).", //TODO(BR)
 		"ru-RU": "Извините, но вы можете использовать только числа в качестве суммы/количества (<i>до 2х знаков после запятой</i>).",
+		"tr-TR": "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).", //TODO(TR)
+		"ua-UA": "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).", //TODO(UA)
+		"uz-UZ": "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).", //TODO(UZ)
+		"zh-CN": "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).", //TODO(CN)
 	},
 	MESSAGE_TEXT_ASK_LENDING_TYPE: {
 		"de-DE": "<b>Was hast du jemanden geliehen?</b>",
 		"en-UK": "<b>What did you lend to someone?</b>",
+		"en-US": "<b>What did you lend to someone?</b>", //TODO(US)
 		"es-ES": "<b>¿Qué has prestado?</b>",
 		"fa-IR": "<b> چه چیزی به کسی قرض داده اید؟</b>",
+		"fr-FR": "<b>What did you lend to someone?</b>", //TODO(FR)
+		"id-ID": "<b>What did you lend to someone?</b>", //TODO(ID)
 		"it-IT": "<b>Cos'hai prestato?</b>",
+		"ja-JP": "<b>What did you lend to someone?</b>", //TODO(JP)
+		"ko-KO": "<b>What did you lend to someone?</b>", //TODO(KO)
+		"pl-PL": "<b>What did you lend to someone?</b>", //TODO(PL)
+		"pt-BR": "<b>What did you lend to someone?</b>", //TODO(BR)
 		"ru-RU": "<b>Что вы дали в долг?</b>",
+		"tr-TR": "<b>What did you lend to someone?</b>", //TODO(TR)
+		"ua-UA": "<b>What did you lend to someone?</b>", //TODO(UA)
+		"uz-UZ": "<b>What did you lend to someone?</b>", //TODO(UZ)
+		"zh-CN": "<b>What did you lend to someone?</b>", //TODO(CN)
 	},
 	MESSAGE_TEXT_CHOOSE_CURRENCY: {
 
@@ -1769,6 +2960,10 @@ Top 5 referrers for the last 100 new users will be shown here.`,
 
 	If standard options are not enough simply send a text.For example: "<i>apple</i>".`,
 
+		"en-US": `Please choose from the options below or <a>select a currency from the list</a>.
+
+	If standard options are not enough simply send a text.For example: "<i>apple</i>".`, //TODO(US)
+
 		"es-ES": `Elige del menú abajo de la pantalla o <a>selecciona la moneda de la lista</a>.
 
 	Si no encuentras la opción correcta simplemente envía un texto. Por ejemplo: "<i>manzana</i>".`,
@@ -1777,134 +2972,396 @@ Top 5 referrers for the last 100 new users will be shown here.`,
 
 	اگر گزینه های استاندارد کافی نبودند به سادگی یک متن بفرستید ، برای مثال:. "<i>سیب</i>".`,
 
+		"fr-FR": `Please choose from the options below or <a>select a currency from the list</a>.
+
+	If standard options are not enough simply send a text.For example: "<i>apple</i>".`, //TODO(FR)
+
+		"id-ID": `Please choose from the options below or <a>select a currency from the list</a>.
+
+	If standard options are not enough simply send a text.For example: "<i>apple</i>".`, //TODO(ID)
+
 		"it-IT": `Scegli dalle opzioni qui sotto o <a>seleziona una valuta dalla lista</a>.
 
 	Se le opzioni standard non bastano semplicemente invia un testo.Per esempio: "<i>mele</i>".`,
 
+		"ja-JP": `Please choose from the options below or <a>select a currency from the list</a>.
+
+	If standard options are not enough simply send a text.For example: "<i>apple</i>".`, //TODO(JP)
+
+		"ko-KO": `Please choose from the options below or <a>select a currency from the list</a>.
+
+	If standard options are not enough simply send a text.For example: "<i>apple</i>".`, //TODO(KO)
+
+		"pl-PL": `Please choose from the options below or <a>select a currency from the list</a>.
+
+	If standard options are not enough simply send a text.For example: "<i>apple</i>".`, //TODO(PL)
+
+		"pt-BR": `Please choose from the options below or <a>select a currency from the list</a>.
+
+	If standard options are not enough simply send a text.For example: "<i>apple</i>".`, //TODO(BR)
+
 		"ru-RU": `Выберите из меню внизу экрана или <a>выберите валюту из списка</a>.
 
 	Если ни один из стандартных вариантов не подходит просто напишите текстом.Например: "<i>яблоко</i>".`,
+
+		"tr-TR": `Please choose from the options below or <a>select a currency from the list</a>.
+
+	If standard options are not enough simply send a text.For example: "<i>apple</i>".`, //TODO(TR)
+
+		"ua-UA": `Please choose from the options below or <a>select a currency from the list</a>.
+
+	If standard options are not enough simply send a text.For example: "<i>apple</i>".`, //TODO(UA)
+
+		"uz-UZ": `Please choose from the options below or <a>select a currency from the list</a>.
+
+	If standard options are not enough simply send a text.For example: "<i>apple</i>".`, //TODO(UZ)
+
+		"zh-CN": `Please choose from the options below or <a>select a currency from the list</a>.
+
+	If standard options are not enough simply send a text.For example: "<i>apple</i>".`, //TODO(CN)
 	},
 	MESSAGE_TEXT_ASK_LENDING_AMOUNT: {
 		"de-DE": "Wie viel <b>%v</b> hast du verliehen?\n(<i>Sende '.' zum Abbrechen</i>)",
 		"en-UK": "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)",
+		"en-US": "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)", //TODO(US)
 		"es-ES": "Cuanto(s) <b>%v</b> has prestado\n(<i>enviar '.' para cancelar</i>)",
 		"fa-IR": "چه مقدار <b>%v</b> قرض داده اید؟\n(<i>ارسال '.' برای کنسل کردن</i>)",
+		"fr-FR": "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)", //TODO(FR)
+		"id-ID": "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)", //TODO(ID)
 		"it-IT": "Quanti <b>%v</b> hai prestato?\n(<i>Digita '.' ed invia per annullare</i>)",
+		"ja-JP": "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)", //TODO(JP)
+		"ko-KO": "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)", //TODO(KO)
+		"pl-PL": "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)", //TODO(PL)
+		"pt-BR": "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)", //TODO(BR)
 		"ru-RU": "Сколько <b>%v</b> вы дали в долг?\n(<i>отправьте '.' чтобы отменить</i>)",
+		"tr-TR": "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)", //TODO(TR)
+		"ua-UA": "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)", //TODO(UA)
+		"uz-UZ": "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)", //TODO(UZ)
+		"zh-CN": "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)", //TODO(CN)
 	},
 	MESSAGE_TEXT_ASK_LENDING_COUNTERPARTY: {
 		"de-DE": "Wer hat sich <b>%v</b> von dir geliehen?\n(<i>Sende '.' zum Abbrechen</i>)",
 		"en-UK": "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)",
+		"en-US": "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(US)
 		"es-ES": "A quién has prestado <b>%v</b>?\n(<i>enviar '.' para cancelar</i>)",
 		"fa-IR": "چه کسی از شما <b>%v</b> قرض گرفته است؟\n(<i>ارسال '.' برای کنسل کردن</i>)",
+		"fr-FR": "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(FR)
+		"id-ID": "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(ID)
 		"it-IT": "Chi e' in debito di <b>%v</b> con te?\n(<i>Digita '.' ed invia per annullare</i>)",
+		"ja-JP": "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(JP)
+		"ko-KO": "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(KO)
+		"pl-PL": "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(PL)
+		"pt-BR": "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(BR)
 		"ru-RU": "Кому вы дали в долг <b>%v</b>?\n(<i>отправьте '.' чтобы отменить</i>)",
+		"tr-TR": "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(TR)
+		"ua-UA": "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(UA)
+		"uz-UZ": "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(UZ)
+		"zh-CN": "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(CN)
 	},
 	MESSAGE_TEXT_ASK_BORROWING_TYPE: {
 		"de-DE": "Was hast du dir geliehen?",
 		"en-UK": "What did you lend?",
+		"en-US": "What did you lend?", //TODO(US)
 		"es-ES": "¿Qué te han prestado?",
 		"fa-IR": "چه چیزی قرض گرفته اید؟",
+		"fr-FR": "What did you lend?", //TODO(FR)
+		"id-ID": "What did you lend?", //TODO(ID)
 		"it-IT": "Cosa ti hanno prestato?",
+		"ja-JP": "What did you lend?", //TODO(JP)
+		"ko-KO": "What did you lend?", //TODO(KO)
+		"pl-PL": "What did you lend?", //TODO(PL)
+		"pt-BR": "What did you lend?", //TODO(BR)
 		"ru-RU": "Что вы взяли в долг?",
+		"tr-TR": "What did you lend?", //TODO(TR)
+		"ua-UA": "What did you lend?", //TODO(UA)
+		"uz-UZ": "What did you lend?", //TODO(UZ)
+		"zh-CN": "What did you lend?", //TODO(CN)
 	},
 	MESSAGE_TEXT_ASK_BORROWING_AMOUNT: {
 		"de-DE": "Wie viel <b>%v</b> hast du geliehen?\n(<i>Sende '.' zum Abbrechen</i>)",
-		"ru-RU": "Сколько <b>%v</b> вы взяли в долг?\n(<i>отправьте '.' чтобы отменить</i>)",
-		"es-ES": "¿Cuánto <b>%v</b> has prestado?\n(<i>enviar '.' para cancelar</i>)",
 		"en-UK": "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)",
+		"en-US": "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)", //TODO(US)
+		"es-ES": "¿Cuánto <b>%v</b> has prestado?\n(<i>enviar '.' para cancelar</i>)",
 		"fa-IR": "چه مقدار <b>%v</b> قرض گرفته اید؟\n(<i>ارسال '.' برای کنسل کردن</i>)",
+		"fr-FR": "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)", //TODO(FR)
+		"id-ID": "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)", //TODO(ID)
 		"it-IT": "Quanti <b>%v</b> ti hanno prestato?\n(<i>Digita '.' ed invia per annullare</i>)",
+		"ja-JP": "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)", //TODO(JP)
+		"ko-KO": "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)", //TODO(KO)
+		"pl-PL": "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)", //TODO(PL)
+		"pt-BR": "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)", //TODO(BR)
+		"ru-RU": "Сколько <b>%v</b> вы взяли в долг?\n(<i>отправьте '.' чтобы отменить</i>)",
+		"tr-TR": "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)", //TODO(TR)
+		"ua-UA": "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)", //TODO(UA)
+		"uz-UZ": "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)", //TODO(UZ)
+		"zh-CN": "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)", //TODO(CN)
 	},
 	MESSAGE_TEXT_ASK_BORROWING_COUNTERPARTY: {
 		"de-DE": "Wer hat dir <b>%v</b> geliehen?\n(<i>Sende '.' zum Abbrechen</i>)",
 		"en-UK": "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)",
+		"en-US": "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(US)
 		"es-ES": "¿Quién te ha prestado <b>%v</b>?\n(<i>enviar '.' para cancelar</i>)",
 		"fa-IR": "چه کسی به شما <b>%v</b> قرض داده است؟ \n(<i>ارسال '.' برای کنسل کردن</i>)",
+		"fr-FR": "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(FR)
+		"id-ID": "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(ID)
 		"it-IT": "Chi ti ha prestato <b>%v</b>?\n(<i>Digita '.' ed invia per annullare</i>)",
+		"ja-JP": "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(JP)
+		"ko-KO": "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(KO)
+		"pl-PL": "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(PL)
+		"pt-BR": "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(BR)
 		"ru-RU": "У кого вы взяли в долг <b>%v</b>?\n(<i>отправьте '.' чтобы отменить</i>)",
+		"tr-TR": "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(TR)
+		"ua-UA": "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(UA)
+		"uz-UZ": "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(UZ)
+		"zh-CN": "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(CN)
 	},
 	MESSAGE_TEXT_YOU_CAN_SEND_RECEIPT: {
 		"de-DE": "Soll eine <a receipt>Quittung</a> an <a counterparty>%v</a> gesendet werden?",
 		"en-UK": "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?",
+		"en-US": "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?", //TODO(US)
 		"es-ES": "¿Debo enviar <a receipt> el recibo</a> a <a counterparty>%v</a>?",
 		"fa-IR": "آیا لازم است ماارسال کنیم یک <a receipt>رسید</a> به <a counterparty>%v</a>?",
+		"fr-FR": "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?", //TODO(FR)
+		"id-ID": "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?", //TODO(ID)
 		"it-IT": "Devo inviare una <a receipt>notifica</a> a <a counterparty>%v</a>?",
+		"ja-JP": "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?", //TODO(JP)
+		"ko-KO": "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?", //TODO(KO)
+		"pl-PL": "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?", //TODO(PL)
+		"pt-BR": "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?", //TODO(BR)
 		"ru-RU": "Отправить <a receipt>квитанцию</a> для <a counterparty>%v</a>?",
+		"tr-TR": "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?", //TODO(TR)
+		"ua-UA": "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?", //TODO(UA)
+		"uz-UZ": "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?", //TODO(UZ)
+		"zh-CN": "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?", //TODO(CN)
 	},
 	MESSAGE_TEXT_YOU_CAN_SEND_RECEIPT_TO_YOURSELF_BY_SMS: {
 		"de-DE": "Entschuldigung, aber eine Quittung selber per SMS zu schicken ist im Moment noch nicht möglich. Aber dafür geht es mit %v.",
 		"en-UK": "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.",
+		"en-US": "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.", //TODO(US)
 		"es-ES": "Lo siento, el envio del recibo a ti mismo a través de SMS en este momento está desactivado. Pero lo puedes enviar a %v.",
 		"fa-IR": "متاسفم، درحال حاضرارسال یک رسید به خودتان بوسیله پیام کوتاه امکان پذیر نیست. شما میتوانید آنرا ارسال کنید به  %v از طریق.",
+		"fr-FR": "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.", //TODO(FR)
+		"id-ID": "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.", //TODO(ID)
 		"it-IT": "Spiacente ma inviarsi da soli una notifica tramite SMS non e' al momento disponibile. Pero' puoi inviarla a %v.",
+		"ja-JP": "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.", //TODO(JP)
+		"ko-KO": "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.", //TODO(KO)
+		"pl-PL": "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.", //TODO(PL)
+		"pt-BR": "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.", //TODO(BR)
 		"ru-RU": "К сожалению отправка квитанцию себе по СМС в данный момент отключена. Но вы можете отправить её для %v.",
+		"tr-TR": "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.", //TODO(TR)
+		"ua-UA": "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.", //TODO(UA)
+		"uz-UZ": "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.", //TODO(UZ)
+		"zh-CN": "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.", //TODO(CN)
 	},
 	MESSAGE_TEXT_RECEIPT_IS_SENDING_BY_TELEGRAM: {
 		"de-DE": "Die Quittung wird %v per Telegram geschickt...",
 		"en-UK": "We are sending receipt to %v by Telegram...",
+		"en-US": "We are sending receipt to %v by Telegram...", //TODO(US)
 		"es-ES": "El recibo está enviando a%v a través de Telegram…",
 		"fa-IR": "مادرحال ارسال رسید به %v از طریق تلگرام هستیم...",
+		"fr-FR": "We are sending receipt to %v by Telegram...", //TODO(FR)
+		"id-ID": "We are sending receipt to %v by Telegram...", //TODO(ID)
 		"it-IT": "Sto inviando la notifica a %v tramite Telegram...",
+		"ja-JP": "We are sending receipt to %v by Telegram...", //TODO(JP)
+		"ko-KO": "We are sending receipt to %v by Telegram...", //TODO(KO)
+		"pl-PL": "We are sending receipt to %v by Telegram...", //TODO(PL)
+		"pt-BR": "We are sending receipt to %v by Telegram...", //TODO(BR)
 		"ru-RU": "Отправляем для %v извещение через Telegram...",
+		"tr-TR": "We are sending receipt to %v by Telegram...", //TODO(TR)
+		"ua-UA": "We are sending receipt to %v by Telegram...", //TODO(UA)
+		"uz-UZ": "We are sending receipt to %v by Telegram...", //TODO(UZ)
+		"zh-CN": "We are sending receipt to %v by Telegram...", //TODO(CN)
 	},
 	DAY: {
+		"de-DE": "%v day", //TODO(DE)
 		"en-UK": "%v day",
+		"en-US": "%v day", //TODO(US)
+		"es-ES": "%v day", //TODO(ES)
+		"fa-IR": "%v day", //TODO(FA)
+		"fr-FR": "%v day", //TODO(FR)
+		"id-ID": "%v day", //TODO(ID)
+		"it-IT": "%v day", //TODO(IT)
+		"ja-JP": "%v day", //TODO(JP)
+		"ko-KO": "%v day", //TODO(KO)
+		"pl-PL": "%v day", //TODO(PL)
+		"pt-BR": "%v day", //TODO(BR)
 		"ru-RU": "%v день",
+		"tr-TR": "%v day", //TODO(TR)
+		"ua-UA": "%v day", //TODO(UA)
+		"uz-UZ": "%v day", //TODO(UZ)
+		"zh-CN": "%v day", //TODO(CN)
 	},
 	DAYS_234: {
+		"de-DE": "%v days", //TODO(DE)
 		"en-UK": "%v days",
+		"en-US": "%v days", //TODO(US)
+		"es-ES": "%v days", //TODO(ES)
+		"fa-IR": "%v days", //TODO(FA)
+		"fr-FR": "%v days", //TODO(FR)
+		"id-ID": "%v days", //TODO(ID)
+		"it-IT": "%v days", //TODO(IT)
+		"ja-JP": "%v days", //TODO(JP)
+		"ko-KO": "%v days", //TODO(KO)
+		"pl-PL": "%v days", //TODO(PL)
+		"pt-BR": "%v days", //TODO(BR)
 		"ru-RU": "%v дня",
+		"tr-TR": "%v days", //TODO(TR)
+		"ua-UA": "%v days", //TODO(UA)
+		"uz-UZ": "%v days", //TODO(UZ)
+		"zh-CN": "%v days", //TODO(CN)
 	},
 	DAYS: {
+		"de-DE": "%v days", //TODO(DE)
 		"en-UK": "%v days",
+		"en-US": "%v days", //TODO(US)
+		"es-ES": "%v days", //TODO(ES)
+		"fa-IR": "%v days", //TODO(FA)
+		"fr-FR": "%v days", //TODO(FR)
+		"id-ID": "%v days", //TODO(ID)
+		"it-IT": "%v days", //TODO(IT)
+		"ja-JP": "%v days", //TODO(JP)
+		"ko-KO": "%v days", //TODO(KO)
+		"pl-PL": "%v days", //TODO(PL)
+		"pt-BR": "%v days", //TODO(BR)
 		"ru-RU": "%v дней",
+		"tr-TR": "%v days", //TODO(TR)
+		"ua-UA": "%v days", //TODO(UA)
+		"uz-UZ": "%v days", //TODO(UZ)
+		"zh-CN": "%v days", //TODO(CN)
 	},
 	MESSAGE_TEXT_INTEREST_PLEASE_SPECIFY_PERIOD: {
+		"de-DE": "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?", //TODO(DE)
 		"en-UK": "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?",
+		"en-US": "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?", //TODO(US)
+		"es-ES": "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?", //TODO(ES)
+		"fa-IR": "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?", //TODO(FA)
+		"fr-FR": "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?", //TODO(FR)
+		"id-ID": "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?", //TODO(ID)
+		"it-IT": "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?", //TODO(IT)
+		"ja-JP": "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?", //TODO(JP)
+		"ko-KO": "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?", //TODO(KO)
+		"pl-PL": "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?", //TODO(PL)
+		"pt-BR": "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?", //TODO(BR)
 		"ru-RU": "Пожалуйста укажите также процентный период, т.е. уточните %%v%% это процент за какое количество дней?",
+		"tr-TR": "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?", //TODO(TR)
+		"ua-UA": "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?", //TODO(UA)
+		"uz-UZ": "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?", //TODO(UZ)
+		"zh-CN": "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?", //TODO(CN)
 	},
 	MESSAGE_TEXT_INTEREST: {
+		"de-DE": "<b>Interest</b>: %v%% per %v", //TODO(DE)
 		"en-UK": "<b>Interest</b>: %v%% per %v",
+		"en-US": "<b>Interest</b>: %v%% per %v", //TODO(US)
+		"es-ES": "<b>Interest</b>: %v%% per %v", //TODO(ES)
+		"fa-IR": "<b>Interest</b>: %v%% per %v", //TODO(FA)
+		"fr-FR": "<b>Interest</b>: %v%% per %v", //TODO(FR)
+		"id-ID": "<b>Interest</b>: %v%% per %v", //TODO(ID)
+		"it-IT": "<b>Interest</b>: %v%% per %v", //TODO(IT)
+		"ja-JP": "<b>Interest</b>: %v%% per %v", //TODO(JP)
+		"ko-KO": "<b>Interest</b>: %v%% per %v", //TODO(KO)
+		"pl-PL": "<b>Interest</b>: %v%% per %v", //TODO(PL)
+		"pt-BR": "<b>Interest</b>: %v%% per %v", //TODO(BR)
 		"ru-RU": "<b>Ставка</b>: %v%% за %v",
+		"tr-TR": "<b>Interest</b>: %v%% per %v", //TODO(TR)
+		"ua-UA": "<b>Interest</b>: %v%% per %v", //TODO(UA)
+		"uz-UZ": "<b>Interest</b>: %v%% per %v", //TODO(UZ)
+		"zh-CN": "<b>Interest</b>: %v%% per %v", //TODO(CN)
 	},
 	MESSAGE_TEXT_INTEREST_MIN_PERIOD: {
+		"de-DE": "minimum period %v", //TODO(DE)
 		"en-UK": "minimum period %v",
+		"en-US": "minimum period %v", //TODO(US)
+		"es-ES": "minimum period %v", //TODO(ES)
+		"fa-IR": "minimum period %v", //TODO(FA)
+		"fr-FR": "minimum period %v", //TODO(FR)
+		"id-ID": "minimum period %v", //TODO(ID)
+		"it-IT": "minimum period %v", //TODO(IT)
+		"ja-JP": "minimum period %v", //TODO(JP)
+		"ko-KO": "minimum period %v", //TODO(KO)
+		"pl-PL": "minimum period %v", //TODO(PL)
+		"pt-BR": "minimum period %v", //TODO(BR)
 		"ru-RU": "минимальный период %v",
+		"tr-TR": "minimum period %v", //TODO(TR)
+		"ua-UA": "minimum period %v", //TODO(UA)
+		"uz-UZ": "minimum period %v", //TODO(UZ)
+		"zh-CN": "minimum period %v", //TODO(CN)
 	},
 	MESSAGE_TEXT_RECEIPT_NEW_DEBT_FROM_USER: {
 		"de-DE": "{{.Counterparty}} schuldet dir {{.Amount}} .",
 		"en-UK": "{{.Counterparty}} borrowed from you {{.Amount}}.",
+		"en-US": "{{.Counterparty}} borrowed from you {{.Amount}}.", //TODO(US)
 		"es-ES": "{{.Counterparty}} prestado por tí {{.Amount}}.",
 		"fa-IR": "{{.Counterparty}} از شما {{.Amount}} قرض گرفته است .",
+		"fr-FR": "{{.Counterparty}} borrowed from you {{.Amount}}.", //TODO(FR)
+		"id-ID": "{{.Counterparty}} borrowed from you {{.Amount}}.", //TODO(ID)
 		//"it-IT": "{{.Counterparty}} ha preso in prestito da te {{.Amount}}.",
 		"it-IT": "{{.Counterparty}} e' in debito di {{.Amount}} con te.",
+		"ja-JP": "{{.Counterparty}} borrowed from you {{.Amount}}.", //TODO(JP)
+		"ko-KO": "{{.Counterparty}} borrowed from you {{.Amount}}.", //TODO(KO)
+		"pl-PL": "{{.Counterparty}} borrowed from you {{.Amount}}.", //TODO(PL)
+		"pt-BR": "{{.Counterparty}} borrowed from you {{.Amount}}.", //TODO(BR)
 		"ru-RU": "{{.Counterparty}} взял(а) в долг {{.Amount}}.",
+		"tr-TR": "{{.Counterparty}} borrowed from you {{.Amount}}.", //TODO(TR)
+		"ua-UA": "{{.Counterparty}} borrowed from you {{.Amount}}.", //TODO(UA)
+		"uz-UZ": "{{.Counterparty}} borrowed from you {{.Amount}}.", //TODO(UZ)
+		"zh-CN": "{{.Counterparty}} borrowed from you {{.Amount}}.", //TODO(CN)
 	},
 	MESSAGE_TEXT_RECEIPT_NEW_DEBT_TO_USER: {
 		"de-DE": "{{.Counterparty}} hat dir {{.Amount}} geliehen.",
 		"en-UK": "{{.Counterparty}} lended to you {{.Amount}}.",
+		"en-US": "{{.Counterparty}} lended to you {{.Amount}}.", //TODO(US)
 		"es-ES": "{{.Counterparty}} prestado a mí {{.Amount}}.",
 		"fa-IR": "{{.Counterparty}} به شما {{.Amount}} قرض داده است .",
+		"fr-FR": "{{.Counterparty}} lended to you {{.Amount}}.", //TODO(FR)
+		"id-ID": "{{.Counterparty}} lended to you {{.Amount}}.", //TODO(ID)
 		"it-IT": "{{.Counterparty}} ti ha prestato {{.Amount}}.",
+		"ja-JP": "{{.Counterparty}} lended to you {{.Amount}}.", //TODO(JP)
+		"ko-KO": "{{.Counterparty}} lended to you {{.Amount}}.", //TODO(KO)
+		"pl-PL": "{{.Counterparty}} lended to you {{.Amount}}.", //TODO(PL)
+		"pt-BR": "{{.Counterparty}} lended to you {{.Amount}}.", //TODO(BR)
 		"ru-RU": "{{.Counterparty}} дал(а) вам в долг {{.Amount}}.",
+		"tr-TR": "{{.Counterparty}} lended to you {{.Amount}}.", //TODO(TR)
+		"ua-UA": "{{.Counterparty}} lended to you {{.Amount}}.", //TODO(UA)
+		"uz-UZ": "{{.Counterparty}} lended to you {{.Amount}}.", //TODO(UZ)
+		"zh-CN": "{{.Counterparty}} lended to you {{.Amount}}.", //TODO(CN)
 	},
 	MESSAGE_TEXT_RECEIPT_RETURN_FROM_USER: {
 		"de-DE": "Du hast {{.Amount}} an {{.Counterparty}} beglichen.",
 		"en-UK": "You returned {{.Amount}} to {{.Counterparty}}.",
+		"en-US": "You returned {{.Amount}} to {{.Counterparty}}.", //TODO(US)
 		"es-ES": "Has devuelto {{.Amount}} a {{.Counterparty}}.",
 		"fa-IR": "شما بازگردانده اید {{.Amount}} به {{.Counterparty}}.",
+		"fr-FR": "You returned {{.Amount}} to {{.Counterparty}}.", //TODO(FR)
+		"id-ID": "You returned {{.Amount}} to {{.Counterparty}}.", //TODO(ID)
 		"it-IT": "Hai ridato {{.Amount}} a {{.Counterparty}}.",
+		"ja-JP": "You returned {{.Amount}} to {{.Counterparty}}.", //TODO(JP)
+		"ko-KO": "You returned {{.Amount}} to {{.Counterparty}}.", //TODO(KO)
+		"pl-PL": "You returned {{.Amount}} to {{.Counterparty}}.", //TODO(PL)
+		"pt-BR": "You returned {{.Amount}} to {{.Counterparty}}.", //TODO(BR)
 		"ru-RU": "Вы вернули долг - {{.Counterparty}} получил(а) {{.Amount}}.",
+		"tr-TR": "You returned {{.Amount}} to {{.Counterparty}}.", //TODO(TR)
+		"ua-UA": "You returned {{.Amount}} to {{.Counterparty}}.", //TODO(UA)
+		"uz-UZ": "You returned {{.Amount}} to {{.Counterparty}}.", //TODO(UZ)
+		"zh-CN": "You returned {{.Amount}} to {{.Counterparty}}.", //TODO(CN)
 	},
 	MESSAGE_TEXT_RECEIPT_RETURN_TO_USER: {
 		"de-DE": "{{.Counterparty}} hat dir {{.Amount}} beglichen.",
 		"en-UK": "{{.Counterparty}} returned to you {{.Amount}}.",
+		"en-US": "{{.Counterparty}} returned to you {{.Amount}}.", //TODO(US)
 		"es-ES": "{{.Counterparty}} te ha devuelto {{.Amount}}.",
 		"fa-IR": "{{.Counterparty}} به شما بازپرداخت کرده است {{.Amount}}.",
+		"fr-FR": "{{.Counterparty}} returned to you {{.Amount}}.", //TODO(FR)
+		"id-ID": "{{.Counterparty}} returned to you {{.Amount}}.", //TODO(ID)
 		"it-IT": "{{.Counterparty}} ti ha ridato {{.Amount}}.",
+		"ja-JP": "{{.Counterparty}} returned to you {{.Amount}}.", //TODO(JP)
+		"ko-KO": "{{.Counterparty}} returned to you {{.Amount}}.", //TODO(KO)
+		"pl-PL": "{{.Counterparty}} returned to you {{.Amount}}.", //TODO(PL)
+		"pt-BR": "{{.Counterparty}} returned to you {{.Amount}}.", //TODO(BR)
 		"ru-RU": "{{.Counterparty}} вернул вам {{.Amount}}.",
+		"tr-TR": "{{.Counterparty}} returned to you {{.Amount}}.", //TODO(TR)
+		"ua-UA": "{{.Counterparty}} returned to you {{.Amount}}.", //TODO(UA)
+		"uz-UZ": "{{.Counterparty}} returned to you {{.Amount}}.", //TODO(UZ)
+		"zh-CN": "{{.Counterparty}} returned to you {{.Amount}}.", //TODO(CN)
 	},
 	MESSAGE_TEXT_TRANSFER_ALREADY_FULLY_RETURNED: {
 		"de-DE": "Diese Schuld ist bereits vollständig beglichen.",
@@ -4421,50 +5878,116 @@ O usa il menu' qui sotto.`,
 	COMMAND_TEXT_VIEW_RECEIPT_DETAILS: {
 		"de-DE": "Quittungsdetails anzeigen",
 		"en-UK": "See receipt details",
+		"en-US": "See receipt details",
 		"es-ES": "Ver el recibo",
 		"fa-IR": "دیدن جزئیات رسید",
+		"fr-FR": "Voir les détails du reçu",
+		"id-ID": "Lihat detail tanda terima",
 		"it-IT": "Vedi dettagli",
+		"ja-JP": "領収書の詳細を見る",
+		"ko-KO": "영수증 세부 정보 보기",
+		"pl-PL": "Zobacz szczegóły paragonu",
+		"pt-BR": "Ver detalhes do recibo",
 		"ru-RU": "Посмотреть квитанцию",
+		"tr-TR": "Makbuz detaylarını görüntüle",
+		"ua-UA": "Переглянути квитанцію",
+		"uz-UZ": "Kvitansiya tafsilotlarini ko'rish",
+		"zh-CN": "查看收据详情",
 	},
 	COMMAND_TEXT_OTHER_WAYS_TO_SEND_INVITE: {
 		"de-DE": "Andere Wege, eine Einladung zu senden",
 		"en-UK": "Other ways to send an invite",
+		"en-US": "Other ways to send an invite",
 		"es-ES": "Otras maneras para enviar la invitación",
 		"fa-IR": "سایر راههای ارسال دعوت",
+		"fr-FR": "Autres façons d'envoyer une invitation",
+		"id-ID": "Cara lain untuk mengirim undangan",
 		"it-IT": "Altri modi per inviare un invito",
+		"ja-JP": "招待状を送信する他の方法",
+		"ko-KO": "초대장을 보내는 다른 방법",
+		"pl-PL": "Inne sposoby wysyłania zaproszenia",
+		"pt-BR": "Outras formas de enviar um convite",
 		"ru-RU": "Другие способы отправить приглашение",
+		"tr-TR": "Davetiye göndermenin diğer yolları",
+		"ua-UA": "Інші способи надіслати запрошення",
+		"uz-UZ": "Taklifnoma yuborishning boshqa usullari",
+		"zh-CN": "发送邀请的其他方式",
 	},
 	COMMAND_TEXT_SEND_MY_PHONE_NUMBER: {
 		"de-DE": "meine Telefonnummer senden",
 		"en-UK": "Send my phone number",
+		"en-US": "Send my phone number",
 		"es-ES": "Enviar mi número",
 		"fa-IR": "شماره تلفن مرا ارسال کنید",
+		"fr-FR": "Envoyer mon numéro de téléphone",
+		"id-ID": "Kirim nomor telepon saya",
 		"it-IT": "Invia il mio numero",
+		"ja-JP": "私の電話番号を送信する",
+		"ko-KO": "내 전화번호 보내기",
+		"pl-PL": "Wyślij mój numer telefonu",
+		"pt-BR": "Enviar meu número de telefone",
 		"ru-RU": "Отправить мой номер",
+		"tr-TR": "Telefon numaramı gönder",
+		"ua-UA": "Надіслати мій номер телефону",
+		"uz-UZ": "Telefon raqamimni yuborish",
+		"zh-CN": "发送我的电话号码",
 	},
 	COMMAND_TEXT_SEND_BY_EMAIL: {
 		"de-DE": "per Mail",
 		"en-UK": "By Email",
+		"en-US": "By Email",
 		"es-ES": "Vía e-mail",
 		"fa-IR": "بوسیله ی ایمیل",
+		"fr-FR": "Par e-mail",
+		"id-ID": "Melalui Email",
 		"it-IT": "Tramite email",
+		"ja-JP": "メールで",
+		"ko-KO": "이메일로",
+		"pl-PL": "Przez e-mail",
+		"pt-BR": "Por e-mail",
 		"ru-RU": "Через Email",
+		"tr-TR": "E-posta ile",
+		"ua-UA": "Через електронну пошту",
+		"uz-UZ": "Email orqali",
+		"zh-CN": "通过电子邮件",
 	},
 	COMMAND_TEXT_SEND_BY_SMS: {
 		"de-DE": "per SMS",
 		"en-UK": "By SMS",
+		"en-US": "By SMS",
 		"es-ES": "Vía SMS",
-		"it-IT": "Tramite SMS",
 		"fa-IR": "بوسیله پیام کوتاه",
+		"fr-FR": "Par SMS",
+		"id-ID": "Melalui SMS",
+		"it-IT": "Tramite SMS",
+		"ja-JP": "SMSで",
+		"ko-KO": "SMS로",
+		"pl-PL": "Przez SMS",
+		"pt-BR": "Por SMS",
 		"ru-RU": "Через SMS",
+		"tr-TR": "SMS ile",
+		"ua-UA": "Через SMS",
+		"uz-UZ": "SMS orqali",
+		"zh-CN": "通过短信",
 	},
 	COMMAND_TEXT_INVITE_BY_TELEGRAM: {
 		"de-DE": "Einladen per Telegram",
 		"en-UK": "Invite By Telegram",
+		"en-US": "Invite By Telegram",
 		"es-ES": "Invitar vía Telegram",
-		"it-IT": "Tramite Telegram",
 		"fa-IR": "دعوت با تلگرام",
+		"fr-FR": "Inviter par Telegram",
+		"id-ID": "Undang Melalui Telegram",
+		"it-IT": "Tramite Telegram",
+		"ja-JP": "Telegramで招待する",
+		"ko-KO": "텔레그램으로 초대하기",
+		"pl-PL": "Zaproś przez Telegram",
+		"pt-BR": "Convidar pelo Telegram",
 		"ru-RU": "Пригласить через Telegram",
+		"tr-TR": "Telegram ile davet et",
+		"ua-UA": "Запросити через Telegram",
+		"uz-UZ": "Telegram orqali taklif qilish",
+		"zh-CN": "通过Telegram邀请",
 	},
 	MESSAGE_TEXT_INVITE_CREATED: {
 
@@ -4476,6 +5999,10 @@ Sobald dein Freund die Einladung akzeptiert hat, könnt ihr das Geld, was ihr eu
 
 Once your friend accepts invitation you'll share balance & transfers between you to make sure you both are on the same page with minimum efforts.`,
 
+		"en-US": `We've sent an invite code to your friend. (#%v)
+
+Once your friend accepts invitation you'll share balance & transfers between you to make sure you both are on the same page with minimum efforts.`,
+
 		"es-ES": `Hemos enviado el código de la invitación a tu amigo. (#%v)
 
 Cuando tu amigo accepte la invitación vaís a tener transacciones y balance en común (solo entre vosotros). Todo eso os ayuda minimizar los esfuerzos para controlar la cuenta.`,
@@ -4484,228 +6011,566 @@ Cuando tu amigo accepte la invitación vaís a tener transacciones y balance en 
 
 وقتی دوست شما دعوت را بپذیرد شما تراز و مبادلات بین خود را به اشتراک می گذارید تا با کمترین تلاش از درک مشترک میان خود اطمینان حاصل کنید. `,
 
+		"fr-FR": `Nous avons envoyé un code d'invitation à votre ami. (#%v)
+
+Une fois que votre ami accepte l'invitation, vous partagerez le solde et les transferts entre vous pour vous assurer que vous êtes tous les deux sur la même page avec un minimum d'efforts.`,
+
+		"id-ID": `Kami telah mengirimkan kode undangan kepada teman Anda. (#%v)
+
+Setelah teman Anda menerima undangan, Anda akan berbagi saldo & transfer antara Anda untuk memastikan Anda berdua berada di halaman yang sama dengan upaya minimal.`,
+
 		"it-IT": `Abbiamo inviato il codice invito al tuo amico. (#%v)
 
 Una volta che il tuo amico accetta l'invito potrete condividere i bilanci ed i trasferimenti con il minimo sforzo.`,
+
+		"ja-JP": `友達に招待コードを送信しました。(#%v)
+
+友達が招待を受け入れると、最小限の労力で両方が同じページにいることを確認するために、あなたの間で残高と転送を共有します。`,
+
+		"ko-KO": `친구에게 초대 코드를 보냈습니다. (#%v)
+
+친구가 초대를 수락하면 최소한의 노력으로 두 사람이 같은 페이지에 있는지 확인하기 위해 잔액과 이체를 공유하게 됩니다.`,
+
+		"pl-PL": `Wysłaliśmy kod zaproszenia do Twojego znajomego. (#%v)
+
+Gdy Twój znajomy zaakceptuje zaproszenie, będziecie dzielić saldo i przelewy między sobą, aby upewnić się, że oboje jesteście na tej samej stronie przy minimalnym wysiłku.`,
+
+		"pt-BR": `Enviamos um código de convite para seu amigo. (#%v)
+
+Quando seu amigo aceitar o convite, vocês compartilharão saldo e transferências entre si para garantir que ambos estejam na mesma página com o mínimo de esforço.`,
+
 		"ru-RU": `Мы отправили код приглашения на указынный вами адрес. (#%v)
 
 Когда ваш друг потдвердит приглашение у вас будут общий баланс и транзакции (только между вами). Это поможет вам минимизировать усилия по ведению учёта.`,
+
+		"tr-TR": `Arkadaşınıza bir davet kodu gönderdik. (#%v)
+
+Arkadaşınız daveti kabul ettiğinde, minimum çabayla ikinizin de aynı sayfada olduğundan emin olmak için aranızda bakiye ve transferleri paylaşacaksınız.`,
+
+		"ua-UA": `Ми надіслали код запрошення вашому другу. (#%v)
+
+Коли ваш друг прийме запрошення, ви будете ділитися балансом і переказами між собою, щоб переконатися, що ви обидва на одній сторінці з мінімальними зусиллями.`,
+
+		"uz-UZ": `Do'stingizga taklifnoma kodini yubordik. (#%v)
+
+Do'stingiz taklifni qabul qilgandan so'ng, minimal kuch bilan ikkalangiz ham bir xil sahifada ekanligingizga ishonch hosil qilish uchun o'zaro balans va o'tkazmalarni almashishingiz mumkin.`,
+
+		"zh-CN": `我们已向您的朋友发送邀请码。(#%v)
+
+一旦您的朋友接受邀请，您将共享余额和转账，以确保您们双方以最少的努力保持一致。`,
 	},
 	MESSAGE_TEXT_INVITE_BY_EMAIL: {
 		"de-DE": "Bitte gib die eMail Adresse deines Freundes an, wohin wir den Code schicken:",
 		"en-UK": "Please enter emaill address of your friend where we should send an invite code.",
+		"en-US": "Please enter email address of your friend where we should send an invite code.",
 		"es-ES": "Por favor, introduce el e-maill de tu amigo al cual enviaremos el código de la invitación.",
 		"fa-IR": "لطفاً آدرس ایمیل دوست خود را وارد کنید تا ما از آن طریق کد دعوت را ارسال نماییم.",
+		"fr-FR": "Veuillez entrer l'adresse e-mail de votre ami où nous devrions envoyer un code d'invitation.",
+		"id-ID": "Silakan masukkan alamat email teman Anda di mana kami harus mengirimkan kode undangan.",
 		"it-IT": "Inserisci l'email dell'amico al quale inviare il codice invito.",
+		"ja-JP": "招待コードを送信する友達のメールアドレスを入力してください。",
+		"ko-KO": "초대 코드를 보낼 친구의 이메일 주소를 입력하세요.",
+		"pl-PL": "Proszę podać adres e-mail znajomego, na który powinniśmy wysłać kod zaproszenia.",
+		"pt-BR": "Por favor, insira o endereço de e-mail do seu amigo para onde devemos enviar um código de convite.",
 		"ru-RU": "Введите email вашего друга на который мы отправим код приглашения.",
+		"tr-TR": "Lütfen davet kodunu göndermemiz gereken arkadaşınızın e-posta adresini girin.",
+		"ua-UA": "Будь ласка, введіть електронну адресу вашого друга, куди ми повинні надіслати код запрошення.",
+		"uz-UZ": "Iltimos, taklifnoma kodini yuborishimiz kerak bo'lgan do'stingizning elektron pochta manzilini kiriting.",
+		"zh-CN": "请输入您朋友的电子邮件地址，我们将向其发送邀请码。",
 	},
 	MESSAGE_TEXT_INVITE_ASK_EMAIL_FOR_RECEIPT: {
 		"de-DE": "Bitte gib die eMail Adresse deines Freundes (%v), wohin wir die Quittung schicken:", // TODO(DE) - verify
 		"en-UK": "Please enter emaill address of your friend (%v) where we should send the receipt.",
+		"en-US": "Please enter email address of your friend (%v) where we should send the receipt.",
 		"es-ES": "Introduce el e-maill de tu amigo (%v) al cual enviaremos el recibo.",
 		"fa-IR": "لطفا آدرس ایمیل دوست خود را وارد کنید (%v) تا ما از آن طریق کد دعوت را ارسال نماییم.",
+		"fr-FR": "Veuillez entrer l'adresse e-mail de votre ami (%v) où nous devrions envoyer le reçu.",
+		"id-ID": "Silakan masukkan alamat email teman Anda (%v) di mana kami harus mengirimkan tanda terima.",
 		"it-IT": "Inserisci l'email del tuo amico (%v) alla quale potremo inviare il debito/credito",
+		"ja-JP": "領収書を送信する友達 (%v) のメールアドレスを入力してください。",
+		"ko-KO": "영수증을 보낼 친구 (%v)의 이메일 주소를 입력하세요.",
+		"pl-PL": "Proszę podać adres e-mail znajomego (%v), na który powinniśmy wysłać paragon.",
+		"pt-BR": "Por favor, insira o endereço de e-mail do seu amigo (%v) para onde devemos enviar o recibo.",
 		"ru-RU": "Введите email вашего друга (%v) на который мы отправим квитанцию подтверждения.",
+		"tr-TR": "Lütfen makbuzu göndermemiz gereken arkadaşınızın (%v) e-posta adresini girin.",
+		"ua-UA": "Будь ласка, введіть електронну адресу вашого друга (%v), куди ми повинні надіслати квитанцію.",
+		"uz-UZ": "Iltimos, kvitansiyani yuborishimiz kerak bo'lgan do'stingizning (%v) elektron pochta manzilini kiriting.",
+		"zh-CN": "请输入您朋友 (%v) 的电子邮件地址，我们将向其发送收据。",
 	},
 	MESSAGE_TEXT_INVITE_BY_SMS: {
 		"de-DE": "Bitte gib die Telefonnummer deines Freundes an oder teile einen Kontakt, wohin wir den Code schicken:",
 		"en-UK": "Please enter number of yoru friend where we'll send an invite.",
+		"en-US": "Please enter number of your friend where we'll send an invite.",
 		"es-ES": "Por favor, introduce el número del teléfono de tu amigo al cual enviaremos el código de la invitación.",
 		"fa-IR": "لطفا شماره دوستان را که می خواهید برای او کد دعوت بفرستیم از لیست مخاطبین به اشتراک گذاشته یا آن را وارد کنید.",
+		"fr-FR": "Veuillez entrer le numéro de votre ami où nous enverrons une invitation.",
+		"id-ID": "Silakan masukkan nomor teman Anda di mana kami akan mengirimkan undangan.",
 		"it-IT": "Condividi il contatto o inserisci il numero di telefono del tuo amico al quale invieremo il codice invito.",
+		"ja-JP": "招待状を送信する友達の番号を入力してください。",
+		"ko-KO": "초대장을 보낼 친구의 번호를 입력하세요.",
+		"pl-PL": "Proszę podać numer telefonu znajomego, na który wyślemy zaproszenie.",
+		"pt-BR": "Por favor, insira o número do seu amigo para onde enviaremos um convite.",
 		"ru-RU": "Введите номер телефона вашего друга на который мы отправим код приглашения.",
+		"tr-TR": "Lütfen davet göndereceğimiz arkadaşınızın numarasını girin.",
+		"ua-UA": "Будь ласка, введіть номер вашого друга, куди ми надішлемо запрошення.",
+		"uz-UZ": "Iltimos, taklifnoma yuboradigan do'stingizning raqamini kiriting.",
+		"zh-CN": "请输入我们将发送邀请的朋友的号码。",
 	},
 	MESSAGE_TEXT_INVITE_BY_TELEGRAM: {
 		"de-DE": "Bitte wähle einen Kontakt, welchen du den Code schicken willst:",
 		"en-UK": "Please share a contact of your friend you wish to send an invite code:",
+		"en-US": "Please share a contact of your friend you wish to send an invite code:",
 		"es-ES": "Por favor, comparte el contacto de tu amigo al cual quieres enviar el código de la invitación.",
 		"fa-IR": "لطفا اطلاعات تماس دوستتان را که میخواهید برایشان کد دعوت ارسال شود به اشتراک بگذارید.",
+		"fr-FR": "Veuillez partager un contact de votre ami à qui vous souhaitez envoyer un code d'invitation :",
+		"id-ID": "Silakan bagikan kontak teman Anda yang ingin Anda kirimi kode undangan:",
 		"it-IT": "Condividi il contatto di un amico al quale desideri inviare il codice invito.",
+		"ja-JP": "招待コードを送信したい友達の連絡先を共有してください：",
+		"ko-KO": "초대 코드를 보내고 싶은 친구의 연락처를 공유하세요:",
+		"pl-PL": "Proszę udostępnić kontakt znajomego, któremu chcesz wysłać kod zaproszenia:",
+		"pt-BR": "Por favor, compartilhe um contato do seu amigo para quem deseja enviar um código de convite:",
 		"ru-RU": "Вставьте в чат контакт вашего друга которому вы хотите отправить приглашение.",
+		"tr-TR": "Lütfen davet kodu göndermek istediğiniz arkadaşınızın bir kişisini paylaşın:",
+		"ua-UA": "Будь ласка, поділіться контактом вашого друга, якому ви бажаєте надіслати код запрошення:",
+		"uz-UZ": "Iltimos, taklifnoma kodini yubormoqchi bo'lgan do'stingizning kontaktini ulashing:",
+		"zh-CN": "请分享您希望发送邀请码的朋友的联系人：",
 	},
 	MESSAGE_TEXT_INVALID_EMAIL: {
 		"de-DE": "Ungültige eMail Adresse. Versuche es erneut oder gehe ins Haupt /menu",
 		"en-UK": "Invalid email. Check and try it again? /menu",
+		"en-US": "Invalid email. Check and try it again? /menu",
 		"es-ES": "Email incorrecto. ¿Comprobarlo e intentalo de nuevo? /menú",
 		"fa-IR": "ایمیل غیر معتبر می باشد. آیا بررسی نموده، دوباره سعی می کنید؟ /منو",
+		"fr-FR": "Email invalide. Vérifiez et réessayez ? /menu",
+		"id-ID": "Email tidak valid. Periksa dan coba lagi? /menu",
 		"it-IT": "Email scorretta. Controlla e riprova. /menu",
+		"ja-JP": "無効なメール。確認して再試行しますか？ /menu",
+		"ko-KO": "잘못된 이메일입니다. 확인하고 다시 시도하시겠습니까? /menu",
+		"pl-PL": "Nieprawidłowy email. Sprawdź i spróbuj ponownie? /menu",
+		"pt-BR": "Email inválido. Verificar e tentar novamente? /menu",
 		"ru-RU": "Неверный email. Проверить и попробовать ещё раз? /menu",
+		"tr-TR": "Geçersiz e-posta. Kontrol edip tekrar deneyin? /menu",
+		"ua-UA": "Недійсна електронна пошта. Перевірити та спробувати ще раз? /menu",
+		"uz-UZ": "Yaroqsiz elektron pochta. Tekshirib ko'ring va qayta urinib ko'ring? /menu",
+		"zh-CN": "无效的电子邮件。检查并重试？ /menu",
 	},
 	MESSAGE_TEXT_INVALID_YEAR: {
 		"de-DE": "Ungültiges Jahr. Der Jahresangabe sollte 2 oder 4 Ziffern sein (<i>z.B. 2016 or 16</i>).",
 		"en-UK": "Invalid year. The year part should be 2 or 4 numbers (<i>e.g. 2016 or 16</i>).",
+		"en-US": "Invalid year. The year part should be 2 or 4 numbers (<i>e.g. 2016 or 16</i>).",
 		"es-ES": "Año incorrecto. El año tiene que constar de 2 o 4 números (<i>ejemplo 2016 o 16</i>).",
 		"fa-IR": "سال غیرمعتبر می باشد. سال باید به صورت 2 یا 4 رقمی وارد شود (<i>برای مثال 16 یا 2016</i>).",
+		"fr-FR": "Année invalide. L'année doit comporter 2 ou 4 chiffres (<i>par exemple 2016 ou 16</i>).",
+		"id-ID": "Tahun tidak valid. Bagian tahun harus berupa 2 atau 4 angka (<i>misalnya 2016 atau 16</i>).",
 		"it-IT": "Anno scorretto. L'anno dev;essere composta da 2 o 4 numeri (<i>esempio 2017 oppure 17</i>)",
+		"ja-JP": "無効な年。年の部分は2桁または4桁の数字である必要があります (<i>例：2016または16</i>)。",
+		"ko-KO": "잘못된 연도입니다. 연도 부분은 2자리 또는 4자리 숫자여야 합니다 (<i>예: 2016 또는 16</i>).",
+		"pl-PL": "Nieprawidłowy rok. Część roku powinna składać się z 2 lub 4 cyfr (<i>np. 2016 lub 16</i>).",
+		"pt-BR": "Ano inválido. A parte do ano deve ter 2 ou 4 números (<i>por exemplo, 2016 ou 16</i>).",
 		"ru-RU": "Неверный год. Год должен быть 2 или 4 цифры (<i>например 2016 или 16)</i>).",
+		"tr-TR": "Geçersiz yıl. Yıl kısmı 2 veya 4 rakam olmalıdır (<i>örneğin 2016 veya 16</i>).",
+		"ua-UA": "Недійсний рік. Частина року повинна складатися з 2 або 4 цифр (<i>наприклад, 2016 або 16</i>).",
+		"uz-UZ": "Yaroqsiz yil. Yil qismi 2 yoki 4 raqamdan iborat bo'lishi kerak (<i>masalan, 2016 yoki 16</i>).",
+		"zh-CN": "无效的年份。年份部分应为2位或4位数字 (<i>例如2016或16</i>)。",
 	},
 	MESSAGE_TEXT_INVALID_MONTH: {
 		"de-DE": "Ungültiger Monat. Der Monatsangabe sollte eine Ganzzahl zwischen 1 und 12 sein.",
 		"en-UK": "Invalid month. Month should be an integer from 1 to 12.",
+		"en-US": "Invalid month. Month should be an integer from 1 to 12.",
 		"es-ES": "El mes es incorrecto. El mes hay que introducirlo del 1 al 12.",
 		"fa-IR": "ماه غیر معتبر می باشد. ماه باید به صورت عددی صحیح بین 1 تا 12 باشد.",
+		"fr-FR": "Mois invalide. Le mois doit être un nombre entier de 1 à 12.",
+		"id-ID": "Bulan tidak valid. Bulan harus berupa bilangan bulat dari 1 hingga 12.",
 		"it-IT": "Mese scorretto. Il mese dovrebbe essere un numero da 1 a 12.",
+		"ja-JP": "無効な月。月は1から12までの整数である必要があります。",
+		"ko-KO": "잘못된 월입니다. 월은 1에서 12 사이의 정수여야 합니다.",
+		"pl-PL": "Nieprawidłowy miesiąc. Miesiąc powinien być liczbą całkowitą od 1 do 12.",
+		"pt-BR": "Mês inválido. O mês deve ser um número inteiro de 1 a 12.",
 		"ru-RU": "Неверный месяц. Месяц должен быть задан целым числом от 1 до 12.",
+		"tr-TR": "Geçersiz ay. Ay, 1'den 12'ye kadar bir tam sayı olmalıdır.",
+		"ua-UA": "Недійсний місяць. Місяць повинен бути цілим числом від 1 до 12.",
+		"uz-UZ": "Yaroqsiz oy. Oy 1 dan 12 gacha bo'lgan butun son bo'lishi kerak.",
+		"zh-CN": "无效的月份。月份应为1到12之间的整数。",
 	},
 	MESSAGE_TEXT_INVALID_DAY: {
 		"de-DE": "Ungültiger Tag. Der Tagesangabe sollte eine Ganzzahl zwischen 1 und 31 sein.",
 		"en-UK": "Invalid day. The day should be an integer from 1 to 31.",
+		"en-US": "Invalid day. The day should be an integer from 1 to 31.",
 		"es-ES": "El día es incorrecto. El día hay que introducirlo del 1 al 31.",
 		"fa-IR": "روز غیر معتبر می باشد. روز باید عددی صحیح بین 1 تا 31 باشد.",
+		"fr-FR": "Jour invalide. Le jour doit être un nombre entier de 1 à 31.",
+		"id-ID": "Hari tidak valid. Hari harus berupa bilangan bulat dari 1 hingga 31.",
 		"it-IT": "Giorno scorretto. Il giorno dovrebbe essere un numero da 1 a 31.",
+		"ja-JP": "無効な日。日は1から31までの整数である必要があります。",
+		"ko-KO": "잘못된 일입니다. 일은 1에서 31 사이의 정수여야 합니다.",
+		"pl-PL": "Nieprawidłowy dzień. Dzień powinien być liczbą całkowitą od 1 do 31.",
+		"pt-BR": "Dia inválido. O dia deve ser um número inteiro de 1 a 31.",
 		"ru-RU": "Неверный день. День должен быть задан целым числом от 1 до 31.",
+		"tr-TR": "Geçersiz gün. Gün, 1'den 31'e kadar bir tam sayı olmalıdır.",
+		"ua-UA": "Недійсний день. День повинен бути цілим числом від 1 до 31.",
+		"uz-UZ": "Yaroqsiz kun. Kun 1 dan 31 gacha bo'lgan butun son bo'lishi kerak.",
+		"zh-CN": "无效的日期。日期应为1到31之间的整数。",
 	},
 	MESSAGE_TEXT_INVALID_DATE: {
 		"de-DE": "Ungültiges Datumsformat. Zum Beispiel für den 20. February 2019 sende: 20.02.2019 oder 20.02.19",
 		"en-UK": "Invalid date format. For example for 20 February 2019 please submit: 20.02.2019 or 20.02.19",
+		"en-US": "Invalid date format. For example for 20 February 2019 please submit: 20.02.2019 or 20.02.19",
 		"es-ES": "El formato de la fecha no es correcto. Por ejemplo para el día 20 de Febrero de 2019 introduce: 20.02.2019 o 20.02.19",
 		"fa-IR": "فرمت تاریخ غیر معتبر می باشد. برای مثال برای 20 فوریه 2019 لطفا اینگونه وارد کنید: 20.02.2019 یا 20.02.19",
+		"fr-FR": "Format de date invalide. Par exemple, pour le 20 février 2019, veuillez soumettre : 20.02.2019 ou 20.02.19",
+		"id-ID": "Format tanggal tidak valid. Misalnya untuk 20 Februari 2019 silakan kirimkan: 20.02.2019 atau 20.02.19",
 		"it-IT": "Formato data sbagliato. Esempio: per il 20 Febbraio 2019 inserisci: 20.02.2019 oppure 20.02.19",
+		"ja-JP": "無効な日付形式です。例えば、2019年2月20日の場合は、20.02.2019または20.02.19と入力してください。",
+		"ko-KO": "잘못된 날짜 형식입니다. 예를 들어 2019년 2월 20일의 경우 다음과 같이 제출하세요: 20.02.2019 또는 20.02.19",
+		"pl-PL": "Nieprawidłowy format daty. Na przykład dla 20 lutego 2019 proszę podać: 20.02.2019 lub 20.02.19",
+		"pt-BR": "Formato de data inválido. Por exemplo, para 20 de fevereiro de 2019, envie: 20.02.2019 ou 20.02.19",
 		"ru-RU": "Неверный формат даты. Например для 20 февраля 2019 года надо ввести: 20.02.2019 или 20.02.19",
+		"tr-TR": "Geçersiz tarih formatı. Örneğin 20 Şubat 2019 için lütfen şunu girin: 20.02.2019 veya 20.02.19",
+		"ua-UA": "Недійсний формат дати. Наприклад, для 20 лютого 2019 року, будь ласка, введіть: 20.02.2019 або 20.02.19",
+		"uz-UZ": "Yaroqsiz sana formati. Masalan, 2019 yil 20 fevral uchun quyidagilarni yuboring: 20.02.2019 yoki 20.02.19",
+		"zh-CN": "无效的日期格式。例如，对于2019年2月20日，请提交：20.02.2019或20.02.19",
 	},
 	MESSAGE_TEXT_INVALID_PHONE_NUMBER: {
 		"de-DE": "Ungültige Telefonnummer. Versuche es erneut oder gehe ins Haupt /menu",
 		"en-UK": "Invalid phone number. Check and try it again? /menu",
+		"en-US": "Invalid phone number. Check and try it again? /menu",
 		"es-ES": "El número del teléfono no es correcto. ¿Comprobarlo y intentarlo de nuevo? /menú",
 		"fa-IR": "شماره تلفن غیر معتبر می باشد. آیا بررسی نموده، مجدداً سعی می کنید؟ /منو",
+		"fr-FR": "Numéro de téléphone invalide. Vérifiez et réessayez ? /menu",
+		"id-ID": "Nomor telepon tidak valid. Periksa dan coba lagi? /menu",
 		"it-IT": "Numero di telefono invalido. Controlla e riprova. /menu",
+		"ja-JP": "無効な電話番号です。確認して再試行しますか？ /menu",
+		"ko-KO": "잘못된 전화번호입니다. 확인하고 다시 시도하시겠습니까? /menu",
+		"pl-PL": "Nieprawidłowy numer telefonu. Sprawdź i spróbuj ponownie? /menu",
+		"pt-BR": "Número de telefone inválido. Verificar e tentar novamente? /menu",
 		"ru-RU": "Неверный номер. Проверить и попробовать ещё раз? /menu",
+		"tr-TR": "Geçersiz telefon numarası. Kontrol edip tekrar deneyin? /menu",
+		"ua-UA": "Недійсний номер телефону. Перевірити та спробувати ще раз? /menu",
+		"uz-UZ": "Yaroqsiz telefon raqami. Tekshirib ko'ring va qayta urinib ko'ring? /menu",
+		"zh-CN": "无效的电话号码。检查并重试？ /menu",
 	},
 	MESSAGE_TEXT_PHONE_NUMBER_IS_NOT_SMS_CAPABLE: {
 		"de-DE": "Diese Telefonnummer kann von uns keine SMS empfangen. Versuche eine andere oder gehe ins Haupt /menu",
 		"en-UK": "This phone number not able to receive SMS. Try another number? /menu",
+		"en-US": "This phone number not able to receive SMS. Try another number? /menu",
 		"es-ES": "Este número de teléfono no acepta SMS. ¿Intentar otro número? /menú",
 		"fa-IR": "این شماره تلفن قادر به دریافت پیام کوتاه نمی باشد. آیا شماره دیگری را امتحان میکنید؟ /منو",
+		"fr-FR": "Ce numéro de téléphone ne peut pas recevoir de SMS. Essayer un autre numéro ? /menu",
+		"id-ID": "Nomor telepon ini tidak dapat menerima SMS. Coba nomor lain? /menu",
 		"it-IT": "Questo numero di telefono non e' abilitato a ricevere SMS. Vuoi provare un altro numero? /menu",
+		"ja-JP": "この電話番号はSMSを受信できません。別の番号を試しますか？ /menu",
+		"ko-KO": "이 전화번호는 SMS를 수신할 수 없습니다. 다른 번호를 시도하시겠습니까? /menu",
+		"pl-PL": "Ten numer telefonu nie może odbierać SMS-ów. Spróbować innego numeru? /menu",
+		"pt-BR": "Este número de telefone não pode receber SMS. Tentar outro número? /menu",
 		"ru-RU": "Данный номер не принимает SMS. Попробовать другой номер? /menu",
+		"tr-TR": "Bu telefon numarası SMS alamıyor. Başka bir numara deneyin? /menu",
+		"ua-UA": "Цей номер телефону не може отримувати SMS. Спробувати інший номер? /menu",
+		"uz-UZ": "Bu telefon raqami SMS qabul qila olmaydi. Boshqa raqamni sinab ko'rasizmi? /menu",
+		"zh-CN": "此电话号码无法接收短信。尝试其他号码？ /menu",
 	},
 	MESSAGE_TEXT_NO_CONTACT_RECEIVED: {
 		"de-DE": "Wir haben keine Kontakte empfangen. Versuche es erneut oder gehe ins Haupt /menu",
 		"en-UK": "We have not received any contacts. INSTRUCTION HOW TO DO IT. /menu",
+		"en-US": "We have not received any contacts. INSTRUCTION HOW TO DO IT. /menu",
 		"es-ES": "No hemos recibido ningún contacto. LA INSTRUCCIÓN COMO HACERLO. /menú",
 		"fa-IR": "ما هیچ اطلاعات تماسی دریافت نکردیم. دستورالعمل چگونگی انجام این کار. /منو",
+		"fr-FR": "Nous n'avons reçu aucun contact. INSTRUCTION COMMENT LE FAIRE. /menu",
+		"id-ID": "Kami belum menerima kontak apa pun. INSTRUKSI CARA MELAKUKANNYA. /menu",
 		"it-IT": "Non abbiamo ricevuto nesusn contatto. ISTRUZIONI SU COME FARE. /menu",
+		"ja-JP": "連絡先を受信していません。操作方法の説明。 /menu",
+		"ko-KO": "연락처를 받지 못했습니다. 방법 설명. /menu",
+		"pl-PL": "Nie otrzymaliśmy żadnych kontaktów. INSTRUKCJA JAK TO ZROBIĆ. /menu",
+		"pt-BR": "Não recebemos nenhum contato. INSTRUÇÃO COMO FAZER. /menu",
 		"ru-RU": "Мы не получили контакта. Тут инструкция как это сделать. /menu",
+		"tr-TR": "Herhangi bir kişi almadık. NASIL YAPILACAĞI TALİMATI. /menu",
+		"ua-UA": "Ми не отримали жодних контактів. ІНСТРУКЦІЯ ЯК ЦЕ ЗРОБИТИ. /menu",
+		"uz-UZ": "Biz hech qanday kontakt olmadik. BUNI QANDAY QILISH BO'YICHA KO'RSATMA. /menu",
+		"zh-CN": "我们尚未收到任何联系人。操作指南。 /menu",
 	},
 	MESSAGE_TEXT_YOU_HAVE_NO_CONTACTS: {
 		"de-DE": "Du hast noch keine Kontakte hinzugefügt.",
 		"en-UK": "You have not created any contacts yet.",
+		"en-US": "You have not created any contacts yet.",
 		"es-ES": "Todavía no has creado ningún contacto.", //TODO:es - verify
 		"fa-IR": "هنوز هیچ مخاطبی را ایجاد نکرده اید",     //TODO:fa - verify
-		"it-IT": "Non hai ancora creato alcun contatto.",  //TODO:it - verify
+		"fr-FR": "Vous n'avez pas encore créé de contacts.",
+		"id-ID": "Anda belum membuat kontak apa pun.",
+		"it-IT": "Non hai ancora creato alcun contatto.", //TODO:it - verify
+		"ja-JP": "まだ連絡先を作成していません。",
+		"ko-KO": "아직 연락처를 만들지 않았습니다.",
+		"pl-PL": "Nie utworzyłeś jeszcze żadnych kontaktów.",
+		"pt-BR": "Você ainda não criou nenhum contato.",
 		"ru-RU": "Вы ещё не создали контактов",
+		"tr-TR": "Henüz hiç kişi oluşturmadınız.",
+		"ua-UA": "Ви ще не створили жодних контактів.",
+		"uz-UZ": "Siz hali hech qanday kontakt yaratmagansiz.",
+		"zh-CN": "您尚未创建任何联系人。",
 	},
 	MESSAGE_TEXT_CONTACT_NAME_IS_NUMBER: {
 		"de-DE": "Du kannst nicht nur Zahlen für einen Kontaktnamen eingeben. Bitte benutz ein paar Buchstaben - du kannst mir vertrauen.",
 		"en-UK": "You've entered just digits for a contact name. Please use some text characters.",
+		"en-US": "You've entered just digits for a contact name. Please use some text characters.",
 		"es-ES": "Has introducido solo números para el nombre del contacto. Por favor usa algunas letras.",
 		"fa-IR": "شما تنها اعداد را برای نام مخاطب وارد کرده اید. لطفا کاراکتر های متنی وارد کنید.",
+		"fr-FR": "Vous avez saisi uniquement des chiffres pour un nom de contact. Veuillez utiliser des caractères textuels.",
+		"id-ID": "Anda hanya memasukkan angka untuk nama kontak. Harap gunakan beberapa karakter teks.",
 		"it-IT": "Hai inserito solamente numeri per un nome contatto. Usa anche alcune lettere.",
+		"ja-JP": "連絡先名に数字のみを入力しました。テキスト文字を使用してください。",
+		"ko-KO": "연락처 이름에 숫자만 입력했습니다. 텍스트 문자를 사용해 주세요.",
+		"pl-PL": "Wprowadziłeś same cyfry jako nazwę kontaktu. Proszę użyć znaków tekstowych.",
+		"pt-BR": "Você digitou apenas dígitos para um nome de contato. Por favor, use alguns caracteres de texto.",
 		"ru-RU": "Вы ввели только цифры в качестве имени контакта. Пожалуйста используйте текстовые символы.",
+		"tr-TR": "Bir kişi adı için sadece rakamlar girdiniz. Lütfen bazı metin karakterleri kullanın.",
+		"ua-UA": "Ви ввели лише цифри для імені контакту. Будь ласка, використовуйте текстові символи.",
+		"uz-UZ": "Kontakt nomi uchun faqat raqamlarni kiritdingiz. Iltimos, ba'zi matn belgilaridan foydalaning.",
+		"zh-CN": "您只输入了数字作为联系人名称。请使用一些文本字符。",
 	},
 	MESSAGE_TEXT_CURRENCY_NAME_IS_NUMBER: {
 		"de-DE": "Bei der Währung erwarte ich eigentlich keine Zahlen. Nimm ein paar Buchstaben hinzu, um Verwirrung zu vermeiden.",
 		"en-UK": "You've entered just digits for currency. Please use some text characters.",
+		"en-US": "You've entered just digits for currency. Please use some text characters.",
 		"es-ES": "Has introducido solo números para la moneda. Por favor usa algunas letras.",
 		"fa-IR": "شما تنها اعداد را برای واحد پولی وارد کرده اید. لطفا کاراکترهای متنی وارد کنید.",
+		"fr-FR": "Vous avez saisi uniquement des chiffres pour la devise. Veuillez utiliser des caractères textuels.",
+		"id-ID": "Anda hanya memasukkan angka untuk mata uang. Harap gunakan beberapa karakter teks.",
 		"it-IT": "Hai inserito solamente numeri per la valuta. Usa anche alcune lettere.",
+		"ja-JP": "通貨に数字のみを入力しました。テキスト文字を使用してください。",
+		"ko-KO": "통화에 숫자만 입력했습니다. 텍스트 문자를 사용해 주세요.",
+		"pl-PL": "Wprowadziłeś same cyfry dla waluty. Proszę użyć znaków tekstowych.",
+		"pt-BR": "Você digitou apenas dígitos para moeda. Por favor, use alguns caracteres de texto.",
 		"ru-RU": "Вы ввели только цифры в качестве номинала. Пожалуйста используйте текстовые символы.",
+		"tr-TR": "Para birimi için sadece rakamlar girdiniz. Lütfen bazı metin karakterleri kullanın.",
+		"ua-UA": "Ви ввели лише цифри для валюти. Будь ласка, використовуйте текстові символи.",
+		"uz-UZ": "Valyuta uchun faqat raqamlarni kiritdingiz. Iltimos, ba'zi matn belgilaridan foydalaning.",
+		"zh-CN": "您只输入了数字作为货币。请使用一些文本字符。",
 	},
 	MESSAGE_TEXT_HISTORY_ROW_TO_USER_WITH_NAME: {
 		"de-DE": "%v - %s ⇒ dir: %s",
 		"en-UK": "%v - %s ⇒ to you: %s",
+		"en-US": "%v - %s ⇒ to you: %s",
 		"es-ES": "%v - %s ⇒ a ti: %s",
 		"fa-IR": "%v - %s ⇒ به شما: %s",
+		"fr-FR": "%v - %s ⇒ à vous: %s",
+		"id-ID": "%v - %s ⇒ kepada Anda: %s",
 		"it-IT": "%v - %s ⇒ a te: %s",
+		"ja-JP": "%v - %s ⇒ あなたへ: %s",
+		"ko-KO": "%v - %s ⇒ 당신에게: %s",
+		"pl-PL": "%v - %s ⇒ do Ciebie: %s",
+		"pt-BR": "%v - %s ⇒ para você: %s",
 		"ru-RU": "%v - %s ⇒ Вам : %s",
+		"tr-TR": "%v - %s ⇒ size: %s",
+		"ua-UA": "%v - %s ⇒ Вам: %s",
+		"uz-UZ": "%v - %s ⇒ sizga: %s",
+		"zh-CN": "%v - %s ⇒ 给您: %s",
 	},
 	MESSAGE_TEXT_HISTORY_ROW_FROM_USER_WITH_NAME: {
 		"de-DE": "%v - Du ⇒ %s : %s",
 		"en-UK": "%v - You ⇒ %s : %s",
+		"en-US": "%v - You ⇒ %s : %s",
 		"es-ES": "%v - Tú ⇒ %s : %s",
 		"fa-IR": "%v - شما ⇒ %s : %s",
+		"fr-FR": "%v - Vous ⇒ %s : %s",
+		"id-ID": "%v - Anda ⇒ %s : %s",
 		"it-IT": "%v - Tu ⇒ %s : %s",
+		"ja-JP": "%v - あなた ⇒ %s : %s",
+		"ko-KO": "%v - 당신 ⇒ %s : %s",
+		"pl-PL": "%v - Ty ⇒ %s : %s",
+		"pt-BR": "%v - Você ⇒ %s : %s",
 		"ru-RU": "%v - Вы ⇒ %s : %s",
+		"tr-TR": "%v - Siz ⇒ %s : %s",
+		"ua-UA": "%v - Ви ⇒ %s : %s",
+		"uz-UZ": "%v - Siz ⇒ %s : %s",
+		"zh-CN": "%v - 您 ⇒ %s : %s",
 	},
 	MESSAGE_TEXT_LETS_SEND_SMS: {
 		"de-DE": "Lass uns eine SMS senden",
 		"en-UK": "Let's send SMS",
+		"en-US": "Let's send SMS",
 		"es-ES": "Vamos a enviar un SMS",
 		"fa-IR": "پیام کوتاه ارسال کنید",
+		"fr-FR": "Envoyons un SMS",
+		"id-ID": "Mari kirim SMS",
 		"it-IT": "Inviamo un SMS",
+		"ja-JP": "SMSを送信しましょう",
+		"ko-KO": "SMS를 보내봅시다",
+		"pl-PL": "Wyślijmy SMS",
+		"pt-BR": "Vamos enviar SMS",
 		"ru-RU": "Давайте отправим SMS",
+		"tr-TR": "SMS gönderelim",
+		"ua-UA": "Давайте надішлемо SMS",
+		"uz-UZ": "SMS yuboraylik",
+		"zh-CN": "让我们发送短信",
 	},
 	MESSAGE_TEXT_SMS_QUEUING_FOR_SENDING: {
 		"de-DE": "Setze SMS in Sendewarteschlange für %v...",
 		"en-UK": "Queuing SMS for sending to number %v...",
+		"en-US": "Queuing SMS for sending to number %v...",
 		"es-ES": "El SMS se está poniendo en la cola para enviar al número %v...",
 		"fa-IR": "پیام کوتاه برای ارسال به شماره مقابل در حال قرارگیری در نوبت ارسال می باشد %v...",
+		"fr-FR": "Mise en file d'attente du SMS pour envoi au numéro %v...",
+		"id-ID": "Antrian SMS untuk dikirim ke nomor %v...",
 		"it-IT": "SMS in coda per l'invio al numero %v...",
+		"ja-JP": "番号 %v に送信するためのSMSをキューに入れています...",
+		"ko-KO": "번호 %v로 보내기 위해 SMS를 대기열에 넣는 중...",
+		"pl-PL": "Kolejkowanie SMS do wysłania na numer %v...",
+		"pt-BR": "Enfileirando SMS para envio ao número %v...",
 		"ru-RU": "SMS ставится в очередь на отправку на номер %v...",
+		"tr-TR": "%v numarasına gönderilmek üzere SMS sıraya alınıyor...",
+		"ua-UA": "Ставимо SMS у чергу для надсилання на номер %v...",
+		"uz-UZ": "%v raqamiga yuborish uchun SMS navbatga qo'yilmoqda...",
+		"zh-CN": "正在将短信排队发送到号码 %v...",
 	},
 	MESSAGE_TEXT_SMS_QUEUED_FOR_SENDING: {
 		"de-DE": "SMS in Sendewarteschlange für %v",
 		"en-UK": "SMS is queued for sending to number %v",
+		"en-US": "SMS is queued for sending to number %v",
 		"es-ES": "El SMS está en la cola para enviar al número %v",
 		"fa-IR": "پیام کوتاه برای شماره مقابل در نوبت ارسال قرار گرفت %v",
+		"fr-FR": "SMS mis en file d'attente pour envoi au numéro %v",
+		"id-ID": "SMS diantrekan untuk dikirim ke nomor %v",
 		"it-IT": "SMS inserito in coda per l'invio al numero %v",
+		"ja-JP": "SMSは番号 %v に送信するためにキューに入れられています",
+		"ko-KO": "SMS가 번호 %v로 보내기 위해 대기열에 있습니다",
+		"pl-PL": "SMS jest w kolejce do wysłania na numer %v",
+		"pt-BR": "SMS está na fila para envio ao número %v",
 		"ru-RU": "SMS поставлена в очередь на отправку на номер %v",
+		"tr-TR": "SMS, %v numarasına gönderilmek üzere sıraya alındı",
+		"ua-UA": "SMS поставлено в чергу для надсилання на номер %v",
+		"uz-UZ": "SMS %v raqamiga yuborish uchun navbatga qo'yildi",
+		"zh-CN": "短信已排队发送到号码 %v",
 	},
 	MESSAGE_TEXT_BALANCE_HEADER: {
 		"de-DE": "Ausstehend",
 		"en-UK": "Balance",
+		"en-US": "Balance",
 		"es-ES": "Balance",
 		"fa-IR": "تراز",
+		"fr-FR": "Solde",
+		"id-ID": "Saldo",
 		"it-IT": "Bilancio",
+		"ja-JP": "残高",
+		"ko-KO": "잔액",
+		"pl-PL": "Saldo",
+		"pt-BR": "Saldo",
 		"ru-RU": "Баланс",
+		"tr-TR": "Bakiye",
+		"ua-UA": "Баланс",
+		"uz-UZ": "Balans",
+		"zh-CN": "余额",
 	},
 	MESSAGE_TEXT_RECEIPT_AVAILABLE_CHANNELS: {
 		"de-DE": "Entschuldigung, im Moment funktionieren nur ein paar Kanäle für den Versand von Quittungen:",
 		"en-UK": "Sorry, at the moment just this channels are available for sending a receipt:",
+		"en-US": "Sorry, at the moment just these channels are available for sending a receipt:",
 		"es-ES": "Disculpa, de momento solo estos canales están disponibles para enviar el recibo:",
 		"fa-IR": "متاسفانه، در حال حاضر تنها این کانالها برای ارسال رسید در دسترس می باشند.",
+		"fr-FR": "Désolé, pour le moment seuls ces canaux sont disponibles pour l'envoi d'un reçu :",
+		"id-ID": "Maaf, saat ini hanya saluran ini yang tersedia untuk mengirim tanda terima:",
 		"it-IT": "Spiacenti ma al momento solo questi canali sono disponibili per inviare debiti/crediti:",
+		"ja-JP": "申し訳ありませんが、現時点では領収書の送信に利用できるのはこれらのチャンネルのみです：",
+		"ko-KO": "죄송합니다. 현재 영수증 발송에 사용할 수 있는 채널은 다음과 같습니다:",
+		"pl-PL": "Przepraszamy, w tej chwili tylko te kanały są dostępne do wysyłania paragonu:",
+		"pt-BR": "Desculpe, no momento apenas estes canais estão disponíveis para enviar um recibo:",
 		"ru-RU": "Извините, в данный момент доступны только эти каналы для отправки квитанции:",
+		"tr-TR": "Üzgünüz, şu anda makbuz göndermek için yalnızca bu kanallar kullanılabilir:",
+		"ua-UA": "Вибачте, на даний момент для надсилання квитанції доступні лише ці канали:",
+		"uz-UZ": "Kechirasiz, hozirda kvitansiya yuborish uchun faqat ushbu kanallar mavjud:",
+		"zh-CN": "抱歉，目前只有这些渠道可用于发送收据：",
 	},
 	MESSAGE_TEXT_RECEIPT_SENT_THROW_TELEGRAM: {
 		"de-DE": "📤 Quittung per Telegram verschickt.",
 		"en-UK": "📤 Receipt sent through Telegram.",
+		"en-US": "📤 Receipt sent through Telegram.",
 		"es-ES": "📤 El recibo ha sido enviado vía Telegram.",
 		"fa-IR": "📤 رسید از طریق تلگرام ارسال شد.",
+		"fr-FR": "📤 Reçu envoyé via Telegram.",
+		"id-ID": "📤 Tanda terima dikirim melalui Telegram.",
 		"it-IT": "📤 Notifica inviata tramite Telegram.",
+		"ja-JP": "📤 Telegramを通じて領収書が送信されました。",
+		"ko-KO": "📤 텔레그램을 통해 영수증이 전송되었습니다.",
+		"pl-PL": "📤 Paragon wysłany przez Telegram.",
+		"pt-BR": "📤 Recibo enviado pelo Telegram.",
 		"ru-RU": "📤 Квитанция отправлена через телеграм.",
+		"tr-TR": "📤 Makbuz Telegram üzerinden gönderildi.",
+		"ua-UA": "📤 Квитанцію надіслано через Telegram.",
+		"uz-UZ": "📤 Kvitansiya Telegram orqali yuborildi.",
+		"zh-CN": "📤 收据已通过Telegram发送。",
 	},
 	MESSAGE_TEXT_RECEIPT_NOT_SENT_AS_COUNTERPARTY_HAS_DISABLED_TG_BOT: {
 		"de-DE": "Quittung konnte nicht per Telegram gesendet werden, da %v den Chat mit dem Bot gelöscht hat.",
 		"en-UK": "Receipt NOT sent through Telegram as %v has deleted chat with the bot.",
+		"en-US": "Receipt NOT sent through Telegram as %v has deleted chat with the bot.",
 		"es-ES": "El recibo NO ha sido enviado vía Telegram porque %v ha eliminado el chat del bot.",
 		"fa-IR": "از آنجایی که %v چت انجام شده با روبات را حذف کرده است رسید از طریق تلگرام ارسال نشد.",
+		"fr-FR": "Reçu NON envoyé via Telegram car %v a supprimé le chat avec le bot.",
+		"id-ID": "Tanda terima TIDAK dikirim melalui Telegram karena %v telah menghapus obrolan dengan bot.",
 		"it-IT": "Notifica NON inviata tramite Telegram a %v perche' ha cancellato la chat con il bot",
+		"ja-JP": "%v がボットとのチャットを削除したため、Telegramを通じて領収書が送信されませんでした。",
+		"ko-KO": "%v가 봇과의 채팅을 삭제했기 때문에 텔레그램을 통해 영수증이 전송되지 않았습니다.",
+		"pl-PL": "Paragon NIE został wysłany przez Telegram, ponieważ %v usunął czat z botem.",
+		"pt-BR": "Recibo NÃO enviado pelo Telegram, pois %v excluiu o chat com o bot.",
 		"ru-RU": "Квитанция НЕ отправлена через телеграм так как %v удалил чат с ботом.",
+		"tr-TR": "%v botla sohbeti sildiği için makbuz Telegram üzerinden GÖNDERİLMEDİ.",
+		"ua-UA": "Квитанцію НЕ надіслано через Telegram, оскільки %v видалив чат з ботом.",
+		"uz-UZ": "%v bot bilan suhbatni o'chirganligi sababli kvitansiya Telegram orqali YUBORILMADI.",
+		"zh-CN": "由于 %v 已删除与机器人的聊天，收据未通过Telegram发送。",
 	},
 	MESSAGE_TEXT_RECEIPT_SENT_THROW_EMAIL: {
 		"de-DE": "Quittung wurde per Mail gesendet. (id: %v)",
 		"en-UK": "Receipt sent through email. (id: %v)",
+		"en-US": "Receipt sent through email. (id: %v)",
 		"es-ES": "El recibo ha sido enviado vía e-mail. (id: %v)",
 		"fa-IR": "رسید از طریق ایمیل ارسال شد. (id: %v)",
+		"fr-FR": "Reçu envoyé par e-mail. (id: %v)",
+		"id-ID": "Tanda terima dikirim melalui email. (id: %v)",
 		"it-IT": "Notifica inviata tramite email (id: %v)",
+		"ja-JP": "領収書がメールで送信されました。(id: %v)",
+		"ko-KO": "이메일을 통해 영수증이 전송되었습니다. (id: %v)",
+		"pl-PL": "Paragon wysłany przez e-mail. (id: %v)",
+		"pt-BR": "Recibo enviado por e-mail. (id: %v)",
 		"ru-RU": "Квитанция отправлена через email. (id: %v)",
+		"tr-TR": "Makbuz e-posta yoluyla gönderildi. (id: %v)",
+		"ua-UA": "Квитанцію надіслано електронною поштою. (id: %v)",
+		"uz-UZ": "Kvitansiya elektron pochta orqali yuborildi. (id: %v)",
+		"zh-CN": "收据已通过电子邮件发送。(id: %v)",
 	},
 	MESSAGE_TEXT_RECEIPT_SENT_THROW_SMS: {
 		"de-DE": "Quittung wurde per SMS gesendet.",
 		"en-UK": "Receipt sent through SMS",
+		"en-US": "Receipt sent through SMS",
 		"es-ES": "El recibo ha sido enviado vía SMS.",
 		"fa-IR": "رسید از طریق پیام کوتاه ارسال شد.",
+		"fr-FR": "Reçu envoyé par SMS",
+		"id-ID": "Tanda terima dikirim melalui SMS",
 		"it-IT": "Notifica inviata tramite SMS",
+		"ja-JP": "領収書がSMSで送信されました",
+		"ko-KO": "SMS를 통해 영수증이 전송되었습니다",
+		"pl-PL": "Paragon wysłany przez SMS",
+		"pt-BR": "Recibo enviado por SMS",
 		"ru-RU": "Квитанция отправлена через SMS.",
+		"tr-TR": "Makbuz SMS yoluyla gönderildi",
+		"ua-UA": "Квитанцію надіслано через SMS",
+		"uz-UZ": "Kvitansiya SMS orqali yuborildi",
+		"zh-CN": "收据已通过短信发送",
 	},
 	MESSAGE_TEXT_SWITCH_TO_PM_TO_VIEW_RECEIPT: {
 		"de-DE": "Schalte in den Privatmodus, um die Quittungsdetails zu sehen",
 		"en-UK": "Switch to private mode to see receipt details.",
+		"en-US": "Switch to private mode to see receipt details.",
 		"es-ES": "Pasar al modo privado para ver el recibo.",
 		"fa-IR": "انتقال به حالت خصوصی جهت رویت جزئیات رسید.",
+		"fr-FR": "Passez en mode privé pour voir les détails du reçu.",
+		"id-ID": "Beralih ke mode pribadi untuk melihat detail tanda terima.",
 		"it-IT": "Passa alla modalita' privata per vedere i dettagli dei tuoi crediti/debiti.",
+		"ja-JP": "領収書の詳細を確認するには、プライベートモードに切り替えてください。",
+		"ko-KO": "영수증 세부 정보를 보려면 개인 모드로 전환하세요.",
+		"pl-PL": "Przełącz na tryb prywatny, aby zobaczyć szczegóły paragonu.",
+		"pt-BR": "Mude para o modo privado para ver os detalhes do recibo.",
 		"ru-RU": "Переключитьсь на чат с ботом чтобы посмотреть квитанцию",
+		"tr-TR": "Makbuz ayrıntılarını görmek için özel moda geçin.",
+		"ua-UA": "Перейдіть у приватний режим, щоб побачити деталі квитанції.",
+		"uz-UZ": "Kvitansiya tafsilotlarini ko'rish uchun shaxsiy rejimga o'ting.",
+		"zh-CN": "切换到私人模式以查看收据详情。",
 	},
 	MESSAGE_TEXT_RECEIPT_ATTEMPT_TO_VIEW_OWN: {
 		"en-UK": "An attempt to view own receipt.",
