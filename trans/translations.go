@@ -2744,117 +2744,117 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	},
 	MESSAGE_TEXT_TRANSFER_DECLINED_BY_COUNTERPARTY: {
 		"de-DE": "%v hat deine Anfrage <b>abgelehnt</b>. Wenn die Sache besprochen ist, kann die Anfrage erneut gesendet werden.",
-		"en-UK": "%v did not agree with your transaction. The transaction is not canceled but you may want to discuss it.", //TODO(FA)
-		"en-US": "%v did not agree with your transaction. The transaction is not canceled but you may want to discuss it.", //TODO(US)
-		"es-ES": "%v ha confirmado tu transacción.  La transacción no ha sido cancelada, igual mejor comentarlo.",          //TODO(ES)
-		"fa-IR": "تراکنش شما را رد کرد  %v declined your transaction.",
-		"fr-FR": "%v did not agree with your transaction. The transaction is not canceled but you may want to discuss it.", //TODO(FR)
-		"id-ID": "%v did not agree with your transaction. The transaction is not canceled but you may want to discuss it.", //TODO(ID)
-		"it-IT": "%v ha rifiutato il tuo credito/debito.  The transaction is not canceled but you may want to discuss it.", //TODO(IT)
-		"ja-JP": "%v did not agree with your transaction. The transaction is not canceled but you may want to discuss it.", //TODO(JP)
-		"ko-KO": "%v did not agree with your transaction. The transaction is not canceled but you may want to discuss it.", //TODO(KO)
-		"pl-PL": "%v did not agree with your transaction. The transaction is not canceled but you may want to discuss it.", //TODO(PL)
-		"pt-BR": "%v did not agree with your transaction. The transaction is not canceled but you may want to discuss it.", //TODO(BR)
+		"en-UK": "%v did not agree with your transaction. The transaction is not canceled but you may want to discuss it.",
+		"en-US": "%v did not agree with your transaction. The transaction is not canceled but you may want to discuss it.",
+		"es-ES": "%v no está de acuerdo con tu transacción. La transacción no ha sido cancelada, pero quizás deberías discutirlo.",
+		"fa-IR": "%v با تراکنش شما موافقت نکرد. تراکنش لغو نشده است اما ممکن است بخواهید در مورد آن صحبت کنید.",
+		"fr-FR": "%v n'est pas d'accord avec votre transaction. La transaction n'est pas annulée mais vous voudrez peut-être en discuter.",
+		"id-ID": "%v tidak setuju dengan transaksi Anda. Transaksi tidak dibatalkan tetapi Anda mungkin ingin mendiskusikannya.",
+		"it-IT": "%v non è d'accordo con la tua transazione. La transazione non è annullata ma potresti voler discuterne.",
+		"ja-JP": "%vはあなたの取引に同意しませんでした。取引はキャンセルされていませんが、話し合いたいかもしれません。",
+		"ko-KO": "%v님이 귀하의 거래에 동의하지 않았습니다. 거래는 취소되지 않았지만 논의하고 싶을 수 있습니다.",
+		"pl-PL": "%v nie zgadza się z twoją transakcją. Transakcja nie jest anulowana, ale możesz chcieć to omówić.",
+		"pt-BR": "%v não concordou com sua transação. A transação não foi cancelada, mas você pode querer discutir isso.",
 		"ru-RU": "%v <b>НЕ</b> подтвердил(a) вашу транзакцию. Транзакция не отменена, но возможно вам стоит это обсудить.",
-		"tr-TR": "%v did not agree with your transaction. The transaction is not canceled but you may want to discuss it.", //TODO(TR)
-		"ua-UA": "%v did not agree with your transaction. The transaction is not canceled but you may want to discuss it.", //TODO(UA)
-		"uz-UZ": "%v did not agree with your transaction. The transaction is not canceled but you may want to discuss it.", //TODO(UZ)
-		"zh-CN": "%v did not agree with your transaction. The transaction is not canceled but you may want to discuss it.", //TODO(CN)
+		"tr-TR": "%v işleminizle aynı fikirde değil. İşlem iptal edilmedi ancak bunu tartışmak isteyebilirsiniz.",
+		"ua-UA": "%v не погодився з вашою транзакцією. Транзакція не скасована, але, можливо, ви захочете це обговорити.",
+		"uz-UZ": "%v sizning tranzaksiyangizga rozi bo'lmadi. Tranzaksiya bekor qilinmadi, lekin siz bu haqda muhokama qilishni xohlashingiz mumkin.",
+		"zh-CN": "%v不同意您的交易。交易未取消，但您可能想讨论一下。",
 	},
 	COMMAND_TEXT_SUBSCRIBE_TO_APP: {
 		"de-DE": "Ich will die App!",
 		"en-UK": "I want the app!",
-		"en-US": "I want the app!", //TODO(US)
+		"en-US": "I want the app!",
 		"es-ES": "¡Quiero la aplicación!",
 		"fa-IR": "!من برنامه را می خواهم",
-		"fr-FR": "I want the app!", //TODO(FR)
-		"id-ID": "I want the app!", //TODO(ID)
+		"fr-FR": "Je veux l'application !",
+		"id-ID": "Saya ingin aplikasinya!",
 		"it-IT": "Voglio l'aplicazione!",
-		"ja-JP": "I want the app!", //TODO(JP)
-		"ko-KO": "I want the app!", //TODO(KO)
-		"pl-PL": "I want the app!", //TODO(PL)
-		"pt-BR": "I want the app!", //TODO(BR)
+		"ja-JP": "アプリが欲しいです！",
+		"ko-KO": "앱이 필요합니다!",
+		"pl-PL": "Chcę aplikację!",
+		"pt-BR": "Eu quero o aplicativo!",
 		"ru-RU": "Хочу приложение!",
-		"tr-TR": "I want the app!", //TODO(TR)
-		"ua-UA": "I want the app!", //TODO(UA)
-		"uz-UZ": "I want the app!", //TODO(UZ)
-		"zh-CN": "I want the app!", //TODO(CN)
+		"tr-TR": "Uygulamayı istiyorum!",
+		"ua-UA": "Я хочу додаток!",
+		"uz-UZ": "Men ilovani xohlayman!",
+		"zh-CN": "我想要应用程序！",
 	},
 	COMMAND_TEXT_I_AM_FINE_WITH_BOT: {
 		"de-DE": "Mir reicht der Bot!",
 		"en-UK": "I'm fine with just the bot!",
-		"en-US": "I'm fine with just the bot!", //TODO(US)
+		"en-US": "I'm fine with just the bot!",
 		"es-ES": "¡Estoy satisfecho con este bot!",
 		"fa-IR": "! ربات به تنهایی برای من کافی است",
-		"fr-FR": "I'm fine with just the bot!", //TODO(FR)
-		"id-ID": "I'm fine with just the bot!", //TODO(ID)
+		"fr-FR": "Le bot me suffit !",
+		"id-ID": "Saya cukup dengan bot saja!",
 		"it-IT": "Mi accontento del bot per ora!",
-		"ja-JP": "I'm fine with just the bot!", //TODO(JP)
-		"ko-KO": "I'm fine with just the bot!", //TODO(KO)
-		"pl-PL": "I'm fine with just the bot!", //TODO(PL)
-		"pt-BR": "I'm fine with just the bot!", //TODO(BR)
+		"ja-JP": "ボットだけで大丈夫です！",
+		"ko-KO": "봇만으로도 괜찮습니다!",
+		"pl-PL": "Wystarczy mi sam bot!",
+		"pt-BR": "Estou bem apenas com o bot!",
 		"ru-RU": "Меня вполне устраивает бот!",
-		"tr-TR": "I'm fine with just the bot!", //TODO(TR)
-		"ua-UA": "I'm fine with just the bot!", //TODO(UA)
-		"uz-UZ": "I'm fine with just the bot!", //TODO(UZ)
-		"zh-CN": "I'm fine with just the bot!", //TODO(CN)
+		"tr-TR": "Sadece bot ile iyiyim!",
+		"ua-UA": "Мені достатньо лише бота!",
+		"uz-UZ": "Men faqat bot bilan yaxshiman!",
+		"zh-CN": "我对只使用机器人很满意！",
 	},
 	MESSAGE_TEXT_SUBSCRIBED_TO_APP: {
 		"de-DE": "Du wirst darüber informiert, wenn die App zum Download zur Verfügung steht.",
 		"en-UK": "We'll let you know once the app is available for download.",
-		"en-US": "We'll let you know once the app is available for download.", //TODO(US)
+		"en-US": "We'll let you know once the app is available for download.",
 		"es-ES": "Te avisamos cuando la aplicación esté disponible para descargarla",
 		"fa-IR": ".وقتی برنامه برای دانلود دردسترس بود به شما اطلاع می دهیم",
-		"fr-FR": "We'll let you know once the app is available for download.", //TODO(FR)
-		"id-ID": "We'll let you know once the app is available for download.", //TODO(ID)
+		"fr-FR": "Nous vous informerons dès que l'application sera disponible au téléchargement.",
+		"id-ID": "Kami akan memberi tahu Anda setelah aplikasi tersedia untuk diunduh.",
 		"it-IT": "Ti faremo sapere non appena l'applicazione sara' disponibile al download.",
-		"ja-JP": "We'll let you know once the app is available for download.", //TODO(JP)
-		"ko-KO": "We'll let you know once the app is available for download.", //TODO(KO)
-		"pl-PL": "We'll let you know once the app is available for download.", //TODO(PL)
-		"pt-BR": "We'll let you know once the app is available for download.", //TODO(BR)
+		"ja-JP": "アプリがダウンロード可能になり次第お知らせします。",
+		"ko-KO": "앱이 다운로드 가능해지면 알려드리겠습니다.",
+		"pl-PL": "Poinformujemy Cię, gdy aplikacja będzie dostępna do pobrania.",
+		"pt-BR": "Avisaremos você assim que o aplicativo estiver disponível para download.",
 		"ru-RU": "Мы сообщим вам когда приложение будет доступно для загруки.",
-		"tr-TR": "We'll let you know once the app is available for download.", //TODO(TR)
-		"ua-UA": "We'll let you know once the app is available for download.", //TODO(UA)
-		"uz-UZ": "We'll let you know once the app is available for download.", //TODO(UZ)
-		"zh-CN": "We'll let you know once the app is available for download.", //TODO(CN)
+		"tr-TR": "Uygulama indirilebilir olduğunda size haber vereceğiz.",
+		"ua-UA": "Ми повідомимо вас, коли додаток буде доступний для завантаження.",
+		"uz-UZ": "Ilova yuklab olish uchun mavjud bo'lganda sizga xabar beramiz.",
+		"zh-CN": "一旦应用程序可供下载，我们会通知您。",
 	},
 	MESSAGE_TEXT_NOT_INTERESTED_IN_APP: {
 		"de-DE": "Gut, wir sind froh, dass dir der Bot reicht und wir uns mit der App nicht beeilen müssen.",
 		"en-UK": "Well, we are happy our bot is good enough and there is no need to download an app.",
-		"en-US": "Well, we are happy our bot is good enough and there is no need to download an app.", //TODO(US)
+		"en-US": "Well, we are happy our bot is good enough and there is no need to download an app.",
 		"es-ES": "Bueno, estamos contentos de que te haya gustado nuestro bot y no hace falta descargar ninguna otra aplicación",
 		"fa-IR": ".خب، ما خوشحال هستیم که ربات برای شما کافی است و نیازی به دانلود برنامه نیست",
-		"fr-FR": "Well, we are happy our bot is good enough and there is no need to download an app.", //TODO(FR)
-		"id-ID": "Well, we are happy our bot is good enough and there is no need to download an app.", //TODO(ID)
+		"fr-FR": "Eh bien, nous sommes heureux que notre bot soit suffisant et qu'il n'y ait pas besoin de télécharger une application.",
+		"id-ID": "Baiklah, kami senang bot kami cukup baik dan tidak perlu mengunduh aplikasi.",
 		"it-IT": "Bene, siamo contenti che il nostro bot sia di tuo gradimento e non hai bisogno di scaricare l'applicazione.",
-		"ja-JP": "Well, we are happy our bot is good enough and there is no need to download an app.", //TODO(JP)
-		"ko-KO": "Well, we are happy our bot is good enough and there is no need to download an app.", //TODO(KO)
-		"pl-PL": "Well, we are happy our bot is good enough and there is no need to download an app.", //TODO(PL)
-		"pt-BR": "Well, we are happy our bot is good enough and there is no need to download an app.", //TODO(BR)
+		"ja-JP": "私たちのボットで十分であり、アプリをダウンロードする必要がないことを嬉しく思います。",
+		"ko-KO": "네, 저희 봇이 충분히 좋아서 앱을 다운로드할 필요가 없다니 기쁩니다.",
+		"pl-PL": "Cóż, cieszymy się, że nasz bot jest wystarczająco dobry i nie ma potrzeby pobierania aplikacji.",
+		"pt-BR": "Bem, estamos felizes que nosso bot seja bom o suficiente e não há necessidade de baixar um aplicativo.",
 		"ru-RU": "Что ж, мы рады что вас устраивает наш бот и нет необходимости загружать приложение.",
-		"tr-TR": "Well, we are happy our bot is good enough and there is no need to download an app.", //TODO(TR)
-		"ua-UA": "Well, we are happy our bot is good enough and there is no need to download an app.", //TODO(UA)
-		"uz-UZ": "Well, we are happy our bot is good enough and there is no need to download an app.", //TODO(UZ)
-		"zh-CN": "Well, we are happy our bot is good enough and there is no need to download an app.", //TODO(CN)
+		"tr-TR": "Peki, botumuzun yeterince iyi olduğuna ve bir uygulama indirmeye gerek olmadığına sevindik.",
+		"ua-UA": "Що ж, ми раді, що наш бот достатньо хороший і немає потреби завантажувати додаток.",
+		"uz-UZ": "Yaxshi, botimiz yetarlicha yaxshi ekanligi va ilovani yuklab olish kerak emasligi bizni xursand qiladi.",
+		"zh-CN": "好的，我们很高兴我们的机器人已经足够好，不需要下载应用程序。",
 	},
 	MESSAGE_TEXT_YOUR_AD_COULD_BE_HERE: {
 		"de-DE": "Hier könnte <a href>ihre Werbung</a> stehen",
 		"en-UK": "You can <a href>advertise here</a>",
-		"en-US": "You can <a href>advertise here</a>", //TODO(US)
+		"en-US": "You can <a href>advertise here</a>",
 		"es-ES": "Aquí se puede <a href>publicar un anuncio</a>",
 		"fa-IR": "شما میتوانید <a href>در اینجا تبلیغ کنید</a>",
-		"fr-FR": "You can <a href>advertise here</a>", //TODO(FR)
-		"id-ID": "You can <a href>advertise here</a>", //TODO(ID)
+		"fr-FR": "Vous pouvez <a href>faire de la publicité ici</a>",
+		"id-ID": "Anda dapat <a href>beriklan di sini</a>",
 		"it-IT": "Puoi <a href>pubblicizzare qui</a>",
-		"ja-JP": "You can <a href>advertise here</a>", //TODO(JP)
-		"ko-KO": "You can <a href>advertise here</a>", //TODO(KO)
-		"pl-PL": "You can <a href>advertise here</a>", //TODO(PL)
-		"pt-BR": "You can <a href>advertise here</a>", //TODO(BR)
+		"ja-JP": "ここに<a href>広告を掲載</a>できます",
+		"ko-KO": "여기에 <a href>광고할 수 있습니다</a>",
+		"pl-PL": "Możesz <a href>reklamować się tutaj</a>",
+		"pt-BR": "Você pode <a href>anunciar aqui</a>",
 		"ru-RU": "Здесь можно <a href>разместить рекламу</a>",
-		"tr-TR": "You can <a href>advertise here</a>", //TODO(TR)
-		"ua-UA": "You can <a href>advertise here</a>", //TODO(UA)
-		"uz-UZ": "You can <a href>advertise here</a>", //TODO(UZ)
-		"zh-CN": "You can <a href>advertise here</a>", //TODO(CN)
+		"tr-TR": "Burada <a href>reklam verebilirsiniz</a>",
+		"ua-UA": "Ви можете <a href>розмістити рекламу тут</a>",
+		"uz-UZ": "Siz bu yerda <a href>reklama bera olasiz</a>",
+		"zh-CN": "您可以在这里<a href>做广告</a>",
 	},
 	MESSAGE_TEXT_YOUR_ABOUT_ADS: {
 		"de-DE": `🤖: Ich hin ein guter Roboter - klar. Aber manchmal kommt es besser eine eigene App für etwas zu haben. Es ist noch nicht ganz fertig, aber falls du schonmal reinschauen willst: <a href="https://debtstracker.io/de/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/en/</a>
@@ -5610,18 +5610,18 @@ O usa il menu' qui sotto.`,
 		"en-US": "Failed to delete user: %v",
 		"es-ES": "Error durante la cancelación del usuario: %v",
 		"fa-IR": "حذف کاربر ناموفق بود: %v",
-		"fr-FR": "",
-		"id-ID": "",
+		"fr-FR": "Échec de la suppression de l'utilisateur: %v",
+		"id-ID": "Gagal menghapus pengguna: %v",
 		"it-IT": "Errore durante la cancellazione dell'utente: %v",
-		"ja-JP": "",
-		"ko-KO": "",
-		"pl-PL": "",
-		"pt-BR": "",
+		"ja-JP": "ユーザーの削除に失敗しました: %v",
+		"ko-KO": "사용자 삭제 실패: %v",
+		"pl-PL": "Nie udało się usunąć użytkownika: %v",
+		"pt-BR": "Falha ao excluir usuário: %v",
 		"ru-RU": "Не удалось удалить данные пользователя: %v",
-		"tr-TR": "",
-		"ua-UA": "",
-		"uz-UZ": "",
-		"zh-CN": "",
+		"tr-TR": "Kullanıcı silinemedi: %v",
+		"ua-UA": "Не вдалося видалити користувача: %v",
+		"uz-UZ": "Foydalanuvchini o'chirib bo'lmadi: %v",
+		"zh-CN": "删除用户失败: %v",
 	},
 	MESSAGE_TEXT_USER_DELETED: {
 		"de-DE": "Die Benutzerdaten wurden gelöscht.",
@@ -5629,18 +5629,18 @@ O usa il menu' qui sotto.`,
 		"en-US": "User's data has been deleted",
 		"es-ES": "Los datos del usuario han sido eliminados",
 		"fa-IR": "اطلاعات کاربر حذف شد.",
-		"fr-FR": "",
-		"id-ID": "",
+		"fr-FR": "Les données de l'utilisateur ont été supprimées",
+		"id-ID": "Data pengguna telah dihapus",
 		"it-IT": "I dati dell'utente sono stati cancellati",
-		"ja-JP": "",
-		"ko-KO": "",
-		"pl-PL": "",
-		"pt-BR": "",
+		"ja-JP": "ユーザーのデータが削除されました",
+		"ko-KO": "사용자 데이터가 삭제되었습니다",
+		"pl-PL": "Dane użytkownika zostały usunięte",
+		"pt-BR": "Os dados do usuário foram excluídos",
 		"ru-RU": "Данные пользователя удалены",
-		"tr-TR": "",
-		"ua-UA": "",
-		"uz-UZ": "",
-		"zh-CN": "",
+		"tr-TR": "Kullanıcı verileri silindi",
+		"ua-UA": "Дані користувача видалено",
+		"uz-UZ": "Foydalanuvchi ma'lumotlari o'chirildi",
+		"zh-CN": "用户数据已被删除",
 	},
 	MESSAGE_TEXT_RETURN_ASK_TO_CHOOSE_COUNTERPARTY: {
 		"de-DE": "Bitte wähle, wer die Schuld beglichen hat oder wem du sie zurückgezahlt hast.",
@@ -5648,18 +5648,18 @@ O usa il menu' qui sotto.`,
 		"en-US": "Please choose who returned the debt or to who you returned it.",
 		"es-ES": "Por favor, elige quien ha devuelto o a quien ha sido devuelta la deuda ",
 		"fa-IR": "لطفاً انتخاب کنید چه کسی بدهی اش را به شما پرداخت کرده یا شما بدهیتان را به چه کسی بازپرداخت نموده اید.",
-		"fr-FR": "",
-		"id-ID": "",
+		"fr-FR": "Veuillez choisir qui a remboursé la dette ou à qui vous l'avez remboursée.",
+		"id-ID": "Silakan pilih siapa yang mengembalikan hutang atau kepada siapa Anda mengembalikannya.",
 		"it-IT": "Scegli con chi hai sanato un credito o un debito.",
-		"ja-JP": "",
-		"ko-KO": "",
-		"pl-PL": "",
-		"pt-BR": "",
+		"ja-JP": "誰が借金を返済したか、または誰に返済したかを選択してください。",
+		"ko-KO": "누가 부채를 반환했는지 또는 누구에게 반환했는지 선택하십시오.",
+		"pl-PL": "Wybierz, kto zwrócił dług lub komu go zwróciłeś.",
+		"pt-BR": "Por favor, escolha quem devolveu a dívida ou para quem você a devolveu.",
 		"ru-RU": "Выберете кому вы вернули долг или кто вернул его вам.",
-		"tr-TR": "",
-		"ua-UA": "",
-		"uz-UZ": "",
-		"zh-CN": "",
+		"tr-TR": "Lütfen borcu kimin iade ettiğini veya kime iade ettiğinizi seçin.",
+		"ua-UA": "Будь ласка, виберіть, хто повернув борг або кому ви його повернули.",
+		"uz-UZ": "Iltimos, qarzni kim qaytarganini yoki siz kimga qaytarganingizni tanlang.",
+		"zh-CN": "请选择谁归还了债务或您归还给了谁。",
 	},
 	MESSAGE_TEXT_CHOOSE_DEBT_THAT_HAS_BEEN_RETURNED: {
 		"de-DE": "Bitte wähle, ob die Schuld vollständig oder teilweise beglichen wurde.",
@@ -5667,37 +5667,37 @@ O usa il menu' qui sotto.`,
 		"en-US": "Please choose a debt that has been returned fully or partially.",
 		"es-ES": "Por favor, elige una deuda que ha sido devuelta total o parcialmente. ",
 		"fa-IR": "لطفاً انتخاب کنید تمام یا بخشی از کدام بدهی پرداخت شده است.",
-		"fr-FR": "",
-		"id-ID": "",
+		"fr-FR": "Veuillez choisir une dette qui a été remboursée entièrement ou partiellement.",
+		"id-ID": "Silakan pilih hutang yang telah dikembalikan sepenuhnya atau sebagian.",
 		"it-IT": "Scegli un debito che e' stato restituito completamente o parzialmente.",
-		"ja-JP": "",
-		"ko-KO": "",
-		"pl-PL": "",
-		"pt-BR": "",
+		"ja-JP": "完全に、または部分的に返済された借金を選択してください。",
+		"ko-KO": "전액 또는 부분적으로 반환된 부채를 선택하십시오.",
+		"pl-PL": "Wybierz dług, który został zwrócony w całości lub częściowo.",
+		"pt-BR": "Por favor, escolha uma dívida que foi devolvida total ou parcialmente.",
 		"ru-RU": "Выберите долг который был возвращён целиком или частично.",
-		"tr-TR": "",
-		"ua-UA": "",
-		"uz-UZ": "",
-		"zh-CN": "",
+		"tr-TR": "Lütfen tamamen veya kısmen iade edilmiş bir borç seçin.",
+		"ua-UA": "Будь ласка, виберіть борг, який було повернуто повністю або частково.",
+		"uz-UZ": "Iltimos, to'liq yoki qisman qaytarilgan qarzni tanlang.",
+		"zh-CN": "请选择已全部或部分归还的债务。",
 	},
 	MESSAGE_TEXT_NO_DEBTS_TO_RETURN: {
-		"de-DE": "You have no records for debts that can be returned.",
-		"en-UK": "",
-		"en-US": "",
-		"es-ES": "",
-		"fa-IR": "",
-		"fr-FR": "",
-		"id-ID": "",
-		"it-IT": "",
-		"ja-JP": "",
-		"ko-KO": "",
-		"pl-PL": "",
-		"pt-BR": "",
+		"de-DE": "Du hast keine Aufzeichnungen über Schulden, die zurückgegeben werden können.",
+		"en-UK": "You have no records for debts that can be returned.",
+		"en-US": "You have no records for debts that can be returned.",
+		"es-ES": "No tienes registros de deudas que puedan ser devueltas.",
+		"fa-IR": "شما هیچ سابقه ای از بدهی هایی که قابل بازگشت باشند ندارید.",
+		"fr-FR": "Vous n'avez aucun enregistrement de dettes qui peuvent être remboursées.",
+		"id-ID": "Anda tidak memiliki catatan untuk hutang yang dapat dikembalikan.",
+		"it-IT": "Non hai registrazioni di debiti che possono essere restituiti.",
+		"ja-JP": "返済可能な借金の記録がありません。",
+		"ko-KO": "반환할 수 있는 부채에 대한 기록이 없습니다.",
+		"pl-PL": "Nie masz żadnych zapisów długów, które mogą zostać zwrócone.",
+		"pt-BR": "Você não tem registros de dívidas que possam ser devolvidas.",
 		"ru-RU": "У вас нет записей о догах для возврата.",
-		"tr-TR": "",
-		"ua-UA": "",
-		"uz-UZ": "",
-		"zh-CN": "",
+		"tr-TR": "İade edilebilecek borçlar için hiçbir kaydınız yok.",
+		"ua-UA": "У вас немає записів про борги, які можна повернути.",
+		"uz-UZ": "Sizda qaytarilishi mumkin bo'lgan qarzlar uchun hech qanday yozuvlar yo'q.",
+		"zh-CN": "您没有可以返还的债务记录。",
 	},
 	MESSAGE_TEXT_PLEASE_ACKNOWLEDGE_TRANSFER: {
 		"de-DE": "Bitte stimme dem zu oder lehne es ab.",
