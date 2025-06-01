@@ -2,37 +2,13 @@ package trans
 
 import (
 	"fmt"
-	"github.com/strongo/i18n"
 	"regexp"
+	"slices"
 	"strings"
 	"testing"
 )
 
 var (
-	requiredLocales = []string{
-		i18n.LocaleCodeEnUK,
-		i18n.LocaleCodeRuRU,
-	}
-	supportedLocales = append(requiredLocales,
-		i18n.LocaleCodeEsES,
-		i18n.LocaleCodeItIT,
-		i18n.LocaleCodeFaIR,
-		i18n.LocaleCodeEnUS,
-		i18n.LocaleCodePlPL,
-		i18n.LocaleCodePtPT,
-		i18n.LocaleCodeFrFR,
-		i18n.LocaleCodeJaJP,
-		i18n.LocaleCodeZhCN,
-		i18n.LocaleCodeKoKO,
-		i18n.LocaleCodeDeDE,
-		i18n.LocaleCodeTrTR,
-		i18n.LocaleCodeIdID,
-		i18n.LocaleCodeUaUA,
-		i18n.LocaleCodePtBR,
-		i18n.LocaleCodeUzUZ,
-		//i18n.LocaleCodeHiIN,
-	)
-	//desiredLocales   = []string{"it-IT", "fa-IR", "es-ES"}
 	reVars  = regexp.MustCompile(`%[vd]|\{\{\..+?}}`)
 	reWords = regexp.MustCompile(`\w+|%[vd]`)
 )
@@ -40,15 +16,15 @@ var (
 func TestTRANS(t *testing.T) {
 	var wordsCount int
 
-	requiredMissCount := make(map[string]int, len(requiredLocales))
+	requiredMissCount := make(map[string]int, len(RequiredLocales))
 
-	for _, requiredLocale := range requiredLocales {
+	for _, requiredLocale := range RequiredLocales {
 		requiredMissCount[requiredLocale] = 0
 	}
 
 	for key, vals := range TRANS {
 		countsByLang := make(map[string]map[string]int)
-		missingLocales := append([]string{}, requiredLocales...)
+		missingLocales := append([]string{}, RequiredLocales...)
 		for lang, val := range vals {
 			if !isSupportedLang(lang) {
 				t.Errorf("Key %v has unsupported language: %v", key, lang)
@@ -73,7 +49,7 @@ func TestTRANS(t *testing.T) {
 			}
 			countsByLang[lang] = counts
 		}
-		enCounts, ok := countsByLang[i18n.LocaleCodeEnUK]
+		enCounts, ok := countsByLang[enUK]
 		if !ok {
 			t.Errorf("Key %v missing en-UK trnaslation", key)
 			continue
@@ -94,10 +70,10 @@ func TestTRANS(t *testing.T) {
 				t.Errorf("Key `%v` is missing required translations for: %v", key, requiredMisses)
 			}
 		}
-		wordsCount += len(reWords.FindAllString(vals[i18n.LocaleCodeEnUK], -1))
+		wordsCount += len(reWords.FindAllString(vals[enUK], -1))
 		reported := make(map[string]int)
 		for lang, counts := range countsByLang {
-			if lang == i18n.LocaleCodeEnUK {
+			if lang == enUK {
 				continue
 			}
 			for enV, enCount := range enCounts {
@@ -141,10 +117,5 @@ func TestHtmlTags(t *testing.T) {
 }
 
 func isSupportedLang(l string) bool {
-	for _, supportedLang := range supportedLocales {
-		if l == supportedLang {
-			return true
-		}
-	}
-	return false
+	return slices.Contains(SupportedLocaleCodes, l)
 }
