@@ -1,5 +1,7 @@
 package trans
 
+import "slices"
+
 const (
 	enUK = "en-UK"
 	enUS = "en-US"
@@ -42,9 +44,10 @@ var SupportedLocaleCodes = []string{
 	zhCN,
 }
 
-var RequiredLocales = []string{
-	enUK,
-	ruRU,
+var RequiredLocales = SupportedLocaleCodes
+
+func isSupportedLang(l string) bool {
+	return slices.Contains(SupportedLocaleCodes, l)
 }
 
 // SupportedLocales - supported locales

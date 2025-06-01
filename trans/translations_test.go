@@ -3,41 +3,33 @@ package trans
 import (
 	"fmt"
 	"regexp"
-	"slices"
 	"strings"
 	"testing"
 )
 
 var (
-	reVars  = regexp.MustCompile(`%[vd]|\{\{\..+?}}`)
-	reWords = regexp.MustCompile(`\w+|%[vd]`)
+	reVars  = regexp.MustCompile(`%[svd]|\{\{\..+?}}`)
+	reWords = regexp.MustCompile(`\w+|%[svd]`)
 )
 
 func TestTRANS(t *testing.T) {
 	var wordsCount int
 
-	requiredMissCount := make(map[string]int, len(RequiredLocales))
-
-	for _, requiredLocale := range RequiredLocales {
-		requiredMissCount[requiredLocale] = 0
-	}
+	var missing = make(map[string][]string)
 
 	for key, vals := range TRANS {
 		countsByLang := make(map[string]map[string]int)
-		missingLocales := append([]string{}, RequiredLocales...)
+
+		for _, requiredLocale := range RequiredLocales {
+			if _, ok := vals[requiredLocale]; !ok {
+				missing[key] = append(missing[key], requiredLocale)
+			}
+		}
+
 		for lang, val := range vals {
 			if !isSupportedLang(lang) {
 				t.Errorf("Key %v has unsupported language: %v", key, lang)
 				continue
-			}
-			for i, ml := range missingLocales {
-				if ml == lang {
-					// Delete without preserving order
-					// https://github.com/golang/go/wiki/SliceTricks#delete-without-preserving-order
-					l := len(missingLocales)
-					missingLocales[i] = missingLocales[l-1]
-					missingLocales = missingLocales[:l-1]
-				}
 			}
 			if strings.Contains(val, "https: ") || strings.Contains(val, "http: ") {
 				t.Logf("Invalid http(s): link: %v=%v", key, val)
@@ -53,22 +45,6 @@ func TestTRANS(t *testing.T) {
 		if !ok {
 			t.Errorf("Key %v missing en-UK trnaslation", key)
 			continue
-		}
-		if len(missingLocales) > 0 {
-			//desiredMisses := make([]string, 0, len(missingLocales))
-			requiredMisses := make([]string, 0, len(missingLocales))
-			if _, ok := requiredMissCount[key]; ok {
-				requiredMisses = append(requiredMisses, key)
-				requiredMissCount[key] += 1
-				//} else {
-				//desiredMisses = append(desiredMisses, key)
-			}
-			//if len(desiredMisses) > 0 {
-			//	t.Logf("Key `%v` is missing optional translations for: %v", key, missingLocales)
-			//}
-			if len(requiredMisses) > 0 {
-				t.Errorf("Key `%v` is missing required translations for: %v", key, requiredMisses)
-			}
 		}
 		wordsCount += len(reWords.FindAllString(vals[enUK], -1))
 		reported := make(map[string]int)
@@ -93,9 +69,14 @@ func TestTRANS(t *testing.T) {
 				}
 			}
 		}
-		if _, ok := countsByLang["ru-RU"]; !ok {
-			t.Errorf("%v: missing translation for ru-RU", key)
+	}
+	if len(missing) > 0 {
+		var s = make([]string, 0, len(missing)*len(RequiredLocales)+1)
+		s = append(s, "Missing required locales:")
+		for key, missingLocales := range missing {
+			s = append(s, "\t"+key+": "+strings.Join(missingLocales, ","))
 		}
+		t.Errorf(strings.Join(s, "\n"))
 	}
 	t.Logf("English words count: %d", wordsCount)
 }
@@ -114,8 +95,4 @@ func TestHtmlTags(t *testing.T) {
 			}
 		}
 	}
-}
-
-func isSupportedLang(l string) bool {
-	return slices.Contains(SupportedLocaleCodes, l)
 }
