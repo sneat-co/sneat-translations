@@ -90,6 +90,7 @@ func calendarButtonText() map[string]string {
 		"ko-KO": "🗓️️ 달력",
 		"pl-PL": "🗓️️ Kalendarz",
 		"pt-BR": "🗓️️ Calendário",
+		"pt-PT": "🗓️️ Calendário",
 		"ru-RU": "🗓️️ Календарь",
 		"tr-TR": "🗓️️ Takvim",
 		"ua-UA": "🗓️️ Календар",
@@ -193,6 +194,7 @@ func init() {
 			"ko-KO": "🕒 오늘 — {DATE}",
 			"pl-PL": "🕒 Dzisiaj — {DATE}",
 			"pt-BR": "🕒 Hoje — {DATE}",
+			"pt-PT": "🕒 Hoje — {DATE}",
 			"ru-RU": "🕒 Сегодня — {DATE}",
 			"tr-TR": "🕒 Bugün — {DATE}",
 			"ua-UA": "🕒 Сьогодні — {DATE}",
@@ -231,6 +233,7 @@ func init() {
 			"ko-KO": "할 일: {ACTIVITIES}",
 			"pl-PL": "Zamierzam zrobić: {ACTIVITIES}",
 			"pt-BR": "Vai fazer: {ACTIVITIES}",
+			"pt-PT": "Vai fazer: {ACTIVITIES}",
 			"ru-RU": "Собираюсь делать: {ACTIVITIES}",
 			"tr-TR": "Yapacağım: {ACTIVITIES}",
 			"ua-UA": "Збираюся робити: {ACTIVITIES}",
@@ -326,6 +329,7 @@ func init() {
 			"ko-KO": "📍 장소",
 			"pl-PL": "📍 Miejsca",
 			"pt-BR": "📍 Locais",
+			"pt-PT": "📍 Locais",
 			"ru-RU": "📍 Места",
 			"tr-TR": "📍 Yerler",
 			"ua-UA": "📍 Місця",
@@ -459,6 +463,7 @@ func init() {
 			"ko-KO": "아마",
 			"pl-PL": "Może",
 			"pt-BR": "Talvez",
+			"pt-PT": "Talvez",
 			"ru-RU": "Возможно",
 			"tr-TR": "Belki",
 			"ua-UA": "Можливо",
@@ -611,6 +616,7 @@ func init() {
 			"ko-KO": "💔 즐겨찾기에서 제거",
 			"pl-PL": "💔 Usuń z ulubionych",
 			"pt-BR": "💔 Remover dos favoritos",
+			"pt-PT": "💔 Remover dos favoritos",
 			"ru-RU": "💔 Удалить из избранного",
 			"tr-TR": "💔 Favorilerden kaldır",
 			"ua-UA": "💔 Видалити з обраного",
@@ -630,6 +636,7 @@ func init() {
 			"ko-KO": "💛 내 즐겨찾기에 추가",
 			"pl-PL": "💛 Dodaj do moich ulubionych",
 			"pt-BR": "💛 Adicionar aos meus favoritos",
+			"pt-PT": "💛 Adicionar aos meus favoritos",
 			"ru-RU": "💛 Добавить в мои места",
 			"tr-TR": "💛 Favorilerime ekle",
 			"ua-UA": "💛 Додати до моїх місць",
@@ -916,6 +923,7 @@ func init() {
 			"ko-KO": "내 계획들",
 			"pl-PL": "Moje plany",
 			"pt-BR": "Meus planos",
+			"pt-PT": "Meus planos",
 			"ru-RU": "Мои планы",
 			"tr-TR": "Benim planlarım",
 			"ua-UA": "Мої плани",
@@ -935,6 +943,7 @@ func init() {
 			"ko-KO": "사용자 프로필",
 			"pl-PL": "Profil użytkownika",
 			"pt-BR": "Perfil do usuário",
+			"pt-PT": "Perfil do utilizador",
 			"ru-RU": "Профиль пользователя",
 			"tr-TR": "Kullanıcı profili",
 			"ua-UA": "Профіль користувача",
@@ -1296,6 +1305,11 @@ Para compartilhar seus planos, escolha um local ou atividade e clique no botão 
 
 Para organizar um evento, crie um <b>{NEW_EVENT}</b> em "Meus eventos".
 `,
+			"pt-PT": `
+Para partilhar os seus planos, escolha um local ou atividade e clique no botão <b>{RSVP}</b>.
+
+Para organizar um evento, crie um <b>{NEW_EVENT}</b> em "Os meus eventos".
+`,
 			"ru-RU": `
 Чтобы поделиться своими планами, выберите место или активность и нажмите кнопку <b>{RSVP}</b>.
 
@@ -1335,6 +1349,7 @@ Tadbir tashkil qilish uchun "Mening tadbirlarim"dan <b>{NEW_EVENT}</b> yarating.
 			"ko-KO": "등록하기",
 			"pl-PL": "Zapisz się",
 			"pt-BR": "Inscrever-se",
+			"pt-PT": "Inscrever-se",
 			"ru-RU": "Отметиться",
 			"tr-TR": "Kayıt ol",
 			"ua-UA": "Зареєструватися",

@@ -1,7 +1,17 @@
 Run test TestTRANS from file "translations_test.go"
-and add all missing translations  reported by the test (escape all Unicode formatting characters)
-to var TRANS only in the file "trans/translations.go"
+and add all missing translations reported by the test (escape all Unicode formatting characters)
+to var TRANS only in the file "trans/translations.go". Use "en-UK" and "ru-RU" as base input for translations.
 
-The locales keys in TRANS should be sorted in ascending order.
+The locale ID keys in TRANS should be sorted in ascending order.
+
+The structure of the TRANS variable is like this:
+
+```go
+var TRANS = map[string]map[string]string{
+    "TRANSLATION_ID": map[string]string{
+        "LOCALE_ID": "TRANSLATION_VALUE_UNICODE_FORMATTING_CHARS_ESCAPED"
+    }
+}
+```
 
 After this is done, run `go test ./...` and  `golangci-lint run ./...` and make sure all reported errors are fixed

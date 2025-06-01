@@ -72,11 +72,15 @@ func TestTRANS(t *testing.T) {
 	}
 	if len(missing) > 0 {
 		var s = make([]string, 0, len(missing)*len(RequiredLocales)+1)
-		s = append(s, "Missing required locales:")
+		missingTranslationsCount := 0
 		for key, missingLocales := range missing {
+			missingTranslationsCount += len(missingLocales)
 			s = append(s, "\t"+key+": "+strings.Join(missingLocales, ","))
 		}
-		t.Errorf(strings.Join(s, "\n"))
+		t.Errorf(strings.Join(append([]string{
+			fmt.Sprintf("Missing %d translations for %d translation IDs:",
+				missingTranslationsCount, len(missing),
+			)}, s...), "\n"))
 	}
 	t.Logf("English words count: %d", wordsCount)
 }

@@ -23,7 +23,7 @@ const (
 	uzUZ = "uz-UZ"
 )
 
-var SupportedLocaleCodes = []string{
+var RequiredLocales = []string{
 	deDE,
 	enUK,
 	enUS,
@@ -44,10 +44,8 @@ var SupportedLocaleCodes = []string{
 	zhCN,
 }
 
-var RequiredLocales = SupportedLocaleCodes
-
 func isSupportedLang(l string) bool {
-	return slices.Contains(SupportedLocaleCodes, l)
+	return slices.Contains(RequiredLocales, l)
 }
 
 // SupportedLocales - supported locales
