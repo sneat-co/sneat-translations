@@ -3,10 +3,11 @@ package trans
 import "slices"
 
 const (
+	arEG = "ar-EG" // Egypt 14.85 million Telegram users
 	enUK = "en-UK"
 	enUS = "en-US"
 	ruRU = "ru-RU"
-	esES = "es-ES"
+	esES = "es-ES" // 150–200 million Telegram users
 	itIT = "it-IT"
 	faIR = "fa-IR"
 	plPL = "pl-PL"
@@ -24,6 +25,12 @@ const (
 )
 
 var RequiredLocales = []string{
+	enUK,
+	ruRU,
+}
+
+var SupportedLocales = []string{
+	arEG,
 	deDE,
 	enUK,
 	enUS,
@@ -45,6 +52,10 @@ var RequiredLocales = []string{
 }
 
 func isSupportedLang(l string) bool {
+	return slices.Contains(SupportedLocales, l)
+}
+
+func isRequiredLang(l string) bool {
 	return slices.Contains(RequiredLocales, l)
 }
 
