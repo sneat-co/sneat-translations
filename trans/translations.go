@@ -1,9 +1,8 @@
 package trans
 
-const adsCommandTitle = "\xE2\xAD\x90\xE2\xAD\x90\xE2\xAD\x90"
-
 /*
-Proper order of locale keys in var TRANS, use it as a reference for all values:
+Expected IDs in proper order of locale keys in var TRANS, use it as a reference for all values:
+- "ar-EG":
 - "de-DE":
 - "en-UK":
 - "en-US":
@@ -567,24 +566,9 @@ var TRANS = map[string]map[string]string{
 		"uz-UZ": "tozalash",
 		"zh-CN": "清除",
 	},
-	adsCommandTitle: {
-		"de-DE": adsCommandTitle,
-		"en-UK": adsCommandTitle,
-		"en-US": adsCommandTitle,
-		"es-ES": adsCommandTitle,
-		"fa-IR": adsCommandTitle,
-		"fr-FR": adsCommandTitle,
-		"id-ID": adsCommandTitle,
-		"it-IT": adsCommandTitle,
-		"ja-JP": adsCommandTitle,
-		"ko-KO": adsCommandTitle,
-		"pl-PL": adsCommandTitle,
-		"pt-BR": adsCommandTitle,
-		"ru-RU": adsCommandTitle,
-		"tr-TR": adsCommandTitle,
-		"ua-UA": adsCommandTitle,
-		"uz-UZ": adsCommandTitle,
-		"zh-CN": adsCommandTitle,
+	"Ads": {
+		"en-UK": "Ads",
+		"ru-RU": "Реклама",
 	},
 	" and ": {
 		"de-DE": " und ",
@@ -4936,10 +4920,22 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	BUTTON_TEXT_DUE: {
 		"de-DE": "📅 Fällig: %v",
 		"en-UK": "📅 Due: %v",
+		"en-US": "📅 Due: %v",
 		"es-ES": "📅 Hasta: %v",
-		"fa-IR": "📅 مورد: %v",   // TODO(FA) verify
+		"fa-IR": "📅 مورد: %v", // TODO(FA) verify
+		"fr-FR": "📅 Échéance: %v",
+		"id-ID": "📅 Jatuh tempo: %v",
 		"it-IT": "📅 Dovuto: %v", // TODO(IT) verify
+		"ja-JP": "📅 期限: %v",
+		"ko-KO": "📅 기한: %v",
+		"pl-PL": "📅 Termin: %v",
+		"pt-BR": "📅 Vencimento: %v",
+		"pt-PT": "📅 Vencimento: %v",
 		"ru-RU": "📅 До: %v",
+		"tr-TR": "📅 Vade: %v",
+		"ua-UA": "📅 До: %v",
+		"uz-UZ": "📅 Muddati: %v",
+		"zh-CN": "📅 到期: %v",
 	},
 	NOT_SET: {
 		"de-DE": "nicht gesetzt",
@@ -5040,133 +5036,343 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	BUTTON_TEXT_I_PAID_FOR_THE_BILL: {
 		"de-DE": "Die Rechnung wurde von mir bezahlt.",
 		"en-UK": "The bill was paid by me.",
-		"es-ES": "La factura fue pagada por mí.",  // TODO(ES) verify
-		"fa-IR": "این لایحه توسط من پرداخت شد",    // TODO(FA) verify
+		"en-US": "The bill was paid by me.",
+		"es-ES": "La factura fue pagada por mí.", // TODO(ES) verify
+		"fa-IR": "این لایحه توسط من پرداخت شد",   // TODO(FA) verify
+		"fr-FR": "La facture a été payée par moi.",
+		"id-ID": "Tagihan dibayar oleh saya.",
 		"it-IT": "Il conto è stato pagato da me.", // TODO(IT) verify
+		"ja-JP": "請求書は私が支払いました。",
+		"ko-KO": "청구서는 내가 지불했습니다.",
+		"pl-PL": "Rachunek został zapłacony przeze mnie.",
+		"pt-BR": "A conta foi paga por mim.",
+		"pt-PT": "A conta foi paga por mim.",
 		"ru-RU": "Этот счёт оплатил(а) я.",
+		"tr-TR": "Fatura benim tarafımdan ödendi.",
+		"ua-UA": "Цей рахунок оплатив(ла) я.",
+		"uz-UZ": "Hisob men tomonimdan to'landi.",
+		"zh-CN": "账单由我支付。",
 	},
 	BUTTON_TEXT_I_OWE_FOR_THE_BILL: {
 		"de-DE": "Ich muss noch was dabeigeben",
 		"en-UK": "I owe for this bill",
-		"es-ES": "Debo esta factura",                // TODO(ES) verify
-		"fa-IR": "من برای این لایحه بدهکار هستم",    // TODO(FA) verify
+		"en-US": "I owe for this bill",
+		"es-ES": "Debo esta factura",             // TODO(ES) verify
+		"fa-IR": "من برای این لایحه بدهکار هستم", // TODO(FA) verify
+		"fr-FR": "Je dois pour cette facture",
+		"id-ID": "Saya berhutang untuk tagihan ini",
 		"it-IT": "Devo per questo disegno di legge", // TODO(IT) verify
+		"ja-JP": "この請求書の支払いが必要です",
+		"ko-KO": "이 청구서에 대한 금액을 지불해야 합니다",
+		"pl-PL": "Jestem winien za ten rachunek",
+		"pt-BR": "Eu devo por esta conta",
+		"pt-PT": "Eu devo por esta conta",
 		"ru-RU": "Я должен по этому счёту",
+		"tr-TR": "Bu fatura için borçluyum",
+		"ua-UA": "Я винен за цим рахунком",
+		"uz-UZ": "Men bu hisob uchun qarzdorman",
+		"zh-CN": "我欠这个账单",
 	},
 	BUTTON_TEXT_I_DO_NOT_SHARE_THIS_BILL: {
 		"de-DE": "Ich habe damit nichts zutun",
 		"en-UK": "I don't share this bill",
-		"es-ES": "No comparto esta cuenta",               // TODO(ES) verify
-		"fa-IR": "من این لایحه را به اشتراک نمی گذارم",   // TODO(FA) verify
+		"en-US": "I don't share this bill",
+		"es-ES": "No comparto esta cuenta",             // TODO(ES) verify
+		"fa-IR": "من این لایحه را به اشتراک نمی گذارم", // TODO(FA) verify
+		"fr-FR": "Je ne partage pas cette facture",
+		"id-ID": "Saya tidak berbagi tagihan ini",
 		"it-IT": "Non condivido questo disegno di legge", // TODO(IT) verify
+		"ja-JP": "この請求書を共有していません",
+		"ko-KO": "이 청구서를 공유하지 않습니다",
+		"pl-PL": "Nie dzielę się tym rachunkiem",
+		"pt-BR": "Eu não compartilho esta conta",
+		"pt-PT": "Eu não compartilho esta conta",
 		"ru-RU": "Я не учавствую в этой покупке",
+		"tr-TR": "Bu faturayı paylaşmıyorum",
+		"ua-UA": "Я не беру участі в цій покупці",
+		"uz-UZ": "Men bu hisobni baham ko'rmayman",
+		"zh-CN": "我不分享这个账单",
 	},
 	MESSAGE_TEXT_YOU_JOINED_BILL: {
 		"de-DE": "Du bist dem Teilen der Rechnung beigetreten.",
 		"en-UK": "You've joined to bill sharing.",
+		"en-US": "You've joined to bill sharing.",
 		"es-ES": "Te has agregado para pagar conjuntamente .",
-		"fa-IR": "شما به اشتراک گذاشتن لایحه پیوستید",          // TODO(FA) verify
+		"fa-IR": "شما به اشتراک گذاشتن لایحه پیوستید", // TODO(FA) verify
+		"fr-FR": "Vous avez rejoint le partage de facture.",
+		"id-ID": "Anda telah bergabung dengan berbagi tagihan.",
 		"it-IT": "Sei entrato a far parte della fatturazione.", // TODO(IT) verify
+		"ja-JP": "請求書の共有に参加しました。",
+		"ko-KO": "청구서 공유에 참여하셨습니다.",
+		"pl-PL": "Dołączyłeś do dzielenia rachunku.",
+		"pt-BR": "Você se juntou ao compartilhamento de contas.",
+		"pt-PT": "Você se juntou ao compartilhamento de contas.",
 		"ru-RU": "Вы присоеденились к совместной оплате.",
+		"tr-TR": "Fatura paylaşımına katıldınız.",
+		"ua-UA": "Ви приєдналися до спільної оплати.",
+		"uz-UZ": "Siz hisob-kitob ulashishga qo'shildingiz.",
+		"zh-CN": "您已加入账单共享。",
 	},
 	ARTICLE_TITLE_SPLIT_BILL: {
 		"de-DE": "eine Rechnung teilen",
 		"en-UK": "Split bill/purchase",
+		"en-US": "Split bill/purchase",
 		"es-ES": "Compartir la cuenta/compra",
-		"fa-IR": "لایحه / خرید تقسیم شده",    // TODO(FA) verify
+		"fa-IR": "لایحه / خرید تقسیم شده", // TODO(FA) verify
+		"fr-FR": "Partager la facture/l'achat",
+		"id-ID": "Bagi tagihan/pembelian",
 		"it-IT": "Bolletta Split / acquisto", // TODO(IT) verify
+		"ja-JP": "請求書/購入を分割",
+		"ko-KO": "청구서/구매 분할",
+		"pl-PL": "Podziel rachunek/zakup",
+		"pt-BR": "Dividir conta/compra",
+		"pt-PT": "Dividir conta/compra",
 		"ru-RU": "Разделить счёт/покупку",
+		"tr-TR": "Fatura/satın alma bölünmesi",
+		"ua-UA": "Розділити рахунок/покупку",
+		"uz-UZ": "Hisob/xaridni bo'lish",
+		"zh-CN": "分摊账单/购买",
 	},
 	ARTICLE_SUBTITLE_SPLIT_BILL: {
 		"de-DE": "Wert: %v\nTeile deine Kosten mit Freunden und verfolge deren Rückzahlungen.",
 		"en-UK": "Amount: %v\nShares expenses with friends & track paybacks",
-		"es-ES": "Importe: %v\nCompartir los gastos entre amigos y seguir las devoluciones",  // TODO(ES): Have to be shorter
-		"fa-IR": "مقدار: %v" + "\n" + "هزینه ها را با دوستان و بازپرداخت پیگیری می کند",      // TODO(FA) verify
+		"en-US": "Amount: %v\nShares expenses with friends & track paybacks",
+		"es-ES": "Importe: %v\nCompartir los gastos entre amigos y seguir las devoluciones", // TODO(ES): Have to be shorter
+		"fa-IR": "مقدار: %v" + "\n" + "هزینه ها را با دوستان و بازپرداخت پیگیری می کند",     // TODO(FA) verify
+		"fr-FR": "Montant: %v\nPartagez les dépenses avec des amis et suivez les remboursements",
+		"id-ID": "Jumlah: %v\nBerbagi pengeluaran dengan teman & lacak pembayaran kembali",
 		"it-IT": "Importo: %v\nDisponi i costi con gli amici e le retribuzioni delle tracce", // TODO(IT) verify
+		"ja-JP": "金額: %v\n友達と費用を分担し、返済を追跡",
+		"ko-KO": "금액: %v\n친구와 비용을 공유하고 상환을 추적",
+		"pl-PL": "Kwota: %v\nDziel wydatki z przyjaciółmi i śledź spłaty",
+		"pt-BR": "Valor: %v\nCompartilhe despesas com amigos e acompanhe reembolsos",
+		"pt-PT": "Valor: %v\nCompartilhe despesas com amigos e acompanhe reembolsos",
 		"ru-RU": "Сумма: %v\nПоделить траты между друзьями и отследить возвраты",
+		"tr-TR": "Tutar: %v\nArkadaşlarınızla masrafları paylaşın ve geri ödemeleri takip edin",
+		"ua-UA": "Сума: %v\nПоділити витрати між друзями та відстежити повернення",
+		"uz-UZ": "Miqdori: %v\nDo'stlar bilan xarajatlarni baham ko'ring va to'lovlarni kuzating",
+		"zh-CN": "金额: %v\n与朋友分摊费用并跟踪还款",
 	},
 
 	ARTICLE_NEW_DEBT_TITLE: {
 		"de-DE": "Neuer Schuldschein",
 		"en-UK": "New debt",
+		"en-US": "New debt",
 		"es-ES": "Nueva deuda",
-		"fa-IR": "بدهی جدید",    // TODO(FA): Verify
+		"fa-IR": "بدهی جدید", // TODO(FA): Verify
+		"fr-FR": "Nouvelle dette",
+		"id-ID": "Hutang baru",
 		"it-IT": "Nuovo debito", // TODO(IT): Verify
+		"ja-JP": "新しい借金",
+		"ko-KO": "새로운 부채",
+		"pl-PL": "Nowy dług",
+		"pt-BR": "Nova dívida",
+		"pt-PT": "Nova dívida",
 		"ru-RU": "Новый долг",
+		"tr-TR": "Yeni borç",
+		"ua-UA": "Новий борг",
+		"uz-UZ": "Yangi qarz",
+		"zh-CN": "新债务",
 	},
 	ARTICLE_NEW_DEBT_SUBTITLE: {
 		"de-DE": "Wert: %v\nZur Fälligkeit wird eine Benachrichtigung geschickt, falls so eingestellt",
 		"en-UK": "Amount: %v\nSends notifications on due date if set",
+		"en-US": "Amount: %v\nSends notifications on due date if set",
 		"es-ES": "Importe: %v\nEnviar las notificaciones el día de vencimiento",
 		"fa-IR": "مقدار: %v" + "\n" + "اگر تنظیم شود، اطلاعیه ها را در تاریخ تعیین شده ارسال می کند", // TODO(FA):  verify
-		"it-IT": "Importo: %v\nSend le notifiche alla data di scadenza se impostato",                 // TODO(IT) verify
+		"fr-FR": "Montant: %v\nEnvoie des notifications à la date d'échéance si défini",
+		"id-ID": "Jumlah: %v\nMengirim notifikasi pada tanggal jatuh tempo jika diatur",
+		"it-IT": "Importo: %v\nSend le notifiche alla data di scadenza se impostato", // TODO(IT) verify
+		"ja-JP": "金額: %v\n設定されている場合、期日に通知を送信",
+		"ko-KO": "금액: %v\n설정된 경우 만기일에 알림 전송",
+		"pl-PL": "Kwota: %v\nWysyła powiadomienia w terminie płatności, jeśli ustawiono",
+		"pt-BR": "Valor: %v\nEnvia notificações na data de vencimento, se definido",
+		"pt-PT": "Valor: %v\nEnvia notificações na data de vencimento, se definido",
 		"ru-RU": "Сумма: %v\nЗапись долга и рассылка оповещений в день возврата.",
+		"tr-TR": "Tutar: %v\nAyarlanmışsa vade tarihinde bildirim gönderir",
+		"ua-UA": "Сума: %v\nНадсилає сповіщення в день повернення, якщо встановлено",
+		"uz-UZ": "Miqdori: %v\nAgar o'rnatilgan bo'lsa, belgilangan sanada bildirishnomalar yuboradi",
+		"zh-CN": "金额: %v\n如果设置，将在到期日发送通知",
 	},
 	SPLITUS_PLEASE_JOIN_IF_NOT_ON_THE_LIST: {
 		"de-DE": `Bitte tritt zuerst bei, falls dein Name nicht auf der Liste ist.`,
 		"en-UK": `Please join if your name is not on the list above.`,
-		"fa-IR": `اگر نام شما در لیست بالا نیست، لطفا پیوست شوید.`,                   // TODO(FA) verify
+		"en-US": `Please join if your name is not on the list above.`,
+		"es-ES": `Por favor únete si tu nombre no está en la lista anterior.`,
+		"fa-IR": `اگر نام شما در لیست بالا نیست، لطفا پیوست شوید.`, // TODO(FA) verify
+		"fr-FR": `Veuillez vous joindre si votre nom ne figure pas dans la liste ci-dessus.`,
+		"id-ID": `Silakan bergabung jika nama Anda tidak ada dalam daftar di atas.`,
 		"it-IT": `Si prega di unirti se il tuo nome non è nell'elenco di cui sopra.`, // TODO(IT) verify
-		"ru-RU": `Пожалуйста присоеденяйтесь если ваше не в списке.`,                 // TODO(RU)
+		"ja-JP": `あなたの名前が上記のリストにない場合は、参加してください。`,
+		"ko-KO": `이름이 위 목록에 없으면 참여하세요.`,
+		"pl-PL": `Dołącz, jeśli Twojego imienia nie ma na powyższej liście.`,
+		"pt-BR": `Por favor, junte-se se o seu nome não estiver na lista acima.`,
+		"pt-PT": `Por favor, junte-se se o seu nome não estiver na lista acima.`,
+		"ru-RU": `Пожалуйста присоеденяйтесь если ваше не в списке.`, // TODO(RU)
+		"tr-TR": `Adınız yukarıdaki listede yoksa lütfen katılın.`,
+		"ua-UA": `Будь ласка, приєднуйтесь, якщо вашого імені немає у списку вище.`,
+		"uz-UZ": `Agar ismingiz yuqoridagi ro'yxatda bo'lmasa, iltimos, qo'shiling.`,
+		"zh-CN": `如果您的名字不在上面的列表中，请加入。`,
 	},
 	SPLITUS_TEXT_HI_IN_GROUP: {
 		"de-DE": `Ich bin <b>Splitus</b>. Danke fürs hinzufügen!`,
 		"en-UK": `I'm <b>Splitus</b>. Thanks for adding me!`,
-		"es-ES": `Soy <b>Splitus</b>. ¡Gracias por agregarme!`,      // TODO(ES) verify
-		"fa-IR": `من <b>Splitus</b> با تشکر برای اضافه کردن من!`,    // TODO(FA) verify
+		"en-US": `I'm <b>Splitus</b>. Thanks for adding me!`,
+		"es-ES": `Soy <b>Splitus</b>. ¡Gracias por agregarme!`,   // TODO(ES) verify
+		"fa-IR": `من <b>Splitus</b> با تشکر برای اضافه کردن من!`, // TODO(FA) verify
+		"fr-FR": `Je suis <b>Splitus</b>. Merci de m'avoir ajouté!`,
+		"id-ID": `Saya <b>Splitus</b>. Terima kasih telah menambahkan saya!`,
 		"it-IT": `Sono <b>Splitus</b>. Grazie per averci aggiunto!`, // TODO(IT) verify
+		"ja-JP": `私は<b>Splitus</b>です。追加してくれてありがとう！`,
+		"ko-KO": `저는 <b>Splitus</b>입니다. 저를 추가해 주셔서 감사합니다!`,
+		"pl-PL": `Jestem <b>Splitus</b>. Dziękuję za dodanie mnie!`,
+		"pt-BR": `Eu sou <b>Splitus</b>. Obrigado por me adicionar!`,
+		"pt-PT": `Eu sou <b>Splitus</b>. Obrigado por me adicionar!`,
 		"ru-RU": `Меня зовут <b>Сплитус</b>. Спасибо что добавили!`,
+		"tr-TR": `Ben <b>Splitus</b>. Beni eklediğiniz için teşekkürler!`,
+		"ua-UA": `Мене звати <b>Сплітус</b>. Дякую, що додали!`,
+		"uz-UZ": `Men <b>Splitus</b>man. Meni qo'shganingiz uchun rahmat!`,
+		"zh-CN": `我是<b>Splitus</b>。感谢您添加我！`,
 	},
 	COLLECTUS_TEXT_HI_IN_GROUP: {
+		"de-DE": `Ich bin <b>Collectus.</b> Danke fürs hinzufügen!`,
 		"en-UK": `I'm <b>Collectus.</b> Thanks for adding me!`,
-		"es-ES": `Soy <b>Collectus.</b> ¡Gracias por agregarme!`,      // TODO(ES) verify
-		"fa-IR": `من <b>Collectus</b> با تشکر برای اضافه کردن من!`,    // TODO(FA) verify
+		"en-US": `I'm <b>Collectus.</b> Thanks for adding me!`,
+		"es-ES": `Soy <b>Collectus.</b> ¡Gracias por agregarme!`,   // TODO(ES) verify
+		"fa-IR": `من <b>Collectus</b> با تشکر برای اضافه کردن من!`, // TODO(FA) verify
+		"fr-FR": `Je suis <b>Collectus.</b> Merci de m'avoir ajouté!`,
+		"id-ID": `Saya <b>Collectus.</b> Terima kasih telah menambahkan saya!`,
 		"it-IT": `Sono <b>Collectus.</b> Grazie per averci aggiunto!`, // TODO(IT) verify
+		"ja-JP": `私は<b>Collectus.</b>です。追加してくれてありがとう！`,
+		"ko-KO": `저는 <b>Collectus.</b>입니다. 저를 추가해 주셔서 감사합니다!`,
+		"pl-PL": `Jestem <b>Collectus.</b> Dziękuję za dodanie mnie!`,
+		"pt-BR": `Eu sou <b>Collectus.</b> Obrigado por me adicionar!`,
+		"pt-PT": `Eu sou <b>Collectus.</b> Obrigado por me adicionar!`,
 		"ru-RU": `Меня зовут <b>Коллектус.</b> Спасибо что добавили!`,
+		"tr-TR": `Ben <b>Collectus.</b> Beni eklediğiniz için teşekkürler!`,
+		"ua-UA": `Мене звати <b>Коллектус.</b> Дякую, що додали!`,
+		"uz-UZ": `Men <b>Collectus.</b>man. Meni qo'shganingiz uchun rahmat!`,
+		"zh-CN": `我是<b>Collectus.</b>感谢您添加我！`,
 	},
 	MT_GROUP_LABEL: {
+		"de-DE": `<b>Gruppe</b>: %v`,
 		"en-UK": `<b>Group</b>: %v`,
-		"es-ES": `<b>Group</b>: %v`, // TODO(ES)
-		"fa-IR": `<b>Group</b>: %v`, // TODO(FA)
-		"it-IT": `<b>Group</b>: %v`, // TODO(IT)
+		"en-US": `<b>Group</b>: %v`,
+		"es-ES": `<b>Grupo</b>: %v`,
+		"fa-IR": `<b>گروه</b>: %v`,
+		"fr-FR": `<b>Groupe</b>: %v`,
+		"id-ID": `<b>Grup</b>: %v`,
+		"it-IT": `<b>Gruppo</b>: %v`,
+		"ja-JP": `<b>グループ</b>: %v`,
+		"ko-KO": `<b>그룹</b>: %v`,
+		"pl-PL": `<b>Grupa</b>: %v`,
+		"pt-BR": `<b>Grupo</b>: %v`,
+		"pt-PT": `<b>Grupo</b>: %v`,
 		"ru-RU": `<b>Группа</b>: %v`,
+		"tr-TR": `<b>Grup</b>: %v`,
+		"ua-UA": `<b>Група</b>: %v`,
+		"uz-UZ": `<b>Guruh</b>: %v`,
+		"zh-CN": `<b>组</b>: %v`,
 	},
 	MT_SPONSORS_HEADER: {
+		"de-DE": `<b>Sponsoren</b>:`,
 		"en-UK": `<b>Sponsors</b>:`,
+		"en-US": `<b>Sponsors</b>:`,
 		"es-ES": `<b>Patrocinadores</b>:`, // TODO(ES)
 		"fa-IR": `<b>حامیان</b>:`,         // TODO(FA) verify
-		"it-IT": `<b>Sponsors</b>:`,       // TODO(IT)
+		"fr-FR": `<b>Sponsors</b>:`,
+		"id-ID": `<b>Sponsor</b>:`,
+		"it-IT": `<b>Sponsors</b>:`, // TODO(IT)
+		"ja-JP": `<b>スポンサー</b>:`,
+		"ko-KO": `<b>스폰서</b>:`,
+		"pl-PL": `<b>Sponsorzy</b>:`,
+		"pt-BR": `<b>Patrocinadores</b>:`,
+		"pt-PT": `<b>Patrocinadores</b>:`,
 		"ru-RU": `<b>Спонсоры</b>:`,
+		"tr-TR": `<b>Sponsorlar</b>:`,
+		"ua-UA": `<b>Спонсори</b>:`,
+		"uz-UZ": `<b>Homiylar</b>:`,
+		"zh-CN": `<b>赞助商</b>:`,
 	},
 	MT_DEBTORS_HEADER: {
+		"de-DE": `<b>Schuldner</b>:`,
 		"en-UK": `<b>Debtors</b>:`,
+		"en-US": `<b>Debtors</b>:`,
 		"es-ES": `<b>Deudores</b>:`, // TODO(ES) verify
-		"fa-IR": `<b>Debtors</b>:`,  // TODO(FA) verify
-		"it-IT": `<b>بدهکار</b>:`,   // TODO(IT) verify
+		"fa-IR": `<b>بدهکاران</b>:`,
+		"fr-FR": `<b>Débiteurs</b>:`,
+		"id-ID": `<b>Debitur</b>:`,
+		"it-IT": `<b>Debitori</b>:`,
+		"ja-JP": `<b>債務者</b>:`,
+		"ko-KO": `<b>채무자</b>:`,
+		"pl-PL": `<b>Dłużnicy</b>:`,
+		"pt-BR": `<b>Devedores</b>:`,
+		"pt-PT": `<b>Devedores</b>:`,
 		"ru-RU": `<b>Должники</b>:`,
+		"tr-TR": `<b>Borçlular</b>:`,
+		"ua-UA": `<b>Боржники</b>:`,
+		"uz-UZ": `<b>Qarzdorlar</b>:`,
+		"zh-CN": `<b>债务人</b>:`,
 	},
 	BT_DEFAULT_CURRENCY: {
+		"de-DE": `Währung: %v`,
 		"en-UK": `Currency: %v`,
+		"en-US": `Currency: %v`,
 		"es-ES": `Moneda: %v`,   // TODO(ES) verify
 		"fa-IR": `واحد پول: %v`, // TODO(FA) verify
-		"it-IT": `Moneta: %v`,   // TODO(IT) verify
+		"fr-FR": `Devise: %v`,
+		"id-ID": `Mata uang: %v`,
+		"it-IT": `Moneta: %v`, // TODO(IT) verify
+		"ja-JP": `通貨: %v`,
+		"ko-KO": `통화: %v`,
+		"pl-PL": `Waluta: %v`,
+		"pt-BR": `Moeda: %v`,
+		"pt-PT": `Moeda: %v`,
 		"ru-RU": `Валюта: %v`,
+		"tr-TR": `Para birimi: %v`,
+		"ua-UA": `Валюта: %v`,
+		"uz-UZ": `Valyuta: %v`,
+		"zh-CN": `货币: %v`,
 	},
 	MESSAGE_TEXT_ASK_LANG: {
 		"de-DE": `Welche Sprache wird hier gesprochen?`,
 		"en-UK": `What language should I use in this group?`,
-		"es-ES": `¿Qué idioma debería usar en este grupo?`,      // TODO(ES) verify
-		"fa-IR": `کدام زبان باید در این گروه استفاده کنم؟`,      // TODO(FA) verify
+		"en-US": `What language should I use in this group?`,
+		"es-ES": `¿Qué idioma debería usar en este grupo?`, // TODO(ES) verify
+		"fa-IR": `کدام زبان باید در این گروه استفاده کنم؟`, // TODO(FA) verify
+		"fr-FR": `Quelle langue dois-je utiliser dans ce groupe?`,
+		"id-ID": `Bahasa apa yang harus saya gunakan dalam grup ini?`,
 		"it-IT": `Che lingua devo utilizzare in questo gruppo?`, // TODO(IT) verify
+		"ja-JP": `このグループではどの言語を使用すべきですか？`,
+		"ko-KO": `이 그룹에서 어떤 언어를 사용해야 합니까?`,
+		"pl-PL": `Jakiego języka powinienem używać w tej grupie?`,
+		"pt-BR": `Que idioma devo usar neste grupo?`,
+		"pt-PT": `Que idioma devo usar neste grupo?`,
 		"ru-RU": `Какой язык я должен использовать в этой группе?`,
+		"tr-TR": `Bu grupta hangi dili kullanmalıyım?`,
+		"ua-UA": `Якою мовою мені спілкуватися в цій групі?`,
+		"uz-UZ": `Bu guruhda qaysi tildan foydalanishim kerak?`,
+		"zh-CN": `我应该在这个群组中使用什么语言？`,
 	},
 	MESSAGE_TEXT_HI_IN_GROUP_LANG_SET: {
-		"en-UK": `Great, I'll be using English.`,
-		"es-ES": `Genial, usaré español.`, // TODO(ES) verify
 		"de-DE": `Kein Problem, dann schreibe ich auf Deutsch.`,
+		"en-UK": `Great, I'll be using English.`,
+		"en-US": `Great, I'll be using English.`,
+		"es-ES": `Genial, usaré español.`,               // TODO(ES) verify
 		"fa-IR": `عالی، من از فارسی استفاده خواهم کرد.`, // TODO(FA) verify
-		"it-IT": `Ottimo, userò l'italiano.`,            // TODO(IT) verify
+		"fr-FR": `Super, j'utiliserai le français.`,
+		"id-ID": `Bagus, saya akan menggunakan bahasa Indonesia.`,
+		"it-IT": `Ottimo, userò l'italiano.`, // TODO(IT) verify
+		"ja-JP": `素晴らしい、日本語を使用します。`,
+		"ko-KO": `좋아요, 한국어를 사용하겠습니다.`,
+		"pl-PL": `Świetnie, będę używać języka polskiego.`,
+		"pt-BR": `Ótimo, vou usar o português.`,
+		"pt-PT": `Ótimo, vou usar o português.`,
 		"ru-RU": `Отлично, я буду использовать русский`,
+		"tr-TR": `Harika, Türkçe kullanacağım.`,
+		"ua-UA": `Чудово, я буду використовувати українську мову.`,
+		"uz-UZ": `Ajoyib, men o'zbek tilidan foydalanaman.`,
+		"zh-CN": `太好了，我将使用中文。`,
 	},
 	SPLITUS_TEXT_ABOUT_ME_AND_CO: {
 		"de-DE": `Ich kann helfen, <b>Rechnungen zu teilen</b>. Mein Freund @DebtsTrackerBot passt darauf auf, dass alle Schulden zurückgezahlt werden.`,
@@ -7871,63 +8077,172 @@ Il tuo codice di invito personale e': {{.InviteCode}}`,
 	MESSAGE_TEXT_PLEASE_CHOOSE_FROM_OPTIONS_PROVIDED: {
 		"de-DE": "Bitte wähle aus den angezeigten Optionen.",
 		"en-UK": "Please choose from provided options.",
+		"en-US": "Please choose from provided options.",
 		"es-ES": "Por favor, elige una de las siguientes opciones.",
 		"fa-IR": "لطفاً از گزینه های ارائه شده انتخاب نمایید.",
+		"fr-FR": "Veuillez choisir parmi les options proposées.",
+		"id-ID": "Silakan pilih dari opsi yang disediakan.",
 		"it-IT": "Scegli tra le opzioni fornite.",
+		"ja-JP": "提供されたオプションから選択してください。",
+		"ko-KO": "제공된 옵션 중에서 선택하십시오.",
+		"pl-PL": "Proszę wybrać z podanych opcji.",
+		"pt-BR": "Por favor, escolha entre as opções fornecidas.",
 		"ru-RU": "Пожалуйста выберете из предоставленных опций.",
+		"tr-TR": "Lütfen sağlanan seçeneklerden birini seçin.",
+		"ua-UA": "Будь ласка, виберіть із наданих опцій.",
+		"uz-UZ": "Iltimos, taqdim etilgan variantlardan tanlang.",
+		"zh-CN": "请从提供的选项中选择。",
 	},
 	MESSAGE_TEXT_TRANSFER_ASK_FOR_NOTE_OR_COMMENT: {
 		"de-DE": "<b>Möchtest du eine Bemerkung oder Notiz hinzufügen?</b>\n%v Deine Notizen kannst nur du sehen.\n%v Eine Bemerkung wird quasi auf dem Schuldschein und der Quittung vermerkt und ist insofern für beide sichtbar.",
 		"en-UK": "<b>Do you want to add a note or comment?</b>\n%v Memos are private records for yoru own reference.\n%v Comments are available to everyone who has permission to view this transaction.",
+		"en-US": "<b>Do you want to add a note or comment?</b>\n%v Memos are private records for your own reference.\n%v Comments are available to everyone who has permission to view this transaction.",
 		"es-ES": "<b>¿Quieres añadir una nota o comentario?</b>\n%v Las notas se graban de manera privada para tu propia información.\n%v Los comentarios son visibles para todos los autorizados a ver esta transacción.",
 		"fa-IR": "<b>آیا میخواهید یادداشت یا شرحی اضافه کنید؟</b>\n%v یادداشت ها نوشته های خصوصی برای مراجعه خود شما هستند.\n%v شرح در دسترس تمام کسانی که مجاز رویت این تراکنش هستند میباشد.",
+		"fr-FR": "<b>Voulez-vous ajouter une note ou un commentaire?</b>\n%v Les mémos sont des enregistrements privés pour votre propre référence.\n%v Les commentaires sont accessibles à tous ceux qui ont la permission de voir cette transaction.",
+		"id-ID": "<b>Apakah Anda ingin menambahkan catatan atau komentar?</b>\n%v Memo adalah catatan pribadi untuk referensi Anda sendiri.\n%v Komentar tersedia untuk semua orang yang memiliki izin untuk melihat transaksi ini.",
 		"it-IT": "<b>Vuoi aggiungere una nota o un commento?</b> \n%v I memo sono record privati per il riferimento di yoru.\n%v I commenti sono disponibili a tutti coloro che hanno l'autorizzazione a visualizzare questa transazione.",
+		"ja-JP": "<b>メモやコメントを追加しますか？</b>\n%v メモはあなた自身の参照用のプライベートな記録です。\n%v コメントはこのトランザクションを閲覧する権限を持つすべての人が利用できます。",
+		"ko-KO": "<b>메모나 댓글을 추가하시겠습니까?</b>\n%v 메모는 자신의 참조를 위한 개인 기록입니다.\n%v 댓글은 이 거래를 볼 수 있는 권한이 있는 모든 사람이 이용할 수 있습니다.",
+		"pl-PL": "<b>Czy chcesz dodać notatkę lub komentarz?</b>\n%v Notatki są prywatnymi zapisami do własnego użytku.\n%v Komentarze są dostępne dla wszystkich, którzy mają uprawnienia do przeglądania tej transakcji.",
+		"pt-BR": "<b>Deseja adicionar uma nota ou comentário?</b>\n%v Memorandos são registros privados para sua própria referência.\n%v Comentários estão disponíveis para todos que têm permissão para visualizar esta transação.",
 		"ru-RU": "<b>Хотите добавить заметку или комментарий?</b>\n%v Заметки хранятся для вашего личного пользования.\n%v Комментарий виден всем кому разрешён просмотр этой транзакции.",
+		"tr-TR": "<b>Not veya yorum eklemek istiyor musunuz?</b>\n%v Notlar kendi referansınız için özel kayıtlardır.\n%v Yorumlar, bu işlemi görüntüleme izni olan herkes tarafından görülebilir.",
+		"ua-UA": "<b>Хочете додати нотатку або коментар?</b>\n%v Нотатки зберігаються для вашого особистого користування.\n%v Коментар видно всім, кому дозволено перегляд цієї транзакції.",
+		"uz-UZ": "<b>Eslatma yoki izoh qo'shmoqchimisiz?</b>\n%v Eslatmalar shaxsiy yozuvlar bo'lib, o'zingiz uchun ma'lumotdir.\n%v Izohlar ushbu tranzaksiyani ko'rish huquqiga ega bo'lgan har bir kishi uchun mavjud.",
+		"zh-CN": "<b>您想添加备注或评论吗？</b>\n%v 备忘录是供您自己参考的私人记录。\n%v 评论对所有有权查看此交易的人可见。",
 	},
 	MESSAGE_TEXT_TRANSFER_ASK_FOR_NOTE: {
 		"de-DE": "Bitte schreibe eine Notiz:",
 		"en-UK": "Please write a note:",
+		"en-US": "Please write a note:",
 		"es-ES": "Por favor, escribe una nota:",
 		"fa-IR": "لطفاً یک یادداشت بنویسید:",
+		"fr-FR": "Veuillez écrire une note :",
+		"id-ID": "Silakan tulis catatan:",
 		"it-IT": "Per favore scrivi un appunto:",
+		"ja-JP": "メモを書いてください：",
+		"ko-KO": "메모를 작성해 주세요:",
+		"pl-PL": "Proszę napisać notatkę:",
+		"pt-BR": "Por favor, escreva uma nota:",
 		"ru-RU": "Напишите заметку:",
+		"tr-TR": "Lütfen bir not yazın:",
+		"ua-UA": "Напишіть нотатку:",
+		"uz-UZ": "Iltimos, eslatma yozing:",
+		"zh-CN": "请写一个备注：",
 	},
 	COMMAND_TEXT_MORE_ABOUT_INTEREST_COMMAND: {
-		"de-DE": "Mehr über Prozentsätze", // TODO(DE)
+		"de-DE": "Mehr über Zinsen", // Updated from TODO
 		"en-UK": "More about interest",
-		"es-ES": "Más sobre interés",   // TODO(ES)
-		"fa-IR": "بیشتر در مورد علاقه", // TODO(FA)
-		"it-IT": "Dimmi di più",        // TODO(IT)
+		"en-US": "More about interest",
+		"es-ES": "Más sobre intereses",       // Updated from TODO
+		"fa-IR": "اطلاعات بیشتر درباره بهره", // Updated from TODO
+		"fr-FR": "Plus d'informations sur les intérêts",
+		"id-ID": "Lebih lanjut tentang bunga",
+		"it-IT": "Più informazioni sugli interessi", // Updated from TODO
+		"ja-JP": "利息についての詳細",
+		"ko-KO": "이자에 대한 자세한 정보",
+		"pl-PL": "Więcej o odsetkach",
+		"pt-BR": "Mais sobre juros",
 		"ru-RU": "Подробнее о процентах",
+		"tr-TR": "Faiz hakkında daha fazla",
+		"ua-UA": "Детальніше про відсотки",
+		"uz-UZ": "Foiz haqida ko'proq",
+		"zh-CN": "更多关于利息的信息",
 	},
 	MESSAGE_TEXT_TRANSFER_ASK_FOR_INTEREST_SHORT: {
-		"de-DE": `<b>Prozent und Kommentar</b>
+		"de-DE": `<b>Zinsen und Kommentar</b>
 
-To set interest rate & period send a message in following format:
-		<pre>percent/percent_period/min_period/grace_period:note</pre>`, // TODO(DE)
+Um den Zinssatz und den Zeitraum festzulegen, senden Sie eine Nachricht im folgenden Format:
+		<pre>prozent/prozent_zeitraum/min_zeitraum/karenzzeit:notiz</pre>`,
 		"en-UK": `<b>Interest & notes</b>
 
 To set interest rate & period send a message in following format:
 		<pre>percent/percent_period/min_period/grace_period:note</pre>`,
-		"es-ES": `<b>Porcentaje y comentario</b>
+		"en-US": `<b>Interest & notes</b>
 
 To set interest rate & period send a message in following format:
-		<pre>percent/percent_period/min_period/grace_period:note</pre>`, // TODO(ES)
-		"fa-IR": `<b>درصد و نظر</b>
+		<pre>percent/percent_period/min_period/grace_period:note</pre>`,
+		"es-ES": `<b>Interés y comentario</b>
 
-To set interest rate & period send a message in following format:
-		<pre>percent/percent_period/min_period/grace_period:note</pre>`, // TODO(FA)
-		"it-IT": `<b>Percentuale e commento</b>
+Para establecer la tasa de interés y el período, envía un mensaje en el siguiente formato:
+		<pre>porcentaje/período_porcentaje/período_mínimo/período_gracia:nota</pre>`,
+		"fa-IR": `<b>نرخ بهره و یادداشت</b>
 
-To set interest rate & period send a message in following format:
-		<pre>percent/percent_period/min_period/grace_period:note</pre>`, // TODO(IT
+برای تنظیم نرخ بهره و دوره، پیامی به فرمت زیر ارسال کنید:
+		<pre>درصد/دوره_درصد/دوره_حداقل/دوره_تنفس:یادداشت</pre>`,
+		"fr-FR": `<b>Intérêt et notes</b>
+
+Pour définir le taux d'intérêt et la période, envoyez un message au format suivant:
+		<pre>pourcentage/période_pourcentage/période_min/période_grâce:note</pre>`,
+		"id-ID": `<b>Bunga & catatan</b>
+
+Untuk mengatur suku bunga & periode kirim pesan dalam format berikut:
+		<pre>persen/periode_persen/periode_min/masa_tenggang:catatan</pre>`,
+		"it-IT": `<b>Interessi e note</b>
+
+Per impostare il tasso di interesse e il periodo, invia un messaggio nel seguente formato:
+		<pre>percentuale/periodo_percentuale/periodo_minimo/periodo_grazia:nota</pre>`,
+		"ja-JP": `<b>利息とメモ</b>
+
+金利と期間を設定するには、次の形式でメッセージを送信してください：
+		<pre>パーセント/パーセント期間/最小期間/猶予期間:メモ</pre>`,
+		"ko-KO": `<b>이자 및 메모</b>
+
+이자율 및 기간을 설정하려면 다음 형식으로 메시지를 보내십시오:
+		<pre>퍼센트/퍼센트_기간/최소_기간/유예_기간:메모</pre>`,
+		"pl-PL": `<b>Odsetki i notatki</b>
+
+Aby ustawić stopę procentową i okres, wyślij wiadomość w następującym formacie:
+		<pre>procent/okres_procentowy/min_okres/okres_karencji:notatka</pre>`,
+		"pt-BR": `<b>Juros e notas</b>
+
+Para definir a taxa de juros e o período, envie uma mensagem no seguinte formato:
+		<pre>percentual/período_percentual/período_mínimo/período_carência:nota</pre>`,
 		"ru-RU": `<b>Процент и комментарий</b>
 
 Чтобы задать процент по долгу отправьте сообщение в следующем формате:
 	<pre>процент/процентный_период/минимальный_период/грэйс_период:комментарий</pre>`,
+		"tr-TR": `<b>Faiz ve notlar</b>
+
+Faiz oranını ve dönemi ayarlamak için aşağıdaki formatta bir mesaj gönderin:
+		<pre>yüzde/yüzde_dönem/min_dönem/grace_dönem:not</pre>`,
+		"ua-UA": `<b>Відсоток і коментар</b>
+
+Щоб встановити відсоткову ставку і період, надішліть повідомлення в наступному форматі:
+		<pre>відсоток/відсотковий_період/мінімальний_період/грейс_період:примітка</pre>`,
+		"uz-UZ": `<b>Foiz va eslatmalar</b>
+
+Foiz stavkasi va davrni o'rnatish uchun quyidagi formatda xabar yuboring:
+		<pre>foiz/foiz_davri/min_davr/imtiyoz_davri:eslatma</pre>`,
+		"zh-CN": `<b>利息和备注</b>
+
+要设置利率和期限，请按以下格式发送消息：
+		<pre>百分比/百分比期限/最小期限/宽限期:备注</pre>`,
 	},
 	MESSAGE_TEXT_TRANSFER_ASK_FOR_INTEREST_LONG: {
-		"de-DE": ``, // TODO(DE)
+		"de-DE": `<b>Zinsen & Notizen</b>
+
+Um den Zinssatz und Zeitraum festzulegen, senden Sie eine Nachricht im folgenden Format:
+
+		<pre>prozent/prozent_zeitraum/min_zeitraum/karenzzeit:notiz</pre>
+
+Wobei (<i>die ersten 2 Parameter erforderlich sind</i>):
+ * <code>prozent</code> - bis zu 2 Stellen nach dem Komma.
+ * <code>prozent_zeitraum</code> - Anzahl der Tage für den Zinszeitraum.
+ * <code>min_zeitraum</code> - Mindestanzahl von Tagen für die Zinsberechnung. Standardmäßig 1 und kann nicht weniger sein.
+ * <code>karenzzeit</code> - zinsfreier Zeitraum. Derzeit können Sie nicht gleichzeitig einen Mindest- und einen Karenzzeit festlegen.
+ * <code>notiz</code> - jeder erklärende Text, der für Sie und Ihren Geschäftspartner sichtbar ist.
+
+Die Zinsen werden täglich (<i>alle 24 Stunden</i>) nach der Formel des <a href="https://de.wikipedia.org/wiki/Zinsrechnung#Einfache_Verzinsung">einfachen Zinses</a> berechnet.
+
+<b>Beispiele</b>:
+
+		<code>2/7/5</code> - 2% pro Woche, mindestens für 5 Tage
+		<code>15/360</code> - 15% pro Jahr, (<i>mindestens für 1 Tag</i>)
+		<code>3/30/0/10</code> - 3% pro Monat mit 10 Tagen Karenzzeit
+
+❗ Die % Funktionalität befindet sich noch in der BETA-Testphase. Bitte teilen Sie uns in @DebtsTrackerGroup mit, wenn etwas nicht wie erwartet funktioniert.`,
 		"en-UK": `<b>Interest & notes</b>
 
 To set interest rate & period send a message in following format:
@@ -7949,10 +8264,227 @@ Interest is calculated daily (<i>every 24 hours</i>) using <a href="https://www.
 		<code>15/360</code> - 15%/year, (<i>minimum for 1 day</i>)
 		<code>3/30/0/10</code> - 3% per month with 10 days grace period
 
-❗ The % functionality is in BETA testing stage, please let us know in @DebtsTrackerGroup if anything works not as you would expect.`, // TODO - replace link!
-		"es-ES": ``, // TODO(ES)
-		"fa-IR": ``, // TODO(FA)
-		"it-IT": ``, // TODO(IT
+❗ The % functionality is in BETA testing stage, please let us know in @DebtsTrackerGroup if anything works not as you would expect.`,
+		"en-US": `<b>Interest & notes</b>
+
+To set interest rate & period send a message in following format:
+
+		<pre>percent/percent_period/min_period/grace_period:note</pre>
+
+Where (<i>first 2 params are required</i>):
+ * <code>percent</code> - up to 2 digits after comma.
+ * <code>min_period</code> - number of days for interest period.
+ * <code>min_perdio</code> - minimum number of days for interest calculation. Is 1 by default and can't be less.'.
+ * <code>grace_period</code> - interest-less period. At the moment you can't set grace & min period at the same time'.
+ * <code>note</code> - any explanatory text that will be visible to you and your counterparty.
+
+Interest is calculated daily (<i>every 24 hours</i>) using <a href="https://www.investopedia.com/terms/s/simple_interest.asp#utm_source=DebtsTrackerBot&utm_medium=telegram&utm_campaign=new_debt_wizard">simple percent</a> formula.
+
+<b>Examples</b>:
+
+		<code>2/7/5</code> - 2% per week, minimum for 5 days
+		<code>15/360</code> - 15%/year, (<i>minimum for 1 day</i>)
+		<code>3/30/0/10</code> - 3% per month with 10 days grace period
+
+❗ The % functionality is in BETA testing stage, please let us know in @DebtsTrackerGroup if anything works not as you would expect.`,
+		"es-ES": `<b>Interés y notas</b>
+
+Para establecer la tasa de interés y el período, envía un mensaje en el siguiente formato:
+
+		<pre>porcentaje/período_porcentaje/período_mínimo/período_gracia:nota</pre>
+
+Donde (<i>los primeros 2 parámetros son obligatorios</i>):
+ * <code>porcentaje</code> - hasta 2 dígitos después de la coma.
+ * <code>período_porcentaje</code> - número de días para el período de interés.
+ * <code>período_mínimo</code> - número mínimo de días para el cálculo de intereses. Es 1 por defecto y no puede ser menor.
+ * <code>período_gracia</code> - período sin intereses. Por el momento, no puedes establecer períodos de gracia y mínimo al mismo tiempo.
+ * <code>nota</code> - cualquier texto explicativo que será visible para ti y tu contraparte.
+
+El interés se calcula diariamente (<i>cada 24 horas</i>) utilizando la fórmula de <a href="https://es.wikipedia.org/wiki/Inter%C3%A9s_simple">interés simple</a>.
+
+<b>Ejemplos</b>:
+
+		<code>2/7/5</code> - 2% por semana, mínimo por 5 días
+		<code>15/360</code> - 15% anual, (<i>mínimo por 1 día</i>)
+		<code>3/30/0/10</code> - 3% por mes con 10 días de período de gracia
+
+❗ La funcionalidad de % está en fase de prueba BETA, por favor háganoslo saber en @DebtsTrackerGroup si algo no funciona como esperabas.`,
+		"fa-IR": `<b>نرخ بهره و یادداشت‌ها</b>
+
+برای تنظیم نرخ بهره و دوره، پیامی به فرمت زیر ارسال کنید:
+
+		<pre>درصد/دوره_درصد/دوره_حداقل/دوره_تنفس:یادداشت</pre>
+
+جایی که (<i>2 پارامتر اول الزامی هستند</i>):
+ * <code>درصد</code> - تا 2 رقم بعد از اعشار.
+ * <code>دوره_درصد</code> - تعداد روزهای دوره بهره.
+ * <code>دوره_حداقل</code> - حداقل تعداد روزها برای محاسبه بهره. به طور پیش‌فرض 1 است و نمی‌تواند کمتر باشد.
+ * <code>دوره_تنفس</code> - دوره بدون بهره. در حال حاضر نمی‌توانید همزمان دوره حداقل و دوره تنفس را تعیین کنید.
+ * <code>یادداشت</code> - هر متن توضیحی که برای شما و طرف مقابل قابل مشاهده خواهد بود.
+
+بهره به صورت روزانه (<i>هر 24 ساعت</i>) با استفاده از فرمول <a href="https://fa.wikipedia.org/wiki/%D8%A8%D9%87%D8%B1%D9%87_%D8%B3%D8%A7%D8%AF%D9%87">بهره ساده</a> محاسبه می‌شود.
+
+<b>مثال‌ها</b>:
+
+		<code>2/7/5</code> - 2% در هفته، حداقل برای 5 روز
+		<code>15/360</code> - 15% در سال، (<i>حداقل برای 1 روز</i>)
+		<code>3/30/0/10</code> - 3% در ماه با 10 روز دوره تنفس
+
+❗ قابلیت درصد در مرحله آزمایشی BETA است، لطفاً اگر چیزی مطابق انتظار شما کار نمی‌کند، به ما در @DebtsTrackerGroup اطلاع دهید.`,
+		"fr-FR": `<b>Intérêts et notes</b>
+
+Pour définir le taux d'intérêt et la période, envoyez un message au format suivant :
+
+		<pre>pourcentage/période_pourcentage/période_min/période_grâce:note</pre>
+
+Où (<i>les 2 premiers paramètres sont obligatoires</i>) :
+ * <code>pourcentage</code> - jusqu'à 2 chiffres après la virgule.
+ * <code>période_pourcentage</code> - nombre de jours pour la période d'intérêt.
+ * <code>période_min</code> - nombre minimum de jours pour le calcul des intérêts. Est 1 par défaut et ne peut pas être inférieur.
+ * <code>période_grâce</code> - période sans intérêt. Pour le moment, vous ne pouvez pas définir la période de grâce et la période minimale en même temps.
+ * <code>note</code> - tout texte explicatif qui sera visible pour vous et votre contrepartie.
+
+Les intérêts sont calculés quotidiennement (<i>toutes les 24 heures</i>) selon la formule de <a href="https://fr.wikipedia.org/wiki/Int%C3%A9r%C3%AAt_simple">l'intérêt simple</a>.
+
+<b>Exemples</b> :
+
+		<code>2/7/5</code> - 2% par semaine, minimum pour 5 jours
+		<code>15/360</code> - 15% par an, (<i>minimum pour 1 jour</i>)
+		<code>3/30/0/10</code> - 3% par mois avec 10 jours de période de grâce
+
+❗ La fonctionnalité % est en phase de test BETA, veuillez nous informer dans @DebtsTrackerGroup si quelque chose ne fonctionne pas comme prévu.`,
+		"id-ID": `<b>Bunga & catatan</b>
+
+Untuk mengatur suku bunga & periode kirim pesan dalam format berikut:
+
+		<pre>persen/periode_persen/periode_min/masa_tenggang:catatan</pre>
+
+Dimana (<i>2 parameter pertama wajib diisi</i>):
+ * <code>persen</code> - hingga 2 digit setelah koma.
+ * <code>periode_persen</code> - jumlah hari untuk periode bunga.
+ * <code>periode_min</code> - jumlah hari minimum untuk perhitungan bunga. Secara default adalah 1 dan tidak bisa kurang.
+ * <code>masa_tenggang</code> - periode tanpa bunga. Saat ini Anda tidak dapat mengatur masa tenggang & periode minimum pada saat yang sama.
+ * <code>catatan</code> - teks penjelasan apa pun yang akan terlihat oleh Anda dan pihak lawan Anda.
+
+Bunga dihitung harian (<i>setiap 24 jam</i>) menggunakan rumus <a href="https://id.wikipedia.org/wiki/Bunga_sederhana">bunga sederhana</a>.
+
+<b>Contoh</b>:
+
+		<code>2/7/5</code> - 2% per minggu, minimal untuk 5 hari
+		<code>15/360</code> - 15%/tahun, (<i>minimal untuk 1 hari</i>)
+		<code>3/30/0/10</code> - 3% per bulan dengan masa tenggang 10 hari
+
+❗ Fungsi % masih dalam tahap pengujian BETA, harap beri tahu kami di @DebtsTrackerGroup jika ada yang tidak berfungsi seperti yang Anda harapkan.`,
+		"it-IT": `<b>Interessi e note</b>
+
+Per impostare il tasso di interesse e il periodo, invia un messaggio nel seguente formato:
+
+		<pre>percentuale/periodo_percentuale/periodo_minimo/periodo_grazia:nota</pre>
+
+Dove (<i>i primi 2 parametri sono obbligatori</i>):
+ * <code>percentuale</code> - fino a 2 cifre dopo la virgola.
+ * <code>periodo_percentuale</code> - numero di giorni per il periodo di interesse.
+ * <code>periodo_minimo</code> - numero minimo di giorni per il calcolo degli interessi. È 1 per impostazione predefinita e non può essere inferiore.
+ * <code>periodo_grazia</code> - periodo senza interessi. Al momento non è possibile impostare contemporaneamente il periodo di grazia e il periodo minimo.
+ * <code>nota</code> - qualsiasi testo esplicativo che sarà visibile a te e alla tua controparte.
+
+Gli interessi vengono calcolati giornalmente (<i>ogni 24 ore</i>) utilizzando la formula dell'<a href="https://it.wikipedia.org/wiki/Interesse_semplice">interesse semplice</a>.
+
+<b>Esempi</b>:
+
+		<code>2/7/5</code> - 2% a settimana, minimo per 5 giorni
+		<code>15/360</code> - 15% all'anno, (<i>minimo per 1 giorno</i>)
+		<code>3/30/0/10</code> - 3% al mese con 10 giorni di periodo di grazia
+
+❗ La funzionalità % è in fase di test BETA, ti preghiamo di farci sapere in @DebtsTrackerGroup se qualcosa non funziona come previsto.`,
+		"ja-JP": `<b>利息とメモ</b>
+
+金利と期間を設定するには、次の形式でメッセージを送信してください：
+
+		<pre>パーセント/パーセント期間/最小期間/猶予期間:メモ</pre>
+
+以下の説明（<i>最初の2つのパラメータは必須</i>）：
+ * <code>パーセント</code> - 小数点以下2桁まで。
+ * <code>パーセント期間</code> - 利息期間の日数。
+ * <code>最小期間</code> - 利息計算のための最小日数。デフォルトは1で、それより少なくすることはできません。
+ * <code>猶予期間</code> - 無利息期間。現時点では、猶予期間と最小期間を同時に設定することはできません。
+ * <code>メモ</code> - あなたと相手に表示される説明テキスト。
+
+利息は毎日（<i>24時間ごと</i>）<a href="https://ja.wikipedia.org/wiki/%E5%8D%98%E5%88%A9">単利</a>の計算式を使用して計算されます。
+
+<b>例</b>：
+
+		<code>2/7/5</code> - 週2%、最低5日間
+		<code>15/360</code> - 年15%、（<i>最低1日</i>）
+		<code>3/30/0/10</code> - 月3%、10日間の猶予期間付き
+
+❗ %機能はBETAテスト段階にあります。期待通りに動作しない場合は@DebtsTrackerGroupでお知らせください。`,
+		"ko-KO": `<b>이자 및 메모</b>
+
+이자율 및 기간을 설정하려면 다음 형식으로 메시지를 보내십시오:
+
+		<pre>퍼센트/퍼센트_기간/최소_기간/유예_기간:메모</pre>
+
+여기서 (<i>처음 2개 매개변수는 필수</i>):
+ * <code>퍼센트</code> - 소수점 이하 최대 2자리까지.
+ * <code>퍼센트_기간</code> - 이자 기간의 일수.
+ * <code>최소_기간</code> - 이자 계산을 위한 최소 일수. 기본값은 1이며 더 적을 수 없습니다.
+ * <code>유예_기간</code> - 무이자 기간. 현재는 유예 기간과 최소 기간을 동시에 설정할 수 없습니다.
+ * <code>메모</code> - 귀하와 상대방에게 표시될 설명 텍스트.
+
+이자는 매일 (<i>24시간마다</i>) <a href="https://ko.wikipedia.org/wiki/%EB%8B%A8%EB%A6%AC">단리</a> 공식을 사용하여 계산됩니다.
+
+<b>예시</b>:
+
+		<code>2/7/5</code> - 주 2%, 최소 5일
+		<code>15/360</code> - 연 15%, (<i>최소 1일</i>)
+		<code>3/30/0/10</code> - 월 3%, 10일 유예 기간 포함
+
+❗ % 기능은 BETA 테스트 단계에 있으므로, 예상대로 작동하지 않는 경우 @DebtsTrackerGroup에 알려주시기 바랍니다.`,
+		"pl-PL": `<b>Odsetki i notatki</b>
+
+Aby ustawić stopę procentową i okres, wyślij wiadomość w następującym formacie:
+
+		<pre>procent/okres_procentowy/min_okres/okres_karencji:notatka</pre>
+
+Gdzie (<i>pierwsze 2 parametry są wymagane</i>):
+ * <code>procent</code> - do 2 cyfr po przecinku.
+ * <code>okres_procentowy</code> - liczba dni dla okresu odsetkowego.
+ * <code>min_okres</code> - minimalna liczba dni do obliczenia odsetek. Domyślnie wynosi 1 i nie może być mniejsza.
+ * <code>okres_karencji</code> - okres bez odsetek. W tej chwili nie można ustawić jednocześnie okresu karencji i minimalnego okresu.
+ * <code>notatka</code> - dowolny tekst wyjaśniający, który będzie widoczny dla Ciebie i Twojego kontrahenta.
+
+Odsetki są obliczane codziennie (<i>co 24 godziny</i>) przy użyciu formuły <a href="https://pl.wikipedia.org/wiki/Odsetki_proste">odsetek prostych</a>.
+
+<b>Przykłady</b>:
+
+		<code>2/7/5</code> - 2% tygodniowo, minimum na 5 dni
+		<code>15/360</code> - 15% rocznie, (<i>minimum na 1 dzień</i>)
+		<code>3/30/0/10</code> - 3% miesięcznie z 10-dniowym okresem karencji
+
+❗ Funkcjonalność % jest w fazie testów BETA, prosimy o informację w @DebtsTrackerGroup, jeśli coś nie działa zgodnie z oczekiwaniami.`,
+		"pt-BR": `<b>Juros e notas</b>
+
+Para definir a taxa de juros e o período, envie uma mensagem no seguinte formato:
+
+		<pre>percentual/período_percentual/período_mínimo/período_carência:nota</pre>
+
+Onde (<i>os primeiros 2 parâmetros são obrigatórios</i>):
+ * <code>percentual</code> - até 2 dígitos após a vírgula.
+ * <code>período_percentual</code> - número de dias para o período de juros.
+ * <code>período_mínimo</code> - número mínimo de dias para o cálculo de juros. É 1 por padrão e não pode ser menor.
+ * <code>período_carência</code> - período sem juros. No momento, você não pode definir o período de carência e o período mínimo ao mesmo tempo.
+ * <code>nota</code> - qualquer texto explicativo que será visível para você e sua contraparte.
+
+Os juros são calculados diariamente (<i>a cada 24 horas</i>) usando a fórmula de <a href="https://pt.wikipedia.org/wiki/Juros_simples">juros simples</a>.
+
+<b>Exemplos</b>:
+
+		<code>2/7/5</code> - 2% por semana, mínimo de 5 dias
+		<code>15/360</code> - 15% ao ano, (<i>mínimo de 1 dia</i>)
+		<code>3/30/0/10</code> - 3% ao mês com período de carência de 10 dias
+
+❗ A funcionalidade de % está em fase de teste BETA, por favor nos informe em @DebtsTrackerGroup se algo não funcionar como esperado.`,
 		"ru-RU": `<b>Процент и комментарий</b>
 
 Чтобы задать процент по долгу отправьте сообщение в следующем формате:
@@ -7975,14 +8507,113 @@ Interest is calculated daily (<i>every 24 hours</i>) using <a href="https://www.
 		<code>3/30/0/10</code> - под 3% в месяц с безпроцентным периодом в 10 дней
 
 ❗ Функционал % ещё тестируется, пожалуйста сообщите в @DebtsTrackerGroup если что-то пошло не так.`,
+		"tr-TR": `<b>Faiz ve notlar</b>
+
+Faiz oranını ve dönemi ayarlamak için aşağıdaki formatta bir mesaj gönderin:
+
+		<pre>yüzde/yüzde_dönem/min_dönem/grace_dönem:not</pre>
+
+Burada (<i>ilk 2 parametre zorunludur</i>):
+ * <code>yüzde</code> - virgülden sonra en fazla 2 basamak.
+ * <code>yüzde_dönem</code> - faiz dönemi için gün sayısı.
+ * <code>min_dönem</code> - faiz hesaplaması için minimum gün sayısı. Varsayılan olarak 1'dir ve daha az olamaz.
+ * <code>grace_dönem</code> - faizsiz dönem. Şu anda aynı anda hem grace hem de minimum dönemi ayarlayamazsınız.
+ * <code>not</code> - size ve karşı tarafınıza görünecek herhangi bir açıklayıcı metin.
+
+Faiz, <a href="https://tr.wikipedia.org/wiki/Basit_faiz">basit faiz</a> formülü kullanılarak günlük olarak (<i>her 24 saatte bir</i>) hesaplanır.
+
+<b>Örnekler</b>:
+
+		<code>2/7/5</code> - haftada %2, minimum 5 gün için
+		<code>15/360</code> - yıllık %15, (<i>minimum 1 gün için</i>)
+		<code>3/30/0/10</code> - 10 günlük grace dönemi ile ayda %3
+
+❗ % işlevselliği BETA test aşamasındadır, beklendiği gibi çalışmayan bir şey varsa lütfen @DebtsTrackerGroup'ta bize bildirin.`,
+		"ua-UA": `<b>Відсоток і коментар</b>
+
+Щоб встановити відсоткову ставку і період, надішліть повідомлення в наступному форматі:
+
+		<pre>відсоток/відсотковий_період/мінімальний_період/грейс_період:примітка</pre>
+
+Де (<i>перші 2 параметри обов'язкові</i>):
+ * <code>відсоток</code> - можливо до 2-х знаків після коми.
+ * <code>відсотковий_період</code> - кількість днів за які нараховується відсоток, вказаний попереднім числом.
+ * <code>мінімальний_період</code> - мінімальна кількість днів за які відразу нараховуються відсотки. За замовчуванням 1 і не може бути менше.
+ * <code>грейс_період</code> - безвідсотковий період. Поки не можна задавати і мінімальний відсоток і безвідсотковий період одночасно.
+ * <code>примітка</code> - будь-який пояснювальний текст видимий вам і іншому учаснику угоди.
+
+Нарахування щодня (<i>кожні 24 години</i>) за формулою <a href="https://uk.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D1%81%D1%82%D1%96_%D0%B2%D1%96%D0%B4%D1%81%D0%BE%D1%82%D0%BA%D0%B8">простого відсотка</a>.
+
+<b>Приклади</b>:
+
+		<code>2/7/5</code> - під 2% на тиждень, мінімум на 5 днів
+		<code>15/360</code> - під 15% річних
+		<code>3/30/0/10</code> - під 3% на місяць з безвідсотковим періодом в 10 днів
+
+❗ Функціонал % ще тестується, будь ласка, повідомте в @DebtsTrackerGroup якщо щось пішло не так.`,
+		"uz-UZ": `<b>Foiz va eslatmalar</b>
+
+Foiz stavkasi va davrni o'rnatish uchun quyidagi formatda xabar yuboring:
+
+		<pre>foiz/foiz_davri/min_davr/imtiyoz_davri:eslatma</pre>
+
+Quyidagilar (<i>birinchi 2 ta parametr talab qilinadi</i>):
+ * <code>foiz</code> - verguldan keyin 2 ta raqamgacha.
+ * <code>foiz_davri</code> - foiz davri uchun kunlar soni.
+ * <code>min_davr</code> - foiz hisoblanishi uchun minimal kunlar soni. Sukut bo'yicha 1 va bundan kam bo'lishi mumkin emas.
+ * <code>imtiyoz_davri</code> - foizsiz davr. Hozirda siz bir vaqtning o'zida ham imtiyoz, ham minimal davrni o'rnatishingiz mumkin emas.
+ * <code>eslatma</code> - siz va hamkoringiz uchun ko'rinadigan har qanday tushuntiruvchi matn.
+
+Foiz kunlik (<i>har 24 soatda</i>) <a href="https://uz.wikipedia.org/wiki/Oddiy_foiz">oddiy foiz</a> formulasi yordamida hisoblanadi.
+
+<b>Misollar</b>:
+
+		<code>2/7/5</code> - haftasiga 2%, minimal 5 kun uchun
+		<code>15/360</code> - yillik 15%, (<i>minimal 1 kun uchun</i>)
+		<code>3/30/0/10</code> - oyiga 3%, 10 kunlik imtiyoz davri bilan
+
+❗ % funksiyasi BETA sinov bosqichida, agar biror narsa kutganingizdek ishlamasa, @DebtsTrackerGroup'da bizga xabar bering.`,
+		"zh-CN": `<b>利息和备注</b>
+
+要设置利率和期限，请按以下格式发送消息：
+
+		<pre>百分比/百分比期限/最小期限/宽限期:备注</pre>
+
+其中（<i>前2个参数为必填</i>）：
+ * <code>百分比</code> - 小数点后最多2位数字。
+ * <code>百分比期限</code> - 利息期限的天数。
+ * <code>最小期限</code> - 计算利息的最小天数。默认为1，不能更少。
+ * <code>宽限期</code> - 无息期。目前您不能同时设置宽限期和最小期限。
+ * <code>备注</code> - 任何对您和您的交易对手可见的解释性文本。
+
+利息每日计算（<i>每24小时</i>），使用<a href="https://zh.wikipedia.org/wiki/%E5%8D%95%E5%88%A9">单利</a>公式。
+
+<b>示例</b>：
+
+		<code>2/7/5</code> - 每周2%，最少5天
+		<code>15/360</code> - 年利率15%，（<i>最少1天</i>）
+		<code>3/30/0/10</code> - 每月3%，10天宽限期
+
+❗ %功能正处于BETA测试阶段，如果有任何不符合您预期的情况，请在@DebtsTrackerGroup告知我们。`,
 	},
 	MESSAGE_TEXT_TRANSFER_ASK_FOR_COMMENT_ONLY: {
 		"de-DE": "Falls du eine Bemerkung auf den Schuldschein schreiben willst, schick mir jetzt den Text.",
 		"en-UK": `If you want to add a comment just send a text now.`,
-		"es-ES": `si quieres añadir un comentario simplemente envia un texto.`,
+		"en-US": `If you want to add a comment just send a text now.`,
+		"es-ES": `Si quieres añadir un comentario simplemente envía un texto ahora.`,
 		"fa-IR": `شما می توانید یک شرح اضافه کنید. تنها کافیست یک متن ارسال کنید.`,
+		"fr-FR": `Si vous souhaitez ajouter un commentaire, envoyez simplement un texte maintenant.`,
+		"id-ID": `Jika Anda ingin menambahkan komentar, cukup kirim teks sekarang.`,
 		"it-IT": `Se vuoi aggiungere un commento invia del testo ora.`,
+		"ja-JP": `コメントを追加したい場合は、今すぐテキストを送信してください。`,
+		"ko-KO": `댓글을 추가하려면 지금 텍스트를 보내세요.`,
+		"pl-PL": `Jeśli chcesz dodać komentarz, po prostu wyślij tekst teraz.`,
+		"pt-BR": `Se você quiser adicionar um comentário, basta enviar um texto agora.`,
 		"ru-RU": `Если хотите добавить комментарий просто отправьте текст.`,
+		"tr-TR": `Yorum eklemek istiyorsanız şimdi bir metin gönderin.`,
+		"ua-UA": `Якщо ви хочете додати коментар, просто надішліть текст зараз.`,
+		"uz-UZ": `Izoh qo'shmoqchi bo'lsangiz, hozir matn yuboring.`,
+		"zh-CN": `如果您想添加评论，请立即发送文本。`,
 	},
 	MESSAGE_TEXT_VISIBLE_TO_YOU_AND_COUNTERPARTY: {
 		"de-DE": "sichtbar für dich & %v",
@@ -9421,22 +10052,24 @@ Możesz dowiedzieć się o nowych funkcjach bota na kanale @SneatApp, gdzie <a h
 🌍 atau secara publik (<i>siapa saja yang memiliki tautan dapat menerimanya, Anda dapat membatalkannya kapan saja</i>)`,
 	},
 	YourSpaces: {
+		"de-DE": "Ihre Bereiche",
 		"en-UK": "Your spaces",
-		"ru-RU": "Ваши пространства",
+		"en-US": "Your spaces",
 		"es-ES": "Tus espacios",
 		"fa-IR": "فضاهای شما",
-		"it-IT": "I tuoi spazi",
-		"de-DE": "Ihre Bereiche",
 		"fr-FR": "Vos espaces",
-		"pl-PL": "Twoje przestrzenie",
-		"pt-PT": "Os teus espaços",
-		"ko-KO": "귀하의 공간",
-		"ja-JP": "あなたのスペース",
-		"zh-CN": "您的空间",
-		"ua-UA": "Ваші простори",
-		"pt-BR": "Seus espaços",
-		"tr-TR": "Alanlarınız",
 		"id-ID": "Ruang Anda",
+		"it-IT": "I tuoi spazi",
+		"ja-JP": "あなたのスペース",
+		"ko-KO": "귀하의 공간",
+		"pl-PL": "Twoje przestrzenie",
+		"pt-BR": "Seus espaços",
+		"pt-PT": "Os teus espaços",
+		"ru-RU": "Ваши пространства",
+		"tr-TR": "Alanlarınız",
+		"ua-UA": "Ваші простори",
+		"uz-UZ": "Ваши пространства",
+		"zh-CN": "您的空间",
 	},
 	CurrentSpace: {
 		"en-UK": "Current space",
