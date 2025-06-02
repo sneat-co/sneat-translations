@@ -10,6 +10,7 @@ import (
 	"go/token"
 	"golang.org/x/text/language"
 	"os"
+	"sort"
 	"strings"
 )
 
@@ -21,9 +22,13 @@ func localeKeyToCode(s string) string {
 	case 5:
 		return s
 	case 4:
-		return s[:2] + "-" + s[3:]
+		return s[:2] + "-" + s[2:]
 	}
 	panic("unsupported locale:" + s)
+}
+
+func localeCodeToKey(s string) string {
+	return strings.Replace(s, "-", "", 1)
 }
 
 // toExprList ensures each entry is an Expr with newline potential
@@ -58,6 +63,18 @@ func translateMock(texts []string) []string {
 	return texts
 }
 
+func getKeyValue(kv *ast.KeyValueExpr) (key, value string) {
+	switch kvKey := kv.Key.(type) {
+	case *ast.BasicLit:
+		key = kvKey.Value
+	case *ast.Ident:
+		key = kvKey.Name
+	default:
+		panic("unexpected key type")
+	}
+	return key, kv.Value.(*ast.BasicLit).Value
+}
+
 func translateMissing(baseLocale string) error {
 	fileSet := token.NewFileSet()
 	node, err := parser.ParseFile(fileSet, "../trans/translations.go", nil, parser.AllErrors|parser.ParseComments)
@@ -87,6 +104,8 @@ func translateMissing(baseLocale string) error {
 				continue
 			}
 
+			translationID := outerKey.Value
+
 			innerMap, ok := outerKV.Value.(*ast.CompositeLit)
 			if !ok {
 				continue
@@ -96,12 +115,13 @@ func translateMissing(baseLocale string) error {
 
 			for _, innerElt := range innerMap.Elts {
 				if innerKV, ok := innerElt.(*ast.KeyValueExpr); ok {
-					if innerKey, ok := innerKV.Key.(*ast.BasicLit); ok {
-						if locale := localeKeyToCode(innerKey.Value); locale == baseLocale {
-							s := strings.TrimSpace(innerKV.Value.(*ast.BasicLit).Value)
-							isQuoted[outerKey.Value] = strings.HasPrefix(s, `"`)
-							textToTranslate = s[1 : len(s)-1]
-						}
+					key, value := getKeyValue(innerKV)
+					locale := localeKeyToCode(key)
+					if locale == baseLocale {
+						s := strings.TrimSpace(value)
+						isQuoted[translationID] = strings.HasPrefix(s, `"`)
+						textToTranslate = s[1 : len(s)-1]
+						break
 					}
 				}
 			}
@@ -111,10 +131,11 @@ func translateMissing(baseLocale string) error {
 
 				for _, innerElt := range innerMap.Elts {
 					if innerKV, ok := innerElt.(*ast.KeyValueExpr); ok {
-						if key, ok := innerKV.Key.(*ast.BasicLit); ok {
-							if locale := strings.Trim(key.Value, `"`); locale == supportedLocale {
-								alreadyPresent = true
-							}
+						key, _ := getKeyValue(innerKV)
+						locale := localeKeyToCode(key)
+						if locale == supportedLocale {
+							alreadyPresent = true
+							break
 						}
 					}
 				}
@@ -210,7 +231,7 @@ func translateMissing(baseLocale string) error {
 				newKV := &ast.KeyValueExpr{
 					Key: &ast.BasicLit{
 						Kind:  token.STRING,
-						Value: fmt.Sprintf(`"%s"`, locale),
+						Value: localeCodeToKey(locale),
 					},
 					Value: &ast.BasicLit{
 						Kind:  token.STRING,
@@ -219,6 +240,12 @@ func translateMissing(baseLocale string) error {
 				}
 				innerMap.Elts = append(innerMap.Elts, toExprList(newKV)...)
 			}
+
+			sort.Slice(innerMap.Elts, func(i, j int) bool {
+				kI, _ := getKeyValue(innerMap.Elts[i].(*ast.KeyValueExpr))
+				kJ, _ := getKeyValue(innerMap.Elts[j].(*ast.KeyValueExpr))
+				return kI < kJ
+			})
 		}
 
 		return true
