@@ -78,28 +78,29 @@ func TestTRANS(t *testing.T) {
 		}
 	}
 
-	var reportMissing = func(missingType string, missing map[string][]string, expectedLocales []string) string {
-		var s = make([]string, 0, len(missing)*len(expectedLocales)+1)
-		missingTranslationsCount := 0
-		for key, missingLocales := range missing {
-			missingTranslationsCount += len(missingLocales)
-			s = append(s, "\t"+key+": "+strings.Join(missingLocales, ","))
-		}
-		return strings.Join(append([]string{
-			fmt.Sprintf("Missing %d %s translations for %d translation IDs:",
-				missingTranslationsCount, missingType, len(missingRequired),
-			)}, s...), "\n")
-	}
 	if len(missingSupported) > 0 {
-		s := reportMissing("supported", missingSupported, RequiredLocales)
+		s := reportMissingTranslations("supported", missingSupported, RequiredLocales)
 		t.Log(s)
 	}
 	if len(missingRequired) > 0 {
-		s := reportMissing("required", missingRequired, RequiredLocales)
+		s := reportMissingTranslations("required", missingRequired, RequiredLocales)
 		t.Errorf(s)
 	}
 
 	t.Logf("English words count: %d", wordsCount)
+}
+
+func reportMissingTranslations(missingType string, missing map[string][]string, expectedLocales []string) string {
+	var s = make([]string, 0, len(missing)*len(expectedLocales)+1)
+	missingTranslationsCount := 0
+	for key, missingLocales := range missing {
+		missingTranslationsCount += len(missingLocales)
+		s = append(s, "\t"+key+": "+strings.Join(missingLocales, ","))
+	}
+	return strings.Join(append([]string{
+		fmt.Sprintf("Missing %d %s translations for %d translation IDs:",
+			missingTranslationsCount, missingType, len(missing),
+		)}, s...), "\n")
 }
 
 func TestHtmlTags(t *testing.T) {
