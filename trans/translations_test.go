@@ -15,14 +15,21 @@ var (
 func TestTRANS(t *testing.T) {
 	var wordsCount int
 
-	var missing = make(map[string][]string)
+	var missingRequired = make(map[string][]string, len(TRANS))
+	var missingSupported = make(map[string][]string, len(TRANS))
 
 	for key, vals := range TRANS {
 		countsByLang := make(map[string]map[string]int)
 
 		for _, requiredLocale := range RequiredLocales {
 			if _, ok := vals[requiredLocale]; !ok {
-				missing[key] = append(missing[key], requiredLocale)
+				missingRequired[key] = append(missingRequired[key], requiredLocale)
+			}
+		}
+
+		for _, supportedLocale := range SupportedLocales {
+			if _, ok := vals[supportedLocale]; !ok {
+				missingSupported[key] = append(missingSupported[key], supportedLocale)
 			}
 		}
 
@@ -70,18 +77,28 @@ func TestTRANS(t *testing.T) {
 			}
 		}
 	}
-	if len(missing) > 0 {
-		var s = make([]string, 0, len(missing)*len(RequiredLocales)+1)
+
+	var reportMissing = func(missingType string, missing map[string][]string, expectedLocales []string) string {
+		var s = make([]string, 0, len(missing)*len(expectedLocales)+1)
 		missingTranslationsCount := 0
 		for key, missingLocales := range missing {
 			missingTranslationsCount += len(missingLocales)
 			s = append(s, "\t"+key+": "+strings.Join(missingLocales, ","))
 		}
-		t.Errorf(strings.Join(append([]string{
-			fmt.Sprintf("Missing %d translations for %d translation IDs:",
-				missingTranslationsCount, len(missing),
-			)}, s...), "\n"))
+		return strings.Join(append([]string{
+			fmt.Sprintf("Missing %d %s translations for %d translation IDs:",
+				missingTranslationsCount, missingType, len(missingRequired),
+			)}, s...), "\n")
 	}
+	if len(missingSupported) > 0 {
+		s := reportMissing("supported", missingSupported, RequiredLocales)
+		t.Log(s)
+	}
+	if len(missingRequired) > 0 {
+		s := reportMissing("required", missingRequired, RequiredLocales)
+		t.Errorf(s)
+	}
+
 	t.Logf("English words count: %d", wordsCount)
 }
 
