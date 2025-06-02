@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 	"go/ast"
-	"go/format"
 	"go/parser"
+	"go/printer"
 	"go/token"
 	"golang.org/x/text/language"
 	"os"
@@ -174,14 +174,14 @@ func run() error {
 				newKV := &ast.KeyValueExpr{
 					Key: &ast.BasicLit{
 						Kind:  token.STRING,
-						Value: fmt.Sprintf("\n\t\t"+`"%s"`, locale),
+						Value: fmt.Sprintf(`"%s"`, locale),
 					},
 					Value: &ast.BasicLit{
 						Kind:  token.STRING,
-						Value: value + ",\n",
+						Value: value,
 					},
 				}
-				innerMap.Elts = append(innerMap.Elts, newKV)
+				innerMap.Elts = append(innerMap.Elts, toExprList(newKV)...)
 			}
 		}
 
@@ -197,15 +197,24 @@ func run() error {
 		_ = outFile.Close()
 	}(outFile)
 
-	//cfg := &printer.Config{Mode: printer.UseSpaces | printer.TabIndent, Tabwidth: 8}
-	//if err = cfg.Fprint(outFile, fileSet, node); err != nil {
-	//	panic(err)
-	//}
-	// Format AST and write
-	if err = format.Node(outFile, fileSet, node); err != nil {
+	cfg := &printer.Config{Mode: printer.UseSpaces | printer.TabIndent, Tabwidth: 8}
+	if err = cfg.Fprint(outFile, fileSet, node); err != nil {
 		panic(err)
 	}
+	//// Format AST and write
+	//if err = format.Node(outFile, fileSet, node); err != nil {
+	//	panic(err)
+	//}
 	return nil
+}
+
+// toExprList ensures each entry is an Expr with newline potential
+func toExprList(kvs ...*ast.KeyValueExpr) []ast.Expr {
+	out := make([]ast.Expr, len(kvs))
+	for i, kv := range kvs {
+		out[i] = kv
+	}
+	return out
 }
 
 func translateLocale(sourceLang language.Tag, locale string, texts []string) (translatedText []string, err error) {

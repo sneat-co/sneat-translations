@@ -84,7 +84,7 @@ func TestTRANS(t *testing.T) {
 	}
 	if len(missingRequired) > 0 {
 		s := reportMissingTranslations("required", missingRequired, RequiredLocales)
-		t.Errorf(s)
+		t.Error(s)
 	}
 
 	t.Logf("English words count: %d", wordsCount)
