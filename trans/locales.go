@@ -15,11 +15,11 @@ const (
 	frFR = "fr-FR"
 	jaJP = "ja-JP"
 	zhCN = "zh-CN"
-	koKO = "ko-KO"
+	koKR = "ko-KR"
 	deDE = "de-DE"
 	trTR = "tr-TR"
 	idID = "id-ID"
-	uaUA = "ua-UA"
+	ukUA = "uk-UA"
 	ptBR = "pt-BR"
 	uzUZ = "uz-UZ"
 )
@@ -40,13 +40,13 @@ var SupportedLocales = []string{
 	idID,
 	itIT,
 	jaJP,
-	koKO,
+	koKR,
 	plPL,
 	ptBR,
 	ptPT,
 	ruRU,
 	trTR,
-	uaUA,
+	ukUA,
 	uzUZ,
 	zhCN,
 }
