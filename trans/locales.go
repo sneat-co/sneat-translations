@@ -53,9 +53,9 @@ func isSupportedLang(l string) bool {
 	return slices.Contains(SupportedLocales, l)
 }
 
-func isRequiredLang(l string) bool {
-	return slices.Contains(RequiredLocales, l)
-}
+//func isRequiredLang(l string) bool {
+//	return slices.Contains(RequiredLocales, l)
+//}
 
 // SupportedLocales - supported locales
 //var SupportedLocales []i18n.Locale = []i18n.Locale{

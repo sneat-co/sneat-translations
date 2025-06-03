@@ -6067,7 +6067,8 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 		deDE: "Dieser Befehl ist derzeit nur in Gruppenchats verfügbar.",
 		enUK: "This command is available in group chats only for now.",
 		esES: "Este comando está disponible solo en chats grupales por ahora.",
-		faIR: "این دستور فعلاً فقط در چت‌های گروهی موجود است.",
+		//nolint:staticcheck // disable ST1018 for this line
+		faIR: "این دستور فعلاً فقط در چت‌های گروهی در دسترس است.",
 		frFR: "Cette commande est disponible uniquement dans les discussions de groupe pour le moment.",
 		idID: "Perintah ini hanya tersedia di obrolan grup untuk saat ini.",
 		itIT: "Per ora questo comando è disponibile solo nelle chat di gruppo.",
@@ -6086,7 +6087,7 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 		deDE: "Sie haben bereits einen Kontakt mit dem Namen: %v",
 		enUK: "You already have contact with name: %v",
 		esES: "Ya tienes contacto con nombre: %v",
-		faIR: "شما از قبل با نام: %v تماس داشته‌اید.",
+		faIR: "شما از قبل با نام: %v تماس داشته\u200cاید.",
 		frFR: "Vous avez déjà un contact avec le nom : %v",
 		idID: "Anda sudah memiliki kontak dengan nama: %v",
 		itIT: "Hai già un contatto con il nome: %v",
@@ -6519,6 +6520,7 @@ And if you do collective purchases and want to split bills @SplitusBot is here t
 Mi amigo @DebtsTrackerBot rastrea deudas y pagos.
 
 Y si hacen compras en grupo y quieren dividir las facturas, @SplitusBot está aquí para ayudarte.`,
+		//nolint:staticcheck // disable ST1018 for this line
 		faIR: `من به <b>جمع‌آوری پول</b> برای یک هدف خیرخواهانه کمک می‌کنم. مثلاً برای هدیه تولد. 🎉
 
 دوست من @DebtsTrackerBot بدهی‌ها و بازپرداخت‌ها را پیگیری می‌کند.
@@ -6649,8 +6651,8 @@ Agar siz jamoaviy xaridlar qilsangiz va hisob-kitoblarni taqsimlamoqchi bo‘lsa
  /settings - Configuraciones
  /help - Aprende a usar el bot, informa problemas, haz preguntas`,
 		faIR: `<b>دستورات ربات:</b> 
- /groups - فهرست گروه‌ها
- /bills - فهرست صورتحساب‌های معوق
+ /groups - فهرست گروه\u200cها
+ /bills - فهرست صورتحساب\u200cهای معوق
  /menu - منوی اصلی
  /settings - Settings
  /help - یادگیری نحوه استفاده از ربات، گزارش مشکلات، پرسیدن سوال`,
@@ -6755,8 +6757,8 @@ Agar siz jamoaviy xaridlar qilsangiz va hisob-kitoblarni taqsimlamoqchi bo‘lsa
  /help - Aprende a usar el bot, informa problemas, haz preguntas`,
 		faIR: `<b>دستورات ربات:</b> 
 
- /groups - فهرست گروه‌ها
- /fundraisings - فهرست جمع‌آوری کمک‌های مالی فعال
+ /groups - فهرست گروه\u200cها
+ /fundraisings - فهرست جمع\u200cآوری کمک\u200cهای مالی فعال
  /help - نحوه استفاده از ربات را بیاموزید، مشکلات را گزارش دهید، سوال بپرسید`,
 		frFR: `<b>Commandes du bot :</b> 
 
@@ -6849,6 +6851,7 @@ Agar siz jamoaviy xaridlar qilsangiz va hisob-kitoblarni taqsimlamoqchi bo‘lsa
 		deDE: `HIV %v!`,
 		enUK: `Hi %v!`,
 		esES: `¡Hola %v!`,
+		//nolint:staticcheck // disable ST1018 for this line
 		faIR: `اچ‌آی‌وی %v!`,
 		frFR: `VIH %v!`,
 		idID: `HIV %v!`,
@@ -7048,6 +7051,7 @@ Agar siz jamoaviy xaridlar qilsangiz va hisob-kitoblarni taqsimlamoqchi bo‘lsa
 📚 /history - últimas transacciones
 🏁 /balance - mostrar el saldo actual
 ⚙ /settings - ajustar tus preferencias`,
+		//nolint:staticcheck // disable ST1018 for this line
 		faIR: `<b>دستورات ربات</b> 
 🏠 /menu - نمایش منوی اصلی 
 🔙 /return - بازگرداندن بدهی ثبت شده قبلی 
@@ -9402,6 +9406,7 @@ That is why the best is to <b>create bill in Telegram chat just in 2 steps</b>:
  Cualquier miembro del grupo puede compartir la cuenta pulsando el botón <code>Join</code> .
 
  <b>También</b> puedes crear una cuenta directamente en @{{.BotCode}}. En ese caso, tendrías que añadir participantes manualmente.`,
+		//nolint:staticcheck // disable ST1018 for this line
 		faIR: `<b>نحوه ایجاد یک صورتحساب جدید</b> 
 <pre style=";text-align:right;direction:rtl"> صورتحساب - هزینه مشترک بین دو یا چند نفر.</pre> 
 
@@ -11071,6 +11076,7 @@ El interés se calcula diariamente (<i>cada 24 horas</i>) utilizando la fórmula
 		<code>3/30/0/10</code> - 3% por mes con 10 días de período de gracia
 
 ❗ La funcionalidad de % está en fase de prueba BETA, por favor háganoslo saber en @DebtsTrackerGroup si algo no funciona como esperabas.`,
+		//nolint:staticcheck // disable ST1018 for this line
 		faIR: `<b>نرخ بهره و یادداشت‌ها</b>
 
 برای تنظیم نرخ بهره و دوره، پیامی به فرمت زیر ارسال کنید:
@@ -11993,6 +11999,7 @@ You can learn about new features of the bot in @SneatApp channel where <a href="
 He dedicado mucho tiempo a hacer que este bot sea útil, rápido y fiable. Espero que te guste.
 
 Puedes conocer las nuevas funciones del bot en el canal de @SneatApp, donde <a href="https://t.me/StarGiveaways_EN">regalamos 500 🌟 CADA mes</a>.`,
+		//nolint:staticcheck // disable ST1018 for this line
 		faIR: `
  <b>از طرف سازنده ربات</b> : سلام %s!
 
