@@ -631,67 +631,51 @@ var TRANS = map[string]map[string]string{
 		deDE: `Sende mir das Datum, an welches du <b>erneut</b> erinnert werden möchtest, in der Form <i>DD.MM.YEAR</i>.
 <b>Zum Beispiel</b> für den 20. Januar 2017, schreibe:
     <i>20.01.2017</i>`,
-
 		enUK: `To set date for next reminder please send it as a text in format of <i>DD.MM.YEAR</i>.
 <b>For example</b> for 20th of January 2017 submit:
     <i>20.01.2017</i>`,
-
 		enUS: `To set date for next reminder please send it as a text in format of <i>DD.MM.YEAR</i>.
 <b>For example</b> for 20th of January 2017 submit:
     <i>20.01.2017</i>`,
-
 		esES: `Para establecer la fecha recordatoria escribela en el siguiente formato <i>DD.MM.AÑO</i>.
 <b>For example</b> para 20 de Enero 2017 envia:
     <i>20.01.2017</i>`,
-
 		faIR: `لطفاً برای تنظیم یادآور بعدی آنرا با متنی با این فرمت ارسال نمایید. <i>روز.ماه.سال</i>.
 <b>برای مثال</b> برای 15 خرداد 1396 ثبت کنید:
     <i>15.03.1396</i>`,
-
 		frFR: `Pour définir la date du prochain rappel, veuillez l'envoyer sous forme de texte au format <i>JJ.MM.ANNÉE</i>.
 <b>Par exemple</b> pour le 20 janvier 2017, soumettez:
     <i>20.01.2017</i>`,
-
 		idID: `Untuk mengatur tanggal pengingat berikutnya, silakan kirim dalam format teks <i>DD.MM.YEAR</i>.
 <b>Misalnya</b> untuk 20 Januari 2017 kirim:
     <i>20.01.2017</i>`,
-
 		itIT: `Per impostare la data per il promemoria successivo invia il messaggio con la data nel seguente formato <i>GG.MM.ANNO</i>.
 <b>Esempio</b> per indicare la data 20 Gennaio 2017 inserisci:
     <i>20.01.2017</i>`,
-
 		jaJP: `次のリマインダーの日付を設定するには、<i>DD.MM.YEAR</i>の形式でテキストとして送信してください。
 <b>例えば</b>2017年1月20日の場合は次のように送信します:
     <i>20.01.2017</i>`,
-
 		koKR: `다음 알림의 날짜를 설정하려면 <i>DD.MM.YEAR</i> 형식의 텍스트로 보내주세요.
 <b>예를 들어</b> 2017년 1월 20일의 경우 다음과 같이 제출하세요:
     <i>20.01.2017</i>`,
-
 		plPL: `Aby ustawić datę następnego przypomnienia, wyślij ją jako tekst w formacie <i>DD.MM.YEAR</i>.
 <b>Na przykład</b> dla 20 stycznia 2017 r. wyślij:
     <i>20.01.2017</i>`,
-
 		ptBR: `Para definir a data do próximo lembrete, envie-a como texto no formato <i>DD.MM.YEAR</i>.
 <b>Por exemplo</b> para 20 de janeiro de 2017, envie:
     <i>20.01.2017</i>`,
-
 		ruRU: `Чтобы задать дату напопинания напишите её в формате <i>ДД.MM.ГОД</i>.
 <b>Например</b> для 20 января 2017 г. отправьте:
     <i>20.01.2017</i>`,
-
 		trTR: `Bir sonraki hatırlatma için tarih belirlemek üzere <i>GG.AA.YIL</i> formatında metin olarak gönderin.
 <b>Örneğin</b> 20 Ocak 2017 için şunu gönderin:
     <i>20.01.2017</i>`,
-
 		ukUA: `Щоб встановити дату наступного нагадування, надішліть її у форматі <i>ДД.ММ.РІК</i>.
 <b>Наприклад</b> для 20 січня 2017 року надішліть:
     <i>20.01.2017</i>`,
-
 		uzUZ: `Keyingi eslatma uchun sanani belgilash uchun uni <i>KK.OO.YIL</i> formatida matn sifatida yuboring.
 <b>Masalan</b> 2017 yil 20 yanvar uchun quyidagini yuboring:
     <i>20.01.2017</i>`,
-
 		zhCN: `要设置下一次提醒的日期，请以<i>DD.MM.YEAR</i>格式发送文本。
 <b>例如</b>对于2017年1月20日，提交:
     <i>20.01.2017</i>`,
@@ -700,67 +684,51 @@ var TRANS = map[string]map[string]string{
 		deDE: `Sende mir das Datum, an welches du erinnert werden möchtest, in der Form <i>DD.MM.YEAR</i>.
 <b>Zum Beispiel</b> für den 20. Januar 2017, schreibe:
     <i>20.01.2017</i>`,
-
 		enUK: `To set due date please send it as a text in format of <i>DD.MM.YEAR</i>.
 <b>For example</b> for 20th of January 2017 submit:
 <i>20.01.2017</i>`,
-
 		enUS: `To set due date please send it as a text in format of <i>DD.MM.YEAR</i>.
 <b>For example</b> for 20th of January 2017 submit:
 <i>20.01.2017</i>`,
-
 		esES: `Para establecer la fecha de devolución escribela en el siguiente formato <i>DD.MM.AÑO</i>.
 <b>For example</b> para 20 de Enero 2017 envia:
 <i>20.01.2017</i>`,
-
 		faIR: `لطفاً برای تنظیم تاریخ سررسید این فرمت را رعایت فرمایید.<i>روز.ماه.سال</i>.
 <b>برای مثال</b> برای 20 ژانویه 2017 ثبت کنید:
 <i>20.01.2017</i>`,
-
 		frFR: `Pour définir la date d'échéance, veuillez l'envoyer sous forme de texte au format <i>JJ.MM.ANNÉE</i>.
 <b>Par exemple</b> pour le 20 janvier 2017, soumettez:
 <i>20.01.2017</i>`,
-
 		idID: `Untuk mengatur tanggal jatuh tempo, silakan kirim dalam format teks <i>DD.MM.YEAR</i>.
 <b>Misalnya</b> untuk 20 Januari 2017 kirim:
 <i>20.01.2017</i>`,
-
 		itIT: `Per impostare la data di scadenza invia il messaggio con la data nel seguente formato <i>GG.MM.ANNO</i>.
 <b>Esempio</b> per indicare la data 20 Gennaio 2017 inserisci:
 <i>20.01.2017</i>`,
-
 		jaJP: `期日を設定するには、<i>DD.MM.YEAR</i>の形式でテキストとして送信してください。
 <b>例えば</b>2017年1月20日の場合は次のように送信します:
 <i>20.01.2017</i>`,
-
 		koKR: `만기일을 설정하려면 <i>DD.MM.YEAR</i> 형식의 텍스트로 보내주세요.
 <b>예를 들어</b> 2017년 1월 20일의 경우 다음과 같이 제출하세요:
 <i>20.01.2017</i>`,
-
 		plPL: `Aby ustawić termin płatności, wyślij go jako tekst w formacie <i>DD.MM.YEAR</i>.
 <b>Na przykład</b> dla 20 stycznia 2017 r. wyślij:
 <i>20.01.2017</i>`,
-
 		ptBR: `Para definir a data de vencimento, envie-a como texto no formato <i>DD.MM.YEAR</i>.
 <b>Por exemplo</b> para 20 de janeiro de 2017, envie:
 <i>20.01.2017</i>`,
-
 		ruRU: `Чтобы задать дату возврата напишите её в формате <i>ДД.MM.ГОД</i>.
 <b>Например</b> для 20 января 2017 г.отправьте:
 <i>20.01.2017</i>`,
-
 		trTR: `Vade tarihini ayarlamak için <i>GG.AA.YIL</i> formatında metin olarak gönderin.
 <b>Örneğin</b> 20 Ocak 2017 için şunu gönderin:
 <i>20.01.2017</i>`,
-
 		ukUA: `Щоб встановити дату повернення, надішліть її у форматі <i>ДД.ММ.РІК</i>.
 <b>Наприклад</b> для 20 січня 2017 року надішліть:
 <i>20.01.2017</i>`,
-
 		uzUZ: `To'lov muddatini belgilash uchun uni <i>KK.OO.YIL</i> formatida matn sifatida yuboring.
 <b>Masalan</b> 2017 yil 20 yanvar uchun quyidagini yuboring:
 <i>20.01.2017</i>`,
-
 		zhCN: `要设置到期日期，请以<i>DD.MM.YEAR</i>格式发送文本。
 <b>例如</b>对于2017年1月20日，提交:
 <i>20.01.2017</i>`,
@@ -1821,8 +1789,8 @@ var TRANS = map[string]map[string]string{
 		deDE: "%v bekommt %v von dir, spätestens in %v",
 		enUK: "%v expects %v from you in %v",
 		esES: "%v espera %v que devuelvas en %v",
-		itIT: "%v aspetta %v da te entro il %v",
 		faIR: "%v انتظار دارد %v از شما در %v",
+		itIT: "%v aspetta %v da te entro il %v",
 		ruRU: "%v ожидает от вас возврата %v через %v",
 	},
 	MESSAGE_TEXT_DUE_RETURNS_ROW_BY_COUNTERPARTY: {
@@ -2005,7 +1973,6 @@ Es ist besser, wenn du den Link in HTML versteckst als:
 Dies sollte von Telegram-Clients so dargestellt werden: <a href="%v">@%v</a>
 
 Die Top 5 Empfehlungen der letzten 100 neuen Benutzer werden hier angezeigt.`,
-
 		enUK: `To add your channel to the list just write about us with a link as %v <code>&lt;-</code> replace <code>YOUR_CHANNEL</code> with your own channel.
 
 It's better if you hide the link in HTML as:
@@ -2015,7 +1982,6 @@ It's better if you hide the link in HTML as:
 This should be rendered by Telegram clients as: <a href="%v">@%v</a>
 
 Top 5 referrers for the last 100 new users will be shown here.`,
-
 		enUS: `To add your channel to the list just write about us with a link as %v <code>&lt;-</code> replace <code>YOUR_CHANNEL</code> with your own channel.
 
 It's better if you hide the link in HTML as:
@@ -2025,7 +1991,6 @@ It's better if you hide the link in HTML as:
 This should be rendered by Telegram clients as: <a href="%v">@%v</a>
 
 Top 5 referrers for the last 100 new users will be shown here.`,
-
 		esES: `Para añadir tu canal a la lista, simplemente escribe sobre nosotros con un enlace como %v <code>&lt;-</code> reemplaza <code>YOUR_CHANNEL</code> con tu propio canal.
 
 Es mejor si ocultas el enlace en HTML como:
@@ -2035,7 +2000,6 @@ Es mejor si ocultas el enlace en HTML como:
 Esto debería ser renderizado por los clientes de Telegram como: <a href="%v">@%v</a>
 
 Los 5 principales referentes de los últimos 100 nuevos usuarios se mostrarán aquí.`,
-
 		faIR: `برای اضافه کردن کانال خود به لیست، فقط درباره ما با لینکی مانند %v <code>&lt;-</code> بنویسید و <code>YOUR_CHANNEL</code> را با کانال خود جایگزین کنید.
 
 بهتر است اگر لینک را در HTML به این صورت پنهان کنید:
@@ -2045,7 +2009,6 @@ Los 5 principales referentes de los últimos 100 nuevos usuarios se mostrarán a
 این باید توسط کلاینت\u200cهای تلگرام به این صورت نمایش داده شود: <a href="%v">@%v</a>
 
 5 معرف برتر برای 100 کاربر جدید آخر در اینجا نشان داده خواهد شد.`,
-
 		frFR: `Pour ajouter votre chaîne à la liste, écrivez simplement à propos de nous avec un lien comme %v <code>&lt;-</code> remplacez <code>YOUR_CHANNEL</code> par votre propre chaîne.
 
 C'est mieux si vous cachez le lien en HTML comme:
@@ -2055,7 +2018,6 @@ C'est mieux si vous cachez le lien en HTML comme:
 Cela devrait être rendu par les clients Telegram comme: <a href="%v">@%v</a>
 
 Les 5 principaux référents pour les 100 derniers nouveaux utilisateurs seront affichés ici.`,
-
 		idID: `Untuk menambahkan saluran Anda ke daftar, cukup tulis tentang kami dengan tautan sebagai %v <code>&lt;-</code> ganti <code>YOUR_CHANNEL</code> dengan saluran Anda sendiri.
 
 Lebih baik jika Anda menyembunyikan tautan dalam HTML sebagai:
@@ -2065,7 +2027,6 @@ Lebih baik jika Anda menyembunyikan tautan dalam HTML sebagai:
 Ini harus dirender oleh klien Telegram sebagai: <a href="%v">@%v</a>
 
 5 referensi teratas untuk 100 pengguna baru terakhir akan ditampilkan di sini.`,
-
 		itIT: `Per aggiungere il tuo canale all'elenco, scrivi semplicemente di noi con un link come %v <code>&lt;-</code> sostituisci <code>YOUR_CHANNEL</code> con il tuo canale.
 
 È meglio se nascondi il link in HTML come:
@@ -2075,7 +2036,6 @@ Ini harus dirender oleh klien Telegram sebagai: <a href="%v">@%v</a>
 Questo dovrebbe essere visualizzato dai client Telegram come: <a href="%v">@%v</a>
 
 I primi 5 referenti per gli ultimi 100 nuovi utenti saranno mostrati qui.`,
-
 		jaJP: `あなたのチャンネルをリストに追加するには、%v <code>&lt;-</code> のようなリンクで私たちについて書くだけです。<code>YOUR_CHANNEL</code>をあなた自身のチャンネルに置き換えてください。
 
 HTMLでリンクを隠すとより良いでしょう：
@@ -2085,7 +2045,6 @@ HTMLでリンクを隠すとより良いでしょう：
 これはTelegramクライアントによって次のように表示されるはずです： <a href="%v">@%v</a>
 
 最後の100人の新規ユーザーのトップ5紹介者がここに表示されます。`,
-
 		koKR: `채널을 목록에 추가하려면 %v <code>&lt;-</code>와 같은 링크로 우리에 대해 작성하세요. <code>YOUR_CHANNEL</code>을 자신의 채널로 바꾸세요.
 
 HTML에서 링크를 숨기는 것이 좋습니다:
@@ -2095,7 +2054,6 @@ HTML에서 링크를 숨기는 것이 좋습니다:
 이것은 Telegram 클라이언트에서 다음과 같이 렌더링되어야 합니다: <a href="%v">@%v</a>
 
 최근 100명의 새 사용자에 대한 상위 5개 추천인이 여기에 표시됩니다.`,
-
 		plPL: `Aby dodać swój kanał do listy, po prostu napisz o nas z linkiem jako %v <code>&lt;-</code> zastąp <code>YOUR_CHANNEL</code> swoim własnym kanałem.
 
 Lepiej, jeśli ukryjesz link w HTML jako:
@@ -2105,7 +2063,6 @@ Lepiej, jeśli ukryjesz link w HTML jako:
 Powinno to być renderowane przez klientów Telegram jako: <a href="%v">@%v</a>
 
 Tutaj zostanie wyświetlonych 5 najlepszych polecających dla ostatnich 100 nowych użytkowników.`,
-
 		ptBR: `Para adicionar seu canal à lista, basta escrever sobre nós com um link como %v <code>&lt;-</code> substitua <code>YOUR_CHANNEL</code> pelo seu próprio canal.
 
 É melhor se você ocultar o link em HTML como:
@@ -2115,7 +2072,6 @@ Tutaj zostanie wyświetlonych 5 najlepszych polecających dla ostatnich 100 nowy
 Isso deve ser renderizado pelos clientes do Telegram como: <a href="%v">@%v</a>
 
 Os 5 principais referenciadores para os últimos 100 novos usuários serão mostrados aqui.`,
-
 		ruRU: `Чтобы добавить ваш канал в этот список просто напишите об этом боте использую ссылку вида %v <code>&lt;-</code> замените <code>YOUR_CHANNEL</code> на ваш канал.
 
 Будет лучше  если вы спрячете её в HTML как:
@@ -2125,7 +2081,6 @@ Os 5 principais referenciadores para os últimos 100 novos usuários serão most
 Такой код должен отобразиться в Телеграмме как: <a href="%v">@%v</a>
 
 Топ-5 источников последних 100 пользователей будут показаны здесь.`,
-
 		trTR: `Kanalınızı listeye eklemek için sadece %v <code>&lt;-</code> gibi bir bağlantı ile hakkımızda yazın, <code>YOUR_CHANNEL</code> yerine kendi kanalınızı yazın.
 
 Bağlantıyı HTML'de şu şekilde gizlerseniz daha iyi olur:
@@ -2135,7 +2090,6 @@ Bağlantıyı HTML'de şu şekilde gizlerseniz daha iyi olur:
 Bu, Telegram istemcileri tarafından şöyle görüntülenmelidir: <a href="%v">@%v</a>
 
 Son 100 yeni kullanıcı için en iyi 5 referans burada gösterilecektir.`,
-
 		ukUA: `Щоб додати свій канал до списку, просто напишіть про нас із посиланням як %v <code>&lt;-</code> замініть <code>YOUR_CHANNEL</code> на свій власний канал.
 
 Краще, якщо ви приховаєте посилання в HTML як:
@@ -2145,7 +2099,6 @@ Son 100 yeni kullanıcı için en iyi 5 referans burada gösterilecektir.`,
 Це має відображатися клієнтами Telegram як: <a href="%v">@%v</a>
 
 Тут буде показано 5 найкращих рекомендацій для останніх 100 нових користувачів.`,
-
 		uzUZ: `Kanalingizni ro'yxatga qo'shish uchun shunchaki %v <code>&lt;-</code> kabi havola bilan biz haqimizda yozing, <code>YOUR_CHANNEL</code> o'rniga o'z kanalingizni yozing.
 
 Havolani HTML-da quyidagicha yashirsangiz yaxshiroq bo'ladi:
@@ -2155,7 +2108,6 @@ Havolani HTML-da quyidagicha yashirsangiz yaxshiroq bo'ladi:
 Bu Telegram mijozlari tomonidan quyidagicha ko'rsatilishi kerak: <a href="%v">@%v</a>
 
 Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerda ko'rsatiladi.`,
-
 		zhCN: `要将您的频道添加到列表中，只需使用链接 %v <code>&lt;-</code> 写下关于我们的信息，将 <code>YOUR_CHANNEL</code> 替换为您自己的频道。
 
 如果您在HTML中隐藏链接会更好：
@@ -2438,81 +2390,65 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 		Du kannst in eintippen oder aus deinem Adressbuch wählen (<i>mit dem "Büroklammer"-Symbol und dann Kontakt</i>).
 
 		<i>Send '.' to cancel</i>`,
-
 		enUK: `Please enter a name for the new contact:
 		You can type manually or choose from your address book (<i>through "clip" icon</i>).
 
 		<i>Send '.' to cancel</i>`,
-
 		enUS: `Please enter a name for the new contact:
 		You can type manually or choose from your address book (<i>through "clip" icon</i>).
 
 		<i>Send '.' to cancel</i>`,
-
 		esES: `Escribe un nombre para el nuevo contacto:
 		Puedes escribirlo o elegirlo de tus contactos (<i>a traves del icono "clip"</i>).
 
 		<i>Enviar '.' para anular</i>`,
-
 		faIR: `لطفا برای مخاطب جدید یک نام وارد کنید:
 		میتوانید به صورت دستی تایپ نموده یا از لیست مخاطبین خود انتخاب نمایید (<i>throw "clip" icon</i>).
 
 		<i>Send '.' برای کنسل کردن</i>`,
-
 		frFR: `Veuillez entrer un nom pour le nouveau contact:
 		Vous pouvez taper manuellement ou choisir dans votre carnet d'adresses (<i>via l'icône "trombone"</i>).
 
 		<i>Envoyez '.' pour annuler</i>`,
-
 		idID: `Silakan masukkan nama untuk kontak baru:
 		Anda dapat mengetik secara manual atau memilih dari buku alamat Anda (<i>melalui ikon "klip"</i>).
 
 		<i>Kirim '.' untuk membatalkan</i>`,
-
 		itIT: `Inserisci un nome per il nuovo contatto:
 		Puoi digitarlo o sceglierlo dalla tua rubrica (<i>attraverso l'icona "clip"</i>).
 
 		<i>Digita '.' ed invia per annullare</i>`,
-
 		jaJP: `新しい連絡先の名前を入力してください:
 		手動で入力するか、アドレス帳から選択できます（<i>「クリップ」アイコンを通じて</i>）。
 
 		<i>キャンセルするには '.' を送信してください</i>`,
-
 		koKR: `새 연락처의 이름을 입력하세요:
 		수동으로 입력하거나 주소록에서 선택할 수 있습니다 (<i>"클립" 아이콘을 통해</i>).
 
 		<i>취소하려면 '.'를 보내세요</i>`,
-
 		plPL: `Wprowadź nazwę dla nowego kontaktu:
 		Możesz wpisać ręcznie lub wybrać z książki adresowej (<i>przez ikonę "spinacza"</i>).
 
 		<i>Wyślij '.' aby anulować</i>`,
-
 		ptBR: `Por favor, digite um nome para o novo contato:
 		Você pode digitar manualmente ou escolher do seu livro de endereços (<i>através do ícone "clipe"</i>).
 
 		<i>Envie '.' para cancelar</i>`,
-
 		ruRU: `<b>Имя для нового контакта</b>
 		Напишите сами или выберите из своей адресной книги (<i>через иконку "скрепка"</i>).
 		<i>Отправьте '.' для отмены</i>`,
-
 		trTR: `Yeni kişi için bir isim girin:
 		Manuel olarak yazabilir veya adres defterinizden seçebilirsiniz (<i>"ataç" simgesi aracılığıyla</i>).
 
 		<i>İptal etmek için '.' gönderin</i>`,
-
 		ukUA: `Будь ласка, введіть ім'я для нового контакту:
 		Ви можете ввести вручну або вибрати з адресної книги (<i>через іконку "скріпка"</i>).
 
 		<i>Надішліть '.' для скасування</i>`,
-
 		uzUZ: `Yangi kontakt uchun ism kiriting:
 		Siz qo'lda yozishingiz yoki manzillar kitobingizdan tanlashingiz mumkin (<i>"qisqich" belgisi orqali</i>).
 
 		<i>Bekor qilish uchun '.' yuboring</i>`,
-
 		zhCN: `请输入新联系人的名称:
 		您可以手动输入或从通讯录中选择（<i>通过"回形针"图标</i>）。
 
@@ -2673,53 +2609,37 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	MESSAGE_TEXT_TRANSFER_DECLINED_BY_YOU: {
 		deDE: `Du hast dieser Anfrage nicht zugestimmt.
 		Der Vorgang wird zurückgestellt und die Gegenpartei benachrichtigt.`,
-
 		enUK: `You do not agree with this transaction.
                 The transaction will not be deleted but the creator will be notified.`,
-
 		enUS: `You do not agree with this transaction.
                 The transaction will not be deleted but the creator will be notified.`,
-
 		esES: `No estas de acuerdo con la transacción.
 		La transacción NO será cancelada, pero el creador será notificado.`,
-
 		faIR: `شما با این تراکنش موافق نیستید.
 		تراکنش حذف نخواهد شد اما به ایجاد کننده اطلاع داده خواهد شد.`,
-
 		frFR: `Vous n'êtes pas d'accord avec cette transaction.
 		La transaction ne sera pas supprimée mais le créateur sera notifié.`,
-
 		idID: `Anda tidak setuju dengan transaksi ini.
 		Transaksi tidak akan dihapus tetapi pembuat akan diberi tahu.`,
-
 		itIT: `Hai rifiutato il debito/credito.
 		La transazione non sarà eliminata ma il creatore sarà avvisato.`,
-
 		jaJP: `このトランザクションに同意しません。
 		トランザクションは削除されませんが、作成者に通知されます。`,
-
 		koKR: `이 거래에 동의하지 않습니다.
 		거래는 삭제되지 않지만 생성자에게 알림이 갑니다.`,
-
 		plPL: `Nie zgadzasz się z tą transakcją.
 		Transakcja nie zostanie usunięta, ale twórca zostanie powiadomiony.`,
-
 		ptBR: `Você não concorda com esta transação.
 		A transação não será excluída, mas o criador será notificado.`,
-
 		ruRU: `Вы НЕ согласны с этой транзакцией.
 
 Сама транзакция НЕ будет отменена, но создатель будет оповещён.`,
-
 		trTR: `Bu işleme katılmıyorsunuz.
 		İşlem silinmeyecek ancak oluşturucu bilgilendirilecek.`,
-
 		ukUA: `Ви не згодні з цією транзакцією.
 		Транзакція не буде видалена, але творець буде повідомлений.`,
-
 		uzUZ: `Siz ushbu tranzaksiyaga rozi emassiz.
 		Tranzaksiya o'chirilmaydi, lekin yaratuvchi xabardor qilinadi.`,
-
 		zhCN: `您不同意此交易。
 		交易不会被删除，但创建者会收到通知。`,
 	},
@@ -2866,7 +2786,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 		enUS: `🤖: I'm a good robot, for sure.But sometimes it is more convinient to use a nice specialized app.It's not ready for public use yet but you can check how it is going to looks: <a href="https://debtstracker.io/en/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/en/</a>
 
 	Do you want to get an invite when it gets released?`,
-
 		esES: `🤖: Claro que soy un robot encantador, pero más comodo usar una aplicación especial.No esta disponible ya pero se puede ver como será: <a href = "https://debtstracker.io/es/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/en/</a>
 
 	¿Quieres que te avisemos cuando esté lista?`,
@@ -2879,7 +2798,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 		idID: `🤖: I'm a good robot, for sure.But sometimes it is more convinient to use a nice specialized app.It's not ready for public use yet but you can check how it is going to looks: <a href="https://debtstracker.io/id/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/id/</a>
 
 	Do you want to get an invite when it gets released?`,
-
 		itIT: `🤖: Di sicuro son un bravo bot, ma alcune volte e' piu' conveniente usare un'applicazione specializzata. Non e' ancora pronta per la pubblicazione ma puoi controllare l'avanzamento a questo indirizzo: <a href="https://debtstracker.io/it/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/it/</a>
 
 	Vuoi essere invitato non appena viene rilasciata?`,
@@ -2895,7 +2813,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 		ptBR: `🤖: I'm a good robot, for sure.But sometimes it is more convinient to use a nice specialized app.It's not ready for public use yet but you can check how it is going to looks: <a href="https://debtstracker.io/pt/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/pt/</a>
 
 	Do you want to get an invite when it gets released?`,
-
 		ruRU: `🤖: Я конечно обоятельный робот, но пользоваться специализированным приложением бывает удобнее. Оно ещё не готово для общего доступа, но уже сейчас можно посмотреть как будет выглядеть: <a href="https://debtstracker.io/ru/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/ru/</a>
 
 		Хотите получить оповещение когда оно выйдет?`,
@@ -2951,71 +2868,54 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 		zhCN: "<b>What did you lend to someone?</b>",
 	},
 	MESSAGE_TEXT_CHOOSE_CURRENCY: {
-
 		deDE: `Bitte wähle <a>eine Währung aus der Liste</a>.
 
 	Falls die Standardoptionen nicht reichen, sende mir einen Text. Zum Beispiel: <i>Äpfel</i>".`,
-
 		enUK: `Please choose from the options below or <a>select a currency from the list</a>.
 
 	If standard options are not enough simply send a text.For example: "<i>apple</i>".`,
-
 		enUS: `Please choose from the options below or <a>select a currency from the list</a>.
 
 	If standard options are not enough simply send a text.For example: "<i>apple</i>".`,
-
 		esES: `Elige del menú abajo de la pantalla o <a>selecciona la moneda de la lista</a>.
 
 	Si no encuentras la opción correcta simplemente envía un texto. Por ejemplo: "<i>manzana</i>".`,
-
 		faIR: `لطفا از بین گزینه های زیر انتخاب کنید یا <a>یک واحد پولی از لیست انتخاب کنید</a>.
 
 	اگر گزینه های استاندارد کافی نبودند به سادگی یک متن بفرستید ، برای مثال:. "<i>سیب</i>".`,
-
 		frFR: `Please choose from the options below or <a>select a currency from the list</a>.
 
 	If standard options are not enough simply send a text.For example: "<i>apple</i>".`,
-
 		idID: `Please choose from the options below or <a>select a currency from the list</a>.
 
 	If standard options are not enough simply send a text.For example: "<i>apple</i>".`,
-
 		itIT: `Scegli dalle opzioni qui sotto o <a>seleziona una valuta dalla lista</a>.
 
 	Se le opzioni standard non bastano semplicemente invia un testo.Per esempio: "<i>mele</i>".`,
-
 		jaJP: `Please choose from the options below or <a>select a currency from the list</a>.
 
 	If standard options are not enough simply send a text.For example: "<i>apple</i>".`,
-
 		koKR: `Please choose from the options below or <a>select a currency from the list</a>.
 
 	If standard options are not enough simply send a text.For example: "<i>apple</i>".`,
-
 		plPL: `Please choose from the options below or <a>select a currency from the list</a>.
 
 	If standard options are not enough simply send a text.For example: "<i>apple</i>".`,
-
 		ptBR: `Please choose from the options below or <a>select a currency from the list</a>.
 
 	If standard options are not enough simply send a text.For example: "<i>apple</i>".`,
-
 		ruRU: `Выберите из меню внизу экрана или <a>выберите валюту из списка</a>.
 
 	Если ни один из стандартных вариантов не подходит просто напишите текстом.Например: "<i>яблоко</i>".`,
-
 		trTR: `Please choose from the options below or <a>select a currency from the list</a>.
 
 	If standard options are not enough simply send a text.For example: "<i>apple</i>".`,
-
 		ukUA: `Please choose from the options below or <a>select a currency from the list</a>.
 
 	If standard options are not enough simply send a text.For example: "<i>apple</i>".`,
-
 		uzUZ: `Please choose from the options below or <a>select a currency from the list</a>.
 
 	If standard options are not enough simply send a text.For example: "<i>apple</i>".`,
-
 		zhCN: `Please choose from the options below or <a>select a currency from the list</a>.
 
 	If standard options are not enough simply send a text.For example: "<i>apple</i>".`,
@@ -3294,8 +3194,8 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 		faIR: "{{.Counterparty}} از شما {{.Amount}} قرض گرفته است .",
 		frFR: "{{.Counterparty}} borrowed from you {{.Amount}}.",
 		idID: "{{.Counterparty}} borrowed from you {{.Amount}}.",
-		//itIT:   "{{.Counterparty}} ha preso in prestito da te {{.Amount}}.",
-		itIT: "{{.Counterparty}} e' in debito di {{.Amount}} con te.",
+		itIT://itIT:   "{{.Counterparty}} ha preso in prestito da te {{.Amount}}.",
+		"{{.Counterparty}} e' in debito di {{.Amount}} con te.",
 		jaJP: "{{.Counterparty}} borrowed from you {{.Amount}}.",
 		koKR: "{{.Counterparty}} borrowed from you {{.Amount}}.",
 		plPL: "{{.Counterparty}} borrowed from you {{.Amount}}.",
@@ -3367,8 +3267,8 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 		deDE: "Diese Schuld ist bereits vollständig beglichen.",
 		enUK: "This debts is already fully returned.",
 		esES: "Esta deuda se ha devuelta totalmente.",
-		itIT: "Questi debiti sono già completamente restituiti.",
 		faIR: "این بدهی ها در حال حاضر به طور کامل بازگشته است.",
+		itIT: "Questi debiti sono già completamente restituiti.",
 		ruRU: "Этот долг уже полностью возвращён.",
 	},
 	MESSAGE_TEXT_RECEIPT_ALREADY_RETURNED_AMOUNT: {
@@ -3415,8 +3315,8 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 		deDE: `<a>Hier klicken</a>, um sich an der Wep-App anzumelden.`,
 		enUK: `Click to <a>sign in</a> to web-app.`,
 		esES: `Haz click para <a>acceder</a>la web-app.`,
-		itIT: "Fai clic per <a>accedi</a> per app web.",
 		faIR: `کلیک کنید تا <a>وارد شوید</a> برنامه وب.`,
+		itIT: "Fai clic per <a>accedi</a> per app web.",
 		ruRU: `Перейдите по <a>ссылке</a> чтобы запустить web-приложение.`,
 	},
 	MESSAGE_TEXT_DO_YOU_LIKE_OUR_BOT: {
@@ -3439,40 +3339,40 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 		deDE: "%v Ja",
 		enUK: "%v Yes",
 		esES: "%v Sí",
-		itIT: "%v Si",
 		faIR: "بله %v",
+		itIT: "%v Si",
 		ruRU: "%v Да",
 	},
 	COMMAND_TEXT_NO: {
 		deDE: "%v Nein",
 		enUK: "%v No",
 		esES: "%v No",
-		itIT: "%v No",
 		faIR: "خیر %v",
+		itIT: "%v No",
 		ruRU: "%v Нет",
 	},
 	COMMAND_TEXT_NOT_TOO_MUCH: {
 		deDE: "%v Nicht so sehr",
 		enUK: "%v Not too much",
 		esES: "%vNo mucho",
-		itIT: "%v Non troppo",
 		faIR: "نه خیلی زیاد %v",
+		itIT: "%v Non troppo",
 		ruRU: "%v Не очень",
 	},
 	COMMAND_TEXT_FEEDBACK: {
 		deDE: "/Bewertung",
 		enUK: "/Feedback",
 		esES: "/Respuesta",
-		itIT: "/Risposta",
 		faIR: "/بازخورد",
+		itIT: "/Risposta",
 		ruRU: "/Отзыв",
 	},
 	COMMAND_TEXT_WRITE_FEEDBACK: {
 		deDE: "%v Bewertung schreiben",
 		enUK: "%v Write feedback",
 		esES: "%v Escribir un comentario",
-		itIT: "%v Scrivi commenti",
 		faIR: "ارسال بازخورد %v",
+		itIT: "%v Scrivi commenti",
 		ruRU: "%v Написать отзыв",
 	},
 	MESSAGE_TEXT_THANKS: {
@@ -3510,21 +3410,16 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 		ruRU: "Пожалуйста отправьте текст.",
 	},
 	MESSAGE_TEXT_CAN_YOU_RATE_AT_STOREBOT: {
-
 		deDE: `🤖 Kannst du mich im Store Bot hoch bewerten und eine gute Bewertung schreiben?
 		Es wird dich weniger als eine Minute kosten! 😇`,
 		enUK: `🤖 Can you rate it high and write a good review in bots catalog Store Bot?
 		It will take less than a minute of your time! 😇`,
-
 		esES: `🤖 Puedes valolarlo con una buena nota y una buena opinión en el catálogo Store Bot?
 		Te costará menos de un minuto! 😇`,
-
 		faIR: `🤖  آیا می توانید در کاتالوگ روباتها در استور بوت امتیاز بالایی داده و اظهار نظر خوبی در مورد این روبات ثبت کنید؟
 		این کار کمتر از یک دقیقه از وقت شما را می گیرد! 😇`,
-
 		itIT: `🤖 Puoi votarlo in alto e scrivere una buona revisione nel catalogo Bot Store?
 		Ci vorrà meno di un minuto del tuo tempo! 😇`,
-
 		ruRU: `🤖 Можете поставить ему высокую оценку и хороший отзыв в каталоге ботов Store Bot?
 		Это займет меньше минуты вашего времени! 😇`,
 	},
@@ -3537,7 +3432,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 		ruRU: "Поделитесь вашими мыслями (на русском или английском) о том, что нужно сделать, чтобы бот стал лучше:",
 	},
 	MESSAGE_TEXT_HOW_TO_RATE_AT_STOREBOT: {
-
 		deDE: `<b>Wie man bewertet - in 3 einfachen Schritten:</b>
 
 	1. Klick auf diesen Link, um eine Bewertung abzugeben:
@@ -3548,7 +3442,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	3. Schreib etwas Nettes auf Englisch oder wähle "Skip this step"
 
 	Wirklich vielen Dank! Dank deiner Bewertung werden vielleicht mehr Leute auf diesen Bot aufmerksam. Das ist gut für die Motivation der Entwickler dieses Bots! 😎`,
-
 		enUK: `<b>How to rate in 3 simple steps:</b>
 
 	1. Click on this link to rate and review:
@@ -3559,7 +3452,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	3. Write your message or press "Skip this step" button
 
 	Thank you very much! As a result of your actions, even more people will learn about the bot.All this will serve as the additional motivation for the developers! 😎`,
-
 		esES: `<b>Como valorar en 3 simples pasos:</b>
 
 	1. Click este link para valorar y dejar tu opinión:
@@ -3570,17 +3462,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	3. Escribe tu mensage o apreta "Skip this step" botón
 
 	¡Muchas gracias! Merced a tus acciones más gente conocerá a bot. Todo eso sirve para una motivación adicional a los creadores! 😎`,
-
-		itIT: `<b>Come valutare in 3 semplici passaggi:</b>
-	1. Clicca su questo link per votare e lasciare una recensione:
-	https://t.me/storebot?start={{bot}}
-
-	2. Clicca sul "⭐️⭐️⭐️⭐️⭐️" bottone
-
-	3. Scrivi il tuo messaggio o premi "Salta questo step"
-
-	Grazie infinitamente! Come risultato delle tue azioni, altre persone guarderanno il bot.Dando anche un motivo in più per continuare ai developers! 😎`,
-
 		faIR: `<b>چگونگی امتیازدهی در سه گام ساده :</b>
 
 	1. برای امتیازدهی و ثبت نظرات بر روی لینگ زیر کلیک کنید
@@ -3591,7 +3472,15 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	3. پیام خودرا ثبت کنید یا روی دکمه "پرش از این مرحله" کلیک کنید
 
 	بسیار سپاسگزاریم! عمل شما باعث می شود افراد بیشتری در مورد bot.All بیاموزند. این امر انگیزه مضاعفی به توسعه دهندگان این ربات می دهد ! 😎`,
+		itIT: `<b>Come valutare in 3 semplici passaggi:</b>
+	1. Clicca su questo link per votare e lasciare una recensione:
+	https://t.me/storebot?start={{bot}}
 
+	2. Clicca sul "⭐️⭐️⭐️⭐️⭐️" bottone
+
+	3. Scrivi il tuo messaggio o premi "Salta questo step"
+
+	Grazie infinitamente! Come risultato delle tue azioni, altre persone guarderanno il bot.Dando anche un motivo in più per continuare ai developers! 😎`,
 		ruRU: `<b>Как поставить оценку в три простых шага:</b>
 
 	1. Перейдите по ссылке, чтобы оставить оценку и отзыв:
@@ -4788,22 +4677,22 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 		deDE: "\n   <i>schuldet {{.Owes}}</i>",
 		enUK: "\n   <i>owes {{.Owes}}</i>",
 		esES: "\n   <i>debo {{.Owes}}</i>",
-		ruRU: "\n   <i>должен {{.Owes}}</i>",
 		faIR: "\n   <i>بدهکار است {{.Owes}}</i>",
+		ruRU: "\n   <i>должен {{.Owes}}</i>",
 	},
 	MESSAGE_TEXT_BILL_CARD_MEMBERS_ROW_PAID: {
 		deDE: "\n   <i>bezahlte {{.Paid}}</i>",
 		enUK: "\n   <i>paid {{.Paid}}</i>",
 		esES: "\n   <i>he pagado {{.Paid}}</i>",
-		ruRU: "\n   <i>заплатил {{.Paid}}</i>",
 		faIR: "\n   <i>پرداخت شده {{.Paid}}</i>",
+		ruRU: "\n   <i>заплатил {{.Paid}}</i>",
 	},
 	MESSAGE_TEXT_BILL_CARD_MEMBERS_ROW_PART_PAID: {
 		deDE: "\n<i>bezahlte {{.Paid}}, schuldet noch {{.Owes}}</i>",
 		enUK: "\n<i>paid {{.Paid}}, owes {{.Owes}}</i>",
 		esES: "\n<i>he pagado {{.Paid}}, debo {{.Owes}}</i>",
-		ruRU: "\n<i>заплатил {{.Paid}}, должен {{.Owes}}</i>",
 		faIR: "\n<i>پرداخت شده {{.Paid}}, بدهکار است {{.Owes}}</i>",
+		ruRU: "\n<i>заплатил {{.Paid}}, должен {{.Owes}}</i>",
 	},
 	MESSAGE_TEXT_BILL_ASK_WHO_PAID: {
 		deDE: "Bitte wähle, wer die Rechnung gezahlt hat:",
@@ -4873,9 +4762,9 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 		deDE: "Gleichverteilt",
 		enUK: "Equally",
 		esES: "A partes iguales",
-		ruRU: "Поровну",
 		faIR: "به همان اندازه",
 		itIT: "Ugualmente",
+		ruRU: "Поровну",
 	},
 	SPLIT_MODE_PERCENTAGE: {
 		deDE: "Prozentual",
@@ -5388,7 +5277,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 Mein Freund @DebtsTrackerBot überwacht Schulden und deren Rückzahlungen.
 
 Wenn du Geld für irgendwas sammeln willst, kann @SplitusBot dir dabei helfen.`,
-
 		enUK: `I help to <b>collect money</b> for a good cause. For example for a birthday present. 🎉
 
 My buddy @DebtsTrackerBot is tracking debts & paybacks.
@@ -5451,24 +5339,27 @@ And if you do collective purchases and want to split bills @SplitusBot is here t
 	/fundraisings - Список активных сборов
 	/help - Узнать как использовать, сообщить о проблеме, задать вопрос`,
 	},
-	MESSAGE_TEXT_SEND_HELP_COMMAND_FOR_HELP: { // This is the same for all languages.
-		deDE: `Sende /help für Hilfe über den Umgang mit diesen Bot.`,
+	MESSAGE_TEXT_SEND_HELP_COMMAND_FOR_HELP: {
+		deDE:// This is the same for all languages.
+		`Sende /help für Hilfe über den Umgang mit diesen Bot.`,
 		enUK: `Send /help for details on how to use this bot.`,
 		esES: ``,
 		faIR: ``,
 		itIT: ``,
 		ruRU: `Отправьте /help для справки по использованию бота.`,
 	},
-	MESSAGE_TEXT_HI: { // This is the same for all languages.
-		deDE: `¡Hola! Hi! Привет! سلام! Hallo!`,
+	MESSAGE_TEXT_HI: {
+		deDE:// This is the same for all languages.
+		`¡Hola! Hi! Привет! سلام! Hallo!`,
 		enUK: `¡Hola! Hi! Привет! سلام! Hallo!`,
 		esES: `¡Hola! Hi! Привет! سلام! Hallo!`,
 		faIR: `¡Hola! Hi! Привет! سلام! Hallo!`,
 		itIT: `¡Hola! Hi! Привет! سلام! Hallo!`,
 		ruRU: `¡Hola! Hi! Привет! سلام! Hallo!`,
 	},
-	MESSAGE_TEXT_HI_USERNAME: { // This is the same for all languages.
-		deDE: `Hi %v!`,
+	MESSAGE_TEXT_HI_USERNAME: {
+		deDE:// This is the same for all languages.
+		`Hi %v!`,
 		enUK: `Hi %v!`,
 		esES: `¡Hola %v!`,
 		faIR: ``,
@@ -5483,8 +5374,9 @@ And if you do collective purchases and want to split bills @SplitusBot is here t
 		itIT: `Puoi tornare al menu' principale tramite /menu`,
 		ruRU: `Можно вернуться назад в главное /меню`,
 	},
-	MESSAGE_TEXT_YOUR_SELECTED_PREFERRED_LANGUAGE: { // This is the same for all languages.
-		deDE: `Bevorzugte Sprache: %s`,
+	MESSAGE_TEXT_YOUR_SELECTED_PREFERRED_LANGUAGE: {
+		deDE:// This is the same for all languages.
+		`Bevorzugte Sprache: %s`,
 		enUK: `Preferred bot language: %s`,
 		esES: `Idioma favorito del bot: %s`,
 		faIR: `زبان برنامه: %s`,
@@ -5540,7 +5432,6 @@ And if you do collective purchases and want to split bills @SplitusBot is here t
 📚 /history - latest transactions
 🏁 /balance - display current balance
 ⚙ /settings - adjust your preferences`,
-
 		ruRU: `<b>Команды бота</b>
 🏠 /menu - показать основное меню
 🔙 /return - записать возврат долга
@@ -5561,25 +5452,21 @@ If you borrowed from someone to record it use /got.
 If you lent to someone to record it use /gave.
 
 Or use menu at the bottom.`,
-
 		esES: `
 		Si alguien te ha prestado usa el comando  /recibido.
 		Si has prestado a alguien usa el comando /dado.
 
 O usa el menú de abajo en la pantalla.`,
-
 		faIR: `
 اگر از کسی قرض گرفته اید برای ثبت آن از /قرض_گرفتن استفاده کنید.
 اگر به کسی قرض داده اید برای ثبت آن از /قرض_دادن استفاده کنید.
 
 یا از منوی پایین استفاده نمایید.`,
-
 		itIT: `
 Se qualcuno ti ha prestato qualcosa per memorizzarlo usa /got.
 Se hai prestato qualcosa a qualcuno per memorizzarlo usa /gave.
 
 O usa il menu' qui sotto.`,
-
 		ruRU: `
 	Если вы дали в долг воспользуйтесь командой /дал.
 	Если вы одолжили что-то - командой /взял.
@@ -5603,7 +5490,6 @@ O usa il menu' qui sotto.`,
 		ruRU: "У вас пока нет ни одной записи.",
 	},
 	MESSAGE_TEXT_HISTORY_LIST: {
-
 		deDE: `<b>%v</b> <i>(bis %d):</i>
 ─────────────
 %v`,
@@ -5616,7 +5502,6 @@ O usa il menu' qui sotto.`,
 		esES: `<b>%v</b> <i>(últimos %d):</i>
 ─────────────
 %v`,
-
 		faIR: `<b>%v</b> <i>(آخرین %d):</i>
 ─────────────
 %v`,
@@ -6152,7 +6037,6 @@ O usa il menu' qui sotto.`,
 		zhCN: "您欠<b>%v</b> <b>%v</b>。",
 	},
 	MESSAGE_TEXT_IS_IT_RETURNED_IN_FULL: {
-
 		deDE: `Wurde diese Schuld vollständig beglichen?
 
 		<i>Falls nur teilweise, kann der Teilbetrag direkt eingegeben werden.</i>`,
@@ -6162,59 +6046,45 @@ O usa il menu' qui sotto.`,
 		enUS: `Has this debt been returned in full?
 
 		<i>If partially you can enter amount right away.</i>`,
-
 		esES: `¿Ha sido totalmente devuelta esta deuda?
 
 		<i>si ha sido devuelta parcialmente puedes introducir el importe.</i>`,
-
 		faIR: `آیا این بدهی بصورت کامل بازپرداخت شده است؟
 
 		<i>اگر بخشی از بدهی پرداخت شده است شما میتوانید مبلغ را وارد کنید.</i>`,
-
 		frFR: `Cette dette a-t-elle été remboursée intégralement?
 
 		<i>Si partiellement, vous pouvez saisir le montant tout de suite.</i>`,
-
 		idID: `Apakah hutang ini telah dikembalikan sepenuhnya?
 
 		<i>Jika sebagian, Anda dapat memasukkan jumlah langsung.</i>`,
-
 		itIT: `Il debito e' stato saldato?
 
 		<i>Se la risposta e' NO puoi inserire l'ammontare da sottrarre, direttamente qui sotto.</i>`,
-
 		jaJP: `この借金は全額返済されましたか？
 
 		<i>部分的に返済された場合は、すぐに金額を入力できます。</i>`,
-
 		koKR: `이 빚이 전액 상환되었습니까?
 
 		<i>부분적으로 상환된 경우 금액을 바로 입력할 수 있습니다.</i>`,
-
 		plPL: `Czy ten dług został spłacony w całości?
 
 		<i>Jeśli częściowo, możesz od razu wprowadzić kwotę.</i>`,
-
 		ptBR: `Esta dívida foi devolvida integralmente?
 
 		<i>Se parcialmente, você pode inserir o valor imediatamente.</i>`,
-
 		ruRU: `Возвращено полностью?
 
 		<i>Если частично можете сразу написать сумму.</i>`,
-
 		trTR: `Bu borç tamamen geri ödendi mi?
 
 		<i>Kısmen ödendiyse, tutarı hemen girebilirsiniz.</i>`,
-
 		ukUA: `Чи повернуто цей борг повністю?
 
 		<i>Якщо частково, ви можете відразу ввести суму.</i>`,
-
 		uzUZ: `Bu qarz to'liq qaytarildimi?
 
 		<i>Agar qisman bo'lsa, miqdorni darhol kiritishingiz mumkin.</i>`,
-
 		zhCN: `这笔债务是否已全额归还？
 
 		<i>如果部分归还，您可以立即输入金额。</i>`,
@@ -6430,37 +6300,21 @@ O usa il menu' qui sotto.`,
 	},
 	MESSAGE_TEXT_ABOUT_INVITES: {
 		deDE: "Wie möchtest du den Code weitergeben?",
-
 		enUK: `How do you want to pass the invite code?`,
-
 		enUS: `How do you want to pass the invite code?`,
-
 		esES: `¿Cómo quieres enviarle el código?`,
-
 		faIR: `آیا میخواهید کد دعوت را ارسال کنید؟`,
-
 		frFR: `Comment voulez-vous transmettre le code d'invitation?`,
-
 		idID: `Bagaimana Anda ingin meneruskan kode undangan?`,
-
 		itIT: `Come vuoi inviargli il codice invito?`,
-
 		jaJP: `招待コードをどのように渡しますか？`,
-
 		koKR: `초대 코드를 어떻게 전달하시겠습니까?`,
-
 		plPL: `Jak chcesz przekazać kod zaproszenia?`,
-
 		ptBR: `Como você deseja passar o código de convite?`,
-
 		ruRU: `Как вы хотите передать код приглашение?`,
-
 		trTR: `Davet kodunu nasıl iletmek istiyorsunuz?`,
-
 		ukUA: `Як ви хочете передати код запрошення?`,
-
 		uzUZ: `Taklif kodini qanday o'tkazmoqchisiz?`,
-
 		zhCN: `您想如何传递邀请码？`,
 	},
 	MESSAGE_TEXT_USER_BLOCKED_TRANSFER_NOTIFICATIONS_BY: {
@@ -6570,21 +6424,31 @@ O usa il menu' qui sotto.`,
 	FamilyMember: {
 		deDE: "Familienmitglied",
 		enUK: "Family member",
-		enUS: "Family member", // Placeholder
-		esES: "Miembro de la familia",
+		enUS: "Family member",
+		esES:// Placeholder
+		"Miembro de la familia",
 		faIR: "عضو خانواده",
-		frFR: "Membre de la famille", // Placeholder
-		idID: "Anggota keluarga",     // Placeholder
-		itIT: "Membro della famiglia",
-		jaJP: "家族の一員",             // Placeholder
-		koKR: "가족 구성원",            // Placeholder
-		plPL: "Członek rodziny",   // Placeholder
-		ptBR: "Membro da família", // Placeholder
-		ruRU: "Член семьи",
-		trTR: "Aile üyesi",  // Placeholder
-		ukUA: "Член родини", // Placeholder
-		uzUZ: "Oila aʼzosi", // Placeholder
-		zhCN: "家庭成员",        // Placeholder
+		frFR: "Membre de la famille",
+		idID:// Placeholder
+		"Anggota keluarga",
+		itIT:// Placeholder
+		"Membro della famiglia",
+		jaJP: "家族の一員",
+		koKR:// Placeholder
+		"가족 구성원",
+		plPL:// Placeholder
+		"Członek rodziny",
+		ptBR:// Placeholder
+		"Membro da família",
+		ruRU:// Placeholder
+		"Член семьи",
+		trTR: "Aile üyesi",
+		ukUA:// Placeholder
+		"Член родини",
+		uzUZ:// Placeholder
+		"Oila aʼzosi",
+		zhCN:// Placeholder
+		"家庭成员", // Placeholder
 	},
 	UserHasNotJoinedSpaceYet: {
 		deDE: "Dieser Kontakt ist diesem Bereich noch nicht beigetreten.",
@@ -6798,71 +6662,54 @@ O usa il menu' qui sotto.`,
 		zhCN: "通过Telegram邀请",
 	},
 	MESSAGE_TEXT_INVITE_CREATED: {
-
 		deDE: `Wir haben deinen Freund einen Code geschickt. (#%v)
 
 Sobald dein Freund die Einladung akzeptiert hat, könnt ihr das Geld, was ihr euch teit, mit Leichtigkeit managen.`,
-
 		enUK: `We've sent an invite code to your friend. (#%v)
 
 Once your friend accepts invitation you'll share balance & transfers between you to make sure you both are on the same page with minimum efforts.`,
-
 		enUS: `We've sent an invite code to your friend. (#%v)
 
 Once your friend accepts invitation you'll share balance & transfers between you to make sure you both are on the same page with minimum efforts.`,
-
 		esES: `Hemos enviado el código de la invitación a tu amigo. (#%v)
 
 Cuando tu amigo accepte la invitación vaís a tener transacciones y balance en común (solo entre vosotros). Todo eso os ayuda minimizar los esfuerzos para controlar la cuenta.`,
-
 		faIR: `ما برای دوست شما یک  پیام دعوت ارسال کردیم. (#%v)
 
 وقتی دوست شما دعوت را بپذیرد شما تراز و مبادلات بین خود را به اشتراک می گذارید تا با کمترین تلاش از درک مشترک میان خود اطمینان حاصل کنید. `,
-
 		frFR: `Nous avons envoyé un code d'invitation à votre ami. (#%v)
 
 Une fois que votre ami accepte l'invitation, vous partagerez le solde et les transferts entre vous pour vous assurer que vous êtes tous les deux sur la même page avec un minimum d'efforts.`,
-
 		idID: `Kami telah mengirimkan kode undangan kepada teman Anda. (#%v)
 
 Setelah teman Anda menerima undangan, Anda akan berbagi saldo & transfer antara Anda untuk memastikan Anda berdua berada di halaman yang sama dengan upaya minimal.`,
-
 		itIT: `Abbiamo inviato il codice invito al tuo amico. (#%v)
 
 Una volta che il tuo amico accetta l'invito potrete condividere i bilanci ed i trasferimenti con il minimo sforzo.`,
-
 		jaJP: `友達に招待コードを送信しました。(#%v)
 
 友達が招待を受け入れると、最小限の労力で両方が同じページにいることを確認するために、あなたの間で残高と転送を共有します。`,
-
 		koKR: `친구에게 초대 코드를 보냈습니다. (#%v)
 
 친구가 초대를 수락하면 최소한의 노력으로 두 사람이 같은 페이지에 있는지 확인하기 위해 잔액과 이체를 공유하게 됩니다.`,
-
 		plPL: `Wysłaliśmy kod zaproszenia do Twojego znajomego. (#%v)
 
 Gdy Twój znajomy zaakceptuje zaproszenie, będziecie dzielić saldo i przelewy między sobą, aby upewnić się, że oboje jesteście na tej samej stronie przy minimalnym wysiłku.`,
-
 		ptBR: `Enviamos um código de convite para seu amigo. (#%v)
 
 Quando seu amigo aceitar o convite, vocês compartilharão saldo e transferências entre si para garantir que ambos estejam na mesma página com o mínimo de esforço.`,
-
 		ruRU: `Мы отправили код приглашения на указынный вами адрес. (#%v)
 
 Когда ваш друг потдвердит приглашение у вас будут общий баланс и транзакции (только между вами). Это поможет вам минимизировать усилия по ведению учёта.`,
-
 		trTR: `Arkadaşınıza bir davet kodu gönderdik. (#%v)
 
 Arkadaşınız daveti kabul ettiğinde, minimum çabayla ikinizin de aynı sayfada olduğundan emin olmak için aranızda bakiye ve transferleri paylaşacaksınız.`,
-
 		ukUA: `Ми надіслали код запрошення вашому другу. (#%v)
 
 Коли ваш друг прийме запрошення, ви будете ділитися балансом і переказами між собою, щоб переконатися, що ви обидва на одній сторінці з мінімальними зусиллями.`,
-
 		uzUZ: `Do'stingizga taklifnoma kodini yubordik. (#%v)
 
 Do'stingiz taklifni qabul qilgandan so'ng, minimal kuch bilan ikkalangiz ham bir xil sahifada ekanligingizga ishonch hosil qilish uchun o'zaro balans va o'tkazmalarni almashishingiz mumkin.`,
-
 		zhCN: `我们已向您的朋友发送邀请码。(#%v)
 
 一旦您的朋友接受邀请，您将共享余额和转账，以确保您们双方以最少的努力保持一致。`,
@@ -7099,12 +6946,15 @@ Do'stingiz taklifni qabul qilgandan so'ng, minimal kuch bilan ikkalangiz ham bir
 		deDE: "Du hast noch keine Kontakte hinzugefügt.",
 		enUK: "You have not created any contacts yet.",
 		enUS: "You have not created any contacts yet.",
-		esES: "Todavía no has creado ningún contacto.", //TODO:es - verify
-		faIR: "هنوز هیچ مخاطبی را ایجاد نکرده اید",     //TODO:fa - verify
-		frFR: "Vous n'avez pas encore créé de contacts.",
+		esES: "Todavía no has creado ningún contacto.",
+		faIR://TODO:es - verify
+		"هنوز هیچ مخاطبی را ایجاد نکرده اید",
+		frFR://TODO:fa - verify
+		"Vous n'avez pas encore créé de contacts.",
 		idID: "Anda belum membuat kontak apa pun.",
-		itIT: "Non hai ancora creato alcun contatto.", //TODO:it - verify
-		jaJP: "まだ連絡先を作成していません。",
+		itIT: "Non hai ancora creato alcun contatto.",
+		jaJP://TODO:it - verify
+		"まだ連絡先を作成していません。",
 		koKR: "아직 연락처를 만들지 않았습니다.",
 		plPL: "Nie utworzyłeś jeszcze żadnych kontaktów.",
 		ptBR: "Você ainda não criou nenhum contato.",
@@ -7559,25 +7409,21 @@ Was würdest du gerne machen?`,
 I can record who is owing to whom and remind when the return is due.
 
 What would you like to do?`,
-
 		esES: `Hola, me llamo Collectius, soy tu contable y asesor personal.
 
 Puedo apuntar quién debe a quién y recordarte la fecha de devolución.
 
 ¿Qué te apetecería hacer?`,
-
 		faIR: `سلام، من کالکتیوس هستم - حسابدار شخصی و مامور وصول شما
 
 من میتوانم اینکه چه کسی به چه کسی بدهکار است را ثبت کرده و زمان بازپرداخت را یادآوری کنم.
 
 دوست دارید چکار کنید؟`,
-
 		itIT: `Ciao, sono Collectius - il tuo contabile ed esattore.
 
 Posso annotare chi deve soldi a chi e ricordarti la data di scadenza.
 
 Cosa vorresti fare ora?`,
-
 		ruRU: `Привет, я Коллектиус - Ваш персональный счетовод и коллектор.
 
 Могу записать кто кому чего должен и, и при необходимости, напомнить когда должок пора возвращать.
@@ -7609,7 +7455,6 @@ Cosa vorresti fare ora?`,
 		ruRU: "Я не получил письма на email",
 	},
 	MESSAGE_TEXT_ONBOARDING_TELL_ABOUT_INVITES: {
-
 		deDE: `<b>%v</b>,
 
 Im Moment ist der Bot leider nur durch Einladungen von Freunden zugänglich.
@@ -7617,7 +7462,6 @@ Im Moment ist der Bot leider nur durch Einladungen von Freunden zugänglich.
 Wenn du keinen Code hast, lass deine Kontaktdaten da und wir senden dir einen Code sobald du dran bist.
 
 Wir senden 10 Codes am Tag an die, die am längsten warten und einen zufällig.`,
-
 		enUK: `<b>%v</b>,
 
 At the moment our bot is available just by invitation from friends.
@@ -7625,7 +7469,6 @@ At the moment our bot is available just by invitation from friends.
 If you have no code you can leave your contact details and we'll send you an invite as soon as your queue is due.
 
 We send 10 invites per day to those in the head of the queue and 1 randomly.`,
-
 		esES: `<b>%v</b>,
 
 De momento nuestro bot está disponible solo por invitación de amigos.
@@ -7633,7 +7476,6 @@ De momento nuestro bot está disponible solo por invitación de amigos.
 Si no tienes el código puedes dejarnos tu contacto y te lo enviaremos cuando sea tu turno en la cola .
 
 Enviamos 10 invitaciones por día a los primeros de la cola + 1 de modo casual.`,
-
 		faIR: `<b>%v</b>,
 
 درحال حاضر ربات ما تنها با دریافت دعوت از دوستان در دسترس می باشد.
@@ -7641,7 +7483,6 @@ Enviamos 10 invitaciones por día a los primeros de la cola + 1 de modo casual.`
 اگر شما کدی در اختیار ندارید می توانید اطلاعات تماس خود را برای من وارد نموده و من به محض اینکه نوبت شما فرارسید یک دعوتنامه برایتان ارسال می کنم.
 
 ما روزانه 10 دعوتنامه برای نفرات اول لیست انتظار و همچنین یک دعوتنامه تصادفی ارسال میکنیم.`,
-
 		itIT: `<b>%v</b>,
 
 Al momento il nostro bot e' disponibile solo tramite invito da amici.
@@ -7649,7 +7490,6 @@ Al momento il nostro bot e' disponibile solo tramite invito da amici.
 Se non hai un codice puoi lasciarci il tuo contatto e ti manderemo un invito non appena sara' il tuo turno.
 
 Inviamo 10 inviti al giorno ai primi 10 della lista d'attesa ed 1 in modo casuale.`,
-
 		ruRU: `<b>%v</b>,
 
 	На данный момент наш бот доступен только тем кто получил приглашение от друзей.
@@ -7667,27 +7507,21 @@ Inviamo 10 inviti al giorno ai primi 10 della lista d'attesa ed 1 in modo casual
 		ruRU: "Приглашение от {{.FromName}} - код: {{.InviteCode}}",
 	},
 	SMS_INVITE_TEXT: {
-
 		deDE: `Hey {{.ToName}}, {{.FromName}} lädt dich ein die neue Schuldentracker App auszuprobieren - https://debtstracker.io/invite#id={{.InviteCode}}&telegram-bot={{.TgBot}}&{{.Utm}}
 
 Dein persönlicher Code lautet: {{.InviteCode}}`,
-
 		enUK: `Hi {{.ToName}}, {{.FromName}} is inviting you to try debts tracking app - https://debtstracker.io/invite#id={{.InviteCode}}&telegram-bot={{.TgBot}}&{{.Utm}}
 
 Your personal invitation code is: {{.InviteCode}}`,
-
 		esES: `Hola {{.ToName}}, {{.FromName}} te ha invitado a probar la aplicación para controlar tus deudas - https://debtstracker.io/invite#id={{.InviteCode}}&telegram-bot={{.TgBot}}&{{.Utm}}
 
 El código de tu invitación es: {{.InviteCode}}`,
-
 		faIR: `سلام{{.ToName}}, {{.FromName}} شما را دعوت کرده تا برنامه ردیابی بدهی ها را امتحان کنید.- https://debtstracker.io/invite#id={{.InviteCode}}&ربات تلگرام={{.TgBot}}&{{.Utm}}
 
 کد دعوت شما: {{.InviteCode}}`,
-
 		itIT: `Ciao {{.ToName}}, {{.FromName}} ti ha invitato a provare 'debts tracking app' - https://debtstracker.io/invite#id={{.InviteCode}}&telegram-bot={{.TgBot}}&{{.Utm}}
 
 Il tuo codice di invito personale e': {{.InviteCode}}`,
-
 		ruRU: `Привет {{.ToName}}, {{.FromName}} рекомендует приложение для учёта долгов - https://debtstracker.io/invite#id={{.InviteCode}}&telegram-bot={{.TgBot}}&{{.Utm}}
 
 Код приглашения: {{.InviteCode}}`,
@@ -7698,31 +7532,26 @@ Il tuo codice di invito personale e': {{.InviteCode}}`,
 {{.FromName}} lädt dich ein die neue Schuldentracker App auszuprobieren - https://debtstracker.io/invite#id={{.InviteCode}}&telegram-bot={{.TgBot}}&{{.Utm}}
 
 Dein persönlicher Code lautet: {{.InviteCode}}`,
-
 		enUK: `Hi {{.ToName}},
 
 {{.FromName}} is inviting you to use debts tracking app - https://debtstracker.io/invite#id={{.InviteCode}}&telegram-bot={{.TgBot}}&{{.Utm}}
 
 You invitation code is: {{.InviteCode}}`,
-
 		esES: `Hola {{.ToName}},
 
 {{.FromName}} te ha invitado a probar la aplicación para controlar tus deudas - https://debtstracker.io/invite#id={{.InviteCode}}&telegram-bot={{.TgBot}}&{{.Utm}}
 
 El código de tu invitación es: {{.InviteCode}}`,
-
 		faIR: `سلام{{.ToName}},
 
 {{.FromName}} شما را دعوت کرده تا از برنامه ردیابی بدهی ها استفاده کنید.- https://debtstracker.io/invite#id={{.InviteCode}}&telegram-bot={{.TgBot}}&{{.Utm}}
 
 کد دعوت شما: {{.InviteCode}}`,
-
 		itIT: `Ciao {{.ToName}},
 
 {{.FromName}} ti ha invitato a provare 'debts tracking app' - https://debtstracker.io/invite#id={{.InviteCode}}&telegram-bot={{.TgBot}}&{{.Utm}}
 
 Il tuo codice di invito personale e': {{.InviteCode}}`,
-
 		ruRU: `Привет {{.ToName}},
 
 	{{.FromName}} приглашает тебя попробовать приложение для учёта долгов - https://debtstracker.io/invite#id={{.InviteCode}}&telegram-bot={{.TgBot}}&{{.Utm}}
@@ -7740,25 +7569,21 @@ Il tuo codice di invito personale e': {{.InviteCode}}`,
 <p>{{.FromName}} is inviting you to try <a href="https://debtstracker.io/invite#id={{.InviteCode}}&telegram-bot={{.TgBot}}&{{.Utm}}">debts tracking app</a>.</p>
 
 <p>Your invitation code is: <b>{{.InviteCode}}</b></p>`,
-
 		esES: `<p>Hola {{.ToName}}, </p>
 
 <p>{{.FromName}} te ha invitado a <a href="https://debtstracker.io/invite#id={{.InviteCode}}&telegram-bot={{.TgBot}}&{{.Utm}}">probar la app para controlar tus deudas</a>.</p>
 
 <p>El código de tu invitación es: <b>{{.InviteCode}}</b></p>`,
-
 		faIR: `<p>سلام{{.ToName}},</p>
 
 <p>{{.FromName}} п شما را دعوت کرده به <a href="https://debtstracker.io/invite#id={{.InviteCode}}&ربات تلگرام={{.TgBot}}&{{.Utm}}"> امتحان برنامه ردیابی بدهی ها</a>.</p>
 
 <p>You invitation code is: <b>{{.InviteCode}}</b></p>`,
-
 		itIT: `<p>Ciao {{.ToName}},</p>
 
 <p>{{.FromName}} ti ha invitato a provare <a href="https://debtstracker.io/invite#id={{.InviteCode}}&telegram-bot={{.TgBot}}&{{.Utm}}">debts tracking app</a>.</p>
 
 <p>Il tuo codice di invito personale e': <b>{{.InviteCode}}</b></p>`,
-
 		ruRU: `<p>Привет {{.ToName}}, </P
 
 	<p>{{.FromName}} приглашает тебя <a href = "https://debtstracker.io/invite#id={{.InviteCode}}&telegram-bot={{.TgBot}}&{{.Utm}}">попробовать приложение для учёта долгов</a>.</p>
@@ -7822,43 +7647,43 @@ Il tuo codice di invito personale e': {{.InviteCode}}`,
 		ruRU: "<b>Выберите язык чтобы посмотреть подробности записи о долге</b> которую создал(а) {{.Creator}}.",
 	},
 	INLINE_RECEIPT_FOOTER: {
-		//-------------------------------------------------------
-		deDE: `{{.SiteLink}} — eine App, die dir hilft Schulden zu überwachen:
+		deDE: //-------------------------------------------------------
+		`{{.SiteLink}} — eine App, die dir hilft Schulden zu überwachen:
 
   - Du weißt immer, wie viel du allen schuldest
 
   - Keine Fälligkeit wird verpasst
     <i>(erinnert dich und die Gläubiger)</i>`,
-		//-------------------------------------------------------
-		enUK: `{{.SiteLink}} — an app for debts tracking will help you to:
+		enUK: //-------------------------------------------------------
+		`{{.SiteLink}} — an app for debts tracking will help you to:
 
   - Always know your bottom line
 
   - Return debts on time
     <i>(reminders to you & your debtors)</i>`,
-		//-------------------------------------------------------
-		esES: `{{.SiteLink}} — la app para controlar tus deudas te ayuda a:
+		esES: //-------------------------------------------------------
+		`{{.SiteLink}} — la app para controlar tus deudas te ayuda a:
 
   - Saber siempre quién debe a quién
 
   - Devolver la deuda a tiempo
     <i>(recordatorio a ti y a tus deudores)</i>`,
-		//-------------------------------------------------------
-		faIR: `{{.SiteLink}} — یک برنامه پیگیری بدهی است که به شما کمک می کند تا:
+		faIR: //-------------------------------------------------------
+		`{{.SiteLink}} — یک برنامه پیگیری بدهی است که به شما کمک می کند تا:
 
   - همیشه از سود و زیان خود مطلع باشید.
 
   - بدهی ها به موقع پرداخت شوند.
     <i>(با ارسال یادآوری به  شما و بدهکاران )</i>`,
-		//-------------------------------------------------------
-		itIT: `{{.SiteLink}} — un app per i debiti che ti consento di:
+		itIT: //-------------------------------------------------------
+		`{{.SiteLink}} — un app per i debiti che ti consento di:
 
   - Sapere sempre chi deve soldi a chi
 
   - Restituire i soldi in tempo
     <i>(lo ricorda a te ed al tuo debitore)</i>`,
-		//-------------------------------------------------------
-		ruRU: `{{.SiteLink}} — программа для учёта долгов поможет:
+		ruRU: //-------------------------------------------------------
+		`{{.SiteLink}} — программа для учёта долгов поможет:
 
 	  - Всегда знать кто кому сколько должен
 
@@ -7870,24 +7695,24 @@ Il tuo codice di invito personale e': {{.InviteCode}}`,
 		deDE: `<b>{{.Creator}} erstellte online einen Schuldschein</b> der dich betrifft.
 
 >> Generating receipt`,
-		//-------------------------------------------------------
-		enUK: `<b>{{.Creator}} recorded a debt</b> associated with you.
+		enUK: //-------------------------------------------------------
+		`<b>{{.Creator}} recorded a debt</b> associated with you.
 
   >> <i>Generating receipt...</i>`,
-		//-------------------------------------------------------
-		esES: `<b>{{.Creator}} ha creado una deuda</b> asociada a ti.
+		esES: //-------------------------------------------------------
+		`<b>{{.Creator}} ha creado una deuda</b> asociada a ti.
 
   >> <i>Generating receipt...</i>`,
-		//-------------------------------------------------------
-		faIR: `<b>{{.Creator}} یک بدهی </b> مرتبط با شما ثبت نموده است.
+		faIR: //-------------------------------------------------------
+		`<b>{{.Creator}} یک بدهی </b> مرتبط با شما ثبت نموده است.
 
   >> <i>Generating receipt...</i>`,
-		//-------------------------------------------------------
-		itIT: `<b>{{.Creator}} ha registrato un debito</b> associato a te.
+		itIT: //-------------------------------------------------------
+		`<b>{{.Creator}} ha registrato un debito</b> associato a te.
 
   >> <i>Generating receipt...</i>`,
-		//-------------------------------------------------------
-		ruRU: `<b>{{.Creator}} создал(а) запись о долге</b> касающегося Вас.
+		ruRU: //-------------------------------------------------------
+		`<b>{{.Creator}} создал(а) запись о долге</b> касающегося Вас.
 
   >> <i>Generating receipt...</i>`,
 		//-------------------------------------------------------
@@ -7916,47 +7741,47 @@ Il tuo codice di invito personale e': {{.InviteCode}}`,
 	//		//-------------------------------------------------------
 	//	},
 	INLINE_RECEIPT_MESSAGE: {
-		//-------------------------------------------------------
-		enUK: `<b>{{.Creator}} recorded a debt</b> associated with you.
+		enUK: //-------------------------------------------------------
+		`<b>{{.Creator}} recorded a debt</b> associated with you.
 
   >> <a href="{{.ReceiptUrl}}">Click here to view receipt</a>`,
-		//-------------------------------------------------------
-		esES: `<b>{{.Creator}} ha creado una deuda</b> asociada a ti.
+		esES: //-------------------------------------------------------
+		`<b>{{.Creator}} ha creado una deuda</b> asociada a ti.
 
   >> <a href="{{.ReceiptUrl}}">Click here to view receipt</a>`,
-		//-------------------------------------------------------
-		faIR: `<b>{{.Creator}} یک بدهی </b> مرتبط با شما ثبت نموده است.
+		faIR: //-------------------------------------------------------
+		`<b>{{.Creator}} یک بدهی </b> مرتبط با شما ثبت نموده است.
 
   >> <a href="{{.ReceiptUrl}}">Click here to view receipt</a>`,
-		//-------------------------------------------------------
-		itIT: `<b>{{.Creator}} ha registrato un debito</b> associato a te.
+		itIT: //-------------------------------------------------------
+		`<b>{{.Creator}} ha registrato un debito</b> associato a te.
 
   >> <a href="{{.ReceiptUrl}}">Click here to view receipt</a>`,
-		//-------------------------------------------------------
-		ruRU: `<b>{{.Creator}} создал(а) запись о долге</b> касающегося Вас.
+		ruRU: //-------------------------------------------------------
+		`<b>{{.Creator}} создал(а) запись о долге</b> касающегося Вас.
 
   >> <a href="{{.ReceiptUrl}}">Посмотреть квитанцию</a>`,
 		//-------------------------------------------------------
 	},
 	InlineInviteToJoinFamilyTitle: {
-		enUK: "Invitation to join family at @%s",
-		ruRU: "Приглашение в семью на @%s",
 		deDE: "Einladung der Familie beizutreten bei @%s",
+		enUK: "Invitation to join family at @%s",
 		esES: "Invitación para unirse a la familia en @%s",
+		faIR: "دعوت به پیوستن به خانواده در @%s",
 		frFR: "Invitation à rejoindre la famille à @%s",
 		itIT: "Invito a unirsi alla famiglia a @%s",
 		ptBR: "Convite para se juntar à família em @%s",
-		faIR: "دعوت به پیوستن به خانواده در @%s",
+		ruRU: "Приглашение в семью на @%s",
 	},
 	InlineInviteToJoinFamilyDescription: {
-		enUK: "Click here to send an invite",
-		ruRU: "Нажмите здесь для отправки приглашения",
 		deDE: "Klick hier, um eine Einladung zu versenden",
+		enUK: "Click here to send an invite",
 		esES: "Haz click para enviar la invitación",
+		faIR: "برای ارسال یک دعوتنامه اینجا کلیک کنید.",
 		frFR: "Cliquez ici pour envoyer une invitation",
 		itIT: "Clicca qui per spedire un invito",
 		ptBR: "Clique aqui para enviar um convite",
-		faIR: "برای ارسال یک دعوتنامه اینجا کلیک کنید.",
+		ruRU: "Нажмите здесь для отправки приглашения",
 	},
 	YouAreInvitedToJoinFamilyMessage: {
 		deDE: "Sie sind eingeladen, dem Familienkonto bei @{BOT_ID} beizutreten.",
@@ -8031,8 +7856,9 @@ Il tuo codice di invito personale e': {{.InviteCode}}`,
 		enUK: "Receipt",
 		esES: "Recibo",
 		faIR: "رسید",
-		itIT: "Scontrino", //To upgrade, not the best translation from Russian
-		ruRU: "Квитанция",
+		itIT: "Scontrino",
+		ruRU://To upgrade, not the best translation from Russian
+		"Квитанция",
 	},
 	HTML_AMOUNT: {
 		deDE: "Betrag",
@@ -8132,15 +7958,19 @@ Il tuo codice di invito personale e': {{.InviteCode}}`,
 		zhCN: "请写一个备注：",
 	},
 	COMMAND_TEXT_MORE_ABOUT_INTEREST_COMMAND: {
-		deDE: "Mehr über Zinsen", // Updated from TODO
-		enUK: "More about interest",
+		deDE: "Mehr über Zinsen",
+		enUK:// Updated from TODO
+		"More about interest",
 		enUS: "More about interest",
-		esES: "Más sobre intereses",       // Updated from TODO
-		faIR: "اطلاعات بیشتر درباره بهره", // Updated from TODO
-		frFR: "Plus d'informations sur les intérêts",
+		esES: "Más sobre intereses",
+		faIR:// Updated from TODO
+		"اطلاعات بیشتر درباره بهره",
+		frFR:// Updated from TODO
+		"Plus d'informations sur les intérêts",
 		idID: "Lebih lanjut tentang bunga",
-		itIT: "Più informazioni sugli interessi", // Updated from TODO
-		jaJP: "利息についての詳細",
+		itIT: "Più informazioni sugli interessi",
+		jaJP:// Updated from TODO
+		"利息についての詳細",
 		koKR: "이자에 대한 자세한 정보",
 		plPL: "Więcej o odsetkach",
 		ptBR: "Mais sobre juros",
@@ -8746,102 +8576,102 @@ Foiz kunlik (<i>har 24 soatda</i>) <a href="https://uz.wikipedia.org/wiki/Oddiy_
 	},
 
 	WS_INDEX_TITLE: {
-		ruRU: "DebtsTracker.io - программа для учёта личных долгов и активов",
+		deDE: "DebtsTracker.io - eine App, um Ihre persönlichen Schulden zu verfolgen",
 		enUK: "DebtsTracker.io - an IOU app to track your personal debts & assets",
 		esES: "DebtsTracker.io es una aplicación para el control de sus deudas personales",
 		faIR: "DebtsTracker.io - برنامه ای برای ردیابی بدهی ها و دارایی های شما",
-		plPL: "DebtsTracker.io - aplikacja do śledzenia osobistych długów",
-		ptPT: "DebtsTracker.io - um aplicativo para controlar suas dívidas pessoais",
-		deDE: "DebtsTracker.io - eine App, um Ihre persönlichen Schulden zu verfolgen",
 		frFR: "DebtsTracker.io - une application pour suivre vos dettes personnelles",
 		itIT: "DebtsTracker.io - un app per monitorare i tuoi debiti personali",
-		koKR: "DebtsTracker.io 은 - 앱이 사용자의 개인 채무를 추적",
 		jaJP: "DebtsTracker.io は - アプリはあなたの個人的な借金を追跡します",
+		koKR: "DebtsTracker.io 은 - 앱이 사용자의 개인 채무를 추적",
+		plPL: "DebtsTracker.io - aplikacja do śledzenia osobistych długów",
+		ptPT: "DebtsTracker.io - um aplicativo para controlar suas dívidas pessoais",
+		ruRU: "DebtsTracker.io - программа для учёта личных долгов и активов",
 		zhCN: "DebtsTracker.io - 一个应用程序来跟踪你的个人债务",
 	},
 	WS_LIVE_DEMO: {
-		ruRU: "Демо версия online",
+		deDE: "Live-Demo",
 		enUK: "Demostración",
 		esES: "Demo en vivo",
 		faIR: "نسخه ی نمایشی زنده",
-		plPL: "Demo na żywo",
-		ptPT: "Demonstração ao vivo",
-		deDE: "Live-Demo",
 		frFR: "Démo en direct",
 		itIT: "Demo online",
-		koKR: "실시간 데모",
 		jaJP: "ライブデモ",
+		koKR: "실시간 데모",
+		plPL: "Demo na żywo",
+		ptPT: "Demonstração ao vivo",
+		ruRU: "Демо версия online",
 		zhCN: "现场演示",
 	},
 	WS_INDEX_TG_BOT_H2: {
-		ruRU: "Бот для Telegram",
+		deDE: "Chat-Bot für Telegram",
 		enUK: "Chat bot for Telegram messenger",
 		esES: "Chat bot para Telegram",
 		faIR: "ربات چت برای پیام رسان تلگرام",
-		plPL: "Chat bot do telegramu posłańca",
-		ptPT: "bot de bate-papo para Telegram messenger",
-		deDE: "Chat-Bot für Telegram",
 		frFR: "bot Chat for Telegram messenger",
 		itIT: "Bot Chat per Telegram",
-		koKR: "전보 메신저 채팅 봇",
 		jaJP: "電報メッセンジャーのためのチャットボット",
+		koKR: "전보 메신저 채팅 봇",
+		plPL: "Chat bot do telegramu posłańca",
+		ptPT: "bot de bate-papo para Telegram messenger",
+		ruRU: "Бот для Telegram",
 		zhCN: "聊天机器人的电报使者",
 	},
 	WS_INDEX_TG_BOT_OPEN: {
-		ruRU: "Открыть в Телеграмме &#x1F680;",
+		deDE: "Öffnen in Telegram &#x1F680;",
 		enUK: "Open in Telegram &#x1F680;",
 		esES: "Abrir en Telegram &#x1F680;",
 		faIR: "بازکردن در تلگرام &#x1F680;",
-		plPL: "Otwórz w telegramu &#x1F680;",
-		ptPT: "Open in Telegram &#x1F680;",
-		deDE: "Öffnen in Telegram &#x1F680;",
 		frFR: "Open in Telegram &#x1F680;",
 		itIT: "Apri su Telegram &#x1F680;",
-		koKR: "전보 &#x1F680; 에서 열기;",
 		jaJP: "電報 &#x1F680; で開きます。",
+		koKR: "전보 &#x1F680; 에서 열기;",
+		plPL: "Otwórz w telegramu &#x1F680;",
+		ptPT: "Open in Telegram &#x1F680;",
+		ruRU: "Открыть в Телеграмме &#x1F680;",
 		zhCN: "打开在电报 &#x1F680;",
 	},
 
 	WS_INDEX_TG_BOT_P: {
-		ruRU: "В настоящий момент наша программа доступна в мессенджере <a href='https://telegram.org/'>Телеграм</a>.",
+		deDE: "Im Moment ist unser Programm nur auf <a href='https://telegram.org/'>Telegram verfügbar</a>",
 		enUK: "At the moment our program is available just on <a href='https://telegram.org/'>Telegram messenger</a>",
 		esES: "De momento nuestro programa está disponible sólo en <a href='https://telegram.org/'>Telegrama mensajero </a>",
 		faIR: "درحال حاضر برنامه ما فقط در دسترس است در <a href='https://telegram.org/'>Телеграм</a>تلگرام",
-		plPL: "W tej chwili nasz program jest dostępny tylko na <a href='https://telegram.org/'>Telegram messenger</a>",
-		ptPT: "No momento em que o nosso programa está disponível apenas na <a href='https://telegram.org/'>Telegram messenger</a>",
-		deDE: "Im Moment ist unser Programm nur auf <a href='https://telegram.org/'>Telegram verfügbar</a>",
 		frFR: "Au moment de notre programme est disponible seulement sur <a href='https://telegram.org/'>Telegram messager</a>",
 		itIT: "Al momento il nostro programma è disponibile solo su <a href='https://telegram.org/'>Telegram</a>",
-		koKR: "지금이 순간 우리의 프로그램은 단지에 <a href='https://telegram.org/'>Telegram</a> 의 <b> 전보 </b>을 메신저 를 볼 수 있습니다",
 		jaJP: "現時点では私たちのプログラムは、ちょうど上の<a href='https://telegram.org/'>Telegram</a>電報のメッセンジャーで提供されています",
+		koKR: "지금이 순간 우리의 프로그램은 단지에 <a href='https://telegram.org/'>Telegram</a> 의 <b> 전보 </b>을 메신저 를 볼 수 있습니다",
+		plPL: "W tej chwili nasz program jest dostępny tylko na <a href='https://telegram.org/'>Telegram messenger</a>",
+		ptPT: "No momento em que o nosso programa está disponível apenas na <a href='https://telegram.org/'>Telegram messenger</a>",
+		ruRU: "В настоящий момент наша программа доступна в мессенджере <a href='https://telegram.org/'>Телеграм</a>.",
 		zhCN: "目前我们的计划是只提供在<a href='https://telegram.org/'>Telegram</a>电报的使者",
 	},
 	WS_MOTTO: {
-		ruRU: "Платежи по долгам целиком и вовремя!",
+		deDE: "Wissen, wem man wie viel schuldet!",
 		enUK: "Know your bottom line & never miss a debt payment!",
 		esES: "¡Controle sus pagos y deudas!",
 		faIR: "از سود و زیان خود مطلع باشید و هرگز پرداخت بدهی ای را از قلم نیندازید",
-		plPL: "Znaj swoją równowagę i nigdy nie przegapisz zapłatę długu!",
-		ptPT: "Conheça o seu equilíbrio e nunca perca um pagamento da dívida!",
-		deDE: "Wissen, wem man wie viel schuldet!",
 		frFR: "Apprenez à connaître votre solde et ne jamais manquer un paiement de la dette!",
 		itIT: "Tieni sott'occhio il tuo bilancio e non dimenticarti mai di un debito!",
-		koKR: "균형을 알고 및 채무 지불을 놓칠 수 없어!",
 		jaJP: "あなたのバランスを知っている＆債務の支払いを見逃すことはありません！",
+		koKR: "균형을 알고 및 채무 지불을 놓칠 수 없어!",
+		plPL: "Znaj swoją równowagę i nigdy nie przegapisz zapłatę długu!",
+		ptPT: "Conheça o seu equilíbrio e nunca perca um pagamento da dívida!",
+		ruRU: "Платежи по долгам целиком и вовремя!",
 		zhCN: "了解天平＆不会错过任何一个债务付款！",
 	},
 	WS_SHORT_DESC: {
-		ruRU: "DebtsTracker.io - мобильное приложение и сервис напоминаний для учёта и своевременной выплаты долгов. Отсылает автоматические уведомления вашим должникам по email и SMS.",
+		deDE: "DebtsTracker.io ist eine mobile App, die beim Verwalten von persönlichen Schulden hilft - egal ob Sie Geld verleihen oder welches leihen. Sendet automatisierte E-Mail und SMS-Benachrichtigungen an Ihre Schuldner und Gläubiger.",
 		enUK: "DebtsTracker.io is a mobile IOU app & a reminder service that helps to track your debts, credits & assets. Sends automated email & SMS reminders to your debtors.",
 		esES: "DebtsTracker.io es un servicio de aplicaciones móviles y recordatorios que ayuda a realizar un seguimiento de sus deudas y créditos. Envía notificaciones por correo electrónico y SMS automatizados a sus deudores.",
 		faIR: "DebtsTracker.io یک برنامه موبایل و سرویس یادآور می باشد که به شما کمک می کند تا بدهی ها و اعتبارات خود را ردیابی نمایید. همچنین ایمیل و پیام کوتاه یادآوری به بدهکاران ارسال می کند.",
-		plPL: "DebtsTracker.io to aplikacje mobilne i przypomnienia usługa, która pozwala na śledzenie swoich długów i kredytów. Wysyła automatycznych powiadomień e-mail i SMS do swoich dłużników.",
-		ptPT: "DebtsTracker.io é um serviço de aplicativos móveis e lembrete de que ajuda a controlar seus débitos e créditos. Envia e-mail e SMS notificações automáticas aos seus devedores.",
-		deDE: "DebtsTracker.io ist eine mobile App, die beim Verwalten von persönlichen Schulden hilft - egal ob Sie Geld verleihen oder welches leihen. Sendet automatisierte E-Mail und SMS-Benachrichtigungen an Ihre Schuldner und Gläubiger.",
 		frFR: "DebtsTracker.io est une des applications mobiles et rappel service qui permet de suivre vos dettes et crédits. Envoie automatisés email & SMS reminders à vos débiteurs.",
 		itIT: "DebtsTracker.io è un servizio di applicazioni mobili che ricordare e aiuta a monitorare i debiti e crediti. Invia notifiche e-mail e SMS automatici ai i vostri debitori.",
-		koKR: "DebtsTracker.io 은 채무 및 크레딧을 추적하는 데 도움이 모바일 앱 및 알림 서비스입니다. 당신의 채무자에 자동화 된 이메일 및 SMS 알림을 보냅니다.",
 		jaJP: "DebtsTracker.io は、あなたの借金＆クレジットを追跡するのに役立ちますモバイルアプリ＆リマインダーサービスです。あなたの債務者に自動メール＆SMS通知を送信します。",
+		koKR: "DebtsTracker.io 은 채무 및 크레딧을 추적하는 데 도움이 모바일 앱 및 알림 서비스입니다. 당신의 채무자에 자동화 된 이메일 및 SMS 알림을 보냅니다.",
+		plPL: "DebtsTracker.io to aplikacje mobilne i przypomnienia usługa, która pozwala na śledzenie swoich długów i kredytów. Wysyła automatycznych powiadomień e-mail i SMS do swoich dłużników.",
+		ptPT: "DebtsTracker.io é um serviço de aplicativos móveis e lembrete de que ajuda a controlar seus débitos e créditos. Envia e-mail e SMS notificações automáticas aos seus devedores.",
+		ruRU: "DebtsTracker.io - мобильное приложение и сервис напоминаний для учёта и своевременной выплаты долгов. Отсылает автоматические уведомления вашим должникам по email и SMS.",
 		zhCN: "DebtsTracker.io 是一个移动应用和提醒服务，帮助跟踪你的债务和信用。发送自动电子邮件和短信通知到您的债务人。",
 	},
 
@@ -8894,6 +8724,13 @@ Foiz kunlik (<i>har 24 soatda</i>) <a href="https://uz.wikipedia.org/wiki/Oddiy_
 		ruRU: "Как идут дела?",
 	},
 	SNEATBOT_MSG_TXT_START: {
+		deDE: `<b>Vom Ersteller des Bots</b>: Hallo %s!
+
+@SneatBot hilft Ihnen, Ihren Familienalltag zu organisieren. Oder Sie können einen Bereich erstellen, in dem Sie Ihre Gruppe/Ihr Team/Ihre Community verwalten können.
+
+Ich habe viel Zeit darauf verwendet, diesen Bot nützlich, schnell und zuverlässig zu machen. Ich hoffe, er gefällt Ihnen.
+
+Sie können sich über neue Funktionen des Bots im @SneatApp-Kanal informieren, wo wir <a href="https://t.me/StarGiveaways_EN">JEDEN Monat 500 🌟 verschenken</a>.`,
 		enUK: `
 <b>From bot's creator</b>: Hi %s!
 
@@ -8903,21 +8740,6 @@ I've spend lot's of time to make this bot useful, quick & reliable.I hope you'll
 
 You can learn about new features of the bot in @SneatApp channel where <a href="https://t.me/StarGiveaways_EN">we giveaway 500 🌟 EVERY month</a>.
 `,
-		ruRU: `
-<b>От создателя бота:</b> Привет %s!
-
-@SneatBot помогает организовать вашу семейную жизнь.
-Так же можно создать пространство для управления группой/командой/сообществом.
-
-Вы можете узнавать о новых возможностях бота в канале @SneatApp_ru где <a href="https://t.me/StarGiveaways_RU">мы разыгрываем 500 🌟 КАЖДЫЙ месяц</a>.
-`,
-		koKR: `<b>봇 제작자로부터</b>: 안녕하세요 %s!
-
-@SneatBot은 일상의 가족 생활을 관리하는 데 도움이 됩니다. 또는 그룹/팀/커뮤니티를 관리할 공간을 만들 수 있습니다.
-
-저는 이 봇을 유용하고 빠르고 안정적으로 만들기 위해 많은 시간을 투자했습니다. 마음에 들어 하시기를 바랍니다.
-
-@SneatApp 채널에서 봇의 새로운 기능에 대해 알아볼 수 있습니다. <a href="https://t.me/StarGiveaways_EN">매월 500🌟를 경품으로 드립니다</a>.`,
 		esES: `<b>Del creador del bot:</b> ¡Hola, %s!
 
 @SneatBot te ayuda a gestionar tu vida familiar diaria. O puedes crear un espacio para gestionar tu grupo/equipo/comunidad.
@@ -8946,34 +8768,13 @@ Puoi scoprire le nuove funzionalità del bot nel canale @SneatApp dove <a href="
 このボットを便利で、迅速で、信頼できるものにするために、多くの時間を費やしました。気に入っていただければ幸いです。
 
 ボットの新機能については、@SneatApp チャンネルで確認できます。ここでは、<a href="https://t.me/StarGiveaways_EN">毎月 500 🌟 をプレゼント</a>しています。`,
-		zhCN: `<b>来自机器人的创建者</b>：嗨 %s！
+		koKR: `<b>봇 제작자로부터</b>: 안녕하세요 %s!
 
-@SneatBot 帮助您管理日常家庭生活。或者您可以创建一个空间来管理您的群组/团队/社区。
+@SneatBot은 일상의 가족 생활을 관리하는 데 도움이 됩니다. 또는 그룹/팀/커뮤니티를 관리할 공간을 만들 수 있습니다.
 
-我花了很多时间让这个机器人变得有用、快速和可靠。希望你会喜欢它。
+저는 이 봇을 유용하고 빠르고 안정적으로 만들기 위해 많은 시간을 투자했습니다. 마음에 들어 하시기를 바랍니다.
 
-您可以在 @SneatApp 频道了解该机器人的新功能，<a href="https://t.me/StarGiveaways_EN">我们每月赠送 500 🌟</a>。`,
-		deDE: `<b>Vom Ersteller des Bots</b>: Hallo %s!
-
-@SneatBot hilft Ihnen, Ihren Familienalltag zu organisieren. Oder Sie können einen Bereich erstellen, in dem Sie Ihre Gruppe/Ihr Team/Ihre Community verwalten können.
-
-Ich habe viel Zeit darauf verwendet, diesen Bot nützlich, schnell und zuverlässig zu machen. Ich hoffe, er gefällt Ihnen.
-
-Sie können sich über neue Funktionen des Bots im @SneatApp-Kanal informieren, wo wir <a href="https://t.me/StarGiveaways_EN">JEDEN Monat 500 🌟 verschenken</a>.`,
-		ptPT: `<b>Do criador do bot</b>: Olá %s!
-
-@SneatBot ajuda a gerir a sua vida familiar quotidiana. Ou pode criar um espaço para gerir o seu grupo/equipa/comunidade.
-
-Gastei muito tempo para tornar este bot útil, rápido e fiável.
-
-Pode conhecer as novas funcionalidades do bot no canal @SneatApp onde <a href="https://t.me/StarGiveaways_EN">distribuímos 500 🌟 TODOS os meses</a>.`,
-		ptBR: `<b>Do criador do bot</b>: Olá %s!
-
-@SneatBot ajuda a gerenciar sua vida familiar cotidiana. Ou você pode criar um espaço para gerenciar seu grupo/equipe/comunidade.
-
-Eu gastei muito tempo para tornar este bot útil, rápido e confiável. Espero que você goste.
-
-Você pode aprender sobre os novos recursos do bot no canal @SneatApp onde <a href="https://t.me/StarGiveaways_EN">nós doamos 500 🌟 TODO mês</a>.`,
+@SneatApp 채널에서 봇의 새로운 기능에 대해 알아볼 수 있습니다. <a href="https://t.me/StarGiveaways_EN">매월 500🌟를 경품으로 드립니다</a>.`,
 		plPL: `<b>Od twórcy bota</b>: Cześć %s!
 
 @SneatBot pomaga zarządzać codziennym życiem rodzinnym. Możesz też utworzyć przestrzeń do zarządzania swoją grupą/zespołem/społecznością.
@@ -8981,6 +8782,28 @@ Você pode aprender sobre os novos recursos do bot no canal @SneatApp onde <a hr
 Poświęciłem dużo czasu, aby ten bot był użyteczny, szybki i niezawodny. Mam nadzieję, że Ci się spodoba.
 
 Możesz dowiedzieć się o nowych funkcjach bota na kanale @SneatApp, gdzie <a href="https://t.me/StarGiveaways_EN">rozdajemy 500 🌟 CO MIESIĄC</a>.`,
+		ptBR: `<b>Do criador do bot</b>: Olá %s!
+
+@SneatBot ajuda a gerenciar sua vida familiar cotidiana. Ou você pode criar um espaço para gerenciar seu grupo/equipe/comunidade.
+
+Eu gastei muito tempo para tornar este bot útil, rápido e confiável. Espero que você goste.
+
+Você pode aprender sobre os novos recursos do bot no canal @SneatApp onde <a href="https://t.me/StarGiveaways_EN">nós doamos 500 🌟 TODO mês</a>.`,
+		ptPT: `<b>Do criador do bot</b>: Olá %s!
+
+@SneatBot ajuda a gerir a sua vida familiar quotidiana. Ou pode criar um espaço para gerir o seu grupo/equipa/comunidade.
+
+Gastei muito tempo para tornar este bot útil, rápido e fiável.
+
+Pode conhecer as novas funcionalidades do bot no canal @SneatApp onde <a href="https://t.me/StarGiveaways_EN">distribuímos 500 🌟 TODOS os meses</a>.`,
+		ruRU: `
+<b>От создателя бота:</b> Привет %s!
+
+@SneatBot помогает организовать вашу семейную жизнь.
+Так же можно создать пространство для управления группой/командой/сообществом.
+
+Вы можете узнавать о новых возможностях бота в канале @SneatApp_ru где <a href="https://t.me/StarGiveaways_RU">мы разыгрываем 500 🌟 КАЖДЫЙ месяц</a>.
+`,
 		ukUA: `<b>Від творця бота</b>: Привіт, %s!
 
 @SneatBot допомагає керувати повсякденним сімейним життям. Або ви можете створити простір для керування своєю групою/командою/спільнотою.
@@ -8988,493 +8811,514 @@ Możesz dowiedzieć się o nowych funkcjach bota na kanale @SneatApp, gdzie <a h
 Я витратив багато часу, щоб зробити цього бота корисним, швидким і надійним. Сподіваюся, він вам сподобається.
 
 Ви можете дізнатися про нові функції бота на каналі @SneatApp, де <a href="https://t.me/StarGiveaways_EN">ми роздаємо 500 🌟 КОЖНОГО місяця</a>.`,
+		zhCN: `<b>来自机器人的创建者</b>：嗨 %s！
+
+@SneatBot 帮助您管理日常家庭生活。或者您可以创建一个空间来管理您的群组/团队/社区。
+
+我花了很多时间让这个机器人变得有用、快速和可靠。希望你会喜欢它。
+
+您可以在 @SneatApp 频道了解该机器人的新功能，<a href="https://t.me/StarGiveaways_EN">我们每月赠送 500 🌟</a>。`,
 	},
 	SpaceCmdText: {
+		deDE: "Aktueller Raum: %s <b>%s</b>",
 		enUK: "Current space: %s <b>%s</b>",
-		ruRU: "Текущее пространство: %s <b>%s</b>",
 		esES: "Espacio actual: %s <b>%s</b>",
 		faIR: "فضای فعلی: %s <b>%s</b>",
-		itIT: "Spazio corrente: %s <b>%s</b>",
-		deDE: "Aktueller Raum: %s <b>%s</b>",
 		frFR: "Espace actuel: %s <b>%s</b>",
-		plPL: "Aktualna przestrzeń: %s <b>%s</b>",
-		ptPT: "Espaço atual: %s <b>%s</b>",
-		koKR: "현재 공간: %s <b>%s</b>",
-		jaJP: "現在のスペース: %s <b>%s</b>",
-		zhCN: "当前空间: %s <b>%s</b>",
-		ukUA: "Поточний простір: %s <b>%s</b>",
-		ptBR: "Espaço atual: %s <b>%s</b>",
-		trTR: "Mevcut alan: %s <b>%s</b>",
 		idID: "Ruang saat ini: %s <b>%s</b>",
+		itIT: "Spazio corrente: %s <b>%s</b>",
+		jaJP: "現在のスペース: %s <b>%s</b>",
+		koKR: "현재 공간: %s <b>%s</b>",
+		plPL: "Aktualna przestrzeń: %s <b>%s</b>",
+		ptBR: "Espaço atual: %s <b>%s</b>",
+		ptPT: "Espaço atual: %s <b>%s</b>",
+		ruRU: "Текущее пространство: %s <b>%s</b>",
+		trTR: "Mevcut alan: %s <b>%s</b>",
+		ukUA: "Поточний простір: %s <b>%s</b>",
+		zhCN: "当前空间: %s <b>%s</b>",
 	},
 	SpaceCmdBtnContacts: {
+		deDE: "Kontakte",
 		enUK: "Contacts",
-		ruRU: "Контакты",
 		esES: "Contactos",
 		faIR: "مخاطبین",
-		itIT: "Contatti",
-		deDE: "Kontakte",
 		frFR: "Contacts",
-		plPL: "Kontakty",
-		ptPT: "Contatos",
-		koKR: "연락처",
-		jaJP: "連絡先",
-		zhCN: "联系人",
-		ukUA: "Контакти",
-		ptBR: "Contatos",
-		trTR: "Kişiler",
 		idID: "Kontak",
+		itIT: "Contatti",
+		jaJP: "連絡先",
+		koKR: "연락처",
+		plPL: "Kontakty",
+		ptBR: "Contatos",
+		ptPT: "Contatos",
+		ruRU: "Контакты",
+		trTR: "Kişiler",
+		ukUA: "Контакти",
+		zhCN: "联系人",
 	},
 	SpaceCmdBtnMembers: {
+		deDE: "Mitglieder",
 		enUK: "Members",
-		ruRU: "Участники",
 		esES: "Miembros",
 		faIR: "اعضا",
-		itIT: "Membri",
-		deDE: "Mitglieder",
 		frFR: "Membres",
-		plPL: "Członkowie",
-		ptPT: "Membros",
-		koKR: "회원",
-		jaJP: "メンバー",
-		zhCN: "成员",
-		ukUA: "Учасники",
-		ptBR: "Membros",
-		trTR: "Üyeler",
 		idID: "Anggota",
+		itIT: "Membri",
+		jaJP: "メンバー",
+		koKR: "회원",
+		plPL: "Członkowie",
+		ptBR: "Membros",
+		ptPT: "Membros",
+		ruRU: "Участники",
+		trTR: "Üyeler",
+		ukUA: "Учасники",
+		zhCN: "成员",
 	},
 	FamilyMembers: {
+		deDE: "Familienmitglieder",
 		enUK: "Family members",
-		ruRU: "Члены семьи",
 		esES: "Miembros de la familia",
 		faIR: "اعضای خانواده",
-		itIT: "Membri della famiglia",
-		deDE: "Familienmitglieder",
 		frFR: "Membres de la famille",
-		plPL: "Członkowie rodziny",
-		ptPT: "Membros da família",
-		koKR: "가족 구성원",
-		jaJP: "家族のメンバー",
-		zhCN: "家庭成员",
-		ukUA: "Члени сім'ї",
-		ptBR: "Membros da família",
-		trTR: "Aile üyeleri",
 		idID: "Anggota keluarga",
+		itIT: "Membri della famiglia",
+		jaJP: "家族のメンバー",
+		koKR: "가족 구성원",
+		plPL: "Członkowie rodziny",
+		ptBR: "Membros da família",
+		ptPT: "Membros da família",
+		ruRU: "Члены семьи",
+		trTR: "Aile üyeleri",
+		ukUA: "Члени сім'ї",
+		zhCN: "家庭成员",
 	},
 	SpaceMembers: {
+		deDE: "Raummitglieder",
 		enUK: "Space members",
-		ruRU: "Участники пространства",
 		esES: "Miembros del espacio",
 		faIR: "اعضای فضا",
-		itIT: "Membri dello spazio",
-		deDE: "Raummitglieder",
 		frFR: "Membres de l'espace",
-		plPL: "Członkowie przestrzeni",
-		ptPT: "Membros do espaço",
-		koKR: "공간 멤버",
-		jaJP: "スペースメンバー",
-		zhCN: "空间成员",
-		ukUA: "Члени простору",
-		ptBR: "Membros do espaço",
-		trTR: "Alan üyeleri",
 		idID: "Anggota ruang",
+		itIT: "Membri dello spazio",
+		jaJP: "スペースメンバー",
+		koKR: "공간 멤버",
+		plPL: "Członkowie przestrzeni",
+		ptBR: "Membros do espaço",
+		ptPT: "Membros do espaço",
+		ruRU: "Участники пространства",
+		trTR: "Alan üyeleri",
+		ukUA: "Члени простору",
+		zhCN: "空间成员",
 	},
 	SpaceCmdBtnLists: {
+		deDE: "Listen",
 		enUK: "Lists",
-		ruRU: "Списки",
 		esES: "Listas",
 		faIR: "لیست ها",
-		itIT: "Elenchi",
-		deDE: "Listen",
 		frFR: "Listes",
-		plPL: "Listy",
-		ptPT: "Listas",
-		koKR: "목록",
-		jaJP: "リスト",
-		zhCN: "清单",
-		ukUA: "Списки",
-		ptBR: "Listas",
-		trTR: "Listeler",
 		idID: "Daftar",
+		itIT: "Elenchi",
+		jaJP: "リスト",
+		koKR: "목록",
+		plPL: "Listy",
+		ptBR: "Listas",
+		ptPT: "Listas",
+		ruRU: "Списки",
+		trTR: "Listeler",
+		ukUA: "Списки",
+		zhCN: "清单",
 	},
 	SpaceCmdBtnAssets: {
+		deDE: "Vermögenswerte",
 		enUK: "Assets",
-		ruRU: "Активы",
 		esES: "Activos",
 		faIR: "دارایی ها",
-		itIT: "Attività",
-		deDE: "Vermögenswerte",
 		frFR: "Actifs",
-		plPL: "Aktywa",
-		ptPT: "Ativos",
-		koKR: "자산",
-		jaJP: "資産",
-		zhCN: "资产",
-		ukUA: "Активи",
-		ptBR: "Ativos",
-		trTR: "Varlıklar",
 		idID: "Aset",
+		itIT: "Attività",
+		jaJP: "資産",
+		koKR: "자산",
+		plPL: "Aktywa",
+		ptBR: "Ativos",
+		ptPT: "Ativos",
+		ruRU: "Активы",
+		trTR: "Varlıklar",
+		ukUA: "Активи",
+		zhCN: "资产",
 	},
 	SpaceCmdBtnBudget: {
+		deDE: "Budget",
 		enUK: "Budget",
-		ruRU: "Бюджет",
 		esES: "Presupuesto",
 		faIR: "بودجه",
-		itIT: "Budget",
-		deDE: "Budget",
 		frFR: "Budget",
-		plPL: "Budżet",
-		ptPT: "Orçamento",
-		koKR: "예산",
-		jaJP: "予算",
-		zhCN: "预算",
-		ukUA: "Бюджет",
-		ptBR: "Orçamento",
-		trTR: "Bütçe",
 		idID: "Anggaran",
+		itIT: "Budget",
+		jaJP: "予算",
+		koKR: "예산",
+		plPL: "Budżet",
+		ptBR: "Orçamento",
+		ptPT: "Orçamento",
+		ruRU: "Бюджет",
+		trTR: "Bütçe",
+		ukUA: "Бюджет",
+		zhCN: "预算",
 	},
 	SpaceCmdBtnDebts: {
+		deDE: "Schulden",
 		enUK: "Debts",
-		ruRU: "Долги",
 		esES: "Deudas",
 		faIR: "بدهی ها",
-		itIT: "Debiti",
-		deDE: "Schulden",
 		frFR: "Dettes",
-		plPL: "Długi",
-		ptPT: "Dívidas",
-		koKR: "부채",
-		jaJP: "借金",
-		zhCN: "债务",
-		ukUA: "Борги",
-		ptBR: "Dívidas",
-		trTR: "Borçlar",
 		idID: "Hutang",
+		itIT: "Debiti",
+		jaJP: "借金",
+		koKR: "부채",
+		plPL: "Długi",
+		ptBR: "Dívidas",
+		ptPT: "Dívidas",
+		ruRU: "Долги",
+		trTR: "Borçlar",
+		ukUA: "Борги",
+		zhCN: "债务",
 	},
 	SpaceCmdBtnCalendar: {
+		deDE: "Kalender",
 		enUK: "Calendar",
-		ruRU: "Календарь",
 		esES: "Calendario",
 		faIR: "تقویم",
-		itIT: "Calendario",
-		deDE: "Kalender",
 		frFR: "Calendrier",
-		plPL: "Kalendarz",
-		ptPT: "Calendário",
-		koKR: "달력",
-		jaJP: "カレンダー",
-		zhCN: "日历",
-		ukUA: "Календар",
-		ptBR: "Calendário",
-		trTR: "Takvim",
 		idID: "Kalender",
+		itIT: "Calendario",
+		jaJP: "カレンダー",
+		koKR: "달력",
+		plPL: "Kalendarz",
+		ptBR: "Calendário",
+		ptPT: "Calendário",
+		ruRU: "Календарь",
+		trTR: "Takvim",
+		ukUA: "Календар",
+		zhCN: "日历",
 	},
 	SpaceCmdBtnTrackers: {
-		deDE: "Tracker", // Placeholder
-		enUK: "Trackers",
-		enUS: "Trackers",      // Placeholder
-		esES: "Rastreadores",  // Placeholder
-		faIR: "ردیاب\u200cها", // Placeholder
-		frFR: "Traqueurs",     // Placeholder
-		idID: "Pelacak",       // Placeholder
-		itIT: "Tracker",       // Placeholder
-		jaJP: "トラッカー",         // Placeholder
-		koKR: "추적기",           // Placeholder
-		plPL: "Monitorujące",  // Placeholder
-		ptBR: "Rastreadores",  // Placeholder
-		ruRU: "Трекеры",
-		trTR: "İzleyiciler",   // Placeholder
-		ukUA: "Трекери",       // Placeholder
-		uzUZ: "Kuzatuvchilar", // Placeholder
-		zhCN: "追踪器",           // Placeholder
+		deDE: "Tracker",
+		enUK:// Placeholder
+		"Trackers",
+		enUS: "Trackers",
+		esES:// Placeholder
+		"Rastreadores",
+		faIR:// Placeholder
+		"ردیاب\u200cها",
+		frFR:// Placeholder
+		"Traqueurs",
+		idID:// Placeholder
+		"Pelacak",
+		itIT:// Placeholder
+		"Tracker",
+		jaJP:// Placeholder
+		"トラッカー",
+		koKR:// Placeholder
+		"추적기",
+		plPL:// Placeholder
+		"Monitorujące",
+		ptBR:// Placeholder
+		"Rastreadores",
+		ruRU:// Placeholder
+		"Трекеры",
+		trTR: "İzleyiciler",
+		ukUA:// Placeholder
+		"Трекери",
+		uzUZ:// Placeholder
+		"Kuzatuvchilar",
+		zhCN:// Placeholder
+		"追踪器", // Placeholder
 	},
 	BtnSpaces: {
+		deDE: "Räume",
 		enUK: "Spaces",
-		ruRU: "Пространства",
 		esES: "Espacios",
 		faIR: "فضاها",
-		itIT: "Spazi",
-		deDE: "Räume",
 		frFR: "Espaces",
-		plPL: "Przestrzenie",
-		ptPT: "Espaços",
-		koKR: "공간",
-		jaJP: "スペース",
-		zhCN: "空间",
-		ukUA: "Простори",
-		ptBR: "Espaços",
-		trTR: "Mekanlar",
 		idID: "Ruang",
+		itIT: "Spazi",
+		jaJP: "スペース",
+		koKR: "공간",
+		plPL: "Przestrzenie",
+		ptBR: "Espaços",
+		ptPT: "Espaços",
+		ruRU: "Пространства",
+		trTR: "Mekanlar",
+		ukUA: "Простори",
+		zhCN: "空间",
 	},
 	SpaceCmdBtnSettings: {
+		deDE: "Einstellungen",
 		enUK: "Settings",
-		ruRU: "Настройки",
 		esES: "Ajustes",
 		faIR: "تنظیمات",
-		itIT: "Impostazioni",
-		deDE: "Einstellungen",
 		frFR: "Paramètres",
-		plPL: "Ustawienia",
-		ptPT: "Configurações",
-		koKR: "설정",
-		jaJP: "設定",
-		zhCN: "设置",
-		ukUA: "Налаштування",
-		ptBR: "Configurações",
-		trTR: "Ayarlar",
 		idID: "Pengaturan",
+		itIT: "Impostazioni",
+		jaJP: "設定",
+		koKR: "설정",
+		plPL: "Ustawienia",
+		ptBR: "Configurações",
+		ptPT: "Configurações",
+		ruRU: "Настройки",
+		trTR: "Ayarlar",
+		ukUA: "Налаштування",
+		zhCN: "设置",
 	},
 	LIST_CMD_BUY: {
+		deDE: "Kaufen",
 		enUK: "Buy",
-		ruRU: "Купить",
 		esES: "Comprar",
 		faIR: "خرید",
-		itIT: "Acquista",
-		deDE: "Kaufen",
 		frFR: "Acheter",
-		plPL: "Kup",
-		ptPT: "Comprar",
-		koKR: "사다",
-		jaJP: "購入",
-		zhCN: "购买",
-		ukUA: "Купити",
-		ptBR: "Comprar",
-		trTR: "Satın al",
 		idID: "Beli",
+		itIT: "Acquista",
+		jaJP: "購入",
+		koKR: "사다",
+		plPL: "Kup",
+		ptBR: "Comprar",
+		ptPT: "Comprar",
+		ruRU: "Купить",
+		trTR: "Satın al",
+		ukUA: "Купити",
+		zhCN: "购买",
 	},
 	LIST_CMD_TODO: {
+		deDE: "Aufgaben",
 		enUK: "ToDo",
-		ruRU: "Задачи",
 		esES: "Tareas",
 		faIR: "وظایف",
-		itIT: "Compiti",
-		deDE: "Aufgaben",
 		frFR: "Tâches",
-		plPL: "Zadania",
-		ptPT: "Tarefas",
-		koKR: "할 일",
-		jaJP: "タスク",
-		zhCN: "任务",
-		ukUA: "Завдання",
-		ptBR: "Tarefas",
-		trTR: "Görevler",
 		idID: "Tugas",
+		itIT: "Compiti",
+		jaJP: "タスク",
+		koKR: "할 일",
+		plPL: "Zadania",
+		ptBR: "Tarefas",
+		ptPT: "Tarefas",
+		ruRU: "Задачи",
+		trTR: "Görevler",
+		ukUA: "Завдання",
+		zhCN: "任务",
 	},
 	LIST_CMD_WATCH: {
+		deDE: "Ansehen",
 		enUK: "Watch",
-		ruRU: "Смотреть",
 		esES: "Ver",
 		faIR: "تماشا کنید",
-		itIT: "Guarda",
-		deDE: "Ansehen",
 		frFR: "Regarder",
-		plPL: "Oglądaj",
-		ptPT: "Assistir",
-		koKR: "보기",
-		jaJP: "見る",
-		zhCN: "观看",
-		ukUA: "Дивитися",
-		ptBR: "Assistir",
-		trTR: "İzle",
 		idID: "Menonton",
+		itIT: "Guarda",
+		jaJP: "見る",
+		koKR: "보기",
+		plPL: "Oglądaj",
+		ptBR: "Assistir",
+		ptPT: "Assistir",
+		ruRU: "Смотреть",
+		trTR: "İzle",
+		ukUA: "Дивитися",
+		zhCN: "观看",
 	},
 	LIST_CMD_READ: {
+		deDE: "Lesen",
 		enUK: "Read",
-		ruRU: "Читать",
 		esES: "Leer",
 		faIR: "خواندن",
-		itIT: "Leggi",
-		deDE: "Lesen",
 		frFR: "Lire",
-		plPL: "Czytaj",
-		ptPT: "Ler",
-		koKR: "읽기",
-		jaJP: "読む",
-		zhCN: "读",
-		ukUA: "Читати",
-		ptBR: "Ler",
-		trTR: "Oku",
 		idID: "Baca",
+		itIT: "Leggi",
+		jaJP: "読む",
+		koKR: "읽기",
+		plPL: "Czytaj",
+		ptBR: "Ler",
+		ptPT: "Ler",
+		ruRU: "Читать",
+		trTR: "Oku",
+		ukUA: "Читати",
+		zhCN: "读",
 	},
 	ListCmdBtnToRead: {
+		deDE: "Zu lesen",
 		enUK: "To read",
-		ruRU: "Прочитать",
 		esES: "Leer",
 		faIR: "برای خواندن",
-		itIT: "Da leggere",
-		deDE: "Zu lesen",
 		frFR: "À lire",
-		plPL: "Do przeczytania",
-		ptPT: "Para ler",
-		koKR: "읽을 것",
-		jaJP: "読む",
-		zhCN: "阅读",
-		ukUA: "Читати",
-		ptBR: "Para ler",
-		trTR: "Okunacaklar",
 		idID: "Untuk dibaca",
+		itIT: "Da leggere",
+		jaJP: "読む",
+		koKR: "읽을 것",
+		plPL: "Do przeczytania",
+		ptBR: "Para ler",
+		ptPT: "Para ler",
+		ruRU: "Прочитать",
+		trTR: "Okunacaklar",
+		ukUA: "Читати",
+		zhCN: "阅读",
 	},
 	ListCmdBtnToWatch: {
+		deDE: "Ansehen",
 		enUK: "To watch",
-		ruRU: "Посмотреть",
 		esES: "Ver",
 		faIR: "برای تماشا",
-		itIT: "Da guardare",
-		deDE: "Ansehen",
 		frFR: "À regarder",
-		plPL: "Do obejrzenia",
-		ptPT: "Para assistir",
-		koKR: "볼 것",
-		jaJP: "見る",
-		zhCN: "观看",
-		ukUA: "Дивитися",
-		ptBR: "Para assistir",
-		trTR: "İzlenecekler",
 		idID: "Untuk ditonton",
+		itIT: "Da guardare",
+		jaJP: "見る",
+		koKR: "볼 것",
+		plPL: "Do obejrzenia",
+		ptBR: "Para assistir",
+		ptPT: "Para assistir",
+		ruRU: "Посмотреть",
+		trTR: "İzlenecekler",
+		ukUA: "Дивитися",
+		zhCN: "观看",
 	},
 	ListCmdBtnToBuy: {
+		deDE: "Zu kaufen",
 		enUK: "To buy",
-		ruRU: "Купить",
 		esES: "Comprar",
 		faIR: "برای خرید",
-		itIT: "Da comprare",
-		deDE: "Zu kaufen",
 		frFR: "À acheter",
-		plPL: "Do kupienia",
-		ptPT: "Para comprar",
-		koKR: "구매할 것",
-		jaJP: "購入",
-		zhCN: "购买",
-		ukUA: "Купити",
-		ptBR: "Para comprar",
-		trTR: "Alınacaklar",
 		idID: "Untuk dibeli",
+		itIT: "Da comprare",
+		jaJP: "購入",
+		koKR: "구매할 것",
+		plPL: "Do kupienia",
+		ptBR: "Para comprar",
+		ptPT: "Para comprar",
+		ruRU: "Купить",
+		trTR: "Alınacaklar",
+		ukUA: "Купити",
+		zhCN: "购买",
 	},
 	ListCmdBtnToDo: {
+		deDE: "Zu tun",
 		enUK: "To do",
-		ruRU: "Сделать",
 		esES: "Hacer",
 		faIR: "انجام دادن",
-		itIT: "Da fare",
-		deDE: "Zu tun",
 		frFR: "À faire",
-		plPL: "Do zrobienia",
-		ptPT: "Para fazer",
-		koKR: "할 일",
-		jaJP: "やる",
-		zhCN: "做",
-		ukUA: "Зробити",
-		ptBR: "Para fazer",
-		trTR: "Yapılacaklar",
 		idID: "Untuk dilakukan",
+		itIT: "Da fare",
+		jaJP: "やる",
+		koKR: "할 일",
+		plPL: "Do zrobienia",
+		ptBR: "Para fazer",
+		ptPT: "Para fazer",
+		ruRU: "Сделать",
+		trTR: "Yapılacaklar",
+		ukUA: "Зробити",
+		zhCN: "做",
 	},
 	Groceries: {
+		deDE: "Lebensmittel",
 		enUK: "Groceries",
-		ruRU: "Продукты",
 		esES: "Comestibles",
 		faIR: "خوار و بار",
-		itIT: "Generi alimentari",
-		deDE: "Lebensmittel",
 		frFR: "Épicerie",
-		plPL: "Artykuły spożywcze",
-		ptPT: "Comestíveis",
-		koKR: "식료품",
-		jaJP: "食料品",
-		zhCN: "杂货",
-		ukUA: "Продукти",
-		ptBR: "Comestíveis",
-		trTR: "Bakkaliye",
 		idID: "Bahan makanan",
+		itIT: "Generi alimentari",
+		jaJP: "食料品",
+		koKR: "식료품",
+		plPL: "Artykuły spożywcze",
+		ptBR: "Comestíveis",
+		ptPT: "Comestíveis",
+		ruRU: "Продукты",
+		trTR: "Bakkaliye",
+		ukUA: "Продукти",
+		zhCN: "杂货",
 	},
 	Books: {
+		deDE: "Bücher",
 		enUK: "Books",
-		ruRU: "Книги",
 		esES: "Libros",
 		faIR: "کتاب ها",
-		itIT: "Libri",
-		deDE: "Bücher",
 		frFR: "Livres",
-		plPL: "Książki",
-		ptPT: "Livros",
-		koKR: "책",
-		jaJP: "本",
-		zhCN: "书籍",
-		ukUA: "Книги",
-		ptBR: "Livros",
-		trTR: "Kitaplar",
 		idID: "Buku",
+		itIT: "Libri",
+		jaJP: "本",
+		koKR: "책",
+		plPL: "Książki",
+		ptBR: "Livros",
+		ptPT: "Livros",
+		ruRU: "Книги",
+		trTR: "Kitaplar",
+		ukUA: "Книги",
+		zhCN: "书籍",
 	},
 	Movies: {
+		deDE: "Filme",
 		enUK: "Movies",
-		ruRU: "Фильмы",
 		esES: "Películas",
 		faIR: "فیلم ها",
-		itIT: "Film",
-		deDE: "Filme",
 		frFR: "Films",
-		plPL: "Filmy",
-		ptPT: "Filmes",
-		koKR: "영화",
-		jaJP: "映画",
-		zhCN: "电影",
-		ukUA: "Фільми",
-		ptBR: "Filmes",
-		trTR: "Filmler",
 		idID: "Film",
+		itIT: "Film",
+		jaJP: "映画",
+		koKR: "영화",
+		plPL: "Filmy",
+		ptBR: "Filmes",
+		ptPT: "Filmes",
+		ruRU: "Фильмы",
+		trTR: "Filmler",
+		ukUA: "Фільми",
+		zhCN: "电影",
 	},
 	Tasks: {
+		deDE: "Aufgaben",
 		enUK: "Tasks",
-		ruRU: "Задачи",
 		esES: "Tareas",
 		faIR: "وظایف",
-		itIT: "Compiti",
-		deDE: "Aufgaben",
 		frFR: "Tâches",
-		plPL: "Zadania",
-		ptPT: "Tarefas",
-		koKR: "할 일",
-		jaJP: "タスク",
-		zhCN: "任务",
-		ukUA: "Завдання",
-		ptBR: "Tarefas",
-		trTR: "Görevler",
 		idID: "Tugas",
+		itIT: "Compiti",
+		jaJP: "タスク",
+		koKR: "할 일",
+		plPL: "Zadania",
+		ptBR: "Tarefas",
+		ptPT: "Tarefas",
+		ruRU: "Задачи",
+		trTR: "Görevler",
+		ukUA: "Завдання",
+		zhCN: "任务",
 	},
 	ListsOfFamily: {
+		deDE: "Familienlisten",
 		enUK: "Family lists",
-		ruRU: "Семейные списки",
 		esES: "Listas familiares",
 		faIR: "لیست های خانواده",
-		itIT: "Liste familiari",
-		deDE: "Familienlisten",
 		frFR: "Listes familiales",
-		plPL: "Listy rodzinne",
-		ptPT: "Listas familiares",
-		koKR: "가족 목록",
-		jaJP: "家族のリスト",
-		zhCN: "家庭清单",
-		ukUA: "Сімейні списки",
-		ptBR: "Listas familiares",
-		trTR: "Aile listeleri",
 		idID: "Daftar keluarga",
+		itIT: "Liste familiari",
+		jaJP: "家族のリスト",
+		koKR: "가족 목록",
+		plPL: "Listy rodzinne",
+		ptBR: "Listas familiares",
+		ptPT: "Listas familiares",
+		ruRU: "Семейные списки",
+		trTR: "Aile listeleri",
+		ukUA: "Сімейні списки",
+		zhCN: "家庭清单",
 	},
 	ListsOfPrivate: {
+		deDE: "Private Listen",
 		enUK: "Private lists",
-		ruRU: "Личные списки",
 		esES: "Listas privadas",
 		faIR: "لیست های خصوصی",
-		itIT: "Liste private",
-		deDE: "Private Listen",
 		frFR: "Listes privées",
-		plPL: "Prywatne listy",
-		ptPT: "Listas privadas",
-		koKR: "개인 목록",
-		jaJP: "プライベートリスト",
-		zhCN: "私人清单",
-		ukUA: "Особисті списки",
-		ptBR: "Listas privadas",
-		trTR: "Özel listeler",
 		idID: "Daftar pribadi",
+		itIT: "Liste private",
+		jaJP: "プライベートリスト",
+		koKR: "개인 목록",
+		plPL: "Prywatne listy",
+		ptBR: "Listas privadas",
+		ptPT: "Listas privadas",
+		ruRU: "Личные списки",
+		trTR: "Özel listeler",
+		ukUA: "Особисті списки",
+		zhCN: "私人清单",
 	},
 	ListsOfSpace: {
 		deDE: "Listen @ %s",
@@ -9497,559 +9341,557 @@ Możesz dowiedzieć się o nowych funkcjach bota na kanale @SneatApp, gdzie <a h
 		zhCN: "清单 @ %s",
 	},
 	BtnBackToSpace: {
-		enUK: "Back to space",
-		ruRU: "К пространству",
-		esES: "Volver al espacio",
-		frFR: "Retour à l'espace",
 		deDE: "Zurück zum Bereich",
+		enUK: "Back to space",
+		esES: "Volver al espacio",
+		faIR: "بازگشت به فضا",
+		frFR: "Retour à l'espace",
+		idID: "Kembali ke ruang",
 		itIT: "Torna allo spazio",
-		ptPT: "Voltar ao espaço",
-		ptBR: "Voltar ao espaço",
-		zhCN: "返回空间",
 		jaJP: "スペースに戻る",
 		koKR: "공간으로 돌아가기",
 		plPL: "Powrót do przestrzeni",
-		ukUA: "Назад до простору",
+		ptBR: "Voltar ao espaço",
+		ptPT: "Voltar ao espaço",
+		ruRU: "К пространству",
 		trTR: "Alana geri dön",
-		idID: "Kembali ke ruang",
-		faIR: "بازگشت به فضا",
+		ukUA: "Назад до простору",
+		zhCN: "返回空间",
 	},
 	BtnPrivate: {
+		deDE: "Privat",
 		enUK: "Private",
-		ruRU: "Личное",
 		esES: "Privado",
 		faIR: "شخصی",
-		itIT: "Privato",
-		deDE: "Privat",
 		frFR: "Privé",
+		idID: "Pribadi",
+		itIT: "Privato",
+		jaJP: "個人",
+		koKR: "개인적인",
 		plPL: "Prywatne",
 		ptPT: "Privado",
-		koKR: "개인적인",
-		jaJP: "個人",
-		zhCN: "私人",
-		ukUA: "Особисте",
+		ruRU: "Личное",
 		trTR: "Özel",
-		idID: "Pribadi",
+		ukUA: "Особисте",
+		zhCN: "私人",
 	},
 	BtnFamily: {
+		deDE: "Familie",
 		enUK: "Family",
-		ruRU: "Семья",
 		esES: "Familia",
 		faIR: "خانواده",
-		itIT: "Famiglia",
-		deDE: "Familie",
 		frFR: "Famille",
-		plPL: "Rodzina",
-		ptPT: "Família",
-		koKR: "가족",
-		jaJP: "家族",
-		zhCN: "家庭",
-		ukUA: "Сім'я",
-		ptBR: "Família",
-		trTR: "Aile",
 		idID: "Keluarga",
+		itIT: "Famiglia",
+		jaJP: "家族",
+		koKR: "가족",
+		plPL: "Rodzina",
+		ptBR: "Família",
+		ptPT: "Família",
+		ruRU: "Семья",
+		trTR: "Aile",
+		ukUA: "Сім'я",
+		zhCN: "家庭",
 	},
 	TrackerPushUps: {
+		deDE: "Liegestütze",
 		enUK: "Push-ups",
-		ruRU: "Отжимания",
 		esES: "Flexiones",
 		faIR: "پرسه",
-		itIT: "Flessioni",
-		deDE: "Liegestütze",
 		frFR: "Pompes",
-		plPL: "Pompki",
-		ptPT: "Flexões",
-		koKR: "푸시업",
-		jaJP: "腕立て伏せ",
-		zhCN: "俯卧撑",
-		ukUA: "Віджимання",
-		ptBR: "Flexões",
-		trTR: "Şınav",
 		idID: "Push-up",
+		itIT: "Flessioni",
+		jaJP: "腕立て伏せ",
+		koKR: "푸시업",
+		plPL: "Pompki",
+		ptBR: "Flexões",
+		ptPT: "Flexões",
+		ruRU: "Отжимания",
+		trTR: "Şınav",
+		ukUA: "Віджимання",
+		zhCN: "俯卧撑",
 	},
 	TrackerPullUps: {
+		deDE: "Klimmzüge",
 		enUK: "Pull-ups",
-		ruRU: "Подтягивания",
 		esES: "Dominadas",
 		faIR: "کشیدن",
-		itIT: "Trazioni",
-		deDE: "Klimmzüge",
 		frFR: "Tirages",
-		plPL: "Podciągania",
-		ptPT: "Pull-ups",
-		koKR: "풀업",
-		jaJP: "引き上げ",
-		zhCN: "引体向上",
-		ukUA: "Підтягування",
-		ptBR: "Pull-ups",
-		trTR: "Çekme",
 		idID: "Pull-up",
+		itIT: "Trazioni",
+		jaJP: "引き上げ",
+		koKR: "풀업",
+		plPL: "Podciągania",
+		ptBR: "Pull-ups",
+		ptPT: "Pull-ups",
+		ruRU: "Подтягивания",
+		trTR: "Çekme",
+		ukUA: "Підтягування",
+		zhCN: "引体向上",
 	},
 	TrackerSquats: {
+		deDE: "Kniebeugen",
 		enUK: "Squats",
-		ruRU: "Приседания",
 		esES: "Sentadillas",
 		faIR: "کرنچ",
-		itIT: "Squat",
-		deDE: "Kniebeugen",
 		frFR: "Squats",
-		plPL: "Przysiady",
-		ptPT: "Agachamentos",
-		koKR: "스쿼트",
-		jaJP: "スクワット",
-		zhCN: "深蹲",
-		ukUA: "Присідання",
-		ptBR: "Agachamentos",
-		trTR: "Squat",
 		idID: "Squat",
+		itIT: "Squat",
+		jaJP: "スクワット",
+		koKR: "스쿼트",
+		plPL: "Przysiady",
+		ptBR: "Agachamentos",
+		ptPT: "Agachamentos",
+		ruRU: "Приседания",
+		trTR: "Squat",
+		ukUA: "Присідання",
+		zhCN: "深蹲",
 	},
 	TrackerJumpingJacks: {
+		deDE: "Hampelmänner",
 		enUK: "Jumping jacks",
-		ruRU: "Прыжки на месте",
 		esES: "Saltos de tijera",
 		faIR: "حرکت پروانه",
-		itIT: "Salti con apertura",
-		deDE: "Hampelmänner",
 		frFR: "Jumping jacks",
-		plPL: "Pajacyki",
-		ptPT: "Saltos de estrela",
-		koKR: "팔 벌려 뛰기",
-		jaJP: "ジャンピングジャック",
-		zhCN: "开合跳",
-		ukUA: "Стрибки з розмахом рук",
-		ptBR: "Polichinelos",
-		trTR: "Zıplama hareketi",
 		idID: "Lompat bintang",
+		itIT: "Salti con apertura",
+		jaJP: "ジャンピングジャック",
+		koKR: "팔 벌려 뛰기",
+		plPL: "Pajacyki",
+		ptBR: "Polichinelos",
+		ptPT: "Saltos de estrela",
+		ruRU: "Прыжки на месте",
+		trTR: "Zıplama hareketi",
+		ukUA: "Стрибки з розмахом рук",
+		zhCN: "开合跳",
 	},
 	TrackerFuelCost: {
+		deDE: "Kraftstoffkosten",
 		enUK: "Fuel Cost",
-		ruRU: "Стоимость топлива",
 		esES: "Costo del combustible",
 		faIR: "هزینه سوخت",
-		itIT: "Costo del carburante",
-		deDE: "Kraftstoffkosten",
 		frFR: "Coût du carburant",
-		plPL: "Koszt paliwa",
-		ptPT: "Custo do combustível",
-		koKR: "연료 비용",
-		jaJP: "燃料費",
-		zhCN: "燃料成本",
-		ukUA: "Вартість палива",
-		ptBR: "Custo do combustível",
-		trTR: "Yakıt Maliyeti",
 		idID: "Biaya bahan bakar",
+		itIT: "Costo del carburante",
+		jaJP: "燃料費",
+		koKR: "연료 비용",
+		plPL: "Koszt paliwa",
+		ptBR: "Custo do combustível",
+		ptPT: "Custo do combustível",
+		ruRU: "Стоимость топлива",
+		trTR: "Yakıt Maliyeti",
+		ukUA: "Вартість палива",
+		zhCN: "燃料成本",
 	},
 	TrackerFuelVolume: {
+		deDE: "Kraftstoffvolumen",
 		enUK: "Fuel Volume",
-		ruRU: "Объем топлива",
 		esES: "Volumen de combustible",
 		faIR: "حجم سوخت",
-		itIT: "Volume di carburante",
-		deDE: "Kraftstoffvolumen",
 		frFR: "Volume de carburant",
-		plPL: "Objętość paliwa",
-		ptPT: "Volume de combustível",
-		koKR: "연료 양",
-		jaJP: "燃料量",
-		zhCN: "燃料容量",
-		ukUA: "Об'єм палива",
-		ptBR: "Volume de combustível",
-		trTR: "Yakıt Hacmi",
 		idID: "Volume bahan bakar",
+		itIT: "Volume di carburante",
+		jaJP: "燃料量",
+		koKR: "연료 양",
+		plPL: "Objętość paliwa",
+		ptBR: "Volume de combustível",
+		ptPT: "Volume de combustível",
+		ruRU: "Объем топлива",
+		trTR: "Yakıt Hacmi",
+		ukUA: "Об'єм палива",
+		zhCN: "燃料容量",
 	},
 	TrackerMileage: {
+		deDE: "Kilometerstand",
 		enUK: "Mileage",
-		ruRU: "Пробег",
 		esES: "Kilometraje",
 		faIR: "مسافت پیموده شده",
-		itIT: "Chilometraggio",
-		deDE: "Kilometerstand",
 		frFR: "Kilométrage",
-		plPL: "Przebieg",
-		ptPT: "Quilometragem",
-		koKR: "주행 거리",
-		jaJP: "走行距離",
-		zhCN: "里程",
-		ukUA: "Пробіг",
-		ptBR: "Quilometragem",
-		trTR: "Kilometre",
 		idID: "Jarak tempuh",
+		itIT: "Chilometraggio",
+		jaJP: "走行距離",
+		koKR: "주행 거리",
+		plPL: "Przebieg",
+		ptBR: "Quilometragem",
+		ptPT: "Quilometragem",
+		ruRU: "Пробег",
+		trTR: "Kilometre",
+		ukUA: "Пробіг",
+		zhCN: "里程",
 	},
 	TrackerHeight: {
+		deDE: "Höhe",
 		enUK: "Height",
-		ruRU: "Рост",
 		esES: "Altura",
 		faIR: "قد",
-		itIT: "Altezza",
-		deDE: "Höhe",
 		frFR: "Taille",
-		plPL: "Wzrost",
-		ptPT: "Altura",
-		koKR: "키",
-		jaJP: "身長",
-		zhCN: "身高",
-		ukUA: "Зріст",
-		ptBR: "Altura",
-		trTR: "Boy",
 		idID: "Tinggi",
+		itIT: "Altezza",
+		jaJP: "身長",
+		koKR: "키",
+		plPL: "Wzrost",
+		ptBR: "Altura",
+		ptPT: "Altura",
+		ruRU: "Рост",
+		trTR: "Boy",
+		ukUA: "Зріст",
+		zhCN: "身高",
 	},
 	TrackerWeight: {
+		deDE: "Gewicht",
 		enUK: "Weight",
-		ruRU: "Вес",
 		esES: "Peso",
 		faIR: "وزن",
-		itIT: "Peso",
-		deDE: "Gewicht",
 		frFR: "Poids",
-		plPL: "Waga",
-		ptPT: "Peso",
-		koKR: "몸무게",
-		jaJP: "体重",
-		zhCN: "体重",
-		ukUA: "Вага",
-		ptBR: "Peso",
-		trTR: "Ağırlık",
 		idID: "Berat",
+		itIT: "Peso",
+		jaJP: "体重",
+		koKR: "몸무게",
+		plPL: "Waga",
+		ptBR: "Peso",
+		ptPT: "Peso",
+		ruRU: "Вес",
+		trTR: "Ağırlık",
+		ukUA: "Вага",
+		zhCN: "体重",
 	},
 	TrackerSpending: {
+		deDE: "Ausgaben",
 		enUK: "Spending",
-		ruRU: "Расходы",
 		esES: "Gastos",
 		faIR: "هزینه\u200cها",
-		itIT: "Spese",
-		deDE: "Ausgaben",
 		frFR: "Dépenses",
-		plPL: "Wydatki",
-		ptPT: "Despesas",
-		koKR: "지출",
-		jaJP: "支出",
-		zhCN: "支出",
-		ukUA: "Витрати",
-		ptBR: "Despesas",
-		trTR: "Harcamalar",
 		idID: "Pengeluaran",
+		itIT: "Spese",
+		jaJP: "支出",
+		koKR: "지출",
+		plPL: "Wydatki",
+		ptBR: "Despesas",
+		ptPT: "Despesas",
+		ruRU: "Расходы",
+		trTR: "Harcamalar",
+		ukUA: "Витрати",
+		zhCN: "支出",
 	},
 	TrackerBloodPressure: {
+		deDE: "Blutdruck",
 		enUK: "Blood Pressure",
-		ruRU: "Кровяное давление",
 		esES: "Presión arterial",
 		faIR: "فشار خون",
-		itIT: "Pressione sanguigna",
-		deDE: "Blutdruck",
 		frFR: "Pression artérielle",
-		plPL: "Ciśnienie krwi",
-		ptPT: "Pressão arterial",
-		koKR: "혈압",
-		jaJP: "血圧",
-		zhCN: "血压",
-		ukUA: "Кров'яний тиск",
-		ptBR: "Pressão arterial",
-		trTR: "Kan basıncı",
 		idID: "Tekanan darah",
+		itIT: "Pressione sanguigna",
+		jaJP: "血圧",
+		koKR: "혈압",
+		plPL: "Ciśnienie krwi",
+		ptBR: "Pressão arterial",
+		ptPT: "Pressão arterial",
+		ruRU: "Кровяное давление",
+		trTR: "Kan basıncı",
+		ukUA: "Кров'яний тиск",
+		zhCN: "血压",
 	},
 	TrackerCategoryHealth: {
-
+		deDE: "Gesundheit",
 		enUK: "Health",
-		ruRU: "Здоровье",
 		esES: "Salud",
 		faIR: "سلامتی",
-		itIT: "Salute",
-		deDE: "Gesundheit",
 		frFR: "Santé",
-		plPL: "Zdrowie",
-		ptPT: "Saúde",
-		koKR: "건강",
-		jaJP: "健康",
-		zhCN: "健康",
-		ukUA: "Здоров'я",
-		ptBR: "Saúde",
-		trTR: "Sağlık",
 		idID: "Kesehatan",
+		itIT: "Salute",
+		jaJP: "健康",
+		koKR: "건강",
+		plPL: "Zdrowie",
+		ptBR: "Saúde",
+		ptPT: "Saúde",
+		ruRU: "Здоровье",
+		trTR: "Sağlık",
+		ukUA: "Здоров'я",
+		zhCN: "健康",
 	},
 	TrackerCategoryFitness: {
+		deDE: "Fitness",
 		enUK: "Fitness",
-		ruRU: "Фитнес",
 		esES: "Aptitud física",
 		faIR: "تناسب اندام",
-		itIT: "Fitness",
-		deDE: "Fitness",
 		frFR: "Forme physique",
-		plPL: "Fitness",
-		ptPT: "Aptidão física",
-		koKR: "피트니스",
-		jaJP: "フィットネス",
-		zhCN: "健身",
-		ukUA: "Фітнес",
-		ptBR: "Aptidão física",
-		trTR: "Fitness",
 		idID: "Kebugaran fisik",
+		itIT: "Fitness",
+		jaJP: "フィットネス",
+		koKR: "피트니스",
+		plPL: "Fitness",
+		ptBR: "Aptidão física",
+		ptPT: "Aptidão física",
+		ruRU: "Фитнес",
+		trTR: "Fitness",
+		ukUA: "Фітнес",
+		zhCN: "健身",
 	},
 	TrackerCategoryVehicle: {
+		deDE: "Fahrzeug",
 		enUK: "Vehicle",
-		ruRU: "Транспортное средство",
 		esES: "Vehículo",
 		faIR: "وسیله نقلیه",
-		itIT: "Veicolo",
-		deDE: "Fahrzeug",
 		frFR: "Véhicule",
-		plPL: "Pojazd",
-		ptPT: "Veículo",
-		koKR: "차량",
-		jaJP: "車両",
-		zhCN: "车辆",
-		ukUA: "Транспортний засіб",
-		ptBR: "Veículo",
-		trTR: "Araç",
 		idID: "Kendaraan",
+		itIT: "Veicolo",
+		jaJP: "車両",
+		koKR: "차량",
+		plPL: "Pojazd",
+		ptBR: "Veículo",
+		ptPT: "Veículo",
+		ruRU: "Транспортное средство",
+		trTR: "Araç",
+		ukUA: "Транспортний засіб",
+		zhCN: "车辆",
 	},
 	CustomTracker: {
+		deDE: "Benutzerdefinierter Tracker",
 		enUK: "Custom tracker",
-		ruRU: "Свой трекер",
 		esES: "Rastreador personalizado",
 		faIR: "ردیاب سفارشی",
-		itIT: "Tracker personalizzato",
-		deDE: "Benutzerdefinierter Tracker",
 		frFR: "Tracker personnalisé",
-		plPL: "Niestandardowy tracker",
-		ptPT: "Rastreador personalizado",
-		koKR: "사용자 정의 추적기",
-		jaJP: "カスタムトラッカー",
-		zhCN: "自定义追踪器",
-		ukUA: "Свій трекер",
-		ptBR: "Rastreador personalizado",
-		trTR: "Özel izleyici",
 		idID: "Pelacak kustom",
+		itIT: "Tracker personalizzato",
+		jaJP: "カスタムトラッカー",
+		koKR: "사용자 정의 추적기",
+		plPL: "Niestandardowy tracker",
+		ptBR: "Rastreador personalizado",
+		ptPT: "Rastreador personalizado",
+		ruRU: "Свой трекер",
+		trTR: "Özel izleyici",
+		ukUA: "Свій трекер",
+		zhCN: "自定义追踪器",
 	},
 	BackToTrackers: {
+		deDE: "Zurück zu Trackern",
 		enUK: "Back to trackers",
-		ruRU: "Назад к трекерам",
 		esES: "Volver a los rastreadores",
 		faIR: "بازگشت به ردیاب\u200cها",
-		itIT: "Torna ai tracker",
-		deDE: "Zurück zu Trackern",
 		frFR: "Retour aux trackers",
-		plPL: "Powrót do trackerów",
-		ptPT: "Voltar aos rastreadores",
-		koKR: "트래커로 돌아가기",
-		jaJP: "トラッカーに戻る",
-		zhCN: "返回追踪器",
-		ukUA: "Повернутись до трекерів",
-		ptBR: "Voltar aos rastreadores",
-		trTR: "İzleyicilere geri dön",
 		idID: "Kembali ke pelacak",
+		itIT: "Torna ai tracker",
+		jaJP: "トラッカーに戻る",
+		koKR: "트래커로 돌아가기",
+		plPL: "Powrót do trackerów",
+		ptBR: "Voltar aos rastreadores",
+		ptPT: "Voltar aos rastreadores",
+		ruRU: "Назад к трекерам",
+		trTR: "İzleyicilere geri dön",
+		ukUA: "Повернутись до трекерів",
+		zhCN: "返回追踪器",
 	},
 	AddTracker: {
+		deDE: "Tracker hinzufügen",
 		enUK: "Add tracker",
-		ruRU: "Добавить трекер",
 		esES: "Añadir rastreador",
 		faIR: "افزودن ردیاب",
-		itIT: "Aggiungi tracker",
-		deDE: "Tracker hinzufügen",
 		frFR: "Ajouter un tracker",
-		plPL: "Dodaj tracker",
-		ptPT: "Adicionar rastreador",
-		koKR: "추적기 추가",
-		jaJP: "トラッカーを追加",
-		zhCN: "添加追踪器",
-		ukUA: "Додати трекер",
-		ptBR: "Adicionar rastreador",
-		trTR: "İzleyici ekle",
 		idID: "Tambahkan pelacak",
+		itIT: "Aggiungi tracker",
+		jaJP: "トラッカーを追加",
+		koKR: "추적기 추가",
+		plPL: "Dodaj tracker",
+		ptBR: "Adicionar rastreador",
+		ptPT: "Adicionar rastreador",
+		ruRU: "Добавить трекер",
+		trTR: "İzleyici ekle",
+		ukUA: "Додати трекер",
+		zhCN: "添加追踪器",
 	},
 	ShareTracker: {
+		deDE: "Tracker teilen",
 		enUK: "Share tracker",
-		ruRU: "Поделиться трекером",
 		esES: "Compartir rastreador",
 		faIR: "اشتراک\u200cگذاری ردیاب",
-		itIT: "Condividi il tracker",
-		deDE: "Tracker teilen",
 		frFR: "Partager le tracker",
-		plPL: "Udostępnij tracker",
-		ptPT: "Partilhar rastreador",
-		koKR: "추적기 공유",
-		jaJP: "トラッカーを共有",
-		zhCN: "分享追踪器",
-		ukUA: "Поділитись трекером",
-		ptBR: "Compartilhar rastreador",
-		trTR: "İzleyiciyi paylaş",
 		idID: "Bagikan pelacak",
+		itIT: "Condividi il tracker",
+		jaJP: "トラッカーを共有",
+		koKR: "추적기 공유",
+		plPL: "Udostępnij tracker",
+		ptBR: "Compartilhar rastreador",
+		ptPT: "Partilhar rastreador",
+		ruRU: "Поделиться трекером",
+		trTR: "İzleyiciyi paylaş",
+		ukUA: "Поділитись трекером",
+		zhCN: "分享追踪器",
 	},
 	RecordTrackerValue: {
+		deDE: "Wert aufzeichnen",
 		enUK: "Record value",
-		ruRU: "Записать значение",
 		esES: "Registrar valor",
 		faIR: "ثبت مقدار",
-		itIT: "Registra valore",
-		deDE: "Wert aufzeichnen",
 		frFR: "Enregistrer la valeur",
-		plPL: "Zapisz wartość",
-		ptPT: "Registrar valor",
-		koKR: "값 기록",
-		jaJP: "値を記録",
-		zhCN: "记录值",
-		ukUA: "Записати значення",
-		ptBR: "Registrar valor",
-		trTR: "Değeri kaydet",
 		idID: "Catat nilai",
+		itIT: "Registra valore",
+		jaJP: "値を記録",
+		koKR: "값 기록",
+		plPL: "Zapisz wartość",
+		ptBR: "Registrar valor",
+		ptPT: "Registrar valor",
+		ruRU: "Записать значение",
+		trTR: "Değeri kaydet",
+		ukUA: "Записати значення",
+		zhCN: "记录值",
 	},
 	FamilyTrackers: {
+		deDE: "Familientracker",
 		enUK: "Family trackers",
-		ruRU: "Семейные трекеры",
 		esES: "Rastreadores familiares",
 		faIR: "ردیاب\u200cهای خانواده",
-		itIT: "Tracker familiari",
-		deDE: "Familientracker",
 		frFR: "Trackers familiaux",
-		plPL: "Trackery rodzinne",
-		ptPT: "Rastreadores de família",
-		koKR: "가족 추적기",
-		jaJP: "家族のトラッカー",
-		zhCN: "家庭追踪器",
-		ukUA: "Сімейні трекери",
-		ptBR: "Rastreadores de família",
-		trTR: "Aile izleyicileri",
 		idID: "Pelacak keluarga",
+		itIT: "Tracker familiari",
+		jaJP: "家族のトラッカー",
+		koKR: "가족 추적기",
+		plPL: "Trackery rodzinne",
+		ptBR: "Rastreadores de família",
+		ptPT: "Rastreadores de família",
+		ruRU: "Семейные трекеры",
+		trTR: "Aile izleyicileri",
+		ukUA: "Сімейні трекери",
+		zhCN: "家庭追踪器",
 	},
 	NoActiveTrackers: {
+		deDE: "Derzeit haben Sie keine aktiven Tracker. Fügen Sie einige hinzu, um Ihren Fortschritt zu verfolgen.",
 		enUK: "Currently you do not have any active trackers. Add some to start tracking your progress.",
-		ruRU: "В настоящее время у вас нет активных трекеров. Добавьте их, чтобы начать отслеживать ваш прогресс.",
 		esES: "Actualmente, no tienes rastreadores activos. Agrega algunos para comenzar a rastrear tu progreso.",
 		faIR: "در حال حاضر هیچ ردیابی فعال ندارید. چند مورد اضافه کنید تا پیشرفت خود را پیگیری کنید.",
-		itIT: "Attualmente non hai tracker attivi. Aggiungine alcuni per iniziare a monitorare i tuoi progressi.",
-		deDE: "Derzeit haben Sie keine aktiven Tracker. Fügen Sie einige hinzu, um Ihren Fortschritt zu verfolgen.",
 		frFR: "Vous n'avez actuellement aucun tracker actif. Ajoutez-en pour commencer à suivre vos progrès.",
-		plPL: "Obecnie nie masz żadnych aktywnych trackerów. Dodaj kilka, aby zacząć śledzić swoje postępy.",
-		ptPT: "Atualmente, não tens rastreadores ativos. Adiciona alguns para começar a monitorizar o teu progresso.",
-		koKR: "현재 활성화된 추적기가 없습니다. 진행 상황을 추적하려면 몇 가지를 추가하세요.",
-		jaJP: "現在、有効なトラッカーはありません。進捗を追跡するには、いくつか追加してください。",
-		zhCN: "目前你还没有任何活跃的追踪器。添加一些以开始追踪你的进度。",
-		ukUA: "Наразі у вас немає активних трекерів. Додайте кілька, щоб почати відстежувати свій прогрес.",
-		ptBR: "Atualmente, você não tem rastreadores ativos. Adicione alguns para começar a rastrear seu progresso.",
-		trTR: "Şu anda aktif izleyiciniz yok. İlerlemenizi izlemek için birkaç tane ekleyin.",
 		idID: "Saat ini Anda tidak memiliki pelacak aktif. Tambahkan beberapa untuk mulai melacak kemajuan Anda.",
+		itIT: "Attualmente non hai tracker attivi. Aggiungine alcuni per iniziare a monitorare i tuoi progressi.",
+		jaJP: "現在、有効なトラッカーはありません。進捗を追跡するには、いくつか追加してください。",
+		koKR: "현재 활성화된 추적기가 없습니다. 진행 상황을 추적하려면 몇 가지를 추가하세요.",
+		plPL: "Obecnie nie masz żadnych aktywnych trackerów. Dodaj kilka, aby zacząć śledzić swoje postępy.",
+		ptBR: "Atualmente, você não tem rastreadores ativos. Adicione alguns para começar a rastrear seu progresso.",
+		ptPT: "Atualmente, não tens rastreadores ativos. Adiciona alguns para começar a monitorizar o teu progresso.",
+		ruRU: "В настоящее время у вас нет активных трекеров. Добавьте их, чтобы начать отслеживать ваш прогресс.",
+		trTR: "Şu anda aktif izleyiciniz yok. İlerlemenizi izlemek için birkaç tane ekleyin.",
+		ukUA: "Наразі у вас немає активних трекерів. Додайте кілька, щоб почати відстежувати свій прогрес.",
+		zhCN: "目前你还没有任何活跃的追踪器。添加一些以开始追踪你的进度。",
 	},
 	OneActiveTracker: {
+		deDE: "Sie haben einen aktiven Tracker. Wählen Sie ihn aus, um Fortschritte aufzuzeichnen, oder fügen Sie einen neuen hinzu, um mehr zu verfolgen.",
 		enUK: "You have one active tracker. Select it to record progress. Or add a new one to track more.",
-		ruRU: "У вас есть один активный трекер. Выберите его, чтобы записать прогресс, или добавьте новый для отслеживания большего.",
 		esES: "Tienes un rastreador activo. Selecciónalo para registrar el progreso o agrega uno nuevo para rastrear más.",
 		faIR: "شما یک ردیاب فعال دارید. آن را انتخاب کنید تا پیشرفت خود را ثبت کنید یا یک ردیاب جدید اضافه کنید تا موارد بیشتری را پیگیری کنید.",
-		itIT: "Hai un tracker attivo. Selezionalo per registrare i progressi o aggiungi uno nuovo per monitorare di più.",
-		deDE: "Sie haben einen aktiven Tracker. Wählen Sie ihn aus, um Fortschritte aufzuzeichnen, oder fügen Sie einen neuen hinzu, um mehr zu verfolgen.",
 		frFR: "Vous avez un tracker actif. Sélectionnez-le pour enregistrer vos progrès ou ajoutez-en un nouveau pour en suivre davantage.",
-		plPL: "Masz jeden aktywny tracker. Wybierz go, aby zarejestrować postępy, lub dodaj nowy, aby śledzić więcej.",
-		ptPT: "Tens um rastreador ativo. Seleciona-o para registar o progresso, ou adiciona um novo para monitorizar mais.",
-		koKR: "활성화된 추적기 하나가 있습니다. 선택하여 진행 상황을 기록하거나 더 많이 추적하려면 새로 추가하세요.",
-		jaJP: "アクティブなトラッカーが1つあります。選択して進捗を記録するか、新しいものを追加してさらに追跡してください。",
-		zhCN: "你有一个活跃的追踪器。选择它来记录你的进度，或者添加一个新的来追踪更多。",
-		ukUA: "У вас є один активний трекер. Виберіть його, щоб записати прогрес, або додайте новий для відстеження більшого.",
-		ptBR: "Você tem um rastreador ativo. Selecione-o para registrar o progresso ou adicione um novo para rastrear mais.",
-		trTR: "Bir adet aktif izleyiciniz var. İlerlemenizi kaydetmek için bunu seçin veya daha fazla şey izlemek için yeni bir tane ekleyin.",
 		idID: "Anda memiliki satu pelacak aktif. Pilih untuk mencatat kemajuan atau tambahkan yang baru untuk melacak lebih banyak.",
+		itIT: "Hai un tracker attivo. Selezionalo per registrare i progressi o aggiungi uno nuovo per monitorare di più.",
+		jaJP: "アクティブなトラッカーが1つあります。選択して進捗を記録するか、新しいものを追加してさらに追跡してください。",
+		koKR: "활성화된 추적기 하나가 있습니다. 선택하여 진행 상황을 기록하거나 더 많이 추적하려면 새로 추가하세요.",
+		plPL: "Masz jeden aktywny tracker. Wybierz go, aby zarejestrować postępy, lub dodaj nowy, aby śledzić więcej.",
+		ptBR: "Você tem um rastreador ativo. Selecione-o para registrar o progresso ou adicione um novo para rastrear mais.",
+		ptPT: "Tens um rastreador ativo. Seleciona-o para registar o progresso, ou adiciona um novo para monitorizar mais.",
+		ruRU: "У вас есть один активный трекер. Выберите его, чтобы записать прогресс, или добавьте новый для отслеживания большего.",
+		trTR: "Bir adet aktif izleyiciniz var. İlerlemenizi kaydetmek için bunu seçin veya daha fazla şey izlemek için yeni bir tane ekleyin.",
+		ukUA: "У вас є один активний трекер. Виберіть його, щоб записати прогрес, або додайте новий для відстеження більшого.",
+		zhCN: "你有一个活跃的追踪器。选择它来记录你的进度，或者添加一个新的来追踪更多。",
 	},
 	NActiveTrackers: {
+		deDE: "Sie haben einige aktive Tracker. Wählen Sie einen aus, um Fortschritte aufzuzeichnen.",
 		enUK: "You have few active tracker. Select one to record progress.",
-		ruRU: "У вас несколько активных трекеров. Выберите один, чтобы записать прогресс.",
 		esES: "Tienes varios rastreadores activos. Selecciona uno para registrar el progreso.",
 		faIR: "چند ردیاب فعال دارید. یکی را انتخاب کنید تا پیشرفت خود را ثبت کنید.",
-		itIT: "Hai alcuni tracker attivi. Selezionane uno per registrare i progressi.",
-		deDE: "Sie haben einige aktive Tracker. Wählen Sie einen aus, um Fortschritte aufzuzeichnen.",
 		frFR: "Vous avez plusieurs trackers actifs. Sélectionnez-en un pour enregistrer vos progrès.",
-		plPL: "Masz kilka aktywnych trackerów. Wybierz jeden, aby zarejestrować postępy.",
-		ptPT: "Tens vários rastreadores ativos. Seleciona um para registar o progresso.",
-		koKR: "활성화된 추적기 몇 개가 있습니다. 하나를 선택하여 진행 상황을 기록하세요.",
-		jaJP: "複数のアクティブなトラッカーがあります。1つ選択して進捗を記録してください。",
-		zhCN: "你有几个活跃的追踪器。选择一个来记录你的进度。",
-		ukUA: "У вас є кілька активних трекерів. Виберіть один, щоб записати прогрес.",
-		ptBR: "Você tem vários rastreadores ativos. Selecione um para registrar o progresso.",
-		trTR: "Birkaç aktif izleyiciniz var. İlerlemenizi kaydetmek için birini seçin.",
 		idID: "Anda memiliki beberapa pelacak aktif. Pilih salah satu untuk mencatat kemajuan.",
+		itIT: "Hai alcuni tracker attivi. Selezionane uno per registrare i progressi.",
+		jaJP: "複数のアクティブなトラッカーがあります。1つ選択して進捗を記録してください。",
+		koKR: "활성화된 추적기 몇 개가 있습니다. 하나를 선택하여 진행 상황을 기록하세요.",
+		plPL: "Masz kilka aktywnych trackerów. Wybierz jeden, aby zarejestrować postępy.",
+		ptBR: "Você tem vários rastreadores ativos. Selecione um para registrar o progresso.",
+		ptPT: "Tens vários rastreadores ativos. Seleciona um para registar o progresso.",
+		ruRU: "У вас несколько активных трекеров. Выберите один, чтобы записать прогресс.",
+		trTR: "Birkaç aktif izleyiciniz var. İlerlemenizi kaydetmek için birini seçin.",
+		ukUA: "У вас є кілька активних трекерів. Виберіть один, щоб записати прогрес.",
+		zhCN: "你有几个活跃的追踪器。选择一个来记录你的进度。",
 	},
 	HintForIntTracker: {
+		deDE: "Senden Sie eine Ganzzahl, um sie im Tracker zu speichern",
 		enUK: "Send an integer number to record it to the tracker",
-		ruRU: "Отправьте целое число, чтобы записать его в трекер",
 		esES: "Envía un número entero para registrarlo en el rastreador",
 		faIR: "یک عدد صحیح ارسال کنید تا آن را در ردیاب ثبت کنید",
-		itIT: "Invia un numero intero per registrarlo nel tracker",
-		deDE: "Senden Sie eine Ganzzahl, um sie im Tracker zu speichern",
 		frFR: "Envoyez un nombre entier pour l'enregistrer dans le tracker",
-		plPL: "Wyślij liczbę całkowitą, aby zapisać ją w trackerze",
-		ptPT: "Envia um número inteiro para o registar no rastreador",
-		koKR: "정수 값을 추적기에 기록하려면 전송하세요",
-		jaJP: "整数値を送信してトラッカーに記録してください",
-		zhCN: "发送一个整数以将其记录到追踪器中",
-		ukUA: "Надішліть ціле число, щоб записати його в трекер",
-		ptBR: "Envie um número inteiro para registrá-lo no rastreador",
-		trTR: "Bir tamsayı göndererek bunu izleyiciye kaydedin",
 		idID: "Kirim bilangan bulat untuk mencatatnya ke pelacak",
+		itIT: "Invia un numero intero per registrarlo nel tracker",
+		jaJP: "整数値を送信してトラッカーに記録してください",
+		koKR: "정수 값을 추적기에 기록하려면 전송하세요",
+		plPL: "Wyślij liczbę całkowitą, aby zapisać ją w trackerze",
+		ptBR: "Envie um número inteiro para registrá-lo no rastreador",
+		ptPT: "Envia um número inteiro para o registar no rastreador",
+		ruRU: "Отправьте целое число, чтобы записать его в трекер",
+		trTR: "Bir tamsayı göndererek bunu izleyiciye kaydedin",
+		ukUA: "Надішліть ціле число, щоб записати його в трекер",
+		zhCN: "发送一个整数以将其记录到追踪器中",
 	},
 	Tracker: {
+		deDE: "Tracker",
 		enUK: "Tracker",
-		ruRU: "Трекер",
 		esES: "Rastreador",
 		faIR: "ردیاب",
-		itIT: "Tracker",
-		deDE: "Tracker",
 		frFR: "Tracker",
-		plPL: "Tracker",
-		ptPT: "Rastreador",
-		koKR: "추적기",
-		jaJP: "トラッカー",
-		zhCN: "追踪器",
-		ukUA: "Трекер",
-		ptBR: "Rastreador",
-		trTR: "İzleyici",
 		idID: "Pelacak",
+		itIT: "Tracker",
+		jaJP: "トラッカー",
+		koKR: "추적기",
+		plPL: "Tracker",
+		ptBR: "Rastreador",
+		ptPT: "Rastreador",
+		ruRU: "Трекер",
+		trTR: "İzleyici",
+		ukUA: "Трекер",
+		zhCN: "追踪器",
 	},
 	HintToShareTracker: {
+		deDE: `\n\nSie können diesen Tracker entweder
+🤫 mit einem Freund teilen (<i>nur eine Person kann ihn akzeptieren</i>)
+🌍 oder öffentlich (<i>jeder mit dem Link kann ihn akzeptieren, Sie können es jederzeit abbrechen</i>)`,
 		enUK: `\n\nYou can share this tracker either
 	🤫 with a friend (<i>a single person would be able to accept</i>)
 	🌍 or publicly (<i>anyone with a link can accept, you can cancel it at any time</i>)`,
-
-		ruRU: `\n\nВы можете поделиться этим трекером либо
-🤫 с другом (<i>только один человек сможет принять</i>)
-🌍 или публично (<i>любой с ссылкой может принять, вы можете отменить это в любое время</i>)`,
 		esES: `\n\nPuedes compartir este rastreador
 🤫 con un amigo (<i>una sola persona puede aceptarlo</i>)
 🌍 o públicamente (<i>cualquiera con el enlace puede aceptarlo, puedes cancelarlo en cualquier momento</i>)`,
 		faIR: `\n\nشما می\u200cتوانید این ردیاب را به دو صورت به اشتراک بگذارید
 🤫 با یک دوست (<i>فقط یک نفر می\u200cتواند بپذیرد</i>)
 🌍 یا به صورت عمومی (<i>هرکسی با لینک می\u200cتواند بپذیرد، شما می\u200cتوانید در هر زمان آن را لغو کنید</i>)`,
-		itIT: `\n\nPuoi condividere questo tracker
-🤫 con un amico (<i>una sola persona potrà accettarlo</i>)
-🌍 oppure pubblicamente (<i>chiunque con il link potrà accettarlo, puoi annullarlo in qualsiasi momento</i>)`,
-		deDE: `\n\nSie können diesen Tracker entweder
-🤫 mit einem Freund teilen (<i>nur eine Person kann ihn akzeptieren</i>)
-🌍 oder öffentlich (<i>jeder mit dem Link kann ihn akzeptieren, Sie können es jederzeit abbrechen</i>)`,
 		frFR: `\n\nVous pouvez partager ce tracker
 🤫 avec un ami (<i>une seule personne pourra l'accepter</i>)
 🌍 ou publiquement (<i>n'importe qui avec un lien peut l'accepter, vous pouvez l'annuler à tout moment</i>)`,
-		plPL: `\n\nMożesz udostępnić ten tracker
-🤫 znajomemu (<i>tylko jedna osoba będzie mogła przyjąć</i>)
-🌍 lub publicznie (<i>każdy z linkiem może przyjąć, możesz to anulować w dowolnym momencie</i>)`,
-		ptPT: `\n\nPodes partilhar este rastreador
-🤫 com um amigo (<i>apenas uma pessoa poderá aceitar</i>)
-🌍 ou publicamente (<i>qualquer pessoa com o link pode aceitar, podes cancelá-lo a qualquer momento</i>)`,
-		koKR: `\n\n이 추적기를 공유할 수 있습니다
-🤫 친구와 (<i>단 한 사람만 수락 가능</i>)
-🌍 또는 공개적으로 (<i>링크를 가진 모든 사람이 수락할 수 있으며, 언제든 취소할 수 있습니다</i>)`,
-		jaJP: `\n\nこのトラッカーを以下の方法で共有できます
-🤫 友人と (<i>受け取れるのは1人だけ</i>)
-🌍 または公開で (<i>リンクを持っている誰でも受け取れます。いつでもキャンセルできます</i>)`,
-		zhCN: `\n\n您可以通过以下方式共享此追踪器
-🤫 与朋友共享 (<i>只有一个人可以接受</i>)
-🌍 或公开共享 (<i>任何拥有链接的人都可以接受，您可以随时取消</i>)`,
-		ukUA: `\n\nВи можете поділитися цим трекером
-🤫 з другом (<i>лише одна людина зможе прийняти</i>)
-🌍 або публічно (<i>кожен, хто має посилання, може прийняти, ви можете скасувати це в будь-який час</i>)`,
-		ptBR: `\n\nVocê pode compartilhar este rastreador
-🤫 com um amigo (<i>apenas uma pessoa pode aceitar</i>)
-🌍 ou publicamente (<i>qualquer pessoa com o link pode aceitar, você pode cancelar a qualquer momento</i>)`,
-		trTR: `\n\nBu izleyiciyi şu şekilde paylaşabilirsiniz
-🤫 bir arkadaşla (<i>yalnızca bir kişi kabul edebilir</i>)
-🌍 veya genel olarak (<i>bağlantıya sahip herkes kabul edebilir, istediğiniz zaman iptal edebilirsiniz</i>)`,
 		idID: `\n\nAnda dapat membagikan pelacak ini
 🤫 kepada seorang teman (<i>hanya satu orang yang dapat menerima</i>)
 🌍 atau secara publik (<i>siapa saja yang memiliki tautan dapat menerimanya, Anda dapat membatalkannya kapan saja</i>)`,
+		itIT: `\n\nPuoi condividere questo tracker
+🤫 con un amico (<i>una sola persona potrà accettarlo</i>)
+🌍 oppure pubblicamente (<i>chiunque con il link potrà accettarlo, puoi annullarlo in qualsiasi momento</i>)`,
+		jaJP: `\n\nこのトラッカーを以下の方法で共有できます
+🤫 友人と (<i>受け取れるのは1人だけ</i>)
+🌍 または公開で (<i>リンクを持っている誰でも受け取れます。いつでもキャンセルできます</i>)`,
+		koKR: `\n\n이 추적기를 공유할 수 있습니다
+🤫 친구와 (<i>단 한 사람만 수락 가능</i>)
+🌍 또는 공개적으로 (<i>링크를 가진 모든 사람이 수락할 수 있으며, 언제든 취소할 수 있습니다</i>)`,
+		plPL: `\n\nMożesz udostępnić ten tracker
+🤫 znajomemu (<i>tylko jedna osoba będzie mogła przyjąć</i>)
+🌍 lub publicznie (<i>każdy z linkiem może przyjąć, możesz to anulować w dowolnym momencie</i>)`,
+		ptBR: `\n\nVocê pode compartilhar este rastreador
+🤫 com um amigo (<i>apenas uma pessoa pode aceitar</i>)
+🌍 ou publicamente (<i>qualquer pessoa com o link pode aceitar, você pode cancelar a qualquer momento</i>)`,
+		ptPT: `\n\nPodes partilhar este rastreador
+🤫 com um amigo (<i>apenas uma pessoa poderá aceitar</i>)
+🌍 ou publicamente (<i>qualquer pessoa com o link pode aceitar, podes cancelá-lo a qualquer momento</i>)`,
+		ruRU: `\n\nВы можете поделиться этим трекером либо
+🤫 с другом (<i>только один человек сможет принять</i>)
+🌍 или публично (<i>любой с ссылкой может принять, вы можете отменить это в любое время</i>)`,
+		trTR: `\n\nBu izleyiciyi şu şekilde paylaşabilirsiniz
+🤫 bir arkadaşla (<i>yalnızca bir kişi kabul edebilir</i>)
+🌍 veya genel olarak (<i>bağlantıya sahip herkes kabul edebilir, istediğiniz zaman iptal edebilirsiniz</i>)`,
+		ukUA: `\n\nВи можете поділитися цим трекером
+🤫 з другом (<i>лише одна людина зможе прийняти</i>)
+🌍 або публічно (<i>кожен, хто має посилання, може прийняти, ви можете скасувати це в будь-який час</i>)`,
+		zhCN: `\n\n您可以通过以下方式共享此追踪器
+🤫 与朋友共享 (<i>只有一个人可以接受</i>)
+🌍 或公开共享 (<i>任何拥有链接的人都可以接受，您可以随时取消</i>)`,
 	},
 	YourSpaces: {
 		deDE: "Ihre Bereiche",
@@ -10072,130 +9914,130 @@ Możesz dowiedzieć się o nowych funkcjach bota na kanale @SneatApp, gdzie <a h
 		zhCN: "您的空间",
 	},
 	CurrentSpace: {
+		deDE: "Aktueller Bereich",
 		enUK: "Current space",
-		ruRU: "Текущее пространство",
 		esES: "Espacio actual",
 		faIR: "فضای کنونی",
-		itIT: "Spazio corrente",
-		deDE: "Aktueller Bereich",
 		frFR: "Espace actuel",
-		plPL: "Bieżąca przestrzeń",
-		ptPT: "Espaço atual",
-		koKR: "현재 공간",
-		jaJP: "現在のスペース",
-		zhCN: "当前空间",
-		ukUA: "Поточний простір",
-		ptBR: "Espaço atual",
-		trTR: "Mevcut alan",
 		idID: "Ruang saat ini",
+		itIT: "Spazio corrente",
+		jaJP: "現在のスペース",
+		koKR: "현재 공간",
+		plPL: "Bieżąca przestrzeń",
+		ptBR: "Espaço atual",
+		ptPT: "Espaço atual",
+		ruRU: "Текущее пространство",
+		trTR: "Mevcut alan",
+		ukUA: "Поточний простір",
+		zhCN: "当前空间",
 	},
 	ClickToSwitchCurrentSpace: {
+		deDE: "Klicken Sie hier, um den aktuellen Bereich zu wechseln",
 		enUK: "Click to switch current space",
-		ruRU: "Нажмите, чтобы переключить текущее пространство",
 		esES: "Haz clic para cambiar el espacio actual",
 		faIR: "برای تغییر فضای کنونی کلیک کنید",
-		itIT: "Clicca per cambiare spazio corrente",
-		deDE: "Klicken Sie hier, um den aktuellen Bereich zu wechseln",
 		frFR: "Cliquez pour changer l'espace actuel",
-		plPL: "Kliknij, aby zmienić bieżącą przestrzeń",
-		ptPT: "Clique para mudar o espaço atual",
-		koKR: "현재 공간을 전환하려면 클릭하세요",
-		jaJP: "クリックで現在のスペースを切り替えます",
-		zhCN: "点击切换当前空间",
-		ukUA: "Натисніть, щоб змінити поточний простір",
-		ptBR: "Clique para alterar o espaço atual",
-		trTR: "Mevcut alanı değiştirmek için tıklayın",
 		idID: "Klik untuk mengganti ruang saat ini",
+		itIT: "Clicca per cambiare spazio corrente",
+		jaJP: "クリックで現在のスペースを切り替えます",
+		koKR: "현재 공간을 전환하려면 클릭하세요",
+		plPL: "Kliknij, aby zmienić bieżącą przestrzeń",
+		ptBR: "Clique para alterar o espaço atual",
+		ptPT: "Clique para mudar o espaço atual",
+		ruRU: "Нажмите, чтобы переключить текущее пространство",
+		trTR: "Mevcut alanı değiştirmek için tıklayın",
+		ukUA: "Натисніть, щоб змінити поточний простір",
+		zhCN: "点击切换当前空间",
 	},
 	Family: {
+		deDE: "Familie",
 		enUK: "Family",
-		ruRU: "Семья",
 		esES: "Familia",
 		faIR: "خانواده",
-		itIT: "Famiglia",
-		deDE: "Familie",
 		frFR: "Famille",
-		plPL: "Rodzina",
-		ptPT: "Família",
-		koKR: "가족",
-		jaJP: "家族",
-		zhCN: "家庭",
-		ukUA: "Родина",
-		ptBR: "Família",
-		trTR: "Aile",
 		idID: "Keluarga",
+		itIT: "Famiglia",
+		jaJP: "家族",
+		koKR: "가족",
+		plPL: "Rodzina",
+		ptBR: "Família",
+		ptPT: "Família",
+		ruRU: "Семья",
+		trTR: "Aile",
+		ukUA: "Родина",
+		zhCN: "家庭",
 	},
 	Private: {
+		deDE: "Privat",
 		enUK: "Private",
-		ruRU: "Личное",
 		esES: "Privado",
 		faIR: "خصوصی",
-		itIT: "Privato",
-		deDE: "Privat",
 		frFR: "Privé",
-		plPL: "Prywatne",
-		ptPT: "Privado",
-		koKR: "개인",
-		jaJP: "プライベート",
-		zhCN: "私人",
-		ukUA: "Приватне",
-		ptBR: "Privado",
-		trTR: "Özel",
 		idID: "Pribadi",
+		itIT: "Privato",
+		jaJP: "プライベート",
+		koKR: "개인",
+		plPL: "Prywatne",
+		ptBR: "Privado",
+		ptPT: "Privado",
+		ruRU: "Личное",
+		trTR: "Özel",
+		ukUA: "Приватне",
+		zhCN: "私人",
 	},
 	ChooseSpace: {
+		deDE: "Wählen Sie einen Bereich, um ihn für andere Befehle zu aktivieren.",
 		enUK: "Choose space to make it active for other commands.",
-		ruRU: "Выберите пространство, чтобы сделать его активным для других команд.",
 		esES: "Elija un espacio para activarlo para otros comandos.",
 		faIR: "یک فضا را انتخاب کنید تا برای دستورات دیگر فعال شود.",
-		itIT: "Scegli uno spazio per renderlo attivo per altri comandi.",
-		deDE: "Wählen Sie einen Bereich, um ihn für andere Befehle zu aktivieren.",
 		frFR: "Choisissez un espace pour le rendre actif pour d'autres commandes.",
-		plPL: "Wybierz przestrzeń, aby była aktywna dla innych poleceń.",
-		ptPT: "Escolha um espaço para torná-lo ativo para outros comandos.",
-		koKR: "다른 명령에 활성화하려면 공간을 선택하세요.",
-		jaJP: "他のコマンド用にアクティブにするスペースを選択してください。",
-		zhCN: "选择一个空间以使其对其他命令有效。",
-		ukUA: "Виберіть простір, щоб зробити його активним для інших команд.",
-		ptBR: "Escolha um espaço para torná-lo ativo para outros comandos.",
-		trTR: "Diğer komutlar için aktif yapmak üzere bir alan seçin.",
 		idID: "Pilih ruang untuk menjadikannya aktif untuk perintah lainnya.",
+		itIT: "Scegli uno spazio per renderlo attivo per altri comandi.",
+		jaJP: "他のコマンド用にアクティブにするスペースを選択してください。",
+		koKR: "다른 명령에 활성화하려면 공간을 선택하세요.",
+		plPL: "Wybierz przestrzeń, aby była aktywna dla innych poleceń.",
+		ptBR: "Escolha um espaço para torná-lo ativo para outros comandos.",
+		ptPT: "Escolha um espaço para torná-lo ativo para outros comandos.",
+		ruRU: "Выберите пространство, чтобы сделать его активным для других команд.",
+		trTR: "Diğer komutlar için aktif yapmak üzere bir alan seçin.",
+		ukUA: "Виберіть простір, щоб зробити його активним для інших команд.",
+		zhCN: "选择一个空间以使其对其他命令有效。",
 	},
 	FamilyContacts: {
+		deDE: "Familienkontakte",
 		enUK: "Family contacts",
-		ruRU: "Семейные контакты",
 		esES: "Contactos familiares",
 		faIR: "مخاطبین خانواده",
-		itIT: "Contatti familiari",
-		deDE: "Familienkontakte",
 		frFR: "Contacts familiaux",
-		plPL: "Kontakty rodzinne",
-		ptPT: "Contactos familiares",
-		koKR: "가족 연락처",
-		jaJP: "家族の連絡先",
-		zhCN: "家庭联系人",
-		ukUA: "Сімейні контакти",
-		ptBR: "Contatos familiares",
-		trTR: "Aile kişileriniz",
 		idID: "Kontak keluarga",
+		itIT: "Contatti familiari",
+		jaJP: "家族の連絡先",
+		koKR: "가족 연락처",
+		plPL: "Kontakty rodzinne",
+		ptBR: "Contatos familiares",
+		ptPT: "Contactos familiares",
+		ruRU: "Семейные контакты",
+		trTR: "Aile kişileriniz",
+		ukUA: "Сімейні контакти",
+		zhCN: "家庭联系人",
 	},
 	YourContacts: {
+		deDE: "Ihre Kontakte",
 		enUK: "Your contacts",
-		ruRU: "Ваши контакты",
 		esES: "Tus contactos",
 		faIR: "مخاطبین شما",
-		itIT: "I tuoi contatti",
-		deDE: "Ihre Kontakte",
 		frFR: "Vos contacts",
-		plPL: "Twoje kontakty",
-		ptPT: "Os seus contactos",
-		koKR: "당신의 연락처",
-		jaJP: "あなたの連絡先",
-		zhCN: "您的联系人",
-		ukUA: "Ваші контакти",
-		ptBR: "Seus contatos",
-		trTR: "Kişileriniz",
 		idID: "Kontak Anda",
+		itIT: "I tuoi contatti",
+		jaJP: "あなたの連絡先",
+		koKR: "당신의 연락처",
+		plPL: "Twoje kontakty",
+		ptBR: "Seus contatos",
+		ptPT: "Os seus contactos",
+		ruRU: "Ваши контакты",
+		trTR: "Kişileriniz",
+		ukUA: "Ваші контакти",
+		zhCN: "您的联系人",
 	},
 	ContactsTitle: {
 		deDE: "Kontakte",
@@ -10218,58 +10060,58 @@ Możesz dowiedzieć się o nowych funkcjach bota na kanale @SneatApp, gdzie <a h
 		zhCN: "联系人",
 	},
 	OpenInApp: {
-		enUK: "Open in app",
-		ruRU: "Открыть в приложении",
-		faIR: "باز کردن در برنامه",
-		esES: "Abrir en la aplicación",
-		itIT: "Apri nell'app",
 		deDE: "In der App öffnen",
+		enUK: "Open in app",
+		esES: "Abrir en la aplicación",
+		faIR: "باز کردن در برنامه",
 		frFR: "Ouvrir dans l'application",
-		plPL: "Otwórz w aplikacji",
-		ptPT: "Abrir na aplicação",
-		koKR: "앱에서 열기",
-		jaJP: "アプリで開く",
-		zhCN: "在应用中打开",
-		ukUA: "Відкрити у додатку",
-		ptBR: "Abrir no aplicativo",
-		trTR: "Uygulamada aç",
 		idID: "Buka di aplikasi",
+		itIT: "Apri nell'app",
+		jaJP: "アプリで開く",
+		koKR: "앱에서 열기",
+		plPL: "Otwórz w aplikacji",
+		ptBR: "Abrir no aplicativo",
+		ptPT: "Abrir na aplicação",
+		ruRU: "Открыть в приложении",
+		trTR: "Uygulamada aç",
+		ukUA: "Відкрити у додатку",
+		zhCN: "在应用中打开",
 	},
 	ManageInApp: {
+		deDE: "In der App verwalten",
 		enUK: "Manage in app",
-		ruRU: "Управление в приложении",
 		esES: "Gestionar en la aplicación",
 		faIR: "مدیریت در برنامه",
-		itIT: "Gestisci nell'app",
-		deDE: "In der App verwalten",
 		frFR: "Gérer dans l'application",
-		plPL: "Zarządzaj w aplikacji",
-		ptPT: "Gerir na aplicação",
-		koKR: "앱에서 관리",
-		jaJP: "アプリで管理",
-		zhCN: "在应用中管理",
-		ukUA: "Керуйте в додатку",
-		ptBR: "Gerenciar no aplicativo",
-		trTR: "Uygulamada yönet",
 		idID: "Kelola di aplikasi",
+		itIT: "Gestisci nell'app",
+		jaJP: "アプリで管理",
+		koKR: "앱에서 관리",
+		plPL: "Zarządzaj w aplikacji",
+		ptBR: "Gerenciar no aplicativo",
+		ptPT: "Gerir na aplicação",
+		ruRU: "Управление в приложении",
+		trTR: "Uygulamada yönet",
+		ukUA: "Керуйте в додатку",
+		zhCN: "在应用中管理",
 	},
 	AddContact: {
+		deDE: "Kontakt hinzufügen",
 		enUK: "Add contact",
-		ruRU: "Добавить контакт",
 		esES: "Agregar contacto",
 		faIR: "اضافه کردن مخاطب",
-		itIT: "Aggiungi contatto",
-		deDE: "Kontakt hinzufügen",
 		frFR: "Ajouter un contact",
-		plPL: "Dodaj kontakt",
-		ptPT: "Adicionar contacto",
-		koKR: "연락처 추가",
-		jaJP: "連絡先を追加",
-		zhCN: "添加联系人",
-		ukUA: "Додати контакт",
-		ptBR: "Adicionar contato",
-		trTR: "Kişi ekle",
 		idID: "Tambah kontak",
+		itIT: "Aggiungi contatto",
+		jaJP: "連絡先を追加",
+		koKR: "연락처 추가",
+		plPL: "Dodaj kontakt",
+		ptBR: "Adicionar contato",
+		ptPT: "Adicionar contacto",
+		ruRU: "Добавить контакт",
+		trTR: "Kişi ekle",
+		ukUA: "Додати контакт",
+		zhCN: "添加联系人",
 	},
 	AddMember: {
 		deDE: "Mitglied hinzufügen",
@@ -10292,579 +10134,579 @@ Możesz dowiedzieć się o nowych funkcjach bota na kanale @SneatApp, gdzie <a h
 		zhCN: "添加成员",
 	},
 	MyContact: {
+		deDE: "Mein Kontakt",
 		enUK: "My contact",
-		ruRU: "Мой контакт",
 		esES: "Mi contacto",
 		faIR: "مخاطب من",
-		itIT: "Il mio contatto",
-		deDE: "Mein Kontakt",
 		frFR: "Mon contact",
-		plPL: "Mój kontakt",
-		ptPT: "O meu contacto",
-		koKR: "내 연락처",
-		jaJP: "私の連絡先",
-		zhCN: "我的联系人",
-		ukUA: "Мій контакт",
-		ptBR: "Meu contato",
-		trTR: "Benim kişim",
 		idID: "Kontak saya",
+		itIT: "Il mio contatto",
+		jaJP: "私の連絡先",
+		koKR: "내 연락처",
+		plPL: "Mój kontakt",
+		ptBR: "Meu contato",
+		ptPT: "O meu contacto",
+		ruRU: "Мой контакт",
+		trTR: "Benim kişim",
+		ukUA: "Мій контакт",
+		zhCN: "我的联系人",
 	},
 	GenderTitled: {
+		deDE: "Geschlecht",
 		enUK: "Gender",
-		ruRU: "Пол",
 		esES: "Género",
 		faIR: "جنسیت",
-		itIT: "Genere",
-		deDE: "Geschlecht",
 		frFR: "Genre",
-		plPL: "Płeć",
-		ptPT: "Género",
-		koKR: "성별",
-		jaJP: "性別",
-		zhCN: "性别",
-		ukUA: "Стать",
-		ptBR: "Gênero",
-		trTR: "Cinsiyet",
 		idID: "Jenis Kelamin",
+		itIT: "Genere",
+		jaJP: "性別",
+		koKR: "성별",
+		plPL: "Płeć",
+		ptBR: "Gênero",
+		ptPT: "Género",
+		ruRU: "Пол",
+		trTR: "Cinsiyet",
+		ukUA: "Стать",
+		zhCN: "性别",
 	},
 	MaleTitled: {
+		deDE: "Männlich",
 		enUK: "Male",
-		ruRU: "Мужской",
 		esES: "Masculino",
 		faIR: "مرد",
-		itIT: "Maschio",
-		deDE: "Männlich",
 		frFR: "Homme",
-		plPL: "Mężczyzna",
-		ptPT: "Masculino",
-		koKR: "남성",
-		jaJP: "男性",
-		zhCN: "男性",
-		ukUA: "Чоловік",
-		ptBR: "Masculino",
-		trTR: "Erkek",
 		idID: "Pria",
+		itIT: "Maschio",
+		jaJP: "男性",
+		koKR: "남성",
+		plPL: "Mężczyzna",
+		ptBR: "Masculino",
+		ptPT: "Masculino",
+		ruRU: "Мужской",
+		trTR: "Erkek",
+		ukUA: "Чоловік",
+		zhCN: "男性",
 	},
 	FemaleTitled: {
+		deDE: "Weiblich",
 		enUK: "Female",
-		ruRU: "Женский",
 		esES: "Femenino",
 		faIR: "زن",
-		itIT: "Femmina",
-		deDE: "Weiblich",
 		frFR: "Femme",
-		plPL: "Kobieta",
-		ptPT: "Feminino",
-		koKR: "여성",
-		jaJP: "女性",
-		zhCN: "女性",
-		ukUA: "Жінка",
-		ptBR: "Feminino",
-		trTR: "Kadın",
 		idID: "Wanita",
+		itIT: "Femmina",
+		jaJP: "女性",
+		koKR: "여성",
+		plPL: "Kobieta",
+		ptBR: "Feminino",
+		ptPT: "Feminino",
+		ruRU: "Женский",
+		trTR: "Kadın",
+		ukUA: "Жінка",
+		zhCN: "女性",
 	},
 	UnknownTitled: {
+		deDE: "Unbekannt",
 		enUK: "Unknown",
-		ruRU: "Неизвестно",
 		esES: "Desconocido",
 		faIR: "ناشناس",
-		itIT: "Sconosciuto",
-		deDE: "Unbekannt",
 		frFR: "Inconnu",
-		plPL: "Nieznany",
-		ptPT: "Desconhecido",
-		koKR: "알 수 없음",
-		jaJP: "不明",
-		zhCN: "未知",
-		ukUA: "Невідомо",
-		ptBR: "Desconhecido",
-		trTR: "Bilinmiyor",
 		idID: "Tidak Diketahui",
+		itIT: "Sconosciuto",
+		jaJP: "不明",
+		koKR: "알 수 없음",
+		plPL: "Nieznany",
+		ptBR: "Desconhecido",
+		ptPT: "Desconhecido",
+		ruRU: "Неизвестно",
+		trTR: "Bilinmiyor",
+		ukUA: "Невідомо",
+		zhCN: "未知",
 	},
 	UndisclosedTitled: {
+		deDE: "Nicht offengelegt",
 		enUK: "Undisclosed",
-		ruRU: "Не разглашено",
 		esES: "No revelado",
 		faIR: "فاش نشده",
-		itIT: "Non divulgato",
-		deDE: "Nicht offengelegt",
 		frFR: "Non divulgué",
-		plPL: "Nieujawnione",
-		ptPT: "Não divulgado",
-		koKR: "공개되지 않음",
-		jaJP: "未公開",
-		zhCN: "未披露",
-		ukUA: "Не розголошено",
-		ptBR: "Não divulgado",
-		trTR: "Açıklanmamış",
 		idID: "Tidak Diungkapkan",
+		itIT: "Non divulgato",
+		jaJP: "未公開",
+		koKR: "공개되지 않음",
+		plPL: "Nieujawnione",
+		ptBR: "Não divulgado",
+		ptPT: "Não divulgado",
+		ruRU: "Не разглашено",
+		trTR: "Açıklanmamış",
+		ukUA: "Не розголошено",
+		zhCN: "未披露",
 	},
 	InviteToJoinSpace: {
+		deDE: "Einladen beizutreten",
 		enUK: "Invite to join",
-		ruRU: "Пригласить присоедениться",
 		esES: "Invitar a unirse",
 		faIR: "دعوت به پیوستن",
-		itIT: "Invita a unirti",
-		deDE: "Einladen beizutreten",
 		frFR: "Inviter à rejoindre",
-		plPL: "Zaproś do dołączenia",
-		ptPT: "Convidar para juntar-se",
-		koKR: "가입 초대",
-		jaJP: "参加に招待",
-		zhCN: "邀请加入",
-		ukUA: "Запросити приєднатися",
-		ptBR: "Convidar para participar",
-		trTR: "Katılmaya davet et",
 		idID: "Undang untuk bergabung",
+		itIT: "Invita a unirti",
+		jaJP: "参加に招待",
+		koKR: "가입 초대",
+		plPL: "Zaproś do dołączenia",
+		ptBR: "Convidar para participar",
+		ptPT: "Convidar para juntar-se",
+		ruRU: "Пригласить присоедениться",
+		trTR: "Katılmaya davet et",
+		ukUA: "Запросити приєднатися",
+		zhCN: "邀请加入",
 	},
 	BackToContacts: {
+		deDE: "Zurück zu Kontakten",
 		enUK: "Back to contacts",
-		ruRU: "Вернуться к контактам",
 		esES: "Volver a los contactos",
 		faIR: "بازگشت به مخاطبین",
-		itIT: "Torna ai contatti",
-		deDE: "Zurück zu Kontakten",
 		frFR: "Retour aux contacts",
-		plPL: "Powrót do kontaktów",
-		ptPT: "Voltar aos contatos",
-		koKR: "연락처로 돌아가기",
-		jaJP: "連絡先に戻る",
-		zhCN: "返回联系人",
-		ukUA: "Повернутися до контактів",
-		ptBR: "Voltar para os contatos",
-		trTR: "Kişilere geri dön",
 		idID: "Kembali ke kontak",
+		itIT: "Torna ai contatti",
+		jaJP: "連絡先に戻る",
+		koKR: "연락처로 돌아가기",
+		plPL: "Powrót do kontaktów",
+		ptBR: "Voltar para os contatos",
+		ptPT: "Voltar aos contatos",
+		ruRU: "Вернуться к контактам",
+		trTR: "Kişilere geri dön",
+		ukUA: "Повернутися до контактів",
+		zhCN: "返回联系人",
 	},
 	BackToMembers: {
+		deDE: "Zurück zu Mitgliedern",
 		enUK: "Back to members",
-		ruRU: "Вернуться к участникам",
 		esES: "Volver a los miembros",
 		faIR: "بازگشت به اعضا",
-		itIT: "Torna ai membri",
-		deDE: "Zurück zu Mitgliedern",
 		frFR: "Retour aux membres",
-		plPL: "Powrót do członków",
-		ptPT: "Voltar aos membros",
-		koKR: "멤버로 돌아가기",
-		jaJP: "メンバーに戻る",
-		zhCN: "返回成员",
-		ukUA: "Повернутися до учасників",
-		ptBR: "Voltar para os membros",
-		trTR: "Üyelere geri dön",
 		idID: "Kembali ke anggota",
+		itIT: "Torna ai membri",
+		jaJP: "メンバーに戻る",
+		koKR: "멤버로 돌아가기",
+		plPL: "Powrót do członków",
+		ptBR: "Voltar para os membros",
+		ptPT: "Voltar aos membros",
+		ruRU: "Вернуться к участникам",
+		trTR: "Üyelere geri dön",
+		ukUA: "Повернутися до учасників",
+		zhCN: "返回成员",
 	},
 	BackBtnTitle: {
+		deDE: "Zurück",
 		enUK: "Back",
-		ruRU: "Назад",
 		esES: "Atrás",
 		faIR: "بازگشت",
-		itIT: "Indietro",
-		deDE: "Zurück",
 		frFR: "Retour",
-		plPL: "Wstecz",
-		ptPT: "Voltar",
-		koKR: "뒤로",
-		jaJP: "戻る",
-		zhCN: "返回",
-		ukUA: "Назад",
-		ptBR: "Voltar",
-		trTR: "Geri",
 		idID: "Kembali",
+		itIT: "Indietro",
+		jaJP: "戻る",
+		koKR: "뒤로",
+		plPL: "Wstecz",
+		ptBR: "Voltar",
+		ptPT: "Voltar",
+		ruRU: "Назад",
+		trTR: "Geri",
+		ukUA: "Назад",
+		zhCN: "返回",
 	},
 	SelectTrackerToAdd: {
+		deDE: "Wählen Sie einen Tracker zum Hinzufügen aus",
 		enUK: "Select a tracker to add",
-		ruRU: "Выберите трекер для добавления",
 		esES: "Seleccionar un rastreador para agregar",
 		faIR: "یک ردیاب برای افزودن انتخاب کنید",
-		itIT: "Seleziona un tracker da aggiungere",
-		deDE: "Wählen Sie einen Tracker zum Hinzufügen aus",
 		frFR: "Sélectionner un tracker à ajouter",
-		plPL: "Wybierz tracker do dodania",
-		ptPT: "Selecionar um rastreador para adicionar",
-		koKR: "추가할 트래커를 선택하세요",
-		jaJP: "追加するトラッカーを選択",
-		zhCN: "选择要添加的跟踪器",
-		ukUA: "Виберіть трекер для додавання",
-		ptBR: "Selecionar um rastreador para adicionar",
-		trTR: "Eklemek için bir izleyici seçin",
 		idID: "Pilih pelacak untuk ditambahkan",
+		itIT: "Seleziona un tracker da aggiungere",
+		jaJP: "追加するトラッカーを選択",
+		koKR: "추가할 트래커를 선택하세요",
+		plPL: "Wybierz tracker do dodania",
+		ptBR: "Selecionar um rastreador para adicionar",
+		ptPT: "Selecionar um rastreador para adicionar",
+		ruRU: "Выберите трекер для добавления",
+		trTR: "Eklemek için bir izleyici seçin",
+		ukUA: "Виберіть трекер для додавання",
+		zhCN: "选择要添加的跟踪器",
 	},
 	SelectCategoryForNewTracker: {
+		deDE: "Wählen Sie eine Kategorie für den neuen Tracker aus",
 		enUK: "Select a category for the new tracker",
-		ruRU: "Выберите категорию для нового трекера",
 		esES: "Seleccionar una categoría para el nuevo rastreador",
 		faIR: "یک دسته برای ردیاب جدید انتخاب کنید",
-		itIT: "Seleziona una categoria per il nuovo tracker",
-		deDE: "Wählen Sie eine Kategorie für den neuen Tracker aus",
 		frFR: "Sélectionnez une catégorie pour le nouveau traqueur",
-		plPL: "Wybierz kategorię dla nowego trackera",
-		ptPT: "Selecionar uma categoria para o novo rastreador",
-		koKR: "새 트래커의 카테고리를 선택하세요",
-		jaJP: "新しいトラッカーのカテゴリーを選択",
-		zhCN: "为新跟踪器选择一个类别",
-		ukUA: "Виберіть категорію для нового трекера",
-		ptBR: "Selecionar uma categoria para o novo rastreador",
-		trTR: "Yeni izleyici için bir kategori seçin",
 		idID: "Pilih kategori untuk pelacak baru",
+		itIT: "Seleziona una categoria per il nuovo tracker",
+		jaJP: "新しいトラッカーのカテゴリーを選択",
+		koKR: "새 트래커의 카테고리를 선택하세요",
+		plPL: "Wybierz kategorię dla nowego trackera",
+		ptBR: "Selecionar uma categoria para o novo rastreador",
+		ptPT: "Selecionar uma categoria para o novo rastreador",
+		ruRU: "Выберите категорию для нового трекера",
+		trTR: "Yeni izleyici için bir kategori seçin",
+		ukUA: "Виберіть категорію для нового трекера",
+		zhCN: "为新跟踪器选择一个类别",
 	},
 	BackToLists: {
+		deDE: "Zurück zu den Listen",
 		enUK: "Back to lists",
-		ruRU: "Вернуться к спискам",
 		esES: "Volver a las listas",
 		faIR: "بازگشت به لیست\u200cها",
-		itIT: "Torna alle liste",
-		deDE: "Zurück zu den Listen",
 		frFR: "Retour aux listes",
-		plPL: "Powrót do list",
-		ptPT: "Voltar às listas",
-		koKR: "목록으로 돌아가기",
-		jaJP: "リストに戻る",
-		zhCN: "返回列表",
-		ukUA: "Повернутися до списків",
-		ptBR: "Voltar para as listas",
-		trTR: "Listelere geri dön",
 		idID: "Kembali ke daftar-daftar",
+		itIT: "Torna alle liste",
+		jaJP: "リストに戻る",
+		koKR: "목록으로 돌아가기",
+		plPL: "Powrót do list",
+		ptBR: "Voltar para as listas",
+		ptPT: "Voltar às listas",
+		ruRU: "Вернуться к спискам",
+		trTR: "Listelere geri dön",
+		ukUA: "Повернутися до списків",
+		zhCN: "返回列表",
 	},
 	BackToList: {
+		deDE: "Zurück zur Liste",
 		enUK: "Back to list",
-		ruRU: "Вернуться к списку",
 		esES: "Volver a la lista",
 		faIR: "بازگشت به لیست",
-		itIT: "Torna alla lista",
-		deDE: "Zurück zur Liste",
 		frFR: "Retour à la liste",
-		plPL: "Powrót do listy",
-		ptPT: "Voltar à lista",
-		koKR: "목록으로 돌아가기",
-		jaJP: "リストに戻る",
-		zhCN: "返回列表",
-		ukUA: "Повернутися до списку",
-		ptBR: "Voltar para a lista",
-		trTR: "Listeye geri dön",
 		idID: "Kembali ke daftar",
+		itIT: "Torna alla lista",
+		jaJP: "リストに戻る",
+		koKR: "목록으로 돌아가기",
+		plPL: "Powrót do listy",
+		ptBR: "Voltar para a lista",
+		ptPT: "Voltar à lista",
+		ruRU: "Вернуться к списку",
+		trTR: "Listeye geri dön",
+		ukUA: "Повернутися до списку",
+		zhCN: "返回列表",
 	},
 	ClearList: {
+		deDE: "Liste löschen",
 		enUK: "Clear list",
-		ruRU: "Очистить список",
 		esES: "Limpiar lista",
 		faIR: "پاک کردن لیست",
-		itIT: "Svuota lista",
-		deDE: "Liste löschen",
 		frFR: "Effacer la liste",
-		plPL: "Wyczyść listę",
-		ptPT: "Limpar lista",
-		koKR: "목록 지우기",
-		jaJP: "リストをクリア",
-		zhCN: "清空列表",
-		ukUA: "Очистити список",
-		ptBR: "Limpar lista",
-		trTR: "Listeyi temizle",
 		idID: "Bersihkan daftar",
+		itIT: "Svuota lista",
+		jaJP: "リストをクリア",
+		koKR: "목록 지우기",
+		plPL: "Wyczyść listę",
+		ptBR: "Limpar lista",
+		ptPT: "Limpar lista",
+		ruRU: "Очистить список",
+		trTR: "Listeyi temizle",
+		ukUA: "Очистити список",
+		zhCN: "清空列表",
 	},
 	MarkAsDone: {
+		deDE: "Als erledigt markieren",
 		enUK: "Mark as done",
-		ruRU: "Отметить как выполненное",
 		esES: "Marcar como hecho",
 		faIR: "علامت\u200cگذاری به عنوان انجام\u200cشده",
-		itIT: "Segna come completato",
-		deDE: "Als erledigt markieren",
 		frFR: "Marquer comme fait",
-		plPL: "Oznacz jako zrobione",
-		ptPT: "Marcar como feito",
-		koKR: "완료로 표시",
-		jaJP: "完了としてマークする",
-		zhCN: "标记为完成",
-		ukUA: "Позначити як виконане",
-		ptBR: "Marcar como concluído",
-		trTR: "Tamamlandı olarak işaretle",
 		idID: "Tandai sebagai selesai",
+		itIT: "Segna come completato",
+		jaJP: "完了としてマークする",
+		koKR: "완료로 표시",
+		plPL: "Oznacz jako zrobione",
+		ptBR: "Marcar como concluído",
+		ptPT: "Marcar como feito",
+		ruRU: "Отметить как выполненное",
+		trTR: "Tamamlandı olarak işaretle",
+		ukUA: "Позначити як виконане",
+		zhCN: "标记为完成",
 	},
 	AddStandard: {
+		deDE: "Standard hinzufügen",
 		enUK: "Add standard",
-		ruRU: "Добавить стандартный",
 		esES: "Agregar estándar",
 		faIR: "افزودن استاندارد",
-		itIT: "Aggiungere standard",
-		deDE: "Standard hinzufügen",
 		frFR: "Ajouter une norme",
-		plPL: "Dodaj standard",
-		ptPT: "Adicionar padrão",
-		koKR: "표준 추가",
-		jaJP: "標準を追加",
-		zhCN: "添加标准",
-		ukUA: "Додати стандарт",
-		ptBR: "Adicionar padrão",
-		trTR: "Standart ekle",
 		idID: "Tambahkan standar",
+		itIT: "Aggiungere standard",
+		jaJP: "標準を追加",
+		koKR: "표준 추가",
+		plPL: "Dodaj standard",
+		ptBR: "Adicionar padrão",
+		ptPT: "Adicionar padrão",
+		ruRU: "Добавить стандартный",
+		trTR: "Standart ekle",
+		ukUA: "Додати стандарт",
+		zhCN: "添加标准",
 	},
 	DeleteItems: {
-		enUK: "Delete items",
-		ruRU: "Удалить элементы",
-		faIR: "حذف موارد",
-		itIT: "Elimina elementi",
 		deDE: "Elemente löschen",
+		enUK: "Delete items",
+		faIR: "حذف موارد",
 		frFR: "Supprimer les éléments",
-		plPL: "Usuń elementy",
-		ptPT: "Eliminar itens",
-		koKR: "항목 삭제",
-		jaJP: "項目を削除",
-		zhCN: "删除项目",
-		ukUA: "Видалити елементи",
-		ptBR: "Excluir itens",
-		trTR: "Öğeleri sil",
 		idID: "Hapus item",
+		itIT: "Elimina elementi",
+		jaJP: "項目を削除",
+		koKR: "항목 삭제",
+		plPL: "Usuń elementy",
+		ptBR: "Excluir itens",
+		ptPT: "Eliminar itens",
+		ruRU: "Удалить элементы",
+		trTR: "Öğeleri sil",
+		ukUA: "Видалити елементи",
+		zhCN: "删除项目",
 	},
 	YouCanAddItemBySendingMessage: {
+		deDE: "Sie können Elemente zu dieser Liste hinzufügen, indem Sie mir eine Nachricht senden.",
 		enUK: "You can add items to this list by sending a message to me.",
-		ruRU: "Вы можете добавлять элементы в этот список, отправив мне сообщение.",
 		esES: "Puedes agregar elementos a esta lista enviándome un mensaje.",
 		faIR: "می\u200cتوانید با ارسال یک پیام به من، موارد را به این لیست اضافه کنید.",
-		itIT: "Puoi aggiungere elementi a questa lista inviandomi un messaggio.",
-		deDE: "Sie können Elemente zu dieser Liste hinzufügen, indem Sie mir eine Nachricht senden.",
 		frFR: "Vous pouvez ajouter des éléments à cette liste en m'envoyant un message.",
-		plPL: "Możesz dodać elementy do tej listy, wysyłając mi wiadomość.",
-		ptPT: "Pode adicionar items a esta lista enviando-me uma mensagem.",
-		koKR: "저에게 메시지를 보내서 이 목록에 항목들을 추가할 수 있습니다.",
-		jaJP: "私にメッセージを送ることで、このリストに項目を追加できます。",
-		zhCN: "您可以通过向我发送消息将项目添加到此列表。",
-		ukUA: "Ви можете додати елементи до цього списку, надіславши мені повідомлення.",
-		ptBR: "Você pode adicionar itens a esta lista enviando uma mensagem para mim.",
-		trTR: "Bu listeye bir mesaj göndererek öğeler ekleyebilirsiniz.",
 		idID: "Anda dapat menambahkan item ke daftar ini dengan mengirimkan pesan kepada saya.",
+		itIT: "Puoi aggiungere elementi a questa lista inviandomi un messaggio.",
+		jaJP: "私にメッセージを送ることで、このリストに項目を追加できます。",
+		koKR: "저에게 메시지를 보내서 이 목록에 항목들을 추가할 수 있습니다.",
+		plPL: "Możesz dodać elementy do tej listy, wysyłając mi wiadomość.",
+		ptBR: "Você pode adicionar itens a esta lista enviando uma mensagem para mim.",
+		ptPT: "Pode adicionar items a esta lista enviando-me uma mensagem.",
+		ruRU: "Вы можете добавлять элементы в этот список, отправив мне сообщение.",
+		trTR: "Bu listeye bir mesaj göndererek öğeler ekleyebilirsiniz.",
+		ukUA: "Ви можете додати елементи до цього списку, надіславши мені повідомлення.",
+		zhCN: "您可以通过向我发送消息将项目添加到此列表。",
 	},
 	NoItemsInTheListYet: {
+		deDE: "Noch keine Elemente in der Liste.",
 		enUK: "No items in the list yet.",
-		ruRU: "Пока нет элементов в списке.",
 		esES: "Todavía no hay elementos en la lista.",
 		faIR: "هنوز هیچ آیتمی در لیست وجود ندارد.",
-		itIT: "Non ci sono ancora elementi nella lista.",
-		deDE: "Noch keine Elemente in der Liste.",
 		frFR: "Pas encore d'éléments dans la liste.",
-		plPL: "Jeszcze brak elementów na liście.",
-		ptPT: "Ainda não existem itens na lista.",
-		koKR: "목록에 아직 항목이 없습니다.",
-		jaJP: "リストに項目がまだありません。",
-		zhCN: "列表中尚无项目。",
-		ukUA: "Ще немає елементів у списку.",
-		ptBR: "Ainda não há itens na lista.",
-		trTR: "Henüz listede öğe yok.",
 		idID: "Belum ada item dalam daftar.",
+		itIT: "Non ci sono ancora elementi nella lista.",
+		jaJP: "リストに項目がまだありません。",
+		koKR: "목록에 아직 항목이 없습니다.",
+		plPL: "Jeszcze brak elementów na liście.",
+		ptBR: "Ainda não há itens na lista.",
+		ptPT: "Ainda não existem itens na lista.",
+		ruRU: "Пока нет элементов в списке.",
+		trTR: "Henüz listede öğe yok.",
+		ukUA: "Ще немає елементів у списку.",
+		zhCN: "列表中尚无项目。",
 	},
 	FamilyList: {
+		deDE: "Familienliste",
 		enUK: "Family list",
-		ruRU: "Семейный список",
 		esES: "Lista familiar",
 		faIR: "لیست خانواده",
-		itIT: "Elenco familiare",
-		deDE: "Familienliste",
 		frFR: "Liste familiale",
-		plPL: "Lista rodzinna",
-		ptPT: "Lista familiar",
-		koKR: "가족 목록",
-		jaJP: "家族リスト",
-		zhCN: "家庭清单",
-		ukUA: "Сімейний список",
-		ptBR: "Lista da família",
-		trTR: "Aile listesi",
 		idID: "Daftar keluarga",
+		itIT: "Elenco familiare",
+		jaJP: "家族リスト",
+		koKR: "가족 목록",
+		plPL: "Lista rodzinna",
+		ptBR: "Lista da família",
+		ptPT: "Lista familiar",
+		ruRU: "Семейный список",
+		trTR: "Aile listesi",
+		ukUA: "Сімейний список",
+		zhCN: "家庭清单",
 	},
 	PrivateList: {
+		deDE: "Private Liste",
 		enUK: "Private list",
-		ruRU: "Личный список",
 		esES: "Lista privada",
 		faIR: "لیست خصوصی",
-		itIT: "Lista personale",
-		deDE: "Private Liste",
 		frFR: "Liste privée",
-		plPL: "Lista prywatna",
-		ptPT: "Lista privada",
-		koKR: "개인 목록",
-		jaJP: "プライベートリスト",
-		zhCN: "私人清单",
-		ukUA: "Особистий список",
-		ptBR: "Lista privada",
-		trTR: "Özel liste",
 		idID: "Daftar pribadi",
+		itIT: "Lista personale",
+		jaJP: "プライベートリスト",
+		koKR: "개인 목록",
+		plPL: "Lista prywatna",
+		ptBR: "Lista privada",
+		ptPT: "Lista privada",
+		ruRU: "Личный список",
+		trTR: "Özel liste",
+		ukUA: "Особистий список",
+		zhCN: "私人清单",
 	},
 	Refresh: {
+		deDE: "Aktualisieren",
 		enUK: "Refresh",
-		ruRU: "Обновить",
 		esES: "Refrescar",
 		faIR: "بروزرسانی",
-		itIT: "Aggiorna",
-		deDE: "Aktualisieren",
 		frFR: "Rafraîchir",
-		plPL: "Odśwież",
-		ptPT: "Atualizar",
-		koKR: "새로고침",
-		jaJP: "リフレッシュ",
-		zhCN: "刷新",
-		ukUA: "Оновити",
-		ptBR: "Atualizar",
-		trTR: "Yenile",
 		idID: "Segarkan",
+		itIT: "Aggiorna",
+		jaJP: "リフレッシュ",
+		koKR: "새로고침",
+		plPL: "Odśwież",
+		ptBR: "Atualizar",
+		ptPT: "Atualizar",
+		ruRU: "Обновить",
+		trTR: "Yenile",
+		ukUA: "Оновити",
+		zhCN: "刷新",
 	},
 	AdviseToUseTelegramForTgUsers: {
+		deDE: `Wenn die Person, die Sie hinzufügen möchten, Telegram verwendet, empfehlen wir, "Telegram-Benutzer auswählen" auszuwählen.
+		Andernfalls können Sie sie manuell in Sneat.app hinzufügen.`,
 		enUK: `If the person you want to add uses telegram we advise to select "Choose Telegram User".
 Otherwise you can add them manually in Sneat.app.`,
-		ruRU: `Если человек, которого вы хотите добавить, использует Telegram, 
-		мы рекомендуем выбрать "Выбрать пользователя Telegram". 
-		В противном случае вы можете добавить их вручную в Sneat.app.`,
 		esES: `Si la persona que deseas agregar usa Telegram, te recomendamos seleccionar "Elegir usuario de Telegram".
 		De lo contrario, puedes agregarlos manualmente en Sneat.app.`,
 		faIR: `اگر شخصی که می\u200cخواهید اضافه کنید از تلگرام استفاده می\u200cکند، 
 ما توصیه می\u200cکنیم گزینه "انتخاب کاربر تلگرام" را انتخاب کنید. 
 در غیر این صورت می\u200cتوانید آنها را به صورت دستی در Sneat.app اضافه کنید.`,
-		itIT: `Se la persona che vuoi aggiungere utilizza telegram, ti consigliamo di selezionare "Scegli utente Telegram".
-		In caso contrario, puoi aggiungerli manualmente in Sneat.app.`,
-		deDE: `Wenn die Person, die Sie hinzufügen möchten, Telegram verwendet, empfehlen wir, "Telegram-Benutzer auswählen" auszuwählen.
-		Andernfalls können Sie sie manuell in Sneat.app hinzufügen.`,
 		frFR: `Si la personne que vous souhaitez ajouter utilise Telegram, nous vous conseillons de sélectionner "Choisir un utilisateur Telegram".
 		Sinon, vous pouvez les ajouter manuellement sur Sneat.app.`,
-		plPL: `Jeśli osoba, którą chcesz dodać, korzysta z Telegrama, radzimy wybrać "Wybierz użytkownika Telegrama".
-		W przeciwnym razie możesz dodać ich ręcznie w aplikacji Sneat.app.`,
-		ptPT: `Se a pessoa que deseja adicionar usar o Telegram, recomendamos selecionar "Escolher usuário do Telegram".
-		Caso contrário, você pode adicioná-los manualmente na Sneat.app.`,
-		koKR: `추가하려는 사람이 Telegram을 사용한다면 "Telegram 사용자 선택"을 선택하시길 권장드립니다.
-		그렇지 않을 경우 Sneat.app에서 수동으로 추가할 수 있습니다.`,
+		idID: `Jika orang yang ingin Anda tambahkan menggunakan Telegram, kami sarankan untuk memilih "Pilih Pengguna Telegram".
+		Jika tidak, Anda dapat menambahkannya secara manual di Sneat.app.`,
+		itIT: `Se la persona che vuoi aggiungere utilizza telegram, ti consigliamo di selezionare "Scegli utente Telegram".
+		In caso contrario, puoi aggiungerli manualmente in Sneat.app.`,
 		jaJP: `追加したい相手がTelegramを使用している場合、「Telegram ユーザーを選択」を選択することをお勧めします。
 		それ以外の場合は、Sneat.app で手動で追加することができます。`,
-		zhCN: `如果您想添加的人使用 Telegram，我们建议选择“选择 Telegram 用户”。
-		否则，您可以在 Sneat.app 中手动添加他们。`,
+		koKR: `추가하려는 사람이 Telegram을 사용한다면 "Telegram 사용자 선택"을 선택하시길 권장드립니다.
+		그렇지 않을 경우 Sneat.app에서 수동으로 추가할 수 있습니다.`,
+		plPL: `Jeśli osoba, którą chcesz dodać, korzysta z Telegrama, radzimy wybrać "Wybierz użytkownika Telegrama".
+		W przeciwnym razie możesz dodać ich ręcznie w aplikacji Sneat.app.`,
+		ptBR: `Se a pessoa que você deseja adicionar usar o Telegram, recomendamos selecionar "Escolher usuário do Telegram".
+		Caso contrário, você pode adicioná-los manualmente no Sneat.app.`,
+		ptPT: `Se a pessoa que deseja adicionar usar o Telegram, recomendamos selecionar "Escolher usuário do Telegram".
+		Caso contrário, você pode adicioná-los manualmente na Sneat.app.`,
+		ruRU: `Если человек, которого вы хотите добавить, использует Telegram, 
+		мы рекомендуем выбрать "Выбрать пользователя Telegram". 
+		В противном случае вы можете добавить их вручную в Sneat.app.`,
+		trTR: `Eklemek istediğiniz kişi Telegram kullanıyorsa, "Telegram Kullanıcısını Seç" seçeneğini seçmenizi öneririz.
+		Aksi takdirde Sneat.app'te manuel olarak ekleyebilirsiniz.`,
 		ukUA: `Якщо людина, яку ви хочете додати, використовує Telegram,
 		ми радимо вибрати "Вибрати користувача Telegram".
 		Інакше, ви можете додати їх вручну на Sneat.app.`,
-		ptBR: `Se a pessoa que você deseja adicionar usar o Telegram, recomendamos selecionar "Escolher usuário do Telegram".
-		Caso contrário, você pode adicioná-los manualmente no Sneat.app.`,
-		trTR: `Eklemek istediğiniz kişi Telegram kullanıyorsa, "Telegram Kullanıcısını Seç" seçeneğini seçmenizi öneririz.
-		Aksi takdirde Sneat.app'te manuel olarak ekleyebilirsiniz.`,
-		idID: `Jika orang yang ingin Anda tambahkan menggunakan Telegram, kami sarankan untuk memilih "Pilih Pengguna Telegram".
-		Jika tidak, Anda dapat menambahkannya secara manual di Sneat.app.`,
+		zhCN: `如果您想添加的人使用 Telegram，我们建议选择“选择 Telegram 用户”。
+		否则，您可以在 Sneat.app 中手动添加他们。`,
 	},
 	ChooseTelegramUser: {
+		deDE: "Telegram-Benutzer auswählen",
 		enUK: "Choose Telegram user",
-		ruRU: "Выбрать пользователя Telegram",
 		esES: "Elegir usuario de Telegram",
 		faIR: "انتخاب کاربر تلگرام",
-		itIT: "Scegli utente Telegram",
-		deDE: "Telegram-Benutzer auswählen",
 		frFR: "Choisir un utilisateur Telegram",
-		plPL: "Wybierz użytkownika Telegrama",
-		ptPT: "Escolher usuário do Telegram",
-		koKR: "Telegram 사용자 선택",
-		jaJP: "Telegram ユーザーを選択",
-		zhCN: "选择 Telegram 用户",
-		ukUA: "Вибрати користувача Telegram",
-		ptBR: "Escolher usuário do Telegram",
-		trTR: "Telegram Kullanıcısını Seç",
 		idID: "Pilih Pengguna Telegram",
+		itIT: "Scegli utente Telegram",
+		jaJP: "Telegram ユーザーを選択",
+		koKR: "Telegram 사용자 선택",
+		plPL: "Wybierz użytkownika Telegrama",
+		ptBR: "Escolher usuário do Telegram",
+		ptPT: "Escolher usuário do Telegram",
+		ruRU: "Выбрать пользователя Telegram",
+		trTR: "Telegram Kullanıcısını Seç",
+		ukUA: "Вибрати користувача Telegram",
+		zhCN: "选择 Telegram 用户",
 	},
 	AddManuallyInSneatApp: {
+		deDE: "Manuell in Sneat.app hinzufügen",
 		enUK: "Add manually in Sneat.app",
-		ruRU: "Добавить вручную в Sneat.app",
 		esES: "Agregar manualmente en Sneat.app",
 		faIR: "به صورت دستی در Sneat.app اضافه کنید",
-		itIT: "Aggiungi manualmente in Sneat.app",
-		deDE: "Manuell in Sneat.app hinzufügen",
 		frFR: "Ajouter manuellement dans Sneat.app",
-		plPL: "Dodaj ręcznie w Sneat.app",
-		ptPT: "Adicionar manualmente no Sneat.app",
-		koKR: "Sneat.app에서 수동으로 추가",
-		jaJP: "Sneat.app で手動で追加",
-		zhCN: "在 Sneat.app 中手动添加",
-		ukUA: "Додати вручну на Sneat.app",
-		ptBR: "Adicionar manualmente no Sneat.app",
-		trTR: "Sneat.app'te manuel olarak ekle",
 		idID: "Tambahkan secara manual di Sneat.app",
+		itIT: "Aggiungi manualmente in Sneat.app",
+		jaJP: "Sneat.app で手動で追加",
+		koKR: "Sneat.app에서 수동으로 추가",
+		plPL: "Dodaj ręcznie w Sneat.app",
+		ptBR: "Adicionar manualmente no Sneat.app",
+		ptPT: "Adicionar manualmente no Sneat.app",
+		ruRU: "Добавить вручную в Sneat.app",
+		trTR: "Sneat.app'te manuel olarak ekle",
+		ukUA: "Додати вручну на Sneat.app",
+		zhCN: "在 Sneat.app 中手动添加",
 	},
 	CancelAddingMember: {
+		deDE: "Hinzufügen eines Mitglieds abbrechen",
 		enUK: "Cancel adding member",
-		ruRU: "Отменить добавление участника",
 		esES: "Cancelar la adición de miembro",
 		faIR: "لغو افزودن عضو",
-		itIT: "Annulla l'aggiunta di un membro",
-		deDE: "Hinzufügen eines Mitglieds abbrechen",
 		frFR: "Annuler l'ajout d'un membre",
-		plPL: "Anuluj dodawanie członka",
-		ptPT: "Cancelar a adição de membro",
-		koKR: "멤버 추가 취소",
-		jaJP: "メンバー追加をキャンセル",
-		zhCN: "取消添加成员",
-		ukUA: "Скасувати додавання учасника",
-		ptBR: "Cancelar a adição de membro",
-		trTR: "Üye eklemeyi iptal et",
 		idID: "Batalkan menambahkan anggota",
+		itIT: "Annulla l'aggiunta di un membro",
+		jaJP: "メンバー追加をキャンセル",
+		koKR: "멤버 추가 취소",
+		plPL: "Anuluj dodawanie członka",
+		ptBR: "Cancelar a adição de membro",
+		ptPT: "Cancelar a adição de membro",
+		ruRU: "Отменить добавление участника",
+		trTR: "Üye eklemeyi iptal et",
+		ukUA: "Скасувати додавання учасника",
+		zhCN: "取消添加成员",
 	},
 	CancelAddingContact: {
+		deDE: "Hinzufügen eines Kontakts abbrechen",
 		enUK: "Cancel adding contact",
-		ruRU: "Отменить добавление контакта",
 		esES: "Cancelar la adición de contacto",
 		faIR: "لغو افزودن مخاطب",
-		itIT: "Annulla l'aggiunta di un contatto",
-		deDE: "Hinzufügen eines Kontakts abbrechen",
 		frFR: "Annuler l'ajout d'un contact",
-		plPL: "Anuluj dodawanie kontaktu",
-		ptPT: "Cancelar a adição de contato",
-		koKR: "연락처 추가 취소",
-		jaJP: "連絡先追加をキャンセル",
-		zhCN: "取消添加联系人",
-		ukUA: "Скасувати додавання контакту",
-		ptBR: "Cancelar a adição de contato",
-		trTR: "Kişi eklemeyi iptal et",
 		idID: "Batalkan menambahkan kontak",
+		itIT: "Annulla l'aggiunta di un contatto",
+		jaJP: "連絡先追加をキャンセル",
+		koKR: "연락처 추가 취소",
+		plPL: "Anuluj dodawanie kontaktu",
+		ptBR: "Cancelar a adição de contato",
+		ptPT: "Cancelar a adição de contato",
+		ruRU: "Отменить добавление контакта",
+		trTR: "Kişi eklemeyi iptal et",
+		ukUA: "Скасувати додавання контакту",
+		zhCN: "取消添加联系人",
 	},
 	FamilyDebts: {
+		deDE: "Familienschulden",
 		enUK: "Family debts",
-		ruRU: "Семейные долги",
 		esES: "Deudas familiares",
 		faIR: "بدهی های خانواده",
-		itIT: "Debiti familiari",
-		deDE: "Familienschulden",
 		frFR: "Dettes familiales",
-		plPL: "Długi rodzinne",
-		ptPT: "Dívidas da família",
-		koKR: "가족 부채",
-		jaJP: "家族の借金",
-		zhCN: "家庭债务",
-		ukUA: "Сімейні борги",
-		ptBR: "Dívidas familiares",
-		trTR: "Aile borçları",
 		idID: "Hutang keluarga",
+		itIT: "Debiti familiari",
+		jaJP: "家族の借金",
+		koKR: "가족 부채",
+		plPL: "Długi rodzinne",
+		ptBR: "Dívidas familiares",
+		ptPT: "Dívidas da família",
+		ruRU: "Семейные долги",
+		trTR: "Aile borçları",
+		ukUA: "Сімейні борги",
+		zhCN: "家庭债务",
 	},
 	DebtsRelatedContacts: {
+		deDE: "Schuldenbezogene Kontakte",
 		enUK: "Debts related contacts",
-		ruRU: "Контакты, связанные с долгами",
 		esES: "Contactos relacionados con deudas",
 		faIR: "ارتباطات مربوط به بدهی\u200cها",
-		itIT: "Contatti legati ai debiti",
-		deDE: "Schuldenbezogene Kontakte",
 		frFR: "Contacts liés aux dettes",
-		plPL: "Kontakty związane z długami",
-		ptPT: "Contactos relacionados com dívidas",
-		koKR: "부채 관련 연락처",
-		jaJP: "借金関連の連絡先",
-		zhCN: "债务相关联系人",
-		ukUA: "Контакти, пов’язані з боргами",
-		ptBR: "Contatos relacionados a dívidas",
-		trTR: "Borçlarla ilgili kişiler",
 		idID: "Kontak yang terkait dengan hutang",
+		itIT: "Contatti legati ai debiti",
+		jaJP: "借金関連の連絡先",
+		koKR: "부채 관련 연락처",
+		plPL: "Kontakty związane z długami",
+		ptBR: "Contatos relacionados a dívidas",
+		ptPT: "Contactos relacionados com dívidas",
+		ruRU: "Контакты, связанные с долгами",
+		trTR: "Borçlarla ilgili kişiler",
+		ukUA: "Контакти, пов’язані з боргами",
+		zhCN: "债务相关联系人",
 	},
 	BackToDebtsMenu: {
+		deDE: "Zurück zum Schuldenmenü",
 		enUK: "Back to debts menu",
-		ruRU: "Вернуться в меню долгов",
 		esES: "Volver al menú de deudas",
 		faIR: "بازگشت به منوی بدهی\u200cها",
-		itIT: "Torna al menu dei debiti",
-		deDE: "Zurück zum Schuldenmenü",
 		frFR: "Retour au menu des dettes",
-		plPL: "Powrót do menu długów",
-		ptPT: "Voltar ao menu das dívidas",
-		koKR: "부채 메뉴로 돌아가기",
-		jaJP: "借金メニューに戻る",
-		zhCN: "返回债务菜单",
-		ukUA: "Повернутися до меню боргів",
-		ptBR: "Voltar ao menu de dívidas",
-		trTR: "Borçlar menüsüne geri dön",
 		idID: "Kembali ke menu hutang",
+		itIT: "Torna al menu dei debiti",
+		jaJP: "借金メニューに戻る",
+		koKR: "부채 메뉴로 돌아가기",
+		plPL: "Powrót do menu długów",
+		ptBR: "Voltar ao menu de dívidas",
+		ptPT: "Voltar ao menu das dívidas",
+		ruRU: "Вернуться в меню долгов",
+		trTR: "Borçlar menüsüne geri dön",
+		ukUA: "Повернутися до меню боргів",
+		zhCN: "返回债务菜单",
 	},
 }
