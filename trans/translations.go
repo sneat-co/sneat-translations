@@ -2306,10 +2306,7 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 		enUK: "{{.Counterparty}} borrowed from you {{.Amount}}.",
 		esES: "{{.Counterparty}} prestado por tí {{.Amount}}.",
 		faIR: "{{.Counterparty}} از شما {{.Amount}} قرض گرفته است .",
-		itIT:
-
-		//itIT:   "{{.Counterparty}} ha preso in prestito da te {{.Amount}}.",
-		"{{.Counterparty}} e' in debito di {{.Amount}} con te.",
+		itIT: "{{.Counterparty}} e' in debito di {{.Amount}} con te.",
 		ruRU: "{{.Counterparty}} взял(а) в долг {{.Amount}}.",
 	},
 	MESSAGE_TEXT_RECEIPT_NEW_DEBT_TO_USER: {
