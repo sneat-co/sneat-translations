@@ -6256,7 +6256,6 @@ Do'stingiz taklifni qabul qilgandan so'ng, minimal kuch bilan ikkalangiz ham bir
 		enUK: "Please enter email address of your friend where we should send an invite code.",
 		esES: "Por favor, introduce el e-maill de tu amigo al cual enviaremos el código de la invitación.",
 		faIR: "لطفاً آدرس ایمیل دوست خود را وارد کنید تا ما از آن طریق کد دعوت را ارسال نماییم.",
-
 		frFR: "Veuillez entrer l'adresse e-mail de votre ami où nous devrions envoyer un code d'invitation.",
 		idID: "Silakan masukkan alamat email teman Anda di mana kami harus mengirimkan kode undangan.",
 		itIT: "Inserisci l'email dell'amico al quale inviare il codice invito.",
