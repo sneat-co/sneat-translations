@@ -7658,34 +7658,21 @@ Pode conhecer as novas funcionalidades do bot no canal @SneatApp onde <a href="h
 	},
 	SpaceCmdBtnTrackers: {
 		deDE: "Tracker",
-		enUK:// Placeholder
-		"Trackers",
+		enUK: "Trackers",
 		esES: "Rastreadores",
-		faIR:// Placeholder
-		"ردیاب\u200cها",
-		frFR:// Placeholder
-		"Traqueurs",
-		idID:// Placeholder
-		"Pelacak",
-		itIT:// Placeholder
-		"Tracker",
-		jaJP:// Placeholder
-		"トラッカー",
-		koKR:// Placeholder
-		"추적기",
-		plPL:// Placeholder
-		"Monitorujące",
-		ptBR:// Placeholder
-		"Rastreadores",
-		ruRU:// Placeholder
-		"Трекеры",
+		faIR: "ردیاب\u200cها",
+		frFR: "Traqueurs",
+		idID: "Pelacak",
+		itIT: "Tracker",
+		jaJP: "トラッカー",
+		koKR: "추적기",
+		plPL: "Monitorujące",
+		ptBR: "Rastreadores",
+		ruRU: "Трекеры",
 		trTR: "İzleyiciler",
-		ukUA:// Placeholder
-		"Трекери",
-		uzUZ:// Placeholder
-		"Kuzatuvchilar",
-		zhCN:// Placeholder
-		"追踪器", // Placeholder
+		ukUA: "Трекери",
+		uzUZ: "Kuzatuvchilar",
+		zhCN: "追踪器",
 	},
 	BtnSpaces: {
 		deDE: "Räume",
