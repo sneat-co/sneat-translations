@@ -6380,7 +6380,6 @@ Il tuo codice di invito personale e': {{.InviteCode}}`,
 
 	  - Незабыть вовремя отдать или востребовать долг
 	    <i>(напоминания вам и вашим должникам)</i>`,
-		//-------------------------------------------------------
 	},
 	INLINE_RECEIPT_GENERATING_MESSAGE: {
 		deDE: `<b>{{.Creator}} erstellte online einen Schuldschein</b> der dich betrifft.
@@ -6401,30 +6400,29 @@ Il tuo codice di invito personale e': {{.InviteCode}}`,
 		ruRU: `<b>{{.Creator}} создал(а) запись о долге</b> касающегося Вас.
 
   >> <i>Generating receipt...</i>`,
-		//-------------------------------------------------------
 	},
 	//	INLINE_RECEIPT_MESSAGE: {
-	//		//-------------------------------------------------------
+	//
 	//		enUK: `<b>{{.Creator}} recorded a debt</b> associated with you.
 	//
 	//`,
-	//		//-------------------------------------------------------
+	//
 	//		esES: `<b>{{.Creator}} ha creado una deuda</b> asociada a ti.
 	//
 	//`,
-	//		//-------------------------------------------------------
+	//
 	//		faIR: `<b>{{.Creator}} یک بدهی </b> مرتبط با شما ثبت نموده است.
 	//
 	//`,
-	//		//-------------------------------------------------------
+	//
 	//		itIT:   `<b>{{.Creator}} ha registrato un debito</b> associato a te.
 	//
 	//`,
-	//		//-------------------------------------------------------
+	//
 	//		ruRU:  `<b>{{.Creator}} создал(а) запись о долге</b> касающегося Вас.
 	//
 	//`,
-	//		//-------------------------------------------------------
+	//
 	//	},
 	INLINE_RECEIPT_MESSAGE: {
 		enUK: `<b>{{.Creator}} recorded a debt</b> associated with you.
@@ -6442,7 +6440,6 @@ Il tuo codice di invito personale e': {{.InviteCode}}`,
 		ruRU: `<b>{{.Creator}} создал(а) запись о долге</b> касающегося Вас.
 
   >> <a href="{{.ReceiptUrl}}">Посмотреть квитанцию</a>`,
-		//-------------------------------------------------------
 	},
 	InlineInviteToJoinFamilyTitle: {
 		deDE: "Einladung der Familie beizutreten bei @%s",
@@ -7214,7 +7211,6 @@ Foiz kunlik (<i>har 24 soatda</i>) <a href="https://uz.wikipedia.org/wiki/Oddiy_
 		itIT: "in %v giorni/o",
 		ruRU: "через %v дня/дней",
 	},
-	//-------------------------------------------------------------------------------------------------------------------
 	WS_ALEX_T: {
 		enUK: "Alexander Trakhimenok",
 		faIR: "الکساندر تراخیمِنوک",
