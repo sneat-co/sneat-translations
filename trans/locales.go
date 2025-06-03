@@ -5,7 +5,6 @@ import "slices"
 const (
 	arEG = "ar-EG" // Egypt 14.85 million Telegram users
 	enUK = "en-UK"
-	enUS = "en-US"
 	ruRU = "ru-RU"
 	esES = "es-ES" // 150–200 million Telegram users
 	itIT = "it-IT"
@@ -33,7 +32,6 @@ var SupportedLocales = []string{
 	arEG,
 	deDE,
 	enUK,
-	enUS,
 	esES,
 	faIR,
 	frFR,

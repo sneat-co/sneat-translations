@@ -80,7 +80,6 @@ func calendarButtonText() map[string]string {
 	return map[string]string{
 		deDE: "🗓️️ Kalender",
 		enUK: "🗓️️ Calendar",
-		enUS: "🗓️️ Calendar",
 		esES: "🗓️️ Calendario",
 		faIR: "🗓️️ تقویم",
 		frFR: "🗓️️ Calendrier",
@@ -127,7 +126,6 @@ func init() {
 		NewEventTitle: {
 			deDE: "Neue Veranstaltung",
 			enUK: "New Event",
-			enUS: "New Event",
 			esES: "Nuevo Evento",
 			faIR: "رویداد جدید",
 			frFR: "Nouvel Événement",
@@ -146,7 +144,6 @@ func init() {
 		NewEventText: {
 			deDE: "@{BOT_CODE} hilft dabei, Datum, Uhrzeit und Ort zu wählen, die für alle Teilnehmer am besten funktionieren.",
 			enUK: "@{BOT_CODE} helps to choose date, time & place that works best for all participants.",
-			enUS: "@{BOT_CODE} helps to choose date, time & place that works best for all participants.",
 			esES: "@{BOT_CODE} ayuda a elegir fecha, hora y lugar que funcione mejor para todos los participantes.",
 			faIR: "@{BOT_CODE} به انتخاب تاریخ، زمان و مکانی که برای همه شرکت\u200Cکنندگان مناسب است کمک می\u200Cکند.",
 			frFR: "@{BOT_CODE} aide à choisir la date, l'heure et le lieu qui conviennent le mieux à tous les participants.",
@@ -165,7 +162,6 @@ func init() {
 		NewEventHint: {
 			deDE: "Geben Sie den Titel Ihrer neuen Veranstaltung ein:",
 			enUK: "Enter title of your new event:",
-			enUS: "Enter title of your new event:",
 			esES: "Ingrese el título de su nuevo evento:",
 			faIR: "عنوان رویداد جدید خود را وارد کنید:",
 			frFR: "Entrez le titre de votre nouvel événement:",
@@ -184,7 +180,6 @@ func init() {
 		TodayButtonText: {
 			deDE: "🕒 Heute — {DATE}",
 			enUK: "🕒 Today — {DATE}",
-			enUS: "🕒 Today — {DATE}",
 			esES: "🕒 Hoy — {DATE}",
 			faIR: "🕒 امروز — {DATE}",
 			frFR: "🕒 Aujourd'hui — {DATE}",
@@ -204,7 +199,6 @@ func init() {
 		TomorrowButtonText: {
 			deDE: "🌅 Morgen — {DATE}",
 			enUK: "🌅 Tomorrow —  {DATE}",
-			enUS: "🌅 Tomorrow —  {DATE}",
 			esES: "🌅 Mañana — {DATE}",
 			faIR: "🌅 فردا — {DATE}",
 			frFR: "🌅 Demain — {DATE}",
@@ -223,7 +217,6 @@ func init() {
 		SpotGoingToDoActivities: {
 			deDE: "Vorhaben: {ACTIVITIES}",
 			enUK: "Going to do: {ACTIVITIES}",
-			enUS: "Going to do: {ACTIVITIES}",
 			esES: "Voy a hacer: {ACTIVITIES}",
 			faIR: "قصد انجام: {ACTIVITIES}",
 			frFR: "Va faire: {ACTIVITIES}",
@@ -243,7 +236,6 @@ func init() {
 		ChooseSpotToRSVP: {
 			deDE: "Wählen Sie einen Platz zum Zusagen",
 			enUK: "Choose a spot to RSVP",
-			enUS: "Choose a spot to RSVP",
 			esES: "Elige un lugar para confirmar asistencia",
 			faIR: "مکانی برای تایید حضور انتخاب کنید",
 			frFR: "Choisissez un lieu pour confirmer votre présence",
@@ -262,7 +254,6 @@ func init() {
 		TogdIntentPublished: {
 			deDE: "Sie haben Ihre Absicht erfolgreich veröffentlicht.",
 			enUK: "You've successfully published your intention.",
-			enUS: "You've successfully published your intention.",
 			esES: "Has publicado tu intención exitosamente.",
 			faIR: "شما با موفقیت قصد خود را منتشر کردید.",
 			frFR: "Vous avez publié votre intention avec succès.",
@@ -281,7 +272,6 @@ func init() {
 		TogdBackToActivities: {
 			deDE: "🔙 Zurück zu Aktivitäten",
 			enUK: "🔙 Back to Activities",
-			enUS: "🔙 Back to Activities",
 			esES: "🔙 Volver a Actividades",
 			faIR: "🔙 بازگشت به فعالیت\u200cها",
 			frFR: "🔙 Retour aux Activités",
@@ -300,7 +290,6 @@ func init() {
 		TogdPlansButtonText: {
 			deDE: "📝 Pläne",
 			enUK: "📝 Plans",
-			enUS: "📝 Plans",
 			esES: "📝 Planes",
 			faIR: "📝 برنامه\u200cها",
 			frFR: "📝 Plans",
@@ -319,7 +308,6 @@ func init() {
 		TogdSpotsButtonText: {
 			deDE: "📍 Orte",
 			enUK: "📍 Spots",
-			enUS: "📍 Spots",
 			esES: "📍 Lugares",
 			faIR: "📍 مکان\u200cها",
 			frFR: "📍 Lieux",
@@ -339,7 +327,6 @@ func init() {
 		RsvpQuestionOnWhatDate: {
 			deDE: "An welchem Tag werden Sie teilnehmen?",
 			enUK: "On what day are you going to attend?",
-			enUS: "On what day are you going to attend?",
 			esES: "¿Qué día vas a asistir?",
 			faIR: "چه روزی قصد شرکت دارید؟",
 			frFR: "Quel jour allez-vous assister ?",
@@ -358,7 +345,6 @@ func init() {
 		RsvpQuestionAtWhatTime: {
 			deDE: "Um wie viel Uhr werden Sie ankommen?",
 			enUK: "At what time are you going to arrive?",
-			enUS: "At what time are you going to arrive?",
 			esES: "¿A qué hora vas a llegar?",
 			faIR: "در چه ساعتی خواهید رسید؟",
 			frFR: "À quelle heure allez-vous arriver ?",
@@ -377,7 +363,6 @@ func init() {
 		RsvpTimeIsChangeable: {
 			deDE: "Sie können die Minuten bei Bedarf später ändern.",
 			enUK: "You would be able to change minutes if needed later.",
-			enUS: "You would be able to change minutes if needed later.",
 			esES: "Podrás cambiar los minutos si es necesario más tarde.",
 			faIR: "در صورت نیاز بعداً می\u200cتوانید دقایق را تغییر دهید.",
 			frFR: "Vous pourrez modifier les minutes plus tard si nécessaire.",
@@ -396,7 +381,6 @@ func init() {
 		RsvpResponse100Percent: {
 			deDE: "Ich werde da sein 💯%",
 			enUK: "I'll be there 💯%",
-			enUS: "I'll be there 💯%",
 			esES: "Estaré allí 💯%",
 			faIR: "💯% آنجا خواهم بود",
 			frFR: "Je serai là 💯%",
@@ -415,7 +399,6 @@ func init() {
 		RsvpResponseNotAttending: {
 			deDE: "Nicht teilnehmend",
 			enUK: "Not attending",
-			enUS: "Not attending",
 			esES: "No asistiré",
 			faIR: "شرکت نمی\u200cکنم",
 			frFR: "Ne participe pas",
@@ -434,7 +417,6 @@ func init() {
 		RsvpResponseMostLikely: {
 			deDE: "Höchstwahrscheinlich",
 			enUK: "Most likely",
-			enUS: "Most likely",
 			esES: "Muy probable",
 			faIR: "خیلی محتمل",
 			frFR: "Très probablement",
@@ -453,7 +435,6 @@ func init() {
 		RsvpResponseMaybe: {
 			deDE: "Vielleicht",
 			enUK: "Maybe",
-			enUS: "Maybe",
 			esES: "Tal vez",
 			faIR: "شاید",
 			frFR: "Peut-être",
@@ -473,7 +454,6 @@ func init() {
 		RsvpResponseUnlikely: {
 			deDE: "Unwahrscheinlich",
 			enUK: "Unlikely",
-			enUS: "Unlikely",
 			esES: "Poco probable",
 			faIR: "بعید",
 			frFR: "Peu probable",
@@ -492,7 +472,6 @@ func init() {
 		RsvpHowLikelyQuestion: {
 			deDE: "Wie wahrscheinlich ist es, dass Sie dort sein werden?",
 			enUK: "How likely is it you are going to be there?",
-			enUS: "How likely is it you are going to be there?",
 			esES: "¿Qué tan probable es que vayas a estar allí?",
 			faIR: "چقدر احتمال دارد که آنجا باشید؟",
 			frFR: "Quelle est la probabilité que vous y soyez ?",
@@ -511,7 +490,6 @@ func init() {
 		SpotTitle: {
 			deDE: "Ort: <b>{SPOT_TITLE}</b> — <i>{SPOT_LOCATION}</i>",
 			enUK: "Spot: <b>{SPOT_TITLE}</b> — <i>{SPOT_LOCATION}</i>",
-			enUS: "Spot: <b>{SPOT_TITLE}</b> — <i>{SPOT_LOCATION}</i>",
 			esES: "Lugar: <b>{SPOT_TITLE}</b> — <i>{SPOT_LOCATION}</i>",
 			faIR: "مکان: <b>{SPOT_TITLE}</b> — <i>{SPOT_LOCATION}</i>",
 			frFR: "Lieu: <b>{SPOT_TITLE}</b> — <i>{SPOT_LOCATION}</i>",
@@ -530,7 +508,6 @@ func init() {
 		SpotActivities: {
 			deDE: "Aktivitäten",
 			enUK: "Activities",
-			enUS: "Activities",
 			esES: "Actividades",
 			faIR: "فعالیت\u200cها",
 			frFR: "Activités",
@@ -549,7 +526,6 @@ func init() {
 		SpotButtonText: {
 			deDE: "Platz: {SPOT_TITLE}",
 			enUK: "Spot: {SPOT_TITLE}",
-			enUS: "Spot: {SPOT_TITLE}",
 			esES: "Lugar: {SPOT_TITLE}",
 			faIR: "مکان: {SPOT_TITLE}",
 			frFR: "Lieu: {SPOT_TITLE}",
@@ -568,7 +544,6 @@ func init() {
 		ShareSpotButtonText: {
 			deDE: "📤 Ort teilen",
 			enUK: "📤 Share spot",
-			enUS: "📤 Share spot",
 			esES: "📤 Compartir lugar",
 			faIR: "📤 اشتراک\u200cگذاری مکان",
 			frFR: "📤 Partager lieu",
@@ -587,7 +562,6 @@ func init() {
 		PlanEventButtonText: {
 			deDE: "🎯 Event planen",
 			enUK: "🎯 Plan event",
-			enUS: "🎯 Plan event",
 			esES: "🎯 Planificar evento",
 			faIR: "🎯 برنامه\u200cریزی رویداد",
 			frFR: "🎯 Planifier événement",
@@ -606,7 +580,6 @@ func init() {
 		RemoveFromSpots: {
 			deDE: "💔 Aus Favoriten entfernen",
 			enUK: "💔 Remove from spots",
-			enUS: "💔 Remove from spots",
 			esES: "💔 Quitar de favoritos",
 			faIR: "💔 حذف از مکان\u200cهای منتخب",
 			frFR: "💔 Supprimer des favoris",
@@ -626,7 +599,6 @@ func init() {
 		AddToMySpots: {
 			deDE: "💛 Zu meinen Favoriten hinzufügen",
 			enUK: "💛 Add to my spots",
-			enUS: "💛 Add to my spots",
 			esES: "💛 Añadir a mis favoritos",
 			faIR: "💛 افزودن به مکان\u200cهای من",
 			frFR: "💛 Ajouter à mes favoris",
@@ -646,7 +618,6 @@ func init() {
 		FollowButtonText: {
 			deDE: "👀 Folgen",
 			enUK: "👀 Follow",
-			enUS: "👀 Follow",
 			esES: "👀 Seguir",
 			faIR: "👀 دنبال کردن",
 			frFR: "👀 Suivre",
@@ -665,7 +636,6 @@ func init() {
 		UnfollowButtonText: {
 			deDE: "👀 Nicht mehr folgen",
 			enUK: "👀 Unfollow",
-			enUS: "👀 Unfollow",
 			esES: "👀 Dejar de seguir",
 			faIR: "👀 لغو دنبال کردن",
 			frFR: "👀 Ne plus suivre",
@@ -684,7 +654,6 @@ func init() {
 		EventTitle: {
 			deDE: "Veranstaltung",
 			enUK: "Event",
-			enUS: "Event",
 			esES: "Evento",
 			faIR: "رویداد",
 			frFR: "Événement",
@@ -703,7 +672,6 @@ func init() {
 		EventCreated: {
 			deDE: "Veranstaltung erstellt",
 			enUK: "Event created",
-			enUS: "Event created",
 			esES: "Evento creado",
 			faIR: "رویداد ایجاد شد",
 			frFR: "Événement créé",
@@ -722,7 +690,6 @@ func init() {
 		CancelEvent: {
 			deDE: "Veranstaltung absagen",
 			enUK: "Cancel event",
-			enUS: "Cancel event",
 			esES: "Cancelar evento",
 			faIR: "لغو رویداد",
 			frFR: "Annuler l'événement",
@@ -741,7 +708,6 @@ func init() {
 		BackToEvents: {
 			deDE: "Zurück zu Veranstaltungen",
 			enUK: "Back to events",
-			enUS: "Back to events",
 			esES: "Volver a eventos",
 			faIR: "بازگشت به رویدادها",
 			frFR: "Retour aux événements",
@@ -760,7 +726,6 @@ func init() {
 		EventOptionsButton: {
 			deDE: "Optionen",
 			enUK: "Options",
-			enUS: "Options",
 			esES: "Opciones",
 			faIR: "گزینه\u200cها",
 			frFR: "Options",
@@ -779,7 +744,6 @@ func init() {
 		NewEventOptionButton: {
 			deDE: "Option hinzufügen",
 			enUK: "Add option",
-			enUS: "Add option",
 			esES: "Añadir opción",
 			faIR: "افزودن گزینه",
 			frFR: "Ajouter une option",
@@ -798,7 +762,6 @@ func init() {
 		EventVisibility: {
 			deDE: "Sichtbarkeit: {VISIBILITY_TITLE} {VISIBILITY_EMOJI}",
 			enUK: "Visibility: {VISIBILITY_TITLE} {VISIBILITY_EMOJI}",
-			enUS: "Visibility: {VISIBILITY_TITLE} {VISIBILITY_EMOJI}",
 			esES: "Visibilidad: {VISIBILITY_TITLE} {VISIBILITY_EMOJI}",
 			faIR: "نمایان\u200cبودن: {VISIBILITY_TITLE} {VISIBILITY_EMOJI}",
 			frFR: "Visibilité: {VISIBILITY_TITLE} {VISIBILITY_EMOJI}",
@@ -817,7 +780,6 @@ func init() {
 		EventStatus: {
 			deDE: "Status: {EVENT_STATUS}",
 			enUK: "Status: {EVENT_STATUS}",
-			enUS: "Status: {EVENT_STATUS}",
 			esES: "Estado: {EVENT_STATUS}",
 			faIR: "وضعیت: {EVENT_STATUS}",
 			frFR: "Statut: {EVENT_STATUS}",
@@ -836,7 +798,6 @@ func init() {
 		TogdMyProfile: {
 			deDE: "Mein Profil",
 			enUK: "My profile",
-			enUS: "My profile",
 			esES: "Mi perfil",
 			faIR: "پروفایل من",
 			frFR: "Mon profil",
@@ -855,7 +816,6 @@ func init() {
 		TogdMySpots: {
 			deDE: "Meine Orte",
 			enUK: "My spots",
-			enUS: "My spots",
 			esES: "Mis lugares",
 			faIR: "مکان\u200cهای من",
 			frFR: "Mes endroits",
@@ -875,7 +835,6 @@ func init() {
 		TogdMyEvents: {
 			deDE: "Meine Events",
 			enUK: "My events",
-			enUS: "My events",
 			esES: "Mis eventos",
 			faIR: "رویدادهای من",
 			frFR: "Mes événements",
@@ -894,7 +853,6 @@ func init() {
 		TogdMyActivities: {
 			deDE: "Meine Aktivitäten",
 			enUK: "My activities",
-			enUS: "My activities",
 			esES: "Mis actividades",
 			faIR: "فعالیت\u200cهای من",
 			frFR: "Mes activités",
@@ -913,7 +871,6 @@ func init() {
 		TogdMyPlans: {
 			deDE: "Meine Pläne",
 			enUK: "My plans",
-			enUS: "My plans",
 			esES: "Mis planes",
 			faIR: "برنامه\u200cهای من",
 			frFR: "Mes projets",
@@ -933,7 +890,6 @@ func init() {
 		TogdUserProfile: {
 			deDE: "Benutzerprofil",
 			enUK: "User profile",
-			enUS: "User profile",
 			esES: "Perfil de usuario",
 			faIR: "پروفایل کاربر",
 			frFR: "Profil utilisateur",
@@ -954,7 +910,6 @@ func init() {
 		TogdActivitiesOfUser: {
 			deDE: "Aktivitäten von {USER_NAME}",
 			enUK: "Activities of {USER_NAME}",
-			enUS: "Activities of {USER_NAME}",
 			esES: "Actividades de {USER_NAME}",
 			faIR: "فعالیت\u200cهای {USER_NAME}",
 			frFR: "Activités de {USER_NAME}",
@@ -974,7 +929,6 @@ func init() {
 		YouHaveNoFavoriteActivities: {
 			deDE: "Sie haben keine Lieblingsaktivitäten",
 			enUK: "You have no favorite activities",
-			enUS: "You have no favorite activities",
 			esES: "No tienes actividades favoritas",
 			faIR: "شما هیچ فعالیت مورد علاقه\u200cای ندارید",
 			frFR: "Vous n'avez aucune activité favorite",
@@ -994,7 +948,6 @@ func init() {
 		InstructionHowToAddActivityInBot: {
 			deDE: "Um Aktivitäten hinzuzufügen, senden Sie sie durch Kommas getrennt.",
 			enUK: "To add activities send them separated by comma.",
-			enUS: "To add activities send them separated by comma.",
 			esES: "Para agregar actividades envíalas separadas por comas.",
 			faIR: "برای افزودن فعالیت\u200cها آنها را با کاما جدا کرده ارسال کنید.",
 			frFR: "Pour ajouter des activités, envoyez-les séparées par des virgules.",
@@ -1013,7 +966,6 @@ func init() {
 
 		TogdUserActivities: {
 			enUK: "Activities of {USER_NAME}",
-			enUS: "User activities",
 			esES: "Actividades del usuario",
 			faIR: "فعالیت\u200cهای کاربر",
 			frFR: "Activités utilisateur",
@@ -1033,7 +985,6 @@ func init() {
 		TogdUserEvents: {
 			deDE: "Benutzerereignisse",
 			enUK: "User events",
-			enUS: "User events",
 			esES: "Eventos del usuario",
 			faIR: "رویدادهای کاربر",
 			frFR: "Événements utilisateur",
@@ -1053,7 +1004,6 @@ func init() {
 		TogdUserPlans: {
 			deDE: "Benutzerpläne",
 			enUK: "User plans",
-			enUS: "User plans",
 			esES: "Planes del usuario",
 			faIR: "برنامه\u200cهای کاربر",
 			frFR: "Plans utilisateur",
@@ -1073,7 +1023,6 @@ func init() {
 		TogdUserSpots: {
 			deDE: "Benutzerorte",
 			enUK: "User spots",
-			enUS: "User spots",
 			esES: "Lugares del usuario",
 			faIR: "مکان\u200cهای کاربر",
 			frFR: "Lieux utilisateur",
@@ -1108,15 +1057,7 @@ The bot offers two main features:
 	2.	<b>Event Coordination</b> – Easily organise group activities by suggesting multiple time and place options. The bot collects votes from participants and shows which combinations work best, helping the group agree on a plan without long chat threads.
 
 With @ToGetheredBot, planning becomes social, visible, and frictionless — perfect for spontaneous sessions or organised gatherings.`,
-			enUS: `Welcome to @ToGetheredBot — your simple and smart planning assistant for meeting up with friends, organizing group activities, or just letting others know where you'll be. Whether it's kitesurfing at the beach, playing street basketball, or planning a casual meetup, ToGethered makes coordination effortless.
 
-The bot offers two main features:
-
-	1.	<b>Plan Sharing</b> – Let others know <b>where and when you're planning to be somewhere</b>. You can specify a location and a time range, so others can see your plans and join in if they're available too.
-
-	2.	<b>Event Coordination</b> – Easily organize group activities by suggesting multiple time and place options. The bot collects votes from participants and shows which combinations work best, helping the group agree on a plan without long chat threads.
-
-With @ToGetheredBot, planning becomes social, visible, and frictionless — perfect for spontaneous sessions or organized gatherings.`,
 			esES: `Bienvenido a @ToGetheredBot — tu asistente de planificación simple e inteligente para quedar con amigos, organizar actividades grupales o simplemente avisar a otros dónde estarás. Ya sea kitesurf en la playa, jugar baloncesto callejero o planificar una reunión casual, ToGethered hace que la coordinación sea sin esfuerzo.
 
 El bot ofrece dos características principales:
@@ -1255,91 +1196,85 @@ To share your plans choose a spot or activity and hit the <b>{RSVP}</b> button.
 
 To organize an event create a <b>{NEW_EVENT}</b> from "My Events".
 `,
-			enUS: `
-To share your plans choose a spot or activity and hit the <b>{RSVP}</b> button.
-
-To organize an event create a <b>{NEW_EVENT}</b> from "My Events".
-`,
 			esES: `
-Para compartir tus planes elige un lugar o actividad y pulsa el botón <b>{RSVP}</b>.
+			Para compartir tus planes elige un lugar o actividad y pulsa el botón <b>{RSVP}</b>.
 
-Para organizar un evento crea un <b>{NEW_EVENT}</b> desde "Mis eventos".
-`,
+			Para organizar un evento crea un <b>{NEW_EVENT}</b> desde "Mis eventos".
+			`,
 			faIR: `
-برای به اشتراک گذاری برنامه\u200cهایتان، مکان یا فعالیتی را انتخاب کنید و دکمه <b>{RSVP}</b> را فشار دهید.
+			برای به اشتراک گذاری برنامه\u200cهایتان، مکان یا فعالیتی را انتخاب کنید و دکمه <b>{RSVP}</b> را فشار دهید.
 
-برای سازماندهی یک رویداد، یک <b>{NEW_EVENT}</b> از "رویدادهای من" ایجاد کنید.
-`,
+			برای سازماندهی یک رویداد، یک <b>{NEW_EVENT}</b> از "رویدادهای من" ایجاد کنید.
+			`,
 			frFR: `
-Pour partager vos plans, choisissez un lieu ou une activité et cliquez sur le bouton <b>{RSVP}</b>.
+			Pour partager vos plans, choisissez un lieu ou une activité et cliquez sur le bouton <b>{RSVP}</b>.
 
-Pour organiser un événement, créez un <b>{NEW_EVENT}</b> depuis "Mes événements".
-`,
+			Pour organiser un événement, créez un <b>{NEW_EVENT}</b> depuis "Mes événements".
+			`,
 			idID: `
-Untuk membagikan rencana Anda, pilih tempat atau aktivitas dan tekan tombol <b>{RSVP}</b>.
+			Untuk membagikan rencana Anda, pilih tempat atau aktivitas dan tekan tombol <b>{RSVP}</b>.
 
-Untuk mengorganisir acara, buat <b>{NEW_EVENT}</b> dari "Acara Saya".
-`,
+			Untuk mengorganisir acara, buat <b>{NEW_EVENT}</b> dari "Acara Saya".
+			`,
 			itIT: `
-Per condividere i tuoi piani scegli un posto o un'attività e premi il pulsante <b>{RSVP}</b>.
+			Per condividere i tuoi piani scegli un posto o un'attività e premi il pulsante <b>{RSVP}</b>.
 
-Per organizzare un evento crea un <b>{NEW_EVENT}</b> da "I miei eventi".
-`,
+			Per organizzare un evento crea un <b>{NEW_EVENT}</b> da "I miei eventi".
+			`,
 			jaJP: `
-プランを共有するには、スポットまたはアクティビティを選択して<b>{RSVP}</b>ボタンを押してください。
+			プランを共有するには、スポットまたはアクティビティを選択して<b>{RSVP}</b>ボタンを押してください。
 
-イベントを企画するには、「マイイベント」から<b>{NEW_EVENT}</b>を作成してください。
-`,
+			イベントを企画するには、「マイイベント」から<b>{NEW_EVENT}</b>を作成してください。
+			`,
 			koKR: `
-계획을 공유하려면 장소나 활동을 선택하고 <b>{RSVP}</b> 버튼을 누르세요.
+			계획을 공유하려면 장소나 활동을 선택하고 <b>{RSVP}</b> 버튼을 누르세요.
 
-이벤트를 기획하려면 "내 이벤트"에서 <b>{NEW_EVENT}</b>를 만드세요.
-`,
+			이벤트를 기획하려면 "내 이벤트"에서 <b>{NEW_EVENT}</b>를 만드세요.
+			`,
 			plPL: `
-Aby udostępnić swoje plany, wybierz miejsce lub aktywność i kliknij przycisk <b>{RSVP}</b>.
+			Aby udostępnić swoje plany, wybierz miejsce lub aktywność i kliknij przycisk <b>{RSVP}</b>.
 
-Aby zorganizować wydarzenie, utwórz <b>{NEW_EVENT}</b> z "Moje wydarzenia".
-`,
+			Aby zorganizować wydarzenie, utwórz <b>{NEW_EVENT}</b> z "Moje wydarzenia".
+			`,
 			ptBR: `
-Para compartilhar seus planos, escolha um local ou atividade e clique no botão <b>{RSVP}</b>.
+			Para compartilhar seus planos, escolha um local ou atividade e clique no botão <b>{RSVP}</b>.
 
-Para organizar um evento, crie um <b>{NEW_EVENT}</b> em "Meus eventos".
-`,
+			Para organizar um evento, crie um <b>{NEW_EVENT}</b> em "Meus eventos".
+			`,
 			ptPT: `
-Para partilhar os seus planos, escolha um local ou atividade e clique no botão <b>{RSVP}</b>.
+			Para partilhar os seus planos, escolha um local ou atividade e clique no botão <b>{RSVP}</b>.
 
-Para organizar um evento, crie um <b>{NEW_EVENT}</b> em "Os meus eventos".
-`,
+			Para organizar um evento, crie um <b>{NEW_EVENT}</b> em "Os meus eventos".
+			`,
 			ruRU: `
-Чтобы поделиться своими планами, выберите место или активность и нажмите кнопку <b>{RSVP}</b>.
+			Чтобы поделиться своими планами, выберите место или активность и нажмите кнопку <b>{RSVP}</b>.
 
-Чтобы организовать событие, создайте <b>{NEW_EVENT}</b> в разделе "Мои события".
-`,
+			Чтобы организовать событие, создайте <b>{NEW_EVENT}</b> в разделе "Мои события".
+			`,
 			trTR: `
-Planlarınızı paylaşmak için bir yer veya aktivite seçin ve <b>{RSVP}</b> düğmesine tıklayın.
+			Planlarınızı paylaşmak için bir yer veya aktivite seçin ve <b>{RSVP}</b> düğmesine tıklayın.
 
-Bir etkinlik düzenlemek için "Etkinliklerim"den <b>{NEW_EVENT}</b> oluşturun.
-`,
+			Bir etkinlik düzenlemek için "Etkinliklerim"den <b>{NEW_EVENT}</b> oluşturun.
+			`,
 			ukUA: `
-Щоб поділитися своїми планами, оберіть місце або активність і натисніть кнопку <b>{RSVP}</b>.
+			Щоб поділитися своїми планами, оберіть місце або активність і натисніть кнопку <b>{RSVP}</b>.
 
-Щоб організувати подію, створіть <b>{NEW_EVENT}</b> з "Мої події".
-`,
+			Щоб організувати подію, створіть <b>{NEW_EVENT}</b> з "Мої події".
+			`,
 			uzUZ: `
-Rejalaringizni baham ko'rish uchun joy yoki faoliyatni tanlang va <b>{RSVP}</b> tugmasini bosing.
+			Rejalaringizni baham ko'rish uchun joy yoki faoliyatni tanlang va <b>{RSVP}</b> tugmasini bosing.
 
-Tadbir tashkil qilish uchun "Mening tadbirlarim"dan <b>{NEW_EVENT}</b> yarating.
-`,
+			Tadbir tashkil qilish uchun "Mening tadbirlarim"dan <b>{NEW_EVENT}</b> yarating.
+			`,
 			zhCN: `
-要分享您的计划，请选择一个地点或活动，然后点击<b>{RSVP}</b>按钮。
+			要分享您的计划，请选择一个地点或活动，然后点击<b>{RSVP}</b>按钮。
 
-要组织活动，请从"我的活动"创建<b>{NEW_EVENT}</b>。
-`,
+			要组织活动，请从"我的活动"创建<b>{NEW_EVENT}</b>。
+		`,
 		},
 		RsvpButtonText: {
 			deDE: "Anmelden",
 			enUK: "RSVP",
-			enUS: "RSVP",
 			esES: "Confirmar",
 			faIR: "ثبت نام",
 			frFR: "S'inscrire",
@@ -1359,7 +1294,6 @@ Tadbir tashkil qilish uchun "Mening tadbirlarim"dan <b>{NEW_EVENT}</b> yarating.
 		NewEventButtonText: {
 			deDE: "Neues Event",
 			enUK: "New Event",
-			enUS: "New Event",
 			esES: "Nuevo evento",
 			faIR: "رویداد جدید",
 			frFR: "Nouvel événement",
