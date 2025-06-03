@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bytes"
 	"context"
 	"fmt"
 	"github.com/sneat-co/sneat-translations/trans"
@@ -32,18 +33,48 @@ func localeCodeToKey(s string) string {
 }
 
 func translateLocale(sourceLang language.Tag, locale string, texts []string) (translatedTexts []string, err error) {
-	translatedTexts = translateMock(texts)
-	//translatedTexts, err = translateByGoogle(sourceLang, locale, texts)
+	//translatedTexts = translateMock(texts)
+	translatedTexts, err = translateByGoogle(sourceLang, locale, texts)
 	return
 }
 
-func translateByGoogle(sourceLang language.Tag, locale string, texts []string) (translatedText []string, err error) {
+func translateByGoogle(sourceLang language.Tag, locale string, texts []string) (translatedTexts []string, err error) {
 	var targetLanguage language.Tag
 	if targetLanguage, err = language.Parse(locale); err != nil {
 		err = fmt.Errorf("invalid target language: %w", err)
 		return
 	}
-	translatedText, err = translateMulti(context.Background(), sourceLang, targetLanguage, texts)
+	batch := make([]string, 0, 100)
+
+	ctx := context.Background()
+
+	translateBatch := func() error {
+		var translated []string
+		translated, err = translateMulti(ctx, sourceLang, targetLanguage, batch)
+		if err != nil {
+			_, _ = fmt.Fprintf(os.Stdout, "%s: failed to translate one of the next %d:\n%s", locale, len(batch), strings.Join(texts, "\n\n"+strings.Repeat("=", 30)+"\n\n"))
+			return err
+		}
+		batch = make([]string, 0, 100)
+		for _, translatedText := range translated {
+			translatedTexts = append(translatedTexts, translatedText)
+		}
+		_, _ = fmt.Fprintf(os.Stdout, "%s: translated %d out of %d ...\n", locale, len(translatedTexts), len(texts))
+		return err
+	}
+	for _, text := range texts {
+		batch = append(batch, text)
+		if len(batch) == cap(batch) {
+			if err = translateBatch(); err != nil {
+				return
+			}
+		}
+	}
+	if len(batch) > 0 {
+		if err = translateBatch(); err != nil {
+			return
+		}
+	}
 	return
 }
 
@@ -242,7 +273,7 @@ func translateMissing(baseLocale string) error {
 		}
 	}
 
-	translated = make(map[string]map[string]string)
+	//translated = make(map[string]map[string]string)
 
 	ast.Inspect(node, func(n ast.Node) bool {
 		kv, ok := n.(*ast.CompositeLit)
@@ -361,9 +392,17 @@ func translateMissing(baseLocale string) error {
 	//if err = cfg.Fprint(outFile, fileSet, node); err != nil {
 	//	panic(err)
 	//}
-	if err = format.Node(outFile, fileSet, node); err != nil {
+	var buf bytes.Buffer
+
+	if err = format.Node(&buf, fileSet, node); err != nil {
 		panic(err)
 	}
+
+	s := strings.ReplaceAll(buf.String(), ", \n", ",\n")
+	if _, err = outFile.WriteString(s); err != nil {
+		panic(err)
+	}
+
 	return nil
 }
 
