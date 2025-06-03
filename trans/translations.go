@@ -5666,14 +5666,11 @@ Do'stingiz taklifni qabul qilgandan so'ng, minimal kuch bilan ikkalangiz ham bir
 		deDE: "Du hast noch keine Kontakte hinzugefügt.",
 		enUK: "You have not created any contacts yet.",
 		esES: "Todavía no has creado ningún contacto.",
-		faIR://TODO:es - verify
-		"هنوز هیچ مخاطبی را ایجاد نکرده اید",
-		frFR://TODO:fa - verify
-		"Vous n'avez pas encore créé de contacts.",
+		faIR: "هنوز هیچ مخاطبی را ایجاد نکرده اید",
+		frFR: "Vous n'avez pas encore créé de contacts.",
 		idID: "Anda belum membuat kontak apa pun.",
 		itIT: "Non hai ancora creato alcun contatto.",
-		jaJP://TODO:it - verify
-		"まだ連絡先を作成していません。",
+		jaJP: "まだ連絡先を作成していません。",
 		koKR: "아직 연락처를 만들지 않았습니다.",
 		plPL: "Nie utworzyłeś jeszcze żadnych kontaktów.",
 		ptBR: "Você ainda não criou nenhum contato.",
