@@ -18,7 +18,7 @@ import (
 // Find a list of supported languages and codes here:
 // https://cloud.google.com/translate/docs/languages#nmt
 func translateMulti(ctx context.Context, sourceLanguage, targetLanguage language.Tag, textsToTranslate []string) (translatedTexts []string, err error) {
-	reVarName := regexp.MustCompile(`{\w+}`)
+	reVarName := regexp.MustCompile(`{\w+}|{{\.\w+}}`)
 	reVarIndex := regexp.MustCompile(`{\d+}`)
 
 	var client *translate.Client
