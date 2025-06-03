@@ -863,496 +863,496 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_YES_IT_HAS_RETURN_DEADLINE: {
 		deDE: "Ja, es hat eine Frist!",
 		enUK: "Yes, it has a deadline!",
-		enUS: "Yes, it has a deadline!", //TODO(US)
+		enUS: "Yes, it has a deadline!",
 		esES: "Sí, hay una fecha de devolución!",
 		faIR: "بله، دارای آخرین فرصت می باشد!",
-		frFR: "Yes, it has a deadline!", //TODO(FR)
-		idID: "Yes, it has a deadline!", //TODO(ID)
+		frFR: "Yes, it has a deadline!",
+		idID: "Yes, it has a deadline!",
 		itIT: "Si, c'e' una data di scadenza",
-		jaJP: "Yes, it has a deadline!", //TODO(JP)
-		koKR: "Yes, it has a deadline!", //TODO(KO)
-		plPL: "Yes, it has a deadline!", //TODO(PL)
-		ptBR: "Yes, it has a deadline!", //TODO(BR)
+		jaJP: "Yes, it has a deadline!",
+		koKR: "Yes, it has a deadline!",
+		plPL: "Yes, it has a deadline!",
+		ptBR: "Yes, it has a deadline!",
 		ruRU: "Да, есть срок возврата!",
-		trTR: "Yes, it has a deadline!", //TODO(TR)
-		ukUA: "Yes, it has a deadline!", //TODO(UA)
-		uzUZ: "Yes, it has a deadline!", //TODO(UZ)
-		zhCN: "Yes, it has a deadline!", //TODO(CN)
+		trTR: "Yes, it has a deadline!",
+		ukUA: "Yes, it has a deadline!",
+		uzUZ: "Yes, it has a deadline!",
+		zhCN: "Yes, it has a deadline!",
 	},
 	COMMAND_TEXT_NO_IT_CAN_BE_RETURNED_ANYTIME: {
 		deDE: "Nein, sobald möglich.",
 		enUK: "No, whenever is fine.",
-		enUS: "No, whenever is fine.", //TODO(US)
+		enUS: "No, whenever is fine.",
 		esES: "No, sin fecha límite.",
 		faIR: "خیر، هر زمانی مناسب است.",
-		frFR: "No, whenever is fine.", //TODO(FR)
-		idID: "No, whenever is fine.", //TODO(ID)
+		frFR: "No, whenever is fine.",
+		idID: "No, whenever is fine.",
 		itIT: "No, nessuna scadenza",
-		jaJP: "No, whenever is fine.", //TODO(JP)
-		koKR: "No, whenever is fine.", //TODO(KO)
-		plPL: "No, whenever is fine.", //TODO(PL)
-		ptBR: "No, whenever is fine.", //TODO(BR)
+		jaJP: "No, whenever is fine.",
+		koKR: "No, whenever is fine.",
+		plPL: "No, whenever is fine.",
+		ptBR: "No, whenever is fine.",
 		ruRU: "Нет, срок возврата не важен.",
-		trTR: "No, whenever is fine.", //TODO(TR)
-		ukUA: "No, whenever is fine.", //TODO(UA)
-		uzUZ: "No, whenever is fine.", //TODO(UZ)
-		zhCN: "No, whenever is fine.", //TODO(CN)
+		trTR: "No, whenever is fine.",
+		ukUA: "No, whenever is fine.",
+		uzUZ: "No, whenever is fine.",
+		zhCN: "No, whenever is fine.",
 	},
 	COMMAND_TEXT_IT_CAN_BE_RETURNED_ANYTIME: {
 		deDE: "Unbefristet",
 		enUK: "Whenever is fine",
-		enUS: "Whenever is fine", //TODO(US)
+		enUS: "Whenever is fine",
 		esES: "Cualquier día",
 		faIR: "هر زمانی مناسب است.",
-		frFR: "Whenever is fine", //TODO(FR)
-		idID: "Whenever is fine", //TODO(ID)
+		frFR: "Whenever is fine",
+		idID: "Whenever is fine",
 		itIT: "No, Nessuna scadenza",
-		jaJP: "Whenever is fine", //TODO(JP)
-		koKR: "Whenever is fine", //TODO(KO)
-		plPL: "Whenever is fine", //TODO(PL)
-		ptBR: "Whenever is fine", //TODO(BR)
+		jaJP: "Whenever is fine",
+		koKR: "Whenever is fine",
+		plPL: "Whenever is fine",
+		ptBR: "Whenever is fine",
 		ruRU: "Когда-нибудь",
-		trTR: "Whenever is fine", //TODO(TR)
-		ukUA: "Whenever is fine", //TODO(UA)
-		uzUZ: "Whenever is fine", //TODO(UZ)
-		zhCN: "Whenever is fine", //TODO(CN)
+		trTR: "Whenever is fine",
+		ukUA: "Whenever is fine",
+		uzUZ: "Whenever is fine",
+		zhCN: "Whenever is fine",
 	},
 	COMMAND_TEXT_IN_FEW_MINUTES: {
 		deDE: "In wenigen Minuten",
 		enUK: "In few minutes",
-		enUS: "In few minutes", //TODO(US)
+		enUS: "In few minutes",
 		esES: "En unos minutos",
 		faIR: "در چند دقیقه",
-		frFR: "In few minutes", //TODO(FR)
-		idID: "In few minutes", //TODO(ID)
+		frFR: "In few minutes",
+		idID: "In few minutes",
 		itIT: "Fra alcuni minuti",
-		jaJP: "In few minutes", //TODO(JP)
-		koKR: "In few minutes", //TODO(KO)
-		plPL: "In few minutes", //TODO(PL)
-		ptBR: "In few minutes", //TODO(BR)
+		jaJP: "In few minutes",
+		koKR: "In few minutes",
+		plPL: "In few minutes",
+		ptBR: "In few minutes",
 		ruRU: "Через минуту",
-		trTR: "In few minutes", //TODO(TR)
-		ukUA: "In few minutes", //TODO(UA)
-		uzUZ: "In few minutes", //TODO(UZ)
-		zhCN: "In few minutes", //TODO(CN)
+		trTR: "In few minutes",
+		ukUA: "In few minutes",
+		uzUZ: "In few minutes",
+		zhCN: "In few minutes",
 	},
 	COMMAND_TEXT_IN_1_WEEK: {
 		deDE: "In einer Woche",
 		enUK: "In 1 week",
-		enUS: "In 1 week", //TODO(US)
+		enUS: "In 1 week",
 		esES: "En una semana",
 		faIR: "ظرف یک هفته",
-		frFR: "In 1 week", //TODO(FR)
-		idID: "In 1 week", //TODO(ID)
+		frFR: "In 1 week",
+		idID: "In 1 week",
 		itIT: "Fra una settimana",
-		jaJP: "In 1 week", //TODO(JP)
-		koKR: "In 1 week", //TODO(KO)
-		plPL: "In 1 week", //TODO(PL)
-		ptBR: "In 1 week", //TODO(BR)
+		jaJP: "In 1 week",
+		koKR: "In 1 week",
+		plPL: "In 1 week",
+		ptBR: "In 1 week",
 		ruRU: "Через неделю",
-		trTR: "In 1 week", //TODO(TR)
-		ukUA: "In 1 week", //TODO(UA)
-		uzUZ: "In 1 week", //TODO(UZ)
-		zhCN: "In 1 week", //TODO(CN)
+		trTR: "In 1 week",
+		ukUA: "In 1 week",
+		uzUZ: "In 1 week",
+		zhCN: "In 1 week",
 	},
 	COMMAND_TEXT_IN_1_MONTH: {
 		deDE: "In einem Monat",
 		enUK: "In 1 month",
-		enUS: "In 1 month", //TODO(US)
+		enUS: "In 1 month",
 		esES: "En un mes",
 		faIR: "ظرف یک ماه",
-		frFR: "In 1 month", //TODO(FR)
-		idID: "In 1 month", //TODO(ID)
+		frFR: "In 1 month",
+		idID: "In 1 month",
 		itIT: "Fra un mese",
-		jaJP: "In 1 month", //TODO(JP)
-		koKR: "In 1 month", //TODO(KO)
-		plPL: "In 1 month", //TODO(PL)
-		ptBR: "In 1 month", //TODO(BR)
+		jaJP: "In 1 month",
+		koKR: "In 1 month",
+		plPL: "In 1 month",
+		ptBR: "In 1 month",
 		ruRU: "Через месяц",
-		trTR: "In 1 month", //TODO(TR)
-		ukUA: "In 1 month", //TODO(UA)
-		uzUZ: "In 1 month", //TODO(UZ)
-		zhCN: "In 1 month", //TODO(CN)
+		trTR: "In 1 month",
+		ukUA: "In 1 month",
+		uzUZ: "In 1 month",
+		zhCN: "In 1 month",
 	},
 	COMMAND_TEXT_SET_DATE: {
 		deDE: "Datum setzen",
 		enUK: "Set date",
-		enUS: "Set date", //TODO(US)
+		enUS: "Set date",
 		esES: "Establecer la fecha",
 		faIR: "تاریخ را تنظیم کنید",
-		frFR: "Set date", //TODO(FR)
-		idID: "Set date", //TODO(ID)
+		frFR: "Set date",
+		idID: "Set date",
 		itIT: "Imposta la data",
-		jaJP: "Set date", //TODO(JP)
-		koKR: "Set date", //TODO(KO)
-		plPL: "Set date", //TODO(PL)
-		ptBR: "Set date", //TODO(BR)
+		jaJP: "Set date",
+		koKR: "Set date",
+		plPL: "Set date",
+		ptBR: "Set date",
 		ruRU: "Задать дату",
-		trTR: "Set date", //TODO(TR)
-		ukUA: "Set date", //TODO(UA)
-		uzUZ: "Set date", //TODO(UZ)
-		zhCN: "Set date", //TODO(CN)
+		trTR: "Set date",
+		ukUA: "Set date",
+		uzUZ: "Set date",
+		zhCN: "Set date",
 	},
 	COMMAND_TEXT_MONDAY: {
 		deDE: "Montag",
 		enUK: "Monday",
-		enUS: "Monday", //TODO(US)
+		enUS: "Monday",
 		esES: "Lunes",
 		faIR: "دوشنبه",
-		frFR: "Monday", //TODO(FR)
-		idID: "Monday", //TODO(ID)
+		frFR: "Monday",
+		idID: "Monday",
 		itIT: "Lunedi'",
-		jaJP: "Monday", //TODO(JP)
-		koKR: "Monday", //TODO(KO)
-		plPL: "Monday", //TODO(PL)
-		ptBR: "Monday", //TODO(BR)
+		jaJP: "Monday",
+		koKR: "Monday",
+		plPL: "Monday",
+		ptBR: "Monday",
 		ruRU: "Понедельник",
-		trTR: "Monday", //TODO(TR)
-		ukUA: "Monday", //TODO(UA)
-		uzUZ: "Monday", //TODO(UZ)
-		zhCN: "Monday", //TODO(CN)
+		trTR: "Monday",
+		ukUA: "Monday",
+		uzUZ: "Monday",
+		zhCN: "Monday",
 	},
 	COMMAND_TEXT_TUESDAY: {
 		deDE: "Dienstag",
 		enUK: "Tuesday",
-		enUS: "Tuesday", //TODO(US)
+		enUS: "Tuesday",
 		esES: "Martes",
 		faIR: "سه شنبه",
-		frFR: "Tuesday", //TODO(FR)
-		idID: "Tuesday", //TODO(ID)
+		frFR: "Tuesday",
+		idID: "Tuesday",
 		itIT: "Martedi'",
-		jaJP: "Tuesday", //TODO(JP)
-		koKR: "Tuesday", //TODO(KO)
-		plPL: "Tuesday", //TODO(PL)
-		ptBR: "Tuesday", //TODO(BR)
+		jaJP: "Tuesday",
+		koKR: "Tuesday",
+		plPL: "Tuesday",
+		ptBR: "Tuesday",
 		ruRU: "Вторник",
-		trTR: "Tuesday", //TODO(TR)
-		ukUA: "Tuesday", //TODO(UA)
-		uzUZ: "Tuesday", //TODO(UZ)
-		zhCN: "Tuesday", //TODO(CN)
+		trTR: "Tuesday",
+		ukUA: "Tuesday",
+		uzUZ: "Tuesday",
+		zhCN: "Tuesday",
 	},
 	COMMAND_TEXT_WEDNESDAY: {
 		deDE: "Mittwoch",
 		enUK: "Wednesday",
-		enUS: "Wednesday", //TODO(US)
+		enUS: "Wednesday",
 		esES: "Miercoles",
 		faIR: "چهارشنبه",
-		frFR: "Wednesday", //TODO(FR)
-		idID: "Wednesday", //TODO(ID)
+		frFR: "Wednesday",
+		idID: "Wednesday",
 		itIT: "Mercoledi'",
-		jaJP: "Wednesday", //TODO(JP)
-		koKR: "Wednesday", //TODO(KO)
-		plPL: "Wednesday", //TODO(PL)
-		ptBR: "Wednesday", //TODO(BR)
+		jaJP: "Wednesday",
+		koKR: "Wednesday",
+		plPL: "Wednesday",
+		ptBR: "Wednesday",
 		ruRU: "Среда",
-		trTR: "Wednesday", //TODO(TR)
-		ukUA: "Wednesday", //TODO(UA)
-		uzUZ: "Wednesday", //TODO(UZ)
-		zhCN: "Wednesday", //TODO(CN)
+		trTR: "Wednesday",
+		ukUA: "Wednesday",
+		uzUZ: "Wednesday",
+		zhCN: "Wednesday",
 	},
 	COMMAND_TEXT_THURSDAY: {
 		deDE: "Donnerstag",
 		enUK: "Thursday",
-		enUS: "Thursday", //TODO(US)
+		enUS: "Thursday",
 		esES: "Jueves",
 		faIR: "پنج شنبه",
-		frFR: "Thursday", //TODO(FR)
-		idID: "Thursday", //TODO(ID)
+		frFR: "Thursday",
+		idID: "Thursday",
 		itIT: "Giovedi'",
-		jaJP: "Thursday", //TODO(JP)
-		koKR: "Thursday", //TODO(KO)
-		plPL: "Thursday", //TODO(PL)
-		ptBR: "Thursday", //TODO(BR)
+		jaJP: "Thursday",
+		koKR: "Thursday",
+		plPL: "Thursday",
+		ptBR: "Thursday",
 		ruRU: "Четверг",
-		trTR: "Thursday", //TODO(TR)
-		ukUA: "Thursday", //TODO(UA)
-		uzUZ: "Thursday", //TODO(UZ)
-		zhCN: "Thursday", //TODO(CN)
+		trTR: "Thursday",
+		ukUA: "Thursday",
+		uzUZ: "Thursday",
+		zhCN: "Thursday",
 	},
 	COMMAND_TEXT_FRIDAY: {
 		deDE: "Freitag",
 		enUK: "Friday",
-		enUS: "Friday", //TODO(US)
+		enUS: "Friday",
 		esES: "Viernes",
 		faIR: "جمعه",
-		frFR: "Friday", //TODO(FR)
-		idID: "Friday", //TODO(ID)
+		frFR: "Friday",
+		idID: "Friday",
 		itIT: "Venerdi'",
-		jaJP: "Friday", //TODO(JP)
-		koKR: "Friday", //TODO(KO)
-		plPL: "Friday", //TODO(PL)
-		ptBR: "Friday", //TODO(BR)
+		jaJP: "Friday",
+		koKR: "Friday",
+		plPL: "Friday",
+		ptBR: "Friday",
 		ruRU: "Пятница",
-		trTR: "Friday", //TODO(TR)
-		ukUA: "Friday", //TODO(UA)
-		uzUZ: "Friday", //TODO(UZ)
-		zhCN: "Friday", //TODO(CN)
+		trTR: "Friday",
+		ukUA: "Friday",
+		uzUZ: "Friday",
+		zhCN: "Friday",
 	},
 	COMMAND_TEXT_SATURDAY: {
 		deDE: "Samstag",
 		enUK: "Saturday",
-		enUS: "Saturday", //TODO(US)
+		enUS: "Saturday",
 		esES: "Sabado",
 		faIR: "شنبه",
-		frFR: "Saturday", //TODO(FR)
-		idID: "Saturday", //TODO(ID)
+		frFR: "Saturday",
+		idID: "Saturday",
 		itIT: "Sabato",
-		jaJP: "Saturday", //TODO(JP)
-		koKR: "Saturday", //TODO(KO)
-		plPL: "Saturday", //TODO(PL)
-		ptBR: "Saturday", //TODO(BR)
+		jaJP: "Saturday",
+		koKR: "Saturday",
+		plPL: "Saturday",
+		ptBR: "Saturday",
 		ruRU: "Суббота",
-		trTR: "Saturday", //TODO(TR)
-		ukUA: "Saturday", //TODO(UA)
-		uzUZ: "Saturday", //TODO(UZ)
-		zhCN: "Saturday", //TODO(CN)
+		trTR: "Saturday",
+		ukUA: "Saturday",
+		uzUZ: "Saturday",
+		zhCN: "Saturday",
 	},
 	COMMAND_TEXT_SUNDAY: {
 		deDE: "Sonntag",
 		enUK: "Sunday",
-		enUS: "Sunday", //TODO(US)
+		enUS: "Sunday",
 		esES: "Domingo",
 		faIR: "یکشنبه",
-		frFR: "Sunday", //TODO(FR)
-		idID: "Sunday", //TODO(ID)
+		frFR: "Sunday",
+		idID: "Sunday",
 		itIT: "Domenica",
-		jaJP: "Sunday", //TODO(JP)
-		koKR: "Sunday", //TODO(KO)
-		plPL: "Sunday", //TODO(PL)
-		ptBR: "Sunday", //TODO(BR)
+		jaJP: "Sunday",
+		koKR: "Sunday",
+		plPL: "Sunday",
+		ptBR: "Sunday",
 		ruRU: "Воскресенье",
-		trTR: "Sunday", //TODO(TR)
-		ukUA: "Sunday", //TODO(UA)
-		uzUZ: "Sunday", //TODO(UZ)
-		zhCN: "Sunday", //TODO(CN)
+		trTR: "Sunday",
+		ukUA: "Sunday",
+		uzUZ: "Sunday",
+		zhCN: "Sunday",
 	},
 	COMMAND_TEXT_DO_NOT_SEND_RECEIPT: {
 		deDE: "Keine Quittung schicken",
 		enUK: "Do not send the receipt",
-		enUS: "Do not send the receipt", //TODO(US)
+		enUS: "Do not send the receipt",
 		esES: "No enviar el recibo",
 		faIR: "رسید را ارسال نکنید",
-		frFR: "Do not send the receipt", //TODO(FR)
-		idID: "Do not send the receipt", //TODO(ID)
+		frFR: "Do not send the receipt",
+		idID: "Do not send the receipt",
 		itIT: "Non inviare la ricevuta",
-		jaJP: "Do not send the receipt", //TODO(JP)
-		koKR: "Do not send the receipt", //TODO(KO)
-		plPL: "Do not send the receipt", //TODO(PL)
-		ptBR: "Do not send the receipt", //TODO(BR)
+		jaJP: "Do not send the receipt",
+		koKR: "Do not send the receipt",
+		plPL: "Do not send the receipt",
+		ptBR: "Do not send the receipt",
 		ruRU: "Не отправлять квитанцию",
-		trTR: "Do not send the receipt", //TODO(TR)
-		ukUA: "Do not send the receipt", //TODO(UA)
-		uzUZ: "Do not send the receipt", //TODO(UZ)
-		zhCN: "Do not send the receipt", //TODO(CN)
+		trTR: "Do not send the receipt",
+		ukUA: "Do not send the receipt",
+		uzUZ: "Do not send the receipt",
+		zhCN: "Do not send the receipt",
 	},
 	MESSAGE_TEXT_RECEIPT_WILL_NOT_BE_SENT: {
 		deDE: "Du hast dich gegen eine Quittung entschieden.",
 		enUK: "You've decided not to send the receipt.",
-		enUS: "You've decided not to send the receipt.", //TODO(US)
+		enUS: "You've decided not to send the receipt.",
 		esES: "Has decidido no enviar el recibo",
 		faIR: "شما تصمیم گرفتید که رسید را ارسال نکنید.",
-		frFR: "You've decided not to send the receipt.", //TODO(FR)
-		idID: "You've decided not to send the receipt.", //TODO(ID)
+		frFR: "You've decided not to send the receipt.",
+		idID: "You've decided not to send the receipt.",
 		itIT: "Hai scelto di non inviare la ricevuta",
-		jaJP: "You've decided not to send the receipt.", //TODO(JP)
-		koKR: "You've decided not to send the receipt.", //TODO(KO)
-		plPL: "You've decided not to send the receipt.", //TODO(PL)
-		ptBR: "You've decided not to send the receipt.", //TODO(BR)
+		jaJP: "You've decided not to send the receipt.",
+		koKR: "You've decided not to send the receipt.",
+		plPL: "You've decided not to send the receipt.",
+		ptBR: "You've decided not to send the receipt.",
 		ruRU: "Вы решили не отправлять квитанцию.",
-		trTR: "You've decided not to send the receipt.", //TODO(TR)
-		ukUA: "You've decided not to send the receipt.", //TODO(UA)
-		uzUZ: "You've decided not to send the receipt.", //TODO(UZ)
-		zhCN: "You've decided not to send the receipt.", //TODO(CN)
+		trTR: "You've decided not to send the receipt.",
+		ukUA: "You've decided not to send the receipt.",
+		uzUZ: "You've decided not to send the receipt.",
+		zhCN: "You've decided not to send the receipt.",
 	},
 	COMMAND_TEXT_I_HAVE_CHANGED_MY_MIND: {
 		deDE: "Ich habe meine Meinung geändert",
 		enUK: "I've changed my mind",
-		enUS: "I've changed my mind", //TODO(US)
+		enUS: "I've changed my mind",
 		esES: "He cambiado de opinion",
 		faIR: "نظرم را عوض کردم.",
-		frFR: "I've changed my mind", //TODO(FR)
-		idID: "I've changed my mind", //TODO(ID)
+		frFR: "I've changed my mind",
+		idID: "I've changed my mind",
 		itIT: "Ho cambiato idea",
-		jaJP: "I've changed my mind", //TODO(JP)
-		koKR: "I've changed my mind", //TODO(KO)
-		plPL: "I've changed my mind", //TODO(PL)
-		ptBR: "I've changed my mind", //TODO(BR)
+		jaJP: "I've changed my mind",
+		koKR: "I've changed my mind",
+		plPL: "I've changed my mind",
+		ptBR: "I've changed my mind",
 		ruRU: "Я передумал(а)",
-		trTR: "I've changed my mind", //TODO(TR)
-		ukUA: "I've changed my mind", //TODO(UA)
-		uzUZ: "I've changed my mind", //TODO(UZ)
-		zhCN: "I've changed my mind", //TODO(CN)
+		trTR: "I've changed my mind",
+		ukUA: "I've changed my mind",
+		uzUZ: "I've changed my mind",
+		zhCN: "I've changed my mind",
 	},
 	COMMAND_TEXT_SEND_RECEIPT_BY_TELEGRAM: {
 		deDE: "Senden per Telegram",
 		enUK: "Send by Telegram",
-		enUS: "Send by Telegram", //TODO(US)
+		enUS: "Send by Telegram",
 		esES: "Enviar a través de Telegram",
 		faIR: "با تلگرام ارسال شود",
-		frFR: "Send by Telegram", //TODO(FR)
-		idID: "Send by Telegram", //TODO(ID)
+		frFR: "Send by Telegram",
+		idID: "Send by Telegram",
 		itIT: "Invia tramite Telegram",
-		jaJP: "Send by Telegram", //TODO(JP)
-		koKR: "Send by Telegram", //TODO(KO)
-		plPL: "Send by Telegram", //TODO(PL)
-		ptBR: "Send by Telegram", //TODO(BR)
+		jaJP: "Send by Telegram",
+		koKR: "Send by Telegram",
+		plPL: "Send by Telegram",
+		ptBR: "Send by Telegram",
 		ruRU: "Отправить через Telelgram",
-		trTR: "Send by Telegram", //TODO(TR)
-		ukUA: "Send by Telegram", //TODO(UA)
-		uzUZ: "Send by Telegram", //TODO(UZ)
-		zhCN: "Send by Telegram", //TODO(CN)
+		trTR: "Send by Telegram",
+		ukUA: "Send by Telegram",
+		uzUZ: "Send by Telegram",
+		zhCN: "Send by Telegram",
 	},
 	COMMAND_TEXT_GET_LINK_FOR_RECEIPT_IN_TELEGRAM: {
-		deDE: "Erhalten sie einen link für eine quittung in Telegram", // TODO(DE) verify
+		deDE: "Erhalten sie einen link für eine quittung in Telegram",
 		enUK: "Get link for a receipt in Telegram",
-		enUS: "Get link for a receipt in Telegram",        //TODO(US)
-		esES: "Obtener enlace para recibirlo en Telegram", // TODO(ES) verify
-		faIR: "دریافت پیوند برای دریافت در Telegram",      // TODO(FA) verify
-		frFR: "Get link for a receipt in Telegram",        //TODO(FR)
-		idID: "Get link for a receipt in Telegram",        //TODO(ID)
-		itIT: "Link per la ricevuta nel Telegram",         // TODO(IT)
-		jaJP: "Get link for a receipt in Telegram",        //TODO(JP)
-		koKR: "Get link for a receipt in Telegram",        //TODO(KO)
-		plPL: "Get link for a receipt in Telegram",        //TODO(PL)
-		ptBR: "Get link for a receipt in Telegram",        //TODO(BR)
+		enUS: "Get link for a receipt in Telegram",
+		esES: "Obtener enlace para recibirlo en Telegram",
+		faIR: "دریافت پیوند برای دریافت در Telegram",
+		frFR: "Get link for a receipt in Telegram",
+		idID: "Get link for a receipt in Telegram",
+		itIT: "Link per la ricevuta nel Telegram",
+		jaJP: "Get link for a receipt in Telegram",
+		koKR: "Get link for a receipt in Telegram",
+		plPL: "Get link for a receipt in Telegram",
+		ptBR: "Get link for a receipt in Telegram",
 		ruRU: "Ссылка для квитанции в Телеграмме",
-		trTR: "Get link for a receipt in Telegram", //TODO(TR)
-		ukUA: "Get link for a receipt in Telegram", //TODO(UA)
-		uzUZ: "Get link for a receipt in Telegram", //TODO(UZ)
-		zhCN: "Get link for a receipt in Telegram", //TODO(CN)
+		trTR: "Get link for a receipt in Telegram",
+		ukUA: "Get link for a receipt in Telegram",
+		uzUZ: "Get link for a receipt in Telegram",
+		zhCN: "Get link for a receipt in Telegram",
 	},
 	COMMAND_TEXT_COUNTERPARTY_HAS_NO_TELEGRAM: {
 		deDE: "Senden per FB, WhatsApp, Viber, etc.",
 		enUK: "Send by FB, WhatsApp, Viber, etc.",
-		enUS: "Send by FB, WhatsApp, Viber, etc.", //TODO(US)
+		enUS: "Send by FB, WhatsApp, Viber, etc.",
 		esES: "Enviar a través de FB, WhatsApp, Viber, etc.",
 		faIR: "با فیسبوک، واتس آپ، وایبر و ... ارسال شود.",
-		frFR: "Send by FB, WhatsApp, Viber, etc.", //TODO(FR)
-		idID: "Send by FB, WhatsApp, Viber, etc.", //TODO(ID)
+		frFR: "Send by FB, WhatsApp, Viber, etc.",
+		idID: "Send by FB, WhatsApp, Viber, etc.",
 		itIT: "Invia con FB, WhatsCrap, Viber, etc.",
-		jaJP: "Send by FB, WhatsApp, Viber, etc.", //TODO(JP)
-		koKR: "Send by FB, WhatsApp, Viber, etc.", //TODO(KO)
-		plPL: "Send by FB, WhatsApp, Viber, etc.", //TODO(PL)
-		ptBR: "Send by FB, WhatsApp, Viber, etc.", //TODO(BR)
+		jaJP: "Send by FB, WhatsApp, Viber, etc.",
+		koKR: "Send by FB, WhatsApp, Viber, etc.",
+		plPL: "Send by FB, WhatsApp, Viber, etc.",
+		ptBR: "Send by FB, WhatsApp, Viber, etc.",
 		ruRU: "Отправить через Viber, VK, FB, ...",
-		trTR: "Send by FB, WhatsApp, Viber, etc.", //TODO(TR)
-		ukUA: "Send by FB, WhatsApp, Viber, etc.", //TODO(UA)
-		uzUZ: "Send by FB, WhatsApp, Viber, etc.", //TODO(UZ)
-		zhCN: "Send by FB, WhatsApp, Viber, etc.", //TODO(CN)
+		trTR: "Send by FB, WhatsApp, Viber, etc.",
+		ukUA: "Send by FB, WhatsApp, Viber, etc.",
+		uzUZ: "Send by FB, WhatsApp, Viber, etc.",
+		zhCN: "Send by FB, WhatsApp, Viber, etc.",
 	},
 	COMMAND_TEXT_SEND_RECEIPT_BY_SMS: {
 		deDE: "Senden per SMS",
 		enUK: "Send by SMS",
-		enUS: "Send by SMS", //TODO(US)
+		enUS: "Send by SMS",
 		esES: "Enviar a través de SMS",
 		faIR: "با پیام کوتاه ارسال شود",
-		frFR: "Send by SMS", //TODO(FR)
-		idID: "Send by SMS", //TODO(ID)
+		frFR: "Send by SMS",
+		idID: "Send by SMS",
 		itIT: "Invia tramite SMS",
-		jaJP: "Send by SMS", //TODO(JP)
-		koKR: "Send by SMS", //TODO(KO)
-		plPL: "Send by SMS", //TODO(PL)
-		ptBR: "Send by SMS", //TODO(BR)
+		jaJP: "Send by SMS",
+		koKR: "Send by SMS",
+		plPL: "Send by SMS",
+		ptBR: "Send by SMS",
 		ruRU: "Отправить через SMS",
-		trTR: "Send by SMS", //TODO(TR)
-		ukUA: "Send by SMS", //TODO(UA)
-		uzUZ: "Send by SMS", //TODO(UZ)
-		zhCN: "Send by SMS", //TODO(CN)
+		trTR: "Send by SMS",
+		ukUA: "Send by SMS",
+		uzUZ: "Send by SMS",
+		zhCN: "Send by SMS",
 	},
 	COMMAND_TEXT_SEND_RECEIPT_BY_VK: {
 		deDE: "Senden per VK.com",
 		enUK: "Send throw VK.com",
-		enUS: "Send throw VK.com", //TODO(US)
+		enUS: "Send throw VK.com",
 		esES: "Enviar vía VK.com",
 		faIR: "ارسال شود VK.com از طریق ",
-		frFR: "Send throw VK.com", //TODO(FR)
-		idID: "Send throw VK.com", //TODO(ID)
+		frFR: "Send throw VK.com",
+		idID: "Send throw VK.com",
 		itIT: "Invia tramite VK.com (Facebook russo)",
-		jaJP: "Send throw VK.com", //TODO(JP)
-		koKR: "Send throw VK.com", //TODO(KO)
-		plPL: "Send throw VK.com", //TODO(PL)
-		ptBR: "Send throw VK.com", //TODO(BR)
+		jaJP: "Send throw VK.com",
+		koKR: "Send throw VK.com",
+		plPL: "Send throw VK.com",
+		ptBR: "Send throw VK.com",
 		ruRU: "Отправить через ВКонтакте",
-		trTR: "Send throw VK.com", //TODO(TR)
-		ukUA: "Send throw VK.com", //TODO(UA)
-		uzUZ: "Send throw VK.com", //TODO(UZ)
-		zhCN: "Send throw VK.com", //TODO(CN)
+		trTR: "Send throw VK.com",
+		ukUA: "Send throw VK.com",
+		uzUZ: "Send throw VK.com",
+		zhCN: "Send throw VK.com",
 	},
 	COMMAND_TEXT_SEND_RECEIPT_BY_OK: {
 		deDE: "Senden per OK",
 		enUK: "Send throw OK",
-		enUS: "Send throw OK", //TODO(US)
+		enUS: "Send throw OK",
 		esES: "Enviar a través de OK",
 		faIR: "ارسال شود OK از طریق ",
-		frFR: "Send throw OK", //TODO(FR)
-		idID: "Send throw OK", //TODO(ID)
+		frFR: "Send throw OK",
+		idID: "Send throw OK",
 		itIT: "Invia tramite OK",
-		jaJP: "Send throw OK", //TODO(JP)
-		koKR: "Send throw OK", //TODO(KO)
-		plPL: "Send throw OK", //TODO(PL)
-		ptBR: "Send throw OK", //TODO(BR)
+		jaJP: "Send throw OK",
+		koKR: "Send throw OK",
+		plPL: "Send throw OK",
+		ptBR: "Send throw OK",
 		ruRU: "Отправить через Одноклассники",
-		trTR: "Send throw OK", //TODO(TR)
-		ukUA: "Send throw OK", //TODO(UA)
-		uzUZ: "Send throw OK", //TODO(UZ)
-		zhCN: "Send throw OK", //TODO(CN)
+		trTR: "Send throw OK",
+		ukUA: "Send throw OK",
+		uzUZ: "Send throw OK",
+		zhCN: "Send throw OK",
 	},
 	COMMAND_TEXT_SEND_RECEIPT_BY_FB: {
 		deDE: "Senden per Facebook",
 		enUK: "Send throw Facebook",
-		enUS: "Send throw Facebook", //TODO(US)
+		enUS: "Send throw Facebook",
 		esES: "Enviar a través de Facebook",
 		faIR: "از طریق فیسبوک ارسال شود.",
-		frFR: "Send throw Facebook", //TODO(FR)
-		idID: "Send throw Facebook", //TODO(ID)
+		frFR: "Send throw Facebook",
+		idID: "Send throw Facebook",
 		itIT: "Invia tramite Facebook",
-		jaJP: "Send throw Facebook", //TODO(JP)
-		koKR: "Send throw Facebook", //TODO(KO)
-		plPL: "Send throw Facebook", //TODO(PL)
-		ptBR: "Send throw Facebook", //TODO(BR)
+		jaJP: "Send throw Facebook",
+		koKR: "Send throw Facebook",
+		plPL: "Send throw Facebook",
+		ptBR: "Send throw Facebook",
 		ruRU: "Отправить через Facebook",
-		trTR: "Send throw Facebook", //TODO(TR)
-		ukUA: "Send throw Facebook", //TODO(UA)
-		uzUZ: "Send throw Facebook", //TODO(UZ)
-		zhCN: "Send throw Facebook", //TODO(CN)
+		trTR: "Send throw Facebook",
+		ukUA: "Send throw Facebook",
+		uzUZ: "Send throw Facebook",
+		zhCN: "Send throw Facebook",
 	},
 	COMMAND_TEXT_SEND_RECEIPT_BY_TWT: {
 		deDE: "Senden per Twitter",
 		enUK: "Send throw Twitter",
-		enUS: "Send throw Twitter", //TODO(US)
+		enUS: "Send throw Twitter",
 		esES: "Enviar a través de Twitter",
 		faIR: "از طریق توئیتر ارسال شود.",
-		frFR: "Send throw Twitter", //TODO(FR)
-		idID: "Send throw Twitter", //TODO(ID)
+		frFR: "Send throw Twitter",
+		idID: "Send throw Twitter",
 		itIT: "Invia tramite Twitter",
-		jaJP: "Send throw Twitter", //TODO(JP)
-		koKR: "Send throw Twitter", //TODO(KO)
-		plPL: "Send throw Twitter", //TODO(PL)
-		ptBR: "Send throw Twitter", //TODO(BR)
+		jaJP: "Send throw Twitter",
+		koKR: "Send throw Twitter",
+		plPL: "Send throw Twitter",
+		ptBR: "Send throw Twitter",
 		ruRU: "Отправить через Twitter",
-		trTR: "Send throw Twitter", //TODO(TR)
-		ukUA: "Send throw Twitter", //TODO(UA)
-		uzUZ: "Send throw Twitter", //TODO(UZ)
-		zhCN: "Send throw Twitter", //TODO(CN)
+		trTR: "Send throw Twitter",
+		ukUA: "Send throw Twitter",
+		uzUZ: "Send throw Twitter",
+		zhCN: "Send throw Twitter",
 	},
 	COMMAND_TEXT_CANCEL_SENDING_RECEIPT_BY_TELEGRAM: {
 		deDE: "Sendung der Quittung per Telegram abbrechen",
 		enUK: "Cancel sending receipt by Telegram",
-		enUS: "Cancel sending receipt by Telegram", //TODO(US)
+		enUS: "Cancel sending receipt by Telegram",
 		esES: "Cancelar el envío a través de Telegram",
 		faIR: "ارسال رسید با تلگرام کنسل شود",
-		frFR: "Cancel sending receipt by Telegram", //TODO(FR)
-		idID: "Cancel sending receipt by Telegram", //TODO(ID)
+		frFR: "Cancel sending receipt by Telegram",
+		idID: "Cancel sending receipt by Telegram",
 		itIT: "Annulla l'invio tramite Telegram",
-		jaJP: "Cancel sending receipt by Telegram", //TODO(JP)
-		koKR: "Cancel sending receipt by Telegram", //TODO(KO)
-		plPL: "Cancel sending receipt by Telegram", //TODO(PL)
-		ptBR: "Cancel sending receipt by Telegram", //TODO(BR)
+		jaJP: "Cancel sending receipt by Telegram",
+		koKR: "Cancel sending receipt by Telegram",
+		plPL: "Cancel sending receipt by Telegram",
+		ptBR: "Cancel sending receipt by Telegram",
 		ruRU: "Отменить отправку через Telegram",
-		trTR: "Cancel sending receipt by Telegram", //TODO(TR)
-		ukUA: "Cancel sending receipt by Telegram", //TODO(UA)
-		uzUZ: "Cancel sending receipt by Telegram", //TODO(UZ)
-		zhCN: "Cancel sending receipt by Telegram", //TODO(CN)
+		trTR: "Cancel sending receipt by Telegram",
+		ukUA: "Cancel sending receipt by Telegram",
+		uzUZ: "Cancel sending receipt by Telegram",
+		zhCN: "Cancel sending receipt by Telegram",
 	},
 	MAIN_MENU: {
 		deDE: "Hauptmenü",
@@ -1376,382 +1376,382 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_MAIN_MENU_TITLE: {
 		deDE: "Menü /menu",
 		enUK: "Main /menu",
-		enUS: "Main /menu", //TODO(US)
+		enUS: "Main /menu",
 		esES: "Inicio /menú",
 		faIR: "/منو ی اصلی ",
-		frFR: "Main /menu", //TODO(FR)
-		idID: "Main /menu", //TODO(ID)
+		frFR: "Main /menu",
+		idID: "Main /menu",
 		itIT: "Menu' /menu",
-		jaJP: "Main /menu", //TODO(JP)
-		koKR: "Main /menu", //TODO(KO)
-		plPL: "Main /menu", //TODO(PL)
-		ptBR: "Main /menu", //TODO(BR)
+		jaJP: "Main /menu",
+		koKR: "Main /menu",
+		plPL: "Main /menu",
+		ptBR: "Main /menu",
 		ruRU: "Главное /меню",
-		trTR: "Main /menu", //TODO(TR)
-		ukUA: "Main /menu", //TODO(UA)
-		uzUZ: "Main /menu", //TODO(UZ)
-		zhCN: "Main /menu", //TODO(CN)
+		trTR: "Main /menu",
+		ukUA: "Main /menu",
+		uzUZ: "Main /menu",
+		zhCN: "Main /menu",
 	},
 	MESSAGE_TEXT_NOTHING_TO_CANCEL: {
 		deDE: "Nichts zum abbrechen.",
 		enUK: "Nothing to cancel.",
-		enUS: "Nothing to cancel.", //TODO(US)
+		enUS: "Nothing to cancel.",
 		esES: "No hay nada que anular.",
 		faIR: "چیزی برای کنسل شدن وجود ندارد",
-		frFR: "Nothing to cancel.", //TODO(FR)
-		idID: "Nothing to cancel.", //TODO(ID)
+		frFR: "Nothing to cancel.",
+		idID: "Nothing to cancel.",
 		itIT: "Nulla da annullare.",
-		jaJP: "Nothing to cancel.", //TODO(JP)
-		koKR: "Nothing to cancel.", //TODO(KO)
-		plPL: "Nothing to cancel.", //TODO(PL)
-		ptBR: "Nothing to cancel.", //TODO(BR)
+		jaJP: "Nothing to cancel.",
+		koKR: "Nothing to cancel.",
+		plPL: "Nothing to cancel.",
+		ptBR: "Nothing to cancel.",
 		ruRU: "Нечего отменять.",
-		trTR: "Nothing to cancel.", //TODO(TR)
-		ukUA: "Nothing to cancel.", //TODO(UA)
-		uzUZ: "Nothing to cancel.", //TODO(UZ)
-		zhCN: "Nothing to cancel.", //TODO(CN)
+		trTR: "Nothing to cancel.",
+		ukUA: "Nothing to cancel.",
+		uzUZ: "Nothing to cancel.",
+		zhCN: "Nothing to cancel.",
 	},
 	MESSAGE_TEXT_TRANSFER_CREATION_CANCELED: {
 		deDE: "Erstellung des Schuldscheins abgebrochen.",
 		enUK: "Creation of debt record has been canceled.",
-		enUS: "Creation of debt record has been canceled.", //TODO(US)
+		enUS: "Creation of debt record has been canceled.",
 		esES: "La creación del recordatorio se ha cancelado.",
 		faIR: "ایجاد سابقه بدهی کنسل شد.",
-		frFR: "Creation of debt record has been canceled.", //TODO(FR)
-		idID: "Creation of debt record has been canceled.", //TODO(ID)
+		frFR: "Creation of debt record has been canceled.",
+		idID: "Creation of debt record has been canceled.",
 		itIT: "Creazione record annullata",
-		jaJP: "Creation of debt record has been canceled.", //TODO(JP)
-		koKR: "Creation of debt record has been canceled.", //TODO(KO)
-		plPL: "Creation of debt record has been canceled.", //TODO(PL)
-		ptBR: "Creation of debt record has been canceled.", //TODO(BR)
+		jaJP: "Creation of debt record has been canceled.",
+		koKR: "Creation of debt record has been canceled.",
+		plPL: "Creation of debt record has been canceled.",
+		ptBR: "Creation of debt record has been canceled.",
 		ruRU: "Создание записи о долге отменено.",
-		trTR: "Creation of debt record has been canceled.", //TODO(TR)
-		ukUA: "Creation of debt record has been canceled.", //TODO(UA)
-		uzUZ: "Creation of debt record has been canceled.", //TODO(UZ)
-		zhCN: "Creation of debt record has been canceled.", //TODO(CN)
+		trTR: "Creation of debt record has been canceled.",
+		ukUA: "Creation of debt record has been canceled.",
+		uzUZ: "Creation of debt record has been canceled.",
+		zhCN: "Creation of debt record has been canceled.",
 	},
 	COMMAND_TEXT_SHOW_ALL_CONTACTS: {
 		deDE: "Zeige alle...",
 		enUK: "Show all...",
-		enUS: "Show all...", //TODO(US)
+		enUS: "Show all...",
 		esES: "Mostrar todo...",
 		faIR: "نمایش تمام موارد ...",
-		frFR: "Show all...", //TODO(FR)
-		idID: "Show all...", //TODO(ID)
+		frFR: "Show all...",
+		idID: "Show all...",
 		itIT: "Mostra tutto...",
-		jaJP: "Show all...", //TODO(JP)
-		koKR: "Show all...", //TODO(KO)
-		plPL: "Show all...", //TODO(PL)
-		ptBR: "Show all...", //TODO(BR)
+		jaJP: "Show all...",
+		koKR: "Show all...",
+		plPL: "Show all...",
+		ptBR: "Show all...",
 		ruRU: "Показать все...",
-		trTR: "Show all...", //TODO(TR)
-		ukUA: "Show all...", //TODO(UA)
-		uzUZ: "Show all...", //TODO(UZ)
-		zhCN: "Show all...", //TODO(CN)
+		trTR: "Show all...",
+		ukUA: "Show all...",
+		uzUZ: "Show all...",
+		zhCN: "Show all...",
 	},
 	COMMAND_TEXT_CONTACTS: {
 		deDE: "Kontakte",
 		enUK: "Contacts",
-		enUS: "Contacts", //TODO(US)
+		enUS: "Contacts",
 		esES: "Contactos",
 		faIR: "لیست تماس",
-		frFR: "Contacts", //TODO(FR)
-		idID: "Contacts", //TODO(ID)
+		frFR: "Contacts",
+		idID: "Contacts",
 		itIT: "Сontatti",
-		jaJP: "Contacts", //TODO(JP)
-		koKR: "Contacts", //TODO(KO)
-		plPL: "Contacts", //TODO(PL)
-		ptBR: "Contacts", //TODO(BR)
+		jaJP: "Contacts",
+		koKR: "Contacts",
+		plPL: "Contacts",
+		ptBR: "Contacts",
 		ruRU: "Контакты",
-		trTR: "Contacts", //TODO(TR)
-		ukUA: "Contacts", //TODO(UA)
-		uzUZ: "Contacts", //TODO(UZ)
-		zhCN: "Contacts", //TODO(CN)
+		trTR: "Contacts",
+		ukUA: "Contacts",
+		uzUZ: "Contacts",
+		zhCN: "Contacts",
 	},
 	COMMAND_TEXT_REFRESH: {
 		deDE: "Aktualisieren",
 		enUK: "Refresh",
-		enUS: "Refresh", //TODO(US)
+		enUS: "Refresh",
 		esES: "Recargar",
 		faIR: "تازه کردن",
-		frFR: "Refresh", //TODO(FR)
-		idID: "Refresh", //TODO(ID)
+		frFR: "Refresh",
+		idID: "Refresh",
 		itIT: "Ricaricare",
-		jaJP: "Refresh", //TODO(JP)
-		koKR: "Refresh", //TODO(KO)
-		plPL: "Refresh", //TODO(PL)
-		ptBR: "Refresh", //TODO(BR)
+		jaJP: "Refresh",
+		koKR: "Refresh",
+		plPL: "Refresh",
+		ptBR: "Refresh",
 		ruRU: "Обновить",
-		trTR: "Refresh", //TODO(TR)
-		ukUA: "Refresh", //TODO(UA)
-		uzUZ: "Refresh", //TODO(UZ)
-		zhCN: "Refresh", //TODO(CN)
+		trTR: "Refresh",
+		ukUA: "Refresh",
+		uzUZ: "Refresh",
+		zhCN: "Refresh",
 	},
 	COMMAND_TEXT_ADD_YOUR_OWN_OPTION: {
 		deDE: "Etwas anderes",
 		enUK: "Something else",
-		enUS: "Something else", //TODO(US)
+		enUS: "Something else",
 		esES: "Otra cosa",
 		faIR: "چیزی دیگر",
-		frFR: "Something else", //TODO(FR)
-		idID: "Something else", //TODO(ID)
+		frFR: "Something else",
+		idID: "Something else",
 		itIT: "Qualcos'altro",
-		jaJP: "Something else", //TODO(JP)
-		koKR: "Something else", //TODO(KO)
-		plPL: "Something else", //TODO(PL)
-		ptBR: "Something else", //TODO(BR)
+		jaJP: "Something else",
+		koKR: "Something else",
+		plPL: "Something else",
+		ptBR: "Something else",
 		ruRU: "Что-то другое",
-		trTR: "Something else", //TODO(TR)
-		ukUA: "Something else", //TODO(UA)
-		uzUZ: "Something else", //TODO(UZ)
-		zhCN: "Something else", //TODO(CN)
+		trTR: "Something else",
+		ukUA: "Something else",
+		uzUZ: "Something else",
+		zhCN: "Something else",
 	},
 	MESSAGE_TEXT_REMINDER_ASK_IF_RETURNED: {
 		deDE: "Wurde diese Schuld beglichen?",
 		enUK: "Have this debt been returned?",
-		enUS: "Have this debt been returned?", //TODO(US)
+		enUS: "Have this debt been returned?",
 		esES: "¿Se ha devuelto esta deuda?",
 		faIR: "آیا این بدهی بازپرداخت شده است؟",
-		frFR: "Have this debt been returned?", //TODO(FR)
-		idID: "Have this debt been returned?", //TODO(ID)
+		frFR: "Have this debt been returned?",
+		idID: "Have this debt been returned?",
 		itIT: "Questo debito e' stato saldato?",
-		jaJP: "Have this debt been returned?", //TODO(JP)
-		koKR: "Have this debt been returned?", //TODO(KO)
-		plPL: "Have this debt been returned?", //TODO(PL)
-		ptBR: "Have this debt been returned?", //TODO(BR)
+		jaJP: "Have this debt been returned?",
+		koKR: "Have this debt been returned?",
+		plPL: "Have this debt been returned?",
+		ptBR: "Have this debt been returned?",
 		ruRU: "Был ли этот долг возвращён?",
-		trTR: "Have this debt been returned?", //TODO(TR)
-		ukUA: "Have this debt been returned?", //TODO(UA)
-		uzUZ: "Have this debt been returned?", //TODO(UZ)
-		zhCN: "Have this debt been returned?", //TODO(CN)
+		trTR: "Have this debt been returned?",
+		ukUA: "Have this debt been returned?",
+		uzUZ: "Have this debt been returned?",
+		zhCN: "Have this debt been returned?",
 	},
 	MESSAGE_TEXT_ASK_WHEN_TO_REMIND_AGAIN: {
 		deDE: "Wann willst du wieder an diese Schuld erinnert werden?",
 		enUK: "When should we remind you about this debt again?",
-		enUS: "When should we remind you about this debt again?", //TODO(US)
+		enUS: "When should we remind you about this debt again?",
 		esES: "¿Cuándo recordarte de esta deuda otra vez?",
 		faIR: "چه زمانی لازم است مجدداً در مورد این بدهی به شما یادآوری نماییم؟",
-		frFR: "When should we remind you about this debt again?", //TODO(FR)
-		idID: "When should we remind you about this debt again?", //TODO(ID)
+		frFR: "When should we remind you about this debt again?",
+		idID: "When should we remind you about this debt again?",
 		itIT: "Quando devo ricordarti di questo debito?",
-		jaJP: "When should we remind you about this debt again?", //TODO(JP)
-		koKR: "When should we remind you about this debt again?", //TODO(KO)
-		plPL: "When should we remind you about this debt again?", //TODO(PL)
-		ptBR: "When should we remind you about this debt again?", //TODO(BR)
+		jaJP: "When should we remind you about this debt again?",
+		koKR: "When should we remind you about this debt again?",
+		plPL: "When should we remind you about this debt again?",
+		ptBR: "When should we remind you about this debt again?",
 		ruRU: "Когда вам напомнить об этом долге ещё раз?",
-		trTR: "When should we remind you about this debt again?", //TODO(TR)
-		ukUA: "When should we remind you about this debt again?", //TODO(UA)
-		uzUZ: "When should we remind you about this debt again?", //TODO(UZ)
-		zhCN: "When should we remind you about this debt again?", //TODO(CN)
+		trTR: "When should we remind you about this debt again?",
+		ukUA: "When should we remind you about this debt again?",
+		uzUZ: "When should we remind you about this debt again?",
+		zhCN: "When should we remind you about this debt again?",
 	},
 	MESSAGE_TEXT_REPLIED_DEBT_RETURNED_FULLY: {
 		deDE: "Du hast angegeben, dass diese Schuld vollständig beglichen ist.",
 		enUK: "You've replied back that debt has been returned fully.",
-		enUS: "You've replied back that debt has been returned fully.", //TODO(US)
+		enUS: "You've replied back that debt has been returned fully.",
 		esES: "Has confirmado que la deuda se ha saldado totalmente",
 		faIR: "شما پاسخ داده اید که بدهی به صورت کامل بازپرداخت شده است.",
-		frFR: "You've replied back that debt has been returned fully.", //TODO(FR)
-		idID: "You've replied back that debt has been returned fully.", //TODO(ID)
+		frFR: "You've replied back that debt has been returned fully.",
+		idID: "You've replied back that debt has been returned fully.",
 		itIT: "Hai confermato che il debito e' stato saldato.",
-		jaJP: "You've replied back that debt has been returned fully.", //TODO(JP)
-		koKR: "You've replied back that debt has been returned fully.", //TODO(KO)
-		plPL: "You've replied back that debt has been returned fully.", //TODO(PL)
-		ptBR: "You've replied back that debt has been returned fully.", //TODO(BR)
+		jaJP: "You've replied back that debt has been returned fully.",
+		koKR: "You've replied back that debt has been returned fully.",
+		plPL: "You've replied back that debt has been returned fully.",
+		ptBR: "You've replied back that debt has been returned fully.",
 		ruRU: "Вы ответили что долг возвращён полностью.",
-		trTR: "You've replied back that debt has been returned fully.", //TODO(TR)
-		ukUA: "You've replied back that debt has been returned fully.", //TODO(UA)
-		uzUZ: "You've replied back that debt has been returned fully.", //TODO(UZ)
-		zhCN: "You've replied back that debt has been returned fully.", //TODO(CN)
+		trTR: "You've replied back that debt has been returned fully.",
+		ukUA: "You've replied back that debt has been returned fully.",
+		uzUZ: "You've replied back that debt has been returned fully.",
+		zhCN: "You've replied back that debt has been returned fully.",
 	},
 	MESSAGE_TEXT_DEBT_IS_RETURNED: {
 		deDE: "Die Schuld ist vollständig beglichen.",
 		enUK: "The debt has been returned fully.",
-		enUS: "The debt has been returned fully.", //TODO(US)
+		enUS: "The debt has been returned fully.",
 		esES: "La deuda se ha saldado totalmente",
 		faIR: "بدهی به صورت کامل بازپرداخت شده است",
-		frFR: "The debt has been returned fully.", //TODO(FR)
-		idID: "The debt has been returned fully.", //TODO(ID)
+		frFR: "The debt has been returned fully.",
+		idID: "The debt has been returned fully.",
 		itIT: "Il debito e' stato saldato.",
-		jaJP: "The debt has been returned fully.", //TODO(JP)
-		koKR: "The debt has been returned fully.", //TODO(KO)
-		plPL: "The debt has been returned fully.", //TODO(PL)
-		ptBR: "The debt has been returned fully.", //TODO(BR)
+		jaJP: "The debt has been returned fully.",
+		koKR: "The debt has been returned fully.",
+		plPL: "The debt has been returned fully.",
+		ptBR: "The debt has been returned fully.",
 		ruRU: "Долг возвращён полностью.",
-		trTR: "The debt has been returned fully.", //TODO(TR)
-		ukUA: "The debt has been returned fully.", //TODO(UA)
-		uzUZ: "The debt has been returned fully.", //TODO(UZ)
-		zhCN: "The debt has been returned fully.", //TODO(CN)
+		trTR: "The debt has been returned fully.",
+		ukUA: "The debt has been returned fully.",
+		uzUZ: "The debt has been returned fully.",
+		zhCN: "The debt has been returned fully.",
 	},
 	MESSAGE_TEXT_DETAILS_ARE_HERE: {
 		deDE: "Details hier: %v",
 		enUK: "Details here: %v",
-		enUS: "Details here: %v", //TODO(US)
+		enUS: "Details here: %v",
 		esES: "Detalles aquí: %v",
 		faIR: "جزئیات در اینجا: %v",
-		frFR: "Details here: %v", //TODO(FR)
-		idID: "Details here: %v", //TODO(ID)
+		frFR: "Details here: %v",
+		idID: "Details here: %v",
 		itIT: "Dettagli qui: %v",
-		jaJP: "Details here: %v", //TODO(JP)
-		koKR: "Details here: %v", //TODO(KO)
-		plPL: "Details here: %v", //TODO(PL)
-		ptBR: "Details here: %v", //TODO(BR)
+		jaJP: "Details here: %v",
+		koKR: "Details here: %v",
+		plPL: "Details here: %v",
+		ptBR: "Details here: %v",
 		ruRU: "Подробности тут: %v",
-		trTR: "Details here: %v", //TODO(TR)
-		ukUA: "Details here: %v", //TODO(UA)
-		uzUZ: "Details here: %v", //TODO(UZ)
-		zhCN: "Details here: %v", //TODO(CN)
+		trTR: "Details here: %v",
+		ukUA: "Details here: %v",
+		uzUZ: "Details here: %v",
+		zhCN: "Details here: %v",
 	},
 	MESSAGE_TEXT_REMINDER: {
 		deDE: "Erinnerung",
 		enUK: "Reminder",
-		enUS: "Reminder", //TODO(US)
+		enUS: "Reminder",
 		esES: "Recordatorio",
 		faIR: "یادآور",
-		frFR: "Reminder", //TODO(FR)
-		idID: "Reminder", //TODO(ID)
+		frFR: "Reminder",
+		idID: "Reminder",
 		itIT: "Promemoria",
-		jaJP: "Reminder", //TODO(JP)
-		koKR: "Reminder", //TODO(KO)
-		plPL: "Reminder", //TODO(PL)
-		ptBR: "Reminder", //TODO(BR)
+		jaJP: "Reminder",
+		koKR: "Reminder",
+		plPL: "Reminder",
+		ptBR: "Reminder",
 		ruRU: "Напоминание",
-		trTR: "Reminder", //TODO(TR)
-		ukUA: "Reminder", //TODO(UA)
-		uzUZ: "Reminder", //TODO(UZ)
-		zhCN: "Reminder", //TODO(CN)
+		trTR: "Reminder",
+		ukUA: "Reminder",
+		uzUZ: "Reminder",
+		zhCN: "Reminder",
 	},
 	MESSAGE_TEXT_REMINDER_SET: {
 		deDE: "Erinnerung am: %v",
 		enUK: "Reminder set for: %v",
-		enUS: "Reminder set for: %v", //TODO(US)
+		enUS: "Reminder set for: %v",
 		esES: "Recordatorio establecito para: %v",
 		faIR: "یادآور تنظیم شده است برای: %v",
-		frFR: "Reminder set for: %v", //TODO(FR)
-		idID: "Reminder set for: %v", //TODO(ID)
+		frFR: "Reminder set for: %v",
+		idID: "Reminder set for: %v",
 		itIT: "Imposta promemoria per: %v",
-		jaJP: "Reminder set for: %v", //TODO(JP)
-		koKR: "Reminder set for: %v", //TODO(KO)
-		plPL: "Reminder set for: %v", //TODO(PL)
-		ptBR: "Reminder set for: %v", //TODO(BR)
+		jaJP: "Reminder set for: %v",
+		koKR: "Reminder set for: %v",
+		plPL: "Reminder set for: %v",
+		ptBR: "Reminder set for: %v",
 		ruRU: "Напоминание установлено на: %v",
-		trTR: "Reminder set for: %v", //TODO(TR)
-		ukUA: "Reminder set for: %v", //TODO(UA)
-		uzUZ: "Reminder set for: %v", //TODO(UZ)
-		zhCN: "Reminder set for: %v", //TODO(CN)
+		trTR: "Reminder set for: %v",
+		ukUA: "Reminder set for: %v",
+		uzUZ: "Reminder set for: %v",
+		zhCN: "Reminder set for: %v",
 	},
 	MESSAGE_TEXT_REMINDER_DISABLED: {
 		deDE: "Du hast die Erinnerung an diese Schuld deaktiviert.",
 		enUK: "You've disabled reminders for this debt.",
-		enUS: "You've disabled reminders for this debt.", //TODO(US)
+		enUS: "You've disabled reminders for this debt.",
 		esES: "Recordatorio para esta deuda se ha deshabilitado.",
 		faIR: "شما یادآور را برای این بدهی غیرفعال نموده اید.",
-		frFR: "You've disabled reminders for this debt.", //TODO(FR)
-		idID: "You've disabled reminders for this debt.", //TODO(ID)
+		frFR: "You've disabled reminders for this debt.",
+		idID: "You've disabled reminders for this debt.",
 		itIT: "Hai disabilitato il promemoria per questo debito.",
-		jaJP: "You've disabled reminders for this debt.", //TODO(JP)
-		koKR: "You've disabled reminders for this debt.", //TODO(KO)
-		plPL: "You've disabled reminders for this debt.", //TODO(PL)
-		ptBR: "You've disabled reminders for this debt.", //TODO(BR)
+		jaJP: "You've disabled reminders for this debt.",
+		koKR: "You've disabled reminders for this debt.",
+		plPL: "You've disabled reminders for this debt.",
+		ptBR: "You've disabled reminders for this debt.",
 		ruRU: "Напоминания об этом долге отключены.",
-		trTR: "You've disabled reminders for this debt.", //TODO(TR)
-		ukUA: "You've disabled reminders for this debt.", //TODO(UA)
-		uzUZ: "You've disabled reminders for this debt.", //TODO(UZ)
-		zhCN: "You've disabled reminders for this debt.", //TODO(CN)
+		trTR: "You've disabled reminders for this debt.",
+		ukUA: "You've disabled reminders for this debt.",
+		uzUZ: "You've disabled reminders for this debt.",
+		zhCN: "You've disabled reminders for this debt.",
 	},
 	COMMAND_TEXT_REMINDER_ENABLE: {
 		deDE: "Erinnerung aktivieren",
 		enUK: "Turn-on reminder",
-		enUS: "Turn-on reminder",          //TODO(US)
-		esES: "Recordatorio de encendido", // TODO(es) verify
-		faIR: "یادآوری روشن",              // TODO(fa) verify
-		frFR: "Turn-on reminder",          //TODO(FR)
-		idID: "Turn-on reminder",          //TODO(ID)
-		itIT: "Ricordo promozionale",      // TODO(it) verify
-		jaJP: "Turn-on reminder",          //TODO(JP)
-		koKR: "Turn-on reminder",          //TODO(KO)
-		plPL: "Turn-on reminder",          //TODO(PL)
-		ptBR: "Turn-on reminder",          //TODO(BR)
+		enUS: "Turn-on reminder",
+		esES: "Recordatorio de encendido",
+		faIR: "یادآوری روشن",
+		frFR: "Turn-on reminder",
+		idID: "Turn-on reminder",
+		itIT: "Ricordo promozionale",
+		jaJP: "Turn-on reminder",
+		koKR: "Turn-on reminder",
+		plPL: "Turn-on reminder",
+		ptBR: "Turn-on reminder",
 		ruRU: "Включить напоминание",
-		trTR: "Turn-on reminder", //TODO(TR)
-		ukUA: "Turn-on reminder", //TODO(UA)
-		uzUZ: "Turn-on reminder", //TODO(UZ)
-		zhCN: "Turn-on reminder", //TODO(CN)
+		trTR: "Turn-on reminder",
+		ukUA: "Turn-on reminder",
+		uzUZ: "Turn-on reminder",
+		zhCN: "Turn-on reminder",
 	},
 	MESSAGE_TEXT_REMINDER_ALREADY_RESCHEDULED: {
 		deDE: "Du wirst bereits erneut erinnert.",
 		enUK: "You've already rescheduled this reminder.",
-		enUS: "You've already rescheduled this reminder.", //TODO(US)
+		enUS: "You've already rescheduled this reminder.",
 		esES: "Recordatorio para esta deuda se ha reprogramado ya.",
 		faIR: "شما قبلا به صورت مجدد این یادآور را زمانبندی نموده اید.",
-		frFR: "You've already rescheduled this reminder.", //TODO(FR)
-		idID: "You've already rescheduled this reminder.", //TODO(ID)
+		frFR: "You've already rescheduled this reminder.",
+		idID: "You've already rescheduled this reminder.",
 		itIT: "Hai gia' impostato questo promemoria",
-		jaJP: "You've already rescheduled this reminder.", //TODO(JP)
-		koKR: "You've already rescheduled this reminder.", //TODO(KO)
-		plPL: "You've already rescheduled this reminder.", //TODO(PL)
-		ptBR: "You've already rescheduled this reminder.", //TODO(BR)
+		jaJP: "You've already rescheduled this reminder.",
+		koKR: "You've already rescheduled this reminder.",
+		plPL: "You've already rescheduled this reminder.",
+		ptBR: "You've already rescheduled this reminder.",
 		ruRU: "Напоминание об этом долге уже перенесено.",
-		trTR: "You've already rescheduled this reminder.", //TODO(TR)
-		ukUA: "You've already rescheduled this reminder.", //TODO(UA)
-		uzUZ: "You've already rescheduled this reminder.", //TODO(UZ)
-		zhCN: "You've already rescheduled this reminder.", //TODO(CN)
+		trTR: "You've already rescheduled this reminder.",
+		ukUA: "You've already rescheduled this reminder.",
+		uzUZ: "You've already rescheduled this reminder.",
+		zhCN: "You've already rescheduled this reminder.",
 	},
 	COMMAND_TEXT_REMINDER_RETURNED_IN_FULL: {
 		deDE: "Ja, vollständig beglichen",
 		enUK: "Yes, returne in full",
-		enUS: "Yes, returne in full", //TODO(US)
+		enUS: "Yes, returne in full",
 		esES: "Sí, devuelto totalmente",
 		faIR: "بله، بازپرداخت به صورت کامل",
-		frFR: "Yes, returne in full", //TODO(FR)
-		idID: "Yes, returne in full", //TODO(ID)
+		frFR: "Yes, returne in full",
+		idID: "Yes, returne in full",
 		itIT: "Si, completamento saldato",
-		jaJP: "Yes, returne in full", //TODO(JP)
-		koKR: "Yes, returne in full", //TODO(KO)
-		plPL: "Yes, returne in full", //TODO(PL)
-		ptBR: "Yes, returne in full", //TODO(BR)
+		jaJP: "Yes, returne in full",
+		koKR: "Yes, returne in full",
+		plPL: "Yes, returne in full",
+		ptBR: "Yes, returne in full",
 		ruRU: "Да, возвращено полностью",
-		trTR: "Yes, returne in full", //TODO(TR)
-		ukUA: "Yes, returne in full", //TODO(UA)
-		uzUZ: "Yes, returne in full", //TODO(UZ)
-		zhCN: "Yes, returne in full", //TODO(CN)
+		trTR: "Yes, returne in full",
+		ukUA: "Yes, returne in full",
+		uzUZ: "Yes, returne in full",
+		zhCN: "Yes, returne in full",
 	},
 	COMMAND_TEXT_REMINDER_RETURNED_PARTIALLY: {
 		deDE: "Teilweise beglichen",
 		enUK: "Returned partially",
-		enUS: "Returned partially", //TODO(US)
+		enUS: "Returned partially",
 		esES: "Devuelto parcialmente",
 		faIR: "تا اندازه ای بازپرداخت شده است",
-		frFR: "Returned partially", //TODO(FR)
-		idID: "Returned partially", //TODO(ID)
+		frFR: "Returned partially",
+		idID: "Returned partially",
 		itIT: "Parzialmente saldato",
-		jaJP: "Returned partially", //TODO(JP)
-		koKR: "Returned partially", //TODO(KO)
-		plPL: "Returned partially", //TODO(PL)
-		ptBR: "Returned partially", //TODO(BR)
+		jaJP: "Returned partially",
+		koKR: "Returned partially",
+		plPL: "Returned partially",
+		ptBR: "Returned partially",
 		ruRU: "Возврашено частично",
-		trTR: "Returned partially", //TODO(TR)
-		ukUA: "Returned partially", //TODO(UA)
-		uzUZ: "Returned partially", //TODO(UZ)
-		zhCN: "Returned partially", //TODO(CN)
+		trTR: "Returned partially",
+		ukUA: "Returned partially",
+		uzUZ: "Returned partially",
+		zhCN: "Returned partially",
 	},
 	COMMAND_TEXT_REMINDER_NOT_RETURNED: {
 		deDE: "Nicht beglichen",
 		enUK: "Not returned",
-		enUS: "Not returned", //TODO(US)
+		enUS: "Not returned",
 		esES: "No devuelto",
 		faIR: "بازپرداخت نشده است",
-		frFR: "Not returned", //TODO(FR)
-		idID: "Not returned", //TODO(ID)
+		frFR: "Not returned",
+		idID: "Not returned",
 		itIT: "Debito non saldato",
-		jaJP: "Not returned", //TODO(JP)
-		koKR: "Not returned", //TODO(KO)
-		plPL: "Not returned", //TODO(PL)
-		ptBR: "Not returned", //TODO(BR)
+		jaJP: "Not returned",
+		koKR: "Not returned",
+		plPL: "Not returned",
+		ptBR: "Not returned",
 		ruRU: "Не возвращено",
-		trTR: "Not returned", //TODO(TR)
-		ukUA: "Not returned", //TODO(UA)
-		uzUZ: "Not returned", //TODO(UZ)
-		zhCN: "Not returned", //TODO(CN)
+		trTR: "Not returned",
+		ukUA: "Not returned",
+		uzUZ: "Not returned",
+		zhCN: "Not returned",
 	},
 	MESSAGE_TEXT_YOU_REPLIED: {
 		deDE: "Beantwortet: %v",
@@ -2865,7 +2865,7 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	Do you want to get an invite when it gets released?`,
 		enUS: `🤖: I'm a good robot, for sure.But sometimes it is more convinient to use a nice specialized app.It's not ready for public use yet but you can check how it is going to looks: <a href="https://debtstracker.io/en/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/en/</a>
 
-	Do you want to get an invite when it gets released?`, //TODO(US)
+	Do you want to get an invite when it gets released?`,
 
 		esES: `🤖: Claro que soy un robot encantador, pero más comodo usar una aplicación especial.No esta disponible ya pero se puede ver como será: <a href = "https://debtstracker.io/es/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/en/</a>
 
@@ -2875,80 +2875,80 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	آیا می خواهید وقتی منتشر شد دعوتنامه ای دریافت کنید؟`,
 		frFR: `🤖: I'm a good robot, for sure.But sometimes it is more convinient to use a nice specialized app.It's not ready for public use yet but you can check how it is going to looks: <a href="https://debtstracker.io/fr/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/fr/</a>
 
-	Do you want to get an invite when it gets released?`, //TODO(FR)
+	Do you want to get an invite when it gets released?`,
 		idID: `🤖: I'm a good robot, for sure.But sometimes it is more convinient to use a nice specialized app.It's not ready for public use yet but you can check how it is going to looks: <a href="https://debtstracker.io/id/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/id/</a>
 
-	Do you want to get an invite when it gets released?`, //TODO(ID)
+	Do you want to get an invite when it gets released?`,
 
 		itIT: `🤖: Di sicuro son un bravo bot, ma alcune volte e' piu' conveniente usare un'applicazione specializzata. Non e' ancora pronta per la pubblicazione ma puoi controllare l'avanzamento a questo indirizzo: <a href="https://debtstracker.io/it/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/it/</a>
 
 	Vuoi essere invitato non appena viene rilasciata?`,
 		jaJP: `🤖: I'm a good robot, for sure.But sometimes it is more convinient to use a nice specialized app.It's not ready for public use yet but you can check how it is going to looks: <a href="https://debtstracker.io/ja/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/ja/</a>
 
-	Do you want to get an invite when it gets released?`, //TODO(JP)
+	Do you want to get an invite when it gets released?`,
 		koKR: `🤖: I'm a good robot, for sure.But sometimes it is more convinient to use a nice specialized app.It's not ready for public use yet but you can check how it is going to looks: <a href="https://debtstracker.io/ko/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/ko/</a>
 
-	Do you want to get an invite when it gets released?`, //TODO(KO)
+	Do you want to get an invite when it gets released?`,
 		plPL: `🤖: I'm a good robot, for sure.But sometimes it is more convinient to use a nice specialized app.It's not ready for public use yet but you can check how it is going to looks: <a href="https://debtstracker.io/pl/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/pl/</a>
 
-	Do you want to get an invite when it gets released?`, //TODO(PL)
+	Do you want to get an invite when it gets released?`,
 		ptBR: `🤖: I'm a good robot, for sure.But sometimes it is more convinient to use a nice specialized app.It's not ready for public use yet but you can check how it is going to looks: <a href="https://debtstracker.io/pt/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/pt/</a>
 
-	Do you want to get an invite when it gets released?`, //TODO(BR)
+	Do you want to get an invite when it gets released?`,
 
 		ruRU: `🤖: Я конечно обоятельный робот, но пользоваться специализированным приложением бывает удобнее. Оно ещё не готово для общего доступа, но уже сейчас можно посмотреть как будет выглядеть: <a href="https://debtstracker.io/ru/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/ru/</a>
 
 		Хотите получить оповещение когда оно выйдет?`,
 		trTR: `🤖: I'm a good robot, for sure.But sometimes it is more convinient to use a nice specialized app.It's not ready for public use yet but you can check how it is going to looks: <a href="https://debtstracker.io/tr/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/tr/</a>
 
-	Do you want to get an invite when it gets released?`, //TODO(TR)
+	Do you want to get an invite when it gets released?`,
 		ukUA: `🤖: I'm a good robot, for sure.But sometimes it is more convinient to use a nice specialized app.It's not ready for public use yet but you can check how it is going to looks: <a href="https://debtstracker.io/ua/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/ua/</a>
 
-	Do you want to get an invite when it gets released?`, //TODO(UA)
+	Do you want to get an invite when it gets released?`,
 		uzUZ: `🤖: I'm a good robot, for sure.But sometimes it is more convinient to use a nice specialized app.It's not ready for public use yet but you can check how it is going to looks: <a href="https://debtstracker.io/uz/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/uz/</a>
 
-	Do you want to get an invite when it gets released?`, //TODO(UZ)
+	Do you want to get an invite when it gets released?`,
 		zhCN: `🤖: I'm a good robot, for sure.But sometimes it is more convinient to use a nice specialized app.It's not ready for public use yet but you can check how it is going to looks: <a href="https://debtstracker.io/zh/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/zh/</a>
 
-	Do you want to get an invite when it gets released?`, //TODO(CN)
+	Do you want to get an invite when it gets released?`,
 	},
 	MESSAGE_TEXT_INVALID_FLOAT: {
 		deDE: "Entschuldigung, aber du kannst nur Zahlen für Menge oder Wert wählen (<i>mit zwei Nachkommastellen</i>).",
 		enUK: "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).",
-		enUS: "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).", //TODO(US)
+		enUS: "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).",
 		esES: "Lo siento, solo puedes utilizar numeros como importe/cantidad (<i>con un maximo de 2 dígitos despues de la coma</i>).",
 		faIR: "ببخشید، اما شما تنها میتوانید از اعداد بعنوان مقادیر / اندازه ها استفاده کنید (<i>با دو رقم اعشار</i>).",
-		frFR: "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).", //TODO(FR)
-		idID: "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).", //TODO(ID)
+		frFR: "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).",
+		idID: "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).",
 		itIT: "Spiacente, puoi utilizzare solo numeri (<i>con un massimo di 2 numeri dopo il punto</i>).",
-		jaJP: "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).", //TODO(JP)
-		koKR: "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).", //TODO(KO)
-		plPL: "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).", //TODO(PL)
-		ptBR: "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).", //TODO(BR)
+		jaJP: "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).",
+		koKR: "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).",
+		plPL: "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).",
+		ptBR: "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).",
 		ruRU: "Извините, но вы можете использовать только числа в качестве суммы/количества (<i>до 2х знаков после запятой</i>).",
-		trTR: "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).", //TODO(TR)
-		ukUA: "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).", //TODO(UA)
-		uzUZ: "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).", //TODO(UZ)
-		zhCN: "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).", //TODO(CN)
+		trTR: "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).",
+		ukUA: "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).",
+		uzUZ: "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).",
+		zhCN: "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).",
 	},
 	MESSAGE_TEXT_ASK_LENDING_TYPE: {
 		deDE: "<b>Was hast du jemanden geliehen?</b>",
 		enUK: "<b>What did you lend to someone?</b>",
-		enUS: "<b>What did you lend to someone?</b>", //TODO(US)
+		enUS: "<b>What did you lend to someone?</b>",
 		esES: "<b>¿Qué has prestado?</b>",
 		faIR: "<b> چه چیزی به کسی قرض داده اید؟</b>",
-		frFR: "<b>What did you lend to someone?</b>", //TODO(FR)
-		idID: "<b>What did you lend to someone?</b>", //TODO(ID)
+		frFR: "<b>What did you lend to someone?</b>",
+		idID: "<b>What did you lend to someone?</b>",
 		itIT: "<b>Cos'hai prestato?</b>",
-		jaJP: "<b>What did you lend to someone?</b>", //TODO(JP)
-		koKR: "<b>What did you lend to someone?</b>", //TODO(KO)
-		plPL: "<b>What did you lend to someone?</b>", //TODO(PL)
-		ptBR: "<b>What did you lend to someone?</b>", //TODO(BR)
+		jaJP: "<b>What did you lend to someone?</b>",
+		koKR: "<b>What did you lend to someone?</b>",
+		plPL: "<b>What did you lend to someone?</b>",
+		ptBR: "<b>What did you lend to someone?</b>",
 		ruRU: "<b>Что вы дали в долг?</b>",
-		trTR: "<b>What did you lend to someone?</b>", //TODO(TR)
-		ukUA: "<b>What did you lend to someone?</b>", //TODO(UA)
-		uzUZ: "<b>What did you lend to someone?</b>", //TODO(UZ)
-		zhCN: "<b>What did you lend to someone?</b>", //TODO(CN)
+		trTR: "<b>What did you lend to someone?</b>",
+		ukUA: "<b>What did you lend to someone?</b>",
+		uzUZ: "<b>What did you lend to someone?</b>",
+		zhCN: "<b>What did you lend to someone?</b>",
 	},
 	MESSAGE_TEXT_CHOOSE_CURRENCY: {
 
@@ -2962,7 +2962,7 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 
 		enUS: `Please choose from the options below or <a>select a currency from the list</a>.
 
-	If standard options are not enough simply send a text.For example: "<i>apple</i>".`, //TODO(US)
+	If standard options are not enough simply send a text.For example: "<i>apple</i>".`,
 
 		esES: `Elige del menú abajo de la pantalla o <a>selecciona la moneda de la lista</a>.
 
@@ -2974,11 +2974,11 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 
 		frFR: `Please choose from the options below or <a>select a currency from the list</a>.
 
-	If standard options are not enough simply send a text.For example: "<i>apple</i>".`, //TODO(FR)
+	If standard options are not enough simply send a text.For example: "<i>apple</i>".`,
 
 		idID: `Please choose from the options below or <a>select a currency from the list</a>.
 
-	If standard options are not enough simply send a text.For example: "<i>apple</i>".`, //TODO(ID)
+	If standard options are not enough simply send a text.For example: "<i>apple</i>".`,
 
 		itIT: `Scegli dalle opzioni qui sotto o <a>seleziona una valuta dalla lista</a>.
 
@@ -2986,19 +2986,19 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 
 		jaJP: `Please choose from the options below or <a>select a currency from the list</a>.
 
-	If standard options are not enough simply send a text.For example: "<i>apple</i>".`, //TODO(JP)
+	If standard options are not enough simply send a text.For example: "<i>apple</i>".`,
 
 		koKR: `Please choose from the options below or <a>select a currency from the list</a>.
 
-	If standard options are not enough simply send a text.For example: "<i>apple</i>".`, //TODO(KO)
+	If standard options are not enough simply send a text.For example: "<i>apple</i>".`,
 
 		plPL: `Please choose from the options below or <a>select a currency from the list</a>.
 
-	If standard options are not enough simply send a text.For example: "<i>apple</i>".`, //TODO(PL)
+	If standard options are not enough simply send a text.For example: "<i>apple</i>".`,
 
 		ptBR: `Please choose from the options below or <a>select a currency from the list</a>.
 
-	If standard options are not enough simply send a text.For example: "<i>apple</i>".`, //TODO(BR)
+	If standard options are not enough simply send a text.For example: "<i>apple</i>".`,
 
 		ruRU: `Выберите из меню внизу экрана или <a>выберите валюту из списка</a>.
 
@@ -3006,385 +3006,385 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 
 		trTR: `Please choose from the options below or <a>select a currency from the list</a>.
 
-	If standard options are not enough simply send a text.For example: "<i>apple</i>".`, //TODO(TR)
+	If standard options are not enough simply send a text.For example: "<i>apple</i>".`,
 
 		ukUA: `Please choose from the options below or <a>select a currency from the list</a>.
 
-	If standard options are not enough simply send a text.For example: "<i>apple</i>".`, //TODO(UA)
+	If standard options are not enough simply send a text.For example: "<i>apple</i>".`,
 
 		uzUZ: `Please choose from the options below or <a>select a currency from the list</a>.
 
-	If standard options are not enough simply send a text.For example: "<i>apple</i>".`, //TODO(UZ)
+	If standard options are not enough simply send a text.For example: "<i>apple</i>".`,
 
 		zhCN: `Please choose from the options below or <a>select a currency from the list</a>.
 
-	If standard options are not enough simply send a text.For example: "<i>apple</i>".`, //TODO(CN)
+	If standard options are not enough simply send a text.For example: "<i>apple</i>".`,
 	},
 	MESSAGE_TEXT_ASK_LENDING_AMOUNT: {
 		deDE: "Wie viel <b>%v</b> hast du verliehen?\n(<i>Sende '.' zum Abbrechen</i>)",
 		enUK: "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)",
-		enUS: "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)", //TODO(US)
+		enUS: "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)",
 		esES: "Cuanto(s) <b>%v</b> has prestado\n(<i>enviar '.' para cancelar</i>)",
 		faIR: "چه مقدار <b>%v</b> قرض داده اید؟\n(<i>ارسال '.' برای کنسل کردن</i>)",
-		frFR: "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)", //TODO(FR)
-		idID: "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)", //TODO(ID)
+		frFR: "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)",
+		idID: "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)",
 		itIT: "Quanti <b>%v</b> hai prestato?\n(<i>Digita '.' ed invia per annullare</i>)",
-		jaJP: "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)", //TODO(JP)
-		koKR: "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)", //TODO(KO)
-		plPL: "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)", //TODO(PL)
-		ptBR: "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)", //TODO(BR)
+		jaJP: "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)",
+		koKR: "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)",
+		plPL: "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)",
+		ptBR: "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)",
 		ruRU: "Сколько <b>%v</b> вы дали в долг?\n(<i>отправьте '.' чтобы отменить</i>)",
-		trTR: "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)", //TODO(TR)
-		ukUA: "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)", //TODO(UA)
-		uzUZ: "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)", //TODO(UZ)
-		zhCN: "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)", //TODO(CN)
+		trTR: "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)",
+		ukUA: "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)",
+		uzUZ: "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)",
+		zhCN: "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)",
 	},
 	MESSAGE_TEXT_ASK_LENDING_COUNTERPARTY: {
 		deDE: "Wer hat sich <b>%v</b> von dir geliehen?\n(<i>Sende '.' zum Abbrechen</i>)",
 		enUK: "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)",
-		enUS: "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(US)
+		enUS: "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)",
 		esES: "A quién has prestado <b>%v</b>?\n(<i>enviar '.' para cancelar</i>)",
 		faIR: "چه کسی از شما <b>%v</b> قرض گرفته است؟\n(<i>ارسال '.' برای کنسل کردن</i>)",
-		frFR: "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(FR)
-		idID: "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(ID)
+		frFR: "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)",
+		idID: "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)",
 		itIT: "Chi e' in debito di <b>%v</b> con te?\n(<i>Digita '.' ed invia per annullare</i>)",
-		jaJP: "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(JP)
-		koKR: "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(KO)
-		plPL: "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(PL)
-		ptBR: "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(BR)
+		jaJP: "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)",
+		koKR: "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)",
+		plPL: "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)",
+		ptBR: "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)",
 		ruRU: "Кому вы дали в долг <b>%v</b>?\n(<i>отправьте '.' чтобы отменить</i>)",
-		trTR: "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(TR)
-		ukUA: "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(UA)
-		uzUZ: "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(UZ)
-		zhCN: "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(CN)
+		trTR: "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)",
+		ukUA: "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)",
+		uzUZ: "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)",
+		zhCN: "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)",
 	},
 	MESSAGE_TEXT_ASK_BORROWING_TYPE: {
 		deDE: "Was hast du dir geliehen?",
 		enUK: "What did you lend?",
-		enUS: "What did you lend?", //TODO(US)
+		enUS: "What did you lend?",
 		esES: "¿Qué te han prestado?",
 		faIR: "چه چیزی قرض گرفته اید؟",
-		frFR: "What did you lend?", //TODO(FR)
-		idID: "What did you lend?", //TODO(ID)
+		frFR: "What did you lend?",
+		idID: "What did you lend?",
 		itIT: "Cosa ti hanno prestato?",
-		jaJP: "What did you lend?", //TODO(JP)
-		koKR: "What did you lend?", //TODO(KO)
-		plPL: "What did you lend?", //TODO(PL)
-		ptBR: "What did you lend?", //TODO(BR)
+		jaJP: "What did you lend?",
+		koKR: "What did you lend?",
+		plPL: "What did you lend?",
+		ptBR: "What did you lend?",
 		ruRU: "Что вы взяли в долг?",
-		trTR: "What did you lend?", //TODO(TR)
-		ukUA: "What did you lend?", //TODO(UA)
-		uzUZ: "What did you lend?", //TODO(UZ)
-		zhCN: "What did you lend?", //TODO(CN)
+		trTR: "What did you lend?",
+		ukUA: "What did you lend?",
+		uzUZ: "What did you lend?",
+		zhCN: "What did you lend?",
 	},
 	MESSAGE_TEXT_ASK_BORROWING_AMOUNT: {
 		deDE: "Wie viel <b>%v</b> hast du geliehen?\n(<i>Sende '.' zum Abbrechen</i>)",
 		enUK: "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)",
-		enUS: "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)", //TODO(US)
+		enUS: "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)",
 		esES: "¿Cuánto <b>%v</b> has prestado?\n(<i>enviar '.' para cancelar</i>)",
 		faIR: "چه مقدار <b>%v</b> قرض گرفته اید؟\n(<i>ارسال '.' برای کنسل کردن</i>)",
-		frFR: "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)", //TODO(FR)
-		idID: "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)", //TODO(ID)
+		frFR: "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)",
+		idID: "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)",
 		itIT: "Quanti <b>%v</b> ti hanno prestato?\n(<i>Digita '.' ed invia per annullare</i>)",
-		jaJP: "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)", //TODO(JP)
-		koKR: "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)", //TODO(KO)
-		plPL: "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)", //TODO(PL)
-		ptBR: "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)", //TODO(BR)
+		jaJP: "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)",
+		koKR: "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)",
+		plPL: "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)",
+		ptBR: "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)",
 		ruRU: "Сколько <b>%v</b> вы взяли в долг?\n(<i>отправьте '.' чтобы отменить</i>)",
-		trTR: "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)", //TODO(TR)
-		ukUA: "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)", //TODO(UA)
-		uzUZ: "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)", //TODO(UZ)
-		zhCN: "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)", //TODO(CN)
+		trTR: "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)",
+		ukUA: "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)",
+		uzUZ: "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)",
+		zhCN: "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)",
 	},
 	MESSAGE_TEXT_ASK_BORROWING_COUNTERPARTY: {
 		deDE: "Wer hat dir <b>%v</b> geliehen?\n(<i>Sende '.' zum Abbrechen</i>)",
 		enUK: "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)",
-		enUS: "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(US)
+		enUS: "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)",
 		esES: "¿Quién te ha prestado <b>%v</b>?\n(<i>enviar '.' para cancelar</i>)",
 		faIR: "چه کسی به شما <b>%v</b> قرض داده است؟ \n(<i>ارسال '.' برای کنسل کردن</i>)",
-		frFR: "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(FR)
-		idID: "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(ID)
+		frFR: "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)",
+		idID: "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)",
 		itIT: "Chi ti ha prestato <b>%v</b>?\n(<i>Digita '.' ed invia per annullare</i>)",
-		jaJP: "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(JP)
-		koKR: "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(KO)
-		plPL: "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(PL)
-		ptBR: "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(BR)
+		jaJP: "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)",
+		koKR: "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)",
+		plPL: "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)",
+		ptBR: "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)",
 		ruRU: "У кого вы взяли в долг <b>%v</b>?\n(<i>отправьте '.' чтобы отменить</i>)",
-		trTR: "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(TR)
-		ukUA: "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(UA)
-		uzUZ: "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(UZ)
-		zhCN: "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)", //TODO(CN)
+		trTR: "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)",
+		ukUA: "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)",
+		uzUZ: "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)",
+		zhCN: "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)",
 	},
 	MESSAGE_TEXT_YOU_CAN_SEND_RECEIPT: {
 		deDE: "Soll eine <a receipt>Quittung</a> an <a counterparty>%v</a> gesendet werden?",
 		enUK: "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?",
-		enUS: "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?", //TODO(US)
+		enUS: "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?",
 		esES: "¿Debo enviar <a receipt> el recibo</a> a <a counterparty>%v</a>?",
 		faIR: "آیا لازم است ماارسال کنیم یک <a receipt>رسید</a> به <a counterparty>%v</a>?",
-		frFR: "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?", //TODO(FR)
-		idID: "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?", //TODO(ID)
+		frFR: "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?",
+		idID: "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?",
 		itIT: "Devo inviare una <a receipt>notifica</a> a <a counterparty>%v</a>?",
-		jaJP: "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?", //TODO(JP)
-		koKR: "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?", //TODO(KO)
-		plPL: "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?", //TODO(PL)
-		ptBR: "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?", //TODO(BR)
+		jaJP: "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?",
+		koKR: "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?",
+		plPL: "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?",
+		ptBR: "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?",
 		ruRU: "Отправить <a receipt>квитанцию</a> для <a counterparty>%v</a>?",
-		trTR: "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?", //TODO(TR)
-		ukUA: "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?", //TODO(UA)
-		uzUZ: "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?", //TODO(UZ)
-		zhCN: "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?", //TODO(CN)
+		trTR: "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?",
+		ukUA: "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?",
+		uzUZ: "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?",
+		zhCN: "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?",
 	},
 	MESSAGE_TEXT_YOU_CAN_SEND_RECEIPT_TO_YOURSELF_BY_SMS: {
 		deDE: "Entschuldigung, aber eine Quittung selber per SMS zu schicken ist im Moment noch nicht möglich. Aber dafür geht es mit %v.",
 		enUK: "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.",
-		enUS: "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.", //TODO(US)
+		enUS: "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.",
 		esES: "Lo siento, el envio del recibo a ti mismo a través de SMS en este momento está desactivado. Pero lo puedes enviar a %v.",
 		faIR: "متاسفم، درحال حاضرارسال یک رسید به خودتان بوسیله پیام کوتاه امکان پذیر نیست. شما میتوانید آنرا ارسال کنید به  %v از طریق.",
-		frFR: "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.", //TODO(FR)
-		idID: "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.", //TODO(ID)
+		frFR: "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.",
+		idID: "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.",
 		itIT: "Spiacente ma inviarsi da soli una notifica tramite SMS non e' al momento disponibile. Pero' puoi inviarla a %v.",
-		jaJP: "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.", //TODO(JP)
-		koKR: "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.", //TODO(KO)
-		plPL: "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.", //TODO(PL)
-		ptBR: "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.", //TODO(BR)
+		jaJP: "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.",
+		koKR: "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.",
+		plPL: "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.",
+		ptBR: "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.",
 		ruRU: "К сожалению отправка квитанцию себе по СМС в данный момент отключена. Но вы можете отправить её для %v.",
-		trTR: "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.", //TODO(TR)
-		ukUA: "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.", //TODO(UA)
-		uzUZ: "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.", //TODO(UZ)
-		zhCN: "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.", //TODO(CN)
+		trTR: "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.",
+		ukUA: "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.",
+		uzUZ: "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.",
+		zhCN: "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.",
 	},
 	MESSAGE_TEXT_RECEIPT_IS_SENDING_BY_TELEGRAM: {
 		deDE: "Die Quittung wird %v per Telegram geschickt...",
 		enUK: "We are sending receipt to %v by Telegram...",
-		enUS: "We are sending receipt to %v by Telegram...", //TODO(US)
+		enUS: "We are sending receipt to %v by Telegram...",
 		esES: "El recibo está enviando a%v a través de Telegram…",
 		faIR: "مادرحال ارسال رسید به %v از طریق تلگرام هستیم...",
-		frFR: "We are sending receipt to %v by Telegram...", //TODO(FR)
-		idID: "We are sending receipt to %v by Telegram...", //TODO(ID)
+		frFR: "We are sending receipt to %v by Telegram...",
+		idID: "We are sending receipt to %v by Telegram...",
 		itIT: "Sto inviando la notifica a %v tramite Telegram...",
-		jaJP: "We are sending receipt to %v by Telegram...", //TODO(JP)
-		koKR: "We are sending receipt to %v by Telegram...", //TODO(KO)
-		plPL: "We are sending receipt to %v by Telegram...", //TODO(PL)
-		ptBR: "We are sending receipt to %v by Telegram...", //TODO(BR)
+		jaJP: "We are sending receipt to %v by Telegram...",
+		koKR: "We are sending receipt to %v by Telegram...",
+		plPL: "We are sending receipt to %v by Telegram...",
+		ptBR: "We are sending receipt to %v by Telegram...",
 		ruRU: "Отправляем для %v извещение через Telegram...",
-		trTR: "We are sending receipt to %v by Telegram...", //TODO(TR)
-		ukUA: "We are sending receipt to %v by Telegram...", //TODO(UA)
-		uzUZ: "We are sending receipt to %v by Telegram...", //TODO(UZ)
-		zhCN: "We are sending receipt to %v by Telegram...", //TODO(CN)
+		trTR: "We are sending receipt to %v by Telegram...",
+		ukUA: "We are sending receipt to %v by Telegram...",
+		uzUZ: "We are sending receipt to %v by Telegram...",
+		zhCN: "We are sending receipt to %v by Telegram...",
 	},
 	DAY: {
-		deDE: "%v day", //TODO(DE)
+		deDE: "%v day",
 		enUK: "%v day",
-		enUS: "%v day", //TODO(US)
-		esES: "%v day", //TODO(ES)
-		faIR: "%v day", //TODO(FA)
-		frFR: "%v day", //TODO(FR)
-		idID: "%v day", //TODO(ID)
-		itIT: "%v day", //TODO(IT)
-		jaJP: "%v day", //TODO(JP)
-		koKR: "%v day", //TODO(KO)
-		plPL: "%v day", //TODO(PL)
-		ptBR: "%v day", //TODO(BR)
+		enUS: "%v day",
+		esES: "%v day",
+		faIR: "%v day",
+		frFR: "%v day",
+		idID: "%v day",
+		itIT: "%v day",
+		jaJP: "%v day",
+		koKR: "%v day",
+		plPL: "%v day",
+		ptBR: "%v day",
 		ruRU: "%v день",
-		trTR: "%v day", //TODO(TR)
-		ukUA: "%v day", //TODO(UA)
-		uzUZ: "%v day", //TODO(UZ)
-		zhCN: "%v day", //TODO(CN)
+		trTR: "%v day",
+		ukUA: "%v day",
+		uzUZ: "%v day",
+		zhCN: "%v day",
 	},
 	DAYS_234: {
-		deDE: "%v days", //TODO(DE)
+		deDE: "%v days",
 		enUK: "%v days",
-		enUS: "%v days", //TODO(US)
-		esES: "%v days", //TODO(ES)
-		faIR: "%v days", //TODO(FA)
-		frFR: "%v days", //TODO(FR)
-		idID: "%v days", //TODO(ID)
-		itIT: "%v days", //TODO(IT)
-		jaJP: "%v days", //TODO(JP)
-		koKR: "%v days", //TODO(KO)
-		plPL: "%v days", //TODO(PL)
-		ptBR: "%v days", //TODO(BR)
+		enUS: "%v days",
+		esES: "%v days",
+		faIR: "%v days",
+		frFR: "%v days",
+		idID: "%v days",
+		itIT: "%v days",
+		jaJP: "%v days",
+		koKR: "%v days",
+		plPL: "%v days",
+		ptBR: "%v days",
 		ruRU: "%v дня",
-		trTR: "%v days", //TODO(TR)
-		ukUA: "%v days", //TODO(UA)
-		uzUZ: "%v days", //TODO(UZ)
-		zhCN: "%v days", //TODO(CN)
+		trTR: "%v days",
+		ukUA: "%v days",
+		uzUZ: "%v days",
+		zhCN: "%v days",
 	},
 	DAYS: {
-		deDE: "%v days", //TODO(DE)
+		deDE: "%v days",
 		enUK: "%v days",
-		enUS: "%v days", //TODO(US)
-		esES: "%v days", //TODO(ES)
-		faIR: "%v days", //TODO(FA)
-		frFR: "%v days", //TODO(FR)
-		idID: "%v days", //TODO(ID)
-		itIT: "%v days", //TODO(IT)
-		jaJP: "%v days", //TODO(JP)
-		koKR: "%v days", //TODO(KO)
-		plPL: "%v days", //TODO(PL)
-		ptBR: "%v days", //TODO(BR)
+		enUS: "%v days",
+		esES: "%v days",
+		faIR: "%v days",
+		frFR: "%v days",
+		idID: "%v days",
+		itIT: "%v days",
+		jaJP: "%v days",
+		koKR: "%v days",
+		plPL: "%v days",
+		ptBR: "%v days",
 		ruRU: "%v дней",
-		trTR: "%v days", //TODO(TR)
-		ukUA: "%v days", //TODO(UA)
-		uzUZ: "%v days", //TODO(UZ)
-		zhCN: "%v days", //TODO(CN)
+		trTR: "%v days",
+		ukUA: "%v days",
+		uzUZ: "%v days",
+		zhCN: "%v days",
 	},
 	MESSAGE_TEXT_INTEREST_PLEASE_SPECIFY_PERIOD: {
-		deDE: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?", //TODO(DE)
+		deDE: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?",
 		enUK: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?",
-		enUS: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?", //TODO(US)
-		esES: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?", //TODO(ES)
-		faIR: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?", //TODO(FA)
-		frFR: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?", //TODO(FR)
-		idID: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?", //TODO(ID)
-		itIT: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?", //TODO(IT)
-		jaJP: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?", //TODO(JP)
-		koKR: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?", //TODO(KO)
-		plPL: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?", //TODO(PL)
-		ptBR: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?", //TODO(BR)
+		enUS: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?",
+		esES: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?",
+		faIR: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?",
+		frFR: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?",
+		idID: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?",
+		itIT: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?",
+		jaJP: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?",
+		koKR: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?",
+		plPL: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?",
+		ptBR: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?",
 		ruRU: "Пожалуйста укажите также процентный период, т.е. уточните %%v%% это процент за какое количество дней?",
-		trTR: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?", //TODO(TR)
-		ukUA: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?", //TODO(UA)
-		uzUZ: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?", //TODO(UZ)
-		zhCN: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?", //TODO(CN)
+		trTR: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?",
+		ukUA: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?",
+		uzUZ: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?",
+		zhCN: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?",
 	},
 	MESSAGE_TEXT_INTEREST: {
-		deDE: "<b>Interest</b>: %v%% per %v", //TODO(DE)
+		deDE: "<b>Interest</b>: %v%% per %v",
 		enUK: "<b>Interest</b>: %v%% per %v",
-		enUS: "<b>Interest</b>: %v%% per %v", //TODO(US)
-		esES: "<b>Interest</b>: %v%% per %v", //TODO(ES)
-		faIR: "<b>Interest</b>: %v%% per %v", //TODO(FA)
-		frFR: "<b>Interest</b>: %v%% per %v", //TODO(FR)
-		idID: "<b>Interest</b>: %v%% per %v", //TODO(ID)
-		itIT: "<b>Interest</b>: %v%% per %v", //TODO(IT)
-		jaJP: "<b>Interest</b>: %v%% per %v", //TODO(JP)
-		koKR: "<b>Interest</b>: %v%% per %v", //TODO(KO)
-		plPL: "<b>Interest</b>: %v%% per %v", //TODO(PL)
-		ptBR: "<b>Interest</b>: %v%% per %v", //TODO(BR)
+		enUS: "<b>Interest</b>: %v%% per %v",
+		esES: "<b>Interest</b>: %v%% per %v",
+		faIR: "<b>Interest</b>: %v%% per %v",
+		frFR: "<b>Interest</b>: %v%% per %v",
+		idID: "<b>Interest</b>: %v%% per %v",
+		itIT: "<b>Interest</b>: %v%% per %v",
+		jaJP: "<b>Interest</b>: %v%% per %v",
+		koKR: "<b>Interest</b>: %v%% per %v",
+		plPL: "<b>Interest</b>: %v%% per %v",
+		ptBR: "<b>Interest</b>: %v%% per %v",
 		ruRU: "<b>Ставка</b>: %v%% за %v",
-		trTR: "<b>Interest</b>: %v%% per %v", //TODO(TR)
-		ukUA: "<b>Interest</b>: %v%% per %v", //TODO(UA)
-		uzUZ: "<b>Interest</b>: %v%% per %v", //TODO(UZ)
-		zhCN: "<b>Interest</b>: %v%% per %v", //TODO(CN)
+		trTR: "<b>Interest</b>: %v%% per %v",
+		ukUA: "<b>Interest</b>: %v%% per %v",
+		uzUZ: "<b>Interest</b>: %v%% per %v",
+		zhCN: "<b>Interest</b>: %v%% per %v",
 	},
 	MESSAGE_TEXT_INTEREST_MIN_PERIOD: {
-		deDE: "minimum period %v", //TODO(DE)
+		deDE: "minimum period %v",
 		enUK: "minimum period %v",
-		enUS: "minimum period %v", //TODO(US)
-		esES: "minimum period %v", //TODO(ES)
-		faIR: "minimum period %v", //TODO(FA)
-		frFR: "minimum period %v", //TODO(FR)
-		idID: "minimum period %v", //TODO(ID)
-		itIT: "minimum period %v", //TODO(IT)
-		jaJP: "minimum period %v", //TODO(JP)
-		koKR: "minimum period %v", //TODO(KO)
-		plPL: "minimum period %v", //TODO(PL)
-		ptBR: "minimum period %v", //TODO(BR)
+		enUS: "minimum period %v",
+		esES: "minimum period %v",
+		faIR: "minimum period %v",
+		frFR: "minimum period %v",
+		idID: "minimum period %v",
+		itIT: "minimum period %v",
+		jaJP: "minimum period %v",
+		koKR: "minimum period %v",
+		plPL: "minimum period %v",
+		ptBR: "minimum period %v",
 		ruRU: "минимальный период %v",
-		trTR: "minimum period %v", //TODO(TR)
-		ukUA: "minimum period %v", //TODO(UA)
-		uzUZ: "minimum period %v", //TODO(UZ)
-		zhCN: "minimum period %v", //TODO(CN)
+		trTR: "minimum period %v",
+		ukUA: "minimum period %v",
+		uzUZ: "minimum period %v",
+		zhCN: "minimum period %v",
 	},
 	MESSAGE_TEXT_RECEIPT_NEW_DEBT_FROM_USER: {
 		deDE: "{{.Counterparty}} schuldet dir {{.Amount}} .",
 		enUK: "{{.Counterparty}} borrowed from you {{.Amount}}.",
-		enUS: "{{.Counterparty}} borrowed from you {{.Amount}}.", //TODO(US)
+		enUS: "{{.Counterparty}} borrowed from you {{.Amount}}.",
 		esES: "{{.Counterparty}} prestado por tí {{.Amount}}.",
 		faIR: "{{.Counterparty}} از شما {{.Amount}} قرض گرفته است .",
-		frFR: "{{.Counterparty}} borrowed from you {{.Amount}}.", //TODO(FR)
-		idID: "{{.Counterparty}} borrowed from you {{.Amount}}.", //TODO(ID)
+		frFR: "{{.Counterparty}} borrowed from you {{.Amount}}.",
+		idID: "{{.Counterparty}} borrowed from you {{.Amount}}.",
 		//itIT:   "{{.Counterparty}} ha preso in prestito da te {{.Amount}}.",
 		itIT: "{{.Counterparty}} e' in debito di {{.Amount}} con te.",
-		jaJP: "{{.Counterparty}} borrowed from you {{.Amount}}.", //TODO(JP)
-		koKR: "{{.Counterparty}} borrowed from you {{.Amount}}.", //TODO(KO)
-		plPL: "{{.Counterparty}} borrowed from you {{.Amount}}.", //TODO(PL)
-		ptBR: "{{.Counterparty}} borrowed from you {{.Amount}}.", //TODO(BR)
+		jaJP: "{{.Counterparty}} borrowed from you {{.Amount}}.",
+		koKR: "{{.Counterparty}} borrowed from you {{.Amount}}.",
+		plPL: "{{.Counterparty}} borrowed from you {{.Amount}}.",
+		ptBR: "{{.Counterparty}} borrowed from you {{.Amount}}.",
 		ruRU: "{{.Counterparty}} взял(а) в долг {{.Amount}}.",
-		trTR: "{{.Counterparty}} borrowed from you {{.Amount}}.", //TODO(TR)
-		ukUA: "{{.Counterparty}} borrowed from you {{.Amount}}.", //TODO(UA)
-		uzUZ: "{{.Counterparty}} borrowed from you {{.Amount}}.", //TODO(UZ)
-		zhCN: "{{.Counterparty}} borrowed from you {{.Amount}}.", //TODO(CN)
+		trTR: "{{.Counterparty}} borrowed from you {{.Amount}}.",
+		ukUA: "{{.Counterparty}} borrowed from you {{.Amount}}.",
+		uzUZ: "{{.Counterparty}} borrowed from you {{.Amount}}.",
+		zhCN: "{{.Counterparty}} borrowed from you {{.Amount}}.",
 	},
 	MESSAGE_TEXT_RECEIPT_NEW_DEBT_TO_USER: {
 		deDE: "{{.Counterparty}} hat dir {{.Amount}} geliehen.",
 		enUK: "{{.Counterparty}} lended to you {{.Amount}}.",
-		enUS: "{{.Counterparty}} lended to you {{.Amount}}.", //TODO(US)
+		enUS: "{{.Counterparty}} lended to you {{.Amount}}.",
 		esES: "{{.Counterparty}} prestado a mí {{.Amount}}.",
 		faIR: "{{.Counterparty}} به شما {{.Amount}} قرض داده است .",
-		frFR: "{{.Counterparty}} lended to you {{.Amount}}.", //TODO(FR)
-		idID: "{{.Counterparty}} lended to you {{.Amount}}.", //TODO(ID)
+		frFR: "{{.Counterparty}} lended to you {{.Amount}}.",
+		idID: "{{.Counterparty}} lended to you {{.Amount}}.",
 		itIT: "{{.Counterparty}} ti ha prestato {{.Amount}}.",
-		jaJP: "{{.Counterparty}} lended to you {{.Amount}}.", //TODO(JP)
-		koKR: "{{.Counterparty}} lended to you {{.Amount}}.", //TODO(KO)
-		plPL: "{{.Counterparty}} lended to you {{.Amount}}.", //TODO(PL)
-		ptBR: "{{.Counterparty}} lended to you {{.Amount}}.", //TODO(BR)
+		jaJP: "{{.Counterparty}} lended to you {{.Amount}}.",
+		koKR: "{{.Counterparty}} lended to you {{.Amount}}.",
+		plPL: "{{.Counterparty}} lended to you {{.Amount}}.",
+		ptBR: "{{.Counterparty}} lended to you {{.Amount}}.",
 		ruRU: "{{.Counterparty}} дал(а) вам в долг {{.Amount}}.",
-		trTR: "{{.Counterparty}} lended to you {{.Amount}}.", //TODO(TR)
-		ukUA: "{{.Counterparty}} lended to you {{.Amount}}.", //TODO(UA)
-		uzUZ: "{{.Counterparty}} lended to you {{.Amount}}.", //TODO(UZ)
-		zhCN: "{{.Counterparty}} lended to you {{.Amount}}.", //TODO(CN)
+		trTR: "{{.Counterparty}} lended to you {{.Amount}}.",
+		ukUA: "{{.Counterparty}} lended to you {{.Amount}}.",
+		uzUZ: "{{.Counterparty}} lended to you {{.Amount}}.",
+		zhCN: "{{.Counterparty}} lended to you {{.Amount}}.",
 	},
 	MESSAGE_TEXT_RECEIPT_RETURN_FROM_USER: {
 		deDE: "Du hast {{.Amount}} an {{.Counterparty}} beglichen.",
 		enUK: "You returned {{.Amount}} to {{.Counterparty}}.",
-		enUS: "You returned {{.Amount}} to {{.Counterparty}}.", //TODO(US)
+		enUS: "You returned {{.Amount}} to {{.Counterparty}}.",
 		esES: "Has devuelto {{.Amount}} a {{.Counterparty}}.",
 		faIR: "شما بازگردانده اید {{.Amount}} به {{.Counterparty}}.",
-		frFR: "You returned {{.Amount}} to {{.Counterparty}}.", //TODO(FR)
-		idID: "You returned {{.Amount}} to {{.Counterparty}}.", //TODO(ID)
+		frFR: "You returned {{.Amount}} to {{.Counterparty}}.",
+		idID: "You returned {{.Amount}} to {{.Counterparty}}.",
 		itIT: "Hai ridato {{.Amount}} a {{.Counterparty}}.",
-		jaJP: "You returned {{.Amount}} to {{.Counterparty}}.", //TODO(JP)
-		koKR: "You returned {{.Amount}} to {{.Counterparty}}.", //TODO(KO)
-		plPL: "You returned {{.Amount}} to {{.Counterparty}}.", //TODO(PL)
-		ptBR: "You returned {{.Amount}} to {{.Counterparty}}.", //TODO(BR)
+		jaJP: "You returned {{.Amount}} to {{.Counterparty}}.",
+		koKR: "You returned {{.Amount}} to {{.Counterparty}}.",
+		plPL: "You returned {{.Amount}} to {{.Counterparty}}.",
+		ptBR: "You returned {{.Amount}} to {{.Counterparty}}.",
 		ruRU: "Вы вернули долг - {{.Counterparty}} получил(а) {{.Amount}}.",
-		trTR: "You returned {{.Amount}} to {{.Counterparty}}.", //TODO(TR)
-		ukUA: "You returned {{.Amount}} to {{.Counterparty}}.", //TODO(UA)
-		uzUZ: "You returned {{.Amount}} to {{.Counterparty}}.", //TODO(UZ)
-		zhCN: "You returned {{.Amount}} to {{.Counterparty}}.", //TODO(CN)
+		trTR: "You returned {{.Amount}} to {{.Counterparty}}.",
+		ukUA: "You returned {{.Amount}} to {{.Counterparty}}.",
+		uzUZ: "You returned {{.Amount}} to {{.Counterparty}}.",
+		zhCN: "You returned {{.Amount}} to {{.Counterparty}}.",
 	},
 	MESSAGE_TEXT_RECEIPT_RETURN_TO_USER: {
 		deDE: "{{.Counterparty}} hat dir {{.Amount}} beglichen.",
 		enUK: "{{.Counterparty}} returned to you {{.Amount}}.",
-		enUS: "{{.Counterparty}} returned to you {{.Amount}}.", //TODO(US)
+		enUS: "{{.Counterparty}} returned to you {{.Amount}}.",
 		esES: "{{.Counterparty}} te ha devuelto {{.Amount}}.",
 		faIR: "{{.Counterparty}} به شما بازپرداخت کرده است {{.Amount}}.",
-		frFR: "{{.Counterparty}} returned to you {{.Amount}}.", //TODO(FR)
-		idID: "{{.Counterparty}} returned to you {{.Amount}}.", //TODO(ID)
+		frFR: "{{.Counterparty}} returned to you {{.Amount}}.",
+		idID: "{{.Counterparty}} returned to you {{.Amount}}.",
 		itIT: "{{.Counterparty}} ti ha ridato {{.Amount}}.",
-		jaJP: "{{.Counterparty}} returned to you {{.Amount}}.", //TODO(JP)
-		koKR: "{{.Counterparty}} returned to you {{.Amount}}.", //TODO(KO)
-		plPL: "{{.Counterparty}} returned to you {{.Amount}}.", //TODO(PL)
-		ptBR: "{{.Counterparty}} returned to you {{.Amount}}.", //TODO(BR)
+		jaJP: "{{.Counterparty}} returned to you {{.Amount}}.",
+		koKR: "{{.Counterparty}} returned to you {{.Amount}}.",
+		plPL: "{{.Counterparty}} returned to you {{.Amount}}.",
+		ptBR: "{{.Counterparty}} returned to you {{.Amount}}.",
 		ruRU: "{{.Counterparty}} вернул вам {{.Amount}}.",
-		trTR: "{{.Counterparty}} returned to you {{.Amount}}.", //TODO(TR)
-		ukUA: "{{.Counterparty}} returned to you {{.Amount}}.", //TODO(UA)
-		uzUZ: "{{.Counterparty}} returned to you {{.Amount}}.", //TODO(UZ)
-		zhCN: "{{.Counterparty}} returned to you {{.Amount}}.", //TODO(CN)
+		trTR: "{{.Counterparty}} returned to you {{.Amount}}.",
+		ukUA: "{{.Counterparty}} returned to you {{.Amount}}.",
+		uzUZ: "{{.Counterparty}} returned to you {{.Amount}}.",
+		zhCN: "{{.Counterparty}} returned to you {{.Amount}}.",
 	},
 	MESSAGE_TEXT_TRANSFER_ALREADY_FULLY_RETURNED: {
 		deDE: "Diese Schuld ist bereits vollständig beglichen.",
 		enUK: "This debts is already fully returned.",
 		esES: "Esta deuda se ha devuelta totalmente.",
-		itIT: "Questi debiti sono già completamente restituiti.", // TODO(IT) verify
-		faIR: "این بدهی ها در حال حاضر به طور کامل بازگشته است.", // TODO(FA) verify
+		itIT: "Questi debiti sono già completamente restituiti.",
+		faIR: "این بدهی ها در حال حاضر به طور کامل بازگشته است.",
 		ruRU: "Этот долг уже полностью возвращён.",
 	},
 	MESSAGE_TEXT_RECEIPT_ALREADY_RETURNED_AMOUNT: {
 		deDE: "Bereits beglichen: {{.Amount}}.",
 		enUK: "Already returned: {{.Amount}}.",
 		esES: "Se ha devuelto ya: {{.Amount}}.",
-		faIR: "قبلا برگشت: {{.Amount}}.",     // TODO(FA) - verify
-		itIT: "Già restituito: {{.Amount}}.", // TODO(IT) - verify
+		faIR: "قبلا برگشت: {{.Amount}}.",
+		itIT: "Già restituito: {{.Amount}}.",
 		ruRU: "Уже возвращено: {{.Amount}}.",
 	},
 	MESSAGE_TEXT_RECEIPT_OUTSTANDING_AMOUNT: {
 		deDE: "Ausstehend: {{.Amount}}.",
 		enUK: "Outstanding: {{.Amount}}.",
 		esES: "Falta devolver: {{.Amount}}.",
-		faIR: "برجسته: {{.Amount}}",  // TODO(FA) verify
-		itIT: "Inevaso: {{.Amount}}", // TODO(IT) verify
+		faIR: "برجسته: {{.Amount}}",
+		itIT: "Inevaso: {{.Amount}}",
 		ruRU: "Осталось вернуть: {{.Amount}}.",
 	},
 	MESSAGE_TEXT_DUE_ON: {
@@ -4656,8 +4656,8 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 		deDE: `<b>Rechnung</b>: <code>%v</code> — %v`,
 		enUK: `<b>Bill</b>: <code>%v</code> — %v`,
 		esES: `<b>Cuenta</b>: <code>%v</code> — %v`,
-		faIR: "<b>Bill</b>: <code>%v</code> — %v", // TODO(FA)
-		itIT: "<b>Bill</b>: <code>%v</code> — %v", // TODO(IT)
+		faIR: "<b>Bill</b>: <code>%v</code> — %v",
+		itIT: "<b>Bill</b>: <code>%v</code> — %v",
 		ruRU: `<b>Cчёт</b>: <code>%v</code> — %v`,
 	},
 	MESSAGE_TEXT_MEMBERS_TITLE: {
@@ -4665,10 +4665,10 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 		enUK: "Members",
 		enUS: "Members",
 		esES: "Miembros",
-		faIR: "اعضا", // TODO(FA) verify
+		faIR: "اعضا",
 		frFR: "Membres",
 		idID: "Anggota",
-		itIT: "Membri", // TODO(IT)
+		itIT: "Membri",
 		jaJP: "メンバー",
 		koKR: "멤버",
 		plPL: "Członkowie",
@@ -4682,28 +4682,28 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	ALERT_TEXT_NOTHING_CHANGED: {
 		deDE: "Nichts geändert",
 		enUK: "Nothing changed",
-		esES: "Nada ha cambiado",     // TODO(ES)
-		faIR: "چیزی تغییر نکرده است", // TODO(FA) verify
-		itIT: "Niente è cambiato",    // TODO(IT) verify
+		esES: "Nada ha cambiado",
+		faIR: "چیزی تغییر نکرده است",
+		itIT: "Niente è cambiato",
 		ruRU: "Ничего не изменилось",
 	},
 	ALERT_TEXT_YOU_ARE_ALREADY_MEMBER_OF_THE_GROUP: {
 		deDE: "Du bist schon Mitglied beim Teilen dieser Rechnung.",
 		enUK: "You are already a member of this bill splitting group.",
-		esES: "Ya es miembro de este grupo de división de facturas.",  // TODO(ES)
-		faIR: "شما قبلا عضو این گروه تقسیم لایحه هستید.",              // TODO(FA)
-		itIT: "Sei già membro di questo gruppo di divisione fatture.", // TODO(IT)
+		esES: "Ya es miembro de este grupo de división de facturas.",
+		faIR: "شما قبلا عضو این گروه تقسیم لایحه هستید.",
+		itIT: "Sei già membro di questo gruppo di divisione fatture.",
 		ruRU: "Вы уже участник этой группы по совместной оплате счетов.",
 	},
 	MESSAGE_TEXT_YOUR_BILL_SPLITTING_GROUPS: {
 		deDE: "Gruppen, mit denen du Rechnungen teilst",
 		enUK: "Your bills splitting groups",
 		enUS: "Your bills splitting groups",
-		esES: "Ya es miembro de este grupo de división de facturas.", // TODO(ES) verify
-		faIR: "شما قبلا عضو این گروه تقسیم لایحه هستید.",             // TODO(FA) verify
+		esES: "Ya es miembro de este grupo de división de facturas.",
+		faIR: "شما قبلا عضو این گروه تقسیم لایحه هستید.",
 		frFR: "Vos groupes de partage de factures",
 		idID: "Grup pembagian tagihan Anda",
-		itIT: "Sei già membro di questo gruppo di divisione fatture.", // TODO(IT) verify
+		itIT: "Sei già membro di questo gruppo di divisione fatture.",
 		jaJP: "あなたの請求書分割グループ",
 		koKR: "귀하의 청구서 분할 그룹",
 		plPL: "Twoje grupy dzielenia rachunków",
@@ -4717,62 +4717,62 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	},
 	MESSAGE_TEXT_USE_ARROWS_TO_SELECT_GROUP: {
 		enUK: "Use ⬅️ & ➡️ to select group",
-		esES: "Usa ⬅️ y ➡️ para seleccionar el grupo",    // TODO(ES) verify
-		faIR: "برای انتخاب گروه از ⬅️ & ❢️ استفاده کنید", // TODO(FA) verify
-		itIT: "Usare ⬅️ & ➡️ per selezionare il gruppo",  // TODO(IT) verify
+		esES: "Usa ⬅️ y ➡️ para seleccionar el grupo",
+		faIR: "برای انتخاب گروه از ⬅️ & ❢️ استفاده کنید",
+		itIT: "Usare ⬅️ & ➡️ per selezionare il gruppo",
 		ruRU: "Используйте ⬅️ и ➡️ чтобы выбрать группу.",
 	},
 	MESSAGE_TEXT_NO_GROUPS: {
 		deDE: "Du gehörst zu keiner Gruppe, die sich Rechnungen teilt.",
 		enUK: "You are not a participant of any bill splitting group.",
-		esES: "Usted no es participante de ningún grupo de división de facturas.", // TODO(ES) verify
-		faIR: "شما شرکت کننده در هر گروه تقسیم لایحه نیستید.",                     // TODO(FA) verify
-		itIT: "Non sei un partecipante a qualsiasi gruppo di divisione fatture.",  // TODO(IT) verify
+		esES: "Usted no es participante de ningún grupo de división de facturas.",
+		faIR: "شما شرکت کننده در هر گروه تقسیم لایحه نیستید.",
+		itIT: "Non sei un partecipante a qualsiasi gruppo di divisione fatture.",
 		ruRU: "Вы не состоите в группах совместной оплаты.",
 	},
 	MESSAGE_TEXT_USER_JOINED_GROUP: {
 		deDE: `Hi %v, du bist der Gruppe, die sich Rechnungen teilt, beigetreten.`,
 		enUK: `Hi %v, you joined this bill splitting group.`,
-		faIR: "سلام %v، شما به گروه تقسیم این لایحه پیوستید",              // TODO(FA) verify
-		itIT: "Hi %v, sei entrato in questo gruppo di divisione fatture.", // TODO(IT) verify
+		faIR: "سلام %v، شما به گروه تقسیم این لایحه پیوستید",
+		itIT: "Hi %v, sei entrato in questo gruppo di divisione fatture.",
 		ruRU: `Привет %v, вы присоеденились к этой группе по совместной оплате счетов.
 		`,
 	},
 	MESSAGE_TEXT_MEMBERS_CARD_TITLE: {
 		deDE: "<b>Wer sich die Rechnung teilt</b> (%d)",
 		enUK: "<b>Bills splitting members</b> (%d)",
-		faIR: "(%d) <b>نقض تقسیم اعضا</b>",                     // TODO(FA) verify
-		itIT: "<b>Membri di divisione delle bollette</b> (%d)", // TODO(IT) verify
+		faIR: "(%d) <b>نقض تقسیم اعضا</b>",
+		itIT: "<b>Membri di divisione delle bollette</b> (%d)",
 		ruRU: "<b>Участники совместных оплат</b> (%d)",
 	},
 	MESSAGE_TEXT_SPLIT_MODE: {
 		deDE: "<b>Teilen</b>: %v",
 		enUK: "<b>Split</b>: %v",
-		esES: "<b>División</b>: %v", // TODO(ES) verify
-		faIR: "<b>شکاف</b>: %v",     // TODO(FA) verify
-		itIT: "<b>Diviso</b>: %v",   // TODO(IT) verify
+		esES: "<b>División</b>: %v",
+		faIR: "<b>شکاف</b>: %v",
+		itIT: "<b>Diviso</b>: %v",
 		ruRU: "<b>Делить</b>: %v",
 	},
 	MESSAGE_TEXT_ASK_HOW_TO_SPLIT_IN_GROP: {
 		deDE: "In welchem Verhältnis teilt ihr in dieser Gruppe eure Rechnungen?",
 		enUK: "In what proportion do you split bills in this group?",
-		esES: "¿En qué proporción divide las facturas en este grupo?",     // TODO(ES) verify
-		faIR: "در این سهم، آیا شما در این گروه حساب ها را تقسیم می کنید؟", // TODO(FA) verify
-		itIT: "In quale percentuale dividi le fatture in questo gruppo?",  // TODO(IT) verify
+		esES: "¿En qué proporción divide las facturas en este grupo?",
+		faIR: "در این سهم، آیا شما در این گروه حساب ها را تقسیم می کنید؟",
+		itIT: "In quale percentuale dividi le fatture in questo gruppo?",
 		ruRU: "В какой пропорции вы делите счета в этой группе?",
 	},
 	MESSAGE_TEXT_MEMBERS_CARD_FOOTER: {
 		deDE: "Klick <code>Join</code>, um auch Rechnungen zu teilen.",
 		enUK: "Click <code>Join</code> to participate in bills splitting.",
-		esES: "¿En qué proporción divide las facturas en este grupo?",     // TODO(ES) verify
-		faIR: "در این سهم، آیا شما در این گروه حساب ها را تقسیم می کنید؟", // TODO(FA) verify
-		itIT: "In quale percentuale dividi le fatture in questo gruppo?",  // TODO(IT) verify
+		esES: "¿En qué proporción divide las facturas en este grupo?",
+		faIR: "در این سهم، آیا شما در این گروه حساب ها را تقسیم می کنید؟",
+		itIT: "In quale percentuale dividi le fatture in questo gruppo?",
 		ruRU: "Жмите <code>Присоедениться</code> чтобы учавствовать.",
 	},
 	MESSAGE_TEXT_BILL_CARD_MEMBER_TITLE: {
 		enUK: "{{.N}}. {{.MemberName}}",
 		esES: "{{.N}}. {{.MemberName}}",
-		faIR: "{{.N}}. {{.MemberName}}", // TODO(FA) verify
+		faIR: "{{.N}}. {{.MemberName}}",
 		itIT: "{{.N}}. {{.MemberName}}",
 		ruRU: "{{.N}}. {{.MemberName}}",
 	},
@@ -4780,7 +4780,7 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 		deDE: "<i>{{.Percent}}%</i>",
 		enUK: "<i>{{.Percent}}%</i>",
 		esES: "<i>{{.Percent}}%</i>",
-		faIR: "<i>{{.Percent}}%</i>", // TODO(FA) verify
+		faIR: "<i>{{.Percent}}%</i>",
 		itIT: "<i>{{.Percent}}%</i>",
 		ruRU: "<i>{{.Percent}}%</i>",
 	},
@@ -4789,84 +4789,84 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 		enUK: "\n   <i>owes {{.Owes}}</i>",
 		esES: "\n   <i>debo {{.Owes}}</i>",
 		ruRU: "\n   <i>должен {{.Owes}}</i>",
-		faIR: "\n   <i>بدهکار است {{.Owes}}</i>", // TODO(FA) verify
+		faIR: "\n   <i>بدهکار است {{.Owes}}</i>",
 	},
 	MESSAGE_TEXT_BILL_CARD_MEMBERS_ROW_PAID: {
 		deDE: "\n   <i>bezahlte {{.Paid}}</i>",
 		enUK: "\n   <i>paid {{.Paid}}</i>",
 		esES: "\n   <i>he pagado {{.Paid}}</i>",
 		ruRU: "\n   <i>заплатил {{.Paid}}</i>",
-		faIR: "\n   <i>پرداخت شده {{.Paid}}</i>", // TODO(FA) verify
+		faIR: "\n   <i>پرداخت شده {{.Paid}}</i>",
 	},
 	MESSAGE_TEXT_BILL_CARD_MEMBERS_ROW_PART_PAID: {
 		deDE: "\n<i>bezahlte {{.Paid}}, schuldet noch {{.Owes}}</i>",
 		enUK: "\n<i>paid {{.Paid}}, owes {{.Owes}}</i>",
 		esES: "\n<i>he pagado {{.Paid}}, debo {{.Owes}}</i>",
 		ruRU: "\n<i>заплатил {{.Paid}}, должен {{.Owes}}</i>",
-		faIR: "\n<i>پرداخت شده {{.Paid}}, بدهکار است {{.Owes}}</i>", // TODO(FA) verify
+		faIR: "\n<i>پرداخت شده {{.Paid}}, بدهکار است {{.Owes}}</i>",
 	},
 	MESSAGE_TEXT_BILL_ASK_WHO_PAID: {
 		deDE: "Bitte wähle, wer die Rechnung gezahlt hat:",
 		enUK: "Please choose who paid for the bill:",
 		esES: "Por favor, elige quien ha pagado la cuenta:",
-		faIR: "لطفا انتخاب کنید که چه کسانی برای این لایحه پرداخت کرده اند:", // TODO(FA) verify
-		itIT: "Scegliere chi ha pagato la fattura:",                          // TODO(IT) verify
+		faIR: "لطفا انتخاب کنید که چه کسانی برای این لایحه پرداخت کرده اند:",
+		itIT: "Scegliere chi ha pagato la fattura:",
 		ruRU: "Пожалуйста выберите кто заплатил по счёту:",
 	},
 	MESSAGE_TEXT_STATUS: {
 		deDE: "Status: %v",
 		enUK: "Status: %v",
 		esES: "Estado: %v",
-		faIR: "وضعیت: %v", // TODO(FA) verify
-		itIT: "Stato: %v", // TODO(IT) verify
+		faIR: "وضعیت: %v",
+		itIT: "Stato: %v",
 		ruRU: "Статус: %v",
 	},
 	BUTTON_TEXT_ADD_MEMBER: {
 		deDE: "Partei hinzufügen",
 		enUK: "Add participant",
 		esES: "Añadir participante",
-		faIR: "افزودن مشارکت کننده",   // TODO(FA) verify
-		itIT: "Aggiungi partecipante", // TODO(IT) verify
+		faIR: "افزودن مشارکت کننده",
+		itIT: "Aggiungi partecipante",
 		ruRU: "Добавить участника",
 	},
 	BUTTON_TEXT_FINALIZE_BILL: {
 		deDE: "🔓 Rechnung abschließen",
 		enUK: "🔓 Lock the bill",
 		esES: "🔓 Cerrar la cuenta",
-		faIR: "🔓 لایحه را قفل کنید", // TODO(FA) verify
-		itIT: "🔓 Bloccare il conto", // TODO(IT) verify
+		faIR: "🔓 لایحه را قفل کنید",
+		itIT: "🔓 Bloccare il conto",
 		ruRU: "🔓 Закрыть счёт",
 	},
 	BUTTON_TEXT_EDIT_BILL: {
 		deDE: "✏️ Bearbeiten",
 		enUK: "✏️ Edit",
 		esES: "✏️ Editar",
-		faIR: "✏️ ویرایش",   // TODO(FA) verify
-		itIT: "✏️ Modifica", // TODO(IT) verify
+		faIR: "✏️ ویرایش",
+		itIT: "✏️ Modifica",
 		ruRU: "✏️ Изменить",
 	},
 	BUTTON_TEXT_SPLIT_MODE: {
 		deDE: "➗ Teilen: %v",
 		enUK: "➗ Split: %v",
 		esES: "➗ Dividir: %v",
-		faIR: "➗ تقسیم: %v", // TODO(FA) verify
-		itIT: "➗ Split: %v", // TODO(IT) verify
+		faIR: "➗ تقسیم: %v",
+		itIT: "➗ Split: %v",
 		ruRU: "➗ Делить: %v",
 	},
 	MESSAGE_TEXT_SPLIT_LABEL_WITH_VALUE: {
 		deDE: "Teilen: %v",
 		enUK: "Split: %v",
 		esES: "Dividir: %v",
-		faIR: "تقسیم: %v", // TODO(FA) verify
-		itIT: "Split: %v", // TODO(IT) verify
+		faIR: "تقسیم: %v",
+		itIT: "Split: %v",
 		ruRU: "Делить: %v",
 	},
 	STATUS_DRAFT: {
 		deDE: "Entwurf",
 		enUK: "draft",
 		esES: "borrador",
-		faIR: "پیش نویس", // TODO(FA) verify
-		itIT: "bozza",    // TODO(IT) verify
+		faIR: "پیش نویس",
+		itIT: "bozza",
 		ruRU: "черновик",
 	},
 	SPLIT_MODE_EQUALLY: {
@@ -4874,47 +4874,47 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 		enUK: "Equally",
 		esES: "A partes iguales",
 		ruRU: "Поровну",
-		faIR: "به همان اندازه", // TODO(FA) verify
-		itIT: "Ugualmente",     // TODO(IT) verify
+		faIR: "به همان اندازه",
+		itIT: "Ugualmente",
 	},
 	SPLIT_MODE_PERCENTAGE: {
 		deDE: "Prozentual",
 		enUK: "Percentage",
 		esES: "Porcentaje",
-		faIR: "درصد",        // TODO(FA)
-		itIT: "Percentuale", // TODO(IT) verify
+		faIR: "درصد",
+		itIT: "Percentuale",
 		ruRU: "В процентах",
 	},
 	SPLIT_MODE_EXACT_AMOUNT: {
 		deDE: "Exakte Summen",
 		enUK: "Exact amounts",
 		esES: "Importes exactos",
-		faIR: "مقادیر دقیق",     // TODO(FA) verify
-		itIT: "Quantità esatte", // TODO(IT) verify
+		faIR: "مقادیر دقیق",
+		itIT: "Quantità esatte",
 		ruRU: "Точные суммы",
 	},
 	SPLIT_MODE_SHARES: {
 		deDE: "Teilen",
 		enUK: "Shares",
 		esES: "Proporciones",
-		faIR: "سهام",   // TODO(FA) verify
-		itIT: "Azioni", // TODO(IT) verify
+		faIR: "سهام",
+		itIT: "Azioni",
 		ruRU: "В долях",
 	},
 	BUTTON_TEXT_JOIN: {
 		deDE: "➕ Beitreten",
 		enUK: "➕ Join",
 		esES: "➕ Adherirse",
-		faIR: "➕ عضویت", // TODO(FA) verify
-		itIT: "➕ Join",  // TODO(IT) verify
+		faIR: "➕ عضویت",
+		itIT: "➕ Join",
 		ruRU: "➕ Присоедениться",
 	},
 	BUTTON_TEXT_LEAVE: {
 		deDE: "Verlassen",
 		enUK: "Leave",
-		esES: "Salir",    // TODO(ES) verify
-		faIR: "ترک کردن", // TODO(FA) verify
-		itIT: "Partire",  // TODO(IT) verify
+		esES: "Salir",
+		faIR: "ترک کردن",
+		itIT: "Partire",
 		ruRU: "Покинуть",
 	},
 	BUTTON_TEXT_DUE: {
@@ -4922,10 +4922,10 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 		enUK: "📅 Due: %v",
 		enUS: "📅 Due: %v",
 		esES: "📅 Hasta: %v",
-		faIR: "📅 مورد: %v", // TODO(FA) verify
+		faIR: "📅 مورد: %v",
 		frFR: "📅 Échéance: %v",
 		idID: "📅 Jatuh tempo: %v",
-		itIT: "📅 Dovuto: %v", // TODO(IT) verify
+		itIT: "📅 Dovuto: %v",
 		jaJP: "📅 期限: %v",
 		koKR: "📅 기한: %v",
 		plPL: "📅 Termin: %v",
@@ -4941,107 +4941,107 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 		deDE: "nicht gesetzt",
 		enUK: "not set",
 		esES: "no establecido",
-		faIR: "تنظیم نشده",    // TODO(FA) verify
-		itIT: "non impostato", // TODO(IT) verify
+		faIR: "تنظیم نشده",
+		itIT: "non impostato",
 		ruRU: "не задано",
 	},
 	BUTTON_TEXT_MANAGE_MEMBERS: {
 		deDE: "👫 Parteien",
 		enUK: "👫 Participants",
 		esES: "👫 Participantes",
-		faIR: "👫 شرکت کنندگان", // TODO(FA) verify
-		itIT: "👫 Partecipanti", // TODO(IT) verify
+		faIR: "👫 شرکت کنندگان",
+		itIT: "👫 Partecipanti",
 		ruRU: "👫 Участники",
 	},
 	BUTTON_TEXT_CHANGE_BILL_PAYER: {
 		deDE: "🔀 Bezahler ändern",
 		enUK: "🔀 Change payer",
 		esES: "🔀 Cambiar el pagador",
-		faIR: "🔀 تغییر پرداخت کننده", // TODO(FA) verify
-		itIT: "🔀 Cambia il pagatore", // TODO(IT) verify
+		faIR: "🔀 تغییر پرداخت کننده",
+		itIT: "🔀 Cambia il pagatore",
 		ruRU: "🔀 Сменить плательщика",
 	},
 	COMMAND_TEXT_I_PAID: {
 		deDE: "Ich habe bezahlt",
 		enUK: "I paid",
 		esES: "he pagado",
-		faIR: "پرداخت کردم", // TODO(FA) verify
-		itIT: "Ho pagato",   // TODO(IT) verify
+		faIR: "پرداخت کردم",
+		itIT: "Ho pagato",
 		ruRU: "Я заплатил",
 	},
 	COMMAND_TEXT_I_OWE: {
 		deDE: "Ich schulde",
 		enUK: "I owe",
 		esES: "Yo debo",
-		faIR: "من بدهکارم",     // TODO(FA) verify
-		itIT: "Sono in debito", // TODO(IT) verify
+		faIR: "من بدهکارم",
+		itIT: "Sono in debito",
 		ruRU: "Я должен",
 	},
 	COMMAND_TEXT_OWED_TO_ME: {
 		deDE: "schuldet mir",
 		enUK: "Owed to me",
 		esES: "Me deben",
-		faIR: "به من تعلق دارد", // TODO(FA) verify
-		itIT: "È dovuto a me",   // TODO(IT) verify
+		faIR: "به من تعلق دارد",
+		itIT: "È dovuto a me",
 		ruRU: "Должны мне",
 	},
 	MESSAGE_TEXT_BILL_HEADER: {
 		deDE: "Rechnung: %v",
 		enUK: "Bill: %v",
 		esES: "Cuenta: %v",
-		faIR: "بیل :%v",  // TODO(FA) verify
-		itIT: "Bill: %v", // TODO(IT) verify
+		faIR: "بیل :%v",
+		itIT: "Bill: %v",
 		ruRU: "Cчёт: %v",
 	},
 	MESSAGE_TEXT_NEW_DEBT_HEADER: {
 		deDE: "Rechnung: %v",
 		enUK: "Bill: %v",
 		esES: "Cuenta: %v",
-		faIR: "بیل: %v",  // TODO(FA) verify
-		itIT: "Bill: %v", // TODO(IT) verify
+		faIR: "بیل: %v",
+		itIT: "Bill: %v",
 		ruRU: "Cчёт: %v",
 	},
 	MESSAGE_TEXT_GROUPS_ONLY_COMMAND: {
 		deDE: "",
 		enUK: "This command is available in group chats only for now.",
 		esES: "",
-		faIR: "", // TODO(FA)
-		itIT: "", // TODO(IT)
+		faIR: "",
+		itIT: "",
 		ruRU: "Эта команда пока что доступна только в групповых чатах",
 	},
 	MESSAGE_TEXT_ALREADY_HAS_CONTACT_WITH_SUCH_NAME: {
-		deDE: "", // TODO(DE)
+		deDE: "",
 		enUK: "You already have contact with name: %v",
-		esES: "", // TODO(ES)
-		faIR: "", // TODO(FA)
-		itIT: "", // TODO(IT)
+		esES: "",
+		faIR: "",
+		itIT: "",
 		ruRU: "У вас уже есть контакт с таким именем: %v",
 	},
 	MESSAGE_TEXT_ALREADY_BILL_MEMBER: {
 		deDE: "%v, du teilst diese Rechnung bereits.",
 		enUK: "%v, you are sharing this bill already.",
 		esES: "%v, estás compartiendo esta cuenta ya.",
-		faIR: "%v، شما قبلا این لایحه را به اشتراک می گذارید",      // TODO(FA) verify
-		itIT: "%v, stai già condividendo questo disegno di legge.", // TODO(IT) verify
+		faIR: "%v، شما قبلا این لایحه را به اشتراک می گذارید",
+		itIT: "%v, stai già condividendo questo disegno di legge.",
 		ruRU: "%v, вы уже входите в состав участников.",
 	},
 	MESSAGE_TEXT_USER_JOINED_BILL: {
 		deDE: "%v ist dem Teilen der Rechnung beigetreten.",
 		enUK: "%v joined to bill sharing.",
 		esES: "%v pagar conjuntamente.",
-		faIR: "%v به اشتراک گذاری لایحه پیوست.",        // TODO(FA) verify
-		itIT: "%v unito alla condivisione di fatture.", // TODO(IT) verify
+		faIR: "%v به اشتراک گذاری لایحه پیوست.",
+		itIT: "%v unito alla condivisione di fatture.",
 		ruRU: "%v присоеденился к совместной оплате.",
 	},
 	BUTTON_TEXT_I_PAID_FOR_THE_BILL: {
 		deDE: "Die Rechnung wurde von mir bezahlt.",
 		enUK: "The bill was paid by me.",
 		enUS: "The bill was paid by me.",
-		esES: "La factura fue pagada por mí.", // TODO(ES) verify
-		faIR: "این لایحه توسط من پرداخت شد",   // TODO(FA) verify
+		esES: "La factura fue pagada por mí.",
+		faIR: "این لایحه توسط من پرداخت شد",
 		frFR: "La facture a été payée par moi.",
 		idID: "Tagihan dibayar oleh saya.",
-		itIT: "Il conto è stato pagato da me.", // TODO(IT) verify
+		itIT: "Il conto è stato pagato da me.",
 		jaJP: "請求書は私が支払いました。",
 		koKR: "청구서는 내가 지불했습니다.",
 		plPL: "Rachunek został zapłacony przeze mnie.",
@@ -5057,11 +5057,11 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 		deDE: "Ich muss noch was dabeigeben",
 		enUK: "I owe for this bill",
 		enUS: "I owe for this bill",
-		esES: "Debo esta factura",             // TODO(ES) verify
-		faIR: "من برای این لایحه بدهکار هستم", // TODO(FA) verify
+		esES: "Debo esta factura",
+		faIR: "من برای این لایحه بدهکار هستم",
 		frFR: "Je dois pour cette facture",
 		idID: "Saya berhutang untuk tagihan ini",
-		itIT: "Devo per questo disegno di legge", // TODO(IT) verify
+		itIT: "Devo per questo disegno di legge",
 		jaJP: "この請求書の支払いが必要です",
 		koKR: "이 청구서에 대한 금액을 지불해야 합니다",
 		plPL: "Jestem winien za ten rachunek",
@@ -5077,11 +5077,11 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 		deDE: "Ich habe damit nichts zutun",
 		enUK: "I don't share this bill",
 		enUS: "I don't share this bill",
-		esES: "No comparto esta cuenta",             // TODO(ES) verify
-		faIR: "من این لایحه را به اشتراک نمی گذارم", // TODO(FA) verify
+		esES: "No comparto esta cuenta",
+		faIR: "من این لایحه را به اشتراک نمی گذارم",
 		frFR: "Je ne partage pas cette facture",
 		idID: "Saya tidak berbagi tagihan ini",
-		itIT: "Non condivido questo disegno di legge", // TODO(IT) verify
+		itIT: "Non condivido questo disegno di legge",
 		jaJP: "この請求書を共有していません",
 		koKR: "이 청구서를 공유하지 않습니다",
 		plPL: "Nie dzielę się tym rachunkiem",
@@ -5098,10 +5098,10 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 		enUK: "You've joined to bill sharing.",
 		enUS: "You've joined to bill sharing.",
 		esES: "Te has agregado para pagar conjuntamente .",
-		faIR: "شما به اشتراک گذاشتن لایحه پیوستید", // TODO(FA) verify
+		faIR: "شما به اشتراک گذاشتن لایحه پیوستید",
 		frFR: "Vous avez rejoint le partage de facture.",
 		idID: "Anda telah bergabung dengan berbagi tagihan.",
-		itIT: "Sei entrato a far parte della fatturazione.", // TODO(IT) verify
+		itIT: "Sei entrato a far parte della fatturazione.",
 		jaJP: "請求書の共有に参加しました。",
 		koKR: "청구서 공유에 참여하셨습니다.",
 		plPL: "Dołączyłeś do dzielenia rachunku.",
@@ -5118,10 +5118,10 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 		enUK: "Split bill/purchase",
 		enUS: "Split bill/purchase",
 		esES: "Compartir la cuenta/compra",
-		faIR: "لایحه / خرید تقسیم شده", // TODO(FA) verify
+		faIR: "لایحه / خرید تقسیم شده",
 		frFR: "Partager la facture/l'achat",
 		idID: "Bagi tagihan/pembelian",
-		itIT: "Bolletta Split / acquisto", // TODO(IT) verify
+		itIT: "Bolletta Split / acquisto",
 		jaJP: "請求書/購入を分割",
 		koKR: "청구서/구매 분할",
 		plPL: "Podziel rachunek/zakup",
@@ -5137,11 +5137,11 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 		deDE: "Wert: %v\nTeile deine Kosten mit Freunden und verfolge deren Rückzahlungen.",
 		enUK: "Amount: %v\nShares expenses with friends & track paybacks",
 		enUS: "Amount: %v\nShares expenses with friends & track paybacks",
-		esES: "Importe: %v\nCompartir los gastos entre amigos y seguir las devoluciones", // TODO(ES): Have to be shorter
-		faIR: "مقدار: %v" + "\n" + "هزینه ها را با دوستان و بازپرداخت پیگیری می کند",     // TODO(FA) verify
+		esES: "Importe: %v\nCompartir los gastos entre amigos y seguir las devoluciones",
+		faIR: "مقدار: %v" + "\n" + "هزینه ها را با دوستان و بازپرداخت پیگیری می کند",
 		frFR: "Montant: %v\nPartagez les dépenses avec des amis et suivez les remboursements",
 		idID: "Jumlah: %v\nBerbagi pengeluaran dengan teman & lacak pembayaran kembali",
-		itIT: "Importo: %v\nDisponi i costi con gli amici e le retribuzioni delle tracce", // TODO(IT) verify
+		itIT: "Importo: %v\nDisponi i costi con gli amici e le retribuzioni delle tracce",
 		jaJP: "金額: %v\n友達と費用を分担し、返済を追跡",
 		koKR: "금액: %v\n친구와 비용을 공유하고 상환을 추적",
 		plPL: "Kwota: %v\nDziel wydatki z przyjaciółmi i śledź spłaty",
@@ -5159,10 +5159,10 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 		enUK: "New debt",
 		enUS: "New debt",
 		esES: "Nueva deuda",
-		faIR: "بدهی جدید", // TODO(FA): Verify
+		faIR: "بدهی جدید",
 		frFR: "Nouvelle dette",
 		idID: "Hutang baru",
-		itIT: "Nuovo debito", // TODO(IT): Verify
+		itIT: "Nuovo debito",
 		jaJP: "新しい借金",
 		koKR: "새로운 부채",
 		plPL: "Nowy dług",
@@ -5179,10 +5179,10 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 		enUK: "Amount: %v\nSends notifications on due date if set",
 		enUS: "Amount: %v\nSends notifications on due date if set",
 		esES: "Importe: %v\nEnviar las notificaciones el día de vencimiento",
-		faIR: "مقدار: %v" + "\n" + "اگر تنظیم شود، اطلاعیه ها را در تاریخ تعیین شده ارسال می کند", // TODO(FA):  verify
+		faIR: "مقدار: %v" + "\n" + "اگر تنظیم شود، اطلاعیه ها را در تاریخ تعیین شده ارسال می کند",
 		frFR: "Montant: %v\nEnvoie des notifications à la date d'échéance si défini",
 		idID: "Jumlah: %v\nMengirim notifikasi pada tanggal jatuh tempo jika diatur",
-		itIT: "Importo: %v\nSend le notifiche alla data di scadenza se impostato", // TODO(IT) verify
+		itIT: "Importo: %v\nSend le notifiche alla data di scadenza se impostato",
 		jaJP: "金額: %v\n設定されている場合、期日に通知を送信",
 		koKR: "금액: %v\n설정된 경우 만기일에 알림 전송",
 		plPL: "Kwota: %v\nWysyła powiadomienia w terminie płatności, jeśli ustawiono",
@@ -5199,16 +5199,16 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 		enUK: `Please join if your name is not on the list above.`,
 		enUS: `Please join if your name is not on the list above.`,
 		esES: `Por favor únete si tu nombre no está en la lista anterior.`,
-		faIR: `اگر نام شما در لیست بالا نیست، لطفا پیوست شوید.`, // TODO(FA) verify
+		faIR: `اگر نام شما در لیست بالا نیست، لطفا پیوست شوید.`,
 		frFR: `Veuillez vous joindre si votre nom ne figure pas dans la liste ci-dessus.`,
 		idID: `Silakan bergabung jika nama Anda tidak ada dalam daftar di atas.`,
-		itIT: `Si prega di unirti se il tuo nome non è nell'elenco di cui sopra.`, // TODO(IT) verify
+		itIT: `Si prega di unirti se il tuo nome non è nell'elenco di cui sopra.`,
 		jaJP: `あなたの名前が上記のリストにない場合は、参加してください。`,
 		koKR: `이름이 위 목록에 없으면 참여하세요.`,
 		plPL: `Dołącz, jeśli Twojego imienia nie ma na powyższej liście.`,
 		ptBR: `Por favor, junte-se se o seu nome não estiver na lista acima.`,
 		ptPT: `Por favor, junte-se se o seu nome não estiver na lista acima.`,
-		ruRU: `Пожалуйста присоеденяйтесь если ваше не в списке.`, // TODO(RU)
+		ruRU: `Пожалуйста присоеденяйтесь если ваше не в списке.`,
 		trTR: `Adınız yukarıdaki listede yoksa lütfen katılın.`,
 		ukUA: `Будь ласка, приєднуйтесь, якщо вашого імені немає у списку вище.`,
 		uzUZ: `Agar ismingiz yuqoridagi ro'yxatda bo'lmasa, iltimos, qo'shiling.`,
@@ -5218,11 +5218,11 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 		deDE: `Ich bin <b>Splitus</b>. Danke fürs hinzufügen!`,
 		enUK: `I'm <b>Splitus</b>. Thanks for adding me!`,
 		enUS: `I'm <b>Splitus</b>. Thanks for adding me!`,
-		esES: `Soy <b>Splitus</b>. ¡Gracias por agregarme!`,   // TODO(ES) verify
-		faIR: `من <b>Splitus</b> با تشکر برای اضافه کردن من!`, // TODO(FA) verify
+		esES: `Soy <b>Splitus</b>. ¡Gracias por agregarme!`,
+		faIR: `من <b>Splitus</b> با تشکر برای اضافه کردن من!`,
 		frFR: `Je suis <b>Splitus</b>. Merci de m'avoir ajouté!`,
 		idID: `Saya <b>Splitus</b>. Terima kasih telah menambahkan saya!`,
-		itIT: `Sono <b>Splitus</b>. Grazie per averci aggiunto!`, // TODO(IT) verify
+		itIT: `Sono <b>Splitus</b>. Grazie per averci aggiunto!`,
 		jaJP: `私は<b>Splitus</b>です。追加してくれてありがとう！`,
 		koKR: `저는 <b>Splitus</b>입니다. 저를 추가해 주셔서 감사합니다!`,
 		plPL: `Jestem <b>Splitus</b>. Dziękuję za dodanie mnie!`,
@@ -5238,11 +5238,11 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 		deDE: `Ich bin <b>Collectus.</b> Danke fürs hinzufügen!`,
 		enUK: `I'm <b>Collectus.</b> Thanks for adding me!`,
 		enUS: `I'm <b>Collectus.</b> Thanks for adding me!`,
-		esES: `Soy <b>Collectus.</b> ¡Gracias por agregarme!`,   // TODO(ES) verify
-		faIR: `من <b>Collectus</b> با تشکر برای اضافه کردن من!`, // TODO(FA) verify
+		esES: `Soy <b>Collectus.</b> ¡Gracias por agregarme!`,
+		faIR: `من <b>Collectus</b> با تشکر برای اضافه کردن من!`,
 		frFR: `Je suis <b>Collectus.</b> Merci de m'avoir ajouté!`,
 		idID: `Saya <b>Collectus.</b> Terima kasih telah menambahkan saya!`,
-		itIT: `Sono <b>Collectus.</b> Grazie per averci aggiunto!`, // TODO(IT) verify
+		itIT: `Sono <b>Collectus.</b> Grazie per averci aggiunto!`,
 		jaJP: `私は<b>Collectus.</b>です。追加してくれてありがとう！`,
 		koKR: `저는 <b>Collectus.</b>입니다. 저를 추가해 주셔서 감사합니다!`,
 		plPL: `Jestem <b>Collectus.</b> Dziękuję za dodanie mnie!`,
@@ -5278,11 +5278,11 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 		deDE: `<b>Sponsoren</b>:`,
 		enUK: `<b>Sponsors</b>:`,
 		enUS: `<b>Sponsors</b>:`,
-		esES: `<b>Patrocinadores</b>:`, // TODO(ES)
-		faIR: `<b>حامیان</b>:`,         // TODO(FA) verify
+		esES: `<b>Patrocinadores</b>:`,
+		faIR: `<b>حامیان</b>:`,
 		frFR: `<b>Sponsors</b>:`,
 		idID: `<b>Sponsor</b>:`,
-		itIT: `<b>Sponsors</b>:`, // TODO(IT)
+		itIT: `<b>Sponsors</b>:`,
 		jaJP: `<b>スポンサー</b>:`,
 		koKR: `<b>스폰서</b>:`,
 		plPL: `<b>Sponsorzy</b>:`,
@@ -5298,7 +5298,7 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 		deDE: `<b>Schuldner</b>:`,
 		enUK: `<b>Debtors</b>:`,
 		enUS: `<b>Debtors</b>:`,
-		esES: `<b>Deudores</b>:`, // TODO(ES) verify
+		esES: `<b>Deudores</b>:`,
 		faIR: `<b>بدهکاران</b>:`,
 		frFR: `<b>Débiteurs</b>:`,
 		idID: `<b>Debitur</b>:`,
@@ -5318,11 +5318,11 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 		deDE: `Währung: %v`,
 		enUK: `Currency: %v`,
 		enUS: `Currency: %v`,
-		esES: `Moneda: %v`,   // TODO(ES) verify
-		faIR: `واحد پول: %v`, // TODO(FA) verify
+		esES: `Moneda: %v`,
+		faIR: `واحد پول: %v`,
 		frFR: `Devise: %v`,
 		idID: `Mata uang: %v`,
-		itIT: `Moneta: %v`, // TODO(IT) verify
+		itIT: `Moneta: %v`,
 		jaJP: `通貨: %v`,
 		koKR: `통화: %v`,
 		plPL: `Waluta: %v`,
@@ -5338,11 +5338,11 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 		deDE: `Welche Sprache wird hier gesprochen?`,
 		enUK: `What language should I use in this group?`,
 		enUS: `What language should I use in this group?`,
-		esES: `¿Qué idioma debería usar en este grupo?`, // TODO(ES) verify
-		faIR: `کدام زبان باید در این گروه استفاده کنم؟`, // TODO(FA) verify
+		esES: `¿Qué idioma debería usar en este grupo?`,
+		faIR: `کدام زبان باید در این گروه استفاده کنم؟`,
 		frFR: `Quelle langue dois-je utiliser dans ce groupe?`,
 		idID: `Bahasa apa yang harus saya gunakan dalam grup ini?`,
-		itIT: `Che lingua devo utilizzare in questo gruppo?`, // TODO(IT) verify
+		itIT: `Che lingua devo utilizzare in questo gruppo?`,
 		jaJP: `このグループではどの言語を使用すべきですか？`,
 		koKR: `이 그룹에서 어떤 언어를 사용해야 합니까?`,
 		plPL: `Jakiego języka powinienem używać w tej grupie?`,
@@ -5358,11 +5358,11 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 		deDE: `Kein Problem, dann schreibe ich auf Deutsch.`,
 		enUK: `Great, I'll be using English.`,
 		enUS: `Great, I'll be using English.`,
-		esES: `Genial, usaré español.`,               // TODO(ES) verify
-		faIR: `عالی، من از فارسی استفاده خواهم کرد.`, // TODO(FA) verify
+		esES: `Genial, usaré español.`,
+		faIR: `عالی، من از فارسی استفاده خواهم کرد.`,
 		frFR: `Super, j'utiliserai le français.`,
 		idID: `Bagus, saya akan menggunakan bahasa Indonesia.`,
-		itIT: `Ottimo, userò l'italiano.`, // TODO(IT) verify
+		itIT: `Ottimo, userò l'italiano.`,
 		jaJP: `素晴らしい、日本語を使用します。`,
 		koKR: `좋아요, 한국어를 사용하겠습니다.`,
 		plPL: `Świetnie, będę używać języka polskiego.`,
@@ -5377,9 +5377,9 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	SPLITUS_TEXT_ABOUT_ME_AND_CO: {
 		deDE: `Ich kann helfen, <b>Rechnungen zu teilen</b>. Mein Freund @DebtsTrackerBot passt darauf auf, dass alle Schulden zurückgezahlt werden.`,
 		enUK: `I help to <b>split bills</b>. My friend @DebtsTrackerBot is tracking paybacks & debts.`,
-		esES: `Ayudo a <b>dividir billetes</b>. Mi amigo @DebtsTrackerBot está rastreando pagos y deudas.`,                 // TODO(ES) verify
-		faIR: `من به <b>تقسیم صورتحساب </b> کمک میکنم دوست منDebtsTrackerBot ردیابی بازپرداخت و بدهی است.`,                 // TODO(FA) verify
-		itIT: `Aiuto a <b>dividere le bollette</b>. Il mio amico @DebtsTrackerBot sta monitorando i pagamenti e i debiti.`, // TODO(IT) verify
+		esES: `Ayudo a <b>dividir billetes</b>. Mi amigo @DebtsTrackerBot está rastreando pagos y deudas.`,
+		faIR: `من به <b>تقسیم صورتحساب </b> کمک میکنم دوست منDebtsTrackerBot ردیابی بازپرداخت و بدهی است.`,
+		itIT: `Aiuto a <b>dividere le bollette</b>. Il mio amico @DebtsTrackerBot sta monitorando i pagamenti e i debiti.`,
 		ruRU: `Я помогаю делить счета. Мой друг @DebtsTrackerRuBot отслеживает платежи и долги.`,
 	},
 	COLLECTUS_TEXT_ABOUT_ME_AND_CO: {
@@ -5394,9 +5394,9 @@ Wenn du Geld für irgendwas sammeln willst, kann @SplitusBot dir dabei helfen.`,
 My buddy @DebtsTrackerBot is tracking debts & paybacks.
 
 And if you do collective purchases and want to split bills @SplitusBot is here to help.`,
-		esES: ``, // TODO(ES)
-		faIR: ``, // TODO(FA)
-		itIT: ``, // TODO(IT)
+		esES: ``,
+		faIR: ``,
+		itIT: ``,
 		ruRU: `Я помогаю <b>собирать деньги</b> на что нибудь. Например для подарка на день рождение. 🎉
 
 Мой друг @DebtsTrackerRuBot отслеживает долги и платежи.
@@ -5406,17 +5406,17 @@ And if you do collective purchases and want to split bills @SplitusBot is here t
 	SPLITUS_TEXT_HI: {
 		deDE: `Ich bin <b>Splitus</b>.`,
 		enUK: `I'm <b>Splitus</b>.`,
-		esES: ``, // TODO(ES)
-		faIR: ``, // TODO(FA)
-		itIT: ``, // TODO(IT)
+		esES: ``,
+		faIR: ``,
+		itIT: ``,
 		ruRU: `Меня зовут <b>Сплитус</b>.`,
 	},
 	COLLECTUS_TEXT_HI: {
 		deDE: `Ich bin <b>Collectus</b>.`,
 		enUK: `I'm <b>Collectus</b>.`,
-		esES: ``, // TODO(ES)
-		faIR: ``, // TODO(FA)
-		itIT: ``, // TODO(IT)
+		esES: ``,
+		faIR: ``,
+		itIT: ``,
 		ruRU: `Меня зовут <b>Коллектус</b>.`,
 	},
 	SPLITUS_TG_COMMANDS: {
@@ -5427,9 +5427,9 @@ And if you do collective purchases and want to split bills @SplitusBot is here t
 	/menu - Main menu
 	/settings - Settings
 	/help - Learn how to use bot, report issues, ask questions`,
-		esES: ``, // TODO(ES)
-		faIR: ``, // TODO(FA)
-		itIT: ``, // TODO(IT)
+		esES: ``,
+		faIR: ``,
+		itIT: ``,
 		ruRU: `<b>Команды для бота:</b>
 	/groups - Список групп
 	/bills - Список незакрытых платежей
@@ -5443,9 +5443,9 @@ And if you do collective purchases and want to split bills @SplitusBot is here t
 	/groups - List of groups
 	/fundraisings - List of active fundraisings
 	/help - Learn how to use bot, report issues, ask questions`,
-		esES: ``, // TODO(ES)
-		faIR: ``, // TODO(FA)
-		itIT: ``, // TODO(IT)
+		esES: ``,
+		faIR: ``,
+		itIT: ``,
 		ruRU: `<b>Команды для бота:</b>
 	/groups - Список групп
 	/fundraisings - Список активных сборов
@@ -5472,7 +5472,7 @@ And if you do collective purchases and want to split bills @SplitusBot is here t
 		enUK: `Hi %v!`,
 		esES: `¡Hola %v!`,
 		faIR: ``,
-		itIT: ``, // TODO(IT)
+		itIT: ``,
 		ruRU: `Привет %v!`,
 	},
 	MESSAGE_TEXT_BACK_TO_MAIN_MENU: {
@@ -5680,11 +5680,11 @@ O usa il menu' qui sotto.`,
 		deDE: "",
 		enUK: "Another currency",
 		enUS: "Another currency",
-		esES: "Otra moneda", // TODO(es) verify
-		faIR: "ارز دیگر",    // TODO(fa) verify
+		esES: "Otra moneda",
+		faIR: "ارز دیگر",
 		frFR: "",
 		idID: "",
-		itIT: "Un'altra valuta", // TODO(it) verify
+		itIT: "Un'altra valuta",
 		jaJP: "",
 		koKR: "",
 		plPL: "",
@@ -5851,11 +5851,11 @@ O usa il menu' qui sotto.`,
 		deDE: "",
 		enUK: "What is a primary currency for this group?",
 		enUS: "What is a primary currency for this group?",
-		esES: "¿Cuál es tu moneda principal?", //TODO(ES)
-		faIR: "واحد پولی اولیه شما چیست؟",     //TODO(FA)
+		esES: "¿Cuál es tu moneda principal?",
+		faIR: "واحد پولی اولیه شما چیست؟",
 		frFR: "",
 		idID: "",
-		itIT: "Qual'e' la tua valuta principale?", //TODO(IT)
+		itIT: "Qual'e' la tua valuta principale?",
 		jaJP: "",
 		koKR: "",
 		plPL: "",
@@ -6887,7 +6887,7 @@ Do'stingiz taklifni qabul qilgandan so'ng, minimal kuch bilan ikkalangiz ham bir
 		zhCN: "请输入您朋友的电子邮件地址，我们将向其发送邀请码。",
 	},
 	MESSAGE_TEXT_INVITE_ASK_EMAIL_FOR_RECEIPT: {
-		deDE: "Bitte gib die eMail Adresse deines Freundes (%v), wohin wir die Quittung schicken:", // TODO(DE) - verify
+		deDE: "Bitte gib die eMail Adresse deines Freundes (%v), wohin wir die Quittung schicken:",
 		enUK: "Please enter emaill address of your friend (%v) where we should send the receipt.",
 		enUS: "Please enter email address of your friend (%v) where we should send the receipt.",
 		esES: "Introduce el e-maill de tu amigo (%v) al cual enviaremos el recibo.",
@@ -7441,35 +7441,35 @@ Do'stingiz taklifni qabul qilgandan so'ng, minimal kuch bilan ikkalangiz ham bir
 		ruRU: "Сколько было возвращено?",
 	},
 	MESSAGE_TEXT_RETURN_IS_TOO_BIG: {
-		deDE: "Sie haben entschieden, %v zurückzugeben, aber der ausstehende Betrag ist nur %v.\n\nBitte geben Sie Werte gleich %v oder weniger ein.", // TODO(DE) verify
+		deDE: "Sie haben entschieden, %v zurückzugeben, aber der ausstehende Betrag ist nur %v.\n\nBitte geben Sie Werte gleich %v oder weniger ein.",
 		enUK: "You decided to return %v but outstanding amount is just %v.\n\nPlease enter values equal to %v or less.",
-		esES: "Decidiste devolver %v pero la cantidad pendiente es solo %v.\n\nPor favor ingrese valores iguales a %v o menos.", // TODO(ES) verify
-		faIR: "شما تصمیم گرفتید %v را بازگردانید اما مقدار قابل توجهی فقط %v است.\n\nلطفا مقادیر برابر %v یا کمتر را وارد کنید", // TODO(FA) verify
-		itIT: "Hai deciso di restituire %v ma la quantità in sospeso è solo %v.\n\nInserisci valori pari o uguali a %v o meno.", // TODO(IT) verify
+		esES: "Decidiste devolver %v pero la cantidad pendiente es solo %v.\n\nPor favor ingrese valores iguales a %v o menos.",
+		faIR: "شما تصمیم گرفتید %v را بازگردانید اما مقدار قابل توجهی فقط %v است.\n\nلطفا مقادیر برابر %v یا کمتر را وارد کنید",
+		itIT: "Hai deciso di restituire %v ma la quantità in sospeso è solo %v.\n\nInserisci valori pari o uguali a %v o meno.",
 		ruRU: "Вы решили вернуть %v, но непогашенная сумма равна %v. \n\n Пожалуйста, введите значение равное %v или меньше.",
 	},
 	MESSAGE_TEXT_HELP_ROOT: {
 		deDE: "Was hast du für eine Frage? Wenn irgendwas unklar ist, frag ruhig hier @%v",
 		enUK: "What is your question? If anything is missed here, feel free to ask in our @%v",
-		esES: "¿Cuál es tu pregunta? Si algo se pierde aquí, siéntase libre de preguntar en nuestro @%v",   // TODO(es) verify
-		faIR: "سوالت چیست؟ اگر چیزی در اینجا از دست رفته است، لطفا در @%v ما بپرسید",                       // TODO(fa) verify
-		itIT: "Qual è la tua domanda? Se qualche cosa è mancato qui, non esitate a chiedere al nostro @%v", // TODO(it) verify
+		esES: "¿Cuál es tu pregunta? Si algo se pierde aquí, siéntase libre de preguntar en nuestro @%v",
+		faIR: "سوالت چیست؟ اگر چیزی در اینجا از دست رفته است، لطفا در @%v ما بپرسید",
+		itIT: "Qual è la tua domanda? Se qualche cosa è mancato qui, non esitate a chiedere al nostro @%v",
 		ruRU: "Какой у вас вопрос? Если здесь нет ответа пожалуйста спросите в нашей группе @%v",
 	},
 	MESSAGE_TEXT_HELP_BACK_TO_ROOT: {
 		deDE: "Zurück zur FAQ Liste",
 		enUK: "Back to FAQ list",
-		esES: "Volver a la lista de preguntas frecuentes", // TODO(es) verify
-		faIR: "بازگشت به لیست سوالات متداول",              // TODO(fa) verify
-		itIT: "Torna all'elenco delle FAQ",                // TODO(it) verify
+		esES: "Volver a la lista de preguntas frecuentes",
+		faIR: "بازگشت به لیست سوالات متداول",
+		itIT: "Torna all'elenco delle FAQ",
 		ruRU: "Назад к списку вопросов",
 	},
 	HELP_HOW_TO_CREATE_BILL_Q: {
 		deDE: "Wie erstellt man Rechnungen?",
 		enUK: "How to create new bill?",
-		esES: "¿Cómo crear una nueva factura?", // TODO(es) verify
-		faIR: "چگونه برای ایجاد لایحه جدید؟",   // TODO(fa) verify
-		itIT: "Come creare un nuovo conto?",    // TODO(it) verify
+		esES: "¿Cómo crear una nueva factura?",
+		faIR: "چگونه برای ایجاد لایحه جدید؟",
+		itIT: "Come creare un nuovo conto?",
 		ruRU: "Как создать новый счёт?",
 	},
 	HELP_HOW_TO_CREATE_BILL_A: {
@@ -7499,9 +7499,9 @@ That is why the best is to <b>create bill in Telegram chat just in 2 steps</b>:
 	   Than any member of the group can share the bill by pressing <code>Join</code> button.
 
 <b>Alternatively</b> you can create a bill right in the @{{.BotCode}}. But then you would need manually to add participants.`,
-		esES: "", // TODO(ES)
-		faIR: "", // TODO(FA)
-		itIT: "", // TODO(IT)
+		esES: "",
+		faIR: "",
+		itIT: "",
 		ruRU: `<b>How to create a new bill</b>
 <pre>Bill — shared expense between two or more people.</pre>
 
@@ -7869,7 +7869,7 @@ Il tuo codice di invito personale e': {{.InviteCode}}`,
 	INLINE_RECEIPT_GENERATING_MESSAGE: {
 		deDE: `<b>{{.Creator}} erstellte online einen Schuldschein</b> der dich betrifft.
 
->> Generating receipt`, // TODO(DE)
+>> Generating receipt`,
 		//-------------------------------------------------------
 		enUK: `<b>{{.Creator}} recorded a debt</b> associated with you.
 
@@ -7877,15 +7877,15 @@ Il tuo codice di invito personale e': {{.InviteCode}}`,
 		//-------------------------------------------------------
 		esES: `<b>{{.Creator}} ha creado una deuda</b> asociada a ti.
 
-  >> <i>Generating receipt...</i>`, // TODO(ES)
+  >> <i>Generating receipt...</i>`,
 		//-------------------------------------------------------
 		faIR: `<b>{{.Creator}} یک بدهی </b> مرتبط با شما ثبت نموده است.
 
-  >> <i>Generating receipt...</i>`, // TODO(FA)
+  >> <i>Generating receipt...</i>`,
 		//-------------------------------------------------------
 		itIT: `<b>{{.Creator}} ha registrato un debito</b> associato a te.
 
-  >> <i>Generating receipt...</i>`, // TODO(IT)
+  >> <i>Generating receipt...</i>`,
 		//-------------------------------------------------------
 		ruRU: `<b>{{.Creator}} создал(а) запись о долге</b> касающегося Вас.
 
@@ -8061,9 +8061,9 @@ Il tuo codice di invito personale e': {{.InviteCode}}`,
 	NO_NAME: {
 		deDE: "unbekannt",
 		enUK: "no name",
-		esES: "sin nombre", // TODO(es) verify
-		faIR: "بدون نام",   // TODO(fa) verify
-		itIT: "senza nome", // TODO(it) verify
+		esES: "sin nombre",
+		faIR: "بدون نام",
+		itIT: "senza nome",
 		ruRU: "без имени",
 	},
 	TELEGRAM_RECEIPT: {
@@ -8850,7 +8850,7 @@ Foiz kunlik (<i>har 24 soatda</i>) <a href="https://uz.wikipedia.org/wiki/Oddiy_
 		enUK: "How you can help to DebtsTracker.io project",
 		esES: "Como puedes ayudar a DebtsTracker.io project",
 		faIR: "چگونه می توانید به پروژه  DebtsTracker.io کمک کنید.",
-		itIT: "Come potete aiutare il progetto DebtsTracker.io", // TODO(IT): Google translated
+		itIT: "Come potete aiutare il progetto DebtsTracker.io",
 		ruRU: "Как вы можете помочь проекту DebtsTracker.io",
 	},
 	WS_ADS_TITLE: {
