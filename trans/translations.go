@@ -4300,9 +4300,9 @@ And if you do collective purchases and want to split bills @SplitusBot is here t
 		enUK: "Send /help for details on how to use this bot.",
 		ruRU: "Отправьте /help для справки по использованию бота.",
 	},
-	MESSAGE_TEXT_HI: { // This is the same for all languages.
+	// This is the same for all languages.
+	MessageTextHiS1NGL: {
 		enUK: `¡Hola! Hi! Привет! سلام! Hallo!`,
-		ruRU: `¡Hola! Hi! Привет! سلام! Hallo!`,
 	},
 	MESSAGE_TEXT_HI_USERNAME: {
 		enUK: `Hi %v!`,
