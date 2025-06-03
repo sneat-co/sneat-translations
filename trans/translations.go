@@ -6555,8 +6555,7 @@ Il tuo codice di invito personale e': {{.InviteCode}}`,
 		esES: "Recibo",
 		faIR: "رسید",
 		itIT: "Scontrino",
-		ruRU://To upgrade, not the best translation from Russian
-		"Квитанция",
+		ruRU: "Квитанция",
 	},
 	HTML_AMOUNT: {
 		deDE: "Betrag",
@@ -9211,7 +9210,7 @@ Otherwise you can add them manually in Sneat.app.`,
 		Caso contrário, você pode adicioná-los manualmente no Sneat.app.`,
 		ptPT: `Se a pessoa que deseja adicionar usar o Telegram, recomendamos selecionar "Escolher usuário do Telegram".
 		Caso contrário, você pode adicioná-los manualmente na Sneat.app.`,
-		ruRU: `Если человек, которого вы хотите добавить, использует Telegram, 
+		ruRU: `Если человек, которого вы хотите добавить, использует Telegram,
 		мы рекомендуем выбрать "Выбрать пользователя Telegram". 
 		В противном случае вы можете добавить их вручную в Sneat.app.`,
 		trTR: `Eklemek istediğiniz kişi Telegram kullanıyorsa, "Telegram Kullanıcısını Seç" seçeneğini seçmenizi öneririz.
