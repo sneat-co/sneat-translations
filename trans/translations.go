@@ -5,7 +5,6 @@ Expected IDs in proper order of locale keys in var TRANS, use it as a reference 
 - arEG:
 - deDE
 - enUK:
-- enUS:
 - esES:
 - faIR:
 - frFR:
@@ -27,7 +26,6 @@ var TRANS = map[string]map[string]string{
 	"EXAMPLE": {
 		deDE: "BEISPIEL",
 		enUK: "SAMPLE",
-		enUS: "SAMPLE",
 		esES: "EJEMPLO",
 		faIR: "نمونه",
 		frFR: "EXEMPLE",
@@ -47,7 +45,6 @@ var TRANS = map[string]map[string]string{
 	HowdyUser: {
 		deDE: "Hallo {USER_NAME}!",
 		enUK: "Howdy {USER_NAME}!",
-		enUS: "Howdy {USER_NAME}!",
 		esES: "¡Hola {USER_NAME}!",
 		faIR: "سلام {USER_NAME}!",
 		frFR: "Salut {USER_NAME} !",
@@ -68,7 +65,6 @@ var TRANS = map[string]map[string]string{
 	ButtonAdd: {
 		deDE: "Hinzufügen",
 		enUK: "Add",
-		enUS: "Add",
 		esES: "Añadir",
 		faIR: "افزودن",
 		frFR: "Ajouter",
@@ -87,7 +83,6 @@ var TRANS = map[string]map[string]string{
 	ButtonRemove: {
 		deDE: "Entfernen",
 		enUK: "Remove",
-		enUS: "Remove",
 		esES: "Eliminar",
 		faIR: "حذف",
 		frFR: "Supprimer",
@@ -108,7 +103,6 @@ var TRANS = map[string]map[string]string{
 	"Jan": {
 		deDE: "Jan",
 		enUK: "Jan",
-		enUS: "Jan",
 		esES: "Ene",
 		faIR: "ژانویه",
 		frFR: "Jan",
@@ -129,7 +123,6 @@ var TRANS = map[string]map[string]string{
 	"Feb": {
 		deDE: "Feb",
 		enUK: "Feb",
-		enUS: "Feb",
 		esES: "Feb",
 		faIR: "فوریه",
 		frFR: "Fév",
@@ -150,7 +143,6 @@ var TRANS = map[string]map[string]string{
 	"Mar": {
 		deDE: "Mär",
 		enUK: "Mar",
-		enUS: "Mar",
 		esES: "Mar",
 		faIR: "مارس",
 		frFR: "Mars",
@@ -171,7 +163,6 @@ var TRANS = map[string]map[string]string{
 	"Apr": {
 		deDE: "Apr",
 		enUK: "Apr",
-		enUS: "Apr",
 		esES: "Abr",
 		faIR: "آوریل",
 		frFR: "Avril",
@@ -192,7 +183,6 @@ var TRANS = map[string]map[string]string{
 	"May": {
 		deDE: "Mai",
 		enUK: "May",
-		enUS: "May",
 		esES: "May",
 		faIR: "مه",
 		frFR: "Mai",
@@ -213,7 +203,6 @@ var TRANS = map[string]map[string]string{
 	"Jun": {
 		deDE: "Jun",
 		enUK: "June",
-		enUS: "June",
 		esES: "Jun",
 		faIR: "ژوئن",
 		frFR: "Juin",
@@ -234,7 +223,6 @@ var TRANS = map[string]map[string]string{
 	"Jul": {
 		deDE: "Jul",
 		enUK: "July",
-		enUS: "July",
 		esES: "Jul",
 		faIR: "ژوئیه",
 		frFR: "Juil",
@@ -255,7 +243,6 @@ var TRANS = map[string]map[string]string{
 	"Aug": {
 		deDE: "Aug",
 		enUK: "Aug",
-		enUS: "Aug",
 		esES: "Ago",
 		faIR: "اوت",
 		frFR: "Août",
@@ -276,7 +263,6 @@ var TRANS = map[string]map[string]string{
 	"Sep": {
 		deDE: "Sep",
 		enUK: "Sep",
-		enUS: "Sep",
 		esES: "Sep",
 		faIR: "سپتامبر",
 		frFR: "Sep",
@@ -297,7 +283,6 @@ var TRANS = map[string]map[string]string{
 	"Oct": {
 		deDE: "Okt",
 		enUK: "Oct",
-		enUS: "Oct",
 		esES: "Oct",
 		faIR: "اکتبر",
 		frFR: "Oct",
@@ -318,7 +303,6 @@ var TRANS = map[string]map[string]string{
 	"Nov": {
 		deDE: "Nov",
 		enUK: "Nov",
-		enUS: "Nov",
 		esES: "Nov",
 		faIR: "نوامبر",
 		frFR: "Nov",
@@ -339,7 +323,6 @@ var TRANS = map[string]map[string]string{
 	"Dec": {
 		deDE: "Dez",
 		enUK: "Dec",
-		enUS: "Dec",
 		esES: "Dic",
 		faIR: "دسامبر",
 		frFR: "Déc",
@@ -359,7 +342,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_START: {
 		deDE: "start",
 		enUK: "start",
-		enUS: "start",
 		esES: "inicio",
 		faIR: "شروع",
 		frFR: "démarrer",
@@ -378,7 +360,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_MENU: {
 		deDE: "menu",
 		enUK: "menu",
-		enUS: "menu",
 		esES: "menú",
 		faIR: "منو",
 		frFR: "menu",
@@ -397,7 +378,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_GAVE: {
 		deDE: "verleihen",
 		enUK: "gave",
-		enUS: "gave",
 		esES: "prestado_a_ti",
 		faIR: "قرض_دادن",
 		frFR: "donné",
@@ -416,7 +396,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_GOT: {
 		deDE: "anleihen",
 		enUK: "got",
-		enUS: "got",
 		esES: "prestado_por_ti",
 		faIR: "قرض_گرفتن",
 		frFR: "reçu",
@@ -435,7 +414,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_RETURNED: {
 		deDE: "beglichen",
 		enUK: "return",
-		enUS: "return",
 		esES: "devuelto",
 		faIR: "بازگردانده_شده",
 		frFR: "retourné",
@@ -454,7 +432,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_BALANCE: {
 		deDE: "ausstehend",
 		enUK: "balance",
-		enUS: "balance",
 		esES: "balance",
 		faIR: "تراز",
 		frFR: "solde",
@@ -473,7 +450,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_HISTORY: {
 		deDE: "verlauf",
 		enUK: "history",
-		enUS: "history",
 		esES: "cronología",
 		faIR: "سوابق",
 		frFR: "historique",
@@ -493,7 +469,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_SETTINGS: {
 		deDE: "einstellungen",
 		enUK: "settings",
-		enUS: "settings",
 		esES: "ajustes",
 		faIR: "تنظیمات",
 		frFR: "paramètres",
@@ -512,7 +487,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_HELP: {
 		deDE: "hilfe",
 		enUK: "help",
-		enUS: "help",
 		esES: "ayuda",
 		faIR: "کمک",
 		frFR: "aide",
@@ -531,7 +505,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_CANCEL: {
 		deDE: "abbrechen",
 		enUK: "cancel",
-		enUS: "cancel",
 		esES: "cancelar",
 		faIR: "کنسل",
 		frFR: "annuler",
@@ -550,7 +523,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_CLEAR: {
 		deDE: "leeren",
 		enUK: "clear",
-		enUS: "clear",
 		esES: "borrar",
 		faIR: "پاک_کردن",
 		frFR: "effacer",
@@ -573,7 +545,6 @@ var TRANS = map[string]map[string]string{
 	" and ": {
 		deDE: " und ",
 		enUK: " and ",
-		enUS: " and ",
 		esES: " y ",
 		faIR: " و ",
 		frFR: " et ",
@@ -592,7 +563,6 @@ var TRANS = map[string]map[string]string{
 	"MessageTextOopsSomethingWentWrong": {
 		deDE: "Ups, etwas ist schiefgelaufen... \xF0\x9F\x98\xB3",
 		enUK: "Oops, something went wrong... \xF0\x9F\x98\xB3",
-		enUS: "Oops, something went wrong... \xF0\x9F\x98\xB3",
 		esES: "Ops,  algo ha salido mal... \xF0\x9F\x98\xB3",
 		faIR: "اوه، یک جای کار مشکل دارد ...  \xF0\x9F\x98\xB3",
 		frFR: "Oups, quelque chose s'est mal passé... \xF0\x9F\x98\xB3",
@@ -611,7 +581,6 @@ var TRANS = map[string]map[string]string{
 	MESSAGE_TEXT_ASK_DUE: {
 		deDE: "Wann ist die Schuld fällig?",
 		enUK: "When is the due date?",
-		enUS: "When is the due date?",
 		esES: "¿Cuándo es la fecha de devolución?",
 		faIR: "سررسید چه زمانی است؟",
 		frFR: "Quelle est la date d'échéance?",
@@ -632,9 +601,6 @@ var TRANS = map[string]map[string]string{
 <b>Zum Beispiel</b> für den 20. Januar 2017, schreibe:
     <i>20.01.2017</i>`,
 		enUK: `To set date for next reminder please send it as a text in format of <i>DD.MM.YEAR</i>.
-<b>For example</b> for 20th of January 2017 submit:
-    <i>20.01.2017</i>`,
-		enUS: `To set date for next reminder please send it as a text in format of <i>DD.MM.YEAR</i>.
 <b>For example</b> for 20th of January 2017 submit:
     <i>20.01.2017</i>`,
 		esES: `Para establecer la fecha recordatoria escribela en el siguiente formato <i>DD.MM.AÑO</i>.
@@ -687,9 +653,6 @@ var TRANS = map[string]map[string]string{
 		enUK: `To set due date please send it as a text in format of <i>DD.MM.YEAR</i>.
 <b>For example</b> for 20th of January 2017 submit:
 <i>20.01.2017</i>`,
-		enUS: `To set due date please send it as a text in format of <i>DD.MM.YEAR</i>.
-<b>For example</b> for 20th of January 2017 submit:
-<i>20.01.2017</i>`,
 		esES: `Para establecer la fecha de devolución escribela en el siguiente formato <i>DD.MM.AÑO</i>.
 <b>For example</b> para 20 de Enero 2017 envia:
 <i>20.01.2017</i>`,
@@ -736,7 +699,6 @@ var TRANS = map[string]map[string]string{
 	MESSAGE_TEXT_WRONG_DATE: {
 		deDE: "Entschuldigung, aber mit diesem Datum stimmt etwas nicht.",
 		enUK: "Sorry, there is something wrong with the date you've provided.",
-		enUS: "Sorry, there is something wrong with the date you've provided.",
 		esES: "Lo siento, algo no es correcto con la fecha que has puesto",
 		faIR: "متاسفم، در تاریخی که وارد نمودید مشکلی وجود دارد.",
 		frFR: "Désolé, il y a un problème avec la date que vous avez fournie.",
@@ -755,7 +717,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_DISABLE_REMINDER: {
 		deDE: "Nicht erinnern",
 		enUK: "No reminder",
-		enUS: "No reminder",
 		esES: "No recordar",
 		faIR: "بدون یادآور",
 		frFR: "Pas de rappel",
@@ -774,7 +735,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_TOMORROW: {
 		deDE: "Morgen",
 		enUK: "Tomorrow",
-		enUS: "Tomorrow",
 		esES: "Mañana",
 		faIR: "فردا",
 		frFR: "Demain",
@@ -793,7 +753,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_DAY_AFTER_TOMORROW: {
 		deDE: "Übermorgen",
 		enUK: "Day after tomorrow",
-		enUS: "Day after tomorrow",
 		esES: "Pasada mañana",
 		faIR: "پس فردا",
 		frFR: "Après-demain",
@@ -812,7 +771,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_THIS_WEEK: {
 		deDE: "Diese Woche",
 		enUK: "This week",
-		enUS: "This week",
 		esES: "Esta semana",
 		faIR: "این هفته",
 		frFR: "Cette semaine",
@@ -831,7 +789,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_YES_IT_HAS_RETURN_DEADLINE: {
 		deDE: "Ja, es hat eine Frist!",
 		enUK: "Yes, it has a deadline!",
-		enUS: "Yes, it has a deadline!",
 		esES: "Sí, hay una fecha de devolución!",
 		faIR: "بله، دارای آخرین فرصت می باشد!",
 		frFR: "Yes, it has a deadline!",
@@ -850,7 +807,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_NO_IT_CAN_BE_RETURNED_ANYTIME: {
 		deDE: "Nein, sobald möglich.",
 		enUK: "No, whenever is fine.",
-		enUS: "No, whenever is fine.",
 		esES: "No, sin fecha límite.",
 		faIR: "خیر، هر زمانی مناسب است.",
 		frFR: "No, whenever is fine.",
@@ -869,7 +825,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_IT_CAN_BE_RETURNED_ANYTIME: {
 		deDE: "Unbefristet",
 		enUK: "Whenever is fine",
-		enUS: "Whenever is fine",
 		esES: "Cualquier día",
 		faIR: "هر زمانی مناسب است.",
 		frFR: "Whenever is fine",
@@ -888,7 +843,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_IN_FEW_MINUTES: {
 		deDE: "In wenigen Minuten",
 		enUK: "In few minutes",
-		enUS: "In few minutes",
 		esES: "En unos minutos",
 		faIR: "در چند دقیقه",
 		frFR: "In few minutes",
@@ -907,7 +861,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_IN_1_WEEK: {
 		deDE: "In einer Woche",
 		enUK: "In 1 week",
-		enUS: "In 1 week",
 		esES: "En una semana",
 		faIR: "ظرف یک هفته",
 		frFR: "In 1 week",
@@ -926,7 +879,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_IN_1_MONTH: {
 		deDE: "In einem Monat",
 		enUK: "In 1 month",
-		enUS: "In 1 month",
 		esES: "En un mes",
 		faIR: "ظرف یک ماه",
 		frFR: "In 1 month",
@@ -945,7 +897,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_SET_DATE: {
 		deDE: "Datum setzen",
 		enUK: "Set date",
-		enUS: "Set date",
 		esES: "Establecer la fecha",
 		faIR: "تاریخ را تنظیم کنید",
 		frFR: "Set date",
@@ -964,7 +915,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_MONDAY: {
 		deDE: "Montag",
 		enUK: "Monday",
-		enUS: "Monday",
 		esES: "Lunes",
 		faIR: "دوشنبه",
 		frFR: "Monday",
@@ -983,7 +933,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_TUESDAY: {
 		deDE: "Dienstag",
 		enUK: "Tuesday",
-		enUS: "Tuesday",
 		esES: "Martes",
 		faIR: "سه شنبه",
 		frFR: "Tuesday",
@@ -1002,7 +951,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_WEDNESDAY: {
 		deDE: "Mittwoch",
 		enUK: "Wednesday",
-		enUS: "Wednesday",
 		esES: "Miercoles",
 		faIR: "چهارشنبه",
 		frFR: "Wednesday",
@@ -1021,7 +969,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_THURSDAY: {
 		deDE: "Donnerstag",
 		enUK: "Thursday",
-		enUS: "Thursday",
 		esES: "Jueves",
 		faIR: "پنج شنبه",
 		frFR: "Thursday",
@@ -1040,7 +987,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_FRIDAY: {
 		deDE: "Freitag",
 		enUK: "Friday",
-		enUS: "Friday",
 		esES: "Viernes",
 		faIR: "جمعه",
 		frFR: "Friday",
@@ -1059,7 +1005,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_SATURDAY: {
 		deDE: "Samstag",
 		enUK: "Saturday",
-		enUS: "Saturday",
 		esES: "Sabado",
 		faIR: "شنبه",
 		frFR: "Saturday",
@@ -1078,7 +1023,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_SUNDAY: {
 		deDE: "Sonntag",
 		enUK: "Sunday",
-		enUS: "Sunday",
 		esES: "Domingo",
 		faIR: "یکشنبه",
 		frFR: "Sunday",
@@ -1097,7 +1041,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_DO_NOT_SEND_RECEIPT: {
 		deDE: "Keine Quittung schicken",
 		enUK: "Do not send the receipt",
-		enUS: "Do not send the receipt",
 		esES: "No enviar el recibo",
 		faIR: "رسید را ارسال نکنید",
 		frFR: "Do not send the receipt",
@@ -1116,7 +1059,6 @@ var TRANS = map[string]map[string]string{
 	MESSAGE_TEXT_RECEIPT_WILL_NOT_BE_SENT: {
 		deDE: "Du hast dich gegen eine Quittung entschieden.",
 		enUK: "You've decided not to send the receipt.",
-		enUS: "You've decided not to send the receipt.",
 		esES: "Has decidido no enviar el recibo",
 		faIR: "شما تصمیم گرفتید که رسید را ارسال نکنید.",
 		frFR: "You've decided not to send the receipt.",
@@ -1135,7 +1077,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_I_HAVE_CHANGED_MY_MIND: {
 		deDE: "Ich habe meine Meinung geändert",
 		enUK: "I've changed my mind",
-		enUS: "I've changed my mind",
 		esES: "He cambiado de opinion",
 		faIR: "نظرم را عوض کردم.",
 		frFR: "I've changed my mind",
@@ -1154,7 +1095,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_SEND_RECEIPT_BY_TELEGRAM: {
 		deDE: "Senden per Telegram",
 		enUK: "Send by Telegram",
-		enUS: "Send by Telegram",
 		esES: "Enviar a través de Telegram",
 		faIR: "با تلگرام ارسال شود",
 		frFR: "Send by Telegram",
@@ -1173,7 +1113,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_GET_LINK_FOR_RECEIPT_IN_TELEGRAM: {
 		deDE: "Erhalten sie einen link für eine quittung in Telegram",
 		enUK: "Get link for a receipt in Telegram",
-		enUS: "Get link for a receipt in Telegram",
 		esES: "Obtener enlace para recibirlo en Telegram",
 		faIR: "دریافت پیوند برای دریافت در Telegram",
 		frFR: "Get link for a receipt in Telegram",
@@ -1192,7 +1131,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_COUNTERPARTY_HAS_NO_TELEGRAM: {
 		deDE: "Senden per FB, WhatsApp, Viber, etc.",
 		enUK: "Send by FB, WhatsApp, Viber, etc.",
-		enUS: "Send by FB, WhatsApp, Viber, etc.",
 		esES: "Enviar a través de FB, WhatsApp, Viber, etc.",
 		faIR: "با فیسبوک، واتس آپ، وایبر و ... ارسال شود.",
 		frFR: "Send by FB, WhatsApp, Viber, etc.",
@@ -1211,7 +1149,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_SEND_RECEIPT_BY_SMS: {
 		deDE: "Senden per SMS",
 		enUK: "Send by SMS",
-		enUS: "Send by SMS",
 		esES: "Enviar a través de SMS",
 		faIR: "با پیام کوتاه ارسال شود",
 		frFR: "Send by SMS",
@@ -1230,7 +1167,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_SEND_RECEIPT_BY_VK: {
 		deDE: "Senden per VK.com",
 		enUK: "Send throw VK.com",
-		enUS: "Send throw VK.com",
 		esES: "Enviar vía VK.com",
 		faIR: "ارسال شود VK.com از طریق ",
 		frFR: "Send throw VK.com",
@@ -1249,7 +1185,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_SEND_RECEIPT_BY_OK: {
 		deDE: "Senden per OK",
 		enUK: "Send throw OK",
-		enUS: "Send throw OK",
 		esES: "Enviar a través de OK",
 		faIR: "ارسال شود OK از طریق ",
 		frFR: "Send throw OK",
@@ -1268,7 +1203,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_SEND_RECEIPT_BY_FB: {
 		deDE: "Senden per Facebook",
 		enUK: "Send throw Facebook",
-		enUS: "Send throw Facebook",
 		esES: "Enviar a través de Facebook",
 		faIR: "از طریق فیسبوک ارسال شود.",
 		frFR: "Send throw Facebook",
@@ -1287,7 +1221,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_SEND_RECEIPT_BY_TWT: {
 		deDE: "Senden per Twitter",
 		enUK: "Send throw Twitter",
-		enUS: "Send throw Twitter",
 		esES: "Enviar a través de Twitter",
 		faIR: "از طریق توئیتر ارسال شود.",
 		frFR: "Send throw Twitter",
@@ -1306,7 +1239,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_CANCEL_SENDING_RECEIPT_BY_TELEGRAM: {
 		deDE: "Sendung der Quittung per Telegram abbrechen",
 		enUK: "Cancel sending receipt by Telegram",
-		enUS: "Cancel sending receipt by Telegram",
 		esES: "Cancelar el envío a través de Telegram",
 		faIR: "ارسال رسید با تلگرام کنسل شود",
 		frFR: "Cancel sending receipt by Telegram",
@@ -1325,7 +1257,6 @@ var TRANS = map[string]map[string]string{
 	MAIN_MENU: {
 		deDE: "Hauptmenü",
 		enUK: "Main menu",
-		enUS: "Main menu",
 		esES: "Menú principal",
 		faIR: "منوی اصلی",
 		frFR: "Menu principal",
@@ -1344,7 +1275,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_MAIN_MENU_TITLE: {
 		deDE: "Menü /menu",
 		enUK: "Main /menu",
-		enUS: "Main /menu",
 		esES: "Inicio /menú",
 		faIR: "/منو ی اصلی ",
 		frFR: "Main /menu",
@@ -1363,7 +1293,6 @@ var TRANS = map[string]map[string]string{
 	MESSAGE_TEXT_NOTHING_TO_CANCEL: {
 		deDE: "Nichts zum abbrechen.",
 		enUK: "Nothing to cancel.",
-		enUS: "Nothing to cancel.",
 		esES: "No hay nada que anular.",
 		faIR: "چیزی برای کنسل شدن وجود ندارد",
 		frFR: "Nothing to cancel.",
@@ -1382,7 +1311,6 @@ var TRANS = map[string]map[string]string{
 	MESSAGE_TEXT_TRANSFER_CREATION_CANCELED: {
 		deDE: "Erstellung des Schuldscheins abgebrochen.",
 		enUK: "Creation of debt record has been canceled.",
-		enUS: "Creation of debt record has been canceled.",
 		esES: "La creación del recordatorio se ha cancelado.",
 		faIR: "ایجاد سابقه بدهی کنسل شد.",
 		frFR: "Creation of debt record has been canceled.",
@@ -1401,7 +1329,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_SHOW_ALL_CONTACTS: {
 		deDE: "Zeige alle...",
 		enUK: "Show all...",
-		enUS: "Show all...",
 		esES: "Mostrar todo...",
 		faIR: "نمایش تمام موارد ...",
 		frFR: "Show all...",
@@ -1420,7 +1347,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_CONTACTS: {
 		deDE: "Kontakte",
 		enUK: "Contacts",
-		enUS: "Contacts",
 		esES: "Contactos",
 		faIR: "لیست تماس",
 		frFR: "Contacts",
@@ -1439,7 +1365,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_REFRESH: {
 		deDE: "Aktualisieren",
 		enUK: "Refresh",
-		enUS: "Refresh",
 		esES: "Recargar",
 		faIR: "تازه کردن",
 		frFR: "Refresh",
@@ -1458,7 +1383,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_ADD_YOUR_OWN_OPTION: {
 		deDE: "Etwas anderes",
 		enUK: "Something else",
-		enUS: "Something else",
 		esES: "Otra cosa",
 		faIR: "چیزی دیگر",
 		frFR: "Something else",
@@ -1477,7 +1401,6 @@ var TRANS = map[string]map[string]string{
 	MESSAGE_TEXT_REMINDER_ASK_IF_RETURNED: {
 		deDE: "Wurde diese Schuld beglichen?",
 		enUK: "Have this debt been returned?",
-		enUS: "Have this debt been returned?",
 		esES: "¿Se ha devuelto esta deuda?",
 		faIR: "آیا این بدهی بازپرداخت شده است؟",
 		frFR: "Have this debt been returned?",
@@ -1496,7 +1419,6 @@ var TRANS = map[string]map[string]string{
 	MESSAGE_TEXT_ASK_WHEN_TO_REMIND_AGAIN: {
 		deDE: "Wann willst du wieder an diese Schuld erinnert werden?",
 		enUK: "When should we remind you about this debt again?",
-		enUS: "When should we remind you about this debt again?",
 		esES: "¿Cuándo recordarte de esta deuda otra vez?",
 		faIR: "چه زمانی لازم است مجدداً در مورد این بدهی به شما یادآوری نماییم؟",
 		frFR: "When should we remind you about this debt again?",
@@ -1515,7 +1437,6 @@ var TRANS = map[string]map[string]string{
 	MESSAGE_TEXT_REPLIED_DEBT_RETURNED_FULLY: {
 		deDE: "Du hast angegeben, dass diese Schuld vollständig beglichen ist.",
 		enUK: "You've replied back that debt has been returned fully.",
-		enUS: "You've replied back that debt has been returned fully.",
 		esES: "Has confirmado que la deuda se ha saldado totalmente",
 		faIR: "شما پاسخ داده اید که بدهی به صورت کامل بازپرداخت شده است.",
 		frFR: "You've replied back that debt has been returned fully.",
@@ -1534,7 +1455,6 @@ var TRANS = map[string]map[string]string{
 	MESSAGE_TEXT_DEBT_IS_RETURNED: {
 		deDE: "Die Schuld ist vollständig beglichen.",
 		enUK: "The debt has been returned fully.",
-		enUS: "The debt has been returned fully.",
 		esES: "La deuda se ha saldado totalmente",
 		faIR: "بدهی به صورت کامل بازپرداخت شده است",
 		frFR: "The debt has been returned fully.",
@@ -1553,7 +1473,6 @@ var TRANS = map[string]map[string]string{
 	MESSAGE_TEXT_DETAILS_ARE_HERE: {
 		deDE: "Details hier: %v",
 		enUK: "Details here: %v",
-		enUS: "Details here: %v",
 		esES: "Detalles aquí: %v",
 		faIR: "جزئیات در اینجا: %v",
 		frFR: "Details here: %v",
@@ -1572,7 +1491,6 @@ var TRANS = map[string]map[string]string{
 	MESSAGE_TEXT_REMINDER: {
 		deDE: "Erinnerung",
 		enUK: "Reminder",
-		enUS: "Reminder",
 		esES: "Recordatorio",
 		faIR: "یادآور",
 		frFR: "Reminder",
@@ -1591,7 +1509,6 @@ var TRANS = map[string]map[string]string{
 	MESSAGE_TEXT_REMINDER_SET: {
 		deDE: "Erinnerung am: %v",
 		enUK: "Reminder set for: %v",
-		enUS: "Reminder set for: %v",
 		esES: "Recordatorio establecito para: %v",
 		faIR: "یادآور تنظیم شده است برای: %v",
 		frFR: "Reminder set for: %v",
@@ -1610,7 +1527,6 @@ var TRANS = map[string]map[string]string{
 	MESSAGE_TEXT_REMINDER_DISABLED: {
 		deDE: "Du hast die Erinnerung an diese Schuld deaktiviert.",
 		enUK: "You've disabled reminders for this debt.",
-		enUS: "You've disabled reminders for this debt.",
 		esES: "Recordatorio para esta deuda se ha deshabilitado.",
 		faIR: "شما یادآور را برای این بدهی غیرفعال نموده اید.",
 		frFR: "You've disabled reminders for this debt.",
@@ -1629,7 +1545,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_REMINDER_ENABLE: {
 		deDE: "Erinnerung aktivieren",
 		enUK: "Turn-on reminder",
-		enUS: "Turn-on reminder",
 		esES: "Recordatorio de encendido",
 		faIR: "یادآوری روشن",
 		frFR: "Turn-on reminder",
@@ -1648,7 +1563,6 @@ var TRANS = map[string]map[string]string{
 	MESSAGE_TEXT_REMINDER_ALREADY_RESCHEDULED: {
 		deDE: "Du wirst bereits erneut erinnert.",
 		enUK: "You've already rescheduled this reminder.",
-		enUS: "You've already rescheduled this reminder.",
 		esES: "Recordatorio para esta deuda se ha reprogramado ya.",
 		faIR: "شما قبلا به صورت مجدد این یادآور را زمانبندی نموده اید.",
 		frFR: "You've already rescheduled this reminder.",
@@ -1667,7 +1581,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_REMINDER_RETURNED_IN_FULL: {
 		deDE: "Ja, vollständig beglichen",
 		enUK: "Yes, returne in full",
-		enUS: "Yes, returne in full",
 		esES: "Sí, devuelto totalmente",
 		faIR: "بله، بازپرداخت به صورت کامل",
 		frFR: "Yes, returne in full",
@@ -1686,7 +1599,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_REMINDER_RETURNED_PARTIALLY: {
 		deDE: "Teilweise beglichen",
 		enUK: "Returned partially",
-		enUS: "Returned partially",
 		esES: "Devuelto parcialmente",
 		faIR: "تا اندازه ای بازپرداخت شده است",
 		frFR: "Returned partially",
@@ -1705,7 +1617,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_REMINDER_NOT_RETURNED: {
 		deDE: "Nicht beglichen",
 		enUK: "Not returned",
-		enUS: "Not returned",
 		esES: "No devuelto",
 		faIR: "بازپرداخت نشده است",
 		frFR: "Not returned",
@@ -1852,7 +1763,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_HIGH_FIVE: {
 		deDE: "Gib mir Fünf!",
 		enUK: "High five!",
-		enUS: "High five!",
 		esES: "¡Choca esos cinco!",
 		faIR: "بزن قدش!",
 		frFR: "Tape m'en cinq !",
@@ -1871,7 +1781,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_CHANGE_LANG: {
 		deDE: "Sprache",
 		enUK: "Language",
-		enUS: "Language",
 		esES: "Idioma",
 		faIR: "زبان",
 		frFR: "Langue",
@@ -1890,7 +1799,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_HELP: {
 		deDE: "Hilfe",
 		enUK: "Help",
-		enUS: "Help",
 		esES: "Ayuda",
 		faIR: "کمک",
 		frFR: "Aide",
@@ -1909,7 +1817,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_HISTORY: {
 		deDE: "Verlauf",
 		enUK: "History",
-		enUS: "History",
 		esES: "Cronología",
 		faIR: "پیشینه",
 		frFR: "Historique",
@@ -1928,7 +1835,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_CANCEL: {
 		deDE: "Abbrechen",
 		enUK: "Cancel",
-		enUS: "Cancel",
 		esES: "Cancelar",
 		faIR: "کنسل",
 		frFR: "Annuler",
@@ -1947,7 +1853,6 @@ var TRANS = map[string]map[string]string{
 	COMMAND_TEXT_REFERRERS: {
 		deDE: "Empfehlungen",
 		enUK: "Referrers",
-		enUS: "Referrers",
 		esES: "Referentes",
 		faIR: "معرف\u200cها",
 		frFR: "Référents",
@@ -1974,15 +1879,6 @@ Dies sollte von Telegram-Clients so dargestellt werden: <a href="%v">@%v</a>
 
 Die Top 5 Empfehlungen der letzten 100 neuen Benutzer werden hier angezeigt.`,
 		enUK: `To add your channel to the list just write about us with a link as %v <code>&lt;-</code> replace <code>YOUR_CHANNEL</code> with your own channel.
-
-It's better if you hide the link in HTML as:
-
-<pre>&lt;a href="%v"&gt;@%v&lt;/a&gt;</pre>
-
-This should be rendered by Telegram clients as: <a href="%v">@%v</a>
-
-Top 5 referrers for the last 100 new users will be shown here.`,
-		enUS: `To add your channel to the list just write about us with a link as %v <code>&lt;-</code> replace <code>YOUR_CHANNEL</code> with your own channel.
 
 It's better if you hide the link in HTML as:
 
@@ -2121,7 +2017,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	ButtonTextCancel: {
 		deDE: "↩ Zurück",
 		enUK: "↩ Cancel",
-		enUS: "↩ Cancel",
 		esES: "↩ Cancelar",
 		faIR: "↪ کنسل",
 		frFR: "↩ Annuler",
@@ -2140,7 +2035,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	BUTTON_TEXT_MAIN_MENU: {
 		deDE: "↩ Hauptmenü",
 		enUK: "↩ Main menu",
-		enUS: "↩ Main menu",
 		esES: "↩ Menú principal",
 		faIR: "↪ منوی اصلی",
 		frFR: "↩ Menu principal",
@@ -2159,7 +2053,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	COMMAND_TEXT_SETTINGS_PRIMARY_CURRENCY: {
 		deDE: "Hauptwährung",
 		enUK: "Primary currency",
-		enUS: "Primary currency",
 		esES: "Moneda principal",
 		faIR: "واحد پول اولیه",
 		frFR: "Devise principale",
@@ -2178,7 +2071,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	COMMAND_TEXT_ADD_GROUP: {
 		deDE: "Gruppe hinzufügen",
 		enUK: "Add group",
-		enUS: "Add group",
 		esES: "Añadir grupo",
 		faIR: "اضافه کردن گروه",
 		frFR: "Ajouter un groupe",
@@ -2197,7 +2089,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	COMMAND_TEXT_GROUPS: {
 		deDE: "Gruppen",
 		enUK: "Groups",
-		enUS: "Groups",
 		esES: "Grupos",
 		faIR: "گروه\u200cها",
 		frFR: "Groupes",
@@ -2216,7 +2107,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	COMMAND_TEXT_BILLS: {
 		deDE: "Rechnungen",
 		enUK: "Bills",
-		enUS: "Bills",
 		esES: "Facturas",
 		faIR: "صورتحساب\u200cها",
 		frFR: "Factures",
@@ -2235,7 +2125,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	COMMAND_TEXT_SETTLE_BILL: {
 		deDE: "Rechnung begleichen",
 		enUK: "Settle bill",
-		enUS: "Settle bill",
 		esES: "Liquidar factura",
 		faIR: "تسویه صورتحساب",
 		frFR: "Régler la facture",
@@ -2254,7 +2143,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	COMMAND_TEXT_SETTLE_BILLS: {
 		deDE: "Rechnungen begleichen",
 		enUK: "Settle bills",
-		enUS: "Settle bills",
 		esES: "Liquidar facturas",
 		faIR: "تسویه صورتحساب\u200cها",
 		frFR: "Régler les factures",
@@ -2273,7 +2161,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	COMMAND_TEXT_INVITE_FIREND: {
 		deDE: "Freund einladen",
 		enUK: "Invite friend",
-		enUS: "Invite friend",
 		esES: "Invitar a un amigo",
 		faIR: "دوستی دعوت کن",
 		frFR: "Inviter un ami",
@@ -2292,7 +2179,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	COMMAND_TEXT_INVITE_MEMBER: {
 		deDE: "Mitglied einladen",
 		enUK: "Invite member",
-		enUS: "Invite member",
 		esES: "Invitar miembro",
 		faIR: "دعوت از اعضا",
 		frFR: "Inviter un membre",
@@ -2311,7 +2197,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	COMMAND_TEXT_NEW_BILL: {
 		deDE: "Neue Rechnung",
 		enUK: "New bill",
-		enUS: "New bill",
 		esES: "Nueva factura",
 		faIR: "صورتحساب جدید",
 		frFR: "Nouvelle facture",
@@ -2331,7 +2216,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	COMMAND_TEXT_NEW_FUNDRAISING: {
 		deDE: "Neue Spendensammlung",
 		enUK: "New fundraising",
-		enUS: "New fundraising",
 		esES: "Nueva recaudación de fondos",
 		faIR: "جمع آوری پول جدید",
 		frFR: "Nouvelle collecte de fonds",
@@ -2350,7 +2234,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	COMMAND_TEXT_NEW_COUNTERPARTY: {
 		deDE: "neuer Kontakt",
 		enUK: "Add new",
-		enUS: "Add new",
 		esES: "Añadir",
 		faIR: "اضافه کردن مورد جدید",
 		frFR: "Ajouter nouveau",
@@ -2369,7 +2252,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	MESSAGE_TEXT_LOGIN_CODE: {
 		deDE: "Dein Code um dich an der App anzumelden: <b>%v</b>",
 		enUK: "Your code for signing in to app: <b>%v</b>",
-		enUS: "Your code for signing in to app: <b>%v</b>",
 		esES: "Tu código para entrar en la app: <b>%v</b>",
 		faIR: "کد شما برای ورود به برنامه: <b>%v</b>",
 		frFR: "Votre code pour vous connecter à l'application: <b>%v</b>",
@@ -2391,10 +2273,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 
 		<i>Send '.' to cancel</i>`,
 		enUK: `Please enter a name for the new contact:
-		You can type manually or choose from your address book (<i>through "clip" icon</i>).
-
-		<i>Send '.' to cancel</i>`,
-		enUS: `Please enter a name for the new contact:
 		You can type manually or choose from your address book (<i>through "clip" icon</i>).
 
 		<i>Send '.' to cancel</i>`,
@@ -2457,7 +2335,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	MESSAGE_TEXT_TRANSFER_IS_CREATING: {
 		deDE: "Transferiere...",
 		enUK: "Creating transfer...",
-		enUS: "Creating transfer...",
 		esES: "Estoy creando la nueva nota...",
 		faIR: "ایجاد انتقال ...",
 		frFR: "Création du transfert...",
@@ -2476,7 +2353,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	COMMAND_TEXT_PLEASE_WAIT: {
 		deDE: "Bitte warten",
 		enUK: "Please wait",
-		enUS: "Please wait",
 		esES: "Espera, por favor",
 		faIR: "لطفا صبر کنید",
 		frFR: "Veuillez patienter",
@@ -2495,7 +2371,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	MESSAGE_TEXT_PLEASE_WAIT: {
 		deDE: "Bitte warten...",
 		enUK: "Please wait...",
-		enUS: "Please wait...",
 		esES: "Espera, por favor...",
 		faIR: "لطفا صبر کنید ...",
 		frFR: "Veuillez patienter...",
@@ -2514,7 +2389,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	MESAGE_TEXT_CREATING_BILL: {
 		deDE: "Rechnung erstellen",
 		enUK: "Creating bill",
-		enUS: "Creating bill",
 		esES: "Creando factura",
 		faIR: "ایجاد صورتحساب",
 		frFR: "Création de facture",
@@ -2552,7 +2426,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	MESSAGE_TEXT_ASK_BILL_PAYER: {
 		deDE: "Wer hat die Rechnung bezahlt?",
 		enUK: "Who paid for the bill?",
-		enUS: "Who paid for the bill?",
 		esES: "¿Quién pagó la factura?",
 		faIR: "چه کسی صورتحساب را پرداخت کرد؟",
 		frFR: "Qui a payé la facture?",
@@ -2571,7 +2444,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	MESSAGE_TEXT_SELF_ACKNOWLEDGEMENT: {
 		deDE: "%v muss dem zustimmen",
 		enUK: "Acknowledgement is expected from %v",
-		enUS: "Acknowledgement is expected from %v",
 		esES: "Se espera la confirmación de %v",
 		faIR: "انتظار تصدیق می رود از %v",
 		frFR: "Confirmation attendue de %v",
@@ -2590,7 +2462,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	MESSAGE_TEXT_TRANSFER_ACCEPTED_BY_YOU: {
 		deDE: "Du hast dem zugestimmt.",
 		enUK: "You've accepted this transaction.",
-		enUS: "You've accepted this transaction.",
 		esES: "Has confirmado esta transacción",
 		faIR: ".شما این تراکنش را قبول کردید ",
 		frFR: "Vous avez accepté cette transaction.",
@@ -2610,8 +2481,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 		deDE: `Du hast dieser Anfrage nicht zugestimmt.
 		Der Vorgang wird zurückgestellt und die Gegenpartei benachrichtigt.`,
 		enUK: `You do not agree with this transaction.
-                The transaction will not be deleted but the creator will be notified.`,
-		enUS: `You do not agree with this transaction.
                 The transaction will not be deleted but the creator will be notified.`,
 		esES: `No estas de acuerdo con la transacción.
 		La transacción NO será cancelada, pero el creador será notificado.`,
@@ -2646,7 +2515,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	MESSAGE_TEXT_TRANSFER_ACCEPTED_BY_COUNTERPARTY: {
 		deDE: "%v hat deiner Anfrage <b>zugestimmt</b>:",
 		enUK: "%v accepted your transaction:",
-		enUS: "%v accepted your transaction:",
 		esES: "%v ha aceptado tu transacción",
 		faIR: ": تراکنش شمارا تایید کرد %v ",
 		frFR: "%v a accepté votre transaction:",
@@ -2665,7 +2533,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	MESSAGE_TEXT_TRANSFER_DECLINED_BY_COUNTERPARTY: {
 		deDE: "%v hat deine Anfrage <b>abgelehnt</b>. Wenn die Sache besprochen ist, kann die Anfrage erneut gesendet werden.",
 		enUK: "%v did not agree with your transaction. The transaction is not canceled but you may want to discuss it.",
-		enUS: "%v did not agree with your transaction. The transaction is not canceled but you may want to discuss it.",
 		esES: "%v no está de acuerdo con tu transacción. La transacción no ha sido cancelada, pero quizás deberías discutirlo.",
 		faIR: "%v با تراکنش شما موافقت نکرد. تراکنش لغو نشده است اما ممکن است بخواهید در مورد آن صحبت کنید.",
 		frFR: "%v n'est pas d'accord avec votre transaction. La transaction n'est pas annulée mais vous voudrez peut-être en discuter.",
@@ -2684,7 +2551,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	COMMAND_TEXT_SUBSCRIBE_TO_APP: {
 		deDE: "Ich will die App!",
 		enUK: "I want the app!",
-		enUS: "I want the app!",
 		esES: "¡Quiero la aplicación!",
 		faIR: "!من برنامه را می خواهم",
 		frFR: "Je veux l'application !",
@@ -2703,7 +2569,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	COMMAND_TEXT_I_AM_FINE_WITH_BOT: {
 		deDE: "Mir reicht der Bot!",
 		enUK: "I'm fine with just the bot!",
-		enUS: "I'm fine with just the bot!",
 		esES: "¡Estoy satisfecho con este bot!",
 		faIR: "! ربات به تنهایی برای من کافی است",
 		frFR: "Le bot me suffit !",
@@ -2722,7 +2587,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	MESSAGE_TEXT_SUBSCRIBED_TO_APP: {
 		deDE: "Du wirst darüber informiert, wenn die App zum Download zur Verfügung steht.",
 		enUK: "We'll let you know once the app is available for download.",
-		enUS: "We'll let you know once the app is available for download.",
 		esES: "Te avisamos cuando la aplicación esté disponible para descargarla",
 		faIR: ".وقتی برنامه برای دانلود دردسترس بود به شما اطلاع می دهیم",
 		frFR: "Nous vous informerons dès que l'application sera disponible au téléchargement.",
@@ -2741,7 +2605,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	MESSAGE_TEXT_NOT_INTERESTED_IN_APP: {
 		deDE: "Gut, wir sind froh, dass dir der Bot reicht und wir uns mit der App nicht beeilen müssen.",
 		enUK: "Well, we are happy our bot is good enough and there is no need to download an app.",
-		enUS: "Well, we are happy our bot is good enough and there is no need to download an app.",
 		esES: "Bueno, estamos contentos de que te haya gustado nuestro bot y no hace falta descargar ninguna otra aplicación",
 		faIR: ".خب، ما خوشحال هستیم که ربات برای شما کافی است و نیازی به دانلود برنامه نیست",
 		frFR: "Eh bien, nous sommes heureux que notre bot soit suffisant et qu'il n'y ait pas besoin de télécharger une application.",
@@ -2760,7 +2623,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	MESSAGE_TEXT_YOUR_AD_COULD_BE_HERE: {
 		deDE: "Hier könnte <a href>ihre Werbung</a> stehen",
 		enUK: "You can <a href>advertise here</a>",
-		enUS: "You can <a href>advertise here</a>",
 		esES: "Aquí se puede <a href>publicar un anuncio</a>",
 		faIR: "شما میتوانید <a href>در اینجا تبلیغ کنید</a>",
 		frFR: "Vous pouvez <a href>faire de la publicité ici</a>",
@@ -2781,9 +2643,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 
 	Möchtest du daran erinnert werden, wenn die App rauskommt?`,
 		enUK: `🤖: I'm a good robot, for sure.But sometimes it is more convinient to use a nice specialized app.It's not ready for public use yet but you can check how it is going to looks: <a href="https://debtstracker.io/en/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/en/</a>
-
-	Do you want to get an invite when it gets released?`,
-		enUS: `🤖: I'm a good robot, for sure.But sometimes it is more convinient to use a nice specialized app.It's not ready for public use yet but you can check how it is going to looks: <a href="https://debtstracker.io/en/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/en/</a>
 
 	Do you want to get an invite when it gets released?`,
 		esES: `🤖: Claro que soy un robot encantador, pero más comodo usar una aplicación especial.No esta disponible ya pero se puede ver como será: <a href = "https://debtstracker.io/es/#utm_source=telegram&utm_campaign=ads_screen">https://debtstracker.io/en/</a>
@@ -2832,7 +2691,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	MESSAGE_TEXT_INVALID_FLOAT: {
 		deDE: "Entschuldigung, aber du kannst nur Zahlen für Menge oder Wert wählen (<i>mit zwei Nachkommastellen</i>).",
 		enUK: "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).",
-		enUS: "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).",
 		esES: "Lo siento, solo puedes utilizar numeros como importe/cantidad (<i>con un maximo de 2 dígitos despues de la coma</i>).",
 		faIR: "ببخشید، اما شما تنها میتوانید از اعداد بعنوان مقادیر / اندازه ها استفاده کنید (<i>با دو رقم اعشار</i>).",
 		frFR: "Sorry, but you can use just numbers as amount/quantity (<i>with up to 2 digits after point</i>).",
@@ -2851,7 +2709,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	MESSAGE_TEXT_ASK_LENDING_TYPE: {
 		deDE: "<b>Was hast du jemanden geliehen?</b>",
 		enUK: "<b>What did you lend to someone?</b>",
-		enUS: "<b>What did you lend to someone?</b>",
 		esES: "<b>¿Qué has prestado?</b>",
 		faIR: "<b> چه چیزی به کسی قرض داده اید؟</b>",
 		frFR: "<b>What did you lend to someone?</b>",
@@ -2872,9 +2729,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 
 	Falls die Standardoptionen nicht reichen, sende mir einen Text. Zum Beispiel: <i>Äpfel</i>".`,
 		enUK: `Please choose from the options below or <a>select a currency from the list</a>.
-
-	If standard options are not enough simply send a text.For example: "<i>apple</i>".`,
-		enUS: `Please choose from the options below or <a>select a currency from the list</a>.
 
 	If standard options are not enough simply send a text.For example: "<i>apple</i>".`,
 		esES: `Elige del menú abajo de la pantalla o <a>selecciona la moneda de la lista</a>.
@@ -2923,7 +2777,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	MESSAGE_TEXT_ASK_LENDING_AMOUNT: {
 		deDE: "Wie viel <b>%v</b> hast du verliehen?\n(<i>Sende '.' zum Abbrechen</i>)",
 		enUK: "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)",
-		enUS: "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)",
 		esES: "Cuanto(s) <b>%v</b> has prestado\n(<i>enviar '.' para cancelar</i>)",
 		faIR: "چه مقدار <b>%v</b> قرض داده اید؟\n(<i>ارسال '.' برای کنسل کردن</i>)",
 		frFR: "How much <b>%v</b> did you lend?\n(<i>send '.' to cancel</i>)",
@@ -2942,7 +2795,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	MESSAGE_TEXT_ASK_LENDING_COUNTERPARTY: {
 		deDE: "Wer hat sich <b>%v</b> von dir geliehen?\n(<i>Sende '.' zum Abbrechen</i>)",
 		enUK: "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)",
-		enUS: "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)",
 		esES: "A quién has prestado <b>%v</b>?\n(<i>enviar '.' para cancelar</i>)",
 		faIR: "چه کسی از شما <b>%v</b> قرض گرفته است؟\n(<i>ارسال '.' برای کنسل کردن</i>)",
 		frFR: "Who borrowed from you <b>%v</b>?\n(<i>send '.' to cancel</i>)",
@@ -2961,7 +2813,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	MESSAGE_TEXT_ASK_BORROWING_TYPE: {
 		deDE: "Was hast du dir geliehen?",
 		enUK: "What did you lend?",
-		enUS: "What did you lend?",
 		esES: "¿Qué te han prestado?",
 		faIR: "چه چیزی قرض گرفته اید؟",
 		frFR: "What did you lend?",
@@ -2980,7 +2831,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	MESSAGE_TEXT_ASK_BORROWING_AMOUNT: {
 		deDE: "Wie viel <b>%v</b> hast du geliehen?\n(<i>Sende '.' zum Abbrechen</i>)",
 		enUK: "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)",
-		enUS: "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)",
 		esES: "¿Cuánto <b>%v</b> has prestado?\n(<i>enviar '.' para cancelar</i>)",
 		faIR: "چه مقدار <b>%v</b> قرض گرفته اید؟\n(<i>ارسال '.' برای کنسل کردن</i>)",
 		frFR: "How much <b>%v</b> did you borrow?\n(<i>send '.' to cancel</i>)",
@@ -2999,7 +2849,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	MESSAGE_TEXT_ASK_BORROWING_COUNTERPARTY: {
 		deDE: "Wer hat dir <b>%v</b> geliehen?\n(<i>Sende '.' zum Abbrechen</i>)",
 		enUK: "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)",
-		enUS: "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)",
 		esES: "¿Quién te ha prestado <b>%v</b>?\n(<i>enviar '.' para cancelar</i>)",
 		faIR: "چه کسی به شما <b>%v</b> قرض داده است؟ \n(<i>ارسال '.' برای کنسل کردن</i>)",
 		frFR: "Who lended to you <b>%v</b>?\n(<i>send '.' to cancel</i>)",
@@ -3018,7 +2867,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	MESSAGE_TEXT_YOU_CAN_SEND_RECEIPT: {
 		deDE: "Soll eine <a receipt>Quittung</a> an <a counterparty>%v</a> gesendet werden?",
 		enUK: "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?",
-		enUS: "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?",
 		esES: "¿Debo enviar <a receipt> el recibo</a> a <a counterparty>%v</a>?",
 		faIR: "آیا لازم است ماارسال کنیم یک <a receipt>رسید</a> به <a counterparty>%v</a>?",
 		frFR: "Should we send a <a receipt>receipt</a> to <a counterparty>%v</a>?",
@@ -3037,7 +2885,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	MESSAGE_TEXT_YOU_CAN_SEND_RECEIPT_TO_YOURSELF_BY_SMS: {
 		deDE: "Entschuldigung, aber eine Quittung selber per SMS zu schicken ist im Moment noch nicht möglich. Aber dafür geht es mit %v.",
 		enUK: "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.",
-		enUS: "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.",
 		esES: "Lo siento, el envio del recibo a ti mismo a través de SMS en este momento está desactivado. Pero lo puedes enviar a %v.",
 		faIR: "متاسفم، درحال حاضرارسال یک رسید به خودتان بوسیله پیام کوتاه امکان پذیر نیست. شما میتوانید آنرا ارسال کنید به  %v از طریق.",
 		frFR: "Sorry, sending a receipt to yourself by SMS is not available at the moment. You can send it to %v though.",
@@ -3056,7 +2903,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	MESSAGE_TEXT_RECEIPT_IS_SENDING_BY_TELEGRAM: {
 		deDE: "Die Quittung wird %v per Telegram geschickt...",
 		enUK: "We are sending receipt to %v by Telegram...",
-		enUS: "We are sending receipt to %v by Telegram...",
 		esES: "El recibo está enviando a%v a través de Telegram…",
 		faIR: "مادرحال ارسال رسید به %v از طریق تلگرام هستیم...",
 		frFR: "We are sending receipt to %v by Telegram...",
@@ -3075,7 +2921,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	DAY: {
 		deDE: "%v day",
 		enUK: "%v day",
-		enUS: "%v day",
 		esES: "%v day",
 		faIR: "%v day",
 		frFR: "%v day",
@@ -3094,7 +2939,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	DAYS_234: {
 		deDE: "%v days",
 		enUK: "%v days",
-		enUS: "%v days",
 		esES: "%v days",
 		faIR: "%v days",
 		frFR: "%v days",
@@ -3113,7 +2957,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	DAYS: {
 		deDE: "%v days",
 		enUK: "%v days",
-		enUS: "%v days",
 		esES: "%v days",
 		faIR: "%v days",
 		frFR: "%v days",
@@ -3132,7 +2975,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	MESSAGE_TEXT_INTEREST_PLEASE_SPECIFY_PERIOD: {
 		deDE: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?",
 		enUK: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?",
-		enUS: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?",
 		esES: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?",
 		faIR: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?",
 		frFR: "Please also specify interest period, e.g. is it %v%% for per year, month, week, some number of days?",
@@ -3151,7 +2993,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	MESSAGE_TEXT_INTEREST: {
 		deDE: "<b>Interest</b>: %v%% per %v",
 		enUK: "<b>Interest</b>: %v%% per %v",
-		enUS: "<b>Interest</b>: %v%% per %v",
 		esES: "<b>Interest</b>: %v%% per %v",
 		faIR: "<b>Interest</b>: %v%% per %v",
 		frFR: "<b>Interest</b>: %v%% per %v",
@@ -3170,7 +3011,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	MESSAGE_TEXT_INTEREST_MIN_PERIOD: {
 		deDE: "minimum period %v",
 		enUK: "minimum period %v",
-		enUS: "minimum period %v",
 		esES: "minimum period %v",
 		faIR: "minimum period %v",
 		frFR: "minimum period %v",
@@ -3189,7 +3029,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	MESSAGE_TEXT_RECEIPT_NEW_DEBT_FROM_USER: {
 		deDE: "{{.Counterparty}} schuldet dir {{.Amount}} .",
 		enUK: "{{.Counterparty}} borrowed from you {{.Amount}}.",
-		enUS: "{{.Counterparty}} borrowed from you {{.Amount}}.",
 		esES: "{{.Counterparty}} prestado por tí {{.Amount}}.",
 		faIR: "{{.Counterparty}} از شما {{.Amount}} قرض گرفته است .",
 		frFR: "{{.Counterparty}} borrowed from you {{.Amount}}.",
@@ -3209,7 +3048,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	MESSAGE_TEXT_RECEIPT_NEW_DEBT_TO_USER: {
 		deDE: "{{.Counterparty}} hat dir {{.Amount}} geliehen.",
 		enUK: "{{.Counterparty}} lended to you {{.Amount}}.",
-		enUS: "{{.Counterparty}} lended to you {{.Amount}}.",
 		esES: "{{.Counterparty}} prestado a mí {{.Amount}}.",
 		faIR: "{{.Counterparty}} به شما {{.Amount}} قرض داده است .",
 		frFR: "{{.Counterparty}} lended to you {{.Amount}}.",
@@ -3228,7 +3066,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	MESSAGE_TEXT_RECEIPT_RETURN_FROM_USER: {
 		deDE: "Du hast {{.Amount}} an {{.Counterparty}} beglichen.",
 		enUK: "You returned {{.Amount}} to {{.Counterparty}}.",
-		enUS: "You returned {{.Amount}} to {{.Counterparty}}.",
 		esES: "Has devuelto {{.Amount}} a {{.Counterparty}}.",
 		faIR: "شما بازگردانده اید {{.Amount}} به {{.Counterparty}}.",
 		frFR: "You returned {{.Amount}} to {{.Counterparty}}.",
@@ -3247,7 +3084,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	MESSAGE_TEXT_RECEIPT_RETURN_TO_USER: {
 		deDE: "{{.Counterparty}} hat dir {{.Amount}} beglichen.",
 		enUK: "{{.Counterparty}} returned to you {{.Amount}}.",
-		enUS: "{{.Counterparty}} returned to you {{.Amount}}.",
 		esES: "{{.Counterparty}} te ha devuelto {{.Amount}}.",
 		faIR: "{{.Counterparty}} به شما بازپرداخت کرده است {{.Amount}}.",
 		frFR: "{{.Counterparty}} returned to you {{.Amount}}.",
@@ -3378,7 +3214,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	MESSAGE_TEXT_THANKS: {
 		deDE: "🙏 Danke!",
 		enUK: "🙏 Thanks!",
-		enUS: "🙏 Thanks!",
 		esES: "🙏 ¡Gracias!",
 		faIR: "🙏 تشکر!",
 		frFR: "🙏 Merci!",
@@ -3495,7 +3330,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	MESSAGE_TEXT_ASK_FOR_FEEDBACK: {
 		deDE: "Über ein kleines Feedback wie der Bot so ist, würden wir uns freuen. Es dauert nur ein paar Sekunden.",
 		enUK: "We would appreciate if tell us how we doing. It takes just few seconds.",
-		enUS: "We would appreciate if tell us how we doing. It takes just few seconds.",
 		esES: "Te agredecemos si valoras el funccionamiento de nuestro applicación. Te costará solo unos segundos.",
 		faIR: "سپاسگزار خواهیم بود اگر به ما بگویید کارمان چطور بوده است. این تنها چند ثانیه زمان میبرد.",
 		frFR: "Nous apprécierions si vous nous disiez comment nous allons. Cela ne prend que quelques secondes.",
@@ -3514,7 +3348,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	COMMAND_TEXT_GIVE_FEEDBACK: {
 		deDE: "Bewerte diesen Bot",
 		enUK: "Rate this bot",
-		enUS: "Rate this bot",
 		esES: "Valora a bot",
 		faIR: "به این ربات امتیاز بدهید",
 		frFR: "Évaluer ce bot",
@@ -3533,7 +3366,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	COMMAND_TEXT_OPEN_STOREBOT_FOR_FEEDBACK: {
 		deDE: "Mache eine Bewertung auf @Storebot",
 		enUK: "Leave rating at @Storebot",
-		enUS: "Leave rating at @Storebot",
 		esES: "Valorar en @Storebot",
 		faIR: "امتیاز خود را اینجا وارد کنید @Storebot",
 		frFR: "Laisser une évaluation sur @Storebot",
@@ -3557,12 +3389,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 	Ansonsten freuen wir uns immer zu hören, was man besser machen kann.
 	`,
 		enUK: `OK, maybe you can rate us another time.
-
-	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
-
-	We also will appreciate if you suggest any improvements.
-	`,
-		enUS: `OK, maybe you can rate us another time.
 
 	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
 
@@ -3666,12 +3492,6 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 
 	We also will appreciate if you <a suggest-idea>suggest improvements</a>.
 	`,
-		enUS: `Thanks, we worked hard!
-
-	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
-
-	We also will appreciate if you <a suggest-idea>suggest improvements</a>.
-	`,
 		esES: `Gracias, hemos trabajado duro!
 
 	{{MESSAGE_TEXT_YOU_CAN_HELP_BY}}
@@ -3769,16 +3589,6 @@ Du könntest es auf <a share-fb>Facebook</a> posten oder auf <a share-twitter>Tw
 * Ansonsten auch gerne eine kleine Spende - <a href = "https://goo.gl/Qhh0yL">€2 via PayPal</a> (<i>about $2.2</i>)
 `,
 		enUK: `
-You can help us a lot if you:
-
-* Give us 5⭐ at <a storebot>directory of bots</a>.
-
-* Tell about the app to your friends.
-For example at <a share-fb>Facebook</a> or <a share-twitter>Twitter</a>.
-
-* Support further development - <a href = "https://goo.gl/Qhh0yL">€2 via PayPal</a> (<i>about $2.2</i>)
-`,
-		enUS: `
 You can help us a lot if you:
 
 * Give us 5⭐ at <a storebot>directory of bots</a>.
@@ -3930,7 +3740,6 @@ Masalan, <a share-fb>Facebook</a> yoki <a share-twitter>Twitter</a>da.
 	MESSAGE_TEXT_COUNTERPARTY_HAS_EMPTY_BALANCE: {
 		deDE: `Du bist quitt mit %v`,
 		enUK: `Balance is empty for %v`,
-		enUS: `Balance is empty for %v`,
 		esES: `El balance es cero para %v`,
 		faIR: `تراز خالی است برای %v`,
 		frFR: `Le solde est vide pour %v`,
@@ -3949,7 +3758,6 @@ Masalan, <a share-fb>Facebook</a> yoki <a share-twitter>Twitter</a>da.
 	MESSAGE_TEXT_ASK_TO_TRANSLATE: {
 		deDE: `Möchtest du den Bot in einer anderen Sprache? Du kannst beim <a>Übersetzen helfen</a>.`,
 		enUK: `Do you want our bot to talk in other language? You can <a>help with translation</a>.`,
-		enUS: `Do you want our bot to talk in other language? You can <a>help with translation</a>.`,
 		esES: `¿Te gustaría que nuestro bot hablara en otro idioma? Puedes <a>ayudar con traducción</a>.`,
 		faIR: `آیا می خواهید ربات ما به زبان دیگری صحبت کند؟ شما می توانید <a>با ترجمه به ما کمک کنید</a>.`,
 		frFR: `Voulez-vous que notre bot parle dans une autre langue? Vous pouvez <a>aider à la traduction</a>.`,
@@ -3970,9 +3778,6 @@ Masalan, <a share-fb>Facebook</a> yoki <a share-twitter>Twitter</a>da.
 
 Vielleicht willst du <a submit-bug>einen Fehler melden</a> oder <a suggest-idea>eine Verbesserung vorschlagen</a>?`,
 		enUK: `Well, we worked hard. You feedback will be passed to developers.
-
-Maybe you can <a submit-bug>report your issue</a> or <a suggest-idea>suggest how we can improve</a>?`,
-		enUS: `Well, we worked hard. You feedback will be passed to developers.
 
 Maybe you can <a submit-bug>report your issue</a> or <a suggest-idea>suggest how we can improve</a>?`,
 		esES: `Bueno, hemos trabajado duro. Tu opinión se pasará a los creadores.
@@ -4021,7 +3826,6 @@ Balki siz <a submit-bug>muammoingizni xabar qilishingiz</a> yoki <a suggest-idea
 	MESSAGE_TEXT_ON_FEEDBACK_NEGATIVE: {
 		deDE: `Das tut uns sehr leid. Vielleicht willst du uns <a submit-bug>einen Fehler melden</a> oder <a suggest-idea>eine Verbesserung vorschlagen</a>?`,
 		enUK: `We are very sorry. Maybe you can <a submit-bug>let us know what is wrong</a> or <a suggest-idea>suggest how we can improve</a>?`,
-		enUS: `We are very sorry. Maybe you can <a submit-bug>let us know what is wrong</a> or <a suggest-idea>suggest how we can improve</a>?`,
 		esES: `Lo sentimos mucho. Igual podrías <a submit-bug>decirnos qué no funcciona bien</a> o <a suggest-idea>proponernos cómo podemos mejorarlo</a>?`,
 		faIR: `ما بسیار متاسفیم. شما می توانید <a submit-bug>به ما بگویید مشکلتان چیست</a> یا <a suggest-idea>پیشنهاد دهید چطور میتوانیم بهبود ایجاد کنیم</a>?`,
 		frFR: `Nous sommes vraiment désolés. Peut-être pouvez-vous <a submit-bug>nous faire savoir ce qui ne va pas</a> ou <a suggest-idea>suggérer comment nous pouvons nous améliorer</a>?`,
@@ -4040,7 +3844,6 @@ Balki siz <a submit-bug>muammoingizni xabar qilishingiz</a> yoki <a suggest-idea
 	COMMAND_TEXT_ASK_FOR_FEEDBACK: {
 		deDE: "Bitte bewerte unsere App",
 		enUK: "Please rate our app",
-		enUS: "Please rate our app",
 		esES: "Por favor valora nuestro app",
 		faIR: "لطفاً به برنامه ما امتیاز دهید",
 		frFR: "Veuillez évaluer notre application",
@@ -4059,7 +3862,6 @@ Balki siz <a submit-bug>muammoingizni xabar qilishingiz</a> yoki <a suggest-idea
 	COMMAND_TEXT_FEEDBACK_POSITIVE: {
 		deDE: "Ja, es ist eine tolle App!",
 		enUK: "Yes, it's a great app!",
-		enUS: "Yes, it's a great app!",
 		esES: "¡Sí, es una app fantástica!",
 		faIR: "بله، این برنامه عالی است",
 		frFR: "Oui, c'est une excellente application !",
@@ -4078,7 +3880,6 @@ Balki siz <a submit-bug>muammoingizni xabar qilishingiz</a> yoki <a suggest-idea
 	COMMAND_TEXT_FEEDBACK_NEUTRAL: {
 		deDE: "Nicht schlecht, aber könnte besser sein",
 		enUK: "Not bad but can be better.",
-		enUS: "Not bad but can be better.",
 		esES: "No está mal, pero podría ser mejor.",
 		faIR: "بد نیست ولی می تواند بهتر باشد.",
 		frFR: "Pas mal mais peut être amélioré.",
@@ -4097,7 +3898,6 @@ Balki siz <a submit-bug>muammoingizni xabar qilishingiz</a> yoki <a suggest-idea
 	COMMAND_TEXT_FEEDBACK_NEGATIVE: {
 		deDE: "Ich mag sie nicht",
 		enUK: "Don't like it",
-		enUS: "Don't like it",
 		esES: "No me gusta",
 		faIR: "از این برنامه را نمی پسندم",
 		frFR: "Je n'aime pas",
@@ -4116,7 +3916,6 @@ Balki siz <a submit-bug>muammoingizni xabar qilishingiz</a> yoki <a suggest-idea
 	COMMAND_TEXT_FEEDBACK_NOT_READY: {
 		deDE: "Ich bin mir noch unsicher",
 		enUK: "Not decided yet",
-		enUS: "Not decided yet",
 		esES: "Estoy aún indeciso",
 		faIR: "هنوز تصمیم نگرفته ام.",
 		frFR: "Pas encore décidé",
@@ -4135,7 +3934,6 @@ Balki siz <a submit-bug>muammoingizni xabar qilishingiz</a> yoki <a suggest-idea
 	MESSAGE_TEXT_SETTINGS: {
 		deDE: "Was willst du ändern?",
 		enUK: "What do you want to adjust?",
-		enUS: "What do you want to adjust?",
 		esES: "¿Qué te gustaría modificar?",
 		faIR: "می خواهید چه چیزی را تنظیم کنید؟",
 		frFR: "Que voulez-vous ajuster ?",
@@ -4156,9 +3954,6 @@ Balki siz <a submit-bug>muammoingizni xabar qilishingiz</a> yoki <a suggest-idea
 
 Wenn Sie glauben, dass dies ein Fehler ist, teilen Sie uns dies bitte in @DebtsTrackerGroup mit.`,
 		enUK: `You are trying to create return record but there are no outstanding debts.
-
-If you believe this is a mistale please let us know in @DebtsTrackerGroup.`,
-		enUS: `You are trying to create return record but there are no outstanding debts.
 
 If you believe this is a mistale please let us know in @DebtsTrackerGroup.`,
 		esES: `Estás intentando crear un registro de devolución pero no hay deudas pendientes.
@@ -4207,7 +4002,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	MT_ATTEMPT_TO_CREATE_DEBT_WITH_INTEREST_AFFECTING_OUTSTANDING: {
 		deDE: "Sie versuchen, eine Schuld mit Zinsen zu erstellen, die sich auf ausstehende Überweisungen auswirken wird. Bitte schließen Sie diese zuerst.",
 		enUK: "You are trying to create a debt with interest that will affect outstanding transfers. Please close them first.",
-		enUS: "You are trying to create a debt with interest that will affect outstanding transfers. Please close them first.",
 		esES: "Estás intentando crear una deuda con intereses que afectará a las transferencias pendientes. Por favor, ciérralas primero.",
 		faIR: "شما در حال تلاش برای ایجاد بدهی با بهره هستید که بر انتقال های معوق تأثیر می گذارد. لطفا ابتدا آنها را ببندید.",
 		frFR: "Vous essayez de créer une dette avec intérêt qui affectera les transferts en cours. Veuillez les fermer d'abord.",
@@ -4226,7 +4020,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	MESSAGE_TEXT_NOT_IMPLEMENTED_YET: {
 		deDE: "Entschuldigung, diese Funktion ist noch nicht fertig programmiert.",
 		enUK: "Sorry, this functionality is not implemented yet.",
-		enUS: "Sorry, this functionality is not implemented yet.",
 		esES: "Lo sentimos, esta función no está activa aún.",
 		faIR: "متاسفم، این عملکرد هنوز پیاده سازی نشده است.",
 		frFR: "Désolé, cette fonctionnalité n'est pas encore implémentée.",
@@ -4245,7 +4038,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	MESSAGE_TEXT_ASK_INVITE_CHANNEL: {
 		deDE: "Worüber möchtest du eingeladen werden?",
 		enUK: "How do you want to get an invite?",
-		enUS: "How do you want to get an invite?",
 		esES: "¿Comó prefieres recibir la invitación?",
 		faIR: "می خواهید چگونه دعوت شوید؟",
 		frFR: "Comment voulez-vous recevoir une invitation ?",
@@ -4264,7 +4056,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	MESSAGE_TEXT_PLEASE_ENTER_INVITE_CODE: {
 		deDE: "Bitte gib den Bestätigungs-Code ein:",
 		enUK: "Please enter an invite code:",
-		enUS: "Please enter an invite code:",
 		esES: "Introduce el código de la invitación",
 		faIR: "لطفاً یک کد دعوت وارد کنید:",
 		frFR: "Veuillez entrer un code d'invitation :",
@@ -4283,7 +4074,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	MESSAGE_TEXT_USER_EMAIL_FOR_INVITE_RECEIVED: {
 		deDE: "Wir haben eine Nachricht an %v gesendet.\n\nBitte öffne die Nachricht und klick auf den Link, um deine Mail-Adresse zu bestätigen.",
 		enUK: "We've sent a message to %v.\n\nPlease open the email and click a link to confirm your email address.",
-		enUS: "We've sent a message to %v.\n\nPlease open the email and click a link to confirm your email address.",
 		esES: "Hemos enviado un mensage a %v.\n\nPor favor, abre tu e-mail y haz click en el link para confirmar tu e-mail.",
 		faIR: "ما یک پیام ارسال کردیم به %v.\n\nلطفاً ایمیل خود را باز کرده و روی لینک کلیک کنید تا آدرس ایمیل شما تایید شود.",
 		frFR: "Nous avons envoyé un message à %v.\n\nVeuillez ouvrir l'e-mail et cliquer sur un lien pour confirmer votre adresse e-mail.",
@@ -4302,7 +4092,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	MESSAGE_TEXT_USER_EMAIL_FOR_INVITE_SENT_TELEGRAM: {
 		deDE: "Wenn Telegram öffnet, drücke auf <b>Start</b>.",
 		enUK: "Once Telegram pop ups click the <b>Start</b> button.",
-		enUS: "Once Telegram pop ups click the <b>Start</b> button.",
 		esES: "Después de abrir Telegram aprieta el <b>Start</b> botón.",
 		faIR: "وقتی تلگرام اجرا شد برروی دکمه  <b>شروع</b> کلیک کنید.",
 		frFR: "Une fois que Telegram apparaît, cliquez sur le bouton <b>Start</b>.",
@@ -4321,7 +4110,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	MESSAGE_TEXT_USER_CONTACT_FOR_INVITE_RECEIVED: {
 		deDE: "Danke, du bist in der Warteschlange für eine Einladung.\n\nEs dauert etwa zwei bis drei Tage.\n\nAber du könntest den Code noch heute bekommen, wenn du einen Link auf Facebook teilst.",
 		enUK: "Thanks, you've been queued for an invite.\n\nCurrent awaiting time is 2-3 days.\n\nYou can get an invite code today by sharing a link to the bot on Facebook.",
-		enUS: "Thanks, you've been queued for an invite.\n\nCurrent awaiting time is 2-3 days.\n\nYou can get an invite code today by sharing a link to the bot on Facebook.",
 		esES: "Gracias, ya estás inscrito en la cola para conseguir la invitación.\n\nTiempo de espera 2-3 días.\n\nPuedes conseguirlo hoy si compartes el link de nuestro bot en Facebook.",
 		faIR: "سپاسگزاریم، شما در نوبت دعوت قرار گرفتید\n\nزمان انتظار شما در حال حاضر 2-3 روز می باشد.\n\n شما می توانید با به اشتراک گذاری لینک روبات در فیسبوک امروز یک کد دعوت دریافت کنید. ",
 		frFR: "Merci, vous avez été mis en file d'attente pour une invitation.\n\nLe temps d'attente actuel est de 2 à 3 jours.\n\nVous pouvez obtenir un code d'invitation aujourd'hui en partageant un lien vers le bot sur Facebook.",
@@ -4340,7 +4128,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	MESSAGE_TEXT_PLEASE_PROVIDE_YOUR_EMAIL: {
 		deDE: "Bitte gib deine e-Mail Adresse an:",
 		enUK: "Please provide your email address",
-		enUS: "Please provide your email address",
 		esES: "Por favor, esctibe tu e-mail",
 		faIR: "لطفاً آدرس ایمیل خود را وارد کنید.",
 		frFR: "Veuillez fournir votre adresse e-mail",
@@ -4359,7 +4146,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	MESSAGE_TEXT_PLEASE_PROVIDE_YOUR_PHONE_NUMBER: {
 		deDE: "Bitte gib deine Telefonnummer an:",
 		enUK: "Please provide your phone number",
-		enUS: "Please provide your phone number",
 		esES: "Por favor, esctibe tu número de teléfono",
 		faIR: "لطفاً شماره تلفن خود را وارد نمایید.",
 		frFR: "Veuillez fournir votre numéro de téléphone",
@@ -4378,7 +4164,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	MESSAGE_TEXT_WRONG_INVITE_CODE: {
 		deDE: "Ungültiger Code: %v",
 		enUK: "Wrong invite code: %v",
-		enUS: "Wrong invite code: %v",
 		esES: "El código de invitación no es correcto: %v",
 		faIR: "کد دعوت اشتباه است %v",
 		frFR: "Code d'invitation incorrect : %v",
@@ -4397,7 +4182,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	MESSAGE_TEXT_WRONG_EMAIL: {
 		deDE: "Ungültige e-Mail Adresse.",
 		enUK: "Wrong email address.",
-		enUS: "Wrong email address.",
 		esES: "El e-mail no es correcto.",
 		faIR: "آدرس ایمیل اشتباه است.",
 		frFR: "Adresse e-mail incorrecte.",
@@ -4416,7 +4200,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	MESSAGE_TEXT_WRONG_PHONE_NUMBER: {
 		deDE: "Ungültige Telefonnummer.",
 		enUK: "Wrong phone number.",
-		enUS: "Wrong phone number.",
 		esES: "El número de telefono no es correcto.",
 		faIR: "شماره تلفن اشتباه است",
 		frFR: "Numéro de téléphone incorrect.",
@@ -4435,7 +4218,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	MESSAGE_TEXT_OK_PLEASE_TRY_AGAIN: {
 		deDE: "Ok, bitte versuche es erneut.",
 		enUK: "Ok, please try again.",
-		enUS: "Ok, please try again.",
 		esES: "Ok, inténtalo de nuevo.",
 		faIR: "بسیار خوب، لطفا مجدداً سعی کنید.",
 		frFR: "Ok, veuillez réessayer.",
@@ -4552,7 +4334,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	MESSAGE_TEXT_MEMBERS_TITLE: {
 		deDE: "Mitglieder",
 		enUK: "Members",
-		enUS: "Members",
 		esES: "Miembros",
 		faIR: "اعضا",
 		frFR: "Membres",
@@ -4587,7 +4368,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	MESSAGE_TEXT_YOUR_BILL_SPLITTING_GROUPS: {
 		deDE: "Gruppen, mit denen du Rechnungen teilst",
 		enUK: "Your bills splitting groups",
-		enUS: "Your bills splitting groups",
 		esES: "Ya es miembro de este grupo de división de facturas.",
 		faIR: "شما قبلا عضو این گروه تقسیم لایحه هستید.",
 		frFR: "Vos groupes de partage de factures",
@@ -4809,7 +4589,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	BUTTON_TEXT_DUE: {
 		deDE: "📅 Fällig: %v",
 		enUK: "📅 Due: %v",
-		enUS: "📅 Due: %v",
 		esES: "📅 Hasta: %v",
 		faIR: "📅 مورد: %v",
 		frFR: "📅 Échéance: %v",
@@ -4925,7 +4704,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	BUTTON_TEXT_I_PAID_FOR_THE_BILL: {
 		deDE: "Die Rechnung wurde von mir bezahlt.",
 		enUK: "The bill was paid by me.",
-		enUS: "The bill was paid by me.",
 		esES: "La factura fue pagada por mí.",
 		faIR: "این لایحه توسط من پرداخت شد",
 		frFR: "La facture a été payée par moi.",
@@ -4945,7 +4723,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	BUTTON_TEXT_I_OWE_FOR_THE_BILL: {
 		deDE: "Ich muss noch was dabeigeben",
 		enUK: "I owe for this bill",
-		enUS: "I owe for this bill",
 		esES: "Debo esta factura",
 		faIR: "من برای این لایحه بدهکار هستم",
 		frFR: "Je dois pour cette facture",
@@ -4965,7 +4742,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	BUTTON_TEXT_I_DO_NOT_SHARE_THIS_BILL: {
 		deDE: "Ich habe damit nichts zutun",
 		enUK: "I don't share this bill",
-		enUS: "I don't share this bill",
 		esES: "No comparto esta cuenta",
 		faIR: "من این لایحه را به اشتراک نمی گذارم",
 		frFR: "Je ne partage pas cette facture",
@@ -4985,7 +4761,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	MESSAGE_TEXT_YOU_JOINED_BILL: {
 		deDE: "Du bist dem Teilen der Rechnung beigetreten.",
 		enUK: "You've joined to bill sharing.",
-		enUS: "You've joined to bill sharing.",
 		esES: "Te has agregado para pagar conjuntamente .",
 		faIR: "شما به اشتراک گذاشتن لایحه پیوستید",
 		frFR: "Vous avez rejoint le partage de facture.",
@@ -5005,7 +4780,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	ARTICLE_TITLE_SPLIT_BILL: {
 		deDE: "eine Rechnung teilen",
 		enUK: "Split bill/purchase",
-		enUS: "Split bill/purchase",
 		esES: "Compartir la cuenta/compra",
 		faIR: "لایحه / خرید تقسیم شده",
 		frFR: "Partager la facture/l'achat",
@@ -5025,7 +4799,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	ARTICLE_SUBTITLE_SPLIT_BILL: {
 		deDE: "Wert: %v\nTeile deine Kosten mit Freunden und verfolge deren Rückzahlungen.",
 		enUK: "Amount: %v\nShares expenses with friends & track paybacks",
-		enUS: "Amount: %v\nShares expenses with friends & track paybacks",
 		esES: "Importe: %v\nCompartir los gastos entre amigos y seguir las devoluciones",
 		faIR: "مقدار: %v" + "\n" + "هزینه ها را با دوستان و بازپرداخت پیگیری می کند",
 		frFR: "Montant: %v\nPartagez les dépenses avec des amis et suivez les remboursements",
@@ -5046,7 +4819,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	ARTICLE_NEW_DEBT_TITLE: {
 		deDE: "Neuer Schuldschein",
 		enUK: "New debt",
-		enUS: "New debt",
 		esES: "Nueva deuda",
 		faIR: "بدهی جدید",
 		frFR: "Nouvelle dette",
@@ -5066,7 +4838,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	ARTICLE_NEW_DEBT_SUBTITLE: {
 		deDE: "Wert: %v\nZur Fälligkeit wird eine Benachrichtigung geschickt, falls so eingestellt",
 		enUK: "Amount: %v\nSends notifications on due date if set",
-		enUS: "Amount: %v\nSends notifications on due date if set",
 		esES: "Importe: %v\nEnviar las notificaciones el día de vencimiento",
 		faIR: "مقدار: %v" + "\n" + "اگر تنظیم شود، اطلاعیه ها را در تاریخ تعیین شده ارسال می کند",
 		frFR: "Montant: %v\nEnvoie des notifications à la date d'échéance si défini",
@@ -5086,7 +4857,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	SPLITUS_PLEASE_JOIN_IF_NOT_ON_THE_LIST: {
 		deDE: `Bitte tritt zuerst bei, falls dein Name nicht auf der Liste ist.`,
 		enUK: `Please join if your name is not on the list above.`,
-		enUS: `Please join if your name is not on the list above.`,
 		esES: `Por favor únete si tu nombre no está en la lista anterior.`,
 		faIR: `اگر نام شما در لیست بالا نیست، لطفا پیوست شوید.`,
 		frFR: `Veuillez vous joindre si votre nom ne figure pas dans la liste ci-dessus.`,
@@ -5106,7 +4876,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	SPLITUS_TEXT_HI_IN_GROUP: {
 		deDE: `Ich bin <b>Splitus</b>. Danke fürs hinzufügen!`,
 		enUK: `I'm <b>Splitus</b>. Thanks for adding me!`,
-		enUS: `I'm <b>Splitus</b>. Thanks for adding me!`,
 		esES: `Soy <b>Splitus</b>. ¡Gracias por agregarme!`,
 		faIR: `من <b>Splitus</b> با تشکر برای اضافه کردن من!`,
 		frFR: `Je suis <b>Splitus</b>. Merci de m'avoir ajouté!`,
@@ -5126,7 +4895,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	COLLECTUS_TEXT_HI_IN_GROUP: {
 		deDE: `Ich bin <b>Collectus.</b> Danke fürs hinzufügen!`,
 		enUK: `I'm <b>Collectus.</b> Thanks for adding me!`,
-		enUS: `I'm <b>Collectus.</b> Thanks for adding me!`,
 		esES: `Soy <b>Collectus.</b> ¡Gracias por agregarme!`,
 		faIR: `من <b>Collectus</b> با تشکر برای اضافه کردن من!`,
 		frFR: `Je suis <b>Collectus.</b> Merci de m'avoir ajouté!`,
@@ -5146,7 +4914,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	MT_GROUP_LABEL: {
 		deDE: `<b>Gruppe</b>: %v`,
 		enUK: `<b>Group</b>: %v`,
-		enUS: `<b>Group</b>: %v`,
 		esES: `<b>Grupo</b>: %v`,
 		faIR: `<b>گروه</b>: %v`,
 		frFR: `<b>Groupe</b>: %v`,
@@ -5166,7 +4933,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	MT_SPONSORS_HEADER: {
 		deDE: `<b>Sponsoren</b>:`,
 		enUK: `<b>Sponsors</b>:`,
-		enUS: `<b>Sponsors</b>:`,
 		esES: `<b>Patrocinadores</b>:`,
 		faIR: `<b>حامیان</b>:`,
 		frFR: `<b>Sponsors</b>:`,
@@ -5186,7 +4952,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	MT_DEBTORS_HEADER: {
 		deDE: `<b>Schuldner</b>:`,
 		enUK: `<b>Debtors</b>:`,
-		enUS: `<b>Debtors</b>:`,
 		esES: `<b>Deudores</b>:`,
 		faIR: `<b>بدهکاران</b>:`,
 		frFR: `<b>Débiteurs</b>:`,
@@ -5206,7 +4971,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	BT_DEFAULT_CURRENCY: {
 		deDE: `Währung: %v`,
 		enUK: `Currency: %v`,
-		enUS: `Currency: %v`,
 		esES: `Moneda: %v`,
 		faIR: `واحد پول: %v`,
 		frFR: `Devise: %v`,
@@ -5226,7 +4990,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	MESSAGE_TEXT_ASK_LANG: {
 		deDE: `Welche Sprache wird hier gesprochen?`,
 		enUK: `What language should I use in this group?`,
-		enUS: `What language should I use in this group?`,
 		esES: `¿Qué idioma debería usar en este grupo?`,
 		faIR: `کدام زبان باید در این گروه استفاده کنم؟`,
 		frFR: `Quelle langue dois-je utiliser dans ce groupe?`,
@@ -5246,7 +5009,6 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	MESSAGE_TEXT_HI_IN_GROUP_LANG_SET: {
 		deDE: `Kein Problem, dann schreibe ich auf Deutsch.`,
 		enUK: `Great, I'll be using English.`,
-		enUS: `Great, I'll be using English.`,
 		esES: `Genial, usaré español.`,
 		faIR: `عالی، من از فارسی استفاده خواهم کرد.`,
 		frFR: `Super, j'utiliserai le français.`,
@@ -5496,9 +5258,6 @@ O usa il menu' qui sotto.`,
 		enUK: `<b>%v</b> <i>(last %d):</i>
 ─────────────
 %v`,
-		enUS: `<b>%v</b> <i>(last %d):</i>
-─────────────
-%v`,
 		esES: `<b>%v</b> <i>(últimos %d):</i>
 ─────────────
 %v`,
@@ -5526,7 +5285,6 @@ O usa il menu' qui sotto.`,
 	MESSAGE_TEXT_BALANCE_IS_ZERO: {
 		deDE: "Keine unbeglichenen Schulden.",
 		enUK: "You have no records on current debts.",
-		enUS: "You have no records on current debts.",
 		esES: "No hay ninguna notificación de deudas actuales.",
 		faIR: "شما در خصوص بدهی های اخیر ثبت سابقه ای ندارید.",
 		frFR: "",
@@ -5545,7 +5303,6 @@ O usa il menu' qui sotto.`,
 	MESSAGE_TEXT_BALANCE_CURRENCY_TOTAL_INTRO: {
 		deDE: "Insgesamt",
 		enUK: "Total",
-		enUS: "Total",
 		esES: "Total",
 		faIR: "مجموع",
 		frFR: "",
@@ -5564,7 +5321,6 @@ O usa il menu' qui sotto.`,
 	BT_OTHER_CURRENCY: {
 		deDE: "",
 		enUK: "Another currency",
-		enUS: "Another currency",
 		esES: "Otra moneda",
 		faIR: "ارز دیگر",
 		frFR: "",
@@ -5583,7 +5339,6 @@ O usa il menu' qui sotto.`,
 	MESSAGE_TEXT_PRIMARY_CURRENCY_IS_SET_TO: {
 		deDE: "OK, von nun an ist '%v' deine Hauptwährung.",
 		enUK: "OK, from now on I will use '%v' as a primary currency.",
-		enUS: "OK, from now on I will use '%v' as a primary currency.",
 		esES: "OK, ahora voy a usar '%v' como moneda principal. ",
 		faIR: "بسیار خوب، از الان من از '%v' بعنوان واحد پول اولیه استفاده می کنم",
 		frFR: "",
@@ -5621,7 +5376,6 @@ O usa il menu' qui sotto.`,
 	MESSAGE_TEXT_BALANCE_CURRENCY_ROW_DEBT_TO_USER: {
 		deDE: "Schuldet dir %v",
 		enUK: "Owes to you %v",
-		enUS: "Owes to you %v",
 		esES: "Te debe %v",
 		faIR: "%v به شما بدهکار است ",
 		frFR: "",
@@ -5640,7 +5394,6 @@ O usa il menu' qui sotto.`,
 	MESSAGE_TEXT_ON_RETURN_USER_DOES_NOT_OWE_ANYTHING_TO_COUNTERPARTY_ANYMORE: {
 		deDE: "Hurra, du bist jetzt quitt mit <b>%v</b>.",
 		enUK: "Congratulations! You don't owe anything more to <b>%v</b>.",
-		enUS: "Congratulations! You don't owe anything more to <b>%v</b>.",
 		esES: "Bravo! Has saldado tu deuda con <b>%v</b>.",
 		faIR: "تبریک! شما دیگر چیزی به <b>%v</b> بدهکار نیستید .",
 		frFR: "",
@@ -5659,7 +5412,6 @@ O usa il menu' qui sotto.`,
 	MESSAGE_TEXT_ON_RETURN_COUNTERPARTY_DOES_NOT_OWE_ANYTHING_TO_USER_ANYMORE: {
 		deDE: "Du bist jetzt mit <b>%v</b> quitt.",
 		enUK: "<b>%v</b> does not owe anything more to you.",
-		enUS: "<b>%v</b> does not owe anything more to you.",
 		esES: "<b>%v</b> nadie te debe nada ya.",
 		faIR: "<b>%v</b> دیگر چیزی به شما بدهکار نیست",
 		frFR: "",
@@ -5678,7 +5430,6 @@ O usa il menu' qui sotto.`,
 	MESSAGE_TEXT_BALANCE_CURRENCY_ROW_DEBT_BY_USER: {
 		deDE: "Du schuldest %v",
 		enUK: "You owe %v",
-		enUS: "You owe %v",
 		esES: "Tú debes %v",
 		faIR: "شما %v بدهکار هستید ",
 		frFR: "",
@@ -5697,7 +5448,6 @@ O usa il menu' qui sotto.`,
 	MESSAGE_TEXT_BALANCE_SINGLE_CURRENCY_COUNTERPARTY_DEBT_BY_USER: {
 		deDE: "%v - du schuldest %v",
 		enUK: "%v - you owe %v",
-		enUS: "%v - you owe %v",
 		esES: "%v - tú debes %v",
 		faIR: "%v - شما %v بدهکار هستید ",
 		frFR: "",
@@ -5716,7 +5466,6 @@ O usa il menu' qui sotto.`,
 	MESSAGE_TEXT_ASK_PRIMARY_CURRENCY: {
 		deDE: "Was ist deine Hauptwährung?",
 		enUK: "What is your primary currency?",
-		enUS: "What is your primary currency?",
 		esES: "¿Cuál es tu moneda principal?",
 		faIR: "واحد پولی اولیه شما چیست؟",
 		frFR: "",
@@ -5735,7 +5484,6 @@ O usa il menu' qui sotto.`,
 	MESSAGE_TEXT_ASK_PRIMARY_CURRENCY_FOR_GROUP: {
 		deDE: "",
 		enUK: "What is a primary currency for this group?",
-		enUS: "What is a primary currency for this group?",
 		esES: "¿Cuál es tu moneda principal?",
 		faIR: "واحد پولی اولیه شما چیست؟",
 		frFR: "",
@@ -5754,7 +5502,6 @@ O usa il menu' qui sotto.`,
 	MESSAGE_TEXT_FAILED_TO_DELETE_USER: {
 		deDE: "Konnte den Benutzer nicht löschen: %v",
 		enUK: "Failed to delete user: %v",
-		enUS: "Failed to delete user: %v",
 		esES: "Error durante la cancelación del usuario: %v",
 		faIR: "حذف کاربر ناموفق بود: %v",
 		frFR: "Échec de la suppression de l'utilisateur: %v",
@@ -5773,7 +5520,6 @@ O usa il menu' qui sotto.`,
 	MESSAGE_TEXT_USER_DELETED: {
 		deDE: "Die Benutzerdaten wurden gelöscht.",
 		enUK: "User's data has been deleted",
-		enUS: "User's data has been deleted",
 		esES: "Los datos del usuario han sido eliminados",
 		faIR: "اطلاعات کاربر حذف شد.",
 		frFR: "Les données de l'utilisateur ont été supprimées",
@@ -5792,7 +5538,6 @@ O usa il menu' qui sotto.`,
 	MESSAGE_TEXT_RETURN_ASK_TO_CHOOSE_COUNTERPARTY: {
 		deDE: "Bitte wähle, wer die Schuld beglichen hat oder wem du sie zurückgezahlt hast.",
 		enUK: "Please choose who returned the debt or to who you returned it.",
-		enUS: "Please choose who returned the debt or to who you returned it.",
 		esES: "Por favor, elige quien ha devuelto o a quien ha sido devuelta la deuda ",
 		faIR: "لطفاً انتخاب کنید چه کسی بدهی اش را به شما پرداخت کرده یا شما بدهیتان را به چه کسی بازپرداخت نموده اید.",
 		frFR: "Veuillez choisir qui a remboursé la dette ou à qui vous l'avez remboursée.",
@@ -5811,7 +5556,6 @@ O usa il menu' qui sotto.`,
 	MESSAGE_TEXT_CHOOSE_DEBT_THAT_HAS_BEEN_RETURNED: {
 		deDE: "Bitte wähle, ob die Schuld vollständig oder teilweise beglichen wurde.",
 		enUK: "Please choose a debt that has been returned fully or partially.",
-		enUS: "Please choose a debt that has been returned fully or partially.",
 		esES: "Por favor, elige una deuda que ha sido devuelta total o parcialmente. ",
 		faIR: "لطفاً انتخاب کنید تمام یا بخشی از کدام بدهی پرداخت شده است.",
 		frFR: "Veuillez choisir une dette qui a été remboursée entièrement ou partiellement.",
@@ -5830,7 +5574,6 @@ O usa il menu' qui sotto.`,
 	MESSAGE_TEXT_NO_DEBTS_TO_RETURN: {
 		deDE: "Du hast keine Aufzeichnungen über Schulden, die zurückgegeben werden können.",
 		enUK: "You have no records for debts that can be returned.",
-		enUS: "You have no records for debts that can be returned.",
 		esES: "No tienes registros de deudas que puedan ser devueltas.",
 		faIR: "شما هیچ سابقه ای از بدهی هایی که قابل بازگشت باشند ندارید.",
 		frFR: "Vous n'avez aucun enregistrement de dettes qui peuvent être remboursées.",
@@ -5849,7 +5592,6 @@ O usa il menu' qui sotto.`,
 	MESSAGE_TEXT_PLEASE_ACKNOWLEDGE_TRANSFER: {
 		deDE: "Bitte stimme dem zu oder lehne es ab.",
 		enUK: "Please confirm or decline this transfer.",
-		enUS: "Please confirm or decline this transfer.",
 		esES: "Por favor, confirma o rechaza la transacción.",
 		faIR: "لطفاً این تراکنش را تایید یا رد نمایید.",
 		frFR: "Veuillez confirmer ou refuser ce transfert.",
@@ -5868,7 +5610,6 @@ O usa il menu' qui sotto.`,
 	MESSAGE_TEXT_ALREADY_ACCEPTED_TRANSFER: {
 		deDE: "Du hast dem bereits zugestimmt.",
 		enUK: "This transfer has been accepted already.",
-		enUS: "This transfer has been accepted already.",
 		esES: "Esta transacción ya ha sido aceptada.",
 		faIR: "این تراکنش قبلا قبول شده است.",
 		frFR: "Ce transfert a déjà été accepté.",
@@ -5887,7 +5628,6 @@ O usa il menu' qui sotto.`,
 	MESSAGE_TEXT_ALREADY_DECLINED_TRANSFER: {
 		deDE: "Du hast dem bereits widersprochen.",
 		enUK: "This transfer has been declined already.",
-		enUS: "This transfer has been declined already.",
 		esES: "Esta transacción ya ha sido rechazada.",
 		faIR: "این تراکنش قبلاً رد شده است.",
 		frFR: "Ce transfert a déjà été refusé.",
@@ -5906,7 +5646,6 @@ O usa il menu' qui sotto.`,
 	MESSAGE_TEXT_RECEIPT_LINK: {
 		deDE: "Details hier: %v",
 		enUK: "Details here: %v",
-		enUS: "Details here: %v",
 		esES: "Detalles aquí: %v",
 		faIR: "جزئیات: %v",
 		frFR: "Détails ici: %v",
@@ -5925,7 +5664,6 @@ O usa il menu' qui sotto.`,
 	MESSAGE_TEXT_ASK_PHONE_NUMBER_OF_COUNTERPARTY: {
 		deDE: "Bitte gib die Telefonnummer von <b>%v</b> an:",
 		enUK: "Please provide phone number for <b>%v</b>",
-		enUS: "Please provide phone number for <b>%v</b>",
 		esES: "Por favor escribe el número de teléfono de <b>%v</b>",
 		faIR: "لطفا شماره تلفن ایشان را وارد کنید <b>%v</b>",
 		frFR: "Veuillez fournir le numéro de téléphone pour <b>%v</b>",
@@ -5944,7 +5682,6 @@ O usa il menu' qui sotto.`,
 	MESSAGE_TEXT_USE_CONTACT_TO_SEND_PHONE_NUMBER: {
 		deDE: "Wenn die Telefonnummer in deinem Adressbuch ist, kannst du den <b>%v Button benutzen</b>, um einen Kontakt zu senden.",
 		enUK: "If phone number is in your address book you can <b>use %v button</b> to send the contact.",
-		enUS: "If phone number is in your address book you can <b>use %v button</b> to send the contact.",
 		esES: "Si el número está en tu agenda puedes <b>usar %v el botón</b> para enviar el contacto.",
 		faIR: "اگر شماره تلفن در فهرست مخاطبین شما وجود دارد شما می توانید <b> با استفاده از این %v دکمه</b> تماس را ارسال نمایید.",
 		frFR: "Si le numéro de téléphone est dans votre carnet d'adresses, vous pouvez <b>utiliser le bouton %v</b> pour envoyer le contact.",
@@ -5963,7 +5700,6 @@ O usa il menu' qui sotto.`,
 	MESSAGE_TEXT_ABOUT_PHONE_NUMBER_FORMAT: {
 		deDE: "Die Telefonnummer sollte dem internationalen Standard entsprechen:\n\t* Beginnend mit '+' gefolgt vom Ländercode (Deutschland +49)\n\t* Consist of numbers only\nExample: <b>+49</b><code>157123456</code>",
 		enUK: "The number should be in international standard:\n\t* Starts with '+' following by country code\n\t* Consist of numbers only\nExample: <b>+1</b><code>999012345678</code>",
-		enUS: "The number should be in international standard:\n\t* Starts with '+' following by country code\n\t* Consist of numbers only\nExample: <b>+1</b><code>999012345678</code>",
 		esES: "El número debe tener formato internacional estándar:\n\t* Empezar con '+' seguido del código del país\n\t* formado solo por números\nEjemplo: <b>+1</b><code>999012345678</code>",
 		faIR: "شماره باید به صورت استاندارد بین المللی باشد\n\t* با '+' شروع شده و بدنبال آن کد کشور وارد شود\n\t* تنها شامل اعداد باشد\nمثال: <b>+1</b><code>999012345678</code>",
 		frFR: "Le numéro doit être au format international:\n\t* Commence par '+' suivi du code du pays\n\t* Composé uniquement de chiffres\nExemple: <b>+33</b><code>612345678</code>",
@@ -5982,7 +5718,6 @@ O usa il menu' qui sotto.`,
 	MESSAGE_TEXT_THIS_NUMBER_WILL_BE_USED_TO_SEND_RECEIPT: {
 		deDE: "Wir werden eine SMS an diese Nummer schicken:",
 		enUK: "Will send an SMS to this number:",
-		enUS: "Will send an SMS to this number:",
 		esES: "Enviaremos una SMS a este número:",
 		faIR: "یک پیام کوتاه به این شماره ارسال خواهد شد:",
 		frFR: "Nous enverrons un SMS à ce numéro:",
@@ -6001,7 +5736,6 @@ O usa il menu' qui sotto.`,
 	MESSAGE_TEXT_COUNTERPARTY_OWES_YOU_SINGLE_DEBT: {
 		deDE: `<b>%v</b> schuldet dir <b>%v</b>.`,
 		enUK: `<b>%v</b> owes to you <b>%v</b>.`,
-		enUS: `<b>%v</b> owes to you <b>%v</b>.`,
 		esES: `<b>%v</b> has prestado <b>%v</b>.`,
 		faIR: `<b>%v</b> به شما بدهکار بوده <b>%v</b>.`,
 		frFR: `<b>%v</b> vous doit <b>%v</b>.`,
@@ -6020,7 +5754,6 @@ O usa il menu' qui sotto.`,
 	MESSAGE_TEXT_YOU_OWE_TO_COUNTERPARTY_SINGLE_DEBT: {
 		deDE: "Du schuldest <b>%v</b> <b>%v</b>.",
 		enUK: "You owe to <b>%v</b> <b>%v</b>.",
-		enUS: "You owe to <b>%v</b> <b>%v</b>.",
 		esES: "Te ha prestado <b>%v</b> <b>%v</b>.",
 		faIR: "شما بدهکار هستید به <b>%v</b> <b>%v</b>.",
 		frFR: "Vous devez <b>%v</b> à <b>%v</b>.",
@@ -6041,9 +5774,6 @@ O usa il menu' qui sotto.`,
 
 		<i>Falls nur teilweise, kann der Teilbetrag direkt eingegeben werden.</i>`,
 		enUK: `Has this debt been returned in full?
-
-		<i>If partially you can enter amount right away.</i>`,
-		enUS: `Has this debt been returned in full?
 
 		<i>If partially you can enter amount right away.</i>`,
 		esES: `¿Ha sido totalmente devuelta esta deuda?
@@ -6092,7 +5822,6 @@ O usa il menu' qui sotto.`,
 	MESSAGE_TEXT_PLEASE_HELP_MAKE_IT_BETTER: {
 		deDE: `Das Programm ist <b>kostenlos</b>. Bitte <a href="https://debtstracker.io/en/help-us">hilf</a> es besser zu machen!`,
 		enUK: `This program is <b>free to use</b>. Please <a href="https://debtstracker.io/en/help-us">help</a> to make it better!`,
-		enUS: `This program is <b>free to use</b>. Please <a href="https://debtstracker.io/en/help-us">help</a> to make it better!`,
 		esES: `Este programa es <b>gratis</b>. Por favor <a href="https://debtstracker.io/en/help-us">ayúdanos</a> a mejorarlo!`,
 		faIR: `این برنامه <b>رایگان می باشد</b>.لطفاً <a href="https://debtstracker.io/">به ما کمک کنید</a>تا آنرا بهبود دهیم!`,
 		frFR: `Ce programme est <b>gratuit</b>. S'il vous plaît <a href="https://debtstracker.io/en/help-us">aidez-nous</a> à l'améliorer!`,
@@ -6111,7 +5840,6 @@ O usa il menu' qui sotto.`,
 	BUTTON_TEXT_YOU_OWE_AMOUNT_TO_SOMEONE: {
 		deDE: "%v | du schuldest: %v",
 		enUK: "%v | you owe: %v",
-		enUS: "%v | you owe: %v",
 		esES: "%v | tú debes: %v",
 		faIR: "%v | شما بدهکارید: %v",
 		frFR: "%v | vous devez: %v",
@@ -6130,7 +5858,6 @@ O usa il menu' qui sotto.`,
 	BUTTON_TEXT_SOMEONE_OWES_TO_YOU_AMOUNT: {
 		deDE: "%v | schuldet dir: %v",
 		enUK: "%v | owes to you: %v",
-		enUS: "%v | owes to you: %v",
 		esES: "%v | te debe: %v",
 		faIR: "%v | به شما بدهکار است: %v",
 		frFR: "%v | vous doit: %v",
@@ -6149,7 +5876,6 @@ O usa il menu' qui sotto.`,
 	BUTTON_TEXT_DEBT_RETURNED_FULLY: {
 		deDE: "Ja, vollständig",
 		enUK: "Yes, fully",
-		enUS: "Yes, fully",
 		esES: "Sí, completamente",
 		faIR: "بله، به صورت کامل",
 		frFR: "Oui, entièrement",
@@ -6168,7 +5894,6 @@ O usa il menu' qui sotto.`,
 	BUTTON_TEXT_DEBT_RETURNED_PARTIALLY: {
 		deDE: "Nein, nur teilweise",
 		enUK: "No, just partially",
-		enUS: "No, just partially",
 		esES: "No, solo parcialmente",
 		faIR: "خیر، تنها قسمتی",
 		frFR: "Non, seulement partiellement",
@@ -6187,7 +5912,6 @@ O usa il menu' qui sotto.`,
 	MESSAGE_TEXT_ATTEMPT_TO_USE_OWN_INVITE: {
 		deDE: "Du solltest dich nicht selber einladen ;)",
 		enUK: "You should not use your own invite ;)",
-		enUS: "You should not use your own invite ;)",
 		esES: "No deberías invitarte a ti mismo ;)",
 		faIR: "نباید از دعوت خود استفاده کنید ;)",
 		frFR: "Vous ne devriez pas utiliser votre propre invitation ;)",
@@ -6206,7 +5930,6 @@ O usa il menu' qui sotto.`,
 	MESSAGE_TEXT_WELCOME_ONBOARDING_INVITE_ACCEPTED: {
 		deDE: "Willkommen. Schön, dass du der Einladung gefolgt bist!",
 		enUK: "Welcome and thanks for accepting the invite!",
-		enUS: "Welcome and thanks for accepting the invite!",
 		esES: "Bienvenido y gracias por aceptar la invitación",
 		faIR: "خوش آمدید و سپاسگزاریم که دعوت را پذیرفتید!",
 		frFR: "Bienvenue et merci d'avoir accepté l'invitation!",
@@ -6225,7 +5948,6 @@ O usa il menu' qui sotto.`,
 	MESSAGE_TEXT_FOR_COUNTERPARTY_ONLY: {
 		deDE: "Das darf nur %v.",
 		enUK: "This action for %v only.",
-		enUS: "This action for %v only.",
 		esES: "Esta acción está disponible solo para%v.",
 		faIR: "این عمل تنها برای %v می باشد.",
 		frFR: "Cette action est uniquement pour %v.",
@@ -6244,7 +5966,6 @@ O usa il menu' qui sotto.`,
 	BUTTON_TEXT_SEE_RECEIPT_DETAILS: {
 		deDE: "Quittungsdetails anzeigen",
 		enUK: "Show receipt details",
-		enUS: "Show receipt details",
 		esES: "Mostrar detalles",
 		faIR: "جزئیات رسید را نشان بده",
 		frFR: "Afficher les détails du reçu",
@@ -6263,7 +5984,6 @@ O usa il menu' qui sotto.`,
 	MESSAGE_TEXT_YOU_SELECTED_INVITE_BY_EMAIL: {
 		deDE: "Du hast gewählt, einen Freund per Mail einzuladen.",
 		enUK: "You've selected to invite friend by email.",
-		enUS: "You've selected to invite friend by email.",
 		esES: "Has decidido invitar a un amigo por e-mail.",
 		faIR: "شما انتخاب کردید که یک دوست را بوسیله ایمیل دعوت کنید.",
 		frFR: "Vous avez choisi d'inviter un ami par e-mail.",
@@ -6282,7 +6002,6 @@ O usa il menu' qui sotto.`,
 	MESSAGE_TEXT_YOU_SELECTED_INVITE_BY_SMS: {
 		deDE: "Du hast gewählt, einen Freund per SMS einzuladen.",
 		enUK: "You've selected to invite friend by SMS.",
-		enUS: "You've selected to invite friend by SMS.",
 		esES: "Has decidido invitar a un amigo por SMS.",
 		faIR: "شما انتخاب کردید که یک دوست را بوسیله پیام کوتاه دعوت کنید",
 		frFR: "Vous avez choisi d'inviter un ami par SMS.",
@@ -6301,7 +6020,6 @@ O usa il menu' qui sotto.`,
 	MESSAGE_TEXT_ABOUT_INVITES: {
 		deDE: "Wie möchtest du den Code weitergeben?",
 		enUK: `How do you want to pass the invite code?`,
-		enUS: `How do you want to pass the invite code?`,
 		esES: `¿Cómo quieres enviarle el código?`,
 		faIR: `آیا میخواهید کد دعوت را ارسال کنید؟`,
 		frFR: `Comment voulez-vous transmettre le code d'invitation?`,
@@ -6320,7 +6038,6 @@ O usa il menu' qui sotto.`,
 	MESSAGE_TEXT_USER_BLOCKED_TRANSFER_NOTIFICATIONS_BY: {
 		deDE: "%v hat Erinnerungen über folgendes Anliegen blockiert: %v",
 		enUK: "%v blocked reminders about transactions by: %v",
-		enUS: "%v blocked reminders about transactions by: %v",
 		esES: "%v ha bloqueado las notificaciones de las transacciones por: %v",
 		faIR: "%v یادآور تراکنش مسدود شده است بوسیله ی: %v",
 		frFR: "%v a bloqué les rappels concernant les transactions par: %v",
@@ -6339,7 +6056,6 @@ O usa il menu' qui sotto.`,
 	COMMAND_TEXT_WAIT_A_SECOND: {
 		deDE: "Warte eine Sekunde...",
 		enUK: "Wait a second...",
-		enUS: "Wait a second...",
 		esES: "Un segundo...",
 		faIR: "یک ثانیه صبر کنید ...",
 		frFR: "Attendez une seconde...",
@@ -6358,7 +6074,6 @@ O usa il menu' qui sotto.`,
 	HTML_USING_TELEGRAM: {
 		deDE: "benutze Telegram messenger",
 		enUK: "using Telegram messenger",
-		enUS: "using Telegram messenger",
 		esES: "Usando Telegram",
 		faIR: "استفاده از پیام رسان تلگرام",
 		frFR: "utilisant Telegram messenger",
@@ -6377,7 +6092,6 @@ O usa il menu' qui sotto.`,
 	COMMAND_TEXT_ACCEPT: {
 		deDE: "Akzeptieren",
 		enUK: "Accept",
-		enUS: "Accept",
 		esES: "Aceptar",
 		faIR: "قبول",
 		frFR: "Accepter",
@@ -6424,8 +6138,8 @@ O usa il menu' qui sotto.`,
 	FamilyMember: {
 		deDE: "Familienmitglied",
 		enUK: "Family member",
-		enUS: "Family member",
-		esES:// Placeholder
+		esES:
+		// Placeholder
 		"Miembro de la familia",
 		faIR: "عضو خانواده",
 		frFR: "Membre de la famille",
@@ -6453,7 +6167,6 @@ O usa il menu' qui sotto.`,
 	UserHasNotJoinedSpaceYet: {
 		deDE: "Dieser Kontakt ist diesem Bereich noch nicht beigetreten.",
 		enUK: "This contact has not joined this space yet.",
-		enUS: "This contact has not joined this space yet.",
 		esES: "Este contacto aún no se ha unido a este espacio.",
 		faIR: "این مخاطب هنوز به این فضا نپیوسته است.",
 		frFR: "Ce contact n'a pas encore rejoint cet espace.",
@@ -6473,7 +6186,6 @@ O usa il menu' qui sotto.`,
 	UserHasNotJoinedFamilySpaceYet: {
 		deDE: "Ist diesem Familienbereich noch nicht beigetreten.",
 		enUK: "Has not joined this family space yet.",
-		enUS: "Has not joined this family space yet.",
 		esES: "Aún no se ha unido a este espacio familiar.",
 		faIR: "هنوز به این فضای خانوادگی نپیوسته است.",
 		frFR: "N'a pas encore rejoint cet espace familial.",
@@ -6493,7 +6205,6 @@ O usa il menu' qui sotto.`,
 	BtnSendInviteByTelegram: {
 		deDE: "Einladung über Telegram senden",
 		enUK: "Send invite over Telegram",
-		enUS: "Send invite over Telegram",
 		esES: "Enviar invitación por Telegram",
 		faIR: "ارسال دعوتنامه از طریق تلگرام",
 		frFR: "Envoyer une invitation via Telegram",
@@ -6512,7 +6223,6 @@ O usa il menu' qui sotto.`,
 	BtnTextAcceptInvite: {
 		deDE: "Akzeptiere Einladung",
 		enUK: "Accept invite",
-		enUS: "Accept invite",
 		esES: "Aceptar la invitación",
 		faIR: "قبول دعوت",
 		frFR: "Accepter l'invitation",
@@ -6531,7 +6241,6 @@ O usa il menu' qui sotto.`,
 	BtnTextDeclineInvite: {
 		deDE: "Ablehnen Einladung",
 		enUK: "Decline invite",
-		enUS: "Decline invite",
 		esES: "Rechazar la invitación",
 		faIR: "رد دعوت",
 		frFR: "Décliner l'invitation",
@@ -6550,7 +6259,6 @@ O usa il menu' qui sotto.`,
 	COMMAND_TEXT_VIEW_RECEIPT_DETAILS: {
 		deDE: "Quittungsdetails anzeigen",
 		enUK: "See receipt details",
-		enUS: "See receipt details",
 		esES: "Ver el recibo",
 		faIR: "دیدن جزئیات رسید",
 		frFR: "Voir les détails du reçu",
@@ -6569,7 +6277,6 @@ O usa il menu' qui sotto.`,
 	COMMAND_TEXT_OTHER_WAYS_TO_SEND_INVITE: {
 		deDE: "Andere Wege, eine Einladung zu senden",
 		enUK: "Other ways to send an invite",
-		enUS: "Other ways to send an invite",
 		esES: "Otras maneras para enviar la invitación",
 		faIR: "سایر راههای ارسال دعوت",
 		frFR: "Autres façons d'envoyer une invitation",
@@ -6588,7 +6295,6 @@ O usa il menu' qui sotto.`,
 	COMMAND_TEXT_SEND_MY_PHONE_NUMBER: {
 		deDE: "meine Telefonnummer senden",
 		enUK: "Send my phone number",
-		enUS: "Send my phone number",
 		esES: "Enviar mi número",
 		faIR: "شماره تلفن مرا ارسال کنید",
 		frFR: "Envoyer mon numéro de téléphone",
@@ -6607,7 +6313,6 @@ O usa il menu' qui sotto.`,
 	COMMAND_TEXT_SEND_BY_EMAIL: {
 		deDE: "per Mail",
 		enUK: "By Email",
-		enUS: "By Email",
 		esES: "Vía e-mail",
 		faIR: "بوسیله ی ایمیل",
 		frFR: "Par e-mail",
@@ -6626,7 +6331,6 @@ O usa il menu' qui sotto.`,
 	COMMAND_TEXT_SEND_BY_SMS: {
 		deDE: "per SMS",
 		enUK: "By SMS",
-		enUS: "By SMS",
 		esES: "Vía SMS",
 		faIR: "بوسیله پیام کوتاه",
 		frFR: "Par SMS",
@@ -6645,7 +6349,6 @@ O usa il menu' qui sotto.`,
 	COMMAND_TEXT_INVITE_BY_TELEGRAM: {
 		deDE: "Einladen per Telegram",
 		enUK: "Invite By Telegram",
-		enUS: "Invite By Telegram",
 		esES: "Invitar vía Telegram",
 		faIR: "دعوت با تلگرام",
 		frFR: "Inviter par Telegram",
@@ -6666,9 +6369,6 @@ O usa il menu' qui sotto.`,
 
 Sobald dein Freund die Einladung akzeptiert hat, könnt ihr das Geld, was ihr euch teit, mit Leichtigkeit managen.`,
 		enUK: `We've sent an invite code to your friend. (#%v)
-
-Once your friend accepts invitation you'll share balance & transfers between you to make sure you both are on the same page with minimum efforts.`,
-		enUS: `We've sent an invite code to your friend. (#%v)
 
 Once your friend accepts invitation you'll share balance & transfers between you to make sure you both are on the same page with minimum efforts.`,
 		esES: `Hemos enviado el código de la invitación a tu amigo. (#%v)
@@ -6774,7 +6474,6 @@ Do'stingiz taklifni qabul qilgandan so'ng, minimal kuch bilan ikkalangiz ham bir
 	MESSAGE_TEXT_INVITE_BY_TELEGRAM: {
 		deDE: "Bitte wähle einen Kontakt, welchen du den Code schicken willst:",
 		enUK: "Please share a contact of your friend you wish to send an invite code:",
-		enUS: "Please share a contact of your friend you wish to send an invite code:",
 		esES: "Por favor, comparte el contacto de tu amigo al cual quieres enviar el código de la invitación.",
 		faIR: "لطفا اطلاعات تماس دوستتان را که میخواهید برایشان کد دعوت ارسال شود به اشتراک بگذارید.",
 		frFR: "Veuillez partager un contact de votre ami à qui vous souhaitez envoyer un code d'invitation :",
@@ -6793,7 +6492,6 @@ Do'stingiz taklifni qabul qilgandan so'ng, minimal kuch bilan ikkalangiz ham bir
 	MESSAGE_TEXT_INVALID_EMAIL: {
 		deDE: "Ungültige eMail Adresse. Versuche es erneut oder gehe ins Haupt /menu",
 		enUK: "Invalid email. Check and try it again? /menu",
-		enUS: "Invalid email. Check and try it again? /menu",
 		esES: "Email incorrecto. ¿Comprobarlo e intentalo de nuevo? /menú",
 		faIR: "ایمیل غیر معتبر می باشد. آیا بررسی نموده، دوباره سعی می کنید؟ /منو",
 		frFR: "Email invalide. Vérifiez et réessayez ? /menu",
@@ -6812,7 +6510,6 @@ Do'stingiz taklifni qabul qilgandan so'ng, minimal kuch bilan ikkalangiz ham bir
 	MESSAGE_TEXT_INVALID_YEAR: {
 		deDE: "Ungültiges Jahr. Der Jahresangabe sollte 2 oder 4 Ziffern sein (<i>z.B. 2016 or 16</i>).",
 		enUK: "Invalid year. The year part should be 2 or 4 numbers (<i>e.g. 2016 or 16</i>).",
-		enUS: "Invalid year. The year part should be 2 or 4 numbers (<i>e.g. 2016 or 16</i>).",
 		esES: "Año incorrecto. El año tiene que constar de 2 o 4 números (<i>ejemplo 2016 o 16</i>).",
 		faIR: "سال غیرمعتبر می باشد. سال باید به صورت 2 یا 4 رقمی وارد شود (<i>برای مثال 16 یا 2016</i>).",
 		frFR: "Année invalide. L'année doit comporter 2 ou 4 chiffres (<i>par exemple 2016 ou 16</i>).",
@@ -6831,7 +6528,6 @@ Do'stingiz taklifni qabul qilgandan so'ng, minimal kuch bilan ikkalangiz ham bir
 	MESSAGE_TEXT_INVALID_MONTH: {
 		deDE: "Ungültiger Monat. Der Monatsangabe sollte eine Ganzzahl zwischen 1 und 12 sein.",
 		enUK: "Invalid month. Month should be an integer from 1 to 12.",
-		enUS: "Invalid month. Month should be an integer from 1 to 12.",
 		esES: "El mes es incorrecto. El mes hay que introducirlo del 1 al 12.",
 		faIR: "ماه غیر معتبر می باشد. ماه باید به صورت عددی صحیح بین 1 تا 12 باشد.",
 		frFR: "Mois invalide. Le mois doit être un nombre entier de 1 à 12.",
@@ -6850,7 +6546,6 @@ Do'stingiz taklifni qabul qilgandan so'ng, minimal kuch bilan ikkalangiz ham bir
 	MESSAGE_TEXT_INVALID_DAY: {
 		deDE: "Ungültiger Tag. Der Tagesangabe sollte eine Ganzzahl zwischen 1 und 31 sein.",
 		enUK: "Invalid day. The day should be an integer from 1 to 31.",
-		enUS: "Invalid day. The day should be an integer from 1 to 31.",
 		esES: "El día es incorrecto. El día hay que introducirlo del 1 al 31.",
 		faIR: "روز غیر معتبر می باشد. روز باید عددی صحیح بین 1 تا 31 باشد.",
 		frFR: "Jour invalide. Le jour doit être un nombre entier de 1 à 31.",
@@ -6869,7 +6564,6 @@ Do'stingiz taklifni qabul qilgandan so'ng, minimal kuch bilan ikkalangiz ham bir
 	MESSAGE_TEXT_INVALID_DATE: {
 		deDE: "Ungültiges Datumsformat. Zum Beispiel für den 20. February 2019 sende: 20.02.2019 oder 20.02.19",
 		enUK: "Invalid date format. For example for 20 February 2019 please submit: 20.02.2019 or 20.02.19",
-		enUS: "Invalid date format. For example for 20 February 2019 please submit: 20.02.2019 or 20.02.19",
 		esES: "El formato de la fecha no es correcto. Por ejemplo para el día 20 de Febrero de 2019 introduce: 20.02.2019 o 20.02.19",
 		faIR: "فرمت تاریخ غیر معتبر می باشد. برای مثال برای 20 فوریه 2019 لطفا اینگونه وارد کنید: 20.02.2019 یا 20.02.19",
 		frFR: "Format de date invalide. Par exemple, pour le 20 février 2019, veuillez soumettre : 20.02.2019 ou 20.02.19",
@@ -6888,7 +6582,6 @@ Do'stingiz taklifni qabul qilgandan so'ng, minimal kuch bilan ikkalangiz ham bir
 	MESSAGE_TEXT_INVALID_PHONE_NUMBER: {
 		deDE: "Ungültige Telefonnummer. Versuche es erneut oder gehe ins Haupt /menu",
 		enUK: "Invalid phone number. Check and try it again? /menu",
-		enUS: "Invalid phone number. Check and try it again? /menu",
 		esES: "El número del teléfono no es correcto. ¿Comprobarlo y intentarlo de nuevo? /menú",
 		faIR: "شماره تلفن غیر معتبر می باشد. آیا بررسی نموده، مجدداً سعی می کنید؟ /منو",
 		frFR: "Numéro de téléphone invalide. Vérifiez et réessayez ? /menu",
@@ -6907,7 +6600,6 @@ Do'stingiz taklifni qabul qilgandan so'ng, minimal kuch bilan ikkalangiz ham bir
 	MESSAGE_TEXT_PHONE_NUMBER_IS_NOT_SMS_CAPABLE: {
 		deDE: "Diese Telefonnummer kann von uns keine SMS empfangen. Versuche eine andere oder gehe ins Haupt /menu",
 		enUK: "This phone number not able to receive SMS. Try another number? /menu",
-		enUS: "This phone number not able to receive SMS. Try another number? /menu",
 		esES: "Este número de teléfono no acepta SMS. ¿Intentar otro número? /menú",
 		faIR: "این شماره تلفن قادر به دریافت پیام کوتاه نمی باشد. آیا شماره دیگری را امتحان میکنید؟ /منو",
 		frFR: "Ce numéro de téléphone ne peut pas recevoir de SMS. Essayer un autre numéro ? /menu",
@@ -6926,7 +6618,6 @@ Do'stingiz taklifni qabul qilgandan so'ng, minimal kuch bilan ikkalangiz ham bir
 	MESSAGE_TEXT_NO_CONTACT_RECEIVED: {
 		deDE: "Wir haben keine Kontakte empfangen. Versuche es erneut oder gehe ins Haupt /menu",
 		enUK: "We have not received any contacts. INSTRUCTION HOW TO DO IT. /menu",
-		enUS: "We have not received any contacts. INSTRUCTION HOW TO DO IT. /menu",
 		esES: "No hemos recibido ningún contacto. LA INSTRUCCIÓN COMO HACERLO. /menú",
 		faIR: "ما هیچ اطلاعات تماسی دریافت نکردیم. دستورالعمل چگونگی انجام این کار. /منو",
 		frFR: "Nous n'avons reçu aucun contact. INSTRUCTION COMMENT LE FAIRE. /menu",
@@ -6945,7 +6636,6 @@ Do'stingiz taklifni qabul qilgandan so'ng, minimal kuch bilan ikkalangiz ham bir
 	MESSAGE_TEXT_YOU_HAVE_NO_CONTACTS: {
 		deDE: "Du hast noch keine Kontakte hinzugefügt.",
 		enUK: "You have not created any contacts yet.",
-		enUS: "You have not created any contacts yet.",
 		esES: "Todavía no has creado ningún contacto.",
 		faIR://TODO:es - verify
 		"هنوز هیچ مخاطبی را ایجاد نکرده اید",
@@ -6967,7 +6657,6 @@ Do'stingiz taklifni qabul qilgandan so'ng, minimal kuch bilan ikkalangiz ham bir
 	MESSAGE_TEXT_CONTACT_NAME_IS_NUMBER: {
 		deDE: "Du kannst nicht nur Zahlen für einen Kontaktnamen eingeben. Bitte benutz ein paar Buchstaben - du kannst mir vertrauen.",
 		enUK: "You've entered just digits for a contact name. Please use some text characters.",
-		enUS: "You've entered just digits for a contact name. Please use some text characters.",
 		esES: "Has introducido solo números para el nombre del contacto. Por favor usa algunas letras.",
 		faIR: "شما تنها اعداد را برای نام مخاطب وارد کرده اید. لطفا کاراکتر های متنی وارد کنید.",
 		frFR: "Vous avez saisi uniquement des chiffres pour un nom de contact. Veuillez utiliser des caractères textuels.",
@@ -6986,7 +6675,6 @@ Do'stingiz taklifni qabul qilgandan so'ng, minimal kuch bilan ikkalangiz ham bir
 	MESSAGE_TEXT_CURRENCY_NAME_IS_NUMBER: {
 		deDE: "Bei der Währung erwarte ich eigentlich keine Zahlen. Nimm ein paar Buchstaben hinzu, um Verwirrung zu vermeiden.",
 		enUK: "You've entered just digits for currency. Please use some text characters.",
-		enUS: "You've entered just digits for currency. Please use some text characters.",
 		esES: "Has introducido solo números para la moneda. Por favor usa algunas letras.",
 		faIR: "شما تنها اعداد را برای واحد پولی وارد کرده اید. لطفا کاراکترهای متنی وارد کنید.",
 		frFR: "Vous avez saisi uniquement des chiffres pour la devise. Veuillez utiliser des caractères textuels.",
@@ -7005,7 +6693,6 @@ Do'stingiz taklifni qabul qilgandan so'ng, minimal kuch bilan ikkalangiz ham bir
 	MESSAGE_TEXT_HISTORY_ROW_TO_USER_WITH_NAME: {
 		deDE: "%v - %s ⇒ dir: %s",
 		enUK: "%v - %s ⇒ to you: %s",
-		enUS: "%v - %s ⇒ to you: %s",
 		esES: "%v - %s ⇒ a ti: %s",
 		faIR: "%v - %s ⇒ به شما: %s",
 		frFR: "%v - %s ⇒ à vous: %s",
@@ -7024,7 +6711,6 @@ Do'stingiz taklifni qabul qilgandan so'ng, minimal kuch bilan ikkalangiz ham bir
 	MESSAGE_TEXT_HISTORY_ROW_FROM_USER_WITH_NAME: {
 		deDE: "%v - Du ⇒ %s : %s",
 		enUK: "%v - You ⇒ %s : %s",
-		enUS: "%v - You ⇒ %s : %s",
 		esES: "%v - Tú ⇒ %s : %s",
 		faIR: "%v - شما ⇒ %s : %s",
 		frFR: "%v - Vous ⇒ %s : %s",
@@ -7043,7 +6729,6 @@ Do'stingiz taklifni qabul qilgandan so'ng, minimal kuch bilan ikkalangiz ham bir
 	MESSAGE_TEXT_LETS_SEND_SMS: {
 		deDE: "Lass uns eine SMS senden",
 		enUK: "Let's send SMS",
-		enUS: "Let's send SMS",
 		esES: "Vamos a enviar un SMS",
 		faIR: "پیام کوتاه ارسال کنید",
 		frFR: "Envoyons un SMS",
@@ -7062,7 +6747,6 @@ Do'stingiz taklifni qabul qilgandan so'ng, minimal kuch bilan ikkalangiz ham bir
 	MESSAGE_TEXT_SMS_QUEUING_FOR_SENDING: {
 		deDE: "Setze SMS in Sendewarteschlange für %v...",
 		enUK: "Queuing SMS for sending to number %v...",
-		enUS: "Queuing SMS for sending to number %v...",
 		esES: "El SMS se está poniendo en la cola para enviar al número %v...",
 		faIR: "پیام کوتاه برای ارسال به شماره مقابل در حال قرارگیری در نوبت ارسال می باشد %v...",
 		frFR: "Mise en file d'attente du SMS pour envoi au numéro %v...",
@@ -7081,7 +6765,6 @@ Do'stingiz taklifni qabul qilgandan so'ng, minimal kuch bilan ikkalangiz ham bir
 	MESSAGE_TEXT_SMS_QUEUED_FOR_SENDING: {
 		deDE: "SMS in Sendewarteschlange für %v",
 		enUK: "SMS is queued for sending to number %v",
-		enUS: "SMS is queued for sending to number %v",
 		esES: "El SMS está en la cola para enviar al número %v",
 		faIR: "پیام کوتاه برای شماره مقابل در نوبت ارسال قرار گرفت %v",
 		frFR: "SMS mis en file d'attente pour envoi au numéro %v",
@@ -7100,7 +6783,6 @@ Do'stingiz taklifni qabul qilgandan so'ng, minimal kuch bilan ikkalangiz ham bir
 	MESSAGE_TEXT_BALANCE_HEADER: {
 		deDE: "Ausstehend",
 		enUK: "Balance",
-		enUS: "Balance",
 		esES: "Balance",
 		faIR: "تراز",
 		frFR: "Solde",
@@ -7138,7 +6820,6 @@ Do'stingiz taklifni qabul qilgandan so'ng, minimal kuch bilan ikkalangiz ham bir
 	MESSAGE_TEXT_RECEIPT_SENT_THROW_TELEGRAM: {
 		deDE: "📤 Quittung per Telegram verschickt.",
 		enUK: "📤 Receipt sent through Telegram.",
-		enUS: "📤 Receipt sent through Telegram.",
 		esES: "📤 El recibo ha sido enviado vía Telegram.",
 		faIR: "📤 رسید از طریق تلگرام ارسال شد.",
 		frFR: "📤 Reçu envoyé via Telegram.",
@@ -7157,7 +6838,6 @@ Do'stingiz taklifni qabul qilgandan so'ng, minimal kuch bilan ikkalangiz ham bir
 	MESSAGE_TEXT_RECEIPT_NOT_SENT_AS_COUNTERPARTY_HAS_DISABLED_TG_BOT: {
 		deDE: "Quittung konnte nicht per Telegram gesendet werden, da %v den Chat mit dem Bot gelöscht hat.",
 		enUK: "Receipt NOT sent through Telegram as %v has deleted chat with the bot.",
-		enUS: "Receipt NOT sent through Telegram as %v has deleted chat with the bot.",
 		esES: "El recibo NO ha sido enviado vía Telegram porque %v ha eliminado el chat del bot.",
 		faIR: "از آنجایی که %v چت انجام شده با روبات را حذف کرده است رسید از طریق تلگرام ارسال نشد.",
 		frFR: "Reçu NON envoyé via Telegram car %v a supprimé le chat avec le bot.",
@@ -7176,7 +6856,6 @@ Do'stingiz taklifni qabul qilgandan so'ng, minimal kuch bilan ikkalangiz ham bir
 	MESSAGE_TEXT_RECEIPT_SENT_THROW_EMAIL: {
 		deDE: "Quittung wurde per Mail gesendet. (id: %v)",
 		enUK: "Receipt sent through email. (id: %v)",
-		enUS: "Receipt sent through email. (id: %v)",
 		esES: "El recibo ha sido enviado vía e-mail. (id: %v)",
 		faIR: "رسید از طریق ایمیل ارسال شد. (id: %v)",
 		frFR: "Reçu envoyé par e-mail. (id: %v)",
@@ -7195,7 +6874,6 @@ Do'stingiz taklifni qabul qilgandan so'ng, minimal kuch bilan ikkalangiz ham bir
 	MESSAGE_TEXT_RECEIPT_SENT_THROW_SMS: {
 		deDE: "Quittung wurde per SMS gesendet.",
 		enUK: "Receipt sent through SMS",
-		enUS: "Receipt sent through SMS",
 		esES: "El recibo ha sido enviado vía SMS.",
 		faIR: "رسید از طریق پیام کوتاه ارسال شد.",
 		frFR: "Reçu envoyé par SMS",
@@ -7214,7 +6892,6 @@ Do'stingiz taklifni qabul qilgandan so'ng, minimal kuch bilan ikkalangiz ham bir
 	MESSAGE_TEXT_SWITCH_TO_PM_TO_VIEW_RECEIPT: {
 		deDE: "Schalte in den Privatmodus, um die Quittungsdetails zu sehen",
 		enUK: "Switch to private mode to see receipt details.",
-		enUS: "Switch to private mode to see receipt details.",
 		esES: "Pasar al modo privado para ver el recibo.",
 		faIR: "انتقال به حالت خصوصی جهت رویت جزئیات رسید.",
 		frFR: "Passez en mode privé pour voir les détails du reçu.",
@@ -7903,7 +7580,6 @@ Il tuo codice di invito personale e': {{.InviteCode}}`,
 	MESSAGE_TEXT_PLEASE_CHOOSE_FROM_OPTIONS_PROVIDED: {
 		deDE: "Bitte wähle aus den angezeigten Optionen.",
 		enUK: "Please choose from provided options.",
-		enUS: "Please choose from provided options.",
 		esES: "Por favor, elige una de las siguientes opciones.",
 		faIR: "لطفاً از گزینه های ارائه شده انتخاب نمایید.",
 		frFR: "Veuillez choisir parmi les options proposées.",
@@ -7941,7 +7617,6 @@ Il tuo codice di invito personale e': {{.InviteCode}}`,
 	MESSAGE_TEXT_TRANSFER_ASK_FOR_NOTE: {
 		deDE: "Bitte schreibe eine Notiz:",
 		enUK: "Please write a note:",
-		enUS: "Please write a note:",
 		esES: "Por favor, escribe una nota:",
 		faIR: "لطفاً یک یادداشت بنویسید:",
 		frFR: "Veuillez écrire une note :",
@@ -7961,7 +7636,6 @@ Il tuo codice di invito personale e': {{.InviteCode}}`,
 		deDE: "Mehr über Zinsen",
 		enUK:// Updated from TODO
 		"More about interest",
-		enUS: "More about interest",
 		esES: "Más sobre intereses",
 		faIR:// Updated from TODO
 		"اطلاعات بیشتر درباره بهره",
@@ -7986,10 +7660,6 @@ Il tuo codice di invito personale e': {{.InviteCode}}`,
 Um den Zinssatz und den Zeitraum festzulegen, senden Sie eine Nachricht im folgenden Format:
 		<pre>prozent/prozent_zeitraum/min_zeitraum/karenzzeit:notiz</pre>`,
 		enUK: `<b>Interest & notes</b>
-
-To set interest rate & period send a message in following format:
-		<pre>percent/percent_period/min_period/grace_period:note</pre>`,
-		enUS: `<b>Interest & notes</b>
 
 To set interest rate & period send a message in following format:
 		<pre>percent/percent_period/min_period/grace_period:note</pre>`,
@@ -8074,28 +7744,6 @@ Die Zinsen werden täglich (<i>alle 24 Stunden</i>) nach der Formel des <a href=
 
 ❗ Die % Funktionalität befindet sich noch in der BETA-Testphase. Bitte teilen Sie uns in @DebtsTrackerGroup mit, wenn etwas nicht wie erwartet funktioniert.`,
 		enUK: `<b>Interest & notes</b>
-
-To set interest rate & period send a message in following format:
-
-		<pre>percent/percent_period/min_period/grace_period:note</pre>
-
-Where (<i>first 2 params are required</i>):
- * <code>percent</code> - up to 2 digits after comma.
- * <code>min_period</code> - number of days for interest period.
- * <code>min_perdio</code> - minimum number of days for interest calculation. Is 1 by default and can't be less.'.
- * <code>grace_period</code> - interest-less period. At the moment you can't set grace & min period at the same time'.
- * <code>note</code> - any explanatory text that will be visible to you and your counterparty.
-
-Interest is calculated daily (<i>every 24 hours</i>) using <a href="https://www.investopedia.com/terms/s/simple_interest.asp#utm_source=DebtsTrackerBot&utm_medium=telegram&utm_campaign=new_debt_wizard">simple percent</a> formula.
-
-<b>Examples</b>:
-
-		<code>2/7/5</code> - 2% per week, minimum for 5 days
-		<code>15/360</code> - 15%/year, (<i>minimum for 1 day</i>)
-		<code>3/30/0/10</code> - 3% per month with 10 days grace period
-
-❗ The % functionality is in BETA testing stage, please let us know in @DebtsTrackerGroup if anything works not as you would expect.`,
-		enUS: `<b>Interest & notes</b>
 
 To set interest rate & period send a message in following format:
 
@@ -8429,7 +8077,6 @@ Foiz kunlik (<i>har 24 soatda</i>) <a href="https://uz.wikipedia.org/wiki/Oddiy_
 	MESSAGE_TEXT_TRANSFER_ASK_FOR_COMMENT_ONLY: {
 		deDE: "Falls du eine Bemerkung auf den Schuldschein schreiben willst, schick mir jetzt den Text.",
 		enUK: `If you want to add a comment just send a text now.`,
-		enUS: `If you want to add a comment just send a text now.`,
 		esES: `Si quieres añadir un comentario simplemente envía un texto ahora.`,
 		faIR: `شما می توانید یک شرح اضافه کنید. تنها کافیست یک متن ارسال کنید.`,
 		frFR: `Si vous souhaitez ajouter un commentaire, envoyez simplement un texte maintenant.`,
@@ -9003,8 +8650,8 @@ Pode conhecer as novas funcionalidades do bot no canal @SneatApp onde <a href="h
 		deDE: "Tracker",
 		enUK:// Placeholder
 		"Trackers",
-		enUS: "Trackers",
-		esES:// Placeholder
+		esES:
+		// Placeholder
 		"Rastreadores",
 		faIR:// Placeholder
 		"ردیاب\u200cها",
@@ -9323,7 +8970,6 @@ Pode conhecer as novas funcionalidades do bot no canal @SneatApp onde <a href="h
 	ListsOfSpace: {
 		deDE: "Listen @ %s",
 		enUK: "Lists @ %s",
-		enUS: "Lists @ %s",
 		esES: "Listas @ %s",
 		faIR: "لیست ها @ %s",
 		frFR: "Listes @ %s",
@@ -9896,7 +9542,6 @@ Pode conhecer as novas funcionalidades do bot no canal @SneatApp onde <a href="h
 	YourSpaces: {
 		deDE: "Ihre Bereiche",
 		enUK: "Your spaces",
-		enUS: "Your spaces",
 		esES: "Tus espacios",
 		faIR: "فضاهای شما",
 		frFR: "Vos espaces",
@@ -10042,7 +9687,6 @@ Pode conhecer as novas funcionalidades do bot no canal @SneatApp onde <a href="h
 	ContactsTitle: {
 		deDE: "Kontakte",
 		enUK: "Contacts",
-		enUS: "Contacts",
 		esES: "Contactos",
 		faIR: "مخاطبین",
 		frFR: "Contacts",
@@ -10116,7 +9760,6 @@ Pode conhecer as novas funcionalidades do bot no canal @SneatApp onde <a href="h
 	AddMember: {
 		deDE: "Mitglied hinzufügen",
 		enUK: "Add member",
-		enUS: "Add member",
 		esES: "Agregar miembro",
 		faIR: "اضافه کردن عضو",
 		frFR: "Ajouter un membre",
