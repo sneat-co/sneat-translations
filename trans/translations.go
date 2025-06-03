@@ -4297,7 +4297,6 @@ And if you do collective purchases and want to split bills @SplitusBot is here t
 		enUK: "Send /help for details on how to use this bot.",
 		ruRU: "Отправьте /help для справки по использованию бота.",
 	},
-	// This is the same for all languages.
 	MessageTextHiS1NGL: {
 		enUK: `¡Hola! Hi! Привет! سلام! Hallo!`,
 	},
@@ -6345,43 +6344,37 @@ Il tuo codice di invito personale e': {{.InviteCode}}`,
 		ruRU: "<b>Выберите язык чтобы посмотреть подробности записи о долге</b> которую создал(а) {{.Creator}}.",
 	},
 	INLINE_RECEIPT_FOOTER: {
-		deDE: //-------------------------------------------------------
-		`{{.SiteLink}} — eine App, die dir hilft Schulden zu überwachen:
+		deDE: `{{.SiteLink}} — eine App, die dir hilft Schulden zu überwachen:
 
   - Du weißt immer, wie viel du allen schuldest
 
   - Keine Fälligkeit wird verpasst
     <i>(erinnert dich und die Gläubiger)</i>`,
-		enUK: //-------------------------------------------------------
-		`{{.SiteLink}} — an app for debts tracking will help you to:
+		enUK: `{{.SiteLink}} — an app for debts tracking will help you to:
 
   - Always know your bottom line
 
   - Return debts on time
     <i>(reminders to you & your debtors)</i>`,
-		esES: //-------------------------------------------------------
-		`{{.SiteLink}} — la app para controlar tus deudas te ayuda a:
+		esES: `{{.SiteLink}} — la app para controlar tus deudas te ayuda a:
 
   - Saber siempre quién debe a quién
 
   - Devolver la deuda a tiempo
     <i>(recordatorio a ti y a tus deudores)</i>`,
-		faIR: //-------------------------------------------------------
-		`{{.SiteLink}} — یک برنامه پیگیری بدهی است که به شما کمک می کند تا:
+		faIR: `{{.SiteLink}} — یک برنامه پیگیری بدهی است که به شما کمک می کند تا:
 
   - همیشه از سود و زیان خود مطلع باشید.
 
   - بدهی ها به موقع پرداخت شوند.
     <i>(با ارسال یادآوری به  شما و بدهکاران )</i>`,
-		itIT: //-------------------------------------------------------
-		`{{.SiteLink}} — un app per i debiti che ti consento di:
+		itIT: `{{.SiteLink}} — un app per i debiti che ti consento di:
 
   - Sapere sempre chi deve soldi a chi
 
   - Restituire i soldi in tempo
     <i>(lo ricorda a te ed al tuo debitore)</i>`,
-		ruRU: //-------------------------------------------------------
-		`{{.SiteLink}} — программа для учёта долгов поможет:
+		ruRU: `{{.SiteLink}} — программа для учёта долгов поможет:
 
 	  - Всегда знать кто кому сколько должен
 
@@ -6393,24 +6386,19 @@ Il tuo codice di invito personale e': {{.InviteCode}}`,
 		deDE: `<b>{{.Creator}} erstellte online einen Schuldschein</b> der dich betrifft.
 
 >> Generating receipt`,
-		enUK: //-------------------------------------------------------
-		`<b>{{.Creator}} recorded a debt</b> associated with you.
+		enUK: `<b>{{.Creator}} recorded a debt</b> associated with you.
 
   >> <i>Generating receipt...</i>`,
-		esES: //-------------------------------------------------------
-		`<b>{{.Creator}} ha creado una deuda</b> asociada a ti.
+		esES: `<b>{{.Creator}} ha creado una deuda</b> asociada a ti.
 
   >> <i>Generating receipt...</i>`,
-		faIR: //-------------------------------------------------------
-		`<b>{{.Creator}} یک بدهی </b> مرتبط با شما ثبت نموده است.
+		faIR: `<b>{{.Creator}} یک بدهی </b> مرتبط با شما ثبت نموده است.
 
   >> <i>Generating receipt...</i>`,
-		itIT: //-------------------------------------------------------
-		`<b>{{.Creator}} ha registrato un debito</b> associato a te.
+		itIT: `<b>{{.Creator}} ha registrato un debito</b> associato a te.
 
   >> <i>Generating receipt...</i>`,
-		ruRU: //-------------------------------------------------------
-		`<b>{{.Creator}} создал(а) запись о долге</b> касающегося Вас.
+		ruRU: `<b>{{.Creator}} создал(а) запись о долге</b> касающегося Вас.
 
   >> <i>Generating receipt...</i>`,
 		//-------------------------------------------------------
@@ -6439,24 +6427,19 @@ Il tuo codice di invito personale e': {{.InviteCode}}`,
 	//		//-------------------------------------------------------
 	//	},
 	INLINE_RECEIPT_MESSAGE: {
-		enUK: //-------------------------------------------------------
-		`<b>{{.Creator}} recorded a debt</b> associated with you.
+		enUK: `<b>{{.Creator}} recorded a debt</b> associated with you.
 
   >> <a href="{{.ReceiptUrl}}">Click here to view receipt</a>`,
-		esES: //-------------------------------------------------------
-		`<b>{{.Creator}} ha creado una deuda</b> asociada a ti.
+		esES: `<b>{{.Creator}} ha creado una deuda</b> asociada a ti.
 
   >> <a href="{{.ReceiptUrl}}">Click here to view receipt</a>`,
-		faIR: //-------------------------------------------------------
-		`<b>{{.Creator}} یک بدهی </b> مرتبط با شما ثبت نموده است.
+		faIR: `<b>{{.Creator}} یک بدهی </b> مرتبط با شما ثبت نموده است.
 
   >> <a href="{{.ReceiptUrl}}">Click here to view receipt</a>`,
-		itIT: //-------------------------------------------------------
-		`<b>{{.Creator}} ha registrato un debito</b> associato a te.
+		itIT: `<b>{{.Creator}} ha registrato un debito</b> associato a te.
 
   >> <a href="{{.ReceiptUrl}}">Click here to view receipt</a>`,
-		ruRU: //-------------------------------------------------------
-		`<b>{{.Creator}} создал(а) запись о долге</b> касающегося Вас.
+		ruRU: `<b>{{.Creator}} создал(а) запись о долге</b> касающегося Вас.
 
   >> <a href="{{.ReceiptUrl}}">Посмотреть квитанцию</a>`,
 		//-------------------------------------------------------
