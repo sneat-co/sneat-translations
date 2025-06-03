@@ -6633,17 +6633,13 @@ Il tuo codice di invito personale e': {{.InviteCode}}`,
 	},
 	COMMAND_TEXT_MORE_ABOUT_INTEREST_COMMAND: {
 		deDE: "Mehr über Zinsen",
-		enUK:// Updated from TODO
-		"More about interest",
+		enUK: "More about interest",
 		esES: "Más sobre intereses",
-		faIR:// Updated from TODO
-		"اطلاعات بیشتر درباره بهره",
-		frFR:// Updated from TODO
-		"Plus d'informations sur les intérêts",
+		faIR: "اطلاعات بیشتر درباره بهره",
+		frFR: "Plus d'informations sur les intérêts",
 		idID: "Lebih lanjut tentang bunga",
 		itIT: "Più informazioni sugli interessi",
-		jaJP:// Updated from TODO
-		"利息についての詳細",
+		jaJP: "利息についての詳細",
 		koKR: "이자에 대한 자세한 정보",
 		plPL: "Więcej o odsetkach",
 		ptBR: "Mais sobre juros",
