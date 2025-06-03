@@ -5181,31 +5181,20 @@ O usa il menu' qui sotto.`,
 	FamilyMember: {
 		deDE: "Familienmitglied",
 		enUK: "Family member",
-		esES:
-		// Placeholder
-		"Miembro de la familia",
+		esES: "Miembro de la familia",
 		faIR: "عضو خانواده",
 		frFR: "Membre de la famille",
-		idID:// Placeholder
-		"Anggota keluarga",
-		itIT:// Placeholder
-		"Membro della famiglia",
+		idID: "Anggota keluarga",
+		itIT: "Membro della famiglia",
 		jaJP: "家族の一員",
-		koKR:// Placeholder
-		"가족 구성원",
-		plPL:// Placeholder
-		"Członek rodziny",
-		ptBR:// Placeholder
-		"Membro da família",
-		ruRU:// Placeholder
-		"Член семьи",
+		koKR: "가족 구성원",
+		plPL: "Członek rodziny",
+		ptBR: "Membro da família",
+		ruRU: "Член семьи",
 		trTR: "Aile üyesi",
-		ukUA:// Placeholder
-		"Член родини",
-		uzUZ:// Placeholder
-		"Oila aʼzosi",
-		zhCN:// Placeholder
-		"家庭成员", // Placeholder
+		ukUA: "Член родини",
+		uzUZ: "Oila aʼzosi",
+		zhCN: "家庭成员",
 	},
 	UserHasNotJoinedSpaceYet: {
 		deDE: "Dieser Kontakt ist diesem Bereich noch nicht beigetreten.",
@@ -7675,9 +7664,7 @@ Pode conhecer as novas funcionalidades do bot no canal @SneatApp onde <a href="h
 		deDE: "Tracker",
 		enUK:// Placeholder
 		"Trackers",
-		esES:
-		// Placeholder
-		"Rastreadores",
+		esES: "Rastreadores",
 		faIR:// Placeholder
 		"ردیاب\u200cها",
 		frFR:// Placeholder
