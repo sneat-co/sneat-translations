@@ -79,7 +79,7 @@ func TestTRANS(t *testing.T) {
 	}
 
 	if len(missingSupported) > 0 {
-		s := reportMissingTranslations("supported", missingSupported, RequiredLocales)
+		s := reportMissingTranslations("supported", missingSupported, SupportedLocales)
 		t.Log(s)
 	}
 	if len(missingRequired) > 0 {

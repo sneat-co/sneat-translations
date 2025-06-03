@@ -3673,9 +3673,11 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 	},
 	MESSAGE_TEXT_BILL_CARD_MEMBER_TITLE: {
 		enUK: "{{.N}}. {{.MemberName}}",
+		ruRU: "{{.N}}. {{.MemberName}}",
 	},
 	MESSAGE_TEXT_BILL_CARD_MEMBERS_ROW: {
 		enUK: "<i>{{.Percent}}%</i>",
+		ruRU: "<i>{{.Percent}}%</i>",
 	},
 	MESSAGE_TEXT_BILL_CARD_MEMBERS_ROW_OWES: {
 		deDE: "\n   <i>schuldet {{.Owes}}</i>",
@@ -4294,20 +4296,16 @@ And if you do collective purchases and want to split bills @SplitusBot is here t
 	/help - Узнать как использовать, сообщить о проблеме, задать вопрос`,
 	},
 	MESSAGE_TEXT_SEND_HELP_COMMAND_FOR_HELP: {
-		deDE:// This is the same for all languages.
-		`Sende /help für Hilfe über den Umgang mit diesen Bot.`,
-		enUK: `Send /help for details on how to use this bot.`,
-		ruRU: `Отправьте /help для справки по использованию бота.`,
+		deDE: "Sende /help für Hilfe über den Umgang mit diesen Bot.",
+		enUK: "Send /help for details on how to use this bot.",
+		ruRU: "Отправьте /help для справки по использованию бота.",
 	},
-	MESSAGE_TEXT_HI: {
-		enUK: // This is the same for all languages.
-
-		`¡Hola! Hi! Привет! سلام! Hallo!`,
+	MESSAGE_TEXT_HI: { // This is the same for all languages.
+		enUK: `¡Hola! Hi! Привет! سلام! Hallo!`,
+		ruRU: `¡Hola! Hi! Привет! سلام! Hallo!`,
 	},
 	MESSAGE_TEXT_HI_USERNAME: {
-		enUK:// This is the same for all languages.
-
-		`Hi %v!`,
+		enUK: `Hi %v!`,
 		esES: `¡Hola %v!`,
 		ruRU: `Привет %v!`,
 	},
@@ -4320,8 +4318,7 @@ And if you do collective purchases and want to split bills @SplitusBot is here t
 		ruRU: `Можно вернуться назад в главное /меню`,
 	},
 	MESSAGE_TEXT_YOUR_SELECTED_PREFERRED_LANGUAGE: {
-		deDE:// This is the same for all languages.
-		`Bevorzugte Sprache: %s`,
+		deDE: `Bevorzugte Sprache: %s`,
 		enUK: `Preferred bot language: %s`,
 		esES: `Idioma favorito del bot: %s`,
 		faIR: `زبان برنامه: %s`,
@@ -6070,6 +6067,19 @@ That is why the best is to <b>create bill in Telegram chat just in 2 steps</b>:
 	   Than any member of the group can share the bill by pressing <code>Join</code> button.
 
 <b>Alternatively</b> you can create a bill right in the @{{.BotCode}}. But then you would need manually to add participants.`,
+		ruRU: `<b>Как создать счёт*</b>
+<pre>Счёт — совместная трата между несколькими людьми.</pre>
+
+Вот почему это хорошая идея <b>создать счёт в Telegram чате всего за 2 шага</b>:
+<i>используйте "Разделить счёт с Telegram пользователем" чтобы сделать это быстро</i>
+
+	1. <a href="https://t.me/{{.BotCode}}?startgroup=from-help">Добавить бот в Telegram группу</a> или откройте чат с другом.
+
+	2. Напишите <code>@splitusbot {amount} {bill_name}</code> и  выберите результат из меню. Например:
+<pre>		@splitusbot 45.5 пицца</pre>
+	   После этого любой член группы может разделить счёт нажав кнопку <code>Присоедениться</code>.
+
+<b>Или</b> вы можете создать счёт прямо в @{{.BotCode}}. Но тогда надо будет вручную добавить участников.`,
 	},
 	MESSAGE_TEXT_HELP: {
 		deDE: "Bitte melde jedes Problem und jeden Wunsch auf unserer Webseite.",
