@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"github.com/sneat-co/sneat-translations/trans"
 	"go/ast"
+	"go/format"
 	"go/parser"
-	"go/printer"
 	"go/token"
 	"golang.org/x/text/language"
 	"os"
@@ -29,15 +29,6 @@ func localeKeyToCode(s string) string {
 
 func localeCodeToKey(s string) string {
 	return strings.Replace(s, "-", "", 1)
-}
-
-// toExprList ensures each entry is an Expr with newline potential
-func toExprList(kvs ...*ast.KeyValueExpr) []ast.Expr {
-	out := make([]ast.Expr, len(kvs))
-	for i, kv := range kvs {
-		out[i] = kv
-	}
-	return out
 }
 
 func translateLocale(sourceLang language.Tag, locale string, texts []string) (translatedTexts []string, err error) {
@@ -63,7 +54,7 @@ func translateMock(texts []string) []string {
 	return texts
 }
 
-func getKeyValue(kv *ast.KeyValueExpr) (key, value string) {
+func getKey(kv *ast.KeyValueExpr) (key string) {
 	switch kvKey := kv.Key.(type) {
 	case *ast.BasicLit:
 		key = kvKey.Value
@@ -72,15 +63,95 @@ func getKeyValue(kv *ast.KeyValueExpr) (key, value string) {
 	default:
 		panic("unexpected key type")
 	}
-	return key, kv.Value.(*ast.BasicLit).Value
+	return
+}
+
+func getValue(kv *ast.KeyValueExpr) (value string, exp ast.Expr) {
+	switch v := kv.Value.(type) {
+	case *ast.BasicLit:
+		return v.Value[1 : len(v.Value)-1], kv.Value
+	case *ast.BinaryExpr:
+		return getBinaryExprValue(v), kv.Value
+	default:
+		panic(fmt.Errorf("unexpected value type %T", kv.Value))
+	}
+
+}
+
+func getKeyValue(kv *ast.KeyValueExpr) (key, value string) {
+	key = getKey(kv)
+	value, _ = getValue(kv)
+	return
+}
+
+func getTextToTranslate(baseLocale string, translations *ast.CompositeLit) (textToTranslate string, isQuoted bool) {
+	for _, elt := range translations.Elts {
+		if innerKV, ok := elt.(*ast.KeyValueExpr); ok {
+			key := getKey(innerKV)
+			locale := localeKeyToCode(key)
+			if locale == baseLocale {
+				textToTranslate, _ = getValue(innerKV)
+				isQuoted = strings.HasPrefix(innerKV.Value.(*ast.BasicLit).Value, `"`)
+				return
+			}
+		}
+	}
+	return
+}
+
+func getIsAlreadyPresent(translations *ast.CompositeLit, locale string) bool {
+	for _, innerElt := range translations.Elts {
+		if innerKV, ok := innerElt.(*ast.KeyValueExpr); ok {
+			key := getKey(innerKV)
+			if localeKeyToCode(key) == locale {
+				return true
+			}
+		}
+	}
+	return false
+}
+
+func getCurrentValue(translations *ast.CompositeLit, locale string) (value string, expr ast.Expr) {
+	for _, innerElt := range translations.Elts {
+		if innerKV, ok := innerElt.(*ast.KeyValueExpr); ok {
+			key := getKey(innerKV)
+			if localeKeyToCode(key) == locale {
+				return getValue(innerKV)
+			}
+		}
+	}
+	return "", nil
+}
+
+func getBinaryExprValue(e *ast.BinaryExpr) string {
+	var xs, ys string
+	switch x := e.X.(type) {
+	case *ast.BasicLit:
+		xs = x.Value[1 : len(x.Value)-1]
+	case *ast.BinaryExpr:
+		xs = getBinaryExprValue(x)
+	}
+	switch y := e.Y.(type) {
+	case *ast.BasicLit:
+		ys = y.Value[1 : len(y.Value)-1]
+	case *ast.BinaryExpr:
+		ys = getBinaryExprValue(y)
+	}
+	if e.Op != token.ADD {
+		panic("unsupported binary expressions")
+	}
+	return xs + ys
 }
 
 func translateMissing(baseLocale string) error {
 	fileSet := token.NewFileSet()
-	node, err := parser.ParseFile(fileSet, "../trans/translations.go", nil, parser.AllErrors|parser.ParseComments)
+	node, err := parser.ParseFile(fileSet, "../trans/translations.go", nil, parser.ParseComments)
 	if err != nil {
 		panic(err)
 	}
+
+	// Create CommentMap
+	//commentMap := ast.NewCommentMap(fileSet, node, node.Comments)
 
 	toTranslate := make(map[string]map[string]string)
 	isQuoted := make(map[string]bool)
@@ -99,12 +170,7 @@ func translateMissing(baseLocale string) error {
 				continue
 			}
 
-			outerKey, ok := outerKV.Key.(*ast.BasicLit)
-			if !ok {
-				continue
-			}
-
-			translationID := outerKey.Value
+			translationID := getKey(outerKV)
 
 			innerMap, ok := outerKV.Value.(*ast.CompositeLit)
 			if !ok {
@@ -112,45 +178,30 @@ func translateMissing(baseLocale string) error {
 			}
 
 			var textToTranslate string
+			textToTranslate, isQuoted[translationID] = getTextToTranslate(baseLocale, innerMap)
 
-			for _, innerElt := range innerMap.Elts {
-				if innerKV, ok := innerElt.(*ast.KeyValueExpr); ok {
-					key, value := getKeyValue(innerKV)
-					locale := localeKeyToCode(key)
-					if locale == baseLocale {
-						s := strings.TrimSpace(value)
-						isQuoted[translationID] = strings.HasPrefix(s, `"`)
-						textToTranslate = s[1 : len(s)-1]
-						break
-					}
-				}
-			}
-
-			for _, supportedLocale := range trans.SupportedLocales {
-				alreadyPresent := false
-
-				for _, innerElt := range innerMap.Elts {
-					if innerKV, ok := innerElt.(*ast.KeyValueExpr); ok {
-						key, _ := getKeyValue(innerKV)
-						locale := localeKeyToCode(key)
-						if locale == supportedLocale {
-							alreadyPresent = true
-							break
+			if textToTranslate != "" {
+				for _, supportedLocale := range trans.SupportedLocales {
+					currentValue, valueExpr := getCurrentValue(innerMap, supportedLocale)
+					if currentValue == "" && !strings.HasSuffix(translationID, "S1NGL") {
+						if hasTranslatableTextParts(textToTranslate) {
+							tk, ok := toTranslate[supportedLocale]
+							if !ok {
+								tk = make(map[string]string)
+								toTranslate[supportedLocale] = tk
+							}
+							tk[translationID] = textToTranslate
+						} else {
+							if valueExpr == nil {
+								innerMap.Elts = append(innerMap.Elts, &ast.KeyValueExpr{
+									Key:   &ast.Ident{Name: localeCodeToKey(supportedLocale)},
+									Value: valueExpr,
+								})
+							} else {
+								panic(fmt.Errorf("value of %s.%s is empty string", translationID, supportedLocale))
+							}
 						}
 					}
-				}
-
-				if !alreadyPresent && textToTranslate != "" {
-					tk, ok := toTranslate[supportedLocale]
-					if !ok {
-						tk = make(map[string]string)
-						toTranslate[supportedLocale] = tk
-					}
-					outerKey, ok := outerKV.Key.(*ast.BasicLit)
-					if !ok || outerKey.Kind != token.STRING {
-						continue
-					}
-					tk[outerKey.Value] = textToTranslate
 				}
 			}
 		}
@@ -176,9 +227,6 @@ func translateMissing(baseLocale string) error {
 		for id, text := range texts {
 			kvs = append(kvs, kv{key: id, value: text})
 			textsToTranslate = append(textsToTranslate, text)
-			//if len(toTranslate) > 10 {
-			//	break
-			//}
 		}
 		var translatedTexts []string
 		if translatedTexts, err = translateLocale(sourceLang, locale, textsToTranslate); err != nil {
@@ -193,6 +241,8 @@ func translateMissing(baseLocale string) error {
 			translations[locale] = v
 		}
 	}
+
+	translated = make(map[string]map[string]string)
 
 	ast.Inspect(node, func(n ast.Node) bool {
 		kv, ok := n.(*ast.CompositeLit)
@@ -212,18 +262,13 @@ func translateMissing(baseLocale string) error {
 				continue
 			}
 
-			outerKey, ok := outerKV.Key.(*ast.BasicLit)
-			if !ok || outerKey.Kind != token.STRING {
-				continue
-			}
+			translationID := getKey(outerKV)
 
-			translations, ok := translated[outerKey.Value]
-			if !ok {
-				continue
-			}
+			translations := translated[translationID]
+
 			for locale, translation := range translations {
 				var value string
-				if isQuoted[outerKey.Value] {
+				if isQuoted[translationID] {
 					value = `"` + translation + `"`
 				} else {
 					value = "`" + translation + "`"
@@ -238,14 +283,63 @@ func translateMissing(baseLocale string) error {
 						Value: value,
 					},
 				}
-				innerMap.Elts = append(innerMap.Elts, toExprList(newKV)...)
+
+				//commentGroup := &ast.CommentGroup{
+				//	List: []*ast.Comment{
+				//		{Text: "// comment next to key " + localeCodeToKey(locale)},
+				//	},
+				//}
+				//node.Comments = append(node.Comments, commentGroup)
+				//commentMap[newKV] = []*ast.CommentGroup{commentGroup}
+				innerMap.Elts = append(innerMap.Elts, newKV)
 			}
 
 			sort.Slice(innerMap.Elts, func(i, j int) bool {
-				kI, _ := getKeyValue(innerMap.Elts[i].(*ast.KeyValueExpr))
-				kJ, _ := getKeyValue(innerMap.Elts[j].(*ast.KeyValueExpr))
+				kI := getKey(innerMap.Elts[i].(*ast.KeyValueExpr))
+				kJ := getKey(innerMap.Elts[j].(*ast.KeyValueExpr))
 				return kI < kJ
 			})
+
+			rebuildKeyValues := func() (newElements []ast.Expr) {
+				//baseText, _ := getTextToTranslate(baseLocale, innerMap)
+				newElements = make([]ast.Expr, 0, len(innerMap.Elts))
+				for _, el := range innerMap.Elts {
+					kve := el.(*ast.KeyValueExpr)
+					key := getKey(kve)
+					// Adding new line as separate expression does not work as adds comma before KV pair
+					//newElements = append(newElements, &ast.BasicLit{Value: "\n"})
+
+					// This is a dirty hack trying to make map keys to be on a new line
+					keyValue := "\n\t\t" + key
+					//localeCode := localeKeyToCode(key)
+					//elValue := getValue(kve)
+					//if elValue == "" || !hasTranslatableTextParts(elValue) && elValue == baseText && localeCode != "en-UK" {
+					//	continue
+					//}
+					kve = &ast.KeyValueExpr{
+						Key:   &ast.BasicLit{Kind: token.STRING, Value: keyValue},
+						Value: kve.Value,
+					}
+					newElements = append(newElements, kve)
+
+				}
+				return
+			}
+			innerMap.Elts = rebuildKeyValues()
+
+			// Force separate lines by assigning new positions
+			//for i, el := range newElements {
+			//	kve := el.(*ast.KeyValueExpr)
+			//	// Give each element a new position in the FileSet
+			//	pos := token.Pos(i*10 + 1) // Arbitrary increasing offset
+			//	fileSet.AddFile("dummy.go", fileSet.Base(), 1000).AddLine(int(pos))
+			//	kve.Key.Pos() // this line ensures keys are kept as-is
+			//}
+
+			//innerMap.Elts = nil
+			//for _, newEl := range newElements {
+			//	innerMap.Elts = append(innerMap.Elts, newEl)
+			//}
 		}
 
 		return true
@@ -260,13 +354,22 @@ func translateMissing(baseLocale string) error {
 		_ = outFile.Close()
 	}(outFile)
 
-	cfg := &printer.Config{Mode: printer.UseSpaces | printer.TabIndent, Tabwidth: 8}
-	if err = cfg.Fprint(outFile, fileSet, node); err != nil {
-		panic(err)
-	}
-	//// Format AST and write
-	//if err = format.Node(outFile, fileSet, node); err != nil {
+	//cfg := &printer.Config{
+	//	Mode: printer.UseSpaces | printer.TabIndent,
+	//	//Tabwidth: 8,
+	//}
+	//if err = cfg.Fprint(outFile, fileSet, node); err != nil {
 	//	panic(err)
 	//}
+	if err = format.Node(outFile, fileSet, node); err != nil {
+		panic(err)
+	}
 	return nil
+}
+
+func hasTranslatableTextParts(s string) bool {
+	s = string(trans.ReVars.ReplaceAll([]byte(s), []byte{}))
+	s = string(trans.ReTags.ReplaceAll([]byte(s), []byte{}))
+	s = strings.ReplaceAll(s, " ", "")
+	return s != ""
 }

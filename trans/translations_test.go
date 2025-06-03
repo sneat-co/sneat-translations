@@ -2,14 +2,8 @@ package trans
 
 import (
 	"fmt"
-	"regexp"
 	"strings"
 	"testing"
-)
-
-var (
-	reVars  = regexp.MustCompile(`%[svd]|\{\{\..+?}}`)
-	reWords = regexp.MustCompile(`\w+|%[svd]`)
 )
 
 func TestTRANS(t *testing.T) {
@@ -22,13 +16,13 @@ func TestTRANS(t *testing.T) {
 		countsByLang := make(map[string]map[string]int)
 
 		for _, requiredLocale := range RequiredLocales {
-			if _, ok := vals[requiredLocale]; !ok {
+			if _, ok := vals[requiredLocale]; !ok && !strings.HasSuffix(key, "S1NGL") {
 				missingRequired[key] = append(missingRequired[key], requiredLocale)
 			}
 		}
 
 		for _, supportedLocale := range SupportedLocales {
-			if _, ok := vals[supportedLocale]; !ok {
+			if _, ok := vals[supportedLocale]; !ok && !strings.HasSuffix(key, "S1NGL") {
 				missingSupported[key] = append(missingSupported[key], supportedLocale)
 			}
 		}
@@ -41,7 +35,7 @@ func TestTRANS(t *testing.T) {
 			if strings.Contains(val, "https: ") || strings.Contains(val, "http: ") {
 				t.Logf("Invalid http(s): link: %v=%v", key, val)
 			}
-			vars := reVars.FindAllString(val, -1)
+			vars := ReVars.FindAllString(val, -1)
 			counts := make(map[string]int, len(vars))
 			for _, v := range vars {
 				counts[v] += 1
@@ -53,7 +47,7 @@ func TestTRANS(t *testing.T) {
 			t.Errorf("Key %v missing en-UK trnaslation", key)
 			continue
 		}
-		wordsCount += len(reWords.FindAllString(vals[enUK], -1))
+		wordsCount += len(ReWords.FindAllString(vals[enUK], -1))
 		reported := make(map[string]int)
 		for lang, counts := range countsByLang {
 			if lang == enUK {
