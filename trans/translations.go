@@ -6067,8 +6067,8 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 		deDE: "Dieser Befehl ist derzeit nur in Gruppenchats verfügbar.",
 		enUK: "This command is available in group chats only for now.",
 		esES: "Este comando está disponible solo en chats grupales por ahora.",
-		//nolint:staticcheck // disable ST1018 for this line
-		faIR: "این دستور فعلاً فقط در چت‌های گروهی در دسترس است.",
+		faIR://nolint:staticcheck // disable ST1018 for this line
+		"این دستور فعلاً فقط در چت‌های گروهی در دسترس است.",
 		frFR: "Cette commande est disponible uniquement dans les discussions de groupe pour le moment.",
 		idID: "Perintah ini hanya tersedia di obrolan grup untuk saat ini.",
 		itIT: "Per ora questo comando è disponibile solo nelle chat di gruppo.",
@@ -6520,8 +6520,8 @@ And if you do collective purchases and want to split bills @SplitusBot is here t
 Mi amigo @DebtsTrackerBot rastrea deudas y pagos.
 
 Y si hacen compras en grupo y quieren dividir las facturas, @SplitusBot está aquí para ayudarte.`,
-		//nolint:staticcheck // disable ST1018 for this line
-		faIR: `من به <b>جمع‌آوری پول</b> برای یک هدف خیرخواهانه کمک می‌کنم. مثلاً برای هدیه تولد. 🎉
+		faIR: //nolint:staticcheck // disable ST1018 for this line
+		`من به <b>جمع‌آوری پول</b> برای یک هدف خیرخواهانه کمک می‌کنم. مثلاً برای هدیه تولد. 🎉
 
 دوست من @DebtsTrackerBot بدهی‌ها و بازپرداخت‌ها را پیگیری می‌کند.
 
@@ -6851,8 +6851,8 @@ Agar siz jamoaviy xaridlar qilsangiz va hisob-kitoblarni taqsimlamoqchi bo‘lsa
 		deDE: `HIV %v!`,
 		enUK: `Hi %v!`,
 		esES: `¡Hola %v!`,
-		//nolint:staticcheck // disable ST1018 for this line
-		faIR: `اچ‌آی‌وی %v!`,
+		faIR://nolint:staticcheck // disable ST1018 for this line
+		`اچ‌آی‌وی %v!`,
 		frFR: `VIH %v!`,
 		idID: `HIV %v!`,
 		itIT: `HIV %v!`,
@@ -7051,8 +7051,8 @@ Agar siz jamoaviy xaridlar qilsangiz va hisob-kitoblarni taqsimlamoqchi bo‘lsa
 📚 /history - últimas transacciones
 🏁 /balance - mostrar el saldo actual
 ⚙ /settings - ajustar tus preferencias`,
-		//nolint:staticcheck // disable ST1018 for this line
-		faIR: `<b>دستورات ربات</b> 
+		faIR: //nolint:staticcheck // disable ST1018 for this line
+		`<b>دستورات ربات</b> 
 🏠 /menu - نمایش منوی اصلی 
 🔙 /return - بازگرداندن بدهی ثبت شده قبلی 
 📥 /got - ثبت پولی که از دیگران دریافت کرده‌اید 
@@ -9406,8 +9406,8 @@ That is why the best is to <b>create bill in Telegram chat just in 2 steps</b>:
  Cualquier miembro del grupo puede compartir la cuenta pulsando el botón <code>Join</code> .
 
  <b>También</b> puedes crear una cuenta directamente en @{{.BotCode}}. En ese caso, tendrías que añadir participantes manualmente.`,
-		//nolint:staticcheck // disable ST1018 for this line
-		faIR: `<b>نحوه ایجاد یک صورتحساب جدید</b> 
+		faIR: //nolint:staticcheck // disable ST1018 for this line
+		`<b>نحوه ایجاد یک صورتحساب جدید</b> 
 <pre style=";text-align:right;direction:rtl"> صورتحساب - هزینه مشترک بین دو یا چند نفر.</pre> 
 
 به همین دلیل بهترین کار این است که <b>در چت تلگرام فقط در ۲ مرحله صورتحساب ایجاد کنید</b> :
@@ -11076,8 +11076,8 @@ El interés se calcula diariamente (<i>cada 24 horas</i>) utilizando la fórmula
 		<code>3/30/0/10</code> - 3% por mes con 10 días de período de gracia
 
 ❗ La funcionalidad de % está en fase de prueba BETA, por favor háganoslo saber en @DebtsTrackerGroup si algo no funciona como esperabas.`,
-		//nolint:staticcheck // disable ST1018 for this line
-		faIR: `<b>نرخ بهره و یادداشت‌ها</b>
+		faIR: //nolint:staticcheck // disable ST1018 for this line
+		`<b>نرخ بهره و یادداشت‌ها</b>
 
 برای تنظیم نرخ بهره و دوره، پیامی به فرمت زیر ارسال کنید:
 
@@ -11999,8 +11999,8 @@ You can learn about new features of the bot in @SneatApp channel where <a href="
 He dedicado mucho tiempo a hacer que este bot sea útil, rápido y fiable. Espero que te guste.
 
 Puedes conocer las nuevas funciones del bot en el canal de @SneatApp, donde <a href="https://t.me/StarGiveaways_EN">regalamos 500 🌟 CADA mes</a>.`,
-		//nolint:staticcheck // disable ST1018 for this line
-		faIR: `
+		faIR: //nolint:staticcheck // disable ST1018 for this line
+		`
  <b>از طرف سازنده ربات</b> : سلام %s!
 
 @SneatBot به شما کمک می‌کند تا زندگی روزمره خانوادگی خود را مدیریت کنید. یا می‌توانید فضایی برای مدیریت گروه/تیم/انجمن خود ایجاد کنید.
@@ -14584,7 +14584,11 @@ Aks holda ularni Sneat.app ilovasida qoʻlda qoʻshishingiz mumkin.`,
 		uzUZ: "U yerda bo'lish ehtimoli qanchalik?",
 		zhCN: "您去那里的可能性有多大？",
 	},
-	SpotTitle: {
+	SpotTileWithLabelAndEmoji: {
+		enUK: "Spot: {EMOJI} {TITLE}",
+		ruRU: "Место: {EMOJI} {TITLE}",
+	},
+	SpotTitleWithLocation: {
 		arEG: "الموقع: <b>{SPOT_TITLE}</b> — <i>{SPOT_LOCATION}</i>",
 		deDE: "Ort: <b>{SPOT_TITLE}</b> — <i>{SPOT_LOCATION}</i>",
 		enUK: "Spot: <b>{SPOT_TITLE}</b> — <i>{SPOT_LOCATION}</i>",
@@ -15508,4 +15512,221 @@ To organize an event create a <b>{NEW_EVENT}</b> from "My Events".
 		uzUZ: "🗓️️ Taqvim",
 		zhCN: "🗓️️ 日历",
 	},
+	ButtonPrivacy: {
+		arEG: "خصوصية",
+		deDE: "Datenschutz",
+		enUK: "Privacy",
+		esES: "Privacidad",
+		faIR: "حریم خصوصی",
+		frFR: "Confidentialité",
+		idID: "Pribadi",
+		itIT: "Riservatezza",
+		jaJP: "プライバシー",
+		koKR: "은둔",
+		plPL: "Prywatność",
+		ptBR: "Privacidade",
+		ptPT: "Privacidade",
+		ruRU: "Конфиденциальность",
+		trTR: "Mahremiyet",
+		ukUA: "Конфіденційність",
+		uzUZ: "Maxfiylik",
+		zhCN: "隐私",
+	},
+	ButtonIGotIt: {
+		enUK: "I got it!",
+		ruRU: "Я понял!",
+	},
+	PrivacyCommandTitle: {
+		enUK: "Your privacy matters to us",
+		ruRU: "Ваша конфиденциальность для нас важна",
+	},
+	PrivacyCommandText: {
+		enUK: `We don't sell your personal data - ever.
+Information may only be shared at your direct request — with your consent and under your control.
+We aim to be as transparent and trustworthy as possible.`,
+		ruRU: `Мы никогда не продаём ваши личные данные.
+Информация может быть передана только по вашему прямому запросу — с вашего согласия и по вашему выбору.
+Мы стараемся быть максимально прозрачными и надёжными.`,
+	},
+	NumberOfFollowers: {
+		enUK: "{N} followers",
+		ruRU: "{N} подписчиков",
+	},
+	NumberOfFavorites: {
+		enUK: "{N} users added to favorites",
+		ruRU: "{N} пользователей добавили в избранное",
+	},
+	RsvpLetOthersKnow: {
+		enUK: "RSVP - let others know",
+		ruRU: "Ответить — дайте знать другим",
+	},
+	SeeFullSpotProfile: {
+		enUK: "🔍 Full spot profile",
+		ruRU: "🔍 Полный профиль места",
+	},
+	ShareSpotInlineDescription: {
+		enUK: "Click this to share spot link to the current chat.",
+		ruRU: "Нажмите тут чтобы поделиться ссылкой на спот в текущем чате.",
+	},
+	ActivityHiking: {
+		enUK: "Hiking",
+		ruRU: "Поход",
+	},
+	ActivityBasketball: {
+		enUK: "Basketball",
+		ruRU: "Баскетбол",
+	},
+	ActivitySoccer: {
+		enUK: "Football",
+		ruRU: "Футбол",
+	},
+	ActivityPingPong: {
+		enUK: "Table Tennis",
+		ruRU: "Настольный теннис",
+	},
+	ActivityTennis: {
+		enUK: "Tennis",
+		ruRU: "Теннис",
+	},
+	ActivitySurfing: {
+		enUK: "Surfing",
+		ruRU: "Сёрфинг",
+	},
+	ActivityKitesurfing: {
+		enUK: "Kitesurfing",
+		ruRU: "Кайт-сёрфинг",
+	},
+	ActivityRunning: {
+		enUK: "Running",
+		ruRU: "Бег",
+	},
+	ActivityCycling: {
+		enUK: "Cycling",
+		ruRU: "Велоспорт",
+	},
+	ActivitySkateboarding: {
+		enUK: "Skateboarding",
+		ruRU: "Скейтбординг",
+	},
+	ActivityVolleyball: {
+		enUK: "Volleyball",
+		ruRU: "Волейбол",
+	},
+	ActivitySwimming: {
+		enUK: "Swimming",
+		ruRU: "Плавание",
+	},
+	ActivityYoga: {
+		enUK: "Yoga",
+		ruRU: "Йога",
+	},
+	ActivityClimbing: {
+		enUK: "Climbing",
+		ruRU: "Скалолазание",
+	},
+	ActivityGym: {
+		enUK: "Gym",
+		ruRU: "Тренажёрный зал",
+	},
+	ActivityBookClub: {
+		enUK: "Book Club",
+		ruRU: "Книжный клуб",
+	},
+	ActivityCoffeeMeetup: {
+		enUK: "Coffee Meetup",
+		ruRU: "Встреча за кофе",
+	},
+	ActivityGameNight: {
+		enUK: "Game Night",
+		ruRU: "Игровой вечер",
+	},
+	ActivityMovieNight: {
+		enUK: "Movie Night",
+		ruRU: "Киновечер",
+	},
+	ActivityTriviaNight: {
+		enUK: "Trivia Night",
+		ruRU: "Викторина",
+	},
+	ActivityPotluck: {
+		enUK: "Potluck",
+		ruRU: "Обед в складчину",
+	},
+	ActivityPicnic: {
+		enUK: "Picnic",
+		ruRU: "Пикник",
+	},
+	ActivityBarbecue: {
+		enUK: "Barbecue",
+		ruRU: "Барбекю",
+	},
+	ActivityCrafting: {
+		enUK: "Crafting",
+		ruRU: "Рукоделие",
+	},
+	ActivityKaraoke: {
+		enUK: "Karaoke",
+		ruRU: "Караоке",
+	},
+	ActivityMusicJam: {
+		enUK: "Music Jam",
+		ruRU: "Музыкальный джем",
+	},
+	ActivityBoardGames: {
+		enUK: "Board Games",
+		ruRU: "Настольные игры",
+	},
+	ActivityArtJam: {
+		enUK: "Art Jam",
+		ruRU: "Творческий джем",
+	},
+	ActivityParkPlaydate: {
+		enUK: "Park Playdate",
+		ruRU: "Встреча в парке",
+	},
+	ActivityStoryTime: {
+		enUK: "Story Time",
+		ruRU: "Чтение сказок",
+	},
+	ActivityToySwap: {
+		enUK: "Toy Swap",
+		ruRU: "Обмен игрушками",
+	},
+	ActivityHomeworkHelp: {
+		enUK: "Homework Help",
+		ruRU: "Помощь с домашкой",
+	},
+	ActivityBirthdayParty: {
+		enUK: "Birthday Party",
+		ruRU: "День рождения",
+	},
+	ActivityBabysittingSwap: {
+		enUK: "Babysitting Swap",
+		ruRU: "Обмен няней",
+	},
+	ActivityStudyGroup: {
+		enUK: "Study Group",
+		ruRU: "Учебная группа",
+	},
+	ActivityGaming: {
+		enUK: "Gaming",
+		ruRU: "Игры",
+	},
+	ActivitySkating: {
+		enUK: "Skating",
+		ruRU: "Катание на коньках",
+	},
+	ActivityDanceClass: {
+		enUK: "Dance Class",
+		ruRU: "Танцевальный класс",
+	},
+	ActivityHangout: {
+		enUK: "Hangout",
+		ruRU: "Тусовка",
+	},
+	ActivityEscapeRoom: {
+		enUK: "Escape Room",
+		ruRU: "Квест-комната",
+	},
+	//ButtonSoundsGood: buttonSoundsGood(),
 }

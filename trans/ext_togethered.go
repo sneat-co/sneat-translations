@@ -49,11 +49,12 @@ const (
 
 	ShareSpotButtonText = "ShareSpotButtonText"
 
-	SpotButtonText          = "SpotButtonText"
-	SpotTitle               = "SpotTitle"
-	SpotActivities          = "SpotActivities"
-	SpotGoingToDoActivities = "SpotGoingToDoActivities"
-	TogdBackToActivities    = "TogdBackToActivities"
+	SpotTileWithLabelAndEmoji = "SpotTileWithLabelAndEmoji"
+	SpotButtonText            = "SpotButtonText"
+	SpotTitleWithLocation     = "SpotTitleWithLocation"
+	SpotActivities            = "SpotActivities"
+	SpotGoingToDoActivities   = "SpotGoingToDoActivities"
+	TogdBackToActivities      = "TogdBackToActivities"
 
 	RsvpHowLikelyQuestion    = "RsvpHowLikelyQuestion"
 	RsvpResponse100Percent   = "RsvpResponse100Percent"
@@ -72,6 +73,14 @@ const (
 
 	TodayButtonText    = "TodayButtonText"
 	TomorrowButtonText = "TomorrowButtonText"
+
+	NumberOfFollowers = "NumberOfFollowers"
+	NumberOfFavorites = "NumberOfFavorites"
+
+	RsvpLetOthersKnow  = "RsvpLetOthersKnow"
+	SeeFullSpotProfile = "SeeFullSpotProfile"
+
+	ShareSpotInlineDescription = "ShareSpotInlineDescription"
 )
 
 const CalendarButtonText = "CalendarButtonText"
