@@ -9,6 +9,8 @@ const (
 	TogdMyPlans      = "TogdMyPlans"
 	TogdMySpots      = "TogdMySpots"
 
+	TogdMyActivity = "TogdMyActivity"
+
 	TogdPlansButtonText = "TogdPlansButtonText"
 	TogdSpotsButtonText = "TogdSpotsButtonText"
 
@@ -17,6 +19,8 @@ const (
 	TogdUserEvents     = "TogdUserEvents"
 	TogdUserPlans      = "TogdUserPlans"
 	TogdUserSpots      = "TogdUserSpots"
+
+	TogdUserActivity = "TogdUserActivity"
 
 	TogdActivitiesOfUser             = "TogdActivitiesOfUser"
 	YouHaveNoFavoriteActivities      = "YouHaveNoFavoriteActivities"
@@ -47,7 +51,8 @@ const (
 	FollowButtonText   = "FollowButtonText"
 	UnfollowButtonText = "UnfollowButtonText"
 
-	ShareSpotButtonText = "ShareSpotButtonText"
+	ShareSpotButtonText     = "ShareSpotButtonText"
+	ShareActivityButtonText = "ShareActivityButtonText"
 
 	SpotTileWithLabelAndEmoji = "SpotTileWithLabelAndEmoji"
 	SpotButtonText            = "SpotButtonText"

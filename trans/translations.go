@@ -6067,8 +6067,8 @@ Agar bu xato deb o'ylasangiz, iltimos, bizga @DebtsTrackerGroup'da xabar bering.
 		deDE: "Dieser Befehl ist derzeit nur in Gruppenchats verfügbar.",
 		enUK: "This command is available in group chats only for now.",
 		esES: "Este comando está disponible solo en chats grupales por ahora.",
-		//nolint:staticcheck // disable ST1018 for this line
-		faIR: "این دستور فعلاً فقط در چت‌های گروهی در دسترس است.",
+		faIR://nolint:staticcheck // disable ST1018 for this line
+		"این دستور فعلاً فقط در چت‌های گروهی در دسترس است.",
 		frFR: "Cette commande est disponible uniquement dans les discussions de groupe pour le moment.",
 		idID: "Perintah ini hanya tersedia di obrolan grup untuk saat ini.",
 		itIT: "Per ora questo comando è disponibile solo nelle chat di gruppo.",
@@ -6520,8 +6520,8 @@ And if you do collective purchases and want to split bills @SplitusBot is here t
 Mi amigo @DebtsTrackerBot rastrea deudas y pagos.
 
 Y si hacen compras en grupo y quieren dividir las facturas, @SplitusBot está aquí para ayudarte.`,
-		//nolint:staticcheck // disable ST1018 for this line
-		faIR: `من به <b>جمع‌آوری پول</b> برای یک هدف خیرخواهانه کمک می‌کنم. مثلاً برای هدیه تولد. 🎉
+		faIR: //nolint:staticcheck // disable ST1018 for this line
+		`من به <b>جمع‌آوری پول</b> برای یک هدف خیرخواهانه کمک می‌کنم. مثلاً برای هدیه تولد. 🎉
 
 دوست من @DebtsTrackerBot بدهی‌ها و بازپرداخت‌ها را پیگیری می‌کند.
 
@@ -6851,8 +6851,8 @@ Agar siz jamoaviy xaridlar qilsangiz va hisob-kitoblarni taqsimlamoqchi bo‘lsa
 		deDE: `HIV %v!`,
 		enUK: `Hi %v!`,
 		esES: `¡Hola %v!`,
-		//nolint:staticcheck // disable ST1018 for this line
-		faIR: `اچ‌آی‌وی %v!`,
+		faIR://nolint:staticcheck // disable ST1018 for this line
+		`اچ‌آی‌وی %v!`,
 		frFR: `VIH %v!`,
 		idID: `HIV %v!`,
 		itIT: `HIV %v!`,
@@ -14663,6 +14663,25 @@ Aks holda ularni Sneat.app ilovasida qoʻlda qoʻshishingiz mumkin.`,
 		uzUZ: "Joy: {SPOT_TITLE}",
 		zhCN: "地点: {SPOT_TITLE}",
 	},
+	ShareActivityButtonText: {
+		arEG: "📤 شارك المكان",
+		deDE: "📤 Spot teilen",
+		enUK: "📤 Share spot",
+		esES: "📤 Comparte lugar",
+		faIR: "📤 نقطه اشتراک گذاری",
+		frFR: "📤 Partager l&#39;espace",
+		idID: "📤 Bagikan tempat",
+		itIT: "📤 Condividi il posto",
+		jaJP: "📤 スポットを共有する",
+		koKR: "📤 장소 공유",
+		plPL: "📤 Udostępnij miejsce",
+		ptBR: "📤 Compartilhe o lugar",
+		ptPT: "📤 Partilhe o lugar",
+		ruRU: "📤 Поделиться активностью",
+		trTR: "📤 Paylaşım noktası",
+		ukUA: "📤 Поділитися місцем",
+		uzUZ: "📤 Joyni baham ko&#39;ring",
+		zhCN: "📤 分享地点"},
 	ShareSpotButtonText: {
 		arEG: "📤 شارك المكان",
 		deDE: "📤 Ort teilen",
@@ -15004,6 +15023,25 @@ Aks holda ularni Sneat.app ilovasida qoʻlda qoʻshishingiz mumkin.`,
 		uzUZ: "Mening tadbirlarim",
 		zhCN: "我的活动",
 	},
+	TogdMyActivity: {
+		arEG: "نشاطي",
+		deDE: "Meine Aktivität",
+		enUK: "My activity",
+		esES: "Mi actividad",
+		faIR: "فعالیت من",
+		frFR: "Mon activité",
+		idID: "Aktivitas saya",
+		itIT: "La mia attività",
+		jaJP: "私の活動",
+		koKR: "내 활동",
+		plPL: "Moja aktywność",
+		ptBR: "Minha atividade",
+		ptPT: "A minha atividade",
+		ruRU: "Моя активность",
+		trTR: "Benim etkinliğim",
+		ukUA: "Моя активність",
+		uzUZ: "Mening faoliyatim",
+		zhCN: "我的活动"},
 	TogdMyActivities: {
 		arEG: "أنشطتي",
 		deDE: "Meine Aktivitäten",
@@ -15127,7 +15165,25 @@ Aks holda ularni Sneat.app ilovasida qoʻlda qoʻshishingiz mumkin.`,
 		uzUZ: "Faoliyatlarni qo'shish uchun ularni vergul bilan ajratib yuboring.",
 		zhCN: "要添加活动，请用逗号分隔发送。",
 	},
-
+	TogdUserActivity: {
+		arEG: "نشاط {USER_NAME}",
+		deDE: "Aktivität von {USER_NAME}",
+		enUK: "Activity of {USER_NAME}",
+		esES: "Actividad de {USER_NAME}",
+		faIR: "فعالیت {USER_NAME}",
+		frFR: "Activité de {USER_NAME}",
+		idID: "Aktivitas {USER_NAME}",
+		itIT: "Attività di {USER_NAME}",
+		jaJP: "{USER_NAME}のアクティビティ",
+		koKR: "{USER_NAME}의 활동",
+		plPL: "Aktywność {USER_NAME}",
+		ptBR: "Atividade de {USER_NAME}",
+		ptPT: "Atividade de {USER_NAME}",
+		ruRU: "Активность {USER_NAME}",
+		trTR: "{USER_NAME} etkinliği",
+		ukUA: "Активність користувача {USER_NAME}",
+		uzUZ: "{USER_NAME} faolligi",
+		zhCN: "{USER_NAME} 的活动"},
 	TogdUserActivities: {
 		arEG: "أنشطة {USER_NAME}",
 		deDE: "Aktivitäten von {USER_NAME}",
