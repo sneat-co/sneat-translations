@@ -53,16 +53,23 @@ const (
 	RemoveFromSpots = "RemoveFromSpots"
 	AddToMySpots    = "AddToMySpots"
 
+	FollowsButtonText   = "FollowsButtonText"
+	FollowersButtonText = "FollowersButtonText"
+
+	SubscribeFollowUserButtonText     = "SubscribeFollowUserButtonText"
+	UnsubscribeUnfollowUserButtonText = "UnsubscribeUnfollowUserButtonText"
+
 	FollowButtonText   = "FollowButtonText"
 	UnfollowButtonText = "UnfollowButtonText"
 
-	ShareSpotButtonText     = "ShareSpotButtonText"
-	ShareActivityButtonText = "ShareActivityButtonText"
+	ShareSpotButtonText        = "ShareSpotButtonText"
+	ShareActivityButtonText    = "ShareActivityButtonText"
+	ShareUserProfileButtonText = "ShareUserProfileButtonText"
 
 	SpotTileWithLabelAndEmoji = "SpotTileWithLabelAndEmoji"
 	SpotButtonText            = "SpotButtonText"
 	SpotTitleWithLocation     = "SpotTitleWithLocation"
-	SpotActivities            = "SpotActivities"
+	ActivitiesTitle           = "ActivitiesTitle"
 	SpotGoingToDoActivities   = "SpotGoingToDoActivities"
 	TogdBackToActivities      = "TogdBackToActivities"
 
@@ -91,6 +98,17 @@ const (
 	SeeFullSpotProfile = "SeeFullSpotProfile"
 
 	ShareSpotInlineDescription = "ShareSpotInlineDescription"
+
+	FavoriteSpotsTitle      = "FavoriteSpotsTitle"
+	FavoriteActivitiesTitle = "FavoriteActivitiesTitle"
+
+	NoFavoriteSpotsYet      = "NoFavoriteSpotsYet"
+	NoFavoriteActivitiesYet = "NoFavoriteActivitiesYet"
+
+	SeeFullUserProfileInlineButtonText  = "SeeFullUserProfileInlineButtonText"
+	UserProfileInlineArticleDescription = "UserProfileInlineArticleDescription"
+
+	ProfileOfUser = "ProfileOfUser"
 )
 
 const CalendarButtonText = "CalendarButtonText"
