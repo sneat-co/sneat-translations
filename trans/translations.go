@@ -14982,6 +14982,18 @@ Aks holda ularni Sneat.app ilovasida qoʻlda qoʻshishingiz mumkin.`,
 		uzUZ: "Mening profilim",
 		zhCN: "我的资料",
 	},
+	TogdMyFavoriteSpotsTitle: {
+		enUK: "My Favorite Spots",
+		ruRU: "Мои избранные места",
+	},
+	TogdFavoriteSpotsOfUserTitle: {
+		enUK: "Favorite Spots of {USER_NAME}",
+		ruRU: "Избранные места: {USER_NAME}",
+	},
+	TogdYouHaveNoFavoriteSpotsYet: {
+		enUK: "You have no added or created any favorite spots yet.",
+		ruRU: "Вы ещё не добавили ни одно места проведения активностей в избранное.",
+	},
 	TogdMySpots: {
 		arEG: "بقعتي",
 		deDE: "Meine Orte",

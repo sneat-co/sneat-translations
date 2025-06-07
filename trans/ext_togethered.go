@@ -9,6 +9,11 @@ const (
 	TogdMyPlans      = "TogdMyPlans"
 	TogdMySpots      = "TogdMySpots"
 
+	TogdMyFavoriteSpotsTitle     = "TogdMyFavoriteSpotsTitle"
+	TogdFavoriteSpotsOfUserTitle = "TogdFavoriteSpotsOfUserTitle"
+
+	TogdYouHaveNoFavoriteSpotsYet = "TogdYouHaveNoFavoriteSpotsYet"
+
 	TogdMyActivity = "TogdMyActivity"
 
 	TogdPlansButtonText = "TogdPlansButtonText"
