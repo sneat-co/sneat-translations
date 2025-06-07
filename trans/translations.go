@@ -2047,7 +2047,7 @@ var TRANS = map[string]map[string]string{
 		ukUA: "Баланс",
 		uzUZ: "Balans",
 		zhCN: "平衡"},
-	COMMAND_TEXT_SETTING: {
+	SettingsMessageTitle: {
 		arEG: "إعدادات",
 		deDE: "Einstellungen",
 		enUK: "Settings",
@@ -2065,7 +2065,28 @@ var TRANS = map[string]map[string]string{
 		trTR: "Ayarlar",
 		ukUA: "Налаштування",
 		uzUZ: "Sozlamalar",
-		zhCN: "设置"},
+		zhCN: "设置",
+	},
+	SettingsButtonText: {
+		arEG: "إعدادات",
+		deDE: "Einstellungen",
+		enUK: "Settings",
+		esES: "Ajustes",
+		faIR: "تنظیمات",
+		frFR: "Paramètres",
+		idID: "Pengaturan",
+		itIT: "Settaggi",
+		jaJP: "設定",
+		koKR: "설정",
+		plPL: "Ustawienia",
+		ptBR: "Configurações",
+		ptPT: "Configurações",
+		ruRU: "Настройки",
+		trTR: "Ayarlar",
+		ukUA: "Налаштування",
+		uzUZ: "Sozlamalar",
+		zhCN: "设置",
+	},
 	COMMAND_TEXT_HIGH_FIVE: {
 		arEG: "خمسة عالية!",
 		deDE: "Gib mir Fünf!",
@@ -4754,7 +4775,7 @@ Balki siz <a submit-bug>muammoingizni xabar qilishingiz</a> yoki <a suggest-idea
 		uzUZ: "Hali qaror qabul qilinmagan",
 		zhCN: "尚未决定",
 	},
-	MESSAGE_TEXT_SETTINGS: {
+	SettingsMessageText: {
 		arEG: "ماذا تريد تعديله؟",
 		deDE: "Was willst du ändern?",
 		enUK: "What do you want to adjust?",
@@ -6923,7 +6944,7 @@ Agar siz jamoaviy xaridlar qilsangiz va hisob-kitoblarni taqsimlamoqchi bo‘lsa
 		ukUA: `Яка ваша бажана мова?`,
 		uzUZ: `Siz qaysi tilni afzal ko&#39;rasiz?`,
 		zhCN: `您的首选语言是什么？`},
-	MESSAGE_TEXT_CHOOSE_UI_LANGUAGE: {
+	ChooseLocaleMessageText: {
 		arEG: "ما هي اللغة التي تريد التحدث معي بها؟",
 		deDE: "Auf welcher Sprache würdest du dich gerne mit mir unterhalten?",
 		enUK: "Which language you would like to talk to me?",
