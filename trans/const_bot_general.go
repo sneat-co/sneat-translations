@@ -10,4 +10,8 @@ const (
 	Refresh = "Refresh"
 
 	AddManuallyInSneatApp = "Add manually in Sneat App"
+
+	WalletTitle     = "WalletTitle"
+	TopUpWithStarts = "TopUpWithStarts"
+	StarsBalance    = "StarsBalance"
 )

@@ -16849,5 +16849,74 @@ Biz imkon qadar shaffof va ishonchli boʻlishni maqsad qilganmiz.`,
 		trTR: "Kaçış Odası",
 		ukUA: "Квест-кімната",
 		uzUZ: "Qochish xonasi",
-		zhCN: "密室逃脱"},
+		zhCN: "密室逃脱",
+	},
+	TogetheredBotDescription: {
+		enUK: `@ToGetheredBot offers two main features:
+
+	1. 📍🗓️🕒📣 Plans Sharing – let others know where and when you're planning to be somewhere and know who is in - before you head out.
+
+	2. 🗓️🕒📍🗳️ Events Coordination – easily organise group activities by suggesting multiple time and place options. The bot collects votes from participants and shows which combinations work best, helping the group agree on a plan without long chat threads.`,
+		ruRU: `@ToGetheredBot предлагает две основные функции:
+
+	1. 📍🗓️🕒📣 Обмен планами — сообщите другим, где и когда вы планируете быть, и узнайте, кто там будет, — прежде чем вы отправитесь.
+
+	2. 🗓️🕒📍🗳️ Координация мероприятий — легко организуйте групповые мероприятия, предлагая несколько вариантов времени и места. Бот собирает голоса участников и показывает, какие комбинации работают лучше всего, помогая группе согласовать планы без длинных чатов.`,
+	},
+	TogetheredBotShortDescription: {
+		enUK: "📍🗓️🕒📣🗳 Turns intentions into gatherings. Helps to organize events. Know who is in - before you head out.",
+		ruRU: "📍🗓️🕒📣🗳 Превращает намерения во встречи. Помогает организовывать мероприятия. Показывает кто собирается учавствовать.",
+	},
+	SettingsCommandDescription: {
+		enUK: "Check & adjust bot settings",
+		ruRU: "Проверить и поменять настройки бота",
+	},
+	TermsCommandDescription: {
+		enUK: "Terms & Conditions",
+		ruRU: "Пользовательское соглашение",
+	},
+	TogetheredBotCommandSpots: {
+		enUK: "my places of events",
+		ruRU: "мои места проведения событий",
+	},
+	TogetheredBotCommandPlans: {
+		enUK: "view & manage my plans",
+		ruRU: "мои планы",
+	},
+	WalletCommandDescription: {
+		enUK: "your balance & latest transactions",
+		ruRU: "ваш баланс и последние транзакции",
+	},
+	WalletTitle: {
+		enUK: "My balance @{BOT_CODE}",
+		ruRU: "Мой баланс @{BOT_CODE}",
+	},
+	TopUpWithStarts: {
+		enUK: "➕ Top up with ⭐",
+		ruRU: "➕ Пополнить кошелёк ⭐",
+	},
+	StarsBalance: {
+		enUK: "⭐ %d stars",
+		ruRU: "⭐ %d звёзд",
+	},
+	RemoveActivityButtonText: {
+		enUK: "❌ Remove activity",
+		ruRU: "❌ Убрать активность",
+	},
+	MyFollowersTitle: {
+		enUK: "🕵️‍♂ My follower",
+		ruRU: "🕵️‍♂ Мои подписчики",
+	},
+	FollowersOfUserTitle: {
+		enUK: "🕵️‍♂ Follower of %s",
+		ruRU: "🕵️‍♂ Подписчики %s",
+	},
+	MyFollowsTitle: {
+		enUK: "👀 My follows",
+		ruRU: "👀 Мои подписки",
+	},
+	UserFollowingTitle: {
+		enUK: "👀‍ %s follows",
+		ruRU: "👀 Подписчики %s",
+	},
 }

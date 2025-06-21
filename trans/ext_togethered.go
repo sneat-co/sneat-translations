@@ -1,6 +1,16 @@
 package trans
 
 const (
+	TogetheredBotDescription      = "TogetheredBotDescription"
+	TogetheredBotShortDescription = "TogetheredBotShortDescription"
+)
+
+const (
+	TogetheredBotCommandSpots = "TogetheredBotCommandSpots"
+	TogetheredBotCommandPlans = "TogetheredBotCommandPlans"
+)
+
+const (
 	TogdBotWelcome = "TogdBotWelcome"
 
 	TogdMyProfile    = "TogdMyProfile"
@@ -66,6 +76,8 @@ const (
 	ShareActivityButtonText    = "ShareActivityButtonText"
 	ShareUserProfileButtonText = "ShareUserProfileButtonText"
 
+	RemoveActivityButtonText = "RemoveActivityButtonText"
+
 	SpotTileWithLabelAndEmoji = "SpotTileWithLabelAndEmoji"
 	SpotButtonText            = "SpotButtonText"
 	SpotTitleWithLocation     = "SpotTitleWithLocation"
@@ -109,6 +121,12 @@ const (
 	UserProfileInlineArticleDescription = "UserProfileInlineArticleDescription"
 
 	ProfileOfUser = "ProfileOfUser"
+
+	MyFollowersTitle     = "MyFollowersTitle"
+	FollowersOfUserTitle = "FollowersOfUserTitle"
+
+	MyFollowsTitle     = "MyFollowsTitle"
+	UserFollowingTitle = "UserFollowingTitle"
 )
 
 const CalendarButtonText = "CalendarButtonText"
