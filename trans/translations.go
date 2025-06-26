@@ -14465,6 +14465,10 @@ Aks holda ularni Sneat.app ilovasida qoʻlda qoʻshishingiz mumkin.`,
 		uzUZ: "Soat nechada kelasiz?",
 		zhCN: "您几点到达？",
 	},
+	RsvpQuestionWhatActivity: {
+		enUK: "What you going to do?",
+		ruRU: "Что вы собираетесь делать?",
+	},
 	RsvpTimeIsChangeable: {
 		arEG: "سيكون بإمكانك تغيير الدقائق إذا لزم الأمر لاحقًا.",
 		deDE: "Sie können die Minuten bei Bedarf später ändern.",

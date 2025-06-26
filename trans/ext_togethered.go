@@ -92,9 +92,10 @@ const (
 	RsvpResponseMaybe        = "RsvpResponseMaybe"
 	RsvpResponseUnlikely     = "RsvpResponseUnlikely"
 
-	RsvpQuestionOnWhatDate = "RsvpQuestionOnWhatDate"
-	RsvpQuestionAtWhatTime = "RsvpQuestionAtWhatTime"
-	RsvpTimeIsChangeable   = "RsvpTimeIsChangeable"
+	RsvpQuestionOnWhatDate   = "RsvpQuestionOnWhatDate"
+	RsvpQuestionAtWhatTime   = "RsvpQuestionAtWhatTime"
+	RsvpTimeIsChangeable     = "RsvpTimeIsChangeable"
+	RsvpQuestionWhatActivity = "RsvpQuestionWhatActivity"
 
 	ChooseSpotToRSVP = "ChooseSpotToRSVP"
 
