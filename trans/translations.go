@@ -106,6 +106,35 @@ var TRANS = map[string]map[string]string{
 		zhCN: "移除",
 	},
 
+	"Monday": {
+		enUK: "Monday",
+		ruRU: "Понедельник",
+	},
+	"Tuesday": {
+		enUK: "Tuesday",
+		ruRU: "Вторник",
+	},
+	"Wednesday": {
+		enUK: "Wednesday",
+		ruRU: "Среда",
+	},
+	"Thursday": {
+		enUK: "Thursday",
+		ruRU: "Четрвег",
+	},
+	"Friday": {
+		enUK: "Friday",
+		ruRU: "Пятница",
+	},
+	"Saturday": {
+		enUK: "Saturday",
+		ruRU: "Суббота",
+	},
+	"Sunday": {
+		enUK: "Sunday",
+		ruRU: "Воскресенье",
+	},
+
 	"Jan": {
 		arEG: "يناير",
 		deDE: "Jan",
