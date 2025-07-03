@@ -14,4 +14,6 @@ const (
 	WalletTitle     = "WalletTitle"
 	TopUpWithStarts = "TopUpWithStarts"
 	StarsBalance    = "StarsBalance"
+
+	StepNumberOfNumberOfSteps = "StepNumberOfNumberOfSteps"
 )

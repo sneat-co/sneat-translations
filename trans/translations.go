@@ -64,7 +64,10 @@ var TRANS = map[string]map[string]string{
 		uzUZ: "Salom {USER_NAME}!",
 		zhCN: "你好 {USER_NAME}！",
 	},
-
+	StepNumberOfNumberOfSteps: {
+		enUK: "Step #{STEP_NUMBER} of {NUMBER_OF_STEPS}",
+		ruRU: "Шаг #{STEP_NUMBER} из {NUMBER_OF_STEPS}",
+	},
 	ButtonAdd: {
 		arEG: "يضيف",
 		deDE: "Hinzufügen",
@@ -16916,6 +16919,18 @@ Biz imkon qadar shaffof va ishonchli boʻlishni maqsad qilganmiz.`,
 		enUK: "view & manage my plans",
 		ruRU: "мои планы",
 	},
+	AdvertisingCommandDescription: {
+		enUK: "advertise at @{BOT_CODE}",
+		ruRU: "реклама в @{BOT_CODE}",
+	},
+	SupportUsCommandDescription: {
+		enUK: "support development of @{BOT_CODE}",
+		ruRU: "поддержать разработку @{BOT_CODE}",
+	},
+	MembershipCommandDescription: {
+		enUK: "use free or choose PRO plan",
+		ruRU: "используй бесплатно или выбери ПРО план",
+	},
 	WalletCommandDescription: {
 		enUK: "your balance & latest transactions",
 		ruRU: "ваш баланс и последние транзакции",
@@ -16951,5 +16966,21 @@ Biz imkon qadar shaffof va ishonchli boʻlishni maqsad qilganmiz.`,
 	UserFollowingTitle: {
 		enUK: "👀‍ %s follows",
 		ruRU: "👀 Подписчики %s",
+	},
+	IntentNotificationMessageUserIsGoingTo: {
+		enUK: "{USER_NAME} is going to",
+		ruRU: "{USER_NAME} планирует быть",
+	},
+	IntentNotificationPlannedActivities: {
+		enUK: "Planned activities",
+		ruRU: "Запланированные активности",
+	},
+	WouldYouJoinRsvpNow: {
+		enUK: "Would you join? RSVP now!",
+		ruRU: "Вы присоеденитесь? Дайте знать!",
+	},
+	RsvpWizardTitle: {
+		enUK: "Let others know where & where you going to be.",
+		ruRU: "Сообщи другим, где и когда ты собираешься быть.",
 	},
 }

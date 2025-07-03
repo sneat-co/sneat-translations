@@ -107,6 +107,7 @@ const (
 	NumberOfFollowers = "NumberOfFollowers"
 	NumberOfFavorites = "NumberOfFavorites"
 
+	RsvpWizardTitle    = "RsvpWizardTitle"
 	RsvpLetOthersKnow  = "RsvpLetOthersKnow"
 	SeeFullSpotProfile = "SeeFullSpotProfile"
 
@@ -128,6 +129,11 @@ const (
 
 	MyFollowsTitle     = "MyFollowsTitle"
 	UserFollowingTitle = "UserFollowingTitle"
+
+	IntentNotificationPlannedActivities    = "IntentNotificationPlannedActivities"
+	IntentNotificationMessageUserIsGoingTo = "IntentNotificationMessageUserIsGoingTo"
+
+	WouldYouJoinRsvpNow = "WouldYouJoinRsvpNow"
 )
 
 const CalendarButtonText = "CalendarButtonText"
