@@ -15755,97 +15755,20 @@ Bot ikkita asosiy xususiyatni taklif qiladi:
 使用@ToGetheredBot，规划变得社交化、可视化且无摩擦 — 非常适合自发的聚会或有组织的集会。`,
 	},
 	TogdMainMenuText: {
-		arEG: `
-لمشاركة خططك، اختر مكانًا أو نشاطًا واضغط على الزر <b>{RSVP}</b> .
-
-لتنظيم حدث، أنشئ <b>{NEW_EVENT}</b> من &quot;أحداثي&quot;.
-`,
-		deDE: `
-Um Ihre Pläne zu teilen, wählen Sie einen Ort oder eine Aktivität und klicken Sie auf die <b>{RSVP}</b>-Schaltfläche.
-
-Um ein Event zu organisieren, erstellen Sie ein <b>{NEW_EVENT}</b> unter "Meine Events".
-`,
 		enUK: `
 To share your plans choose a spot or activity and hit the <b>{RSVP}</b> button.
 
 To organize an event create a <b>{NEW_EVENT}</b> from "My Events".
-`,
-		esES: `
-			Para compartir tus planes elige un lugar o actividad y pulsa el botón <b>{RSVP}</b>.
 
-			Para organizar un evento crea un <b>{NEW_EVENT}</b> desde "Mis eventos".
-			`,
-		faIR: `
-			برای به اشتراک گذاری برنامه\u200cهایتان، مکان یا فعالیتی را انتخاب کنید و دکمه <b>{RSVP}</b> را فشار دهید.
+To learn more about the bot use /about command.`,
 
-			برای سازماندهی یک رویداد، یک <b>{NEW_EVENT}</b> از "رویدادهای من" ایجاد کنید.
-			`,
-		frFR: `
-			Pour partager vos plans, choisissez un lieu ou une activité et cliquez sur le bouton <b>{RSVP}</b>.
-
-			Pour organiser un événement, créez un <b>{NEW_EVENT}</b> depuis "Mes événements".
-			`,
-		idID: `
-			Untuk membagikan rencana Anda, pilih tempat atau aktivitas dan tekan tombol <b>{RSVP}</b>.
-
-			Untuk mengorganisir acara, buat <b>{NEW_EVENT}</b> dari "Acara Saya".
-			`,
-		itIT: `
-			Per condividere i tuoi piani scegli un posto o un'attività e premi il pulsante <b>{RSVP}</b>.
-
-			Per organizzare un evento crea un <b>{NEW_EVENT}</b> da "I miei eventi".
-			`,
-		jaJP: `
-			プランを共有するには、スポットまたはアクティビティを選択して<b>{RSVP}</b>ボタンを押してください。
-
-			イベントを企画するには、「マイイベント」から<b>{NEW_EVENT}</b>を作成してください。
-			`,
-		koKR: `
-			계획을 공유하려면 장소나 활동을 선택하고 <b>{RSVP}</b> 버튼을 누르세요.
-
-			이벤트를 기획하려면 "내 이벤트"에서 <b>{NEW_EVENT}</b>를 만드세요.
-			`,
-		plPL: `
-			Aby udostępnić swoje plany, wybierz miejsce lub aktywność i kliknij przycisk <b>{RSVP}</b>.
-
-			Aby zorganizować wydarzenie, utwórz <b>{NEW_EVENT}</b> z "Moje wydarzenia".
-			`,
-		ptBR: `
-			Para compartilhar seus planos, escolha um local ou atividade e clique no botão <b>{RSVP}</b>.
-
-			Para organizar um evento, crie um <b>{NEW_EVENT}</b> em "Meus eventos".
-			`,
-		ptPT: `
-			Para partilhar os seus planos, escolha um local ou atividade e clique no botão <b>{RSVP}</b>.
-
-			Para organizar um evento, crie um <b>{NEW_EVENT}</b> em "Os meus eventos".
-			`,
 		ruRU: `
-			Чтобы поделиться своими планами, выберите место или активность и нажмите кнопку <b>{RSVP}</b>.
+		Чтобы поделиться своими планами, выберите место или активность и нажмите кнопку <b>{RSVP}</b>.
 
-			Чтобы организовать событие, создайте <b>{NEW_EVENT}</b> в разделе "Мои события".
-			`,
-		trTR: `
-			Planlarınızı paylaşmak için bir yer veya aktivite seçin ve <b>{RSVP}</b> düğmesine tıklayın.
+		Чтобы организовать событие, создайте <b>{NEW_EVENT}</b> в разделе "Мои события".
 
-			Bir etkinlik düzenlemek için "Etkinliklerim"den <b>{NEW_EVENT}</b> oluşturun.
-			`,
-		ukUA: `
-			Щоб поділитися своїми планами, оберіть місце або активність і натисніть кнопку <b>{RSVP}</b>.
-
-			Щоб організувати подію, створіть <b>{NEW_EVENT}</b> з "Мої події".
-			`,
-		uzUZ: `
-			Rejalaringizni baham ko'rish uchun joy yoki faoliyatni tanlang va <b>{RSVP}</b> tugmasini bosing.
-
-			Tadbir tashkil qilish uchun "Mening tadbirlarim"dan <b>{NEW_EVENT}</b> yarating.
-			`,
-		zhCN: `
-			要分享您的计划，请选择一个地点或活动，然后点击<b>{RSVP}</b>按钮。
-
-			要组织活动，请从"我的活动"创建<b>{NEW_EVENT}</b>。
-		`,
-	},
+		Чтобы узнать больше используйте команду /about
+			`},
 	RsvpButtonText: {
 		arEG: "من فضلك، أرسل رد",
 		deDE: "Anmelden",
