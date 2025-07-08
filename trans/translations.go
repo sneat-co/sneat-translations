@@ -16930,6 +16930,8 @@ Biz imkon qadar shaffof va ishonchli boʻlishni maqsad qilganmiz.`,
 - uses https://github.com/bots-go-framework/
 - uses <a href='https://github.com/bots-go-framework/bots-api-telegram'>bots-api-telegram</a> to communicate with Telegram
 uses https://github.com/dal-go/ as Database Abstraction Layer
+
+If you want to know more about how we develop subscribe to @SneatDevDiaries!
 `,
 		ruRU: `
 - написан на языке программирования <a href='https://go.dev/'>Go</a>
@@ -16938,6 +16940,8 @@ uses https://github.com/dal-go/ as Database Abstraction Layer
 - использует https://github.com/bots-go-framework/
 - использует <a href='https://github.com/bots-go-framework/bots-api-telegram'>bots-api-telegram</a> для коммуникции с Telegram
 - использует https://github.com/dal-go/ как <code>Database Abstraction Layer</code>
+
+Если хотите узнать боьлше про наш процесс разработки подписывайтесь на @SneatDevDiaries!
 `,
 	},
 	WouldYouSupportUsTitle: {
