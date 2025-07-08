@@ -16,4 +16,10 @@ const (
 	StarsBalance    = "StarsBalance"
 
 	StepNumberOfNumberOfSteps = "StepNumberOfNumberOfSteps"
+
+	AboutBotTitle          = "AboutBotTitle"
+	TechStackTitle         = "TechStackTitle"
+	TechStackText          = "TechStackText"
+	WouldYouSupportUsTitle = "WouldYouSupportUsTitle"
+	WouldYouSupportUsText  = "WouldYouSupportUsText"
 )

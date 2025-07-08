@@ -16826,6 +16826,14 @@ Biz imkon qadar shaffof va ishonchli boʻlishni maqsad qilganmiz.`,
 		enUK: "📍🗓️🕒📣🗳 Turns intentions into gatherings. Helps to organize events. Know who is in - before you head out.",
 		ruRU: "📍🗓️🕒📣🗳 Превращает намерения во встречи. Помогает организовывать мероприятия. Показывает кто собирается учавствовать.",
 	},
+	AboutCommandDescription: {
+		enUK: "About our bot",
+		ruRU: "О нашем боте",
+	},
+	TogetheredBotCommandDescription: {
+		enUK: "Main menu",
+		ruRU: "Главное меню",
+	},
 	SettingsCommandDescription: {
 		enUK: "Check & adjust bot settings",
 		ruRU: "Проверить и поменять настройки бота",
@@ -16835,28 +16843,28 @@ Biz imkon qadar shaffof va ishonchli boʻlishni maqsad qilganmiz.`,
 		ruRU: "Пользовательское соглашение",
 	},
 	TogetheredBotCommandSpots: {
-		enUK: "my places of events",
-		ruRU: "мои места проведения событий",
+		enUK: "My places of events",
+		ruRU: "Мои места проведения событий",
 	},
 	TogetheredBotCommandPlans: {
-		enUK: "view & manage my plans",
-		ruRU: "мои планы",
+		enUK: "My plans",
+		ruRU: "Мои планы",
 	},
 	AdvertisingCommandDescription: {
-		enUK: "advertise at @{BOT_CODE}",
-		ruRU: "реклама в @{BOT_CODE}",
+		enUK: "Advertise at @{BOT_CODE}",
+		ruRU: "Реклама в @{BOT_CODE}",
 	},
 	SupportUsCommandDescription: {
-		enUK: "support development of @{BOT_CODE}",
-		ruRU: "поддержать разработку @{BOT_CODE}",
+		enUK: "Support development of @{BOT_CODE}",
+		ruRU: "Поддержать разработку @{BOT_CODE}",
 	},
 	MembershipCommandDescription: {
-		enUK: "use free or choose PRO plan",
-		ruRU: "используй бесплатно или выбери ПРО план",
+		enUK: "Use for free or get PRO account",
+		ruRU: "Используй бесплатно или выбери ПРО акккаунт",
 	},
 	WalletCommandDescription: {
-		enUK: "your balance & latest transactions",
-		ruRU: "ваш баланс и последние транзакции",
+		enUK: "Your balance & latest transactions",
+		ruRU: "Ваш баланс и последние транзакции",
 	},
 	WalletTitle: {
 		enUK: "My balance @{BOT_CODE}",
@@ -16905,5 +16913,55 @@ Biz imkon qadar shaffof va ishonchli boʻlishni maqsad qilganmiz.`,
 	RsvpWizardTitle: {
 		enUK: "Let others know where & where you going to be.",
 		ruRU: "Сообщи другим, где и когда ты собираешься быть.",
+	},
+	AboutBotTitle: {
+		enUK: "About @%s",
+		ruRU: "Про @%s",
+	},
+	TechStackTitle: {
+		enUK: "Our tech stack",
+		ruRU: "Наш технологический стек",
+	},
+	TechStackText: {
+		enUK: `
+- written in <a href='https://go.dev/'>Go language</a>
+- hosted on Google <a href='https://cloud.google.com/appengine'>App Engine</a>
+- data stored in Google <a href='https://firebase.google.com/products/firestore'>Firestore DB</a>
+- uses https://github.com/bots-go-framework/
+- uses <a href='https://github.com/bots-go-framework/bots-api-telegram'>bots-api-telegram</a> to communicate with Telegram
+uses https://github.com/dal-go/ as Database Abstraction Layer
+`,
+		ruRU: `
+- написан на языке программирования <a href='https://go.dev/'>Go</a>
+- работает на Google <a href='https://cloud.google.com/appengine'>App Engine</a>
+- данные хранятся в Google <a href='https://firebase.google.com/products/firestore'>Firestore DB</a>
+- использует https://github.com/bots-go-framework/
+- использует <a href='https://github.com/bots-go-framework/bots-api-telegram'>bots-api-telegram</a> для коммуникции с Telegram
+- использует https://github.com/dal-go/ как <code>Database Abstraction Layer</code>
+`,
+	},
+	WouldYouSupportUsTitle: {
+		enUK: "Would you support us?",
+		ruRU: "Поддержите нас?",
+	},
+	WouldYouSupportUsText: {
+		enUK: `
+If you found @{BOT_CODE} to be useful to you please consider taking a minute to:")
+
+	- <a href='https://t.me/{BOT_CODE}?start=donate'>donate</a> few Telegram stars to speedup development
+
+	- give a star to our open source projects - <a href='https://github.com/bots-go-framework/'>bots-go-framework</>, <a href='https://github.com/dal-go/'>DALgo</a>")
+
+<i>Support from our users boosts our motivation to do more cool stuff on the bot!</i>
+`,
+		ruRU: `
+Если @{BOT_CODE} оказался полезным для вам подумайте о поддержке нашего проекта. Вы можете:
+
+	- <a href='https://t.me/{BOT_CODE}?start=donate'>задонатить</a> Телеграм звёзды чтобы ускороить разработку
+
+	- поставить звезду одному из наших проектов с открытым исходным кодом: <a href='https://github.com/bots-go-framework/'>bots-go-framework</>, <a href='https://github.com/dal-go/'>DALgo</a>
+
+<i>Поддердка наших пользователей сильно повышает нашу мотивацию по улучшению бота!</i>
+`,
 	},
 }

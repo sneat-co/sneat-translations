@@ -1,8 +1,9 @@
 package trans
 
 const (
-	TogetheredBotDescription      = "TogetheredBotDescription"
-	TogetheredBotShortDescription = "TogetheredBotShortDescription"
+	TogetheredBotDescription        = "TogetheredBotDescription"
+	TogetheredBotShortDescription   = "TogetheredBotShortDescription"
+	TogetheredBotCommandDescription = "TogetheredBotCommandDescription"
 )
 
 const (
