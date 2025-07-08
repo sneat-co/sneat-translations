@@ -16950,7 +16950,7 @@ If you found @{BOT_CODE} to be useful to you please consider taking a minute to:
 
 	- <a href='https://t.me/{BOT_CODE}?start=donate'>donate</a> few Telegram stars to speedup development
 
-	- give a star to our open source projects - <a href='https://github.com/bots-go-framework/'>bots-go-framework</>, <a href='https://github.com/dal-go/'>DALgo</a>")
+	- give a star to our open source projects - <a href='https://github.com/bots-go-framework/'>bots-go-framework</a>, <a href='https://github.com/dal-go/'>DALgo</a>")
 
 <i>Support from our users boosts our motivation to do more cool stuff on the bot!</i>
 `,
@@ -16959,7 +16959,7 @@ If you found @{BOT_CODE} to be useful to you please consider taking a minute to:
 
 	- <a href='https://t.me/{BOT_CODE}?start=donate'>задонатить</a> Телеграм звёзды чтобы ускороить разработку
 
-	- поставить звезду одному из наших проектов с открытым исходным кодом: <a href='https://github.com/bots-go-framework/'>bots-go-framework</>, <a href='https://github.com/dal-go/'>DALgo</a>
+	- поставить звезду одному из наших проектов с открытым исходным кодом: <a href='https://github.com/bots-go-framework/'>bots-go-framework</a>, <a href='https://github.com/dal-go/'>DALgo</a>
 
 <i>Поддердка наших пользователей сильно повышает нашу мотивацию по улучшению бота!</i>
 `,
