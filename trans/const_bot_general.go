@@ -22,4 +22,31 @@ const (
 	TechStackText          = "TechStackText"
 	WouldYouSupportUsTitle = "WouldYouSupportUsTitle"
 	WouldYouSupportUsText  = "WouldYouSupportUsText"
+
+	PremiumAccountTitle      = "PremiumAccountTitle"
+	PremiumAccountText       = "PremiumAccountText"
+	GetMonthlyPlanButtonText = "GetMonthlyPlanButtonText"
+	GetYearlyPlanButtonText  = "GetYearlyPlanButtonText"
+	WhyGoPremiumTitle        = "WhyGoPremiumTitle"
+	WhyGoPremiumText         = "WhyGoPremiumText"
+
+	InvoiceMonthlyPlanTitle = "InvoiceMonthlyPlanTitle"
+	InvoiceYearlyPlanTitle  = "InvoiceYearlyPlanTitle"
+	StarsPerMonth           = "StarPerMonth"
+
+	DonationToBotInvoiceTitle       = "DonationToBotInvoiceTitle"
+	DonationToBotInvoiceDescription = "DonationToBotInvoiceDescription"
+
+	DonationInvoiceLabelCoffee      = "DonationInvoiceLabelCoffee"
+	DonationInvoiceLabelBeer        = "DonationInvoiceLabelBeer"
+	DonationInvoiceLabelLunch       = "DonationInvoiceLabelLunch"
+	DonationInvoiceLabelAwesomeness = "DonationInvoiceLabelAwesomeness"
+
+	DonationButtonCoffee      = "DonationButtonCoffee"
+	DonationButtonBeer        = "DonationButtonBeer"
+	DonationButtonLunch       = "DonationButtonLunch"
+	DonationButtonAwesomeness = "DonationButtonAwesomeness"
+
+	SupportDevelopmentOfBotTitle = "SupportDevelopmentOfBotTitle"
+	SupportDevelopmentOfBotText  = "SupportDevelopmentOfBotText"
 )

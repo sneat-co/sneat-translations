@@ -16968,4 +16968,121 @@ If you found @{BOT_CODE} to be useful to you please consider taking a minute to:
 <i>Поддердка наших пользователей сильно повышает нашу мотивацию по улучшению бота!</i>
 `,
 	},
+	PremiumAccountTitle: {
+		enUK: "Premium Account",
+		ruRU: "Премиальный аккаунт",
+	},
+	PremiumAccountText: {
+		enUK: `
+- Monthly plan - 100⭐ per month
+- Yearly plan - <u>save 25%%</u> - 75⭐ per month`,
+		ruRU: `
+- Ежемесячный план - 100⭐ в месяц
+- Годовой план - <u>экономия 25%%</u> - 75⭐ в месяц`,
+	},
+	GetMonthlyPlanButtonText: {
+		enUK: "I choose monthly plan",
+		ruRU: "Я выбираю ежемесячный план",
+	},
+	GetYearlyPlanButtonText: {
+		enUK: "I choose yearly plan",
+		ruRU: "Я выбираю ежегодный план",
+	},
+	WhyGoPremiumTitle: {
+		enUK: "Why go premium?",
+		ruRU: "Почему стоит выбрать премиум?",
+	},
+	WhyGoPremiumText: {
+		enUK: `
+You always can use our bot for free .
+
+But ads in a bot hardly cover even hosting expenses. By choosing a paid plan you:
+
+- Support improvements & new features
+- Hide ads (<i>except the local ads linked to a specific spot/venue</i>)
+`,
+		ruRU: `
+Вы всегда сможете использовать наш бот беслатно.
+
+Но реклама в боте едва покрывает затраты на хостинг. Выбирая платный тариф вы:
+
+- Поддержите разработку улучшениий
+- Скроете рекламу (<i>кроме локальной - привязанной к определённому месту проведения событий</i>)`,
+	},
+	InvoiceMonthlyPlanTitle: {
+		enUK: "Monthly payment for @%s",
+		ruRU: "Ежемесячный платёж для @%s",
+	},
+	InvoiceYearlyPlanTitle: {
+		enUK: "Yearly payment for @%s",
+		ruRU: "Ежегодный платёж для @%s",
+	},
+	StarsPerMonth: {
+		enUK: "%d⭐ per month",
+		ruRU: "%d⭐ за месяц",
+	},
+	DonationToBotInvoiceTitle: {
+		enUK: "Donation to @%s",
+		ruRU: "Пожертвование для @%s",
+	},
+	DonationToBotInvoiceDescription: {
+		enUK: "Donation to @%s",
+		ruRU: "Пожертвование для @%s",
+	},
+	DonationInvoiceLabelCoffee: {
+		enUK: "☕️ Buy us a coffee ~ €%d",
+		ruRU: "☕️ Купите нам кофе ~ €%d",
+	},
+	DonationInvoiceLabelBeer: {
+		enUK: "🍺 Buy us a beer ~ €%d",
+		ruRU: "🍺 Купите нам пива ~ €%d",
+	},
+	DonationInvoiceLabelLunch: {
+		enUK: "🍽️ Buy us a lunch ~ €%d",
+		ruRU: "🍽️ Купите нам обед ~ €%d",
+	},
+	DonationInvoiceLabelAwesomeness: {
+		enUK: "🙌 Is this bot that awesome? ~ €%d",
+		ruRU: "🙌 Является ли этот бот настолько потрясаюшим? ~ €%d",
+	},
+	DonationButtonCoffee: {
+		enUK: "☕️ Buy us a coffee %d⭐ ~ €%d",
+		ruRU: "☕️ Купите нам кофе %d⭐ ~ €%d",
+	},
+	DonationButtonBeer: {
+		enUK: "🍺 Buy us a beer %d⭐ ~ €%d",
+		ruRU: "🍺 Купите нам пива %d⭐ ~ €%d",
+	},
+	DonationButtonLunch: {
+		enUK: "🍽️ Buy us a lunch %d⭐ ~ €%d",
+		ruRU: "🍽️ Купите нам обед %d⭐ ~ €%d",
+	},
+	DonationButtonAwesomeness: {
+		enUK: "🚀🔥🙌 You are awesome! - %s🌟 ~ €%d",
+		ruRU: "🚀🔥🙌 Вы супер! - %s🌟 ~ €%d",
+	},
+	SupportDevelopmentOfBotTitle: {
+		enUK: "Support development of @%s",
+		ruRU: "Поддержите развитие @%s",
+	},
+	SupportDevelopmentOfBotText: {
+		enUK: `
+By giving us a 1-time donation you are helping to accelerate development of the bot.
+
+Also it would be cool if you can <a href="https://t.me/{BOT_CODE}?start=get_pro_account">subscribe to our PRO membership</a>.
+
+If monetary donation is not an option at the moment and you have an account at GitHub we'd appreciate if you grant a star to our open source projects:
+- <a href="https://github.com/bots-go-framework/bots-fw">bots-go-framework</a>
+- <a href="https://github.com/dal-go/dalgo">DALgo</a> - Data-access Abstraction Layer 
+`,
+		ruRU: `
+Сделав разовое пожертвование, вы поможете ускорить разработку бота.
+
+Так же будет здорово если вы можете <a href="https://t.me/{BOT_CODE}?start=get_pro_account">подписаться на наш премиальный тариф</a>.
+
+Если денежное пожертвование в текущем моменте не вариант и у вас есть аккаунт на GitHub мы будем признательны если поставите звезду нашим проектам с открытым исходным кодом:
+- <a href="https://github.com/bots-go-framework/bots-fw">bots-go-framework</a>
+- <a href="https://github.com/dal-go/dalgo">DALgo</a> - Data-access Abstraction Layer
+`,
+	},
 }
