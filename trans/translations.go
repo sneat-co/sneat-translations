@@ -17085,4 +17085,42 @@ If monetary donation is not an option at the moment and you have an account at G
 - <a href="https://github.com/dal-go/dalgo">DALgo</a> - Data-access Abstraction Layer
 `,
 	},
+	AdvertiseAtBotTitle: {
+		enUK: "Advertising at @%s",
+		ruRU: "Реклама на @%s",
+	},
+	AdvertiseAtBotText: {
+		enUK: `
+You can place an ad for activity from here (<i>with optional targeting by city/country</i>).
+
+If you want to create a local add for a spot do it from the spot menu.`,
+		ruRU: `
+Вы можете разместить объявление о мероприятии отсюда (<i>с необязательным таргетингом по городу/стране</i>).
+
+Если вы хотите создать локальное объявление для спота, сделайте это через меню спота.`,
+	},
+	MyAdsButtonText: {
+		enUK: "🛍️ My ads",
+		ruRU: "🛍️ Мои объявления",
+	},
+	NewAdButtonText: {
+		enUK: "➕ New ad",
+		ruRU: "➕ Новое объявление",
+	},
+	AdsBillingButtonText: {
+		enUK: "🧾 Billing",
+		ruRU: "🧾 Биллинг",
+	},
+	AdvertiseWithUsButtonText: {
+		enUK: "🛍️ Advertise with us",
+		ruRU: "🛍️ Реклама в боте",
+	},
+	GetProAccountButtonText: {
+		enUK: "🚀 Get PREMIUM account",
+		ruRU: "🚀 Премиальный аккаунт",
+	},
+	SupportUsButtonText: {
+		enUK: "❤️ Support us",
+		ruRU: "❤️ Поддержать",
+	},
 }

@@ -47,6 +47,16 @@ const (
 	DonationButtonLunch       = "DonationButtonLunch"
 	DonationButtonAwesomeness = "DonationButtonAwesomeness"
 
+	SupportUsButtonText          = "SupportUsButtonText"
 	SupportDevelopmentOfBotTitle = "SupportDevelopmentOfBotTitle"
 	SupportDevelopmentOfBotText  = "SupportDevelopmentOfBotText"
+
+	AdvertiseWithUsButtonText = "AdvertiseWithUsButtonText"
+	AdvertiseAtBotTitle       = "AdvertiseAtBotTitle"
+	AdvertiseAtBotText        = "AdvertiseAtBotText"
+
+	MyAdsButtonText         = "MyAdsButtonText"
+	NewAdButtonText         = "NewAdButtonText"
+	AdsBillingButtonText    = "AdsBillingButtonText"
+	GetProAccountButtonText = "GetProAccountButtonText"
 )
