@@ -15468,6 +15468,14 @@ Aks holda ularni Sneat.app ilovasida qoʻlda qoʻshishingiz mumkin.`,
 		zhCN: "您没有喜欢的活动",
 	},
 
+	TogdYouHaveNoActiveEvents: {
+		enUK: "You have no active events.",
+		ruRU: "У вас нет активных событий.",
+	},
+	TogdUserHasNoActiveEvents: {
+		enUK: "User has no active events.",
+		ruRU: "У пользователя нет активных событий.",
+	},
 	InstructionHowToAddActivityInBot: {
 		arEG: "لإضافة الأنشطة قم بإرسالها مفصولة بفاصلة.",
 		deDE: "Um Aktivitäten hinzuzufügen, senden Sie sie durch Kommas getrennt.",
@@ -15527,7 +15535,6 @@ Aks holda ularni Sneat.app ilovasida qoʻlda qoʻshishingiz mumkin.`,
 		uzUZ: "Foydalanuvchi faoliyatlari",
 		zhCN: "用户活动",
 	},
-
 	TogdUserEvents: {
 		arEG: "أحداث المستخدم",
 		deDE: "Benutzerereignisse",

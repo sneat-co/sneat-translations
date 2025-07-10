@@ -20,6 +20,9 @@ const (
 	TogdMyPlans      = "TogdMyPlans"
 	TogdMySpots      = "TogdMySpots"
 
+	TogdYouHaveNoActiveEvents = "TogdYouHaveNoActiveEvents"
+	TogdUserHasNoActiveEvents = "TogdUserHasNoActiveEvents"
+
 	TogdMyFavoriteSpotsTitle     = "TogdMyFavoriteSpotsTitle"
 	TogdFavoriteSpotsOfUserTitle = "TogdFavoriteSpotsOfUserTitle"
 
