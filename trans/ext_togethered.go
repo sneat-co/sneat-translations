@@ -20,6 +20,8 @@ const (
 	TogdMyPlans      = "TogdMyPlans"
 	TogdMySpots      = "TogdMySpots"
 
+	ShareEventButtonText = "ShareEventButtonText"
+
 	TogdYouHaveNoActiveEvents = "TogdYouHaveNoActiveEvents"
 	TogdUserHasNoActiveEvents = "TogdUserHasNoActiveEvents"
 

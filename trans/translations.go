@@ -14739,6 +14739,10 @@ Aks holda ularni Sneat.app ilovasida qoʻlda qoʻshishingiz mumkin.`,
 		ukUA: "📤 Поділитися місцем",
 		uzUZ: "📤 Joyni baham ko&#39;ring",
 		zhCN: "📤 分享地点"},
+	ShareEventButtonText: {
+		enUK: "📤 Share spot",
+		ruRU: "📤 Пригласить",
+	},
 	ShareSpotButtonText: {
 		arEG: "📤 شارك المكان",
 		deDE: "📤 Ort teilen",
