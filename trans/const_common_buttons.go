@@ -5,6 +5,7 @@ const (
 	ButtonRemove  = "ButtonRemove"
 	ButtonPrivacy = "ButtonPrivacy"
 	ButtonIGotIt  = "ButtonIGotIt"
+	ButtonEdit    = "ButtonEdit"
 )
 
 //const ButtonSoundsGood = "SoundsGood"

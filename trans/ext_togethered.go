@@ -70,6 +70,9 @@ const (
 	DoYouWantToCancelThisEvent = "DoYouWantToCancelThisEvent"
 	EventIsCanceled            = "EventIsCanceled"
 
+	VewEventDetailsButtonText = "VewEventDetailsButtonText"
+	RsvpTpEventButtonText     = "RsvpTpEventButtonText"
+
 	RemoveFromSpots = "RemoveFromSpots"
 	AddToMySpots    = "AddToMySpots"
 
@@ -148,3 +151,9 @@ const (
 )
 
 const CalendarButtonText = "CalendarButtonText"
+
+const (
+	PromoTitle = "PromoTitle"
+	TogdAd1    = "TogdAd1"
+	TogdAd2    = "TogdAd2"
+)
