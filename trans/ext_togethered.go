@@ -157,3 +157,12 @@ const (
 	TogdAd1    = "TogdAd1"
 	TogdAd2    = "TogdAd2"
 )
+
+const (
+	BeforeStartChooseTimezoneTitle = "BeforeStartChooseTimezoneTitle"
+	BeforeStartChooseTimezoneText  = "BeforeStartChooseTimezoneText"
+
+	HintToSendLocationForTimezoneDetection = "HintToSendLocationForTimezoneDetection"
+	YourTimezoneIsSetTo                    = "YourTimezoneIsSetTo"
+	SendLocationForTimezoneDetection       = "SendLocationForTimezoneDetection"
+)

@@ -17198,4 +17198,35 @@ If you want to create a local add for a spot do it from the spot menu.`,
 		enUK: `Get <a href="https://t.me/{BOT_CODE}?start=get_pro_account"><b>PRO</b> account</a> to get rid of <a href="https://t.me/{BOT_CODE}?start=advertising">advertising</a> & to <a href="https://t.me/{BOT_CODE}?start=support_us">support us</a>.`,
 		ruRU: `Выберите <a href="https://t.me/{BOT_CODE}?start=get_pro_account"><b>ПРО</b> аккаунт</a> чтобы убрать <a href="https://t.me/{BOT_CODE}?start=advertising">рекламу</a> а также <a href="https://t.me/{BOT_CODE}?start=support_us">поддержать нас</a>.`,
 	},
+	BeforeStartChooseTimezoneTitle: {
+		enUK: "Before we start please choose your timezone",
+		ruRU: "Перед тем как начать выберите вашу временную зону",
+	},
+	BeforeStartChooseTimezoneText: {
+		enUK: `
+This is needed to:
+ - Correctly display times (we use UTC internally)
+ - Avoid sending notifications during night hours
+ - Save your time when creating spots and events (<i>your timezone will be used by default</i>)
+
+The easiest way to set your timezone is to send your location.
+But you also can choose from the list provided.`,
+		ruRU: `
+Это необходимо чтобы:
+- Правильно отоброжать время (<i>мы храним врямя как UTC</i>) 
+- Избежать отравки оповещений когда у вас ночь
+- Ускороить создание событий и места их проведения (<i>вашу временная зона будет исользвоана по умолчанию</i>.)`,
+	},
+	HintToSendLocationForTimezoneDetection: {
+		enUK: `The easiest and fastest way to set your timezone is to <b>send your location</b> - works only mobile devices. But you also can choose from the list provided.`,
+		ruRU: `Самый простой и быстрый способ задать вашу временную зону это '<b>отправить ваше месторасположение</b> - работает только на мобильных устройствах. Но вы можете просто выбрать временную зону из списка.`,
+	},
+	YourTimezoneIsSetTo: {
+		enUK: "Your time zone is set to %s",
+		ruRU: "Ваша временная зона установлена: %s",
+	},
+	SendLocationForTimezoneDetection: {
+		enUK: "Detect timezone by location",
+		ruRU: "Определить временную зону",
+	},
 }
