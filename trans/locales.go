@@ -4,48 +4,48 @@ import "slices"
 
 const (
 	arEG = "ar-EG" // Egypt 14.85 million Telegram users
-	deDE = "de-DE"
-	enUK = "en-UK"
-	esES = "es-ES" // 150–200 million Telegram users
+	de   = "de-DE"
+	en   = "en-UK"
+	es   = "es-ES" // 150–200 million Telegram users
 	faIR = "fa-IR"
-	frFR = "fr-FR"
-	idID = "id-ID"
-	itIT = "it-IT"
+	fr   = "fr-FR"
+	id   = "id-ID"
+	it   = "it-IT"
 	jaJP = "ja-JP"
 	koKR = "ko-KR"
-	plPL = "pl-PL"
+	pl   = "pl-PL"
 	ptBR = "pt-BR"
 	ptPT = "pt-PT"
-	ruRU = "ru-RU"
-	trTR = "tr-TR"
+	ru   = "ru-RU"
+	tr   = "tr-TR"
 	ukUA = "uk-UA"
-	uzUZ = "uz-UZ"
+	uz   = "uz-UZ"
 	zhCN = "zh-CN"
 )
 
 var RequiredLocales = []string{
-	enUK,
-	ruRU,
+	en,
+	ru,
 }
 
 var SupportedLocales = []string{
 	arEG,
-	deDE,
-	enUK,
-	esES,
+	de,
+	en,
+	es,
 	faIR,
-	frFR,
-	idID,
-	itIT,
+	fr,
+	id,
+	it,
 	jaJP,
 	koKR,
-	plPL,
+	pl,
 	ptBR,
 	ptPT,
-	ruRU,
-	trTR,
+	ru,
+	tr,
 	ukUA,
-	uzUZ,
+	uz,
 	zhCN,
 }
 

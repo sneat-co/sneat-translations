@@ -12,7 +12,7 @@ const (
 //
 //func buttonSoundsGood() map[string]string {
 //	return map[string]string{
-//		enUK: "Sounds good!",
-//		ruRU: "Звучит отлично!",
+//		en: "Sounds good!",
+//		ru: "Звучит отлично!",
 //	}
 //}

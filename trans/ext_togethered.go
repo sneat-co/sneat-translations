@@ -166,3 +166,7 @@ const (
 	YourTimezoneIsSetTo                    = "YourTimezoneIsSetTo"
 	SendLocationForTimezoneDetection       = "SendLocationForTimezoneDetection"
 )
+
+const (
+	YouAreNotFollowingThisSpot = "YouAreNotFollowingThisSpot"
+)

@@ -42,15 +42,15 @@ func TestTRANS(t *testing.T) {
 			}
 			countsByLang[lang] = counts
 		}
-		enCounts, ok := countsByLang[enUK]
+		enCounts, ok := countsByLang[en]
 		if !ok {
 			t.Errorf("Key %v missing en-UK trnaslation", key)
 			continue
 		}
-		wordsCount += len(ReWords.FindAllString(vals[enUK], -1))
+		wordsCount += len(ReWords.FindAllString(vals[en], -1))
 		reported := make(map[string]int)
 		for lang, counts := range countsByLang {
-			if lang == enUK {
+			if lang == en {
 				continue
 			}
 			for enV, enCount := range enCounts {
