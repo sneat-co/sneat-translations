@@ -17238,12 +17238,12 @@ But you also can choose from the list provided.`,
 		ru: "Вы подписаны на оповещения с этого места.",
 	},
 	YouAreSubscribedTo1Activity: {
-		en: "You are subscribed to 1 activity: %s",
-		ru: "Вы подписаны на 1 категорию событий",
+		en: "You are subscribed to 1 activity.",
+		ru: "Вы подписаны на 1 категорию событий.",
 	},
 	YouAreSubscribedToNActivity: {
-		en: "You are subscribed to % activities",
-		ru: "Вы подписаны на %s категори(и/й)",
+		en: "You are subscribed to %s activities.",
+		ru: "Вы подписаны на %s категори(и/й).",
 	},
 	LocalAds: {
 		en: "Local ads",
