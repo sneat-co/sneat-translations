@@ -168,5 +168,18 @@ const (
 )
 
 const (
-	YouAreNotFollowingThisSpot = "YouAreNotFollowingThisSpot"
+	YouAreNotFollowingThisSpot  = "YouAreNotFollowingThisSpot"
+	YouAreFollowingThisSpot     = "YouAreFollowingThisSpot"
+	YouAreSubscribedTo1Activity = "YouAreSubscribedTo1Activity"
+	YouAreSubscribedToNActivity = "YouAreSubscribedToNActivity"
+)
+
+const (
+	LocalAds         = "LocalAds"
+	TimezoneIsNotSet = "TimezoneIsNotSet"
+	TimezoneLabel    = "TimezoneLabel"
+
+	SubscribedAllActivities = "SubscribedAllActivities"
+	Subscribed1Activity     = "Subscribed1Activity"
+	SubscribedNActivities   = "SubscribedNActivities"
 )

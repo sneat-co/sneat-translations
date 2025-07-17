@@ -17229,4 +17229,44 @@ But you also can choose from the list provided.`,
 		en: "Detect timezone by location",
 		ru: "Определить временную зону",
 	},
+	YouAreNotFollowingThisSpot: {
+		en: "You are not following this spot",
+		ru: "Вы не подписаны на это место.",
+	},
+	YouAreFollowingThisSpot: {
+		en: "You are following this spot for all activities",
+		ru: "Вы подписаны на оповещения с этого места.",
+	},
+	YouAreSubscribedTo1Activity: {
+		en: "You are subscribed to 1 activity: %s",
+		ru: "Вы подписаны на 1 категорию событий",
+	},
+	YouAreSubscribedToNActivity: {
+		en: "You are subscribed to % activities",
+		ru: "Вы подписаны на %s категори(и/й)",
+	},
+	LocalAds: {
+		en: "Local ads",
+		ru: "Локальная реклама",
+	},
+	TimezoneIsNotSet: {
+		en: "Time zone is not set.",
+		ru: "Часовой пояс не задан.",
+	},
+	TimezoneLabel: {
+		en: "Timezone: %s",
+		ru: "Часовой пояс: %s",
+	},
+	SubscribedAllActivities: {
+		en: "👀 Subscribed:",
+		ru: "👀 Подписки:",
+	},
+	Subscribed1Activity: {
+		en: "👀 Subscribed: 1 activity",
+		ru: "👀 Подписки: 1 категория",
+	},
+	SubscribedNActivities: {
+		en: "👀 Subscribed: %s activities",
+		ru: "👀 Подписки: %s категори(и/й)",
+	},
 }
