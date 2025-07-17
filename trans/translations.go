@@ -17269,4 +17269,24 @@ But you also can choose from the list provided.`,
 		en: "👀 Subscribed: %s activities",
 		ru: "👀 Подписки: %s категори(и/й)",
 	},
+	AdStarGiveawaysSneatDevDiaries: {
+		en: "🎁 Every month <b>we are giving away Telegram ⭐⭐</b> to a random subscriber of @SneatDevDiaries.",
+		ru: "🎁 Каждый месяц <b>мы дарим Телеграм ⭐⭐</b> случайному подписчику @SneatDevDiaries.",
+	},
+	AdLearAboutOurDevelopment: {
+		en: "🧐 You can <a href='https://t.me/SneatDevDiaries/4'>learn how we develop</a> this bot and other apps at our channel @SneatDevDiaries.",
+		ru: "🧐 Вы можете <a href='https://t.me/SneatDevDiaries/4'>узнать о том как мы ведём разработку</a> этого бота и других приложенй на нашем канале @SneatDevDiaries.",
+	},
+	AdCuriosAboutHowItIsDeveloped: {
+		en: "🧐 Are you curious how this bot is developed? Get insights at our devs channel @SneatDevDiaries.",
+		ru: "🧐 Вам любопытно как этот бот разрабатывается? Инсайты на канале наших разработчиков @SneatDevDiaries.",
+	},
+	AdSupportUs: {
+		en: "🙏 You can /support_us to help with development of this bot.",
+		ru: "🙏 Вы можете поддержать разработку бота небольшим донатом - /support_us",
+	},
+	AdStarGiveaways: {
+		en: "🌟 Subscribe to @StarGiveaways_EN to participate in regular giveaways of Telegram stars ⭐⭐⭐",
+		ru: "🌟 Подпишитесь на @StarGiveaways_RU чтобы учавствовать в регулярных раздачах Телеграм звёзд ⭐⭐⭐",
+	},
 }
