@@ -20,6 +20,8 @@ func localeKeyToCode(s string) string {
 	switch len(s) {
 	case 0:
 		panic("empty locale code")
+	case 2:
+		return s + "-" + strings.ToUpper(s)
 	case 5:
 		return s
 	case 4:
@@ -44,7 +46,8 @@ func translateByGoogle(sourceLang language.Tag, locale string, texts []string) (
 		err = fmt.Errorf("invalid target language: %w", err)
 		return
 	}
-	batch := make([]string, 0, 100)
+	const batchSize = 20
+	batch := make([]string, 0, batchSize)
 
 	ctx := context.Background()
 
@@ -55,7 +58,7 @@ func translateByGoogle(sourceLang language.Tag, locale string, texts []string) (
 			_, _ = fmt.Fprintf(os.Stdout, "%s: failed to translate one of the next %d:\n%s", locale, len(batch), strings.Join(texts, "\n\n"+strings.Repeat("=", 30)+"\n\n"))
 			return err
 		}
-		batch = make([]string, 0, 100)
+		batch = make([]string, 0, batchSize)
 		for _, translatedText := range translated {
 			translatedTexts = append(translatedTexts, translatedText)
 		}
@@ -386,7 +389,7 @@ func translateMissing(baseLocale string) error {
 	}(outFile)
 
 	//cfg := &printer.Config{
-	//	Mode: printer.UseSpaces | printer.TabIndent,
+	//	ModeDE: printer.UseSpaces | printer.TabIndent,
 	//	//Tabwidth: 8,
 	//}
 	//if err = cfg.Fprint(outFile, fileSet, node); err != nil {

@@ -51,7 +51,7 @@ func translateMulti(ctx context.Context, sourceLanguage, targetLanguage language
 			}))
 		}
 		text = strings.ReplaceAll(text, "\n", `{n}`)
-		text = strings.ReplaceAll(text, "\n", `{t}`)
+		text = strings.ReplaceAll(text, "\t", `{t}`)
 		sources[i] = s
 		textsToTranslate[i] = text
 	}
@@ -73,7 +73,7 @@ func translateMulti(ctx context.Context, sourceLanguage, targetLanguage language
 		s := sources[i]
 		text := trans.Text
 		text = strings.ReplaceAll(text, `{n}`, "\n")
-		text = strings.ReplaceAll(text, `{t}`, "\n")
+		text = strings.ReplaceAll(text, `{t}`, "\t")
 
 		translatedTexts[i] = string(reVarIndex.ReplaceAllFunc([]byte(text), func(sub []byte) []byte {
 			if varIndex, err = strconv.Atoi(string(sub[1 : len(sub)-1])); err != nil {

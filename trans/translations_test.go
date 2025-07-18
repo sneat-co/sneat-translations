@@ -42,21 +42,21 @@ func TestTRANS(t *testing.T) {
 			}
 			countsByLang[lang] = counts
 		}
-		enCounts, ok := countsByLang[en]
+		enCounts, ok := countsByLang[enUK]
 		if !ok {
-			t.Errorf("Key %v missing en-UK trnaslation", key)
+			t.Errorf("Key %v missing enUK-UK trnaslation", key)
 			continue
 		}
-		wordsCount += len(ReWords.FindAllString(vals[en], -1))
+		wordsCount += len(ReWords.FindAllString(vals[enUK], -1))
 		reported := make(map[string]int)
 		for lang, counts := range countsByLang {
-			if lang == en {
+			if lang == enUK {
 				continue
 			}
 			for enV, enCount := range enCounts {
 				if c := counts[enV]; c != enCount {
 					if c != 0 || vals[lang] != "" {
-						t.Errorf("%v:%v has %d of '%v' while en-US has %d", key, lang, counts[enV], enV, enCount)
+						t.Errorf("%v:%v has %d of '%v' while enUK-US has %d", key, lang, counts[enV], enV, enCount)
 						reported[enV] = enCount
 					}
 				}
@@ -65,7 +65,7 @@ func TestTRANS(t *testing.T) {
 			for langV, langCount := range counts {
 				if enCounts[langV] != langCount {
 					if _, ok := reported[langV]; !ok {
-						t.Errorf("%v:%v has %d of '%v' while en-US has %d", key, lang, langCount, langV, enCounts[langV])
+						t.Errorf("%v:%v has %d of '%v' while enUK-US has %d", key, lang, langCount, langV, enCounts[langV])
 					}
 				}
 			}
