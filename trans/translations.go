@@ -15508,6 +15508,14 @@ Aks holda ularni Sneat.app ilovasida qoʻlda qoʻshishingiz mumkin.`,
 		en: "User has no active events.",
 		ru: "У пользователя нет активных событий.",
 	},
+	EventsStatusTitle: {
+		en: "Status: <b>%s</b>",
+		ru: "Статус: <b>%s</b>",
+	},
+	"planning": {
+		en: "panning",
+		ru: "планируется",
+	},
 	InstructionHowToAddActivityInBot: {
 		arEG: "لإضافة الأنشطة قم بإرسالها مفصولة بفاصلة.",
 		de:   "Um Aktivitäten hinzuzufügen, senden Sie sie durch Kommas getrennt.",
@@ -17253,6 +17261,58 @@ But you also can choose from the list provided.`,
 		en: "You are subscribed to %s activities.",
 		ru: "Вы подписаны на %s категори(и/й).",
 	},
+	EditIntentButtonText: {
+		en: "📝 Edit intent",
+		ru: "📝 Редактировать план",
+	},
+	ShareIntentButtonText: {
+		en: "📤 Share intent",
+		ru: "📤 Поделиться планом",
+	},
+	ShareIntentArticleTitle: {
+		en: "Intent: {USER_TITLE} @ {INTENT_EMOJI} {SPOT_TITLE}",
+		ru: "План: {USER_TITLE} @ {INTENT_EMOJI} {SPOT_TITLE}",
+	},
+	ShareIntentRSVPButtonText: {
+		en: "✔️ Will you join? Please RSVP!",
+		ru: "✔️ Присоеденитесь? Дайте знать!",
+	},
+	ShareIntentWhoElseGoingButtonText: {
+		en: "❓ Who else is going?",
+		ru: "❓ Кто ещё идёт?",
+	},
+	ShareIntentDoYouNeedARideButtonText: {
+		en: "🚗🙋 Do you need a ride?",
+		ru: "🚗🙋 Вас подвезти?",
+	},
+	ShareIntentArticleUnspecifiedActivity: {
+		en: "unspecified activity",
+		ru: "не указано что будет делаться",
+	},
+	ShareIntentArticleDescription: {
+		en: "Clicking to this will share your plan for the to the current chat.",
+		ru: "Кликнув вы поделитесь своим планом в текущем чате.",
+	},
+	ShareIntentArticleTextLikelihoodYes: {
+		en: "<b>{USER}</b> is <u>certainly going</u> to be at <b>{SPOT}</b> on <b>{DATE}</b> from <code>{ARRIVAL}</code> till <code>{DEPARTURE}</code> doing:",
+		ru: "<b>{USER}</b> <u>точно будет</u> на/в <b>{SPOT}</b> <b>{DATE}</b> c <code>{ARRIVAL}</code> до <code>{DEPARTURE}</code>, будет делать:",
+	},
+	ShareIntentArticleTextLikelihoodNo: {
+		en: "<b>{USER}</b> is <u>not going</u> to be at <b>{SPOT}</b> on <b>{DATE}</b> from <code>{ARRIVAL}</code> till <code>{DEPARTURE}</code>",
+		ru: "<b>{USER}</b> <u>не будет</u> на/в <b>{SPOT}</b> <b>{DATE}</b> c <code>{ARRIVAL}</code> до <code>{DEPARTURE}</code>",
+	},
+	ShareIntentArticleTextLikelihoodMaybe: {
+		en: "<b>{USER}</b> <u>might</u> be at <b>{SPOT}</b> on <b>{DATE}</b> from <code>{ARRIVAL}</code> till <code>{DEPARTURE}</code> doing:",
+		ru: "<b>{USER}</b> <u>возможно</u> будет на/в <b>{SPOT}</b> <b>{DATE}</b> c <code>{ARRIVAL}</code> до <code>{DEPARTURE}</code>, будет делать:",
+	},
+	ShareIntentArticleTextLikelihoodLikely: {
+		en: "<b>{USER}</b> is <u>likely</u> to be at <b>{SPOT}</b> on <b>{DATE}</b> from <code>{ARRIVAL}</code> till <code>{DEPARTURE}</code> doing:",
+		ru: "<b>{USER}</b> <u>скорее всего будет</u> на/в <b>{SPOT}</b> <b>{DATE}</b> c <code>{ARRIVAL}</code> до <code>{DEPARTURE}</code>, будет делать:",
+	},
+	ShareIntentArticleTextLikelihoodUnlikely: {
+		en: "<b>{USER}</b> is unlikely to be at <b>{SPOT}</b> on <b>{DATE}</b> from <code>{ARRIVAL}</code> till <code>{DEPARTURE}</code> doing:",
+		ru: "<b>{USER}</b> <u>скорее всего НЕ будет</u> на/в <b>{SPOT}</b> <b>{DATE}</b> c <code>{ARRIVAL}</code> до <code>{DEPARTURE}</code>, будет делать:",
+	},
 	RsvpDateTime: {
 		en: "On: <b>{DATE}</b> @ {START_TIME} till {END_TIME}",
 		ru: "Дата и время: <b>{DATE}</b> @ с {START_TIME} по {END_TIME}",
@@ -17316,5 +17376,9 @@ But you also can choose from the list provided.`,
 	InlineUserProfileMessageFollowersLabel: {
 		en: "<b>Followers</b>: %s",
 		ru: "<b>Подписчиков</b>: %s",
+	},
+	SpotUserPlanRow: {
+		en: "<code>#%d</code> %s, <b>%s</b> from <i>%s</i> till <i>%s</i> - <u>%s</u>",
+		ru: "<code>#%d</code> %s, <b>%s</b> с <i>%s</i> по <i>%s</i> - <u>%s</u>",
 	},
 }

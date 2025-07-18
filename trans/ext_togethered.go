@@ -28,6 +28,7 @@ const (
 
 	TogdYouHaveNoActiveEvents = "TogdYouHaveNoActiveEvents"
 	TogdUserHasNoActiveEvents = "TogdUserHasNoActiveEvents"
+	EventsStatusTitle         = "EventsStatusTitle"
 
 	TogdMyFavoriteSpotsTitle     = "TogdMyFavoriteSpotsTitle"
 	TogdFavoriteSpotsOfUserTitle = "TogdFavoriteSpotsOfUserTitle"
@@ -192,4 +193,22 @@ const (
 	SubscribedAllActivities = "SubscribedAllActivities"
 	Subscribed1Activity     = "Subscribed1Activity"
 	SubscribedNActivities   = "SubscribedNActivities"
+)
+
+const (
+	SpotUserPlanRow                       = "SpotUserPlanRow"
+	EditIntentButtonText                  = "EditIntentButtonText"
+	ShareIntentButtonText                 = "ShareIntentButtonText"
+	ShareIntentArticleTitle               = "ShareIntentArticleTitle"
+	ShareIntentRSVPButtonText             = "ShareIntentRSVPButtonText"
+	ShareIntentWhoElseGoingButtonText     = "ShareIntentWhoElseGoingButtonText"
+	ShareIntentDoYouNeedARideButtonText   = "ShareIntentDoYouNeedARideButtonText"
+	ShareIntentArticleDescription         = "ShareIntentArticleDescription"
+	ShareIntentArticleUnspecifiedActivity = "ShareIntentArticleUnspecifiedActivity"
+
+	ShareIntentArticleTextLikelihoodYes      = "ShareIntentArticleTextLikelihoodYes"
+	ShareIntentArticleTextLikelihoodNo       = "ShareIntentArticleTextLikelihoodNo"
+	ShareIntentArticleTextLikelihoodLikely   = "ShareIntentArticleTextLikelihoodLikely"
+	ShareIntentArticleTextLikelihoodUnlikely = "ShareIntentArticleTextLikelihoodUnlikely"
+	ShareIntentArticleTextLikelihoodMaybe    = "ShareIntentArticleTextLikelihoodMaybe"
 )
