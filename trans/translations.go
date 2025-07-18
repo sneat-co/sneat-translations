@@ -17237,6 +17237,14 @@ But you also can choose from the list provided.`,
 		en: "You are following this spot for all activities",
 		ru: "Вы подписаны на оповещения с этого места.",
 	},
+	YouHaveNotRecordedFuturePlansForThisSpot: {
+		en: "You have no recorded future plans for this spot/venue.",
+		ru: "У вас пока нет записей о планах на будущее об этом месте.",
+	},
+	PleaseSpecifyTimezoneForThisSpot: {
+		en: "Please specify time zone for the spot.",
+		ru: "Пожалуйста выберите часовой пояс для этого места.",
+	},
 	YouAreSubscribedTo1Activity: {
 		en: "You are subscribed to 1 activity.",
 		ru: "Вы подписаны на 1 категорию событий.",
@@ -17245,9 +17253,17 @@ But you also can choose from the list provided.`,
 		en: "You are subscribed to %s activities.",
 		ru: "Вы подписаны на %s категори(и/й).",
 	},
+	RsvpDateTime: {
+		en: "On: <b>{DATE}</b> @ {START_TIME} till {END_TIME}",
+		ru: "Дата и время: <b>{DATE}</b> @ с {START_TIME} по {END_TIME}",
+	},
 	LocalAds: {
 		en: "Local ads",
 		ru: "Локальная реклама",
+	},
+	NoLocalAdsYet: {
+		en: "There is no local ads for <code>%s</code> yet.\nBe first to <b>place an ad for <u>just 1 ⭐ per day</u></b>!",
+		ru: "Пока ещё нет локальной рекламы для <code>%s</code>. Разместите рекаламу первыми <u>всего за 1 ⭐ в день.</u>!",
 	},
 	TimezoneIsNotSet: {
 		en: "Time zone is not set.",
@@ -17288,5 +17304,17 @@ But you also can choose from the list provided.`,
 	AdStarGiveaways: {
 		en: "🌟 Subscribe to @StarGiveaways_EN to participate in regular giveaways of Telegram stars ⭐⭐⭐",
 		ru: "🌟 Подпишитесь на @StarGiveaways_RU чтобы учавствовать в регулярных раздачах Телеграм звёзд ⭐⭐⭐",
+	},
+	InlineUserProfileMessageTextTitle: {
+		en: "<b>{USER_TITLE}</b> | Profile @{BOT_CODE}",
+		ru: "<b>{USER_TITLE}</b> | Профиль @{BOT_CODE}",
+	},
+	InlineUserProfileMessageSpotsLabel: {
+		en: "<b>Favorite spots</b>: %s",
+		ru: "<b>Избранные места</b>: %s",
+	},
+	InlineUserProfileMessageFollowersLabel: {
+		en: "<b>Followers</b>: %s",
+		ru: "<b>Подписчиков</b>: %s",
 	},
 }

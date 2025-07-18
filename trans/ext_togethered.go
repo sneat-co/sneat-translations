@@ -22,6 +22,10 @@ const (
 
 	ShareEventButtonText = "ShareEventButtonText"
 
+	InlineUserProfileMessageTextTitle      = "InlineUserProfileMessageText"
+	InlineUserProfileMessageSpotsLabel     = "InlineUserProfileMessageSpotsLabel"
+	InlineUserProfileMessageFollowersLabel = "InlineUserProfileMessageFollowersLabel"
+
 	TogdYouHaveNoActiveEvents = "TogdYouHaveNoActiveEvents"
 	TogdUserHasNoActiveEvents = "TogdUserHasNoActiveEvents"
 
@@ -51,6 +55,8 @@ const (
 
 	RsvpButtonText     = "RsvpButtonText"
 	NewEventButtonText = "NewEventButtonText"
+
+	RsvpDateTime = "RsvpDateTime"
 
 	NewEventTitle = "NewEventTitle"
 	NewEventText  = "NewEventText"
@@ -168,14 +174,18 @@ const (
 )
 
 const (
-	YouAreNotFollowingThisSpot  = "YouAreNotFollowingThisSpot"
-	YouAreFollowingThisSpot     = "YouAreFollowingThisSpot"
-	YouAreSubscribedTo1Activity = "YouAreSubscribedTo1Activity"
-	YouAreSubscribedToNActivity = "YouAreSubscribedToNActivity"
+	YouAreNotFollowingThisSpot               = "YouAreNotFollowingThisSpot"
+	YouAreFollowingThisSpot                  = "YouAreFollowingThisSpot"
+	YouAreSubscribedTo1Activity              = "YouAreSubscribedTo1Activity"
+	YouAreSubscribedToNActivity              = "YouAreSubscribedToNActivity"
+	YouHaveNotRecordedFuturePlansForThisSpot = "YouHaveNotRecordedFuturePlansForThisSpot"
+
+	PleaseSpecifyTimezoneForThisSpot = "PleaseSpecifyTimezoneForThisSpot"
 )
 
 const (
 	LocalAds         = "LocalAds"
+	NoLocalAdsYet    = "NoLocalAdsYet"
 	TimezoneIsNotSet = "TimezoneIsNotSet"
 	TimezoneLabel    = "TimezoneLabel"
 
