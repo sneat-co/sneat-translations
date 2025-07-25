@@ -19223,7 +19223,6 @@ Agar siz joy uchun mahalliy qoʻshimcha yaratmoqchi boʻlsangiz, buni spot menyu
 Dies ist erforderlich, um:
  - Zeiten korrekt anzuzeigen (wir verwenden intern UTC)
  - das Senden von Benachrichtigungen während der Nachtstunden zu vermeiden
- - beim Erstellen von Spots und Events Zeit zu sparen ( <i>Ihre Zeitzone wird standardmäßig verwendet</i> )
 
 Die einfachste Möglichkeit, Ihre Zeitzone einzustellen, besteht darin, Ihren Standort zu senden.
 Sie können aber auch aus der bereitgestellten Liste auswählen.`,
@@ -19231,7 +19230,6 @@ Sie können aber auch aus der bereitgestellten Liste auswählen.`,
 This is needed to:
  - Correctly display times (we use UTC internally)
  - Avoid sending notifications during night hours
- - Save your time when creating spots and events (<i>your timezone will be used by default</i>)
 
 The easiest way to set your timezone is to send your location.
 But you also can choose from the list provided.`,
@@ -19239,7 +19237,6 @@ But you also can choose from the list provided.`,
 Esto es necesario para:
  - Mostrar los horarios correctamente (usamos UTC internamente)
  - Evitar enviar notificaciones durante las horas nocturnas
- - Ahorrar tiempo al crear lugares y eventos ( <i>se usará su zona horaria de manera predeterminada</i> )
 
 La forma más fácil de configurar su zona horaria es enviar su ubicación.
 Pero también puede elegir de la lista proporcionada.`,
@@ -19255,7 +19252,6 @@ Pero también puede elegir de la lista proporcionada.`,
 Ceci est nécessaire pour :
  - Afficher correctement les heures (nous utilisons UTC en interne)
  - Éviter d&#39;envoyer des notifications pendant les heures de nuit
- - Gagner du temps lors de la création de spots et d&#39;événements ( <i>votre fuseau horaire sera utilisé par défaut</i> )
 
 Le moyen le plus simple de définir votre fuseau horaire est d&#39;envoyer votre position.
 Mais vous pouvez également choisir dans la liste fournie.`,
@@ -19263,7 +19259,6 @@ Mais vous pouvez également choisir dans la liste fournie.`,
 Ini diperlukan untuk:
  - Menampilkan waktu dengan benar (kami menggunakan UTC secara internal)
  - Menghindari pengiriman pemberitahuan pada jam malam
- - Menghemat waktu Anda saat membuat tempat dan acara ( <i>zona waktu Anda akan digunakan secara default</i> )
 
 Cara termudah untuk mengatur zona waktu Anda adalah dengan mengirimkan lokasi Anda.
 Tetapi Anda juga dapat memilih dari daftar yang disediakan.`,
@@ -19271,7 +19266,6 @@ Tetapi Anda juga dapat memilih dari daftar yang disediakan.`,
 Ciò è necessario per:
  - Visualizzare correttamente gli orari (internamente utilizziamo l&#39;UTC)
  - Evitare di inviare notifiche durante le ore notturne
- - Risparmiare tempo durante la creazione di luoghi ed eventi ( <i>per impostazione predefinita verrà utilizzato il tuo fuso orario</i> )
 
 Il modo più semplice per impostare il fuso orario è inviare la tua posizione.
 Ma puoi anche scegliere dall&#39;elenco fornito.`,
@@ -19279,7 +19273,6 @@ Ma puoi anche scegliere dall&#39;elenco fornito.`,
 これは次の目的で必要です:
  - 時刻を正しく表示する (内部では UTC を使用します)
  - 夜間に通知が送信されないようにする
- - スポットやイベントを作成する際の時間を節約する (<i>デフォルトではタイムゾーンが使用されます</i>)
 
 タイムゾーンを設定する最も簡単な方法は、現在地を送信することです。
 ただし、提供されているリストから選択することもできます。`,
@@ -19287,7 +19280,6 @@ Ma puoi anche scegliere dall&#39;elenco fornito.`,
 이것은 다음을 위해 필요합니다.
  - 시간을 올바르게 표시하기 위해(내부적으로 UTC를 사용합니다)
  - 야간 시간에 알림을 보내는 것을 방지하기 위해
- - 장소와 이벤트를 만들 때 시간을 절약하기 위해( <i>기본적으로 사용자의 시간대가 사용됩니다</i> )
 
 시간대를 설정하는 가장 쉬운 방법은 위치를 보내는 것입니다.
 하지만 제공된 목록에서 선택할 수도 있습니다.`,
@@ -19295,7 +19287,6 @@ Ma puoi anche scegliere dall&#39;elenco fornito.`,
 Jest to potrzebne, aby:
  - poprawnie wyświetlać czas (wewnętrznie używamy strefy UTC)
  - uniknąć wysyłania powiadomień w godzinach nocnych
- - zaoszczędzić czas podczas tworzenia miejsc i wydarzeń ( <i>domyślnie będzie używana Twoja strefa czasowa</i> )
 
 Najprostszym sposobem ustawienia strefy czasowej jest wysłanie swojej lokalizacji.
 Możesz jednak również wybrać z podanej listy.`,
@@ -19303,7 +19294,6 @@ Możesz jednak również wybrać z podanej listy.`,
 Isso é necessário para:
  - Exibir os horários corretamente (usamos UTC internamente)
  - Evitar o envio de notificações durante a noite
- - Economizar seu tempo ao criar locais e eventos ( <i>seu fuso horário será usado por padrão</i> )
 
 A maneira mais fácil de definir seu fuso horário é enviar sua localização.
 Mas você também pode escolher na lista fornecida.`,
@@ -19311,7 +19301,6 @@ Mas você também pode escolher na lista fornecida.`,
 Isto é necessário para:
  - Exibir os horários correctamente (utilizamos UTC internamente)
  - Evitar o envio de notificações durante a noite
- - Poupar o seu tempo ao criar locais e eventos ( <i>o seu fuso horário será utilizado por defeito</i> )
 
 A forma mais fácil de definir o seu fuso horário é enviar a sua localização.
 Mas também pode escolher a partir da lista fornecida.`,
@@ -19319,37 +19308,35 @@ Mas também pode escolher a partir da lista fornecida.`,
 Это необходимо чтобы:
 - Правильно отоброжать время (<i>мы храним врямя как UTC</i>) 
 - Избежать отравки оповещений когда у вас ночь
-- Ускороить создание событий и места их проведения (<i>вашу временная зона будет исользвоана по умолчанию</i>.)`,
+
+Проще всего это сделать отправив ваше местоположение в чат.
+Но вы также же можете временную зону из списка.`,
 		trTR: `
 Bu şunlar için gereklidir:
  - Saatleri doğru şekilde görüntülemek (dahili olarak UTC kullanırız)
  - Gece saatlerinde bildirim göndermekten kaçınmak
- - Noktalar ve etkinlikler oluştururken zamandan tasarruf etmek ( <i>varsayılan olarak saat diliminiz kullanılacaktır</i> )
-
+ 
 Saat diliminizi ayarlamanın en kolay yolu konumunuzu göndermektir.
 Ancak sağlanan listeden de seçim yapabilirsiniz.`,
 		ukUA: `
 Це потрібно для:
  - Правильного відображення часу (ми використовуємо UTC для внутрішнього використання)
  - Уникнення надсилання сповіщень у нічний час
- - Економії вашого часу під час створення місць та подій ( <i>ваш часовий пояс буде використано за замовчуванням</i> )
-
+ 
 Найпростіший спосіб встановити часовий пояс – це надіслати своє місцезнаходження.
 Але ви також можете вибрати зі списку.`,
 		uzUZ: `
 Bu quyidagilar uchun zarur:
  - Vaqtni toʻgʻri koʻrsatish (biz ichki UTCdan foydalanamiz)
  - Tungi soatlarda bildirishnomalar yubormaslik
- - Joylar va tadbirlar yaratishda vaqtingizni tejang ( <i>soat mintaqangiz sukut boʻyicha ishlatiladi</i> )
-
+ 
 Soat mintaqangizni belgilashning eng oson yoʻli joylashuvingizni yuborishdir.
 Ammo taqdim etilgan roʻyxatdan ham tanlashingiz mumkin.`,
 		zhCN: `
 这需要：
  - 正确显示时间（我们内部使用 UTC）
  - 避免在夜间发送通知
- - 在创建地点和事件时节省您的时间（<i>默认使用您的时区</i>）
-
+ 
 设置时区最简单的方法是发送您的位置。
 但您也可以从提供的列表中进行选择。`},
 	HintToSendLocationForTimezoneDetection: {

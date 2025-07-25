@@ -166,9 +166,6 @@ const (
 )
 
 const (
-	BeforeStartChooseTimezoneTitle = "BeforeStartChooseTimezoneTitle"
-	BeforeStartChooseTimezoneText  = "BeforeStartChooseTimezoneText"
-
 	HintToSendLocationForTimezoneDetection = "HintToSendLocationForTimezoneDetection"
 	YourTimezoneIsSetTo                    = "YourTimezoneIsSetTo"
 	SendLocationForTimezoneDetection       = "SendLocationForTimezoneDetection"
