@@ -2541,6 +2541,10 @@ Oxirgi 100 ta yangi foydalanuvchi uchun eng yaxshi 5 ta tavsiya qiluvchi bu yerd
 		uzUZ: "↩ Bekor qilish",
 		zhCN: "↩ 取消",
 	},
+	ButtonTextFinish: {
+		enUK: "✖️Finish",
+		ruRU: "✖️Завершить",
+	},
 	BUTTON_TEXT_MAIN_MENU: {
 		arEG: "↩ القائمة الرئيسية",
 		deDE: "↩ Hauptmenü",
@@ -14437,7 +14441,7 @@ Aks holda ularni Sneat.app ilovasida qoʻlda qoʻshishingiz mumkin.`,
 		uzUZ: "Yangi tadbiringizning sarlavhasini kiriting:",
 		zhCN: "输入您的新事件标题:",
 	},
-	TodayButtonText: {
+	TodayWithDate: {
 		arEG: "🕒 اليوم — {DATE}",
 		deDE: "🕒 Heute — {DATE}",
 		enUK: "🕒 Today — {DATE}",
@@ -14457,7 +14461,15 @@ Aks holda ularni Sneat.app ilovasida qoʻlda qoʻshishingiz mumkin.`,
 		uzUZ: "🕒 Bugun — {DATE}",
 		zhCN: "🕒 今天 — {DATE}",
 	},
-	TomorrowButtonText: {
+	TodayTextOnly: {
+		enUK: "Today",
+		ruRU: "Сегодня",
+	},
+	YesterdayTextOnly: {
+		enUK: "Yesterday",
+		ruRU: "Вчера",
+	},
+	TomorrowWithDate: {
 		arEG: "🌅 غدًا — {DATE}",
 		deDE: "🌅 Morgen — {DATE}",
 		enUK: "🌅 Tomorrow —  {DATE}",
@@ -20079,5 +20091,227 @@ Ammo taqdim etilgan roʻyxatdan ham tanlashingiz mumkin.`,
 		trTR: "<code>#%d</code> %s, <b>%s</b> <i>%s&#39;den</i> <i>%s&#39;ye</i> kadar - <u>%s</u>",
 		ukUA: "<code>#%d</code> %s, <b>%s</b> від <i>%s</i> до <i>%s</i> - <u>%s</u>",
 		uzUZ: "<code>#%d</code> %s, <b>%s</b> <i>%s</i> dan <i>%s</i> gacha - <u>%s</u>",
-		zhCN: "<code>#%d</code> %s, <b>%s</b>从<i>%s</i>到<i>%s</i> - <u>%s</u>"},
+		zhCN: "<code>#%d</code> %s, <b>%s</b>从<i>%s</i>到<i>%s</i> - <u>%s</u>",
+	},
+	RosycTagline: {
+		enUK: "period tracking that just works",
+		ruRU: "твой нежный помощник в каждый день цикла",
+	},
+	RosycYourCurrentCycleStartedToday: {
+		enUK: `According to records <b>your current cycle started today</b>.
+
+<i>If it's not correct add flow records for previous day(s)</i>.`,
+		ruRU: `Ващи записи указывают что ваш <b>текущий цикл начался сегодня</b>.
+
+<i>Если это не корректно добавьте данные за предыдущие дни.</i>.`,
+	},
+	RosycYourCurrentCycleStartedNDaysAgo: {
+		enUK: "Your current cycle started %d days ago on %s.",
+		ruRU: "Ваш текущий цикл начался %d дней назад %s.",
+	},
+	RosycShareButtonText: {
+		enUK: "Share",
+		ruRU: "Поделиться",
+	},
+	RosycStatistics: {
+		enUK: "Statistics",
+		ruRU: "Статистика",
+	},
+	RosycMakeRecordButtonText: {
+		enUK: "Make record",
+		ruRU: "Сделать запись",
+	},
+	RosycRecordsButtonText: {
+		enUK: "Record",
+		ruRU: "Записи",
+	},
+	RosycMakingNewRecordTitle: {
+		enUK: "Let's record",
+		ruRU: "Давайте запишем",
+	},
+	RosycMakingNewRecordText: {
+		enUK: `
+If you are recording for today simply choose a metric.
+
+Or you can click <b>Yesterday</b> or send a specific date in <code>YYYY-MM-DD</code> format,
+for example <code>%s</code> for a day before yesterday.`,
+		ruRU: `
+Если вы делаете запись на сегодняшний день просто выберите метрику.
+
+Или вы можете выбрать <b>Вчера</b> или отправить сообщение с опредлённой датой в <code>YYYY-MM-DD</code> формате
+к примеру <code>%s</code> для позавчера.`,
+	},
+	RosycFlowButtonText: {
+		enUK: "Flow",
+		ruRU: "Выделения",
+	},
+	RosycMoodButtonText: {
+		enUK: "Mood",
+		ruRU: "Настроение",
+	},
+	RosycHeadacheButtonText: {
+		enUK: "Headache",
+		ruRU: "Головная боль",
+	},
+	RosycCrampsButtonText: {
+		enUK: "Cramps",
+		ruRU: "Боль",
+	},
+	RosycHowWasYourDay: {
+		enUK: "How was your day on %s?",
+		ruRU: "Каким был ваш день %s?",
+	},
+	RosycHowWasYourDayToday: {
+		enUK: "How was your day today?",
+		ruRU: "Каким был ваш день сегодня?",
+	},
+	RosycHowWasYourDayYesterday: {
+		enUK: "How was your day yesterday?",
+		ruRU: "Каким был ваш день вчера?",
+	},
+	RosycPleaseSelectMetricToRecord: {
+		enUK: "Please select a metric to record.",
+		ruRU: "Выберите метрку для записи.",
+	},
+	RosycHaveYouHadAnyBleedingToday: {
+		enUK: "Have you had any bleeding today?",
+		ruRU: "Были ли у вас сегодня выделения?",
+	},
+	RosycHaveYouHadAnyBleedingYesterday: {
+		enUK: "Have you had any bleeding yesterday?",
+		ruRU: "Были ли у вас вчера выделения?",
+	},
+	RosycHaveYouHadAnyBleedingOnDate: {
+		enUK: "Have you had any bleeding on %s?",
+		ruRU: "Были ли у вас выделения %s?",
+	},
+	RosycFlowIntensityLabel: {
+		enUK: "Flow intensity",
+		ruRU: "Интенсивность выделений",
+	},
+	RosycFlowIntensityNone: {
+		enUK: "No bleeding",
+		ruRU: "Без кровотечений",
+	},
+	RosycFlowIntensitySpotting: {
+		enUK: "Spotting",
+		ruRU: "Мажущие выделения",
+	},
+	RosycFlowIntensityLight: {
+		enUK: "Light",
+		ruRU: "Слабые",
+	},
+	RosycFlowIntensityModerate: {
+		enUK: "Moderate",
+		ruRU: "Средние",
+	},
+	RosycFlowIntensityStrong: {
+		enUK: "Strong",
+		ruRU: "Сильные",
+	},
+	RosycFlowIntensitySevere: {
+		enUK: "Severe",
+		ruRU: "Очень сильные",
+	},
+	RecentRecordsTitle: {
+		enUK: "Recent Records",
+		ruRU: "Недавние записи",
+	},
+	NoRecordsText: {
+		enUK: "No records.",
+		ruRU: "Нет записей.",
+	},
+
+	RosycCrampsIntensityLabel: {
+		enUK: "Cramps",
+		ruRU: "Менструальная боль",
+	},
+	RosycCrampsIntensityNone: {
+		enUK: "No cramps",
+		ruRU: "Без боли",
+	},
+	RosycCrampsIntensityLight: {
+		enUK: "Light",
+		ruRU: "Слабая",
+	},
+	RosycCrampsIntensityModerate: {
+		enUK: "Moderate",
+		ruRU: "Средняя",
+	},
+	RosycCrampsIntensityStrong: {
+		enUK: "Strong",
+		ruRU: "Сильная",
+	},
+	RosycCrampsIntensitySevere: {
+		enUK: "Severe",
+		ruRU: "Очень сильная",
+	},
+	RosycHeadacheIntensityLabel: {
+		enUK: "Headache",
+		ruRU: "Головная боль",
+	},
+	RosycHeadacheIntensityNone: {
+		enUK: "No Headache",
+		ruRU: "Без боли",
+	},
+	RosycHeadacheIntensityLight: {
+		enUK: "Light",
+		ruRU: "Слабая",
+	},
+	RosycHeadacheIntensityModerate: {
+		enUK: "Moderate",
+		ruRU: "Средняя",
+	},
+	RosycHeadacheIntensityStrong: {
+		enUK: "Strong",
+		ruRU: "Сильная",
+	},
+	RosycHeadacheIntensitySevere: {
+		enUK: "Severe",
+		ruRU: "Очень сильная",
+	},
+	RosycShareCommandTitle: {
+		enUK: "You can share your data with your partner",
+		ruRU: "Вы можете поделиться вашими данными с вашим партнёром",
+	},
+	SendInviteToTelegramUser: {
+		enUK: "Send invite to Telegram user",
+		ruRU: "Отправить приглашение через Telegram",
+	},
+	RosycMyCycles: {
+		enUK: "My Cycles",
+		ruRU: "Мои циклы",
+	},
+	RosycGraphButtonText: {
+		enUK: "Graph",
+		ruRU: "График",
+	},
+	RosycHistoryButtonText: {
+		enUK: "History",
+		ruRU: "История",
+	},
+	RosycMyCyclesTitle: {
+		enUK: "My Cycles Summary",
+		ruRU: "Обзор моих циклов",
+	},
+	RosycCyclesHistoryTitle: {
+		enUK: "My Cycles History",
+		ruRU: "История моих циклов",
+	},
+	RosycCyclesGraphTitle: {
+		enUK: "My Cycles Graph",
+		ruRU: "График моих циклов",
+	},
+	RosycShowHistoryButtonText: {
+		enUK: "Show history",
+		ruRU: "Показать Историю",
+	},
+	RosycShowGraphButtonText: {
+		enUK: "Show Graph",
+		ruRU: "Показать График",
+	},
+	RosycCyclesSummaryButtonText: {
+		enUK: "Cycles Summary",
+		ruRU: "Обзор Циклов",
+	},
 }

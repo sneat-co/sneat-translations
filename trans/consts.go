@@ -454,7 +454,6 @@ const (
 
 	MAIN_MENU = "MAIN_MENU"
 
-	ButtonTextCancel                       = "ButtonTextCancel"
 	BUTTON_TEXT_MAIN_MENU                  = "BUTTON_TEXT_MAIN_MENU"
 	COMMAND_TEXT_CANCEL                    = "COMMAND_TEXT_CANCEL"
 	COMMAND_TEXT_ADD_YOUR_OWN_OPTION       = "COMMAND_TEXT_ADD_YOUR_OWN_OPTION"

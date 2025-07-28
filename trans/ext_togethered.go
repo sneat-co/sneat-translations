@@ -121,9 +121,6 @@ const (
 
 	TogdIntentPublished = "TogdIntentPublished"
 
-	TodayButtonText    = "TodayButtonText"
-	TomorrowButtonText = "TomorrowButtonText"
-
 	NumberOfFollowers = "NumberOfFollowers"
 	NumberOfFavorites = "NumberOfFavorites"
 
