@@ -4,8 +4,8 @@ go 1.24.1
 
 require (
 	cloud.google.com/go/translate v1.12.6
-	github.com/sneat-co/sneat-translations v0.7.75
-	golang.org/x/text v0.28.0
+	github.com/sneat-co/sneat-translations v0.7.76
+	golang.org/x/text v0.29.0
 )
 
 replace github.com/sneat-co/sneat-translations => ..
