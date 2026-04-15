@@ -3,7 +3,7 @@ module github.com/github.com/sneat-co/sneat-translations/translator
 go 1.26
 
 require (
-	cloud.google.com/go/translate v1.14.0
+	cloud.google.com/go/translate v1.15.0
 	github.com/sneat-co/sneat-translations v0.7.92
 	golang.org/x/text v0.36.0
 )
@@ -25,9 +25,9 @@ require (
 	github.com/googleapis/gax-go/v2 v2.21.0 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.61.0 // indirect
-	go.opentelemetry.io/otel v1.42.0 // indirect
-	go.opentelemetry.io/otel/metric v1.42.0 // indirect
-	go.opentelemetry.io/otel/trace v1.42.0 // indirect
+	go.opentelemetry.io/otel v1.43.0 // indirect
+	go.opentelemetry.io/otel/metric v1.43.0 // indirect
+	go.opentelemetry.io/otel/trace v1.43.0 // indirect
 	golang.org/x/crypto v0.49.0 // indirect
 	golang.org/x/net v0.52.0 // indirect
 	golang.org/x/oauth2 v0.36.0 // indirect
