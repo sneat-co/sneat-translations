@@ -3,9 +3,9 @@ module github.com/github.com/sneat-co/sneat-translations/translator
 go 1.26
 
 require (
-	cloud.google.com/go/translate v1.16.0
+	cloud.google.com/go/translate v1.17.0
 	github.com/sneat-co/sneat-translations v0.7.92
-	golang.org/x/text v0.36.0
+	golang.org/x/text v0.37.0
 )
 
 replace github.com/sneat-co/sneat-translations => ..
