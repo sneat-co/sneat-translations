@@ -13,4 +13,11 @@ const (
 
 	FamilyList  = "Family list"
 	PrivateList = "Private list"
+
+	// Movie watch-list bot flow ("/watch" & "/find" commands)
+
+	FindMovieAskForDescription = "FindMovieAskForDescription"
+	FindMovieCandidatesFound   = "FindMovieCandidatesFound"
+	FindMovieNoMatches         = "FindMovieNoMatches"
+	MovieAddedToWatchlist      = "MovieAddedToWatchlist"
 )
