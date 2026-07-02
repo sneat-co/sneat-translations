@@ -11,4 +11,5 @@ const (
 	AdvertisingCommandDescription = "AdvertisingCommandDescription"
 	SupportUsCommandDescription   = "SupportUsCommandDescription"
 	MembershipCommandDescription  = "MembershipCommandDescription"
+	WatchCommandDescription       = "WatchCommandDescription"
 )
