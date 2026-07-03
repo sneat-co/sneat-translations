@@ -20542,4 +20542,222 @@ for example <code>%s</code> for a day before yesterday.`,
 		ukUA: "не прийде",
 		uzUZ: "kelmaydi",
 		zhCN: "不参加"},
+	InvitusSpaceInviteEmailSubject: {
+		arEG: "لقد دعاك %s للانضمام إلى %s",
+		deDE: "%s lädt dich ein, %s beizutreten",
+		enUK: "You are invited by %s to join %s",
+		esES: "%s te invita a unirte a %s",
+		faIR: "%s شما را برای پیوستن به %s دعوت کرده است",
+		frFR: "%s vous invite à rejoindre %s",
+		idID: "%s mengundang Anda untuk bergabung dengan %s",
+		itIT: "%s ti invita a unirti a %s",
+		jaJP: "%s さんがあなたを %s への参加に招待しています",
+		koKR: "%s님이 %s에 참여하도록 초대했습니다",
+		plPL: "%s zaprasza Cię do dołączenia do %s",
+		ptBR: "%s convida você para participar de %s",
+		ptPT: "%s convida-o a juntar-se a %s",
+		ruRU: "%s приглашает вас присоединиться к %s",
+		trTR: "%s sizi %s alanına katılmaya davet ediyor",
+		ukUA: "%s запрошує вас приєднатися до %s",
+		uzUZ: "%s sizni %s ga qoʻshilishga taklif qilmoqda",
+		zhCN: "%s 邀请您加入 %s"},
+	InvitusSpaceInviteEmailHtml: {
+		arEG: `<p>دعوة من: <i>{{.FromHTML}}</i></p>
+
+<p>للانضمام إلى <b>{{.SpaceTitle}}</b> يرجى اتباع الرابط:</p>
+
+<p>https://{{.HostPath}}/join/{{.SpaceType}}?id={{.ID}}#pin={{.PinCode}}</p>
+
+<p>رمز PIN الشخصي الخاص بك للانضمام إلى المساحة هو: <b><code>{{.PinCode}}</code></b></p>
+
+<p>https://sneat.app/ - تطبيق عائلي يوفر لك الوقت والمال.</p>
+
+<p>ملاحظة: إذا واجهت أي مشكلة، لا تتردد في التواصل عبر <a href="mailto:help@sneat.app">help@sneat.app</a></p>`,
+		deDE: `<p>Einladung von: <i>{{.FromHTML}}</i></p>
+
+<p>Um <b>{{.SpaceTitle}}</b> beizutreten, folge bitte dem Link:</p>
+
+<p>https://{{.HostPath}}/join/{{.SpaceType}}?id={{.ID}}#pin={{.PinCode}}</p>
+
+<p>Dein persönlicher PIN-Code zum Beitreten ist: <b><code>{{.PinCode}}</code></b></p>
+
+<p>https://sneat.app/ - Eine Familien-App, die dir Zeit und Geld spart.</p>
+
+<p>P.S. Bei Problemen wende dich gerne an <a href="mailto:help@sneat.app">help@sneat.app</a></p>`,
+		enUK: `<p>Invite from: <i>{{.FromHTML}}</i></p>
+
+<p>To join <b>{{.SpaceTitle}}</b> please follow the link:</p>
+
+<p>https://{{.HostPath}}/join/{{.SpaceType}}?id={{.ID}}#pin={{.PinCode}}</p>
+
+<p>Your personal PIN code to join the space is: <b><code>{{.PinCode}}</code></b></p>
+
+<p>https://sneat.app/ - A family app that saves you time & money.</p>
+
+<p>P.S. If any issues feel free to get <a href="mailto:help@sneat.app">help@sneat.app</a></p>`,
+		esES: `<p>Invitación de: <i>{{.FromHTML}}</i></p>
+
+<p>Para unirte a <b>{{.SpaceTitle}}</b> sigue el enlace:</p>
+
+<p>https://{{.HostPath}}/join/{{.SpaceType}}?id={{.ID}}#pin={{.PinCode}}</p>
+
+<p>Tu código PIN personal para unirte al espacio es: <b><code>{{.PinCode}}</code></b></p>
+
+<p>https://sneat.app/ - Una app familiar que te ahorra tiempo y dinero.</p>
+
+<p>P.D. Si tienes algún problema, no dudes en escribir a <a href="mailto:help@sneat.app">help@sneat.app</a></p>`,
+		faIR: `<p>دعوت از طرف: <i>{{.FromHTML}}</i></p>
+
+<p>برای پیوستن به <b>{{.SpaceTitle}}</b> لطفاً روی لینک زیر کلیک کنید:</p>
+
+<p>https://{{.HostPath}}/join/{{.SpaceType}}?id={{.ID}}#pin={{.PinCode}}</p>
+
+<p>کد پین شخصی شما برای پیوستن به فضا این است: <b><code>{{.PinCode}}</code></b></p>
+
+<p>https://sneat.app/ - یک اپلیکیشن خانوادگی که در وقت و هزینه شما صرفه‌جویی می‌کند.</p>
+
+<p>پ.ن. در صورت بروز هر مشکلی با <a href="mailto:help@sneat.app">help@sneat.app</a> در تماس باشید</p>`,
+		frFR: `<p>Invitation de : <i>{{.FromHTML}}</i></p>
+
+<p>Pour rejoindre <b>{{.SpaceTitle}}</b>, veuillez suivre le lien :</p>
+
+<p>https://{{.HostPath}}/join/{{.SpaceType}}?id={{.ID}}#pin={{.PinCode}}</p>
+
+<p>Votre code PIN personnel pour rejoindre l'espace est : <b><code>{{.PinCode}}</code></b></p>
+
+<p>https://sneat.app/ - Une application familiale qui vous fait gagner du temps et de l'argent.</p>
+
+<p>P.S. En cas de problème, n'hésitez pas à contacter <a href="mailto:help@sneat.app">help@sneat.app</a></p>`,
+		idID: `<p>Undangan dari: <i>{{.FromHTML}}</i></p>
+
+<p>Untuk bergabung dengan <b>{{.SpaceTitle}}</b>, silakan ikuti tautan berikut:</p>
+
+<p>https://{{.HostPath}}/join/{{.SpaceType}}?id={{.ID}}#pin={{.PinCode}}</p>
+
+<p>Kode PIN pribadi Anda untuk bergabung ke ruang ini adalah: <b><code>{{.PinCode}}</code></b></p>
+
+<p>https://sneat.app/ - Aplikasi keluarga yang menghemat waktu & uang Anda.</p>
+
+<p>P.S. Jika ada masalah, silakan hubungi <a href="mailto:help@sneat.app">help@sneat.app</a></p>`,
+		itIT: `<p>Invito da: <i>{{.FromHTML}}</i></p>
+
+<p>Per unirti a <b>{{.SpaceTitle}}</b> segui il link:</p>
+
+<p>https://{{.HostPath}}/join/{{.SpaceType}}?id={{.ID}}#pin={{.PinCode}}</p>
+
+<p>Il tuo codice PIN personale per unirti allo spazio è: <b><code>{{.PinCode}}</code></b></p>
+
+<p>https://sneat.app/ - Un'app per la famiglia che ti fa risparmiare tempo e denaro.</p>
+
+<p>P.S. In caso di problemi, contatta pure <a href="mailto:help@sneat.app">help@sneat.app</a></p>`,
+		jaJP: `<p>招待者: <i>{{.FromHTML}}</i></p>
+
+<p><b>{{.SpaceTitle}}</b> に参加するには、次のリンクを開いてください:</p>
+
+<p>https://{{.HostPath}}/join/{{.SpaceType}}?id={{.ID}}#pin={{.PinCode}}</p>
+
+<p>スペースに参加するためのあなたの個人PINコードは次のとおりです: <b><code>{{.PinCode}}</code></b></p>
+
+<p>https://sneat.app/ - 時間とお金を節約できる家族向けアプリです。</p>
+
+<p>追伸: ご不明な点があれば <a href="mailto:help@sneat.app">help@sneat.app</a> までお気軽にご連絡ください</p>`,
+		koKR: `<p>초대한 사람: <i>{{.FromHTML}}</i></p>
+
+<p><b>{{.SpaceTitle}}</b>에 참여하려면 다음 링크를 따라가세요:</p>
+
+<p>https://{{.HostPath}}/join/{{.SpaceType}}?id={{.ID}}#pin={{.PinCode}}</p>
+
+<p>공간에 참여하기 위한 개인 PIN 코드는 다음과 같습니다: <b><code>{{.PinCode}}</code></b></p>
+
+<p>https://sneat.app/ - 시간과 비용을 절약해 주는 가족 앱입니다.</p>
+
+<p>추신: 문제가 있으면 <a href="mailto:help@sneat.app">help@sneat.app</a>로 편하게 문의하세요</p>`,
+		plPL: `<p>Zaproszenie od: <i>{{.FromHTML}}</i></p>
+
+<p>Aby dołączyć do <b>{{.SpaceTitle}}</b>, kliknij w link:</p>
+
+<p>https://{{.HostPath}}/join/{{.SpaceType}}?id={{.ID}}#pin={{.PinCode}}</p>
+
+<p>Twój osobisty kod PIN do dołączenia do przestrzeni to: <b><code>{{.PinCode}}</code></b></p>
+
+<p>https://sneat.app/ - Aplikacja rodzinna, która oszczędza Twój czas i pieniądze.</p>
+
+<p>PS Jeśli masz jakiekolwiek problemy, napisz na <a href="mailto:help@sneat.app">help@sneat.app</a></p>`,
+		ptBR: `<p>Convite de: <i>{{.FromHTML}}</i></p>
+
+<p>Para participar de <b>{{.SpaceTitle}}</b>, siga o link:</p>
+
+<p>https://{{.HostPath}}/join/{{.SpaceType}}?id={{.ID}}#pin={{.PinCode}}</p>
+
+<p>Seu código PIN pessoal para entrar no espaço é: <b><code>{{.PinCode}}</code></b></p>
+
+<p>https://sneat.app/ - Um app para a família que economiza seu tempo e dinheiro.</p>
+
+<p>P.S. Se tiver algum problema, fale com <a href="mailto:help@sneat.app">help@sneat.app</a></p>`,
+		ptPT: `<p>Convite de: <i>{{.FromHTML}}</i></p>
+
+<p>Para se juntar a <b>{{.SpaceTitle}}</b>, siga o link:</p>
+
+<p>https://{{.HostPath}}/join/{{.SpaceType}}?id={{.ID}}#pin={{.PinCode}}</p>
+
+<p>O seu código PIN pessoal para entrar no espaço é: <b><code>{{.PinCode}}</code></b></p>
+
+<p>https://sneat.app/ - Uma aplicação para a família que lhe poupa tempo e dinheiro.</p>
+
+<p>P.S. Em caso de problemas, contacte <a href="mailto:help@sneat.app">help@sneat.app</a></p>`,
+		ruRU: `<p>Приглашение от: <i>{{.FromHTML}}</i></p>
+
+<p>Чтобы присоединиться к <b>{{.SpaceTitle}}</b>, перейдите по ссылке:</p>
+
+<p>https://{{.HostPath}}/join/{{.SpaceType}}?id={{.ID}}#pin={{.PinCode}}</p>
+
+<p>Ваш персональный PIN-код для присоединения к пространству: <b><code>{{.PinCode}}</code></b></p>
+
+<p>https://sneat.app/ - Семейное приложение, которое экономит ваше время и деньги.</p>
+
+<p>P.S. Если возникнут вопросы, напишите на <a href="mailto:help@sneat.app">help@sneat.app</a></p>`,
+		trTR: `<p>Davet eden: <i>{{.FromHTML}}</i></p>
+
+<p><b>{{.SpaceTitle}}</b> alanına katılmak için bağlantıyı takip edin:</p>
+
+<p>https://{{.HostPath}}/join/{{.SpaceType}}?id={{.ID}}#pin={{.PinCode}}</p>
+
+<p>Alana katılmak için kişisel PIN kodunuz: <b><code>{{.PinCode}}</code></b></p>
+
+<p>https://sneat.app/ - Size zaman ve para kazandıran bir aile uygulaması.</p>
+
+<p>Not: Herhangi bir sorun olursa <a href="mailto:help@sneat.app">help@sneat.app</a> ile iletişime geçebilirsiniz</p>`,
+		ukUA: `<p>Запрошення від: <i>{{.FromHTML}}</i></p>
+
+<p>Щоб приєднатися до <b>{{.SpaceTitle}}</b>, перейдіть за посиланням:</p>
+
+<p>https://{{.HostPath}}/join/{{.SpaceType}}?id={{.ID}}#pin={{.PinCode}}</p>
+
+<p>Ваш особистий PIN-код для приєднання до простору: <b><code>{{.PinCode}}</code></b></p>
+
+<p>https://sneat.app/ - Сімейний застосунок, який заощаджує ваш час і гроші.</p>
+
+<p>P.S. Якщо виникнуть питання, пишіть на <a href="mailto:help@sneat.app">help@sneat.app</a></p>`,
+		uzUZ: `<p>Taklif qildi: <i>{{.FromHTML}}</i></p>
+
+<p><b>{{.SpaceTitle}}</b> ga qoʻshilish uchun quyidagi havolaga oʻting:</p>
+
+<p>https://{{.HostPath}}/join/{{.SpaceType}}?id={{.ID}}#pin={{.PinCode}}</p>
+
+<p>Fazoga qoʻshilish uchun shaxsiy PIN kodingiz: <b><code>{{.PinCode}}</code></b></p>
+
+<p>https://sneat.app/ - Vaqtingiz va pulingizni tejaydigan oilaviy ilova.</p>
+
+<p>P.S. Muammo boʻlsa, <a href="mailto:help@sneat.app">help@sneat.app</a> ga murojaat qiling</p>`,
+		zhCN: `<p>邀请人：<i>{{.FromHTML}}</i></p>
+
+<p>要加入 <b>{{.SpaceTitle}}</b>，请点击以下链接：</p>
+
+<p>https://{{.HostPath}}/join/{{.SpaceType}}?id={{.ID}}#pin={{.PinCode}}</p>
+
+<p>您加入该空间的个人 PIN 码是：<b><code>{{.PinCode}}</code></b></p>
+
+<p>https://sneat.app/ - 一款为您节省时间和金钱的家庭应用。</p>
+
+<p>附言：如有任何问题，请随时联系 <a href="mailto:help@sneat.app">help@sneat.app</a></p>`},
 }
