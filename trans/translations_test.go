@@ -112,3 +112,11 @@ func TestHtmlTags(t *testing.T) {
 		}
 	}
 }
+
+func TestUnknownCommandFallbackPointsToMain(t *testing.T) {
+	for locale, text := range TRANS["MessageTextBotDidNotUnderstandTheCommand"] {
+		if !strings.Contains(text, "/main") {
+			t.Errorf("%s fallback does not point to /main: %q", locale, text)
+		}
+	}
+}
