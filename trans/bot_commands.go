@@ -13,4 +13,6 @@ const (
 	MembershipCommandDescription  = "MembershipCommandDescription"
 	WatchCommandDescription       = "WatchCommandDescription"
 	FindCommandDescription        = "FindCommandDescription"
+	GamesCommandDescription       = "GamesCommandDescription"
+	PreferansCommandDescription   = "PreferansCommandDescription"
 )

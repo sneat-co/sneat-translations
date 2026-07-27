@@ -17428,6 +17428,12 @@ Biz imkon qadar shaffof va ishonchli boʻlishni maqsad qilganmiz.`,
 		ukUA: "Додати фільм до списку «Подивитися»",
 		uzUZ: "Filmni tomosha roʻyxatiga qoʻshish",
 		zhCN: "将电影添加到观看列表"},
+	PreferansCommandDescription: {
+		enUK: "🃏 Play Preferans",
+		ruRU: "🃏 Играть в преферанс"},
+	GamesCommandDescription: {
+		enUK: "🎮 Play a game",
+		ruRU: "🎮 Выбрать игру"},
 	FindCommandDescription: {
 		arEG: "ابحث عن فيلم من خلال وصفه",
 		deDE: "Finde einen Film, indem du ihn beschreibst",
