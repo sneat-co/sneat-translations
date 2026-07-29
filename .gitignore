@@ -25,3 +25,6 @@ _testmain.go
 
 .idea/
 .DS_Store
+
+# Compiled translator binary (built locally, never committed)
+translator/translator
