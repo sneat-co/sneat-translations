@@ -1,6 +1,8 @@
 module github.com/github.com/sneat-co/sneat-translations/translator
 
-go 1.27.0
+go 1.26.0
+
+toolchain go1.27.0
 
 require (
 	cloud.google.com/go/translate v1.18.0
