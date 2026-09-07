@@ -3,4 +3,4 @@ module github.com/sneat-co/sneat-translations
 // https://github.com/sneat-co/sneat-translations/actions
 go 1.26.0
 
-toolchain go1.27.0
+toolchain go1.27.1
