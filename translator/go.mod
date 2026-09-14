@@ -7,7 +7,7 @@ toolchain go1.27.1
 require (
 	cloud.google.com/go/translate v1.18.0
 	github.com/sneat-co/sneat-translations v0.7.92
-	golang.org/x/text v0.41.0
+	golang.org/x/text v0.42.0
 )
 
 replace github.com/sneat-co/sneat-translations => ..
