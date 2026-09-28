@@ -5,7 +5,7 @@ go 1.26.0
 toolchain go1.27.1
 
 require (
-	cloud.google.com/go/translate v1.18.0
+	cloud.google.com/go/translate v1.19.0
 	github.com/sneat-co/sneat-translations v0.7.92
 	golang.org/x/text v0.42.0
 )
