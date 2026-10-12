@@ -2,12 +2,12 @@ module github.com/github.com/sneat-co/sneat-translations/translator
 
 go 1.26.0
 
-toolchain go1.27.1
+toolchain go1.27.2
 
 require (
 	cloud.google.com/go/translate v1.19.0
 	github.com/sneat-co/sneat-translations v0.7.92
-	golang.org/x/text v0.42.0
+	golang.org/x/text v0.43.0
 )
 
 replace github.com/sneat-co/sneat-translations => ..
