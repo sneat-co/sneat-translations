@@ -10,6 +10,7 @@ import (
 	"go/parser"
 	"go/token"
 	"golang.org/x/text/language"
+	"io"
 	"os"
 	"sort"
 	"strings"
@@ -34,8 +35,26 @@ func localeCodeToKey(s string) string {
 	return strings.Replace(s, "-", "", 1)
 }
 
+type fileWriter interface {
+	io.StringWriter
+	io.Closer
+}
+
+var (
+	useMockTranslator              = false
+	translationsFilePath           = "../trans/translations.go"
+	osStdout             io.Writer = os.Stdout
+	parseLanguage                  = language.Parse
+	formatNode                     = format.Node
+	createOutFile                  = func(name string) (fileWriter, error) {
+		return os.Create(name)
+	}
+)
+
 func translateLocale(sourceLang language.Tag, locale string, texts []string) (translatedTexts []string, err error) {
-	//translatedTexts = translateMock(texts)
+	if useMockTranslator {
+		return translateMock(texts), nil
+	}
 	translatedTexts, err = translateByGoogle(sourceLang, locale, texts)
 	return
 }
@@ -55,14 +74,12 @@ func translateByGoogle(sourceLang language.Tag, locale string, texts []string) (
 		var translated []string
 		translated, err = translateMulti(ctx, sourceLang, targetLanguage, batch)
 		if err != nil {
-			_, _ = fmt.Fprintf(os.Stdout, "%s: failed to translate one of the next %d:\n%s", locale, len(batch), strings.Join(texts, "\n\n"+strings.Repeat("=", 30)+"\n\n"))
+			_, _ = fmt.Fprintf(osStdout, "%s: failed to translate one of the next %d:\n%s", locale, len(batch), strings.Join(texts, "\n\n"+strings.Repeat("=", 30)+"\n\n"))
 			return err
 		}
 		batch = make([]string, 0, batchSize)
-		for _, translatedText := range translated {
-			translatedTexts = append(translatedTexts, translatedText)
-		}
-		_, _ = fmt.Fprintf(os.Stdout, "%s: translated %d out of %d ...\n", locale, len(translatedTexts), len(texts))
+		translatedTexts = append(translatedTexts, translated...)
+		_, _ = fmt.Fprintf(osStdout, "%s: translated %d out of %d ...\n", locale, len(translatedTexts), len(texts))
 		return err
 	}
 	for _, text := range texts {
@@ -121,10 +138,10 @@ func getKeyValue(kv *ast.KeyValueExpr) (key, value string) {
 func getTextToTranslate(baseLocale string, translations *ast.CompositeLit) (textToTranslate string, isQuoted bool) {
 	for _, elt := range translations.Elts {
 		if innerKV, ok := elt.(*ast.KeyValueExpr); ok {
-			key := getKey(innerKV)
+			key, val := getKeyValue(innerKV)
 			locale := localeKeyToCode(key)
 			if locale == baseLocale {
-				textToTranslate, _ = getValue(innerKV)
+				textToTranslate = val
 				isQuoted = strings.HasPrefix(innerKV.Value.(*ast.BasicLit).Value, `"`)
 				return
 			}
@@ -133,6 +150,7 @@ func getTextToTranslate(baseLocale string, translations *ast.CompositeLit) (text
 	return
 }
 
+//nolint:unused
 func getIsAlreadyPresent(translations *ast.CompositeLit, locale string) bool {
 	for _, innerElt := range translations.Elts {
 		if innerKV, ok := innerElt.(*ast.KeyValueExpr); ok {
@@ -179,9 +197,9 @@ func getBinaryExprValue(e *ast.BinaryExpr) string {
 
 func translateMissing(baseLocale string) error {
 	fileSet := token.NewFileSet()
-	node, err := parser.ParseFile(fileSet, "../trans/translations.go", nil, parser.ParseComments)
+	node, err := parser.ParseFile(fileSet, translationsFilePath, nil, parser.ParseComments)
 	if err != nil {
-		panic(err)
+		return err
 	}
 
 	// Create CommentMap
@@ -227,9 +245,15 @@ func translateMissing(baseLocale string) error {
 							tk[translationID] = textToTranslate
 						} else {
 							if valueExpr == nil {
+								var val ast.Expr
+								if isQuoted[translationID] {
+									val = &ast.BasicLit{Kind: token.STRING, Value: `"` + textToTranslate + `"`}
+								} else {
+									val = &ast.BasicLit{Kind: token.STRING, Value: "`" + textToTranslate + "`"}
+								}
 								innerMap.Elts = append(innerMap.Elts, &ast.KeyValueExpr{
 									Key:   &ast.Ident{Name: localeCodeToKey(supportedLocale)},
-									Value: valueExpr,
+									Value: val,
 								})
 							} else {
 								panic(fmt.Errorf("value of %s.%s is empty string", translationID, supportedLocale))
@@ -250,7 +274,7 @@ func translateMissing(baseLocale string) error {
 
 	translated := make(map[string]map[string]string)
 
-	sourceLang, err := language.Parse("en")
+	sourceLang, err := parseLanguage(localeKeyToCode(baseLocale))
 	if err != nil {
 		return err
 	}
@@ -380,11 +404,11 @@ func translateMissing(baseLocale string) error {
 	})
 
 	// Save result to file
-	outFile, err := os.Create("../trans/translations.go")
+	outFile, err := createOutFile(translationsFilePath)
 	if err != nil {
-		panic(err)
+		return err
 	}
-	defer func(outFile *os.File) {
+	defer func(outFile fileWriter) {
 		_ = outFile.Close()
 	}(outFile)
 
@@ -397,13 +421,13 @@ func translateMissing(baseLocale string) error {
 	//}
 	var buf bytes.Buffer
 
-	if err = format.Node(&buf, fileSet, node); err != nil {
-		panic(err)
+	if err = formatNode(&buf, fileSet, node); err != nil {
+		return err
 	}
 
 	s := strings.ReplaceAll(buf.String(), ", \n", ",\n")
 	if _, err = outFile.WriteString(s); err != nil {
-		panic(err)
+		return err
 	}
 
 	return nil

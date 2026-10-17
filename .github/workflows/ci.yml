@@ -21,3 +21,22 @@ jobs:
     with:
       code_coverage: true
       min_test_coverage_percent: 100
+
+  translator:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: translator
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: translator/go.mod
+          cache-dependency-path: translator/go.sum
+      - run: go vet ./...
+      - run: go test -count=1 -coverprofile=coverage.out ./...
+      - name: Enforce 100% coverage
+        run: |
+          coverage="$(go tool cover -func=coverage.out | awk '/^total:/ {gsub(/%/, "", $3); print $3}')"
+          awk -v coverage="$coverage" 'BEGIN { if (coverage + 0 < 100.0) { printf "coverage %.1f%% is below 100.0%% requirement\n", coverage; exit 1 } }'
+      - run: go build ./...
