@@ -8,7 +8,11 @@ import (
 	"regexp"
 	"strconv"
 	"strings"
+
+	"google.golang.org/api/option"
 )
+
+var newTranslateClient = translate.NewClient
 
 // translateText translates the given text into the specified targetLanguage. sourceLanguage
 // is optional. If empty, the API will attempt to detect the source language automatically.
@@ -17,12 +21,12 @@ import (
 //
 // Find a list of supported languages and codes here:
 // https://cloud.google.com/translate/docs/languages#nmt
-func translateMulti(ctx context.Context, sourceLanguage, targetLanguage language.Tag, textsToTranslate []string) (translatedTexts []string, err error) {
+func translateMulti(ctx context.Context, sourceLanguage, targetLanguage language.Tag, textsToTranslate []string, opts ...option.ClientOption) (translatedTexts []string, err error) {
 	reVarName := regexp.MustCompile(`{\w+}|{{\.\w+}}`)
 	reVarIndex := regexp.MustCompile(`{\d+}`)
 
 	var client *translate.Client
-	if client, err = translate.NewClient(ctx); err != nil {
+	if client, err = newTranslateClient(ctx, opts...); err != nil {
 		err = fmt.Errorf("translate.NewClient error: %w", err)
 		return
 	}
