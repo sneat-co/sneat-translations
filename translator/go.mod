@@ -8,7 +8,7 @@ require (
 	cloud.google.com/go/translate v1.20.1
 	github.com/sneat-co/sneat-translations v0.7.92
 	golang.org/x/text v0.44.0
-	google.golang.org/api v0.315.0
+	google.golang.org/api v0.316.0
 )
 
 replace github.com/sneat-co/sneat-translations => ..
